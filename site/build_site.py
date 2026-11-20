@@ -551,7 +551,18 @@ RECS = (f'<p class="muted">重点領域の記録 {len(INSCOPE)} 件（ほかに�
         + ''.join(f'<tr class="rsep"><td colspan="5">{ST_JA[k]} {len(g)} 件</td></tr>' + ''.join(_rr(f) for f in g) for k in ST_PEND for g in [[f for f in _pen if STATE(f) == k]] if g) + '</table>')
 TIERS = ''
 # 確かめたことの説明（何と何を照合したか）。数は verified.json から。説明つきの食い違いは、件数が想定と同じときだけ説明を出す
-STAGE_OF = lambda f: {'未照会': 0, '照会中': 1, '回答あり': 2, '期限までに回答なし': 2}.get(f['照会'], 1)
+STAGE_OF = lambda f: {'未照会': 0, '照会中': 1, '照会中・資料の改訂あり': 1, '回答あり': 2, '期限までに回答なし': 2, '期限までに回答なし・資料の改訂あり': 2}.get(f['照会'], 1)
+def revblock(f):
+    """資料の差し替え（publish/revisions.json）。判定はせず、検出日・資料・引用した箇所の前後・改訂前の写しを並べる（2026-11-20）。"""
+    R_ = f.get('改訂') or []
+    if not R_: return ''
+    it = ''.join(f'<li><b>{e(r["detected"])}</b> に差し替えを検出　<a href="{e(r["url"])}">資料</a>'
+                 + (f'　<a href="{e(r["wayback_before"])}">差し替え前の写し（Wayback Machine）</a>' if r.get('wayback_before') else '')
+                 + f'<br><span class="muted">{e(r["label"])}：引用した箇所は{"<b>変わった</b>" if r["quote_changed"] else "同じ"}</span>'
+                 + (f'<div class="qt"><span class="muted">前の版</span><br>{e(r["before"])}</div><div class="qt"><span class="muted">新しい版</span><br>{e(r["after"])}</div>' if r['quote_changed'] else '')
+                 + f'<br><span class="muted">SHA-256　前 <code>{e(r["sha256_old"][:16])}…</code>　後 <code>{e(r["sha256_new"][:16])}…</code></span></li>' for r in R_)
+    return ('<h2>資料の差し替え</h2><p class="muted">この記録の根拠の資料が、取得元で差し替えられたことを毎週の巡回で検出しました。差し替えの理由は判断しません。'
+            '前の版のハッシュは公開リポジトリと Zenodo の版に、前の版の写しは取得できた範囲で Wayback Machine に残しています。</p><ul>' + it + '</ul>')
 def _prerow(en=False):
     """範囲を絞る前に検証した統計の分を表の最後の行に出し、上の照合の数と表の合計を合わせる（2026-11-19、点検 M3）。"""
     vs = [VER[x] for x in VER if x in PRE]
@@ -720,7 +731,7 @@ for f in F:
 <dt>撤回の条件</dt><dd>{e(f['撤回の条件'])}</dd>
 <dt>照会先</dt><dd>{e(f['照会先'])}　<a href="../inquiries.html#{qslug(_fname(f['照会先']))}">照会文</a></dd><dt>照会の状態</dt><dd>{e(f['照会'])}</dd></dl></div>
 {CV.block(f['id'], 'ja')}
-<h2>回答</h2><p class="muted">照会中です（照会日 {SENT['date']}、回答の期限の目安 {SENT['deadline']}）。回答があれば、手を加えずに全文をここに載せ、論評は付けません。回答が記録の誤りを示した場合は、記録を訂正または撤回します。</p>
+{revblock(f)}<h2>回答</h2><p class="muted">照会中です（照会日 {SENT['date']}、回答の期限の目安 {SENT['deadline']}）。回答があれば、手を加えずに全文をここに載せ、論評は付けません。回答が記録の誤りを示した場合は、記録を訂正または撤回します。</p>
 {sens(f)}<h2>経過</h2><ul>{hist(f)[0]}</ul>""")
 # ---- 統計
 def _row(s):
@@ -746,7 +757,7 @@ assert not _stale, f'照会文の草案が記録の要旨と合わない（publi
 by = {}
 for f in F: by.setdefault(_bureau(f['照会先']), []).append(f['id'])
 st = ''.join(f'<tr><td>{e(k)}</td><td>{len(v)}</td><td>照会中</td><td>{SENT['deadline']}</td></tr>' for k, v in by.items())
-page('inquiries.html', '照会', f"""<h1>照会</h1><p class="muted">照会と同時に「照会中」として公開し、回答は全文を載せます（担当職員の氏名・個人の連絡先などは省きます）。照会から30日を目安に、回答の有無を記録に記します。</p>
+page('inquiries.html', '照会', f"""<h1>照会</h1><p class="muted">照会と同時に「照会中」として公開し、回答は全文を載せます（担当職員の氏名・個人の連絡先などは省きます）。照会から30日を目安に、回答の有無を記録に記します。照会の後に記録の根拠の資料が取得元で差し替えられ、引用した箇所が変わった場合は、照会の状態に「資料の改訂あり」と添え、前後の箇所と差し替え前の写しを記録のページに載せます（差し替えの理由は判断しません）。</p>
 <table><tr><th>照会先</th><th>項目</th><th>状態</th><th>期限</th></tr>{st}</table><h2>照会文（{SENT['date']} 送付）</h2>{iq}""")
 # ---- 方法・進め方
 import sys as _sys; _sys.path.insert(0, os.path.join(R, 'translate')); import tr as _tr
@@ -1016,7 +1027,7 @@ for s, n, o, path, p in STATS:
 # 照会（照会文は日本語だけ）
 st_en = ''.join(f'<tr><td>{inline(T(k, SRC_F, "inq"))}</td><td>{len(v)}</td><td>Inquiry pending</td><td>{SENT['deadline']}</td></tr>' for k, v in by.items())
 page_en('inquiries.html', 'Inquiries', f"""<h1>Inquiries</h1><p class="muted">Each inquiry is published as “inquiry pending” when it is sent, and responses are published in full, omitting only staff names, personal contact details and details that could identify third parties. Whether a reply was received is noted in the record about 30 days after the inquiry.</p>
-<table><tr><th>Addressee</th><th>Items</th><th>Status</th><th>Deadline</th></tr>{st_en}</table><h2>Inquiry letters (sent {SENT['date']})</h2><p>The inquiry letters are addressed to Japanese government bodies and are written in Japanese only. See the <a href="../inquiries.html" lang="ja" hreflang="ja">Japanese page</a>.</p>""")
+<table><tr><th>Addressee</th><th>Items</th><th>Status</th><th>Deadline</th></tr>{st_en}</table><h2>Inquiry letters (sent {SENT['date']})</h2><p>The inquiry letters are addressed to Japanese government bodies and are written in Japanese only. See the <a href="../inquiries.html" lang="ja" hreflang="ja">Japanese page</a>.</p><p>If, after an inquiry, a source behind a record is replaced at its origin and the quoted passage changes, the inquiry status is marked “source revised”, and the record page shows the passage before and after and a pre-revision copy (Wayback Machine) where available. We do not judge the reason for the revision.</p>""")
 GLO_EN = f'<h2 id="glossary">Glossary of English terms</h2><p>The English version is a translation; the Japanese is authoritative. The following renderings are fixed and used on every English page. Words that attribute intent (cover-up, manipulation, falsification, concealment and the like) are not used in English either. Translations of the names of statistics and agencies are in <code>translate/glossary.tsv</code>.</p>{glo_table(True)}'
 page_en('method.html', 'Methods', f'<div class="prose">{mdT(open(os.path.join(R, "METHODS.md")).read(), "METHODS.md")}{sb_table(True)}{audit_section(True)}{GLO_EN}</div>')
 page_en('process.html', 'Process', f'<div class="prose">{mdT(open(os.path.join(R, "PROCESS.md")).read(), "PROCESS.md")}</div>')

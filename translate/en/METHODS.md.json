@@ -400,6 +400,14 @@
    "src_commit": "bbdf9e3+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-20"
+  },
+  "c1a3a6d28475d7f3e9caa6cc572eb9b5dc51afb458b79b50b49abf4f10250dd1": {
+   "ja": "## 表示と照会の規則（v0.3 追加, 2026-11-16）\n- 意図を表す語（隠蔽・改ざん・操作・捏造など）を使わない。表示は「数値の不一致」「欠落」「説明のない改訂」に限る。\n- 個人名や個人が特定できる記述を書かない。対象は「法務総合研究所」「矯正局」などの組織と、文書に限る。\n- 照会の日付、照会の文面、回答の全文を記録して、公開する。\n- 2026-11-20（r51）　照会の後に役所が回答せず資料だけを差し替える場合に備えた（運営者の指示）。(1) 毎週の巡回の最後に、記録の根拠の資料（results/quotes/quotes.json の引用に当たる URL）と、その週に変わった資料を Wayback Machine に保存させる（crawl/wayback_save.py、results/crawl/<日付>/WAYBACK.tsv）。(2) 記録の根拠の資料が変わったら、引用した箇所の前後を publish/revisions.json に足す（crawl/revisions.py。追記のみ、判定はしない）。照会日より後に引用した箇所が変わった記録は、照会の状態を「照会中・資料の改訂あり」（期限後は「期限までに回答なし・資料の改訂あり」）とし、記録のページに「資料の差し替え」を出す。(3) LLM の段の後、公開リポジトリが変わっていれば Zenodo の新しい版を作る（publish/zenodo.py newversion）。取得元のハッシュの一覧を含むので、差し替え前の状態が第三者の日付つきで残る。公開の日の版（10.5281/zenodo.24357841）が最初の基準。",
+   "en": "## Rules for labelling and inquiry (added in v0.3, 2026-11-16)\n- Words that express intent (such as 'concealment', 'falsification', 'manipulation' and 'fabrication') are not used. Labels are limited to \"Numerical mismatch\", \"Gap\" and \"Unexplained revision\".\n- Personal names and descriptions that could identify an individual are not written. Subjects are limited to organisations, such as the \"Research and Training Institute\" and the \"Correction Bureau\", and to documents.\n- The date of each inquiry, the text of the inquiry and the full text of the response are recorded and published.\n- 2026-11-20 (r51) Provision was made for cases where, after an inquiry, a government office does not respond and only replaces the documents (operator's instruction). (1) At the end of each weekly crawl, the source documents on which the records are based (the URLs corresponding to the quotations in results/quotes/quotes.json) and the documents that changed that week are saved to the Wayback Machine (crawl/wayback_save.py, results/crawl/<date>/WAYBACK.tsv). (2) When a source document on which a record is based changes, the text before and after the quoted passage is added to publish/revisions.json (crawl/revisions.py; append-only, no judgement is made). For a record whose quoted passage changed after the inquiry date, the inquiry status is set to \"Inquiry pending – source revised\" (after the deadline, \"No response by the deadline – source revised\"), and \"Source replaced\" is shown on the record's page. (3) After the LLM stage, if the public repository has changed, a new Zenodo edition is created (publish/zenodo.py newversion). Because it includes a list of hashes of the retrieved sources, the state before replacement is preserved with a third-party date. The edition of the publication date (10.5281/zenodo.24357841) is the first baseline.",
+   "src": "METHODS.md",
+   "src_commit": "ef9a3ea+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
   }
  }
 }

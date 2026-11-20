@@ -14560,6 +14560,14 @@
    "src_commit": "4ca18c2+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-20"
+  },
+  "57dd228524f1a62e73fefd61cb4485f353271a95580034305804f1f53f1d1a4b": {
+   "ja": "照会中・資料の改訂あり",
+   "en": "Inquiry pending; source material revised",
+   "src": "publish/findings.json",
+   "src_commit": "ef9a3ea+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
   }
  }
 }
