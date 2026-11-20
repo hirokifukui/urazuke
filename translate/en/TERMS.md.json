@@ -48,6 +48,14 @@
    "src_commit": "895ed5a",
    "model": "claude-opus-5-5",
    "date": "2026-11-17"
+  },
+  "bba64f0bfd199da2be76a957365217eaa3bc36eab98970c8218ae6123123d951": {
+   "ja": "## 4. プライバシー\n- このサイトは、読まれ方を知るために Vercel Web Analytics を使います（2026-11-20〜）。Cookie は使わず、個人を特定する情報は集めません。記録するのは、見られたページ、参照元のサイト、国、端末の種類などの集計です。サイトをホスティングする事業者（Vercel）は、運用のためにアクセスの記録を取ります。\n- メールで受け取った情報は、返信と、記録の検証・訂正のためだけに使います。異論や指摘の要旨を記録に載せる場合も、送った人の氏名と連絡先は、本人の同意がない限り載せません。\n- 官公庁への照会の文面と回答は、全文を公開します（進め方 §6）。回答の中の個人名（担当者名など）は、載せません。",
+   "en": "## 4. Privacy\n- This site uses Vercel Web Analytics to learn how it is read (from 2026-11-20). It does not use cookies and does not collect information that identifies individuals. What is recorded are aggregates such as the pages viewed, the referring site, the country and the type of device. The company that hosts the site (Vercel) keeps access logs for operational purposes.\n- Information received by email is used only for replying and for verifying and correcting records. Where the gist of an objection or a point raised is included in a record, the sender's name and contact details are not included unless the sender consents.\n- The full text of inquiries to government agencies and of their responses is published (Process §6). Personal names in responses (such as the names of officials in charge) are not included.",
+   "src": "TERMS.md",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
   }
  }
 }

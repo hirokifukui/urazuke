@@ -277,7 +277,7 @@ def page(path, title, body, depth=None):
     d = path.count('/'); pre = '../' * d
     nav = ''.join(f'<a href="{pre}{h}">{t}</a>' for h, t in NAV) + f'<a href="{pre}en/{path}" hreflang="en" lang="en">English</a>'
     doc = f"""<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><link rel="alternate" hreflang="en" href="{pre}en/{path}">{head_extra(pre, "og.png", path, title, "日本の犯罪・司法・精神医療・福祉に関する公開データを、再現できる方法で検証し、記録する。", "ja_JP")}<title>{e(title)} — URAZUKE（草案）</title><link rel="stylesheet" href="{pre}style.css"></head><body>
+<meta name="robots" content="noindex,nofollow"><link rel="alternate" hreflang="en" href="{pre}en/{path}">{head_extra(pre, "og.png", path, title, "日本の犯罪・司法・精神医療・福祉に関する公開データを、再現できる方法で検証し、記録する。", "ja_JP")}<title>{e(title)} — URAZUKE（草案）</title><link rel="stylesheet" href="{pre}style.css"><script>window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};</script><script defer src="/_vercel/insights/script.js"></script></head><body>
 <div class="draft">草案・非公開　顧問弁護士の確認前です。内容は確定していません。</div>
 {CRAWL.replace('@PRE@', pre)}
 <header class="site"><a class="logo" href="{pre}index.html">{MARK}URAZUKE</a><nav>{nav}</nav></header>
@@ -817,7 +817,7 @@ def page_en(path, title, body, srcs=''):
     nav = ''.join(f'<a href="{pre}{h}">{t}</a>' for h, t in NAV_EN) + f'<a href="{root}{path}" hreflang="ja" lang="ja">日本語</a>'
     notice = f'<p class="muted" style="border:1px solid var(--line);background:#fff;padding:.6rem .9rem">This page is an English translation. <strong>The Japanese version is authoritative</strong>; where the two differ, the Japanese prevails. <a href="{root}{path}" lang="ja" hreflang="ja">日本語（正本）</a>{srcs}</p>'
     doc = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><link rel="alternate" hreflang="ja" href="{root}{path}">{head_extra(root, "og-en.png", "en/" + path, title, "Verifying public data on crime, justice, psychiatry and welfare in Japan with reproducible methods, and keeping a record.", "en_US")}<title>{e(title)} — URAZUKE (draft)</title><link rel="stylesheet" href="{root}style.css"></head><body>
+<meta name="robots" content="noindex,nofollow"><link rel="alternate" hreflang="ja" href="{root}{path}">{head_extra(root, "og-en.png", "en/" + path, title, "Verifying public data on crime, justice, psychiatry and welfare in Japan with reproducible methods, and keeping a record.", "en_US")}<title>{e(title)} — URAZUKE (draft)</title><link rel="stylesheet" href="{root}style.css"><script>window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};</script><script defer src="/_vercel/insights/script.js"></script></head><body>
 <div class="draft">DRAFT — NOT PUBLIC. Before review by legal counsel. The content is not final.</div>
 {CRAWL_EN.replace('@PRE@', pre)}
 <header class="site"><a class="logo" href="{pre}index.html">{MARK}URAZUKE</a><nav>{nav}</nav></header>
