@@ -3,9 +3,11 @@
 使い方：python3 publish/public_build.py"""
 import os, re, shutil, sys, json
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC, DST = os.path.join(R, 'site', 'out'), os.path.join(R, 'site', 'out_public')
-if os.path.exists(DST): shutil.rmtree(DST)
-shutil.copytree(SRC, DST, ignore=shutil.ignore_patterns('.vercel'))
+INPLACE = '--inplace' in sys.argv   # 公開後（publish/LIVE がある）は build_site.py の最後に site/out をその場で書き換える
+SRC = os.path.join(R, 'site', 'out'); DST = SRC if INPLACE else os.path.join(R, 'site', 'out_public')
+if not INPLACE:
+    if os.path.exists(DST): shutil.rmtree(DST)
+    shutil.copytree(SRC, DST, ignore=shutil.ignore_patterns('.vercel'))
 n = 0
 for dp, _, fs in os.walk(DST):
     for f in fs:
@@ -25,4 +27,4 @@ for dp, _, fs in os.walk(DST):
             if 'noindex' in s or 'class="draft"' in s or '（草案）</title>' in s or '(draft)</title>' in s: bad.append(os.path.relpath(os.path.join(dp, f), DST))
 print(f'公開版を作った：{DST}（書き換えた HTML {n}、残った草案の印 {len(bad)}）')
 for b in bad[:10]: print('  残り:', b)
-sys.exit(1 if bad or os.path.exists(os.path.join(DST, '.vercel')) else 0)
+sys.exit(1 if bad or (not INPLACE and os.path.exists(os.path.join(DST, '.vercel'))) else 0)

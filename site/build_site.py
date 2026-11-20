@@ -1032,3 +1032,7 @@ print('en: translations missing', _nm, '(run translate/translate.py, then build 
 open(os.path.join(OUT, 'robots.txt'), 'w').write('User-agent: *\nDisallow: /\n')
 json.dump({"headers": [{"source": "/(.*)", "headers": [{"key": "X-Robots-Tag", "value": "noindex, nofollow"}]}], "cleanUrls": False}, open(os.path.join(OUT, 'vercel.json'), 'w'))
 print('pages', sum(len(fs) for _, _, fs in os.walk(OUT)))
+# 公開後（2026-11-20〜）：publish/LIVE があれば、草案の印（noindex・robots の拒否・帯・題名の（草案））を外す
+if os.path.exists(os.path.join(R, 'publish', 'LIVE')):
+    import subprocess, sys as _s2
+    subprocess.run([_s2.executable, os.path.join(R, 'publish', 'public_build.py'), '--inplace'], check=True)
