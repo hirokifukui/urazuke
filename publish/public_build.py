@@ -17,7 +17,19 @@ for dp, _, fs in os.walk(DST):
         t = re.sub(r'<div class="draft">.*?</div>', '', t, count=1, flags=re.S)
         t = t.replace(' — URAZUKE（草案）</title>', ' — URAZUKE</title>').replace(' — URAZUKE (draft)</title>', ' — URAZUKE</title>')
         if t != s: open(p, 'w', encoding='utf-8').write(t); n += 1
-open(os.path.join(DST, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n')
+open(os.path.join(DST, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSitemap: https://urazuke.org/sitemap.xml\n')
+# sitemap.xml（2026-11-20）：公開する HTML 全部。index.html はディレクトリの URL にする（canonical と同じ形）
+_today = __import__('datetime').date.today().isoformat(); _urls = []
+for dp, _, fs in os.walk(DST):
+    if '/.vercel' in dp or os.sep + 'data' + os.sep in dp + os.sep: continue
+    for f in sorted(fs):
+        if not f.endswith('.html') or f == '404.html': continue
+        rel = os.path.relpath(os.path.join(dp, f), DST).replace(os.sep, '/')
+        if rel.endswith('index.html'): rel = rel[:-len('index.html')]
+        _urls.append(rel)
+_urls.sort(key=lambda u: (u.count('/'), u))
+open(os.path.join(DST, 'sitemap.xml'), 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    + ''.join(f'<url><loc>https://urazuke.org/{u}</loc><lastmod>{_today}</lastmod></url>\n' for u in _urls) + '</urlset>\n')
 json.dump({"cleanUrls": False}, open(os.path.join(DST, 'vercel.json'), 'w'))
 bad = []
 for dp, _, fs in os.walk(DST):

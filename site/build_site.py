@@ -259,11 +259,14 @@ for _a in ('mark.svg', 'favicon.svg', 'favicon-16.png', 'favicon-32.png', 'apple
     shutil.copy(os.path.join(R, 'site/assets', _a), os.path.join(OUT, _a))
 MARK = '<svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="11" y="9" width="17" height="21" fill="#2f4f6f"/><rect x="5" y="3" width="17" height="21" fill="#fbfbf9" stroke="#1f2328" stroke-width="2.4"/></svg>'
 SITE_URL = 'https://urazuke.org/'
+def canon(path):
+    return SITE_URL + (path[:-len('index.html')] if path.endswith('index.html') else path)
 def head_extra(root, og_img, path, title, desc, lang):
-    return (f'<link rel="icon" href="{root}favicon.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon-32.png" sizes="32x32" type="image/png">'
+    return (f'<link rel="canonical" href="{canon(path)}"><meta name="description" content="{e(desc)}">'
+            f'<link rel="icon" href="{root}favicon.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon-32.png" sizes="32x32" type="image/png">'
             f'<link rel="apple-touch-icon" href="{root}apple-touch-icon.png"><meta property="og:site_name" content="URAZUKE">'
             f'<meta property="og:title" content="{e(title)} — URAZUKE"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website">'
-            f'<meta property="og:url" content="{SITE_URL}{path}"><meta property="og:image" content="{SITE_URL}{og_img}"><meta property="og:locale" content="{lang}"><meta name="twitter:card" content="summary_large_image">')
+            f'<meta property="og:url" content="{canon(path)}"><meta property="og:image" content="{SITE_URL}{og_img}"><meta property="og:locale" content="{lang}"><meta name="twitter:card" content="summary_large_image">')
 import datetime as _dt
 CR = json.load(open(os.path.join(R, 'site/crawl.json')))
 _WD = '月火水木金土日'
