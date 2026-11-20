@@ -1,0 +1,13 @@
+{
+ "dir": "keisatsu",
+ "check": "c405",
+ "label": "",
+ "note": "警察白書の統計表：包括罪種の和と総数、白書と犯罪統計資料 第3表",
+ "source": "check",
+ "compared": 2150,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 41,
+ "script_sha256": "1e631db4cf64aab0df5151865c3169bbd02a27d881184c60711fda7c672b7a81",
+ "written_utc": "2026-11-17T12:11:51Z"
+}

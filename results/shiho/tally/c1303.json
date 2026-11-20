@@ -1,0 +1,13 @@
+{
+ "dir": "shiho",
+ "check": "c1303",
+ "label": "",
+ "note": "司法統計年報 第1表：総数＝訴訟事件＋以外、全裁判所＝各裁判所の和、版間",
+ "source": "check",
+ "compared": 3084,
+ "mismatched": 18,
+ "explained": 12,
+ "read_failures": 0,
+ "script_sha256": "e28ec5a239103936e2cd4b7501204650fba3063f30cdfa31032af50e88c4b94d",
+ "written_utc": "2026-11-17T12:30:01Z"
+}

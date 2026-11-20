@@ -1,0 +1,5 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.jinji.go.jp/kouho_houdo/kisya/2503/choukaiR6.html	jinji_R6.html	89069	4189cdc06b130b443305e6eb2c7b3a913cb5e7656ca682aa6dc63a4f6b40db67	200	Mon, 02 Nov 2026 01:21:56 GMT	2026-11-17T05:35:07+00:00
+https://www.jinji.go.jp/content/000008998.pdf	jinji_R6_shiryo2.pdf	38411	40bc2e5bab75bb2855905939bb59262f35a9d9949fe07298f045afe2ff426076	200	Mon, 02 Nov 2026 01:21:56 GMT	2026-11-17T05:35:07+00:00
+https://www.soumu.go.jp/main_content/001048525.pdf	soumu_R6_chokai.pdf	192729	1a6e9e79a63a7e977edcc7008e68e691affde1f62dc2430dce1444e3e0d892db	200	Thu, 25 Dec 2025 06:32:53 GMT	2026-11-17T05:35:08+00:00
+https://www.npa.go.jp/news/jinji/R8.choukaishobunsha.pdf	npa_R8_kamihanki.pdf	328784	302f5c707ab58236903113e16272a26c801776674d869c1c396413da2602914e	200	Thu, 23 Jul 2026 05:00:11 GMT	2026-11-17T05:35:09+00:00

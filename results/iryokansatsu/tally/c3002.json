@@ -1,0 +1,13 @@
+{
+ "dir": "iryokansatsu",
+ "check": "c3002",
+ "label": "",
+ "note": "保護統計の医療観察の表：受理・終結・繰越の式、版間",
+ "source": "check",
+ "compared": 7050,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "0bf24b5e8b84cc852409c35fd607ce78d8054231a1b49ae3fcae93b46413f961",
+ "written_utc": "2026-11-17T12:30:18Z"
+}

@@ -1,0 +1,5 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.mext.go.jp/a_menu/shotou/kyoin/mext_00001.html	mext_00001.html	32285	e365ef62506a4d6b3351896562e0cbc67a805fc1f62ed5e663b3c439d8edcc2f	200	Mon, 26 Oct 2026 05:01:29 GMT	2026-11-17T05:50:38+00:00
+https://www.mext.go.jp/content/20251222-mxt_kyoikujinzai02-000011979_4.pdf	db_chosa_gaiyo.pdf	595330	55b5b01cb18ed1e608943a2894c48163add6d373b1662350388b8ae5ae052ae7	200	Mon, 22 Dec 2025 09:02:05 GMT	2026-11-17T05:50:46+00:00
+https://www.mext.go.jp/content/20251222-mxt_kyoikujinzai02-000011979_5.pdf	db_chosa.pdf	579161	4f7440d13571ccc4df8756d7437c5526c643d1918c731da897fa818831e14b23	200	Mon, 22 Dec 2025 09:02:05 GMT	2026-11-17T05:50:49+00:00
+https://www.mext.go.jp/content/20201028-mxt_kyoikujinzai01-000010746-14.pdf	kanpo_tool_20201028.pdf	0		404	Wed, 22 Oct 2025 06:36:35 GMT	2026-11-17T05:50:58+00:00

@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "2184f546301e364cdb72855f929d05ea726a4c2f42c227df4507215c9b15a69d": {
+   "ja": "# 国民経済計算（年次推計）の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of National Accounts (annual estimates) (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/sna/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9af31c5bbf9fe9e139597b5e01ef359f46fc82826b0b7dffc9131e20f7f5701e": {
+   "ja": "## 対象と取得\n- 内閣府 2024年度国民経済計算年次推計：主要系列表 1（国内総生産（支出側、名目、年度）1994〜2024年度）、国内総生産勘定。比較のため 2023年度推計の同じ表。取得記録：data/raw/sna/MANIFEST.tsv。",
+   "en": "## Scope and acquisition\n- Cabinet Office FY2024 National Accounts annual estimates: Main Aggregates Table 1 (gross domestic product (expenditure approach, nominal, fiscal year), FY1994–FY2024), gross domestic product account. For comparison, the same table from the FY2023 estimates. Acquisition record: data/raw/sna/MANIFEST.tsv.",
+   "src": "results/sna/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d83c937483ff09a086188573223e7495b01cd877838d18006884fd15f7dc54e9": {
+   "ja": "## c3701 主要系列表1の恒等式\n- 民間最終消費・家計の内訳、総資本形成・総固定・在庫の内訳、純輸出・輸出入の内訳、GDP=1+2+3+4、国民総所得、国内需要=民間需要+公的需要（注1・2）。31年度×19式＝589式、不一致 0（10億円単位・小数1位のため ±0.25）。\n- 版間：1994〜2023年度の GDP は 30年度すべてで 2023年度推計と 2024年度推計の値が違う（results/sna/c3701_revisions.tsv）。年次推計の通常の改定のため記録にしない。",
+   "en": "## c3701 Identities in Main Aggregates Table 1\n- Breakdowns of private final consumption and households; breakdowns of gross capital formation, gross fixed capital formation and changes in inventories; breakdowns of net exports into exports and imports; GDP = 1+2+3+4; gross national income; domestic demand = private demand + public demand (notes 1 and 2). 31 fiscal years × 19 equations = 589 equations, 0 mismatches (tolerance ±0.25, as values are in units of 1 billion yen to one decimal place).\n- Between editions: GDP for FY1994–FY2023 differs between the FY2023 estimates and the FY2024 estimates in all 30 fiscal years (results/sna/c3701_revisions.tsv). As these are routine revisions of the annual estimates, no record is made.",
+   "src": "results/sna/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ef413b70cea478643019c0e72c3ffa7c6e7ab0036fb12e66498748e6e9f0e9c6": {
+   "ja": "## 陰性対照\n- 2024年度の GDP を変えた写しで検出。",
+   "en": "## Negative control\n- Detected using a copy in which the FY2024 GDP was altered.",
+   "src": "results/sna/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "611d6d6dbeb150adaf5d46dd9740536c18a418e71836c749095f8a18a2ebf0fd": {
+   "ja": "## 照合した件数\n589式。記録なし。",
+   "en": "## Number of items checked\n589 equations. No records.",
+   "src": "results/sna/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

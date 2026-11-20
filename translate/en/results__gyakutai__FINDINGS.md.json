@@ -1,0 +1,77 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "569ba22966f77e2e847653cac19ba3627f0387815597fffc8a5a4dd31eada23f": {
+   "ja": "# 児童虐待相談対応件数（福祉行政報告例、厚労省→こども家庭庁）— 検証の記録（2026-11-16、探索）\n確実さ：確定／推定／要照会。確認の状態：機械検証のみ。",
+   "en": "# Child Abuse Consultations Handled (Report on Social Welfare Administration and Services, Ministry of Health, Labour and Welfare → Children and Families Agency): record of verification (2026-11-16, exploratory)\nCertainty: Established / Inferred / Requires inquiry. Verification status: Machine-verified only.",
+   "src": "results/gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "04ef43b4a4829a6440be42142f07cbc0161488b58a0fa9da4477205f6067c762": {
+   "ja": "## 前提として最も重要なこと（確定）\n厚労省「令和３年度以前の福祉行政報告例（児童福祉関係の一部）の訂正方針等について」（令和7年10月31日、e-Stat お知らせ）。\n- 全自治体へのアンケートの結果、**平成27〜令和3年度**の児童福祉関係の一部（報告表 第43〜57の一部）に、一部の自治体で訂正を要する状況が確認された。令和4・5年度にも訂正の連絡がある。平成26年度以前は訂正なし。\n- 訂正後の統計表は**令和8年度中**に公表予定。それまで e-Stat の現行の表には、訂正前の値が含まれる。\n- 児童相談所の児童虐待相談は報告表 **第49**。別紙1・2を座標で読み取った結果（c700、令和3年度の頁を画像で目視して割り当てを確認）、第49に訂正予定のある自治体は、平成27〜29年度 各1（高知県）、平成30年度 2、令和元年度 5、令和2年度 7、令和3年度 11（さいたま市・京都市・名古屋市・埼玉県・富山県・新潟市・札幌市・熊本市・群馬県・静岡市・高知県）、令和4年度 1（港区）、令和5年度 0。\n- こども家庭庁の令和6年度の資料（2026-01-30）にも「平成27年度から令和3年度までの件数は、一部の地方自治体から訂正を要する旨の報告があり、今後訂正を行う予定」と注記がある。\n- 「福祉行政報告例の訂正予定について（児童福祉関係の一部以外）」（令和8年10月30日）：第41表（児童福祉施設）の令和2・3・5年度も差し替え予定。",
+   "en": "## The most important premise (Established)\nMinistry of Health, Labour and Welfare, \"On the correction policy etc. for the Report on Social Welfare Administration and Services (part of the child welfare section) for FY2021 and earlier\" (31 October 2025, e-Stat notice).\n- A questionnaire sent to all local governments found that, for **FY2015–FY2021**, parts of the child welfare section (parts of report tables 43–57) require correction for some local governments. Notifications of corrections have also been received for FY2022 and FY2023. There are no corrections for FY2014 and earlier.\n- The corrected statistical tables are scheduled for publication **during FY2026**. Until then, the current tables on e-Stat contain the pre-correction values.\n- Child abuse consultations at child guidance centres are in report table **49**. Attachments 1 and 2 were read by coordinates (c700; the assignments were confirmed by visually checking the FY2021 page as an image). The number of local governments with a scheduled correction to table 49 is: FY2015–FY2017, 1 each (Kochi Prefecture); FY2018, 2; FY2019, 5; FY2020, 7; FY2021, 11 (Saitama City, Kyoto City, Nagoya City, Saitama Prefecture, Toyama Prefecture, Niigata City, Sapporo City, Kumamoto City, Gunma Prefecture, Shizuoka City, Kochi Prefecture); FY2022, 1 (Minato Ward); FY2023, 0.\n- The Children and Families Agency's FY2024 material (2026-01-30) also carries the note: \"For the figures from FY2015 to FY2021, some local governments have reported that corrections are required, and corrections are scheduled to be made.\"\n- \"On scheduled corrections to the Report on Social Welfare Administration and Services (other than part of the child welfare section)\" (30 October 2026): table 41 (child welfare facilities) for FY2020, FY2021 and FY2023 is also scheduled to be replaced.",
+   "src": "results/gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "f28b2eaf9d627da6796d2c2e3a691ff4a8b78e585cff852605b80370150930bd": {
+   "ja": "## 取得（data/raw/gyakutai/）\n- 確定値：e-Stat CSV（一部 Excel）平成26〜令和6年度、5種の表（種別×経路、種別×主な虐待者、年齢×種別、都道府県×種別、都道府県×経路）63ファイル。平成26・27年度の種別×虐待者の表は見つからず（都道府県×虐待者のみ）。2022年度以降の都道府県表は表題が「－特別区」付き。\n- 結果の概要（mhlw toukei/saikin/hw/gyousei/15〜24）：15=平成27年度 … 24=令和6年度（222=令和4、232=令和5）。\n- 速報値の資料：平成27年度（審議会資料）、平成30年度、令和2年度、令和4年度（こども家庭庁）、令和6年度（こども家庭庁、2026-01-30。「速報値」の表記はなく確定値と同値）。平成28・29年度は Wayback から取得。令和元・3年度の都道府県表つき速報値、令和5年度の速報値は見つからず（令和5年度は全国の速報値の公表がなく、県の資料では確定値が2025-03-25に直接公表された形。要照会）。",
+   "en": "## Acquisition (data/raw/gyakutai/)\n- Final figures: e-Stat CSV (some Excel), FY2014–FY2024, 5 types of table (type × route, type × main perpetrator, age × type, prefecture × type, prefecture × route), 63 files. The type × perpetrator table for FY2014 and FY2015 was not found (only prefecture × perpetrator). From FY2022 onwards, the titles of the prefecture tables carry `－特別区` (\"– special wards\").\n- Summary of results (mhlw toukei/saikin/hw/gyousei/15–24): 15 = FY2015 … 24 = FY2024 (222 = FY2022, 232 = FY2023).\n- Preliminary figure materials: FY2015 (council material), FY2018, FY2020, FY2022 (Children and Families Agency), FY2024 (Children and Families Agency, 2026-01-30; there is no \"preliminary\" label and the values are the same as the final figures). FY2016 and FY2017 were obtained from the Wayback Machine. Preliminary figures with prefecture tables for FY2019 and FY2021, and preliminary figures for FY2023, were not found (for FY2023 no national preliminary figures were published, and according to prefectural materials the final figures were published directly on 2025-03-25. Requires inquiry).",
+   "src": "results/gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ff37396ac5b3841b6d5465b8783431f4eb470e186c932a48452d379ab5d42470": {
+   "ja": "## (a) 内部の整合（c701）\n- 行の和（総数列＝再掲を除く他の列の和）1,907件、列の和（総数・全国の行＝他の行の和）1,020件、表どうしの総数・種別・経路の一致 315件。**食い違い0件**。\n  - 都道府県表の「都道府県」の行は指定都市・中核市・特別区を含まない（別掲）。全国＝全行の和で一致する。年齢表の「市町村と重複（再掲）」の行は和から除く。\n- 限界：訂正予定の誤りは各自治体の報告の段階で入っているため、内部の和は保たれたまま。**(a) では訂正予定の誤りを検出できない**。",
+   "en": "## (a) Internal consistency (c701)\n- Row sums (total column = sum of the other columns excluding restated ones) 1,907 checks, column sums (total/national row = sum of the other rows) 1,020 checks, agreement of totals, types and routes across tables 315 checks. **0 discrepancies**.\n  - The \"prefecture\" rows of the prefecture tables do not include designated cities, core cities or special wards (shown separately). National = sum of all rows, which agrees. The row `市町村と重複（再掲）` (\"overlapping with municipalities (restated)\") in the age table is excluded from the sum.\n- Limitation: the errors scheduled for correction entered at the stage of each local government's report, so the internal sums remain intact. **(a) cannot detect the errors scheduled for correction**.",
+   "src": "results/gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "fd6f7a5c75de31839f1f2024edfc819c52524395c472984427a61efdf1fb8a24": {
+   "ja": "## (b) 版の比較（c702：速報値 ↔ 確定値）\n| 年度 | 速報値 | 確定値 | 確定−速報 | 差の出どころ（自治体別） |\n|---|---|---|---|---|\n| 平成27 | 103,260 | 103,286 | +26 | 山形県 +26 |\n| 平成30 | 159,850 | 159,838 | −12 | 北海道 −13、川崎市 +1 |\n| 令和2 | 205,029 | 205,044 | +15 | 千葉県 +15 |\n| 令和4 | 219,170 | 214,843 | **−4,327** | 埼玉県 −1,641、東京都 −1,360、京都府 −521、富山県 −180、名古屋市 −94、横浜市 −75 ほか（読めた70行で −4,012。残りは特別区の新設分） |\n| 令和6 | 223,691 | 223,691 | 0 | （同日公表） |\n- 速報値資料に載る前年度の値は、すべて前年度の確定値と一致（前年度の値↔確定 360件）。増減の欄の算術も全件一致。\n- **令和4年度の大きな減少（確定）**：減少の大きい自治体（埼玉県・富山県・名古屋市・さいたま市・札幌市・新潟市・群馬県など）の多くが、令和3年度以前の第49の訂正予定の一覧と重なる。令和4年度の確定値が2024年9月まで遅れたこと、実態把握のアンケートの経緯とあわせると、令和4年度の確定の段階で一部自治体の計上の方法が改められ、同じ自治体の過去の値が訂正対象になった、という筋が考えられる。ここは**推定**で、計上の方法の違いの中身は**要照会**。\n- 東京都の −1,360 は、令和4年度の特別区の児童相談所の開設に伴う区分の変化と時期が重なる（関係は推定の段階）。",
+   "en": "## (b) Comparison of editions (c702: preliminary ↔ final)\n| Fiscal year | Preliminary | Final | Final − preliminary | Source of difference (by local government) |\n|---|---|---|---|---|\n| FY2015 | 103,260 | 103,286 | +26 | Yamagata Prefecture +26 |\n| FY2018 | 159,850 | 159,838 | −12 | Hokkaido −13, Kawasaki City +1 |\n| FY2020 | 205,029 | 205,044 | +15 | Chiba Prefecture +15 |\n| FY2022 | 219,170 | 214,843 | **−4,327** | Saitama Prefecture −1,641, Tokyo −1,360, Kyoto Prefecture −521, Toyama Prefecture −180, Nagoya City −94, Yokohama City −75 and others (−4,012 across the 70 rows that could be read; the remainder is from the newly established special wards) |\n| FY2024 | 223,691 | 223,691 | 0 | (published on the same day) |\n- The previous-year values shown in the preliminary materials all match the previous year's final figures (360 checks of previous-year value ↔ final). The arithmetic of the change columns also matches in every case.\n- **Large decrease in FY2022 (Established)**: many of the local governments with large decreases (Saitama Prefecture, Toyama Prefecture, Nagoya City, Saitama City, Sapporo City, Niigata City, Gunma Prefecture, etc.) overlap with the list of scheduled corrections to table 49 for FY2021 and earlier. Taken together with the fact that the FY2022 final figures were delayed until September 2024 and with the background of the fact-finding questionnaire, one possible account is that some local governments changed their counting method at the stage of finalising FY2022, and the past values of the same local governments became subject to correction. This is **inferred**, and the substance of the difference in counting methods **requires inquiry**.\n- Tokyo's −1,360 coincides in timing with the change in classification accompanying the opening of special-ward child guidance centres in FY2022 (the relationship is at the inferred stage).",
+   "src": "results/gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d930cc3a974520aa2371583f06970521b6ca867a2a1f5e54fd027d6f4db6ae6c": {
+   "ja": "## (c) 他の資料との突き合わせ\n- 警察庁「ストーカー・DV・児童虐待」資料の児童虐待事件の検挙件数（総数）2019〜2022年は、犯罪白書 4-6-1-1図と一致（results/stalker 参照）。",
+   "en": "## (c) Cross-check with other sources\n- The number of child abuse cases cleared (total) for 2019–2022 in the National Police Agency's \"Stalking, Domestic Violence and Child Abuse\" material matches Figure 4-6-1-1 of the White Paper on Crime (see results/stalker).",
+   "src": "results/gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "96274c8b0d6771719cde1617f206d229c06cda8aab6251d023126127d11fb8ba": {
+   "ja": "## 次にすること\n- 令和8年度中の訂正後の表の公表を待って、現行の表との差を自治体別に取る（c700 の訂正予定の一覧が陽性対照になる）。\n- 令和4年度の速報→確定の減少について、こども家庭庁に計上方法の変更の有無を照会する案。",
+   "en": "## Next steps\n- When the corrected tables are published during FY2026, take the differences from the current tables by local government (the list of scheduled corrections in c700 will serve as the positive control).\n- A proposal to make an inquiry to the Children and Families Agency on whether the counting method changed, regarding the decrease from preliminary to final in FY2022.",
+   "src": "results/gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "94bf2ba94b3724ce92421dede487e2d64217a42d76b64b1f8e92f4e542547997": {
+   "ja": "## 追記（2026-11-16 夜）：(c) 相談経路「警察等」↔ 警察庁の通告児童数（c703）\n| 年度 | 相談対応件数 | 経路：警察等 | 警察庁 通告児童数（同じ暦年） | 比 |\n|---|---|---|---|---|\n| 2014 | 88,931 | 29,172 | 28,923 | 1.009 |\n| 2015 | 103,286 | 38,524 | 37,020 | 1.041 |\n| 2016 | 122,575 | 54,812 | 54,227 | 1.011 |\n| 2017 | 133,778 | 66,055 | 65,431 | 1.010 |\n| 2018 | 159,838 | 79,138 | 80,252 | 0.986 |\n| 2019 | 193,780 | 96,473 | 98,222 | 0.982 |\n| 2020 | 205,044 | 103,625 | 106,991 | 0.969 |\n| 2021 | 207,660 | 103,104 | 108,059 | 0.954 |\n| 2022 | 214,843 | 112,311 | 115,762 | 0.970 |\n| 2023 | 225,509 | 116,649 | 122,806 | 0.950 |\n| 2024 | 223,691 | 115,644 | 122,378 | 0.945 |\n- 年度と暦年、件数と人数、「警察等」の範囲が違うので一致は期待しない。比は 0.95〜1.04 の幅で、2018年以降は警察庁の通告児童数の方が多く、差がゆっくり開いている。\n- 2021年度（訂正予定の自治体が11と最も多い年度）の比は 0.954 で、前後（0.969、0.970）より低い。訂正予定と関係するかどうかはこの比較からは言えない。訂正後の表が出たら比を引き直す。\n- 警察庁の通告児童数は「ストーカー・DV・児童虐待」資料（令和4年版の図＝2013〜2022年、令和5〜7年版の本文＝2023〜2025年）から。",
+   "en": "## Addendum (2026-11-16, evening): (c) consultation route \"police etc.\" ↔ National Police Agency number of children referred (c703)\n| Fiscal year | Consultations handled | Route: police etc. | National Police Agency children referred (same calendar year) | Ratio |\n|---|---|---|---|---|\n| 2014 | 88,931 | 29,172 | 28,923 | 1.009 |\n| 2015 | 103,286 | 38,524 | 37,020 | 1.041 |\n| 2016 | 122,575 | 54,812 | 54,227 | 1.011 |\n| 2017 | 133,778 | 66,055 | 65,431 | 1.010 |\n| 2018 | 159,838 | 79,138 | 80,252 | 0.986 |\n| 2019 | 193,780 | 96,473 | 98,222 | 0.982 |\n| 2020 | 205,044 | 103,625 | 106,991 | 0.969 |\n| 2021 | 207,660 | 103,104 | 108,059 | 0.954 |\n| 2022 | 214,843 | 112,311 | 115,762 | 0.970 |\n| 2023 | 225,509 | 116,649 | 122,806 | 0.950 |\n| 2024 | 223,691 | 115,644 | 122,378 | 0.945 |\n- Because fiscal year vs calendar year, cases vs persons, and the scope of \"police etc.\" differ, agreement is not expected. The ratio ranges from 0.95 to 1.04; from 2018 onwards the National Police Agency's number of children referred is larger, and the gap is slowly widening.\n- The ratio for FY2021 (the year with the most local governments scheduled for correction, 11) is 0.954, lower than the years before and after (0.969, 0.970). Whether this is related to the scheduled corrections cannot be determined from this comparison. When the corrected tables are published, the ratios will be recalculated.\n- The National Police Agency's number of children referred is taken from the \"Stalking, Domestic Violence and Child Abuse\" material (figure in the 2022 edition (Reiwa 4) = 2013–2022; text of the 2023–2025 editions (Reiwa 5–7) = 2023–2025).",
+   "src": "results/gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9406e9e37739c299e4862b06ee63fd988aa03b2c367258acf74be04efb7070ca": {
+   "ja": "## 確認（2026-11-17、r16）\n- 福祉行政報告例（児童福祉関係の一部）の訂正後の統計表は、この日の時点でまだ公表されていない（厚労省の福祉行政報告例のページのお知らせは令和7年10月31日の訂正方針のまま）。公表は令和8年度中の予定。",
+   "en": "## Check (2026-11-17, r16)\n- As of this date, the corrected statistical tables of the Report on Social Welfare Administration and Services (part of the child welfare section) have not yet been published (the notice on the Ministry of Health, Labour and Welfare's page for the report is still the correction policy of 31 October 2025). Publication is scheduled during FY2026.",
+   "src": "results/gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

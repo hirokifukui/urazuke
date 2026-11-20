@@ -1,0 +1,356 @@
+{
+ "HK-A1": {
+  "round": "R049",
+  "q": "Q1",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "HK-A10": {
+  "round": "R049",
+  "q": "Q3",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "HK-A2": {
+  "round": "R049",
+  "q": "Q4",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "HK-A3": {
+  "round": "R049",
+  "q": "Q5",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "HK-A4": {
+  "round": "R049",
+  "q": "Q6",
+  "verdict": "反証",
+  "adopted": true
+ },
+ "HK-A5": {
+  "round": "R049",
+  "q": "Q7",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "HK-A6": {
+  "round": "R049",
+  "q": "Q8",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "HK-A7": {
+  "round": "R049",
+  "q": "Q10",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "SO-H1": {
+  "round": "R050",
+  "q": "Q1",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "SO-H2": {
+  "round": "R050",
+  "q": "Q3",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "SO-H3": {
+  "round": "R050",
+  "q": "Q4",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "SO-H4": {
+  "round": "R050",
+  "q": "Q5",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "SO-H5": {
+  "round": "R050",
+  "q": "Q6",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "SO-P1": {
+  "round": "R050",
+  "q": "Q7",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "SO-P2": {
+  "round": "R050",
+  "q": "Q8",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "ES-I1": {
+  "round": "R050",
+  "q": "Q10",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "HK-A8": {
+  "round": "R051",
+  "q": "Q1",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "HK-A9": {
+  "round": "R051",
+  "q": "Q3",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "HK-B1": {
+  "round": "R051",
+  "q": "Q4",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "HK-I1": {
+  "round": "R051",
+  "q": "Q5",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "SH-A1": {
+  "round": "R051",
+  "q": "Q6",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "SH-A2": {
+  "round": "R051",
+  "q": "Q7",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "SH-B1": {
+  "round": "R051",
+  "q": "Q8",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "SH-C1": {
+  "round": "R051",
+  "q": "Q10",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "ST-B1": {
+  "round": "R052",
+  "q": "Q1",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "ST-D1": {
+  "round": "R052",
+  "q": "Q3",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "ST-I1": {
+  "round": "R052",
+  "q": "Q4",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "ST-I2": {
+  "round": "R052",
+  "q": "Q5",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "630-A1": {
+  "round": "R052",
+  "q": "Q6",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "630-D1": {
+  "round": "R052",
+  "q": "Q7",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "630-M1": {
+  "round": "R052",
+  "q": "Q8",
+  "verdict": "反証",
+  "adopted": true
+ },
+ "GY-Q1": {
+  "round": "R052",
+  "q": "Q10",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "KP-A1": {
+  "round": "R053",
+  "q": "Q1",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "KP-A2": {
+  "round": "R053",
+  "q": "Q3",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "KP-C1": {
+  "round": "R053",
+  "q": "Q4",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "MK-I1": {
+  "round": "R053",
+  "q": "Q5",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "MK-L1": {
+  "round": "R053",
+  "q": "Q6",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "MK-L2": {
+  "round": "R053",
+  "q": "Q7",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "BV-C1": {
+  "round": "R053",
+  "q": "Q8",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "BV-P1": {
+  "round": "R053",
+  "q": "Q10",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "SD-A1": {
+  "round": "R054",
+  "q": "Q1",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "SD-A2": {
+  "round": "R054",
+  "q": "Q3",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "SD-A3": {
+  "round": "R054",
+  "q": "Q4",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "YK-C1": {
+  "round": "R054",
+  "q": "Q5",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "YK-D1": {
+  "round": "R054",
+  "q": "Q6",
+  "verdict": "反証",
+  "adopted": true
+ },
+ "YK-I1": {
+  "round": "R054",
+  "q": "Q7",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "KJ-I1": {
+  "round": "R054",
+  "q": "Q8",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "KJ-L1": {
+  "round": "R054",
+  "q": "Q10",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "KS-A1": {
+  "round": "R055",
+  "q": "Q1",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "KS-I1": {
+  "round": "R055",
+  "q": "Q3",
+  "verdict": "支持",
+  "adopted": true
+ },
+ "JH-A1": {
+  "round": "R055",
+  "q": "Q4",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "KC-A1": {
+  "round": "R055",
+  "q": "Q5",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "KH-K1": {
+  "round": "R055",
+  "q": "Q6",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "KM-K1": {
+  "round": "R055",
+  "q": "Q7",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "KY-I1": {
+  "round": "R055",
+  "q": "Q8",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "NK-K1": {
+  "round": "R055",
+  "q": "Q10",
+  "verdict": "反証",
+  "adopted": true
+ },
+ "SB-C1": {
+  "round": "R056",
+  "q": "Q1",
+  "verdict": "判定不能",
+  "adopted": true
+ },
+ "SJ-A1": {
+  "round": "R056",
+  "q": "Q3",
+  "verdict": "反証",
+  "adopted": true
+ },
+ "SK-C1": {
+  "round": "R056",
+  "q": "Q5",
+  "verdict": "支持",
+  "adopted": true
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "dir": "jisatsu_hakusho",
+ "check": "c1101",
+ "label": "",
+ "note": "自殺対策白書 参考資料2：令和6・7・8年版の重なる年の値",
+ "source": "check",
+ "compared": 16170,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 1038,
+ "script_sha256": "8cbf472bff6690d21779edda8aae6582f95a61087c432f5a00a3190b2f740b2f",
+ "written_utc": "2026-11-17T12:30:19Z"
+}

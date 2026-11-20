@@ -1,0 +1,13 @@
+{
+ "dir": "saihan",
+ "check": "c3901",
+ "label": "",
+ "note": "犯罪白書 5-3-9図の再入率と矯正統計 第64表、白書の版間",
+ "source": "check",
+ "compared": 1101,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "aef9cc2021930e3ed2d7f72abeb5e2ed5120aa4a3fc21774935a3788602a15d7",
+ "written_utc": "2026-11-17T12:23:29Z"
+}

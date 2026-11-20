@@ -1,0 +1,53 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "770c3ea89a2d4a9a24b687ef6e69e41638d6b144cc3758b368668dbf8f85cc49": {
+   "ja": "# 検察統計年報の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Annual Report of Prosecution Statistics (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/kensatsu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "853f509d9e9603c9d99a3d9af413b3dff517b2286c3fa6cd776caa19910666d2": {
+   "ja": "## 対象と取得\n- e-Stat 検察統計年報 令和7年（75表）。取得記録：data/raw/kensatsu/MANIFEST.tsv、一覧 data/raw/kensatsu/LIST_2025.txt。\n- 今回の検査は第1表（被疑事件の件数の累年、明治15年〜昭和25年）・第2表（人員の累年、大正7年〜令和7年）・第6表（検察庁別、令和7年）。",
+   "en": "## Scope and acquisition\n- e-Stat Annual Report of Prosecution Statistics 2025 (Reiwa 7) (75 tables). Acquisition log: data/raw/kensatsu/MANIFEST.tsv; list: data/raw/kensatsu/LIST_2025.txt.\n- This check covers Table 1 (number of suspect cases by year, 1882–1950), Table 2 (number of persons by year, 1918–2025) and Table 6 (by public prosecutors office, 2025).",
+   "src": "results/kensatsu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a856500b02d6321f70a044f0314984149b1f1bde1b4c93acbcf78aae3a6c4f65": {
+   "ja": "## c2901 受理・既済・未済の恒等式（L1）\n- 式 780 本、不一致 115。\n- 第6表：不一致なし（注2「既済の数と未済の数の合計が受理の総数に符合しないものがある」は、未済の式を立てていないので関係しない）。\n- 第1表・第2表で、総数のセルだけが二つの式（内訳の和、未済=受理−既済）の両方と合わず、ほかのセルどうしは合う箇所：\n  - 第1表 昭和18年 既済総数 378,798（内訳の和 379,798。受理 391,855 − 379,798 = 12,057 が表の未済と翌年の旧受に一致）→ KS-A1\n  - 第2表 昭和18年 既済総数 543,176（内訳の和 543,175。受理 − 543,175 = 18,997 が未済・翌年の旧受に一致）→ KS-A1\n  - 第2表 昭和19年 受理総数 530,173（旧受 18,997 + 新受 511,716 = 530,713。530,713 − 既済 513,723 = 16,990 が表の未済に一致）→ KS-A1\n  - 第2表 昭和37年 既済総数 6,744,559（内訳の和 6,744,659。受理 − 6,744,659 = 136,227 が未済・翌年の旧受に一致）→ KS-A1\n  - 第2表 昭和50年 既済総数 4,166,376（内訳の和 4,166,367。受理 − 4,166,367 = 42,906 が表の未済に一致）→ KS-A1\n  - 第2表 昭和4年 既済総数 554,909 は未済の式と合い、内訳の和 554,931 と 22 違う（内訳のどれが違うかは決まらない）→ KS-A1\n- 第2表 昭和32〜35年の既済の不一致は、注6（併合の数を括弧内に内数で示す）で説明される。記録にしない。\n- 第2表 平成6〜22年：未済 ≠ 受理 − 既済 が17年続く（差 1〜170）。平成23年以降は一致。旧受 ≠ 前年の未済 は昭和27年〜平成25年に48年。注（時効再起事件を含む、など）に、この差の説明はない → KS-I1（照会事項）\n- 第1表 明治16〜大正元年ごろの旧受 ≠ 前年の未済 は、注3（明治16〜25年は不起訴に消滅を含む…）など定義の違いが注にあり、古い年の定義を確かめきれないため記録にしない。",
+   "en": "## c2901 Identities for received, disposed and pending (L1)\n- 780 equations; 115 mismatches.\n- Table 6: no mismatches. Note 2, \"there are cases where the sum of the number disposed and the number pending does not match the total received\", does not apply, because no equation for pending was set up.\n- In Tables 1 and 2, the following are places where only the total cell disagrees with both of two equations (sum of the breakdown; pending = received − disposed), while the other cells agree with one another:\n  - Table 1, 1943, total disposed 378,798 (sum of breakdown 379,798; received 391,855 − 379,798 = 12,057 matches both the pending figure in the table and the following year's carried-over figure) → KS-A1\n  - Table 2, 1943, total disposed 543,176 (sum of breakdown 543,175; received − 543,175 = 18,997 matches both pending and the following year's carried-over figure) → KS-A1\n  - Table 2, 1944, total received 530,173 (carried over 18,997 + newly received 511,716 = 530,713; 530,713 − disposed 513,723 = 16,990 matches the pending figure in the table) → KS-A1\n  - Table 2, 1962, total disposed 6,744,559 (sum of breakdown 6,744,659; received − 6,744,659 = 136,227 matches both pending and the following year's carried-over figure) → KS-A1\n  - Table 2, 1975, total disposed 4,166,376 (sum of breakdown 4,166,367; received − 4,166,367 = 42,906 matches the pending figure in the table) → KS-A1\n  - Table 2, 1929, total disposed 554,909 agrees with the pending equation and differs by 22 from the sum of the breakdown, 554,931 (which breakdown item differs cannot be determined) → KS-A1\n- The mismatches in disposed in Table 2 for 1957–1960 are explained by Note 6 (the number of merged cases is shown in parentheses as an included figure). Not recorded.\n- Table 2, 1994–2010: pending ≠ received − disposed for 17 consecutive years (differences of 1–170). From 2011 onwards they match. Carried over ≠ previous year's pending in 48 years between 1952 and 2013. The notes (e.g. that cases revived after the statute of limitations are included) give no explanation for these differences → KS-I1 (open query)\n- For Table 1, carried over ≠ previous year's pending around 1883 to 1912: the notes state differences in definitions, such as Note 3 (for 1883–1892, non-prosecution includes extinguishment…), and the definitions for the early years cannot be fully confirmed, so this is not recorded.",
+   "src": "results/kensatsu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6b7a7f3c1b3d9f4045e1466ad88ea9b908c4250a4af83228c61ad2bb44c46831": {
+   "ja": "## 陰性対照\n- 第2表 令和7年 受理総数を1増やした写しで、受理総数=旧受+新受 と 未済=受理−既済 の2本が新たに不一致になる（115→117）。",
+   "en": "## Negative control\n- In a copy of Table 2 with the 2025 total received increased by 1, two equations, total received = carried over + newly received and pending = received − disposed, newly become mismatches (115→117).",
+   "src": "results/kensatsu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "64639610524d29477f7cdb07b5c449131dcaecd75a3e652f2bec6bc654adf35b": {
+   "ja": "## 照合した件数\n780式。記録2件（KS-A1、KS-I1）。",
+   "en": "## Number of checks\n780 equations. 2 records (KS-A1, KS-I1).",
+   "src": "results/kensatsu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "da5e2b42b297da59a8ca19d7d79e5e312642f2a52cd08e9b585deae436e5a5b8": {
+   "ja": "## 別系統の反証（R009）\n- KS-A1：反証（Q1）。要旨の「翌年の旧受とも合う」が昭和50年で成り立たず（翌年の旧受 43,018、未済 42,906）、昭和19年は翌年（昭和20年）の資料がない。5か所の二重の不一致と昭和4年の内訳の差は確かめられた。要旨を書き直し、確認の状態は機械検証のみ。\n- KS-I1：支持（Q3）。言い過ぎの指摘（48年は連続ではない、期間外の昭和24・25年、表の注の範囲での判定）を受けて文言を足した。\n- 対照2問（Q2 真・Q5 偽）は正答。replications/R009_gpt_refute/",
+   "en": "## Independent model refutation (R009)\n- KS-A1: refutation (Q1). The summary's statement \"also matches the following year's carried-over figure\" does not hold for 1975 (following year's carried over 43,018; pending 42,906), and for 1944 there are no data for the following year (1945). The double mismatches at 5 places and the breakdown difference in 1929 were confirmed. The summary was rewritten; verification status is Machine-verified only.\n- KS-I1: supported (Q3). In response to points of overstatement (the 48 years are not consecutive; 1949 and 1950 are outside the period; the judgment is within the scope of the table notes), wording was added.\n- The 2 control questions (Q2 true, Q5 false) were answered correctly. replications/R009_gpt_refute/",
+   "src": "results/kensatsu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

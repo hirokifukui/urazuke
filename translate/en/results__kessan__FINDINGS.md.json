@@ -1,0 +1,61 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "ba5b3737d333edd26e265e747196045c18b8d404ad437eced629837c1f25d122": {
+   "ja": "# 決算検査報告の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Audit Report (Board of Audit) (started 2026-11-17)　Verification status: Machine-verified only",
+   "src": "results/kessan/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5ed2a7b0563ad828bb8a8147ace10fa5efeb14c6410c34fcc814d6a56971ce2d": {
+   "ja": "## 扱い方（r08 で決めた一案。この案で進めた）\n- 決算検査報告は統計ではなく、会計検査院の指摘の集まりである。指摘の当否（不当かどうか、金額の算定が妥当か）は扱わない。\n- 報告に載った数（件数・指摘金額・背景金額）を、統計表と同じ手順で検査する：L1（表の和）、L3（版間：前年度の報告と、翌年度の報告の推移の表）、L4（概要と本文）。\n- 他の資料との突き合わせは、指摘で引用された各省の統計・白書の値を対象にする（今回は行っていない）。\n- 区分の扱い：報告自体の数の食い違いは他の統計と同じ区分（誤り・不整合など）で記録する。指摘の内容に関わる主張は記録しない。",
+   "en": "## Approach (one option decided in r08; work proceeded on this option)\n- The Audit Report (Board of Audit) is not a statistic but a collection of the Board of Audit's observations. Whether the observations are justified (whether something is improper, whether the calculation of amounts is appropriate) is not addressed.\n- The figures in the report (numbers of cases, amounts pointed out, background amounts) are checked with the same procedure as statistical tables: L1 (table sums), L3 (between editions: the previous fiscal year's report and the trend tables in the following fiscal year's report), L4 (summary and main text).\n- Cross-checking against other sources covers the values of each ministry's statistics and white papers cited in the observations (not done this time).\n- Handling of categories: discrepancies in the report's own figures are recorded with the same categories as other statistics (error, inconsistency, etc.). Claims concerning the content of the observations are not recorded.",
+   "src": "results/kessan/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d67f69dd9549d0f85bc30ee5145a7b660257fc52d46b5562cc53f05c17c839f5": {
+   "ja": "## 対象と取得\n- 会計検査院 令和7年度決算検査報告の概要：検査の概要（fy07_01_gaiyou.pdf）、不当事項（fy07_03_futo.pdf）。令和6年度の概要は同じ形の URL では取得できなかった（404）。取得記録：data/raw/kessan/MANIFEST.tsv。",
+   "en": "## Scope and retrieval\n- Board of Audit, summary of the FY2025 Audit Report (Board of Audit): overview of the audit (fy07_01_gaiyou.pdf), improper items (fy07_03_futo.pdf). The FY2024 summary could not be retrieved at a URL of the same form (404). Retrieval log: data/raw/kessan/MANIFEST.tsv.",
+   "src": "results/kessan/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e7b20b80166b37c04e662fb204474719a9e32ff8f1e952047940a520f0a9c03c": {
+   "ja": "## c2601 検査の大要の表（L1）— 誤りなし\n- 件数：意見・処置要求の小計 12＝1＋7＋4、事項計 243＝211＋12＋20、総計 250＝243＋1＋3＋3：不一致 0。\n- 金額：意見・処置要求の小計 1042億1684万円＝3区分の和：一致。\n- 事項計 1445億7308万円と各事項の和（1447億0141万円）の差 2億2833万円は、注(3)の「不当事項と改善の処置の両方で取り上げているものの重複分の控除」による。記録にしない。",
+   "en": "## c2601 Table of the outline of the audit (L1) — no errors\n- Numbers of cases: subtotal of opinions and requests for measures 12 = 1 + 7 + 4, total of items 243 = 211 + 12 + 20, grand total 250 = 243 + 1 + 3 + 3: mismatches 0.\n- Amounts: subtotal of opinions and requests for measures 104,216.84 million yen = sum of the 3 categories: match.\n- The difference of 228.33 million yen between the total of items, 144,573.08 million yen, and the sum of the individual items (144,701.41 million yen) is due to note (3), \"deduction of the duplicated portion of items taken up both as improper items and as remedial measures\". Not recorded.",
+   "src": "results/kessan/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "738aca9457b4e408ba554ffb166223e86318366f88869ce8ecf97dbabbbb9f67": {
+   "ja": "## 残り\n- 府省等別の件数・金額の表（注に重複の控除の説明が多い）、令和6年度報告との版間比較、指摘で引用された統計値の突き合わせ。",
+   "en": "## Remaining\n- Tables of numbers of cases and amounts by ministry and agency etc. (many notes explain deductions of duplicates), comparison between editions with the FY2024 report, cross-checking of statistical values cited in the observations.",
+   "src": "results/kessan/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "23ce30e55238d54a4b149c933e1068d38417b64cfc09aa7c0180faa1001f95de": {
+   "ja": "## 陰性対照\n- 不当事項の件数を変えた写しで (a) が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- In a copy with the number of improper items altered, (a) detected it (results/scope/negctl_r08.json).",
+   "src": "results/kessan/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "0a967626f5d02350991304d64c81e641660495199c1c673051f9ab03144b7d0f": {
+   "ja": "## 照合した件数\n4組。記録なし。",
+   "en": "## Number of comparisons made\n4 pairs. No records.",
+   "src": "results/kessan/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

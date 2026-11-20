@@ -1,0 +1,13 @@
+{
+ "dir": "futoko",
+ "check": "c1202",
+ "label": "",
+ "note": "問題行動・不登校等調査：都道府県別の表の和と全国",
+ "source": "check",
+ "compared": 667,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "0852751a6fe5039bd4838c5a22d8be586093b47b3d277fd5059781e16499d3e0",
+ "written_utc": "2026-11-17T12:30:21Z"
+}

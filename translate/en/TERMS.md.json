@@ -1,0 +1,53 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "2ef4460c4fcd72cec3681a2f81be1571cfba8d70eb2e792cf10c1cf2e18318a3": {
+   "ja": "# 利用規約とプライバシー（草案 v0.1, 2026-11-17）",
+   "en": "# Terms and Privacy (draft v0.1, 2026-11-17)",
+   "src": "TERMS.md",
+   "src_commit": "895ed5a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "2e9c06d41e76099a58787f14bc048514deeb2c63c05f9a0b04b5f5492bb04634": {
+   "ja": "## 1. このサイトの性格\n- URAZUKE の記録は、大規模言語モデル（LLM）がコードで検証した結果です。記録の内容は人が判断していません（進め方 §3）。\n- 記録は、公表された資料のあいだの数値の不一致・欠落・説明のない改訂などの事実を書いたものです。資料の作成者の意図について述べるものではありません。\n- 記録の正確さには努めますが、誤りがないことは保証しません。記録を判断や手続きの根拠に使う場合は、公表元の最新の資料と、このサイトの訂正の記録を確かめてください。",
+   "en": "## 1. Nature of this site\n- URAZUKE records are the results of verification carried out in code by a large language model (LLM). The content of the records has not been judged by a person (Process §3).\n- The records set out facts such as numerical mismatches, gaps and unexplained revisions between published materials. They do not make statements about the intent of the people who prepared the materials.\n- We make efforts to keep the records accurate, but we do not guarantee that they are free of errors. If you use a record as a basis for a decision or a procedure, check the latest materials from the publisher and this site's Corrections.",
+   "src": "TERMS.md",
+   "src_commit": "895ed5a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "dcce7b3c0e4ba999d2a71aa94b07136f402f8f285afda6980a24ebf43c235e8a": {
+   "ja": "## 2. 利用と引用\n- 記録の文章と一覧のデータ（findings.json・findings.tsv など）は、クリエイティブ・コモンズ 表示 4.0 国際（CC BY 4.0）で利用できます。出典として「URAZUKE」、記録の ID、取得した日付を示してください。\n- 検証のコードは MIT ライセンスで公開します（リポジトリの LICENSE）。\n- 公表元の資料は、それぞれの公表元の利用規約に従います（多くは政府標準利用規約）。このサイトは、公表元の資料のファイルを再配布しません。載せるのは取得元の URL、取得日時、SHA256 と、記録に必要な短い引用です。\n- 個人名を含みうる資料（教育委員会の処分ごとの発表など）は、ファイルも URL も載せません。",
+   "en": "## 2. Use and citation\n- The text of the records and the list data (findings.json, findings.tsv, etc.) are available under Creative Commons Attribution 4.0 International (CC BY 4.0). As the source, state \"URAZUKE\", the record ID and the date of retrieval.\n- The verification code is published under the MIT License (LICENSE in the repository).\n- The publishers' materials are subject to the terms of use of each publisher (in many cases the Government Standard Terms of Use). This site does not redistribute the files of the publishers' materials. It shows only the source URL, the date and time of retrieval, the SHA256, and short quotations needed for the record.\n- For materials that may contain personal names (such as announcements by a board of education on individual disciplinary actions), neither the files nor the URLs are shown.",
+   "src": "TERMS.md",
+   "src_commit": "895ed5a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "b1fbc313cc5e69ddf1f37b1faaa81c6ec71a6e1279347e073b265252e7754fa8": {
+   "ja": "## 3. 訂正と異論\n- 記録に誤りが見つかった場合は、元の記録と同じ目立ち方で訂正し、訂正の記録に残します（進め方 §8）。\n- 異論、追加資料、誤りの指摘は contact@urazuke.org で受け付けます。",
+   "en": "## 3. Corrections and objections\n- If an error is found in a record, it is corrected with the same prominence as the original record and logged in Corrections (Process §8).\n- Objections, additional materials and reports of errors are accepted at contact@urazuke.org.",
+   "src": "TERMS.md",
+   "src_commit": "895ed5a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ed2417dc06495fdb591c2652d0aa905b4b519631d517ad4fd9e1d61f25113fcd": {
+   "ja": "## 4. プライバシー\n- このサイト自体は、アクセス解析と Cookie を使いません。サイトをホスティングする事業者（Vercel）は、運用のためにアクセスの記録を取ります。\n- メールで受け取った情報は、返信と、記録の検証・訂正のためだけに使います。異論や指摘の要旨を記録に載せる場合も、送った人の氏名と連絡先は、本人の同意がない限り載せません。\n- 官公庁への照会の文面と回答は、全文を公開します（進め方 §6）。回答の中の個人名（担当者名など）は、載せません。",
+   "en": "## 4. Privacy\n- This site itself does not use access analytics or cookies. The company that hosts the site (Vercel) keeps access logs for its operations.\n- Information received by email is used only for replying and for verifying and correcting records. Where the gist of an objection or report is included in a record, the sender's name and contact details are not included unless the sender consents.\n- The full text of inquiry letters to government agencies and of their responses is published (Process §6). Personal names in responses (such as the names of staff in charge) are not included.",
+   "src": "TERMS.md",
+   "src_commit": "895ed5a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "fc684fcae627859e7310ff5ad386c6ea9b32c66400e337d810fb2189bbb0d614": {
+   "ja": "## 5. 変更\n- この規約を変えた場合は、日付と変更点をこのページに記します。",
+   "en": "## 5. Changes\n- If these terms are changed, the date and the changes will be noted on this page.",
+   "src": "TERMS.md",
+   "src_commit": "895ed5a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

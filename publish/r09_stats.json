@@ -1,0 +1,106 @@
+[
+ {
+  "slug": "kyosei",
+  "名前": "矯正統計年報",
+  "公表元": "法務省",
+  "作業ノート": "results/kyosei/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（正誤情報 576件の反映。未反映 0）"
+ },
+ {
+  "slug": "hogo",
+  "名前": "保護統計年報",
+  "公表元": "法務省",
+  "作業ノート": "results/hogo/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（正誤情報 5,168件。列まで定まった 1,964件のうち反映 1,963）"
+ },
+ {
+  "slug": "kensatsu",
+  "名前": "検察統計年報",
+  "公表元": "法務省",
+  "作業ノート": "results/kensatsu/FINDINGS.md",
+  "接頭辞": "KS",
+  "CHK": null
+ },
+ {
+  "slug": "iryokansatsu",
+  "名前": "医療観察法の統計",
+  "公表元": "厚生労働省・法務省",
+  "作業ノート": "results/iryokansatsu/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（7,128式。運営者の業務に関わる対象：事前登録 H009）"
+ },
+ {
+  "slug": "koutsuu",
+  "名前": "交通事故統計",
+  "公表元": "警察庁",
+  "作業ノート": "results/koutsuu/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（死者数の推移・版間）"
+ },
+ {
+  "slug": "seiho",
+  "名前": "生活保護 被保護者調査",
+  "公表元": "厚生労働省",
+  "作業ノート": "results/seiho/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（月次17本・1,136式）"
+ },
+ {
+  "slug": "monka-kihon",
+  "名前": "学校基本調査・体罰の懲戒処分等の推移",
+  "公表元": "文部科学省",
+  "作業ノート": "results/monka_kihon/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（792式）"
+ },
+ {
+  "slug": "jinko-suikei",
+  "名前": "人口推計",
+  "公表元": "総務省",
+  "作業ノート": "results/jinko_suikei/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（2023年・2024年）"
+ },
+ {
+  "slug": "chinkin",
+  "名前": "賃金構造基本統計調査",
+  "公表元": "厚生労働省",
+  "作業ノート": "results/chinkin/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（第1表・版間・PDF）"
+ },
+ {
+  "slug": "karoshi",
+  "名前": "過労死等の労災補償状況",
+  "公表元": "厚生労働省",
+  "作業ノート": "results/karoshi/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（9表・報道発表の合計）"
+ },
+ {
+  "slug": "kensetsu-juchu",
+  "名前": "建設工事受注動態統計",
+  "公表元": "国土交通省",
+  "作業ノート": "results/kensetsu_juchu/FINDINGS.md",
+  "接頭辞": "KJ",
+  "CHK": null
+ },
+ {
+  "slug": "sna",
+  "名前": "国民経済計算（年次推計）",
+  "公表元": "内閣府",
+  "作業ノート": "results/sna/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（主要系列表1・589式）"
+ },
+ {
+  "slug": "kessan-card",
+  "名前": "地方財政状況調査（都道府県決算カード）",
+  "公表元": "総務省",
+  "作業ノート": "results/kessan_card/FINDINGS.md",
+  "接頭辞": "KC",
+  "CHK": null
+ }
+]

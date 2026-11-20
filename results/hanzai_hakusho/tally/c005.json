@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c005",
+ "label": "",
+ "note": "犯罪統計資料と犯罪白書、警察庁の訂正の反映",
+ "source": "check",
+ "compared": 36,
+ "mismatched": 3,
+ "explained": 3,
+ "read_failures": 0,
+ "script_sha256": "a4cdfa4edaf00e32fd390509b8cef393f4a781d8bae521754ee31a993816f816",
+ "written_utc": "2026-11-17T12:18:53Z"
+}

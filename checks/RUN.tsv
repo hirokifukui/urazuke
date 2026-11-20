@@ -1,0 +1,45 @@
+command	output	tally
+checks/hanzai_hakusho/c006_text_arith.py data/raw/hanzai_hakusho/65_20261116T095636Z/honbun	results/hanzai_hakusho/c006_65.out	yes
+checks/hanzai_hakusho/c006_text_arith.py data/raw/hanzai_hakusho/66_20261116T095154Z/honbun	results/hanzai_hakusho/c006_66.out	yes
+checks/hanzai_hakusho/c006_text_arith.py data/raw/hanzai_hakusho/67_20261116T094520Z/honbun	results/hanzai_hakusho/c006_67.out	yes
+checks/hanzai_hakusho/c006_text_arith.py data/raw/hanzai_hakusho/68_20261116T085457Z/honbun	results/hanzai_hakusho/c006_68.out	yes
+checks/hanzai_hakusho/c006_text_arith.py data/raw/hanzai_hakusho/69_20261116T085457Z/honbun	results/hanzai_hakusho/c006_69.out	yes
+checks/hanzai_hakusho/c006_text_arith.py data/raw/hanzai_hakusho/70_20261116T073025Z/honbun	results/hanzai_hakusho/c006_70.out	yes
+checks/hanzai_hakusho/c006_text_arith.py data/raw/hanzai_hakusho/71_20261116T090659Z/honbun	results/hanzai_hakusho/c006_71.out	yes
+checks/hanzai_hakusho/c006_text_arith.py data/raw/hanzai_hakusho/72/honbun	results/hanzai_hakusho/c006_72.out	yes
+checks/hanzai_hakusho/c009g_revisions_pair.py data/raw/hanzai_hakusho/68_20261116T085457Z data/raw/hanzai_hakusho/69_20261116T085457Z 68to69	results/hanzai_hakusho/c009g_68to69.out	no: 補助（c009h に置き換え）
+checks/hanzai_hakusho/c009g_revisions_pair.py data/raw/hanzai_hakusho/69_20261116T085457Z data/raw/hanzai_hakusho/70_20261116T073025Z 69to70	results/hanzai_hakusho/c009g_69to70.out	no: 補助（c009h に置き換え）
+checks/hanzai_hakusho/c009g_revisions_pair.py data/raw/hanzai_hakusho/70_20261116T073025Z data/raw/hanzai_hakusho/71_20261116T070137Z 70to71	results/hanzai_hakusho/c009g_70to71.out	no: 補助（c009h に置き換え）
+checks/hanzai_hakusho/c009h_revisions_matched.py data/raw/hanzai_hakusho/67_20261116T094520Z data/raw/hanzai_hakusho/68_20261116T085457Z 67to68	results/hanzai_hakusho/c009h_67to68.out	no: 旧様式は c009h の対象外（c009v 67to68v が同じ組を比べる）
+checks/hanzai_hakusho/c009h_revisions_matched.py data/raw/hanzai_hakusho/68_20261116T085457Z data/raw/hanzai_hakusho/69_20261116T085457Z 68to69	results/hanzai_hakusho/c009h_68to69.out	yes
+checks/hanzai_hakusho/c009h_revisions_matched.py data/raw/hanzai_hakusho/69_20261116T085457Z data/raw/hanzai_hakusho/70_20261116T073025Z 69to70	results/hanzai_hakusho/c009h_69to70.out	yes
+checks/hanzai_hakusho/c009h_revisions_matched.py data/raw/hanzai_hakusho/70_20261116T073025Z data/raw/hanzai_hakusho/71_20261116T070137Z 70to71	results/hanzai_hakusho/c009h_70to71.out	no: 取得の途中で止まった版（71b に置き換え）
+checks/hanzai_hakusho/c009h_revisions_matched.py data/raw/hanzai_hakusho/70_20261116T073025Z data/raw/hanzai_hakusho/71_20261116T090659Z 70to71b	results/hanzai_hakusho/c009h_70to71b.out	yes
+checks/hanzai_hakusho/c009h_revisions_matched.py data/raw/hanzai_hakusho/71_20261116T070137Z data/raw/hanzai_hakusho/72 71to72	results/hanzai_hakusho/c009h_71to72.out	no: 取得の途中で止まった版（71b に置き換え）
+checks/hanzai_hakusho/c009h_revisions_matched.py data/raw/hanzai_hakusho/71_20261116T090659Z data/raw/hanzai_hakusho/72 71bto72	results/hanzai_hakusho/c009h_71bto72.out	yes
+checks/hanzai_hakusho/c009v_revisions_valuematch.py data/raw/hanzai_hakusho/63_20261116T100633Z 2015 data/raw/hanzai_hakusho/64_20261116T100205Z 2016 63to64v	results/hanzai_hakusho/c009v_63to64v.out	yes
+checks/hanzai_hakusho/c009v_revisions_valuematch.py data/raw/hanzai_hakusho/64_20261116T100205Z 2016 data/raw/hanzai_hakusho/65_20261116T095636Z 2017 64to65v	results/hanzai_hakusho/c009v_64to65v.out	yes
+checks/hanzai_hakusho/c009v_revisions_valuematch.py data/raw/hanzai_hakusho/65_20261116T095636Z 2017 data/raw/hanzai_hakusho/66_20261116T095154Z 2018 65to66v	results/hanzai_hakusho/c009v_65to66v.out	yes
+checks/hanzai_hakusho/c009v_revisions_valuematch.py data/raw/hanzai_hakusho/66_20261116T095154Z 2018 data/raw/hanzai_hakusho/67_20261116T094520Z 2019 66to67v	results/hanzai_hakusho/c009v_66to67v.out	yes
+checks/hanzai_hakusho/c009v_revisions_valuematch.py data/raw/hanzai_hakusho/67_20261116T094520Z 2019 data/raw/hanzai_hakusho/68_20261116T085457Z 2020 67to68v	results/hanzai_hakusho/c009v_67to68v.out	yes
+checks/hanzai_hakusho/c009v_revisions_valuematch.py data/raw/hanzai_hakusho/69_20261116T085457Z 2021 data/raw/hanzai_hakusho/70_20261116T073025Z 2022 69to70v	results/hanzai_hakusho/c009v_69to70v.out	no: 陽性対照（新様式の組は c009h が比べる）
+checks/hanzai_hakusho/c009v_revisions_valuematch.py data/raw/hanzai_hakusho/70_20261116T073025Z 2022 data/raw/hanzai_hakusho/71_20261116T090659Z 2023 70to71v	results/hanzai_hakusho/c009v_70to71v.out	no: 陽性対照（新様式の組は c009h が比べる）
+checks/hanzai_hakusho/c009v_revisions_valuematch.py data/raw/hanzai_hakusho/71_20261116T090659Z 2023 data/raw/hanzai_hakusho/72 2024 71to72v	results/hanzai_hakusho/c009v_71to72v.out	no: 陽性対照（新様式の組は c009h が比べる）
+checks/hanzai_hakusho/c010_formula_totals.py data/raw/hanzai_hakusho/67_20261116T094520Z	results/hanzai_hakusho/c010_67.out	yes
+checks/hanzai_hakusho/c010_formula_totals.py data/raw/hanzai_hakusho/68_20261116T085457Z	results/hanzai_hakusho/c010_68.out	yes
+checks/hanzai_hakusho/c010_formula_totals.py data/raw/hanzai_hakusho/69_20261116T085457Z	results/hanzai_hakusho/c010_69.out	yes
+checks/hanzai_hakusho/c010_formula_totals.py data/raw/hanzai_hakusho/70_20261116T073025Z	results/hanzai_hakusho/c010_70.out	yes
+checks/hanzai_hakusho/c010_formula_totals.py data/raw/hanzai_hakusho/71_20261116T090659Z	results/hanzai_hakusho/c010_71b.out	yes
+checks/hanzai_hakusho/c010_formula_totals.py data/raw/hanzai_hakusho/72	results/hanzai_hakusho/c010_72.out	yes
+checks/hanzai_hakusho/c012g_view_vs_machine.py data/raw/hanzai_hakusho/67_20261116T094520Z 67	results/hanzai_hakusho/c012g_67.out	yes
+checks/hanzai_hakusho/c012g_view_vs_machine.py data/raw/hanzai_hakusho/68_20261116T085457Z 68	results/hanzai_hakusho/c012g_68.out	yes
+checks/hanzai_hakusho/c012g_view_vs_machine.py data/raw/hanzai_hakusho/69_20261116T085457Z 69	results/hanzai_hakusho/c012g_69.out	yes
+checks/hanzai_hakusho/c012g_view_vs_machine.py data/raw/hanzai_hakusho/70_20261116T073025Z 70	results/hanzai_hakusho/c012g_70.out	yes
+checks/hanzai_hakusho/c013_era_year.py data/raw/hanzai_hakusho/68_20261116T085457Z data/raw/hanzai_hakusho/69_20261116T085457Z data/raw/hanzai_hakusho/70_20261116T073025Z data/raw/hanzai_hakusho/71_20261116T070137Z data/raw/hanzai_hakusho/72	results/hanzai_hakusho/c013_5ed.out	no: 取得の途中で止まった版（71b に置き換え）
+checks/hanzai_hakusho/c013_era_year.py data/raw/hanzai_hakusho/68_20261116T085457Z data/raw/hanzai_hakusho/69_20261116T085457Z data/raw/hanzai_hakusho/70_20261116T073025Z data/raw/hanzai_hakusho/71_20261116T090659Z data/raw/hanzai_hakusho/72	results/hanzai_hakusho/c013_5ed_b.out	yes
+checks/hanzai_hakusho/c014_pdf_vs_excel.py data/raw/hanzai_hakusho/pdf/r02_001363987.txt data/raw/hanzai_hakusho/67_20261116T094520Z r02	results/hanzai_hakusho/c014_r02.out	yes
+checks/hanzai_hakusho/c014_pdf_vs_excel.py data/raw/hanzai_hakusho/pdf/r03_001365724.txt data/raw/hanzai_hakusho/68_20261116T085457Z r03	results/hanzai_hakusho/c014_r03.out	yes
+checks/hanzai_hakusho/c014_pdf_vs_excel.py data/raw/hanzai_hakusho/pdf/r04_001387336.txt data/raw/hanzai_hakusho/69_20261116T085457Z r04	results/hanzai_hakusho/c014_r04.out	yes
+checks/hanzai_hakusho/c014_pdf_vs_excel.py data/raw/hanzai_hakusho/pdf/r05_001410095.txt data/raw/hanzai_hakusho/70_20261116T073025Z r05	results/hanzai_hakusho/c014_r05.out	yes
+checks/hanzai_hakusho/c014_pdf_vs_excel.py data/raw/hanzai_hakusho/pdf/r06_001432725.txt data/raw/hanzai_hakusho/71_20261116T090659Z r06b	results/hanzai_hakusho/c014_r06b.out	yes
+checks/hanzai_hakusho/c014_pdf_vs_excel.py data/raw/hanzai_hakusho/pdf/r07_001455836.txt data/raw/hanzai_hakusho/72 r07	results/hanzai_hakusho/c014_r07.out	yes

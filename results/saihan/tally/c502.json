@@ -1,0 +1,13 @@
+{
+ "dir": "saihan",
+ "check": "c502",
+ "label": "",
+ "note": "再犯防止推進白書の刑務所出所者総数と矯正統計年報 表84",
+ "source": "check",
+ "compared": 12,
+ "mismatched": 1,
+ "explained": 1,
+ "read_failures": 0,
+ "script_sha256": "cd897e669c71af215d758ef93b916e7947e48972c29308fee5e3d110e6ebc7bc",
+ "written_utc": "2026-11-17T12:23:28Z"
+}

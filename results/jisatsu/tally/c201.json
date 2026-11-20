@@ -1,0 +1,13 @@
+{
+ "dir": "jisatsu",
+ "check": "c201",
+ "label": "",
+ "note": "自殺の統計（地域における自殺の基礎資料）令和6・7年：都道府県の和、内訳の和、男＋女、人口、市区町村の和",
+ "source": "check",
+ "compared": 81028,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "0ae0b6a0bfa09a673cc27a92c394f068b65f7123e4d76465fffc5a433d77f0d7",
+ "written_utc": "2026-11-17T12:25:49Z"
+}

@@ -1,0 +1,13 @@
+{
+ "dir": "kanja",
+ "check": "c1901",
+ "label": "",
+ "note": "患者調査：表の内部整合、統計表どうし",
+ "source": "check",
+ "compared": 161,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "7b74cc192ed2083892d9082f0a5653d67149c33c7fbd22cf65b6ccb453f2a4a5",
+ "written_utc": "2026-11-17T12:34:09Z"
+}

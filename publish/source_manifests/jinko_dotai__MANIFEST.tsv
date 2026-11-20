@@ -1,0 +1,8 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei25/xls/06_hyoR07.xlsx	kakutei25/06_hyoR07.xlsx	140623	fdb0f527e131c249c926055d1655ed515d575cf7eeccdd733d6a9f612e30e6ff	200	Wed, 30 Sep 2026 07:01:06 GMT	2026-11-16T17:22:26+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei25/dl/03_toukeihyoR07.pdf	kakutei25/03_toukeihyoR07.pdf	506681	3997b25c98b59e8a833da78fd6ac062d722122d63145032a8c52072de6b7b3c4	200	Wed, 30 Sep 2026 07:01:00 GMT	2026-11-16T17:22:27+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei25/dl/05_gaikyouR07.pdf	kakutei25/05_gaikyouR07.pdf	929935	abbda6637ca9cb4754d816c530ffebf79a8121006f302a4663ae458a479f8fe4	200	Wed, 30 Sep 2026 07:01:03 GMT	2026-11-16T17:22:28+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei24/xls/16_hyoR06.xlsx	kakutei24/16_hyoR06.xlsx	190970	9fa2eec18e37fc80a00955f8df02cdbf46a307b745f8c2ffba1c7518a267bb1a	200	Fri, 17 Oct 2025 07:02:45 GMT	2026-11-16T17:22:29+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei24/dl/06_h4.pdf	kakutei24/06_h4.pdf	1341803	4e9bcb186b400a496c9d6c85187fec1cf0a9d05151867f5d1fa8dd38cde1ee8b	200	Tue, 16 Sep 2025 05:04:30 GMT	2026-11-16T17:22:29+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei24/dl/15_gaikyouR06.pdf	kakutei24/15_gaikyouR06.pdf	7567804	a2b37625baf4884d98f4d7b775445047b26293adfdb84c948c90e3fa57df442b	200	Tue, 16 Sep 2025 05:04:40 GMT	2026-11-16T17:22:30+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei24/dl/11_h9.pdf	kakutei24/11_h9.pdf	134987	390dd99c2d71ea7237620d6303997c1c30493b8218ae402f33e1444e669faaf6	200	Tue, 16 Sep 2025 05:04:34 GMT	2026-11-16T17:22:31+00:00

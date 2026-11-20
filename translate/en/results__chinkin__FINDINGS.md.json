@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "6edfc2ba2a3f0a801a091e7a44c988c62cb6799da62f090cb09ec375e14b5608": {
+   "ja": "# 賃金構造基本統計調査の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Basic Survey on Wage Structure (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/chinkin/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "90983c65f7f0e181db3291d7c23cfb1b2667cb32b0ac1d52b897c93f427a7697": {
+   "ja": "## 対象と取得\n- 厚生労働省 令和7年・令和6年 賃金構造基本統計調査の概況（図表 Excel、統計表 Excel、概況 PDF）。取得記録：data/raw/chinkin/MANIFEST.tsv。",
+   "en": "## Scope and acquisition\n- Ministry of Health, Labour and Welfare, overview of the 2025 (Reiwa 7) and 2024 (Reiwa 6) Basic Survey on Wage Structure (figure Excel, statistical table Excel, overview PDF). Acquisition record: data/raw/chinkin/MANIFEST.tsv.",
+   "src": "results/chinkin/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9c3e1f04802094dda89334ec46ea1ce6ea2d75c24781a751154cc8e9740925c5": {
+   "ja": "## c3201 第1表（性別賃金・増減率・男女間格差の推移）\n- 格差=女/男×100、対前年増減率（令和2年は注の※令和元年（新方式）を前年とする）、格差の対前年差、版間（令和6年版と令和7年版の同じ年）、形式間（概況 PDF の行に Excel の値が並ぶか）。式 285、不一致 0。",
+   "en": "## c3201 Table 1 (trends in wages by sex, rate of change and gender gap)\n- Gap = female/male × 100; year-on-year rate of change (for 2020, the ※2019 (new method) in the note is taken as the previous year); year-on-year difference in the gap; between editions (the same year in the 2024 edition (Reiwa 6) and the 2025 edition (Reiwa 7)); between formats (whether the Excel values appear in the rows of the overview PDF). 285 formulas, 0 mismatches.",
+   "src": "results/chinkin/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "1caf76a7a261e25cf450425683d00e6dcc72b0f2a1afa37f83c611c77e845f98": {
+   "ja": "## 陰性対照\n- 令和7年版 第1表 2025年 男女計を変えた写しで検出。",
+   "en": "## Negative control\n- Detected in a copy in which the 2025 both-sexes value in Table 1 of the 2025 edition (Reiwa 7) was changed.",
+   "src": "results/chinkin/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6d87f884edacd6501860d71205c19ed9fb96d92a72dc97b84d6252f1302da1c9": {
+   "ja": "## 照合した件数\n285式。記録なし。",
+   "en": "## Number of checks\n285 formulas. No records.",
+   "src": "results/chinkin/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

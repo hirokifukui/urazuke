@@ -1,0 +1,12 @@
+cid	rec	url	fetched_utc	status	file	sha256	datePublished
+P2-GY-01	GY-Q1	https://s.resemom.jp/article/2024/09/25/78962.html	2026-11-20T06:12:17+00:00	robots.txt で拒否（取得しない）			
+P2-GY-02	GY-Q1	https://www.kyobun.co.jp/article/20230907-04	2026-11-20T06:12:18+00:00	200	P2-GY-02.html	46dc45ba83c551c9679bdb20c3e38c6ae96fce450bc90c6b1b2cc213ea88256e	2023-09-07T09:00:00+09:00
+P2-ST-01	ST-C1	https://jpjj.jp/articles/npa-stalker-regulation-review-panel/	2026-11-20T06:12:20+00:00	robots.txt で拒否（取得しない）			
+P2-ST-02	ST-D1	https://www.jiji.com/jc/article?k=2026031900502&g=soc	2026-11-20T06:12:21+00:00	200	P2-ST-02.html	209dcdfd9e37d04301b858152f0f245bbfecc221e765b1bc9454cb7106049a60	2026-03-19T10:16:00+09:00
+P2-ST-03	ST-I2	https://www.jiji.com/jc/article?k=2026031900498&g=soc	2026-11-20T06:12:21+00:00	200	P2-ST-03.html	9fd740f77b9812dc61e053036fdcdc2307e8f20c817de985728645b1fd99e20e	2026-03-19T10:11:00+09:00
+P2-SK-01	SK-C1	https://www.moj.go.jp/hisho/saihanboushi/r05/html/n2170000.html	2026-11-20T06:12:22+00:00	200	P2-SK-01.html	1e2eec467d646bfd1de6a03d135334df650575d6d9239526a7459dfab9b696eb	
+P2-MK-01	MK-I1	https://www.kyobun.co.jp/article/20191224-02	2026-11-20T06:12:22+00:00	取得できず（HTTPError: HTTP Error 404: Not Found）			
+P2-JH-01	JH-A1	https://fukushi-edu-lab.com/child-youth-mental-health-summer-2026/	2026-11-20T06:12:23+00:00	200	P2-JH-01.html	4d94476d1dc3c477d255070132c5a981d19194610d429e332d8eccbc7179dde5	2026-08-20T06:19:26+09:00
+P2-SH-01	SH-C1	https://www.nnvs.org/library/cms/wp-content/uploads/2023/07/news_068.pdf	2026-11-20T06:12:25+00:00	200	P2-SH-01.pdf	23b416f023237eb35cdcf069182d34df1d66b52d3a488383d85c00d58147e45f	
+P2-NK-01	NK-K1	https://news.livedoor.com/article/detail/22233564/	2026-11-20T06:12:25+00:00	取得できず（HTTPError: HTTP Error 404: Not Found）			
+P2-NK-02	NK-K1	https://www.shugiin.go.jp/internet/itdb_shitsumon.nsf/html/shitsumon/a200064.htm	2026-11-20T06:12:26+00:00	200	P2-NK-02.html	24bf7be715f05eefb0d0f854e771f7f1dbb4f1c79e3b7b76caeeec08da09dcd8	

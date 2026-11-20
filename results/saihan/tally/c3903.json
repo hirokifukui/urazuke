@@ -1,0 +1,13 @@
+{
+ "dir": "saihan",
+ "check": "c3903",
+ "label": "",
+ "note": "犯罪白書 5-4-2図：再処分の内容の和、再処分率の再計算、版間",
+ "source": "check",
+ "compared": 561,
+ "mismatched": 9,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "c827ef26538c7b8880d6fa8410abfe9b5b38ef5d62fce385cefae7ff7e4b2552",
+ "written_utc": "2026-11-17T12:23:29Z"
+}

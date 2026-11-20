@@ -1,0 +1,13 @@
+{
+ "dir": "gyakutai",
+ "check": "c4003",
+ "label": "",
+ "note": "子ども虐待による死亡事例等の検証結果：各表の和と構成割合",
+ "source": "check",
+ "compared": 2114,
+ "mismatched": 6,
+ "explained": null,
+ "read_failures": 203,
+ "script_sha256": "d9411eaec98e84e85d75b1e1471f29ca5461213f76a5325b687a2e16040cb19e",
+ "written_utc": "2026-11-17T12:31:37Z"
+}

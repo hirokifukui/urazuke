@@ -1,0 +1,1717 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "5a616a6770992ae50e374de10b67725c025cbb6efb0e2e00ab0816afdbae45c5": {
+   "ja": "URAZUKE は、公開資料の数値・記載・分析を自動で検証し、確かめられたことと未解決の論点を記録します。Claude・GPT がコードで検証し、別系統の AI が反証を試みます（各記録に検証の状態を表示）。運営者は個別の内容審査を行わず、手順の設計・運用と訂正を担い、最終的な責任を負います。",
+   "en": "URAZUKE automatically verifies the figures, statements and analyses in published materials, and records what has been confirmed and the issues that remain unresolved. Claude and GPT carry out the verification using code, and an independent model attempts a refutation (the verification status is shown on each record). The operator does not review individual content; the operator is responsible for designing and running the procedures and for corrections, and bears final responsibility.",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "58edb3dac4118d4998b02396f1d74e39b52d75b7ca18f220744e3e192d2f35c4": {
+   "ja": "スクリプト・取得資料の一覧・各記録の根拠は GitHub で公開しており、同じ資料から同じ計算を再現できます。URAZUKE 自身の記録も検証の対象とし、異論や追加資料を受けて更新・訂正します。",
+   "en": "The scripts, the list of retrieved materials and the basis for each record are published on GitHub, so the same calculations can be reproduced from the same materials. URAZUKE's own records are also subject to verification, and are updated or corrected in response to objections or additional materials.",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a1c18ced80744db33fe8936cfa9679be445dd8f7e81d36aef367b301b367e362": {
+   "ja": "約13万8千の値（全表の内部整合・版間・警察白書／犯罪白書との突き合わせ）は記録なし。犯罪統計書 第56表の関係の区分（KH-K1、作業ノートは results/stalker/FINDINGS.md）",
+   "en": "No record for about 138,000 values (internal consistency of all tables, between editions, and cross-checks against the White Paper on Police / White Paper on Crime). The relationship categories in Table 56 of Crime Statistics (National Police Agency) (KH-K1; working notes are in results/stalker/FINDINGS.md)",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e53428979111e145602bbda9ec80ed4f7dfbe3b5936d21bfb5f67e20dcd3fc7b": {
+   "ja": "照合済み・記録なし（約20万組：都道府県・市区町村・男女・項目の和、報告書との突き合わせ）",
+   "en": "Checked, no record (about 200,000 pairs: sums across prefectures, municipalities, sex and items; cross-checks against the reports)",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "07b8fdf25543fca2177223eb5cf4d80df806b20678d9cdd3862151c5d353609a": {
+   "ja": "推移の表の版間（当初の版を含む、式 3,686、不一致は説明のある改訂だけ）、状況の表の内訳（式 19、不一致 0）、資料の表題の版間（MK-L1）、令和4年度の公表の取組状況の中身の集計（作業ノート）、免許失効データベースの登録件数（MK-L2）",
+   "en": "The trend tables between editions (including the original editions; 3,686 equations; the only mismatches are revisions with an explanation), the breakdown in the status tables (19 equations; 0 mismatches), the titles of the materials between editions (MK-L1), a tally of the contents of the status of publication efforts for FY2022 (working notes), the number of registrations in the licence revocation database (MK-L2)",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "dfc63c813d8d8033f7e8050b9101d6d61abf2b52865b53cd5a0f715d7d9b4208": {
+   "ja": "性犯罪の区分の有無（KM-K1）",
+   "en": "Whether there is a category for sexual offences (KM-K1)",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "97be5b6b1783ee249d36ef002bef23a6ab500d153b592340725f05f12f6e2cee": {
+   "ja": "630調査",
+   "en": "630 Survey",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "014b0fae3685fbb3425e13b1f7f8a870fa4223a51d901096ebcd548c2c861cbf": {
+   "ja": "「2017年も一致」と書いたが、2017年の年度別の表はシート名が違い、照合していなかった。のちに都道府県 611組を照合し不一致0。",
+   "en": "It was written that \"2017 also matches\", but the fiscal-year table for 2017 has a different sheet name and had not been checked. Later, 611 prefecture pairs were checked, with 0 mismatches.",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e6c2378c28d9a993f91ddd85f199845763fd9c3b4c1eaa38251f40402de83269": {
+   "ja": "札幌市の長期データ F7 の年を1年ずらして書いていた（正：2016年 218・2017年 222）。",
+   "en": "The years of Sapporo City's long-term data F7 were written shifted by one year (correct: 218 in 2016, 222 in 2017).",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8f8918f0d31a18e1a370b469737136b985d704ee8e95c159bd2ee7da92af8503": {
+   "ja": "割合の分母を 30,996 と計算していた（正：31,096）。別系統の検証（R006）の指摘。",
+   "en": "The denominator of the proportion was calculated as 30,996 (correct: 31,096). Pointed out by the verification by an independent model (R006).",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a0ebd218ee84067420b9b7c543c6d926b2534f358b3e78e1ced29234176f228a": {
+   "ja": "令和6・7年版の 6,864 を「指標7」と書いていた（正：同名の項目の記載）。R006 の指摘。",
+   "en": "The 6,864 in the 2024 and 2025 editions (Reiwa 6 and 7) was written as \"indicator 7\" (correct: the entry for an item with the same name). Pointed out by R006.",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "2bd65b53cca079892bc871294b0f12b3ea0439db0c3252dbade32d38095e4289": {
+   "ja": "児童虐待事件（警察庁）",
+   "en": "Child abuse cases (National Police Agency)",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "bcd2fa53694654819ada2cd4cd2f99c4257a75fcbb0fcc47e53896fa99d1f67d": {
+   "ja": "令和7年版にも2020年の値があるように書いていた（令和7年版の表は2021年から）。R004 の指摘で書き直し、R005 で支持。",
+   "en": "It was written as if the 2025 edition (Reiwa 7) also contained a value for 2020 (the table in the 2025 edition starts from 2021). Rewritten following the point raised by R004, and supported by R005.",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "bf6e6ac1830f07391d451d4581db44d5a887739bf5114854d48c20976bd04070": {
+   "ja": "ストーカー",
+   "en": "Stalking",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "b10713e81a1f74e45f3c6f714fc960a71eb9e35062d4e4a34d8604850d39064a": {
+   "ja": "「762 が誤りで 768 が正しい」と書いていた（正：不一致は確定、どちらの誤りかは推定）。R004 の指摘。",
+   "en": "It was written that \"762 is the error and 768 is correct\" (correct: the mismatch is established; which value is in error is inferred). Pointed out by R004.",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3e33fc26a96f2bc503e4e519ceced90aeffa6987b06a2689a5f6eda407117f54": {
+   "ja": "文科",
+   "en": "Ministry of Education, Culture, Sports, Science and Technology",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e52fb19cf25f09a6da23857a8dfa47fc476073cdcf3a2a5dceed27ae3ad9f434": {
+   "ja": "差し替えの告知が「ない」と書いたが、告知はファイルの中にあった（ページにはない）。",
+   "en": "It was written that there was \"no\" notice of the replacement, but the notice was inside the file (it is not on the page).",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5a083bf8f318a77edf77c98247ac47dae3662c3b73e6b1dfa96c11063757cd9a": {
+   "ja": "保護局 効果検証",
+   "en": "Rehabilitation Bureau evaluation",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "49c93a6e9b5243a6bb14e07acff18aae59f76bacf646fbaa6d964878bf010b81": {
+   "ja": "SO-H1 に「比較は『仮釈放の時期』に近い」と書いていた。別系統の反証（R007）で判定不能となり、確かめられる範囲（非受講群の76.1%が保護観察3月未満の仮釈放者）に限定した。確認の状態は「機械検証のみ」に戻した。",
+   "en": "SO-H1 stated that \"the comparison is close to 'the timing of parole'\". The refutation by an independent model (R007) found this inconclusive, so it was limited to what can be verified (76.1% of the non-participant group were parolees with less than 3 months of probation). The verification status was returned to \"Machine-verified only\".",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "0287980891e6dbe14a9ccbb79b406693b1c7f87a5cc902cedf6bfcc33eed3c5a": {
+   "ja": "SO-H4 に「刑事施設での受講を考慮しておらず」と書いていた。R007 の指摘で「公表されたモデルは…調整しておらず」に限定した。",
+   "en": "SO-H4 stated that it \"does not take into account participation in penal institutions\". Following the point raised by R007, this was limited to \"the published model does not adjust for…\".",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d7e6717a8a59ed1e91459d0d6949ef6c2609a4874348a46029cd3ea9e9da983e": {
+   "ja": "SO-P1 の文言が、R003 の指摘で直した「逆数と一致する」から「逆数である」に戻っていた。直した文言に戻した。",
+   "en": "The wording of SO-P1 had reverted from \"matches the reciprocal\", which had been corrected following the point raised by R003, to \"is the reciprocal\". It was restored to the corrected wording.",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "806d9da64bafc6d36e0a180cc0a3535a50921c69649e729350feb537ef374d30": {
+   "ja": "KS-A1 の要旨に、5か所とも「翌年の旧受と合う」と書いていた（昭和50年は合わない、昭和19年は翌年の資料がない）。別系統の反証（R009）の指摘で書き直した。",
+   "en": "The summary of KS-A1 stated that at all five locations the values \"match the cases carried over (`旧受`) of the following year\" (1975 does not match, and for 1944 there is no material for the following year). Rewritten following the point raised by the refutation by an independent model (R009).",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "2678e5e2fef8397fe0906929b7efe7cd6b2fe5ad344429c2e4747c97baebf0ee": {
+   "ja": "ES-I1 で、年度の連続が合わない都道府県を「19件」と書いていた（正：延べ17件。19件は全国の2件を含めて数えていた）。指定都市（再掲）の2件も別に記した。別系統の反証（R008）の指摘。",
+   "en": "In ES-I1, the prefectures where the fiscal-year sequence does not match were written as \"19 cases\" (correct: 17 cases in cumulative count; the 19 had been counted including 2 national-level cases). The 2 cases for designated cities (shown again) were also recorded separately. Pointed out by the refutation by an independent model (R008).",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "095c4142de9bc175c733ae3bd9f1e5eb63fa435ed0bd4308b2c1b03ac978c577": {
+   "ja": "JH-A1 に含めていた「参考資料2-13表（1）に令和7年の行がない」は、R008 で「当年」の意味が曖昧として判定不能。事前の基準（H008）どおり記録から外し、作業ノートに旧版の年を明記して残した。",
+   "en": "\"Reference table 2-13 (1) has no row for 2025\", which had been included in JH-A1, was judged inconclusive by R008 because the meaning of \"the current year\" is ambiguous. In accordance with the predefined criterion (H008), it was removed from the record and kept in the working notes with the year of the earlier edition stated explicitly.",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "be2b6234b28b38ab37a4dee645e7a91e4115731915e618ebabff32eca9205f01": {
+   "ja": "死亡事例検証・矯正局 効果検証",
+   "en": "Death review reports and Correction Bureau evaluation",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9f6e880df251237e8087eb4c8fe873639758457262d93a673d7bc0b5ac721986": {
+   "ja": "SD-A1・SD-A2・KP-A1・KP-A2 の影響を「小」としていた。METHODS の規則では「小」は機械判読用など副次的なファイルだけの不備で、これらは本体の表・本文の値の食い違いなので「中」に直した。",
+   "en": "The impact of SD-A1, SD-A2, KP-A1 and KP-A2 had been set to \"Low\". Under the METHODS rules, \"Low\" applies only to defects in secondary files such as machine-readable files; since these are discrepancies between values in the main tables and text, they were changed to \"Medium\".",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "51f2d0ca57c93190dcbf0244e25363f86afd380a8590bb524ed889650f4c1251": {
+   "ja": "死亡事例検証",
+   "en": "Death review reports",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ceb3a44e2affb6c3af6a5925cf26f0bbbb04978860a9bb95fc14f231f394ab5d": {
+   "ja": "SD-A2 の当初の主張は、第20・21次報告の正誤表（令和8年9月1日）を見落とし「第19〜21次に正誤表がない」としていた（公開前）。R010 で判定不能。正誤表を取得して書き直し、R011 で支持された。",
+   "en": "The original claim of SD-A2 overlooked the errata for the 20th and 21st reports (1 September 2026) and stated that \"there are no errata for the 19th to 21st reports\" (before publication). Judged inconclusive by R010. The errata were obtained and the claim was rewritten, and it was supported by R011.",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9ea7a9bc95a3f5e9577e141aa7f978f0bf819d2fbc86de71a7718b19e4a3d5ca": {
+   "ja": "検察統計年報・都道府県決算カード",
+   "en": "Annual Report of Prosecution Statistics and prefectural settlement cards",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "dc134ffdbca79ead880968f565b2b041906f3b2d485475912dadf9d582f1d32f": {
+   "ja": "影響の割当てを METHODS の規則で全件見直した。KS-I1（第2表の未済）と KC-A1（単年度収支）は本体の表の値の食い違いで、「小」の条件（副次的なファイルだけの不備）に当たらないため「中」に直した。",
+   "en": "All impact assignments were reviewed under the METHODS rules. KS-I1 (pending cases in Table 2) and KC-A1 (single-year balance) are discrepancies between values in the main tables and do not meet the condition for \"Low\" (defects only in secondary files), so they were changed to \"Medium\".",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d91030e423869e3d67dc4f868d1b9c123b49730195b11c181ee2046980ab3bc4": {
+   "ja": "矯正局 効果検証",
+   "en": "Correction Bureau evaluation",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d80c627bf0799e2447b35b9338d4f1d1ec34ec3803697bd08d7a9726338f8c1a": {
+   "ja": "同じ見直しで、KP-C1（罪名構成の偏り）は報告書のまとめ（全対象者で効果）の読み方に関わるため「大」に直した（保護局の SO-H1・SO-H2 と同じ扱い）。",
+   "en": "In the same review, KP-C1 (skew in the composition of offences) was changed to \"High\" because it relates to how the report's summary (an effect across all subjects) is read (the same treatment as SO-H1 and SO-H2 of the Rehabilitation Bureau).",
+   "src": "site/build_site.py",
+   "src_commit": "895ed5a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e1d89c34f588cb4fd8d1c52ef6ef11eff2e1c357154c18480439a461aafdaa41": {
+   "ja": "照合 141,721 値（全表の内部整合・版間・警察白書との突き合わせ）、食い違い 2 件（説明のある違い）。記録は犯罪統計書 第56表の関係の区分（KH-K1、作業ノートは results/stalker/FINDINGS.md）",
+   "en": "Checked 141,721 values (internal consistency of all tables, between editions, and comparison with the White Paper on Police); 2 discrepancies (differences with an explanation). The record concerns the relationship categories in Table 56 of the Crime Statistics (National Police Agency) (KH-K1; working notes in results/stalker/FINDINGS.md)",
+   "src": "site/build_site.py",
+   "src_commit": "a0d03da+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8a8da65f412ae1f8ca1c96065d401766d6afef4a86044924b2f708bc55707142": {
+   "ja": "照合 203,316 組（都道府県・市区町村・男女・項目の和、報告書との突き合わせ）、不一致 0。記録なし",
+   "en": "Checked 203,316 pairs (sums by prefecture, municipality, sex and item, and comparison with the report); 0 mismatches. No record",
+   "src": "site/build_site.py",
+   "src_commit": "a0d03da+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9ee257d28ebd1f14bcfdfe5cbd9739fe7abadd754cb7adf426a9acd086ad9bda": {
+   "ja": "URAZUKE は誤りを探す場所ではありません。公開データが示されたとおりに再現できるかを確かめ、合っていたことも食い違っていたことも、同じ手順で記録します。これまでに照合した値の大部分は、合っていました（下の「確かめたこと」）。",
+   "en": "URAZUKE is not a place for searching for errors. It checks whether published data can be reproduced as stated, and records both what matched and what disagreed using the same procedure. Most of the values checked so far have matched (\"What was confirmed\" below).",
+   "src": "site/build_site.py",
+   "src_commit": "d9f89b5+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "099482403ac84acd4a178b67fe24c718690f71e4793e9715f129b4bb3cc6491e": {
+   "ja": "「日本の犯罪・司法・精神医療に関する公開データを、再現可能な方法で検証し、継続的に記録する。サイトの主役は『不正や誤りの発見』でなくてよい。」",
+   "en": "“Verify Japan's public data on crime, justice and psychiatric care using reproducible methods, and record the results continuously. The site's main role need not be ‘the discovery of irregularities or errors’.”",
+   "src": "site/build_site.py",
+   "src_commit": "d73ea29+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "c741e0408cd78aac15baf584fa084fdf98c7f174e90af1c88ed5581530e25514": {
+   "ja": "2026年11月16日、URAZUKE を始めたときに決めた理念（のちに範囲に「福祉」を加えた）。合っていたことも食い違っていたことも、同じ手順で記録します。これまでに照合した値の大部分は、合っていました（下の「確かめたこと」）。",
+   "en": "This is the principle decided on 16 November 2026, when URAZUKE was started (“welfare” was later added to its scope). Both what matched and what disagreed are recorded using the same procedure. Most of the values cross-checked so far have matched (see “What was confirmed” below).",
+   "src": "site/build_site.py",
+   "src_commit": "d73ea29+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a0d62ea56433ee5c0a06fbb4e42e824d0e84518584f84374187555eea71023ce": {
+   "ja": "公開データを使う人が、その数字を裏付けとして使えるかどうかを確かめられるようにするための場所です。合っていたことも食い違っていたことも、同じ手順で記録します。",
+   "en": "This is a place for people who use published data to check whether those figures can be used as supporting evidence. Cases where the figures matched and cases where they disagreed are both recorded using the same procedure.",
+   "src": "site/build_site.py",
+   "src_commit": "d73ea29+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e828c9af62623fc66095369e23e2c8d4d411b2ecf520ce3fc670b5eb55487fdc": {
+   "ja": "その数字を裏付けとして使えるかどうかを、使う人が確かめられるように。合っていたことも、食い違っていたことも、まだ決着のつかない論点も、同じ手順で残します。",
+   "en": "So that those who use a figure can check whether it can serve as supporting evidence. What matched, what disagreed, and points not yet settled are all recorded by the same procedure.",
+   "src": "site/build_site.py",
+   "src_commit": "5c5a195+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "f1a20de0abf9ca11e6903bf1ca495c9dbc388539fc4d3437b71aa1ff1111c0dc": {
+   "ja": "スクリプト、取得した資料の一覧、各記録の根拠は GitHub に公開し、同じ資料から同じ計算を誰でもやり直せるようにしています。URAZUKE の記録そのものも検証の対象です。異論や追加の資料を受けて、更新し、訂正します。",
+   "en": "The scripts, the list of retrieved materials and the basis for each record are published on GitHub, so that anyone can redo the same calculations from the same materials. URAZUKE's records themselves are also subject to verification. They are updated and corrected in response to objections and additional materials.",
+   "src": "site/build_site.py",
+   "src_commit": "5c5a195+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "2b4787ee572012abc4b28d70b45599848f765a5644e2105a7f1b1e216b3ece6b": {
+   "ja": "検証は AI が行います。Claude（Anthropic）と GPT（OpenAI）がコードで数値・記載・分析を照合し、別系統の AI が反証を試みます。検証の状態は各記録に示します。運営者は個々の内容を判断せず、手順の設計と運用、訂正を担い、最終的な責任を負います。",
+   "en": "Verification is carried out by AI. Claude (Anthropic) and GPT (OpenAI) use code to check figures, statements and analyses, and an independent AI (from a different company) attempts a refutation. The status of verification is shown in each record. The operator does not judge individual content; the operator is responsible for designing and running the procedures and for making corrections, and bears final responsibility.",
+   "src": "site/build_site.py",
+   "src_commit": "cbbaa0d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3e545a8fb304203a8b1c7b1967ba7c6fd9d669cd5a2e4720c36788521ab7c119": {
+   "ja": "照合 327,069 組（都道府県・市区町村・男女・項目の和、報告書との突き合わせ）、不一致 10317。記録なし",
+   "en": "Checked 327,069 pairs (sums across prefectures, municipalities, sex and items, and comparison with the report); 10317 mismatches. No records",
+   "src": "site/build_site.py",
+   "src_commit": "699a7d2",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d0b12956d0a2f04028fe4d7ce39459447a8c8258d50c93628b7eaf83d3ab6c31": {
+   "ja": "記録は犯罪統計書 第56表の関係の区分（KH-K1、作業ノートは results/stalker/FINDINGS.md）",
+   "en": "The record concerns the relationship categories in Table 56 of the Crime Statistics (National Police Agency) (KH-K1; working notes are in results/stalker/FINDINGS.md)",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e5c0826623d91dfda49773a0a9ac5f2ecf69745a06e1b544c4c57ec7ac0ff235": {
+   "ja": "記録なし",
+   "en": "No record",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "137d17b64c97e7367f7cbe474b9a19293bfef6fccf93c0a3f75bfa0e711cd015": {
+   "ja": "犯罪白書 資料1-1（令和2〜7年版）と犯罪統計資料 第1表",
+   "en": "White Paper on Crime Appendix Table 1-1 (2020–2025 editions (Reiwa 2–7)) and Crime Statistics Materials Table 1",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "b0c1af87bbeebc47f118d3b0b79466d6521f69480eabacfd7a92494fc07d3a4e": {
+   "ja": "犯罪白書 令和7年版：資料1-1・1-1-1-1図の内部整合と突き合わせ",
+   "en": "White Paper on Crime 2025 edition (Reiwa 7): internal consistency of Appendix Table 1-1 and Figure 1-1-1-1, and cross-checking",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5d0b265d0db45e1bc2dee8a4edf46ea710d359ae29260fa0d2a7a95b3f332c1b": {
+   "ja": "犯罪白書 令和7年版 第5編：再犯・再入の図表の内部整合と突き合わせ",
+   "en": "White Paper on Crime 2025 edition (Reiwa 7), Part 5: internal consistency of the figures and tables on reoffending and reimprisonment, and cross-checking",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3f4fed77efee50e6fef0fa306c1959f20fc5560afd5bfa5b563ad533323ebe49": {
+   "ja": "犯罪白書 令和7年版と矯正統計年報・検察統計年報（2024年）",
+   "en": "White Paper on Crime 2025 edition (Reiwa 7) and the Annual Report of Correctional Statistics and Annual Report of Prosecution Statistics (2024)",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3a7a5fd3cafb1b9ba504aee4b1320dded07f0de882fd5edfa7bcdb23fa0c0501": {
+   "ja": "犯罪白書 平成26〜令和7年版：刑法犯の資料と再犯者の図の、同じ年の値の版どうしの比較",
+   "en": "White Paper on Crime 2014–2025 editions (Heisei 26 – Reiwa 7): comparison between editions of values for the same year in the appendix tables on Penal Code offences and the figures on reoffenders",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "4848ebb4fa2e2189a24fbe32eb7bbe85eab522a7acc8dd5a179b3e86b0b0dfeb": {
+   "ja": "犯罪統計資料と犯罪白書、警察庁の訂正の反映",
+   "en": "Crime Statistics Materials and the White Paper on Crime: reflection of National Police Agency corrections",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "fa9008aafb4cd17600bcc724cb3ff601c1aee3a8cf61a60ca3def6d2feeaa1c0": {
+   "ja": "犯罪白書 本文の「N（前年比M（P％））」の内部計算",
+   "en": "White Paper on Crime: internal calculation of the text pattern \"N (year-on-year M (P%))\"",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a3a07694158df421752fb8d32919d4e9071659030f7a1b946351b204095ff5ec": {
+   "ja": "犯罪白書 令和7年版：本文の前年比の記述と図表 Excel の前年値",
+   "en": "White Paper on Crime 2025 edition (Reiwa 7): year-on-year statements in the text and previous-year values in the figure and table Excel files",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d5e7524c6bccc6195a14483d17b719d50cfb2a12e71426ffe40953bea934cd7c": {
+   "ja": "犯罪白書 2版間：中身で対応させた表の同じ年の値",
+   "en": "White Paper on Crime, two editions: values for the same year in tables matched by content",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ec0a2b15c18c589e2c0b6a5e2bc93f8ad836122b5a3fcf162d5128d6650b9945": {
+   "ja": "犯罪白書 2版間：値で対応させた列の同じ年の値",
+   "en": "White Paper on Crime, two editions: values for the same year in columns matched by value",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "4f3211405a11aa4522c29d03748c10fba254aeaca85dc3083c8ff81c73c65d7c": {
+   "ja": "犯罪白書 全表：比率の列の再計算と、計と内訳の和",
+   "en": "White Paper on Crime, all tables: recalculation of ratio columns, and sums of breakdowns against totals",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "483851556ae96ce582ea9391eb821ac25ad987aba17af057b1f009ab57cea974": {
+   "ja": "犯罪白書：同じ Excel の閲覧用シートと機械判読用シートの値の出現回数",
+   "en": "White Paper on Crime: occurrence counts of values in the for-viewing sheets and machine-readable sheets of the same Excel file",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "829a2df84335f152b66902e347025dc8309e55eaba95058136456b625631554c": {
+   "ja": "犯罪白書 令和3〜7年版：同じ行の和暦と西暦",
+   "en": "White Paper on Crime 2021–2025 editions (Reiwa 3–7): Japanese era years and Western years in the same row",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a894bc689bd3382a4635cf9a291ac9ff229e4f8769b7349f0355f234f23fa257": {
+   "ja": "犯罪白書 全体版 PDF の表の数値と同じ番号の Excel",
+   "en": "White Paper on Crime: table figures in the full-version PDF and the Excel files with the same number",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "acd26b8c469588e83e624b456f0925e16084266776169805c2f7b1a5e810d62a": {
+   "ja": "犯罪統計資料 CSV：内訳の和と計、うち≦親、増減・率の再計算",
+   "en": "Crime Statistics Materials CSV: sums of breakdowns against totals, \"of which\" ≤ parent, recalculation of changes and rates",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "4720b68f3aff0b7b1c9e195ec8d8aee8cebe28dbb8b8d44da422b8b9a70948fb": {
+   "ja": "犯罪統計資料 CSV：N年版の前年列とN−1年版の当年列",
+   "en": "Crime Statistics Materials CSV: previous-year column in the year-N edition and current-year column in the year-N−1 edition",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "35e5b164f76998e6510bd0b5f5783c1b6fa0f841644d0a83eeebb69312e3f15b": {
+   "ja": "犯罪統計資料 PDF と CSV：版の比較と形式間",
+   "en": "Crime Statistics Materials PDF and CSV: comparison between editions and between formats",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e0515fcc1d801ce0fac1362bae545825aa80568f8a3155f24ba5d16ce2265a59": {
+   "ja": "警察白書の統計表：包括罪種の和と総数、白書と犯罪統計資料 第3表",
+   "en": "White Paper on Police statistical tables: sums of comprehensive offence categories against the total, and the white paper against Crime Statistics Materials Table 3",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "73e528ec24026820bc0bb2c424d036f65ed396bb366d1e02139ef20e0a10ac8b": {
+   "ja": "ストーカー・DV・児童虐待の対応状況：推移表の同じ項目・同じ年の値の、資料の版どうしの比較",
+   "en": "Responses to stalking, domestic violence and child abuse: comparison between editions of the materials of values for the same item and the same year in trend tables",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8614a50ffe5fb7102e9743990518bd5ee3e4221fc2d92c0dbfe91abfc18dd1cc": {
+   "ja": "ストーカー・DV・児童虐待の CSV：親＝子の和、性別の和＝年齢の和、総数＝内訳",
+   "en": "Stalking, domestic violence and child abuse CSV: parent = sum of children, sum by sex = sum by age, total = breakdown",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ea1205b4ac6317f6e08993ce600d0e65b5612b587c96d41310fe42f01e8d7a0f": {
+   "ja": "犯罪白書 5-3-9図の再入率と矯正統計 第64表、白書の版間",
+   "en": "White Paper on Crime Figure 5-3-9 reimprisonment rates and Correctional Statistics Table 64, between editions of the white paper",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ffcb48efb55a571980aa0a290ba0fb4dfcb26d6367f4554aef8936d37bdd86f0": {
+   "ja": "犯罪白書 5-3-10図・5-3-11図：比率・男女・年齢層の和、5-3-9図との一致、版間",
+   "en": "White Paper on Crime Figures 5-3-10 and 5-3-11: sums of ratios, sex and age groups, agreement with Figure 5-3-9, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d1091d69a563283cbebda658b5b6eba9deb2f2a7c2d93154439ae695a60b274f": {
+   "ja": "犯罪白書 5-4-2図：再処分の内容の和、再処分率の再計算、版間",
+   "en": "White Paper on Crime Figure 5-4-2: sums of re-disposition contents, recalculation of re-disposition rates, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "2e68d06c39b0888914731491f896ae44cf8fed1704eb405af4896f11d0d5671a": {
+   "ja": "再犯防止推進白書 平成30〜令和7年版：「年次」の表の同じ年の行の、版どうしの比較",
+   "en": "White Paper on Recidivism Prevention 2018–2025 editions (Heisei 30 – Reiwa 7): comparison between editions of rows for the same year in \"year\" tables",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "314c8130053c9c7fdbcbd46aeda6b0686a40284f12bcb5bfab24780573ca5f17": {
+   "ja": "再犯防止推進白書の刑務所出所者総数と矯正統計年報 表84",
+   "en": "Total prison releasees in the White Paper on Recidivism Prevention and Annual Report of Correctional Statistics Table 84",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "b3f333d7a1772c0f1eb68c7d106db71c3e989eb22f6d3e4656cf1a1a60def50c": {
+   "ja": "再犯防止推進白書 指標7の保護観察終了者（総数）と保護統計年報 表38",
+   "en": "Persons completing probation (total) for Indicator 7 of the White Paper on Recidivism Prevention and Annual Report of Rehabilitation Statistics Table 38",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "26b42c3bffec1ab737614b240818395bc5acb8d1a3e3015857bd21ca690f0aa2": {
+   "ja": "保護局 性犯罪者処遇プログラム効果検証（2020・2012）：表の和、ハザード比と信頼区間、χ²と p 値",
+   "en": "Rehabilitation Bureau: Evaluation of the Sex Offender Treatment Program (2020, 2012): table sums, hazard ratios and confidence intervals, χ² and p values",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9455e89e401f3a9098491b4eb1dd690396d559717631e3795d572e274074977f": {
+   "ja": "公立学校教職員の人事行政状況調査：内訳の和と合計、版の比較",
+   "en": "Personnel Administration Survey of Public School Staff: sums of breakdowns against totals, comparison between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "1cbf85fcb461d7f370933d5b4065ee8f8d75bf1fcf6ec35a5efb799b2d93c33c": {
+   "ja": "福祉行政報告例（児童虐待）：行・列の和と総数、表どうしの総数",
+   "en": "Report on Social Welfare Administration (child abuse): row and column sums against totals, totals across tables",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8094351410345a082073f834d2608cb4cecef3d0b985b2ec318b2694fc47cb67": {
+   "ja": "児童虐待相談対応件数：速報値と確定値（自治体別）、前年度の値、増減の算術",
+   "en": "Child Abuse Consultations Handled: preliminary and final values (by municipality), previous fiscal year values, arithmetic of changes",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "f4b7ece92f3953deb399094b920105e3e826d93a68707cc9fbd727fc1350b061": {
+   "ja": "自殺の統計（地域における自殺の基礎資料）令和6・7年：都道府県の和、内訳の和、男＋女、人口、市区町村の和",
+   "en": "Suicide Statistics (Basic Data on Suicide in Regions) 2024 and 2025: prefecture sums, sums of breakdowns, male + female, population, municipality sums",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6ef46a94affe71a137901b29c56b1014d8068997299b2fd91a28dda7bb8f5d7a": {
+   "ja": "自殺の統計（地域における自殺の基礎資料）10年分：都道府県・市区町村の内訳の和と総数",
+   "en": "Suicide Statistics (Basic Data on Suicide in Regions), 10 years: sums of prefecture and municipality breakdowns against totals",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3c5927565df08627582e57709a52c6aae8ab464e1d47ae50239d141c9727cec7": {
+   "ja": "「自殺の状況」本体の図表4-4・1-1 と基礎資料",
+   "en": "Figures and Tables 4-4 and 1-1 in the main \"Suicide Situation\" report and the basic data",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "7aae900cada293108dc8be1e91ed9cdca6d1f2926aa9912afbc0ed0bea8e1420": {
+   "ja": "自殺の統計：暫定値（1月）と確定値（3月）の同じ表のセル",
+   "en": "Suicide Statistics: cells of the same table in the provisional values (January) and final values (March)",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "dc63393e3abf48a35865cdafb97d1cef32438ff3439888a0609bd1f9362360ef": {
+   "ja": "「自殺の状況」補表2-1（年齢階級別の推移）と基礎資料",
+   "en": "Supplementary Table 2-1 (trends by age group) of \"Suicide Situation\" and the basic data",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "7363ab09d945dd69f6d2b4ace831dff8dfb57f56f8521cc78358934888390f9d": {
+   "ja": "自殺対策白書 参考資料2：令和6・7・8年版の重なる年の値",
+   "en": "White Paper on Suicide Countermeasures Reference Material 2: values for overlapping years in the 2024, 2025 and 2026 editions (Reiwa 6, 7, 8)",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "65839df88db7c0cdae0c8f2887e9ce28e5cd7a4c98b7c83c3d4322da7e8e6283": {
+   "ja": "自殺対策白書：参考資料の内部整合、基礎資料・本文との照合",
+   "en": "White Paper on Suicide Countermeasures: internal consistency of the reference materials, checks against the basic data and the main text",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "247fb7a35ec6258bc5fdd36b18e0c1470adea866192766b3313563c8de907e95": {
+   "ja": "問題行動・不登校等調査：都道府県別の表の和と全国",
+   "en": "Survey on Problem Behavior and School Non-attendance: sums of prefectural tables against the national figure",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "124e6c9f9ed1b405e79f4f7a5e3fc9438145d8cf149c1b4fb77715d06be88e8c": {
+   "ja": "司法統計年報（刑事編）の正誤表と更新版、次の年の年報",
+   "en": "Annual Report of Judicial Statistics (Criminal): errata, updated versions and the following year's annual report",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "32005314f306b1f91388a5415e6b10c561478b8a4ea73985457045b71aeca78f": {
+   "ja": "司法統計年報（刑事編）の正誤表の訂正セル：訂正後の値と更新版、次の年の年報",
+   "en": "Annual Report of Judicial Statistics (Criminal), cells corrected in the errata: corrected values against updated versions and the following year's annual report",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e6451c934b020fbefeb994c2078913c1d0ed396b78915a9a371772bb720c2fe7": {
+   "ja": "司法統計年報 第1表：総数＝訴訟事件＋以外、全裁判所＝各裁判所の和、版間",
+   "en": "Annual Report of Judicial Statistics Table 1: total = litigation cases + other cases, all courts = sum of each court, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a9ca3ef125e20bf58291c5b5132eaef559126cd0a977f2f94b4319f8c52cc5fb": {
+   "ja": "衛生行政報告例（精神保健福祉）：都道府県の和、措置患者・手帳の年度の連続",
+   "en": "Report on Public Health Administration (Mental Health and Welfare): prefecture sums, continuity across fiscal years of involuntary admission patients and certificates",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "41605509e9b5206c333f019b8e6a6dfd1e5a99ecda167fc708c788b1825348d3": {
+   "ja": "人口動態統計 確定数：男女の和、都道府県の和、死因の和、自殺統計との並置",
+   "en": "Vital Statistics (final figures): male + female sums, prefecture sums, cause-of-death sums, side-by-side comparison with Suicide Statistics",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "60fe4d57db56baf40f7e41a8727d68eedcc9c21785fc9aa8b00a932690ea2a4a": {
+   "ja": "国勢調査 主な結果：男女の和、都道府県の和、増減、組替人口、市区町村の和",
+   "en": "Population Census main results: male + female sums, prefecture sums, changes, recombined population, municipality sums",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "55ecb5ff704719bb9ad3f43083fb6a2b61cbdb3bbc6ebee86f86e22b7a21d8c7": {
+   "ja": "住民基本台帳人口移動報告：男女の和、転入超過、行列の和",
+   "en": "Report on Internal Migration (Basic Resident Registration): male + female sums, net in-migration, row and column sums",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5329f90b0789f24de97e1cf98d5c83e0172a23c5db761c56dc61731b70380776": {
+   "ja": "患者調査：表の内部整合、統計表どうし",
+   "en": "Patient Survey: internal consistency of tables, between statistical tables",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6e6d6daefe66739418e383c5533e998fdd1ea6703a8bdea3e319677d2a95e026": {
+   "ja": "医療施設調査：施設数・病床数の和、表どうし",
+   "en": "Survey of Medical Institutions: sums of facility counts and bed counts, between tables",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e3da1ef224623c4b46b07a2559acebb2ec8df3e38fff34eb612b54e8d202ba53": {
+   "ja": "障害者白書 図表1：行の内訳の和",
+   "en": "White Paper on Persons with Disabilities Figure/Table 1: sums of row breakdowns",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "c9211bcff4a7fc278dd31ef70ab474c67a87324753a5bb090be9fc025f7cf040": {
+   "ja": "男女共同参画白書の数値と元の統計",
+   "en": "Figures in the White Paper on Gender Equality and the original statistics",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "01d9f61e707d63c34e43bd3dfd321b9db2823e78d7ab6eac5ba3f19ba613b0a2": {
+   "ja": "こども白書の数値と元の統計",
+   "en": "Figures in the White Paper on Children and the original statistics",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "dbfdc7ca446d7e562375c5f26aa12ca1891c9b681535337e52df46fe266be4d9": {
+   "ja": "毎月勤労統計：指数・前年比の再計算、表どうし",
+   "en": "Monthly Labour Survey: recalculation of indices and year-on-year changes, between tables",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e47683926dc7b9f7f8457205b4d66df89aa60ae92602faf866025680a2f9079b": {
+   "ja": "労働力調査：概要の数値の再計算",
+   "en": "Labour Force Survey: recalculation of figures in the summary",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "2bbf745e6cbf4799f8b3b034e988d726d2ca70ec1404f357c38c1ff0c2d728ce": {
+   "ja": "消費者物価指数：指数から前年比の再計算、PDF と CSV",
+   "en": "Consumer Price Index: recalculation of year-on-year changes from indices, PDF and CSV",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "607e66c6b658750fe0885bb43fa33f47ce2b0703ffb2caaafd6e2279e6911a41": {
+   "ja": "国の決算の概要：数値の照合",
+   "en": "Overview of the national settlement of accounts: cross-checking of figures",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "f99beb3d605cb0786800053ebef2cf6072410f71eb1d26de2c3c292c27f4e21c": {
+   "ja": "矯正統計年報：法務省の統計の正誤情報の訂正が現行ファイルに入っているか",
+   "en": "Annual Report of Correctional Statistics: whether corrections in the Ministry of Justice statistics errata information are included in the current files",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "824b266e28f1ddb6c6d3e8efd777dc75ff4b3efa57f8df0a1b7982220127b3b6": {
+   "ja": "保護統計年報：法務省の統計の正誤情報の訂正が現行ファイルに入っているか",
+   "en": "Annual Report of Rehabilitation Statistics: whether corrections in the Ministry of Justice statistics errata information are included in the current files",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9355ca6b448d9ce9211d2fe08c87a39d883475749e247d872c885c1b241b79a6": {
+   "ja": "検察統計年報：受理・既済・未済の恒等式",
+   "en": "Annual Report of Prosecution Statistics: identity of received, disposed and pending cases",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "783ae3ae6bd944c9dd49e7607070c1c7c60ce0cc34d40951182ec3e8e73c25fb": {
+   "ja": "医療観察法の入院対象者・指定医療機関（厚生労働省）：内訳の和と合計",
+   "en": "Inpatients and designated medical institutions under the Medical Treatment and Supervision Act (Ministry of Health, Labour and Welfare): sums of breakdowns against totals",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "bd1f9c926c5c099cf5f0d0654aa405ee9f907b5ab8d4f18436be7df1433006c4": {
+   "ja": "保護統計の医療観察の表：受理・終結・繰越の式、版間",
+   "en": "Medical treatment and supervision tables in rehabilitation statistics: formula for received, concluded and carried over, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "673a35b593ee7fb792f15a69145416cb0c215efc643f22f5291632425d9478e6": {
+   "ja": "医療観察法の入院対象者の状況（Wayback",
+   "en": "Status of inpatients under the Medical Treatment and Supervision Act (Wayback",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "147c40f034211c2627afad2d7b71d8355ba1e152d83c1b43ceee18eab958a14a": {
+   "ja": "交通事故の発生状況：構成率、版間、本文の前年比",
+   "en": "Traffic accident occurrence: composition ratios, between editions, year-on-year changes in the text",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "7944d075405c4158058f406d2f9a83a424d4a36e1a505cee192ea6e8d5aae622": {
+   "ja": "被保護者調査（月次概数）：差・伸び率、内訳の和、版間",
+   "en": "Public Assistance Recipients Survey (monthly approximate figures): differences and growth rates, sums of breakdowns, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "948e1fa7acafe8e846d09d2dcd2ffab7c6db6133f594c11a80513b14ffd791de": {
+   "ja": "学校基本調査 表1：計＝国立＋公立＋私立、比率、版間",
+   "en": "School Basic Survey Table 1: total = national + public + private, ratios, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5c9ee93c63a72ea18d738d72c481846ef265298feb99cda6ef28cab8c81561d6": {
+   "ja": "人事行政状況調査 体罰：67教育委員会の和と合計、版間",
+   "en": "Personnel Administration Survey, corporal punishment: sum of 67 boards of education against the total, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "2125dbea809051cf76b4c64fa64bbc3a12f3869811609f32d627dd4c6667dc5d": {
+   "ja": "人口推計：表の内部整合と版間",
+   "en": "Population Estimates: internal consistency of tables and between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a209fcbe62bcf1dbc714fa29f66096067ac410ae8cdf6586b6775d8ef2ada9a4": {
+   "ja": "賃金構造基本統計調査 第1表：格差・増減率の再計算、版間、形式間",
+   "en": "Basic Survey on Wage Structure Table 1: recalculation of differentials and rates of change, between editions, between formats",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "7366c8f04c6110bb76e7a1ad67b0d0156b3f3293b033a1027d2b285e3a4b512c": {
+   "ja": "過労死等の労災補償状況 別添資料：内訳の和と合計",
+   "en": "Workers' Compensation for Karoshi and Related Cases, attached materials: sums of breakdowns against totals",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "010e805c7d49fabc309776bf094be59fd2f81c8d5b7fa6794293771d14fb30b8": {
+   "ja": "建設工事受注動態統計：計と内訳、年度・四半期・月の和",
+   "en": "Survey of Construction Orders Received: totals and breakdowns, sums of fiscal year, quarters and months",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5202fe83b5aaacd128e8290e09d61776f973e2b8c87d93a7d08228361d69d80e": {
+   "ja": "国民経済計算 主要系列表1：支出側の恒等式、版間のGDP",
+   "en": "National Accounts (annual estimates) main series Table 1: expenditure-side identity, GDP between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8baa03ef7883a94c68a21b315621ce5292d5705e7908bfe401d6e32ed1f9de37": {
+   "ja": "都道府県決算カード：収支の式、歳入の合計、版間",
+   "en": "Prefectural settlement cards: revenue and expenditure formula, total revenue, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "64048ff435167cbabf614a0e4bf719b1c94b507900caafdecb2803a7f2f655f9": {
+   "ja": "子ども虐待による死亡事例等の検証結果：表1・表2の和と総数、版間",
+   "en": "Reviews of Child Deaths from Abuse: sums of Tables 1 and 2 against totals, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9fc7fe1c5f4bb8feb2a59f4a8bb15e82b2ff2c1dc5482d36fd8373149c10b4c4": {
+   "ja": "子ども虐待による死亡事例等の検証結果：各表の和と構成割合",
+   "en": "Reviews of Child Deaths from Abuse: sums in each table and composition ratios",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "f29d7d773d719ea03a663d4de40b430c8682322db59a954a59150aa176b8cf2b": {
+   "ja": "障害者虐待の対応状況：報道発表の前回調査欄・経年グラフ・増減率",
+   "en": "Responses to abuse of persons with disabilities: previous-survey columns in press releases, trend graphs, rates of change",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5192728c04d363ba0a2fe2cc289593ad81f8f045f6d4dee1ccb7f0162991b6da": {
+   "ja": "障害者虐待の調査結果報告書：構成割合と内訳の和",
+   "en": "Report on survey results on abuse of persons with disabilities: composition ratios and sums of breakdowns",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "54d22ffa9cfbbda73b1a53ea225fce7377980d1b8ca3bc17e2d2d1cc85bdd1e7": {
+   "ja": "障害者虐待の調査結果報告書：都道府県の和と合計、合計と報道発表",
+   "en": "Report on survey results on abuse of persons with disabilities: prefecture sums against totals, totals against press releases",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a35c57c2818a0a4eb23eb989bf9f66237498aa42f8b79a4db37a9061550addb5": {
+   "ja": "障害者虐待の調査結果報告書（縦の表）：構成割合と内訳の和",
+   "en": "Report on survey results on abuse of persons with disabilities (vertical tables): composition ratios and sums of breakdowns",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ca6d2bcaf265dc9aa1c6845d243802afcc1d8d1a38673258a24e6c684efd9100": {
+   "ja": "矯正局の性犯罪再犯防止指導の効果検証（令和2年）：統計量・比率・合計の再計算",
+   "en": "Correction Bureau evaluation of the effect of sex offender recidivism prevention guidance (2020): recalculation of statistics, ratios and totals",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "99f88f0c4cafeaafb9108c32422f5d92ed0c3488301ad89a27f8560ac1e5efff": {
+   "ja": "薬物事犯者のプログラム効果検証（矯正局・保護局）：割合・検定の再計算",
+   "en": "Evaluation of Programs for Drug Offenders (Correction and Rehabilitation Bureaus): recalculation of proportions and tests",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3677e2307bc73ca11087c380576890a0286df9385243920589e9a3396910563d": {
+   "ja": "職業訓練・刑務作業の効果検証（矯正局）と SIB 事業総括：割合・検定の再計算",
+   "en": "Evaluation of Vocational Training and Prison Work (Correction Bureau) and the SIB project final report: recalculation of proportions and tests",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a45fc988ad0d7e513bb97923de1d4afb464917f2a2ea9a3ce5d68c506cc8d2a5": {
+   "ja": "矯正統計 第22表と犯罪白書 4-8-2-2図・4-8-2-3図：年齢の和、高齢者率、版間",
+   "en": "Correctional Statistics Table 22 and White Paper on Crime Figures 4-8-2-2 and 4-8-2-3: age sums, proportion of elderly persons, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "f5c0b1c3c963ada0ed2a14b63c6890fdf978ecf939023b191103ab8a6e2c4a44": {
+   "ja": "教員の懲戒処分（児童生徒性暴力等）の推移の表：和と合計、版間",
+   "en": "Tables on trends in disciplinary actions against teachers (sexual violence against pupils etc.): sums and totals, between editions",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "4d01cdb3194ada4eac6ce6f206cbea650579d0c2bd61905c362594f2672bdf0f": {
+   "ja": "教員の懲戒処分の状況の表：内訳の和と合計、告発の状況の内訳",
+   "en": "Tables on the status of disciplinary actions against teachers: sums of breakdowns against totals, breakdown of the status of criminal complaints",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "7a4e95c43d45aa3d4c43459b5a4c56ad4c6fb9d4218921833319b22dc2761d19": {
+   "ja": "630調査 長期データ：都道府県の和と合計、区分の和、指定都市の和≦道府県",
+   "en": "630 Survey long-term data: prefecture sums against totals, category sums, sum of designated cities ≤ prefecture",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d321d1372dd03a1bae6bf4f4911f8dd9c186b9e61593c3a6e4f081d0f314a15c": {
+   "ja": "630調査 年度別の表（Ⅲ.2.(5)）と長期データ",
+   "en": "630 Survey tables by fiscal year (III.2.(5)) and long-term data",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "53bcb9bec5550a7d97e839695032021fa544c0b8fd3957133ea94215c8ff2bb0": {
+   "ja": "630調査 旧様式（2015・2016年）と長期データ",
+   "en": "630 Survey old format (2015 and 2016) and long-term data",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "01b9c729772ff2cc38c7cf4fd5f946db665ee696d047ec9d7bc6a65fac05800a": {
+   "ja": "630調査 2017年の従来ベース集計と長期データ",
+   "en": "630 Survey 2017 tabulation on the conventional basis and long-term data",
+   "src": "site/build_site.py",
+   "src_commit": "230b2dd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5020013849352d05734384e735e1adab13821d6c503f98927e925b74039734e0": {
+   "ja": "検察統計年報・建設工事受注動態統計・都道府県決算カード",
+   "en": "Annual Report of Prosecution Statistics, Survey of Construction Orders Received and Prefectural Settlement Cards",
+   "src": "site/build_site.py",
+   "src_commit": "6a14342+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9203a140398a44054cded1995d8afa5d85dec0793499c399c52b81f535de8934": {
+   "ja": "影響の見直し（2026-11-17）で記録を作り直したとき、R009 の反映が元に戻っていた：KS-A1 は R009 で誤りとされた文（5か所とも翌年の旧受と合う）に戻り、KS-I1・KJ-L1 の要旨の追記が消え、KS-I1・KJ-L1・KJ-I1・KC-A1 の確認の状態が「機械検証のみ」になっていた。R009 の反映を戻し、作り直しても戻らないよう記録の元の表に書いた。",
+   "en": "When the records were rebuilt in the impact review (2026-11-17), the changes applied from R009 had reverted: KS-A1 had returned to the sentence that R009 found to be an error (in all five places it matches the following year's cases carried over from the previous year (`旧受`)), the additions to the summaries of KS-I1 and KJ-L1 had disappeared, and the confirmation status of KS-I1, KJ-L1, KJ-I1 and KC-A1 had become \"Machine-verified only\". The changes from R009 were restored, and they were written into the source table of the records so that they do not revert when the records are rebuilt.",
+   "src": "site/build_site.py",
+   "src_commit": "6a14342+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "5bbc57c5782575e9fe92733cb3bc0df620ba98a120a8678b578b5d667a3c561b": {
+   "ja": "HK-A3 で、照合した和暦・西暦の組を「36,380組」と書いていた。令和6年版を取得し直した後の数は 50,213組（令和3〜7年版の図表・資料の Excel、同じ行の和暦と西暦）。食い違いが1件だけであることは変わらない。範囲を書き足して直した。",
+   "en": "In HK-A3, the number of Japanese-era and Western year pairs checked had been stated as \"36,380 pairs\". The number after the 2024 edition (Reiwa 6) was re-obtained is 50,213 pairs (the Excel files of figures, tables and materials in the 2021–2025 editions (Reiwa 3–7), with the Japanese-era year and the Western year in the same row). It remains the case that there is only one mismatch. This was corrected by adding the scope.",
+   "src": "site/build_site.py",
+   "src_commit": "6a14342+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9e0619b36b9fea80bb3cb4dfa686f9aec7c105ef36a3997439877da153b8097a": {
+   "ja": "HK-A5 は「科刑状況の Excel が地方裁判所の部分を欠き、簡易裁判所だけを総数として載せる（実際の総数 42,769）」としていた。地方裁判所の部分は資料2-3 の Excel に載っており（令和元年版・令和4年版の Excel には案内の注がある）、記録の撤回の条件に当たる。元の主張を取り下げ、案内の注のない版がある（令和2・3・5・6・7年版）という事実に狭めた。別系統の反証（R022、対照の不備で判定は採らない回）の指摘を資料で確かめた。",
+   "en": "HK-A5 had stated that \"the Excel file on sentencing lacks the district court part and lists only the summary courts as the total (the actual total is 42,769).\" The district court part is in the Excel file for Material 2-3 (the Excel files of the 2019 edition (Reiwa 1) and the 2022 edition (Reiwa 4) contain a note pointing to it), which meets the record's withdrawal condition. The original claim was withdrawn and narrowed to the fact that some editions have no such pointing note (the 2020, 2021, 2023, 2024 and 2025 editions (Reiwa 2, 3, 5, 6 and 7)). The point raised in a refutation by an independent model (R022, a run whose verdict is not adopted because of deficient controls) was confirmed against the materials.",
+   "src": "site/build_site.py",
+   "src_commit": "b323d26+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "678df2923df4f7d337ea26701dcaa7d4fca382a7c0415a1013c299a821d4ab97": {
+   "ja": "HK-A9 で、令和5年版の訂正のお知らせのうち Web 版本文で訂正前の値のままの項目を「7」としていた。頁・行で数えると10か所。数え方を書いて直した。別系統の反証（R023）の指摘。",
+   "en": "HK-A9 had given as \"7\" the number of items in the correction notice for the 2023 edition (Reiwa 5) whose values remain as before correction in the body text of the web version. Counted by page and line, there are 10 places. This was corrected, with the counting method stated. Point raised in a refutation by an independent model (R023).",
+   "src": "site/build_site.py",
+   "src_commit": "b323d26+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "21a980a01e6364bf3eb36534b80caae4a68723650059761b1e8879f411b7cba0": {
+   "ja": "NK-K1 で、認知症スクリーニング検査の結果は「白書の本文にだけ載る」としていた。再犯防止推進白書 令和4年版では特2-1-4表として表にも載る。「白書（本文と特2-1-4表）にだけ載り、矯正統計年報にはない」に直した。別系統の反証（R023）の指摘。",
+   "en": "NK-K1 had stated that the results of the dementia screening test \"appear only in the body text of the white paper.\" In the 2022 edition (Reiwa 4) of the White Paper on Recidivism Prevention, they also appear in a table, `特2-1-4表`. This was corrected to \"appear only in the white paper (body text and `特2-1-4表`) and not in the Annual Report of Correctional Statistics.\" Point raised in a refutation by an independent model (R023).",
+   "src": "site/build_site.py",
+   "src_commit": "b323d26+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d41235a6f97c16334c90697aae09c0aa1bcaa06e3b504d73a641d3cda777f94f": {
+   "ja": "630-M1 で、長期データの内訳の和が在院患者数より小さいのを「2017年以降」としていた。2017年は一致し、差は2018年から。直した。別系統の反証（R025）の指摘。",
+   "en": "630-M1 had stated that the sum of the breakdown in the long-term data is smaller than the number of inpatients \"from 2017 onward.\" The values match in 2017; the difference begins in 2018. This was corrected. Point raised in a refutation by an independent model (R025).",
+   "src": "site/build_site.py",
+   "src_commit": "b323d26+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "a73f82d4413e9210dc964bff929c52fa275a42832312664823fd1bb197f88c07": {
+   "ja": "SH-A1 で、令和2年版の正誤表の訂正を「5か所」としていた。正誤表は9か所（13・18頁の指標の5か所と、223頁の予算額の4か所）。直した。9か所とも全体版 PDF で訂正前の記載のままであることは変わらない。別系統の反証（R027）の指摘。",
+   "en": "SH-A1 had given the number of corrections in the errata for the 2020 edition (Reiwa 2) as \"5 places.\" The errata list 9 places (5 places in indicators on pages 13 and 18, and 4 places in budget amounts on page 223). This was corrected. It remains the case that all 9 places still show the pre-correction text in the full-version PDF. Point raised in a refutation by an independent model (R027).",
+   "src": "site/build_site.py",
+   "src_commit": "b323d26+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "98353526d0e185c59d932c550b17831a91319e4903ce3c8fad39fab3c096e9f3": {
+   "ja": "検証は AI が行います。Claude（Anthropic）と GPT（OpenAI）がコードで数値・記載・分析を照合し、別系統の AI が反証を試みます。検証の状態は各記録に示します。個々の記録の文と判定は人が書き換えません。運営者は対象の選択と手順・表示の設計を決め（変更は方法に記録）、訂正を担い、最終的な責任を負います。",
+   "en": "Verification is carried out by AI. Claude (Anthropic) and GPT (OpenAI) use code to check figures, statements and analyses, and an independent AI (from a different company) attempts a refutation. The verification status is shown in each record. The text and judgments of individual records are not rewritten by humans. The operator decides the selection of subjects and the design of procedures and presentation (changes are recorded in Methods), handles corrections, and bears final responsibility.",
+   "src": "site/build_site.py",
+   "src_commit": "f10a510+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "8322ecb40397a48f54a14ef098da40859ad0bb01e51d75d6260744ab1600d974": {
+   "ja": "記録は犯罪統計書 第56表の関係の区分（KH-K1）",
+   "en": "The record concerns the relationship categories in Table 56 of Crime Statistics (National Police Agency) (KH-K1)",
+   "src": "site/build_site.py",
+   "src_commit": "f10a510+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "90ccd710bb0f359d7be00d3e538a75a1ad144bd6edef0f4c9d754bdff5306f87": {
+   "ja": "GY-Q1：R025 Q2 の反証で判定不能。文を書き直し、R027 Q6 で支持。",
+   "en": "GY-Q1: Inconclusive in the refutation check R025 Q2. The sentence was rewritten and supported in R027 Q6.",
+   "src": "site/build_site.py",
+   "src_commit": "f10a510+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "980f631781306ec5d9c55c6fce921ad0cfa7e9c483dbe675fffc3029b9769602": {
+   "ja": "SB-C1：R014 Q2 の反証で判定不能。文を書き直し、R016 Q4 で支持。",
+   "en": "SB-C1: Inconclusive in the refutation check R014 Q2. The sentence was rewritten and supported in R016 Q4.",
+   "src": "site/build_site.py",
+   "src_commit": "f10a510+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "a928ba5cdb78c226750d0f4cefbb9f678acaa1e6651689d375a3991f9d66cf84": {
+   "ja": "HK-A10：R016 Q1 の反証で判定不能。文を書き直し、R026 Q5 で支持。",
+   "en": "HK-A10: Inconclusive in the refutation check R016 Q1. The sentence was rewritten and supported in R026 Q5.",
+   "src": "site/build_site.py",
+   "src_commit": "f10a510+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "21b02fd16525198ec292b17f4b3737e0b65c03230bdc14438a3fee4d61bb0997": {
+   "ja": "KY-I1：R017 Q2 の反証で反証。文を書き直し、R017 Q3 で支持。",
+   "en": "KY-I1: Refuted in the refutation check R017 Q2. The sentence was rewritten and supported in R017 Q3.",
+   "src": "site/build_site.py",
+   "src_commit": "f10a510+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "c98aed08d5b47a0fa1fcd45c6ee118438a0d9aa2e8cf5da850a4a5013831a235": {
+   "ja": "MK-L2：R020 Q1 の反証で判定不能。文を書き直し、R020 Q2 で支持。",
+   "en": "MK-L2: Inconclusive in the refutation check R020 Q1. The sentence was rewritten and supported in R020 Q2.",
+   "src": "site/build_site.py",
+   "src_commit": "f10a510+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "95bbaabfd4d3f43a0c2c70bf633c16d9291bbaeac0605a211647c046ab558c61": {
+   "ja": "SO-H1 に「比較は『仮釈放の時期』に近い」と書いていた。別系統の反証（R007）で判定不能となり、確かめられる範囲（非受講群の76.1%が保護観察3月未満の仮釈放者）に限定した。確認の状態は「機械検証のみ」に戻した（のちに 2026-11-18 の R024 Q2 で別系統で支持）。",
+   "en": "SO-H1 stated that \"the comparison is close to 'the timing of parole'\". The independent model's refutation check (R007) found this inconclusive, so the statement was limited to what can be confirmed (76.1% of the non-participant group were parolees with less than 3 months of probation supervision). The confirmation status was returned to \"Machine-verified only\" (later, in R024 Q2 on 2026-11-18, it was supported by an independent model).",
+   "src": "site/build_site.py",
+   "src_commit": "daa4427+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "101f89faf5b4fc79058e7e37bd057925067f46aa2699223b55585c53a52474dc": {
+   "ja": "HK-A4：R003 P06 の反証で判定不能。文を書き直した（再反証待ち）。",
+   "en": "HK-A4: Inconclusive in the refutation check R003 P06. The sentence was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "daa4427+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "9f1a255512fddea78cbcbfe04f477b6819022bd5ba6a77dc00b39734735d113e": {
+   "ja": "HK-A7：R003 P02 の反証で判定不能。文を書き直し、R003 P02（追加課題） で支持。",
+   "en": "HK-A7: Inconclusive in the refutation check R003 P02. The sentence was rewritten and was supported in R003 P02 (additional task).",
+   "src": "site/build_site.py",
+   "src_commit": "daa4427+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "840b5968f0d0b2509bfb7bd72c837ea214c6dec759fc78918bb2081565aa3ff8": {
+   "ja": "ST-B1：R004 H005 の反証で判定不能。文を書き直し、R005 Q2 で支持。",
+   "en": "ST-B1: Inconclusive in the refutation check R004 H005. The sentence was rewritten and was supported in R005 Q2.",
+   "src": "site/build_site.py",
+   "src_commit": "daa4427+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "6a162930762b65bc83c3340cf957ca6f1d636cc20c49a651de8b974290e944f6": {
+   "ja": "検証は AI が行います。照合と記録は Claude（Anthropic）がコードで行います。反証は、照合に関わらない GPT（OpenAI）が行います。主張の文を、真偽の分かっている対照の文と混ぜて渡し、渡した資料だけで判定させます（独立の専門家の査読ではありません）。検証の状態は各記録に示します。個々の記録の文と判定は人が書き換えません。運営者は対象の選択と手順・表示の設計を決め（変更は方法に記録）、訂正を担い、最終的な責任を負います。",
+   "en": "Verification is carried out by AI. Cross-checking and recording are done by Claude (Anthropic) using code. Refutation is carried out by GPT (OpenAI), which takes no part in the cross-checking. The statements of the claims are given to it mixed with control statements whose truth or falsehood is known, and it is made to judge them using only the materials provided (this is not peer review by independent experts). The verification status is shown in each record. The text and judgments of individual records are not rewritten by humans. The operator decides the selection of subjects and the design of the procedures and presentation (changes are recorded in Methods), is responsible for corrections, and bears final responsibility.",
+   "src": "site/build_site.py",
+   "src_commit": "daa4427+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "74e22c712b5e4e2cd048bcda12a23c93d07a9a056f12a5d01461e23026896914": {
+   "ja": "HK-A7：R003 P02 の反証で判定不能。文を書き直し、R003 P02+ で支持。",
+   "en": "HK-A7: The refutation check in R003 P02 was inconclusive. The sentence was rewritten and was supported in R003 P02+.",
+   "src": "site/build_site.py",
+   "src_commit": "daa4427+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "2058f0e7ae89c4ddd65dd7f3465e79c8aed45c5269574da947735f9d0ece95d8": {
+   "ja": "HK-A1：R049 Q1 の反証で判定不能。文を書き直し、R057 Q1 で反証。",
+   "en": "HK-A1: the refutation check R049 Q1 was inconclusive. The sentence was rewritten; R057 Q1 refuted it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "7da89afad2d811db968cc4cbd7accf38c39d20cee781fe9b2332c9429fd843a4": {
+   "ja": "HK-A1：R057 Q1 の反証で反証。文を書き直した（再反証待ち）。",
+   "en": "HK-A1: the refutation check R057 Q1 refuted it. The sentence was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "fa44dde4c096028da094140c2f87986a9c400b2bb7b7fa8f346436f2cd43f56e": {
+   "ja": "HK-A2：R049 Q4 の反証で判定不能。文を書き直し、R057 Q4 で支持。",
+   "en": "HK-A2: the refutation check R049 Q4 was inconclusive. The sentence was rewritten; R057 Q4 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "f28d1b74aa1b1520a2171a95842dcb3499a81b26f4693965794b760b5fd78eff": {
+   "ja": "HK-A4 に「列が1つずれ」と書いていた。平易版の反証（R049 Q6）で、本体の D〜J 列に対して F〜L 列にあり、2列右であることが分かった。要旨を直した。",
+   "en": "HK-A4 stated that \"the columns are shifted by one\". The refutation check of the plain-language version (R049 Q6) found that the values are in columns F–L, against columns D–J in the main table, i.e. two columns to the right. The summary was corrected.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "4e4025499987d064599600aee4b53da74de94debc25d8a8ea7c08188677315c3": {
+   "ja": "HK-A6：R049 Q8 の反証で判定不能。文を書き直し、R057 Q8 で支持。",
+   "en": "HK-A6: the refutation check R049 Q8 was inconclusive. The sentence was rewritten; R057 Q8 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "32f9725962cf17559798e1db2c3d79cf3c5dd63668cf91b3033d2dec114465fb": {
+   "ja": "HK-A7：R049 Q10 の反証で判定不能。文を書き直し、R057 Q10 で支持。",
+   "en": "HK-A7: the refutation check R049 Q10 was inconclusive. The sentence was rewritten; R057 Q10 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "b8ad9215f0fa8edfb65a8bab1bf4f36cf34794b4323eab4732c3f92b88f6784d": {
+   "ja": "HK-I1：R051 Q5 の反証で判定不能。文を書き直し、R058 Q5 で支持。",
+   "en": "HK-I1: the refutation check R051 Q5 was inconclusive. The sentence was rewritten; R058 Q5 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "08d7c0a1b5e1a596f380cd2ca47d4e5951def178fbdb2d284b07a716cbd6dae1": {
+   "ja": "HK-B1：R051 Q4 の反証で判定不能。文を書き直し、R058 Q4 で支持。",
+   "en": "HK-B1: the refutation check R051 Q4 was inconclusive. The sentence was rewritten; R058 Q4 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "c9b1e0f89915008da32d8870d2f3587af14b9050c120d25eed2bfc737eb16d9c": {
+   "ja": "630-A1：R052 Q6 の反証で判定不能。文を書き直し、R058 Q6 で支持。",
+   "en": "630-A1: the refutation check R052 Q6 was inconclusive. The sentence was rewritten; R058 Q6 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "e26cfa28b4a4df957d1388f4fbf9480550ba29a5d97e91e4d29f96eecfd25ad9": {
+   "ja": "630-D1：R052 Q7 の反証で判定不能。文を書き直し、R058 Q7 で判定不能。",
+   "en": "630-D1: the refutation check R052 Q7 was inconclusive. The sentence was rewritten; R058 Q7 was inconclusive.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "cc3d79dcdacf5214def29c3b7d9e3cfd2671965d0974bcbbecda2b6a18f2c563": {
+   "ja": "630-D1：R058 Q7 の反証で判定不能。文を書き直した（再反証待ち）。",
+   "en": "630-D1: the refutation check R058 Q7 was inconclusive. The sentence was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "fbf3ab4da535e1c792f54380f871714cc7a27c27e02643f58e778bbc58175336": {
+   "ja": "ST-I1：R052 Q4 の反証で判定不能。文を書き直し、R060 Q3 で支持。",
+   "en": "ST-I1: the refutation check R052 Q4 was inconclusive. The sentence was rewritten; R060 Q3 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "dc1b7ec68e7f71e35c96c107083a3fe15128f5e5de998efc34b179a2a6c92c7b": {
+   "ja": "ST-B1：R052 Q1 の反証で判定不能。文を書き直し、R060 Q1 で支持。",
+   "en": "ST-B1: the refutation check R052 Q1 was inconclusive. The sentence was rewritten; R060 Q1 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "c8dee557f3a5e1bb006136c6159a7281f596ee0e77bd331ad8a098bd45a6fc52": {
+   "ja": "MK-I1：R053 Q5 の反証で判定不能。文を書き直し、R059 Q1 で判定不能。",
+   "en": "MK-I1: the refutation check R053 Q5 was inconclusive. The sentence was rewritten; R059 Q1 was inconclusive.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "c16441dcd556b794957225de100d98249802bdd4f861a804b06c7cc10ec4af0c": {
+   "ja": "MK-I1：R059 Q1 の反証で判定不能。文を書き直した（再反証待ち）。",
+   "en": "MK-I1: the refutation check R059 Q1 was inconclusive. The sentence was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "ff803c4f75468ee6223a51d5112e2e285b93481344291c323ce11d2845c993a5": {
+   "ja": "SH-B1：R051 Q8 の反証で判定不能。文を書き直し、R059 Q7 で判定不能。",
+   "en": "SH-B1: the refutation check R051 Q8 was inconclusive. The sentence was rewritten; R059 Q7 was inconclusive.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "ec5728ec293efffd1b6fa72265141a5aa02e0f406ab3e22db2f7a06cf1f7dcc8": {
+   "ja": "SH-B1：R059 Q7 の反証で判定不能。文を書き直した（再反証待ち）。",
+   "en": "SH-B1: the refutation check R059 Q7 was inconclusive. The sentence was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "23de646fbb421eda8b64f29331763606bb4cea46bb9bb454f13733906f7f019d": {
+   "ja": "SH-A2：R051 Q7 の反証で判定不能。文を書き直し、R059 Q6 で判定不能。",
+   "en": "SH-A2: the refutation check R051 Q7 was inconclusive. The sentence was rewritten; R059 Q6 was inconclusive.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "b7c73186b52a75c5f3f9501fb5f66fb02ebd0cb7ba99e03afbf8282a5bc44e44": {
+   "ja": "SH-A2：R059 Q6 の反証で判定不能。文を書き直した（再反証待ち）。",
+   "en": "SH-A2: the refutation check R059 Q6 was inconclusive. The sentence was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "4839ac72172b46e5caafdd7c8b7406274bf21e21a08d91dc9d81acdfe74b0d6c": {
+   "ja": "SJ-A1：R056 Q3 の反証で反証。文を書き直し、R061 Q7 で支持。",
+   "en": "SJ-A1: the refutation check R056 Q3 refuted it. The sentence was rewritten; R061 Q7 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "d1e2a6daa7116345b7911bb11a0fa9e7c1bda85f4cb565ebdbe37f8fff9c6c8e": {
+   "ja": "HK-A8：R051 Q1 の反証で判定不能。文を書き直し、R058 Q1 で支持。",
+   "en": "HK-A8: the refutation check R051 Q1 was inconclusive. The sentence was rewritten; R058 Q1 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "daa0b698760e2a192a2e0fca8c7f75de82d1716fa5f3cd21b5bff164bdec7557": {
+   "ja": "YK-C1：R054 Q5 の反証で判定不能。文を書き直し、R059 Q8 で判定不能。",
+   "en": "YK-C1: the refutation check R054 Q5 was inconclusive. The sentence was rewritten; R059 Q8 was inconclusive.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "e48ce2a65dc41ca625829d5cad59fa7810cce43178920b796454567d5936f380": {
+   "ja": "YK-C1：R059 Q8 の反証で判定不能。文を書き直した（再反証待ち）。",
+   "en": "YK-C1: the refutation check R059 Q8 was inconclusive. The sentence was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "f53b9fc2ffdaff437b74c4c8b5a7877f990fb5f7a2d6c2ca22d80e9b43142ed6": {
+   "ja": "YK-D1 の「保護観察期間６月以内は 10.3％・95.0％」は、表1の表示の割合を足した値だった。平易版の反証（R054 Q6）で、人数から計算すると 10.2％・95.1％であることが分かった。要旨を直した。",
+   "en": "In YK-D1, \"probation period of 6 months or less: 10.3% and 95.0%\" was a value obtained by adding the percentages displayed in Table 1. The refutation check of the plain-language version (R054 Q6) found that calculating from the numbers of persons gives 10.2% and 95.1%. The summary was corrected.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "382e720aee3da41e1c4b678176bf2b8e2435b854a29ca63ef29ba2c22867c030": {
+   "ja": "BV-P1：R053 Q10 の反証で判定不能。文を書き直し、R058 Q10 で支持。",
+   "en": "BV-P1: the refutation check R053 Q10 was inconclusive. The sentence was rewritten; R058 Q10 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "238bba1ac49e38e5a13a97c1634e1dbf5aa413f01690a495bebaac194c744a3c": {
+   "ja": "SB-C1：R056 Q1 の反証で判定不能。文を書き直し、R061 Q5 で支持。",
+   "en": "SB-C1: the refutation check R056 Q1 was inconclusive. The sentence was rewritten; R061 Q5 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "da1f9ae46e59761bb5021a122a424dfdf611fbf3464bfcc62f951af182cbb4b8": {
+   "ja": "HK-A10：R049 Q3 の反証で判定不能。文を書き直し、R057 Q3 で支持。",
+   "en": "HK-A10: the refutation check R049 Q3 was inconclusive. The sentence was rewritten; R057 Q3 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "3ead476b6d8921478dc12db102632c1977502a0bb534655c9fec4538825f6100": {
+   "ja": "KY-I1：R055 Q8 の反証で判定不能。文を書き直し、R061 Q3 で支持。",
+   "en": "KY-I1: the refutation check R055 Q8 was inconclusive. The sentence was rewritten; R061 Q3 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "4b13f55d2f429147c2c8565ae7ea2b3a1af3df716fb9feea115602803b24779e": {
+   "ja": "MK-L1：R053 Q6 の反証で判定不能。文を書き直し、R059 Q3 で支持。",
+   "en": "MK-L1: the refutation check R053 Q6 was inconclusive. The sentence was rewritten; R059 Q3 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "54b50991b5aef422227140b51a50c7a787b67971b1eddc090a1146543e4af812": {
+   "ja": "KM-K1：R055 Q7 の反証で判定不能。文を書き直し、R061 Q1 で反証。",
+   "en": "KM-K1: the refutation check R055 Q7 was inconclusive. The sentence was rewritten; R061 Q1 refuted it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "cf7682c790ffaaab99fbd82492d2c77ffc7bf6cb827a48e3e12ff4894c65be08": {
+   "ja": "KM-K1：R061 Q1 の反証で反証。文を書き直した（再反証待ち）。",
+   "en": "KM-K1: the refutation check R061 Q1 refuted it. The sentence was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "e2d9a0558ad27ac6e737bfdcb6ae1fb8e700c12707a45fc1ca190351ff90d32c": {
+   "ja": "MK-L2：R053 Q7 の反証で判定不能。文を書き直し、R059 Q4 で判定不能。",
+   "en": "MK-L2: the refutation check R053 Q7 was inconclusive. The sentence was rewritten; R059 Q4 was inconclusive.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "2ab9fc4205ac186e1fcd796035b96844bf0e8452a3fd9fb39aff9491bbd0b2cf": {
+   "ja": "MK-L2：R059 Q4 の反証で判定不能。文を書き直した（再反証待ち）。",
+   "en": "MK-L2: the refutation check R059 Q4 was inconclusive. The sentence was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "d9647afdf67a2f007703345e1d3aac63a2713571d9dd41fba78bf3d008f8b4e0": {
+   "ja": "ST-I2：R052 Q5 の反証で判定不能。文を書き直し、R060 Q4 で反証。",
+   "en": "ST-I2: the refutation check R052 Q5 was inconclusive. The sentence was rewritten; R060 Q4 refuted it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "b17fe79afde8a093652ea035288cdd6475aa3cc7693b8a118cdbed3cacac9506": {
+   "ja": "ST-I2：R060 Q4 の反証で反証。文を書き直した（再反証待ち）。",
+   "en": "ST-I2: the refutation check R060 Q4 refuted it. The sentence was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "4cc0df2b5adf2ae225e0c36b8db091eee8ab627e7adbdfed683d2ceb1d2f40b9": {
+   "ja": "KH-K1：R055 Q6 の反証で判定不能。文を書き直し、R060 Q8 で支持。",
+   "en": "KH-K1: the refutation check R055 Q6 was inconclusive. The sentence was rewritten; R060 Q8 supported it.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "27c438ae791b9844ffff3845f676fc69d9cbaa26c3188bbe196fff0ad4a17ac2": {
+   "ja": "薬物（保護観察）効果検証",
+   "en": "Evaluation of Drug Programs (Probation)",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "0441644b598fbcc26ebec268d81820641042d75247b4c0d84f67964ff67a9c0a": {
+   "ja": "HK-A1：R057 Q1 の反証で反証。文を書き直し、R062 Q5 で支持。",
+   "en": "HK-A1: refuted in the refutation check R057 Q1. The statement was rewritten and supported in R062 Q5.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "e2707a620670f8ae73280f406ba2ea71c113167b155d078452cab91b88877bf2": {
+   "ja": "630-D1：R058 Q7 の反証で判定不能。文を書き直し、R062 Q10 で支持。",
+   "en": "630-D1: inconclusive in the refutation check R058 Q7. The statement was rewritten and supported in R062 Q10.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "3341451a0a76f49441ab861771a10d3a5a259a7316263f65b221b751bce679c4": {
+   "ja": "MK-I1：R059 Q1 の反証で判定不能。文を書き直し、R062 Q7 で支持。",
+   "en": "MK-I1: inconclusive in the refutation check R059 Q1. The statement was rewritten and supported in R062 Q7.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "2fb7a2e32dcb55c7ae4cfd3dec2e24bde1696d6b68fac11e01193f8339742252": {
+   "ja": "SH-B1：R059 Q7 の反証で判定不能。文を書き直し、R062 Q4 で支持。",
+   "en": "SH-B1: inconclusive in the refutation check R059 Q7. The statement was rewritten and supported in R062 Q4.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "7f2ffc34559b4b25094ee293f60a6293fa8e1a7a66c46a2b90e3256b13ece5c2": {
+   "ja": "SH-A2：R059 Q6 の反証で判定不能。文を書き直し、R062 Q3 で支持。",
+   "en": "SH-A2: inconclusive in the refutation check R059 Q6. The statement was rewritten and supported in R062 Q3.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "3bce584f9a37821b4aaad0b912c6016a7a122da00d86ad08d9ca212f7068fb9a": {
+   "ja": "YK-C1：R059 Q8 の反証で判定不能。文を書き直し、R063 Q1 で判定不能。",
+   "en": "YK-C1: inconclusive in the refutation check R059 Q8. The statement was rewritten and was inconclusive in R063 Q1.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "c7539681fdad9efa00cc895e37e419971ca28981218a01ee667b7dce881728d9": {
+   "ja": "YK-C1：R063 Q1 の反証で判定不能。文を書き直した（再反証待ち）。",
+   "en": "YK-C1: inconclusive in the refutation check R063 Q1. The statement was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "565c0e8e53660b2738403cf9a95478d3ce84ef7c3a7195c20805b136ab830c15": {
+   "ja": "KM-K1：R061 Q1 の反証で反証。文を書き直し、R063 Q4 で支持。",
+   "en": "KM-K1: refuted in the refutation check R061 Q1. The statement was rewritten and supported in R063 Q4.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "afba6fd19e39f034d754409072069346e0cabd3b6bf31a40e539065a2b58727c": {
+   "ja": "MK-L2：R059 Q4 の反証で判定不能。文を書き直し、R062 Q8 で支持。",
+   "en": "MK-L2: inconclusive in the refutation check R059 Q4. The statement was rewritten and supported in R062 Q8.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "1c14bcccb77389ba1d8fbf3b8161f1f2ee5a189ef47a0240f9f07f6fd850ce25": {
+   "ja": "ST-I2：R060 Q4 の反証で反証。文を書き直し、R063 Q7 で反証。",
+   "en": "ST-I2: refuted in the refutation check R060 Q4. The statement was rewritten and refuted in R063 Q7.",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "159febc5cc5e73a9ba1bc5d7fe8226574817a57b628c0fd9d9ecc4c7b1e97b1a": {
+   "ja": "ST-I2：R063 Q7 の反証で反証。文を書き直した（再反証待ち）。",
+   "en": "ST-I2: refuted in the refutation check R063 Q7. The statement was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "4701e69+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-19"
+  },
+  "c8d550cc026766c236ddb1b66c96733095d8a2c3f367250608de91bb535ff808": {
+   "ja": "HK-A7：R003 P02 の反証で判定不能。文を書き直した（再反証待ち）。",
+   "en": "HK-A7: inconclusive in the refutation check at R003 P02. The text was rewritten (awaiting a new refutation check).",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "9e9b07f1c267e69e868ea5bfb5823b638d824d2dd62198e8a189421b7d4da520": {
+   "ja": "ST-I1 の根拠の原文が 762 の行だけで、年の見出し・内訳の行・相談等件数 19,131 がなかった。表の見出しと内訳の各行、19,131 の行を足し、和の式を添えた（要旨は変えていない）。サイトの定期の点検（2026-11-19）の指摘。",
+   "en": "The source text cited as the basis for ST-I1 contained only the row for 762; the year heading, the breakdown rows and the number of consultations etc., 19,131, were absent. The table heading, each breakdown row and the row for 19,131 were added, together with the summation formula (the gist was not changed). Pointed out in the site's periodic review (2026-11-19).",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "0ccdf62a4db42cc48a8294be58d5590cb8b0dd3961a61b861b2ec439c94bb7fc": {
+   "ja": "SH-A1：R023 Q4 の反証で判定不能。文を書き直し、R027 Q8 で反証。",
+   "en": "SH-A1: inconclusive in the refutation check at R023 Q4. The text was rewritten and refuted at R027 Q8.",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "900ae342f9147d36f24dfe470b60fee2293419d1650d5cf544886b9cd938421a": {
+   "ja": "KP-C1：R010 Q5 の反証で判定不能。文を書き直し、R024 Q4 で判定不能。",
+   "en": "KP-C1: inconclusive in the refutation check at R010 Q5. The text was rewritten and was inconclusive at R024 Q4.",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "73299dba40840050fc50bd0bead3e8c48103894c271e0ded69ad8fa7a3a3e47d": {
+   "ja": "KP-C1：R024 Q4 の反証で判定不能。文を書き直し、R027 Q4 で支持。",
+   "en": "KP-C1: inconclusive in the refutation check at R024 Q4. The text was rewritten and supported at R027 Q4.",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "810120a668b42715a82d1410ac49dedd0448173dc3d2a2da1a40c6632d43483b": {
+   "ja": "BV-C1 の根拠の原文で、1枚の概要からの抜き出しが途中で切れ、要旨の「4.0％」「再犯抑止に寄与した可能性」が抜き出しに入っていなかった。抜き出す箇所を足した（要旨は変えていない）。サイトの定期の点検（2026-11-19）の指摘。",
+   "en": "In the source text cited as the basis for BV-C1, the excerpt from a one-page summary was cut off partway, and the gist's \"4.0%\" and \"may have contributed to deterring reoffending\" were not included in the excerpt. The excerpted portion was extended (the gist was not changed). Pointed out in the site's periodic review (2026-11-19).",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "5bb931c0cc3eece7c4d53834639f6d40aa8404de75d0691719ab940bc491888f": {
+   "ja": "HK-A9：R015 Q1 の反証で判定不能。文を書き直し、R016 Q2 で支持。",
+   "en": "HK-A9: inconclusive in the refutation check at R015 Q1. The text was rewritten and supported at R016 Q2.",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "fc61bcf011b59f8d11896eac6912b673c86dffde4581896f45b351f75366f616": {
+   "ja": "HK-A9：R027 Q2 の反証で判定不能。文を書き直し、R028 Q3 で支持。",
+   "en": "HK-A9: inconclusive in the refutation check at R027 Q2. The text was rewritten and supported at R028 Q3.",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "e9c5e7d86a3f44dd0c74628f524f09b6f6121b4f766b7c9faa2b31e954bdef8c": {
+   "ja": "NK-K1：R015 Q7 の反証で判定不能。文を書き直し、R023 Q3 で反証。",
+   "en": "NK-K1: inconclusive in the refutation check at R015 Q7. The text was rewritten and refuted at R023 Q3.",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "82adb7b5a864e5af56979ab84cb6601a908b86ce79b1cb8ac6b531d954ce8ada": {
+   "ja": "KY-I1：R017 Q2 の反証で反証。文を書き直し、R018 Q2 で支持。",
+   "en": "KY-I1: refuted in the refutation check at R017 Q2. The text was rewritten and supported at R018 Q2.",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "92b0feb2be9d6d0b8fc9f0b5e6170696cc2ff540a7fc1252e3fb04d16d24ba1e": {
+   "ja": "「統計から探す」の記録の数で、MK-L1・MK-L2（人事行政状況調査（懲戒処分・性犯罪等）と免許失効データベースの記録）を、接頭辞が同じ「教職員の懲戒処分（人事行政状況調査）」に数えていた。記録を統計に明示して割り当て直した。サイトの定期の点検（2026-11-19）の指摘。",
+   "en": "In the record counts on the \"Browse by statistic\" page, MK-L1 and MK-L2 (records on the Personnel Administration Survey (discipline, sexual offences etc.) and the licence revocation database) had been counted under \"Disciplinary Actions against School Staff (Personnel Administration Survey)\", which shares the same prefix. The records were reassigned explicitly to their statistics. Pointed out in the site's periodic review (2026-11-19).",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "e118a9c5a5172be1223c6f6befd4012377906d9bb8d5923ad07dbc74a982950c": {
+   "ja": "MK-L2：R020 Q1 の反証で判定不能。文を書き直し、R025 Q6 で支持。",
+   "en": "MK-L2: inconclusive in the refutation check at R020 Q1. The text was rewritten and supported at R025 Q6.",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "94d850e8d418292c152312a32f2e2fe0629fe80625b3beeb3bcf9ae14d4f84d5": {
+   "ja": "暴力防止プログラムの効果検証（保護局）",
+   "en": "Evaluation of the Violence Prevention Program (Rehabilitation Bureau)",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "3605b38d3311e353354b51aaac0cef32acf56a734dfe3efdef13dab76a0f646a": {
+   "ja": "ストーカー事案の検挙状況の表：版の間の同じ年・同じ項目、内訳の和と計",
+   "en": "Table of clearance (kenkyo) status in stalking cases: the same year and the same item between editions, and the sum of the breakdown against the total",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "eb4dc7496adb59a4484b285ca3aded0f9e7f5181d98c62ee29a114dbb82e0cbd": {
+   "ja": "職業訓練の性差の論文（矯正研究 第8号）：表の χ²・φ の再計算、表の間の和",
+   "en": "Paper on sex differences in vocational training (`矯正研究` No. 8): recalculation of χ² and φ in the tables, and sums between tables",
+   "src": "site/build_site.py",
+   "src_commit": "c7e6ae0+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  }
+ }
+}

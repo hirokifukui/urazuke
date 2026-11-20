@@ -1,0 +1,13 @@
+{
+ "dir": "seishin630",
+ "check": "c303",
+ "label": "",
+ "note": "630調査 旧様式（2015・2016年）と長期データ",
+ "source": "check",
+ "compared": 1768,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "54601275141a13ba0a5668d6368410500a196b224e25bcf5600668260b069382",
+ "written_utc": "2026-11-17T12:24:55Z"
+}

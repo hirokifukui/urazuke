@@ -1,0 +1,8 @@
+# 検査に使う Python パッケージ（Python 3.14、2026-11-17 時点の作業環境）
+# 外部コマンド：pdftotext（poppler 26.10）
+et_xmlfile==2.0.0
+openpyxl==3.1.5
+xlrd==2.0.2
+xlutils==2.0.0
+xlwt==1.3.0
+scipy  # checks/moj_kensho2/c4201、moj_sexoffender/c104、moj_yakubutsu/c4101 で使う（作業環境に未導入。版は未固定）

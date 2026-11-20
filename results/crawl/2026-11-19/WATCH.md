@@ -1,0 +1,121 @@
+# 入口のページ（2026-11-19）
+
+- hanzai_hakusho（犯罪白書の版の一覧）：型に合うリンク 66、MANIFEST にない 56、MANIFEST（この統計 5391）のうちこのページから直接辿れた 10
+  - HTML　https://hakusyo1.moj.go.jp/jp/1/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/10/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/11/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/12/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/13/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/14/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/15/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/16/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/17/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/18/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/19/nfm/mokuji.html
+  - HTML　https://hakusyo1.moj.go.jp/jp/2/nfm/mokuji.html
+- saihan（再犯防止推進白書の版の一覧）：型に合うリンク 8、MANIFEST にない 8、MANIFEST（この統計 414）のうちこのページから直接辿れた 0
+  - 令和４年版　https://www.moj.go.jp/hisho/saihanboushi/hisho04_00103.html
+  - 令和３年版　https://www.moj.go.jp/hisho/saihanboushi/hisho04_00104.html
+  - 令和２年版　https://www.moj.go.jp/hisho/saihanboushi/hisho04_00105.html
+  - 令和元年版　https://www.moj.go.jp/hisho/saihanboushi/hisho04_00106.html
+  - 平成３０年版　https://www.moj.go.jp/hisho/saihanboushi/hisho04_00107.html
+  - 令和５年版　https://www.moj.go.jp/hisho/saihanboushi/hisho04_00108.html
+  - 令和６年版　https://www.moj.go.jp/hisho/saihanboushi/hisho04_00117.html
+  - 令和７年版　https://www.moj.go.jp/hisho/seisakuhyouka/hisho04_00080.html
+- seishin630（630調査の資料の一覧（?v= の版の番号も見る））：型に合うリンク 65、MANIFEST にない 5、MANIFEST（この統計 60）のうちこのページから直接辿れた 56
+  - PDFダウンロード　https://www.ncnp.go.jp/nimh/seisaku/data/assets/pdf/teigisyo(R1_630).pdf?v=2023080101
+  - PDFダウンロード　https://www.ncnp.go.jp/nimh/seisaku/data/assets/pdf/teigisyo(R2_630).pdf?v=2023080101
+  - PDFダウンロード　https://www.ncnp.go.jp/nimh/seisaku/data/assets/pdf/teigisyo(R3_630).pdf?v=2023080101
+  - PDFダウンロード　https://www.ncnp.go.jp/nimh/seisaku/data/assets/pdf/teigisyo(R4_630).pdf?v=2023080101
+  - PDFダウンロード　https://www.ncnp.go.jp/nimh/seisaku/data/assets/pdf/teigisyo(R5_630).pdf?v=2024070201
+- jisatsu（自殺の統計（各年））：型に合うリンク 12、MANIFEST にない 0、MANIFEST（この統計 97）のうちこのページから直接辿れた 12
+- kyosei（矯正統計（e-Stat、年の一覧））：型に合うリンク 20、MANIFEST にない 20、MANIFEST（この統計 224）のうちこのページから直接辿れた 0
+  - 2006年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20060&month=0&result_back=1
+  - 2007年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20070&month=0&result_back=1
+  - 2008年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20080&month=0&result_back=1
+  - 2009年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20090&month=0&result_back=1
+  - 2010年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20100&month=0&result_back=1
+  - 2011年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20110&month=0&result_back=1
+  - 2012年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20120&month=0&result_back=1
+  - 2013年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20130&month=0&result_back=1
+  - 2014年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20140&month=0&result_back=1
+  - 2015年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20150&month=0&result_back=1
+  - 2016年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20160&month=0&result_back=1
+  - 2017年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250005&tstat=000001012930&tclass1val=0&year=20170&month=0&result_back=1
+- kensatsu（検察統計（e-Stat、年の一覧））：型に合うリンク 20、MANIFEST にない 20、MANIFEST（この統計 75）のうちこのページから直接辿れた 0
+  - 2006年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20060&month=0&result_back=1
+  - 2007年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20070&month=0&result_back=1
+  - 2008年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20080&month=0&result_back=1
+  - 2009年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20090&month=0&result_back=1
+  - 2010年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20100&month=0&result_back=1
+  - 2011年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20110&month=0&result_back=1
+  - 2012年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20120&month=0&result_back=1
+  - 2013年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20130&month=0&result_back=1
+  - 2014年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20140&month=0&result_back=1
+  - 2015年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20150&month=0&result_back=1
+  - 2016年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20160&month=0&result_back=1
+  - 2017年　https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00250003&tstat=000001012929&tclass1val=0&year=20170&month=0&result_back=1
+- keisatsu（犯罪統計（e-Stat））：型に合うリンク 22、MANIFEST にない 22、MANIFEST（この統計 1078）のうちこのページから直接辿れた 0
+  - 平成27年１～12月犯罪統計【確定値】 [1件] 1件 公開（更新）日 2016-02-18　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001079595&page=1
+  - 平成28年１～12月犯罪統計【確定値】 [1件] 1件 公開（更新）日 2017-02-10　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001095455&page=1
+  - 平成29年１～12月犯罪統計【確定値】 訂正版 [1件] 1件 公開（更新）日 2019-03-08　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001112156&page=1
+  - 平成30年１～12月犯罪統計【確定値】 訂正版 [1件] 1件 公開（更新）日 2019-03-08　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001125535&page=1
+  - 犯罪統計数値(平成29年)の一部訂正について [1件] 1件 公開（更新）日 2019-03-08　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001126795&page=1
+  - 平成31年１月～令和元年12月犯罪統計【確定値】 [1件] 1件 公開（更新）日 2020-02-10　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001137147&page=1
+  - 令和２年１～１２月犯罪統計【確定値】 [1件] 1件 公開（更新）日 2021-02-08　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001149167&page=1
+  - 令和３年１～12月犯罪統計【確定値】 [1件] 1件 公開（更新）日 2022-02-08　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001162646&page=1
+  - 令和4年１～12月犯罪統計【確定値】 [1件] 1件 公開（更新）日 2023-02-07　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001201280&page=1
+  - 令和5年１～12月犯罪統計【確定値】 [1件] 1件 公開（更新）日 2024-02-09　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001214060&page=1
+  - 令和６年１～12月犯罪統計【確定値】 [1件] 1件 公開（更新）日 2025-02-06　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001225741&page=1
+  - 令和７年１～12月犯罪統計【確定値】 [1件] 1件 公開（更新）日 2026-02-12　https://www.e-stat.go.jp/stat-search/files?toukei=00130001&tstat=000001240456&page=1
+- npa（警察庁の報道発表）：型に合うリンク 9、MANIFEST にない 9、MANIFEST（この統計 0）のうちこのページから直接辿れた 0
+  - 犯罪統計資料（令和８年１～10月分）　https://www.npa.go.jp/news/release/2026/20240213.html
+  - 令和８年中の月別自殺者数について（５月末の暫定値）　https://www.npa.go.jp/news/release/2026/20260610003.html
+  - 令和８年中の月別自殺者数について（６月末の暫定値）　https://www.npa.go.jp/news/release/2026/20260714001.html
+  - ストーカー総合対策取組状況　https://www.npa.go.jp/news/release/2026/20260731003.html
+  - ストーカー総合対策の改訂について　https://www.npa.go.jp/news/release/2026/20260731004.html
+  - 令和８年中の月別自殺者数について（７月末の暫定値）　https://www.npa.go.jp/news/release/2026/20260811001.html
+  - 令和８年中の月別自殺者数について（８月末の暫定値）　https://www.npa.go.jp/news/release/2026/20260912001.html
+  - 令和８年中の月別自殺者数について（９月末の暫定値）　https://www.npa.go.jp/news/release/2026/20261013001.html
+  - 令和８年中の月別自殺者数について（10月末の暫定値）　https://www.npa.go.jp/news/release/2026/20261111001.html
+- mhlw（厚労省の報道発表）：型に合うリンク 3、MANIFEST にない 3、MANIFEST（この統計 0）のうちこのページから直接辿れた 0
+  - 生活保護・福祉一般　https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/seikatsuhogo/index.html
+  - 自殺　https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/seikatsuhogo/jisatsu/index.html
+  - 障害者福祉　https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/shougaishahukushi/index.html
+- mhlw_toukei（厚労省の最近公表の統計）：型に合うリンク 94、MANIFEST にない 94、MANIFEST（この統計 0）のうちこのページから直接辿れた 0
+  - 自殺　https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/hukushi_kaigo/seikatsuhogo/jisatsu/index.html
+  - 2026年6月10日掲載 福祉行政報告例（令和８年３月分概数）　https://www.mhlw.go.jp/toukei/list/38-1a.html
+  - 2025年7月29日掲載 令和６年衛生行政報告例(就業医療関係者)の概況　https://www.mhlw.go.jp/toukei/saikin/hw/eisei/24/index.html
+  - 2025年10月21日掲載 令和６(2024)年度衛生行政報告例の概況　https://www.mhlw.go.jp/toukei/saikin/hw/eisei_houkoku/24/
+  - 2026年10月27日掲載 令和７(2025)年度衛生行政報告例の概況 NEW　https://www.mhlw.go.jp/toukei/saikin/hw/eisei_houkoku/25/
+  - 2026年1月30日掲載 令和６年度福祉行政報告例の概況　https://www.mhlw.go.jp/toukei/saikin/hw/gyousei/24/index.html
+  - 2025年4月8日掲載 福祉行政報告例（令和７年１月分概数）　https://www.mhlw.go.jp/toukei/saikin/hw/gyousei/fukushi/m25/01.html
+  - 2025年5月8日掲載 福祉行政報告例（令和７年２月分概数）　https://www.mhlw.go.jp/toukei/saikin/hw/gyousei/fukushi/m25/02.html
+  - 2025年6月10日掲載 福祉行政報告例（令和７年３月分概数）　https://www.mhlw.go.jp/toukei/saikin/hw/gyousei/fukushi/m25/03.html
+  - 2025年4月2日掲載 被保護者調査（令和７年１月分概数）　https://www.mhlw.go.jp/toukei/saikin/hw/hihogosya/m2025/01.html
+  - 2025年5月7日掲載 被保護者調査（令和７年２月分概数）　https://www.mhlw.go.jp/toukei/saikin/hw/hihogosya/m2025/02.html
+  - 2025年6月4日掲載 被保護者調査（令和７年３月分概数）　https://www.mhlw.go.jp/toukei/saikin/hw/hihogosya/m2025/03.html
+- mext（文科省の報道発表）：型に合うリンク 6、MANIFEST にない 6、MANIFEST（この統計 0）のうちこのページから直接辿れた 0
+  - 教育課程部会 不登校児童生徒に係る特別の教育課程ワーキンググループ（第6回） 配布資料　https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/119/giji_list/mext_00005.html
+  - 教育課程部会 不登校児童生徒に係る特別の教育課程ワーキンググループ（第8回） 配布資料　https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/119/giji_list/mext_00006.html
+  - 教育課程部会 不登校児童生徒に係る特別の教育課程ワーキンググループ（第9回） 配布資料　https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/119/giji_list/mext_00009.html
+  - 教育課程部会 不登校児童生徒に係る特別の教育課程ワーキンググループ（第6回）の開催について　https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/119/kaisai/mext_00009.html
+  - 教育課程部会 不登校児童生徒に係る特別の教育課程ワーキンググループ（第8回）の開催について　https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/119/kaisai/mext_00012.html
+  - 教育課程部会 不登校児童生徒に係る特別の教育課程ワーキンググループ（第9回）の開催について　https://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/119/kaisai/mext_00013.html
+- estat_new（e-Stat の新着）：型に合うリンク 4、MANIFEST にない 4、MANIFEST（この統計 0）のうちこのページから直接辿れた 0
+  - 司法・安全・環境　https://www.e-stat.go.jp/stat-search/database?bunya_l=14
+  - 司法・安全・環境　https://www.e-stat.go.jp/stat-search/files?bunya_l=14
+  - 犯罪統計　https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00130001
+  - 司法・安全・環境　https://www.e-stat.go.jp/stat-search?bunya_l=14
+- moj（法務省 白書・統計）：型に合うリンク 3、MANIFEST にない 3、MANIFEST（この統計 0）のうちこのページから直接辿れた 0
+  - 白書　https://www.moj.go.jp/hakusyo_index.html
+  - 白書・統計・資料　https://www.moj.go.jp/hakusyotokei_index.html
+  - 統計　https://www.moj.go.jp/tokei_index.html
+- moj_hogo_kensho（保護局の効果検証の一覧）：型に合うリンク 8、MANIFEST にない 1、MANIFEST（この統計 0）のうちこのページから直接辿れた 0
+  - 制度　https://www.moj.go.jp/hogo1/soumu/hogo01_00057.html
+- moj_kyosei_kensho（矯正研修所 効果検証センター）：型に合うリンク 20、MANIFEST にない 0、MANIFEST（この統計 43）のうちこのページから直接辿れた 20
+- moj_kyosei_koukai（矯正局の各種公表資料）：型に合うリンク 9、MANIFEST にない 3、MANIFEST（この統計 0）のうちこのページから直接辿れた 0
+  - 「罪を犯した１８歳及び１９歳の者に対する矯正教育（仮）に係る検討会」報告書について　https://www.moj.go.jp/kyousei1/kyousei03_00015.html
+  - 公表資料・統計　https://www.moj.go.jp/kyousei1/kyousei08_00149.html
+  - 開放的施設における処遇及び保安警備等に関する検討結果報告について　https://www.moj.go.jp/kyousei1/kyousei1.html
+- shibo_jirei（こども虐待による死亡事例等の検証結果）：型に合うリンク 6、MANIFEST にない 0、MANIFEST（この統計 22）のうちこのページから直接辿れた 6

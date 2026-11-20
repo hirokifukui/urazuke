@@ -1,0 +1,139 @@
+group	ja	en	note
+区分	候補	Candidate	not published
+区分	不整合	Inconsistency	two official values; cannot tell which is correct
+区分	誤り	Error	correct value shown by two or more independent sources
+区分	欠落	Gap	information present in one form is missing from another
+区分	説明のない改訂	Unexplained revision	value changed between editions without a note
+区分	設計上の問題	Design issue	about analysis design or the basis of a conclusion
+区分	照会事項	Open query	information needed for judgment is not published
+影響	影響 大	Impact: High	
+影響	影響 中	Impact: Medium	
+影響	影響 小	Impact: Low	
+影響	結論・指標に関わる	Affects conclusions or indicators	
+影響	値が食い違う	Values disagree	
+影響	形式の不備	Format defect	
+格付け	数値の誤り	numerical error	grade A
+格付け	結論が頑健でない	conclusion not robust	grade C
+格付け	書かれていない数値	unstated figure	grade E
+確実さ	確定	Established	
+確実さ	推定	Inferred	
+確実さ	要照会	Requires inquiry	
+確認	機械検証のみ	Machine-verified only	
+確認	別系統で支持	Supported by an independent model	
+確認	別系統で不支持	Not supported by an independent model	
+確認	判定不能	Inconclusive	
+確認	反証	refutation	R00x checks by an LLM from a different company
+確認	別系統	independent model	an LLM from a different company
+照会	照会	inquiry	
+照会	未照会	Not yet inquired	
+照会	照会中	Inquiry pending	
+照会	照会前	Before inquiry	
+照会	回答あり	Response received	
+照会	照会文	inquiry letter	
+用語	記録	record	
+用語	発見	finding	
+用語	作業ノート	working notes	
+用語	撤回の条件	Withdrawal condition	
+用語	確かめ方	How to reproduce	
+用語	陽性対照	positive control	
+用語	陰性対照	negative control	
+用語	正誤表	errata	
+用語	訂正のお知らせ	correction notice	
+用語	注記	note	
+用語	機械判読用	machine-readable	
+用語	閲覧用	for viewing	
+用語	版	edition	
+用語	版間	between editions	
+用語	内訳	breakdown	
+用語	総数	total	
+用語	事前登録	preregistration	
+用語	運営者	operator	
+用語	進め方	Process	
+用語	方法	Methods	
+用語	訂正の記録	Corrections	
+用語	利用規約とプライバシー	Terms and Privacy	
+用語	草案	draft	
+用語	令和	Reiwa	era year: 令和5年版 → 2023 edition (Reiwa 5); give the Western year
+用語	平成	Heisei	era year: give the Western year
+統計	犯罪白書	White Paper on Crime	
+統計	犯罪統計・警察白書	Crime Statistics and White Paper on Police	
+統計	犯罪統計書	Crime Statistics (National Police Agency)	
+統計	警察白書	White Paper on Police	
+統計	ストーカー・DV・児童虐待事件	Stalking, Domestic Violence and Child Abuse Cases	
+統計	再犯防止推進白書	White Paper on Recidivism Prevention	
+統計	保護局 性犯罪者処遇プログラム効果検証	Rehabilitation Bureau: Evaluation of the Sex Offender Treatment Program	
+統計	教職員の懲戒処分（人事行政状況調査）	Disciplinary Actions against School Staff (Personnel Administration Survey)	
+統計	児童虐待相談対応件数	Child Abuse Consultations Handled	
+統計	自殺統計	Suicide Statistics	
+統計	自殺対策白書	White Paper on Suicide Countermeasures	
+統計	児童生徒の問題行動・不登校等調査	Survey on Problem Behavior and School Non-attendance	
+統計	司法統計年報（刑事編）	Annual Report of Judicial Statistics (Criminal)	
+統計	衛生行政報告例（精神保健福祉）	Report on Public Health Administration (Mental Health and Welfare)	
+統計	人口動態統計（確定数）	Vital Statistics (final figures)	
+統計	国勢調査	Population Census	
+統計	住民基本台帳人口移動報告	Report on Internal Migration (Basic Resident Registration)	
+統計	患者調査	Patient Survey	
+統計	医療施設（動態）調査	Survey of Medical Institutions (Dynamic)	
+統計	障害者白書	White Paper on Persons with Disabilities	
+統計	男女共同参画白書	White Paper on Gender Equality	
+統計	こども白書（旧 子供・若者白書）	White Paper on Children (formerly on Children and Young People)	
+統計	毎月勤労統計調査	Monthly Labour Survey	
+統計	労働力調査	Labour Force Survey	
+統計	消費者物価指数	Consumer Price Index	
+統計	決算検査報告	Audit Report (Board of Audit)	
+統計	矯正統計年報	Annual Report of Correctional Statistics	
+統計	保護統計年報	Annual Report of Rehabilitation Statistics	
+統計	検察統計年報	Annual Report of Prosecution Statistics	
+統計	医療観察法の統計	Statistics under the Medical Treatment and Supervision Act	
+統計	交通事故統計	Traffic Accident Statistics	
+統計	生活保護 被保護者調査	Public Assistance Recipients Survey	
+統計	学校基本調査・体罰の懲戒処分等の推移	School Basic Survey and Trends in Discipline for Corporal Punishment	
+統計	人口推計	Population Estimates	
+統計	賃金構造基本統計調査	Basic Survey on Wage Structure	
+統計	過労死等の労災補償状況	Workers' Compensation for Karoshi and Related Cases	
+統計	建設工事受注動態統計	Survey of Construction Orders Received	
+統計	国民経済計算（年次推計）	National Accounts (annual estimates)	
+統計	地方財政状況調査（都道府県決算カード）	Local Public Finance Survey (prefectural settlement cards)	
+統計	こども虐待による死亡事例等の検証結果（死亡事例検証報告）	Reviews of Child Deaths from Abuse (death review reports)	
+統計	障害者虐待対応状況調査	Survey on Responses to Abuse of Persons with Disabilities	
+統計	矯正局 性犯罪者処遇プログラム効果検証	Correction Bureau: Evaluation of the Sex Offender Treatment Program	
+統計	薬物事犯者のプログラム効果検証（矯正局・保護局）	Evaluation of Programs for Drug Offenders (Correction and Rehabilitation Bureaus)	
+統計	暴力防止プログラム効果検証（保護局）	Evaluation of the Violence Prevention Program (Rehabilitation Bureau)	
+統計	職業訓練・刑務作業の効果検証（矯正局）	Evaluation of Vocational Training and Prison Work (Correction Bureau)	
+統計	少年院出院者の学習支援（SIB）事業総括	Final Report of the Learning Support (SIB) Project for Juvenile Training School Leavers	
+統計	刑事施設の認知症の把握	Identification of Dementia in Penal Institutions	
+統計	公立学校教職員の人事行政状況調査（懲戒処分・性犯罪等）	Personnel Administration Survey of Public School Staff (discipline, sexual offences etc.)	
+統計	公務員の懲戒処分・犯罪の統計（人事院・総務省・警察庁・犯罪白書）	Statistics on Discipline and Offences by Public Servants (NPA, MIC, Police, White Paper on Crime)	
+統計	精神保健福祉資料（630調査）	Mental Health and Welfare Data (630 Survey)	
+機関	法務省	Ministry of Justice	
+機関	法務省 法務総合研究所	Research and Training Institute, Ministry of Justice	
+機関	法務総合研究所	Research and Training Institute	
+機関	法務省 保護局	Rehabilitation Bureau, Ministry of Justice	
+機関	法務省 矯正局	Correction Bureau, Ministry of Justice	
+機関	法務省 矯正局・保護局	Correction and Rehabilitation Bureaus, Ministry of Justice	
+機関	法務省 矯正局（矯正統計年報・白書）	Correction Bureau, Ministry of Justice (correctional statistics and white paper)	
+機関	法務省・日本総合研究所	Ministry of Justice and The Japan Research Institute	
+機関	警察庁	National Police Agency	
+機関	警察庁・厚生労働省	National Police Agency and Ministry of Health, Labour and Welfare	
+機関	厚生労働省	Ministry of Health, Labour and Welfare	
+機関	厚生労働省・法務省	Ministry of Health, Labour and Welfare and Ministry of Justice	
+機関	文部科学省	Ministry of Education, Culture, Sports, Science and Technology	
+機関	こども家庭庁	Children and Families Agency	
+機関	こども家庭庁（旧 厚生労働省）	Children and Families Agency (formerly Ministry of Health, Labour and Welfare)	
+機関	最高裁判所	Supreme Court	
+機関	総務省	Ministry of Internal Affairs and Communications	
+機関	内閣府	Cabinet Office	
+機関	会計検査院	Board of Audit	
+機関	国土交通省	Ministry of Land, Infrastructure, Transport and Tourism	
+機関	人事院	National Personnel Authority	
+機関	人事院・総務省・警察庁・法務省	National Personnel Authority, MIC, National Police Agency and Ministry of Justice	
+機関	国立精神・神経医療研究センター	National Center of Neurology and Psychiatry	
+機関	教育委員会	board of education	
+用語	確かめたこと	What was confirmed	top-page heading
+用語	見つかったこと	What was found	top-page heading
+確認	別系統の AI	an independent AI (from a different company)	use in running text instead of "independent model"
+確認	別系統では判定不能（確定）	Undetermined by an independent model (final)	
+確認	反証にかける前	Not yet put to a refutation check	
+確認	書き直して再反証待ち	Rewritten, awaiting a new refutation check	
+用語	検挙件数	number of cases cleared (kenkyo)	police clearance of a case; not limited to arrests. Never translate as "arrests"
+用語	検挙	clearance (kenkyo)	the police clearing a case, with or without arrest. Never translate as "arrest"

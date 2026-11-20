@@ -1,0 +1,13 @@
+{
+ "dir": "jisatsu",
+ "check": "c201b",
+ "label": "",
+ "note": "自殺の統計（地域における自殺の基礎資料）10年分：都道府県・市区町村の内訳の和と総数",
+ "source": "check",
+ "compared": 203316,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "bd83420b52e8199c831f0786a71b79fef26f2e658f71077f52b5764210cbba87",
+ "written_utc": "2026-11-17T12:12:00Z"
+}

@@ -1,0 +1,29 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "2b2aa85383894104ffc2a5702b8b0daaccb7fd0fde89a404812550a75eb25158": {
+   "ja": "# ストーカー事案・配偶者からの暴力事案等への対応状況（警察庁）— 検証の記録（2026-11-16、探索）\n確実さ：確定／推定／要照会。確認の状態：機械検証のみ（別記したものを除く）。",
+   "en": "# Responses to Stalking Cases, Spousal Violence Cases, etc. (National Police Agency) — Verification record (2026-11-16, exploratory)\nCertainty: Established / Inferred / Requires inquiry. Verification status: Machine-verified only (unless stated otherwise).",
+   "src": "results/stalker/FINDINGS.md",
+   "src_commit": "881ec63",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8db1e9d2335677db203a83fd73bf78b082776f3714ae4f8ee7f48b8f1a01e0e4": {
+   "ja": "## 取得（data/raw/stalker/）\n- 警察庁の掲載ページ（publications/statistics/safetylife/dv.html）には最新年（令和7年）だけ。過去年は bureau/safetylife/stalker/ に令和2・3・5（修正版のみ）・6・7年が残る。令和4年と令和5年の原版は削除済みで、Wayback から取得。\n- 平成26・27・29・30年、令和元年は Wayback（safetylife/seianki/stalker/）から取得。**平成28年分は警察庁・Wayback とも見つからず**。平成26年の ST/DV、平成30年の ST の Excel も見つからず。R5_DV.csv は 404（削除）。\n- Wayback の取得は Python の UA だと 429、curl の UA では通った（fetch_list.py を Wayback のときだけ curl の UA にした）。",
+   "en": "## Acquisition (data/raw/stalker/)\n- The National Police Agency's publication page (publications/statistics/safetylife/dv.html) has only the latest year (2025). For past years, bureau/safetylife/stalker/ still holds 2020, 2021, 2023 (corrected version only), 2024 and 2025. The original versions for 2022 and 2023 have been deleted and were obtained from the Wayback Machine.\n- 2014, 2015, 2017, 2018 and 2019 were obtained from the Wayback Machine (safetylife/seianki/stalker/). **The 2016 material was found neither on the National Police Agency site nor on the Wayback Machine.** The 2014 ST/DV Excel files and the 2018 ST Excel file were also not found. R5_DV.csv returns 404 (deleted).\n- Wayback retrieval returned 429 with the Python UA and succeeded with the curl UA (fetch_list.py was changed to use the curl UA only for Wayback).",
+   "src": "results/stalker/FINDINGS.md",
+   "src_commit": "881ec63",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "1749fa92097411b1de8425eca553a84b80e0d905be932195c2ca8f6c4ab1c77e": {
+   "ja": "## 追記（2026-11-16 夜）：(a) CSV の内部の整合（c412）\n- 対象：ST・DV・CA の CSV 12本（令和3〜7年版、令和4年版は Wayback）。親行＝子行の和、性別の和＝年齢の和、総数＝内訳。354件の検査で、食い違い103件。\n- 103件のうち99件は、内訳ではない行を検査が親子と読んだもの：被害者の性別には密接関係者を含み年齢には含まない（差は密接関係者の数と一致）、「禁止命令等」の下の行、援助の申出受理件数の下の援助の種類の行、被害児童の数の下の死亡児童数。いずれも和が親と一致する関係にない（表の見出しで確認）。\n- **実質の食い違い1件（確定）：2022年（令和4年）のストーカー事案の動機「ストーカー規制法に抵触しない動機」762**。内訳（精神障害 124＋職場・商取引上トラブル 27＋その他怨恨 208＋その他 409）は 768。768 を使うと 抵触する動機 15,657＋抵触しない動機＋不明 2,706＝19,131 で、2022年の相談等件数 19,131 と一致する。762 では 19,125 になる。不一致そのものは確定。誤りが1か所だけと考えると、内訳と総数の両方が 768 を指すので、小計の 762 の側が6少ないという説明になる（推定。762 が正しく、内訳と別の総数の項目の両方に誤りがある場合も算術上はありうる）。令和4・5・6・7年版の CSV と令和7年版の PDF に同じ値が持ち越されている。2021・2023〜2025年は同じ式で総数と一致。\n- **R004（別系統の反証、2026-11-16）：支持**。確認の状態：二重検証済み（別系統）。指摘された言い過ぎ（「762 が誤りで 768 が正しい」とは資料から決められない）を上の文言に反映した。",
+   "en": "## Addendum (2026-11-16, evening): (a) internal consistency of the CSVs (c412)\n- Scope: 12 ST, DV and CA CSVs (2021 edition (Reiwa 3) to 2025 edition (Reiwa 7); the 2022 edition (Reiwa 4) from the Wayback Machine). Parent row = sum of child rows, sum by sex = sum by age, total = breakdown. In 354 checks, 103 discrepancies.\n- Of the 103, 99 are rows that are not breakdowns but were read as parent–child by the check: victims by sex include persons in close relationships while victims by age do not (the difference matches the number of persons in close relationships); rows under \"prohibition orders etc.\"; rows for types of assistance under the number of requests for assistance accepted; the number of child deaths under the number of child victims. None of these are in a relationship where the sum matches the parent (confirmed from the table headings).\n- **One substantive discrepancy (Established): 2022, stalking cases, motive \"motives not violating the Anti-Stalking Act\" 762.** The breakdown (mental disorder 124 + workplace or business trouble 27 + other grudge 208 + other 409) is 768. Using 768, motives violating 15,657 + motives not violating + unknown 2,706 = 19,131, which matches the 2022 number of consultations etc., 19,131. With 762 the result is 19,125. The mismatch itself is established. If there is only one error, both the breakdown and the total point to 768, which would mean the subtotal 762 is 6 too low (Inferred; it is also arithmetically possible that 762 is correct and both the breakdown and the separate total item contain errors). The same value is carried over in the CSVs of the 2022 edition (Reiwa 4), 2023 edition (Reiwa 5), 2024 edition (Reiwa 6) and 2025 edition (Reiwa 7) and in the PDF of the 2025 edition (Reiwa 7). For 2021 and 2023–2025, the same formula matches the total.\n- **R004 (refutation by an independent model, 2026-11-16): supported.** Verification status: double-verified (independent model). The overstatement pointed out (that \"762 is wrong and 768 is correct\" cannot be determined from the material) has been reflected in the wording above.",
+   "src": "results/stalker/FINDINGS.md",
+   "src_commit": "881ec63",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

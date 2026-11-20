@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c002",
+ "label": "",
+ "note": "犯罪白書 令和7年版 第5編：再犯・再入の図表の内部整合と突き合わせ",
+ "source": "check",
+ "compared": 3286,
+ "mismatched": 11,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "346246137540ffd7c668b7bc661e06439a1a721d07f4ef9c85bc02a54c4457e9",
+ "written_utc": "2026-11-17T12:18:52Z"
+}

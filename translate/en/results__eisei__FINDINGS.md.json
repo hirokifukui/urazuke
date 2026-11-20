@@ -1,0 +1,61 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "0fdf18e6767cf681017afcc48d4f91c01fd2714118d1fc40dcc1901571e3f4e9": {
+   "ja": "# 衛生行政報告例（精神保健福祉）の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Report on Public Health Administration (Mental Health and Welfare) (started 2026-11-17) Status: Machine-verified only",
+   "src": "results/eisei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "f02eb57c72f2a21b5cecdd2f8bfc03d8ea2c1338edb4784177584d2d92eca9e0": {
+   "ja": "## 対象と取得\n- 厚生労働省 衛生行政報告例 第1章 精神保健福祉（e-Stat の CSV、第1表〜第8表）：2023〜2025年度。正誤情報（2024〜2026年に掲載された10件）。\n- 取得記録：data/raw/eisei/MANIFEST.tsv。2023年度の第2表-1 は 2026-09-28 に訂正された（正誤情報：全国の解除患者数 8,018→8,029、年度末患者数 1,378→1,367）。取得したのは訂正後の版。",
+   "en": "## Scope and acquisition\n- Ministry of Health, Labour and Welfare, Report on Public Health Administration, Chapter 1 Mental Health and Welfare (CSV files from e-Stat, Tables 1 to 8): FY2023 to FY2025. Errata information (10 items published between 2024 and 2026).\n- Acquisition record: data/raw/eisei/MANIFEST.tsv. Table 2-1 for FY2023 was corrected on 2026-09-28 (errata information: national number of patients released 8,018→8,029, number of patients at end of fiscal year 1,378→1,367). The edition acquired is the corrected one.",
+   "src": "results/eisei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9f9f13229eea407692c5753323b5e8b2acbabe196cef64a1d33ce506c73f521b": {
+   "ja": "## c1401 内部整合・年度の連続（L1・L3）\n- (a) 都道府県（47）の和＝全国：1,396列、不一致 0。\n- (b) 第2表-1 措置患者 本年度末＝前年度末＋新規−解除：144行、不一致 0。\n- (d) 第5表 精神障害者保健福祉手帳 年度末＝前年度末＋新規＋転入−転出−返還（等級の変更は相殺）：144行、不一致 0。\n- **記録 ES-I1：措置患者の年度末患者数が、その年度の表と翌年度の表の「前年度末患者数」で違う。** 全国：2023年度末 1,367（2023年度の表、訂正後）と 1,376（2024年度の表）、2024年度末 1,336 と 1,365（2025年度の表）。都道府県で延べ17件（15都道府県。例：2024年度末 東京都 258 と 276、熊本県 19 と 32）、指定都市（再掲）で2件（広島市 11 と 19、川崎市 16 と 15）。訂正前の2023年度末 1,378 とも、2024年度の表の 1,376 は一致しない。（当初「19件」と書いていた。全国の2件を含めて数えていた。R008 の指摘で修正）第2表-1 に、前年度末の数が前年度の報告と違いうる旨の注記はない（第5表には「前年度末現在」の定義の注記がある）。確実さ：数値の食い違いは確定／理由は要照会。\n- 第4表-1 で、審査結果件数が審査件数を上回る都道府県がある（例：2025年度 北海道 審査件数 19,968、「現在の入院形態が適当」19,996）。前年度からの持ち越しを含むかは表から決まらないため、記録にしない。",
+   "en": "## c1401 Internal consistency and continuity across fiscal years (L1, L3)\n- (a) Sum of prefectures (47) = national: 1,396 columns, 0 mismatches.\n- (b) Table 2-1 involuntary admission patients, end of this fiscal year = end of previous fiscal year + new − released: 144 rows, 0 mismatches.\n- (d) Table 5 Mental Health and Welfare Handbooks for persons with mental disorders, end of fiscal year = end of previous fiscal year + new + transferred in − transferred out − returned (changes of grade cancel out): 144 rows, 0 mismatches.\n- **Record ES-I1: The number of involuntary admission patients at the end of a fiscal year differs between that fiscal year's table and the `前年度末患者数` (number of patients at end of previous fiscal year) in the following fiscal year's table.** National: end of FY2023, 1,367 (FY2023 table, after correction) and 1,376 (FY2024 table); end of FY2024, 1,336 and 1,365 (FY2025 table). Prefectures: 17 instances in total (15 prefectures; e.g. end of FY2024, Tokyo 258 and 276, Kumamoto 19 and 32); designated cities (shown separately): 2 instances (Hiroshima City 11 and 19, Kawasaki City 16 and 15). The 1,376 in the FY2024 table also does not match the pre-correction end-of-FY2023 value of 1,378. (Originally written as \"19 instances\"; the count had included the 2 national instances. Corrected following the point raised in R008.) Table 2-1 has no note stating that the end-of-previous-fiscal-year number may differ from the previous fiscal year's report (Table 5 has a note defining `前年度末現在`). Certainty: the discrepancy in values is established; the reason requires inquiry.\n- In Table 4-1, there are prefectures where the number of review results exceeds the number of reviews (e.g. FY2025 Hokkaido, number of reviews 19,968, `現在の入院形態が適当` (current form of hospitalisation appropriate) 19,996). Whether carry-over from the previous fiscal year is included cannot be determined from the table, so this is not recorded.",
+   "src": "results/eisei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "bd2756e980083b197af1b9d8c3ff4f56a1917ef97bed6269f66fa20a4e6bc833": {
+   "ja": "## 他の資料との関係\n- 精神障害者保健福祉手帳の数は、障害者白書との突き合わせに使う（障害者白書の作業ノート）。",
+   "en": "## Relationship with other sources\n- The number of Mental Health and Welfare Handbooks for persons with mental disorders is used for comparison with the White Paper on Persons with Disabilities (working notes for the White Paper on Persons with Disabilities).",
+   "src": "results/eisei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6be58e8090f18afd95f7d7b7decf42f4b6b2e40e1582781a9cdf3ea41b51c784": {
+   "ja": "## 陰性対照\n- 2025年度 第2表-1 全国の新規を1変えた写しで (b) が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- (b) detected a copy of the FY2025 Table 2-1 in which the national new count was changed by 1 (results/scope/negctl_r08.json).",
+   "src": "results/eisei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5776fd4de1addd6dbb72505661c73ce61d606dfb30b147fca6655859e4fe1ffb": {
+   "ja": "## 照合した件数\n約1,900組（都道府県の和 1,396列、流れ 288行、年度の連続 都道府県・全国 96、指定都市 40）。",
+   "en": "## Number of comparisons\nAbout 1,900 pairs (sum of prefectures 1,396 columns, flows 288 rows, continuity across fiscal years prefectures and national 96, designated cities 40).",
+   "src": "results/eisei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "0744b87b894320974c0e5360ec87c3af8d8263ef41398ecbe4e396e803a5edd4": {
+   "ja": "## 別系統の反証（R008、2026-11-17）\n- ES-I1：反証（都道府県の件数 19→17）。修正済み。全国の4値と各年度内の流れは一致。",
+   "en": "## Refutation by an independent model (R008, 2026-11-17)\n- ES-I1: refutation (number of prefectural instances 19→17). Corrected. The 4 national values and the flows within each fiscal year match.",
+   "src": "results/eisei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

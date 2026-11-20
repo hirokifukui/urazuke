@@ -1,0 +1,13 @@
+{
+ "dir": "gyakutai",
+ "check": "c4001",
+ "label": "",
+ "note": "子ども虐待による死亡事例等の検証結果：表1・表2の和と総数、版間",
+ "source": "check",
+ "compared": 260,
+ "mismatched": 4,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "b4255b68ec7ce00babf47d070392e1c8af626e56fd35c6f524c5fb0c2424d206",
+ "written_utc": "2026-11-17T12:30:18Z"
+}

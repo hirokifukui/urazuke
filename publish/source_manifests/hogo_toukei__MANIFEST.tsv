@@ -1,0 +1,11 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031603781&fileKind=0	hogo38/2016_38_000031603781.xls	42785	146ad497d0cef510e7f0cc028e878bd0fcdd219045e8278fd4bcb23357f16166	200		2026-11-16T11:53:50+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031737903&fileKind=0	hogo38/2017_38_000031737903.xls	42924	81dc1a6ecc992c13841e57cd5a60cdcea805757ac21bb54487cf01be13894e4b	200		2026-11-16T11:53:52+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031847819&fileKind=0	hogo38/2018_38_000031847819.xls	44324	c8fdd7835643c6e46f9f1eb3a8f5e218a305a782c73f554623ba0488d1e756ec	200		2026-11-16T11:53:55+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031963883&fileKind=0	hogo38/2019_38_000031963883.xls	40430	7f3dde14edb18c91b9719c3470389dc9f17dfde44fab2b2aa91c204c510059c7	200		2026-11-16T11:53:57+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032105499&fileKind=4	hogo38/2020_38_000032105499.xls	40507	6dc1ec0737a81bec571eaed637d0bf6fe7d31bde52c048ce7e03ab7f1e4a99fe	200		2026-11-16T11:54:00+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032215856&fileKind=4	hogo38/2021_38_000032215856.xls	41181	05ba4474b405f60c98d8c6ea8b07acdf4b107a81e487a8a17bc0d22b6c6e7b3f	200		2026-11-16T11:54:02+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040080051&fileKind=4	hogo38/2022_38_000040080051.xls	40629	efddfdde56b4d4506953c42335863c3c5013675908751ecce86d98618dbab817	200		2026-11-16T11:54:05+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040192377&fileKind=4	hogo38/2023_38_000040192377.xls	40521	d6b50319a2113a617457b281a1bbee11aa90426791d1f3f7aae3b0cd40df0198	200		2026-11-16T11:54:08+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040292885&fileKind=4	hogo38/2024_38_000040292885.xls	41043	1f745d3ed0b34f455685f50642a3be7ed73a95e4c790d0e8dff2f5bd694974b7	200		2026-11-16T11:54:10+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040477942&fileKind=4	hogo38/2025_38_000040477942.xls	41210	5135a1e3c6371250eb9084160bcdee0db19749da116b18fce133af314191aa31	200		2026-11-16T11:54:13+00:00

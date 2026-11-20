@@ -1,0 +1,13 @@
+{
+ "dir": "hogo",
+ "check": "c2702",
+ "label": "",
+ "note": "保護統計年報：法務省の統計の正誤情報の訂正が現行ファイルに入っているか",
+ "source": "check",
+ "compared": 1963,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 3093,
+ "script_sha256": "5ce11c307e286cdef465c4386c33ce8c9ec59f81bbe460a6af62747726e4d9a6",
+ "written_utc": "2026-11-17T12:30:17Z"
+}

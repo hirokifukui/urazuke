@@ -1,0 +1,13 @@
+{
+ "dir": "roudouryoku",
+ "check": "c2501",
+ "label": "",
+ "note": "労働力調査：概要の数値の再計算",
+ "source": "check",
+ "compared": 6,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "9b5e6583c769b4e038adbdccd366eb1a7a324651bfa157a5ec4d46b890671189",
+ "written_utc": "2026-11-17T12:34:08Z"
+}

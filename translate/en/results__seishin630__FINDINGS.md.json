@@ -1,0 +1,93 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "8aebff7708f5d02ccee94c956ca93a681facf0517ed0a4a41ea3a666bca20c5b": {
+   "ja": "# 精神保健福祉資料（630調査）の検証（2026-11-16 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of Mental Health and Welfare Data (630 Survey) (started 2026-11-16) Verification status: Machine-verified only",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "83729b810635f5fce2e445dc534c7aa452dfce1c52c5de876065a0dda505d18b": {
+   "ja": "## 対象と取得\n- 国立精神・神経医療研究センター（NCNP）精神保健福祉資料のページ（ncnp.go.jp/nimh/seisaku/data/630.html）から、平成29年度〜令和7年度の各集計 ZIP と「630調査長期データ（1998年〜2025年）」longterm_1998_2025.xlsx を取得。正誤表（errata.pdf、令和5年3月28日現在）、在院期間区分の修正（2022-03-17）、ページの写しも保存。\n- 取得記録：data/raw/seishin630/MANIFEST.tsv、errata/SHA256SUMS.txt。\n- 留意：ファイルの URL に版の印（?v=）があり、公表後の差し替えがある。令和6・7年度の訪問看護集計は 2026-11-11 に差し替え（Last-Modified）。令和5年度の診療実績は 2025-06-10。正誤表は令和5年3月28日以降、更新されていない。差し替えの理由は、ページでは確認できない。",
+   "en": "## Scope and acquisition\n- From the National Center of Neurology and Psychiatry (NCNP) Mental Health and Welfare Data page (ncnp.go.jp/nimh/seisaku/data/630.html), obtained the tabulation ZIP files for FY2017 to FY2025 and `630調査長期データ（1998年〜2025年）` (630 Survey long-term data, 1998–2025), longterm_1998_2025.xlsx. Also saved the errata (errata.pdf, as of 28 March 2023), the correction of the length-of-stay categories (2022-03-17), and a copy of the page.\n- Acquisition records: data/raw/seishin630/MANIFEST.tsv, errata/SHA256SUMS.txt.\n- Note: the file URLs carry an edition marker (?v=), and files have been replaced after publication. The home-visit nursing tabulations for FY2024 and FY2025 were replaced on 2026-11-11 (Last-Modified). The FY2023 clinical activity data on 2025-06-10. The errata have not been updated since 28 March 2023. The reason for the replacements cannot be confirmed on the page.",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "140f091201db91da19625d5a3b199dabeca8634cb0103ae7c9e9ff94006d2675": {
+   "ja": "## A（新規）：長期データの「F7」が、指定都市20市・2019〜2021年で F8 の値になっている\n- 長期データ（longterm_1998_2025.xlsx）の F7（知的障害〔精神遅滞〕）シートで、20の指定都市すべての 2019・2020・2021年の値（60セル）が、各年度の従来ベース集計 Ⅲ.2.(5)（在院患者数・疾患分類）の **F8 の値と一致し、F7 の値とは一致しない**。\n- 例：札幌市 2019年。年度別の表は F7 299・F8 42。長期データの F7 は 42。札幌市の長期データ F7 は 2016年 218・2017年 222 →（2018年は指定都市の値なし）→ 2019〜2021年 42・41・28 → 2022年以降 164・166・175 と、この3年だけ不連続。（2026-11-16 夜 訂正：以前は「2017年 218・2018年 222」と1年ずれて書いていた）\n- 年度別の表は、疾患分類（大分類と不明）の和が合計と一致する（札幌市 2019年 5,916）。長期データは、指定都市のこの3年で、疾患分類の和が在院患者数に合わない（c301）。\n- 都道府県の F7、ほかの疾患分類、ほかの年（2018年は都道府県のみ、2022〜2025年）は年度別の表と一致（6,786組のうち不一致はこの60だけ）。**訂正（2026-11-16 夜）**：以前「2017年」も一致と書いたが、2017年（h29）の年度別の表には Ⅲ.2.(5) と同じ名前のシートがなく（「Ⅲ.2.(5)総数」「2.(5)」）、c302 は 2017年を照合していなかった。2018年は長期データに指定都市の値がない。2017年は別に照合する。\n- R004（別系統の反証、2026-11-16）：支持。確認の状態：二重検証済み（別系統）。指摘：長期データの疾患分類の和の不足には「不明」の区分の欠落も寄与する（例：2019年札幌市 −258＝F7 の差 −257＋不明 1）。60セルすべてで「長期の和 − 長期F7 ＋ 年度別F7 ＋ 年度別の不明 ＝ 在院患者数」が成り立ち、F7 以外の11分類は年度別と一致する。値の一致からは、転記の工程や原因までは決まらない。\n- 正誤表（令和5年3月28日現在）に記載なし。確実さ：確定（年度別の表は内部整合、長期データは不連続かつ和が合わない）。検出：c302 → c301 → 手で照合。",
+   "en": "## A (new): in the long-term data, \"F7\" for the 20 designated cities in 2019–2021 contains the F8 values\n- In the F7 (intellectual disability [mental retardation]) sheet of the long-term data (longterm_1998_2025.xlsx), the values for all 20 designated cities in 2019, 2020 and 2021 (60 cells) **match the F8 values and do not match the F7 values** in each year's conventional-basis tabulation Ⅲ.2.(5) (inpatients by disease category).\n- Example: Sapporo, 2019. The annual table gives F7 299 and F8 42. The long-term data's F7 is 42. Sapporo's long-term F7 is 218 in 2016 and 222 in 2017 → (no designated-city values for 2018) → 42, 41, 28 in 2019–2021 → 164, 166, 175 from 2022 onwards; only these three years are discontinuous. (Corrected on the evening of 2026-11-16: previously written with a one-year shift as \"218 in 2017, 222 in 2018\".)\n- In the annual tables, the sum of the disease categories (major categories and unknown) matches the total (Sapporo 2019: 5,916). In the long-term data, for these three years in the designated cities, the sum of the disease categories does not match the number of inpatients (c301).\n- Prefectural F7, the other disease categories, and the other years (2018 prefectures only, 2022–2025) match the annual tables (of 6,786 pairs, these 60 are the only mismatches). **Correction (evening of 2026-11-16)**: previously \"2017\" was also stated to match, but the 2017 (h29) annual table has no sheet with the same name as Ⅲ.2.(5) (`Ⅲ.2.(5)総数`, `2.(5)`), and c302 did not check 2017. For 2018, the long-term data has no designated-city values. 2017 will be checked separately.\n- R004 (refutation by an independent model, 2026-11-16): Supported. Verification status: double-verified (independent model). Point raised: the missing \"unknown\" category also contributes to the shortfall in the sum of the disease categories in the long-term data (e.g. Sapporo 2019: −258 = F7 difference −257 + unknown 1). In all 60 cells, \"long-term sum − long-term F7 + annual F7 + annual unknown = number of inpatients\" holds, and the 11 categories other than F7 match the annual tables. The matching values do not determine the transcription step or the cause.\n- Not listed in the errata (as of 28 March 2023). Certainty: Established (the annual tables are internally consistent; the long-term data is discontinuous and its sums do not match). Detection: c302 → c301 → manual check.",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "783ccadbb7524c679d485724157fd8835c5bec44ff07217fadc44d91147723cb": {
+   "ja": "## 欠落（軽微）：長期データに「不明」の区分がなく、内訳の和が合計に合わない（2017年以降）\n- 年度別の表には入院形態・疾患分類・在院期間・年齢の「不明」の列がある（例：令和6年 北海道 入院形態 不明 324人）。長期データにはこの区分のシートがない。\n- そのため長期データでは、2017年以降、内訳の和が在院患者数より小さい（全国で最大 955人＝2018年の入院形態）。2016年以前は一致する。目次の注にもこの説明はない。",
+   "en": "## Gap (minor): the long-term data has no \"unknown\" category, and breakdown sums do not match totals (2017 onwards)\n- The annual tables have \"unknown\" columns for admission type, disease category, length of stay and age (e.g. 2024, Hokkaido, admission type unknown: 324 persons). The long-term data has no sheets for this category.\n- As a result, in the long-term data from 2017 onwards, the breakdown sums are smaller than the number of inpatients (nationally up to 955 persons = admission type in 2018). Up to 2016 they match. The notes in the table of contents give no explanation of this either.",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ca42c1cdbc1c1757678fe72d22b9dad8d70023ede8b8951e031088987d421ea8": {
+   "ja": "## 設計上の問題（D）：回答率が低い年に在院患者数が落ち込むが、長期データに回答率がない\n- 630調査は回答した病院だけを集計する（全国の回答率は 94〜98％）。\n- 長期データの大きな落ち込みは、回答率の低い年と重なる：長野県 2018年 2,630人（前後は 3,968・3,971、回答率 63.3％）、福井県 2023年 1,277人（前後は 1,762・1,604、回答率 73.3％）、埼玉県 2024年 8,635人（回答率 74.2％）。\n- 長期データは補正をしておらず、回答率の列も注もない。年次の推移（精神病床・在院患者の減少）を読む人は、回答漏れを減少と読み違える。\n- 逆に、和歌山県 2022年は回答率 50.0％なのに在院患者数はほぼ横ばい（1,455 → 1,480）。回答しなかった病院の扱い（補完の有無）が年や県で同じかどうかは、照会事項。",
+   "en": "## Design issue (D): the number of inpatients drops in years with low response rates, but the long-term data has no response rates\n- The 630 Survey tabulates only the hospitals that responded (national response rate 94–98%).\n- Large drops in the long-term data coincide with years of low response rates: Nagano 2018, 2,630 persons (3,968 and 3,971 in the years before and after; response rate 63.3%), Fukui 2023, 1,277 persons (1,762 and 1,604 before and after; response rate 73.3%), Saitama 2024, 8,635 persons (response rate 74.2%).\n- The long-term data is not adjusted and has neither a response-rate column nor a note. Readers of the annual trend (decline in psychiatric beds and inpatients) will misread non-response as decline.\n- Conversely, Wakayama 2022 has a response rate of 50.0%, yet the number of inpatients is almost flat (1,455 → 1,480). Whether the treatment of non-responding hospitals (with or without imputation) is the same across years and prefectures is an open query.",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a7e84199d499bc8a749e06779966715b777783f0bb8a713eaf7cf9018715b5c0": {
+   "ja": "## 誤りなし\n- c301 (a) 長期データの都道府県の和＝合計：1,472組、不一致 0。\n- c301 (c) 指定都市の和 ≦ 道府県：18,833組、超過 0。\n- c301 (b) ★のついた区分（3ヶ月未満、5年以上、20〜65歳など）＝もとの区分の和：1人ずれが4セルだけ（★3ヶ月未満：青森 2024年 840 と 841、東京 2023年 5,070 と 5,071、合計 2023・2024年）。F0 の内訳：1998年の群馬と合計で1人。候補（軽微）。\n- c302 年度別（2018〜2025年。2017年は未照合、上の訂正）と長期データの照合：上の60セル以外は一致。",
+   "en": "## No errors\n- c301 (a) prefectural sum in the long-term data = total: 1,472 pairs, 0 mismatches.\n- c301 (c) sum of designated cities ≤ prefecture: 18,833 pairs, 0 exceedances.\n- c301 (b) ★-marked categories (under 3 months, 5 years or more, ages 20–65, etc.) = sum of the original categories: differences of 1 person in only 4 cells (★under 3 months: Aomori 2024, 840 vs 841; Tokyo 2023, 5,070 vs 5,071; total, 2023 and 2024). F0 breakdown: 1 person in Gunma and the total in 1998. Candidate (minor).\n- c302 comparison of the annual tables (2018–2025; 2017 not checked, see the correction above) with the long-term data: everything except the 60 cells above matches.",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "82ccb784c572c00951b1c43196f6a1f0642af4c9bb7ef377417ae7296cb12e24": {
+   "ja": "## まだ行っていないこと\n- 年度別の各表（Ⅱ・Ⅲ）の内部整合（都道府県の和、内訳の和）。\n- 自治体票（措置入院・医療保護入院の届出、精神医療審査会）と、衛生行政報告例の照合。\n- 差し替え前のファイルとの比較（入手できない。今後は取得のたびに SHA256 を記録して差し替えを検出する）。\n---",
+   "en": "## Not yet done\n- Internal consistency of each annual table (Ⅱ, Ⅲ) (prefectural sums, breakdown sums).\n- Comparison of the municipality forms (notifications of involuntary admission and admission for medical care and protection, psychiatric review boards) with the Report on Public Health Administration.\n- Comparison with the files before replacement (not obtainable; from now on, the SHA256 will be recorded at each acquisition to detect replacements).\n---",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "46c90f978d9184dc9da7208219b5da3c356b650c51458ccb49d4043153af3f8a": {
+   "ja": "## 10年分への拡張（2016〜2025年）— 2026-11-16 夜\n- 平成27・28年度（2015・2016年）は旧様式（h27_630.xlsx・h28_630.xlsx、NCNP「H28までの630調査」）を取得。旧様式の都道府県の行は指定都市を含まない（指定都市は別の行、全部の和が合計）。\n- c303：旧様式の「道府県＋その中の指定都市」と長期データの都道府県、指定都市どうしを、疾患分類12区分と合計で比較。2015・2016年の 1,742組すべて一致。旧様式の行の和＝合計も一致。\n- これで 2016〜2025年の10年のうち、長期データの指定都市の値がない 2018年と、照合していなかった 2017年（上の訂正、のちに c304 で都道府県を照合）を除き、年度別の表と照合した。不一致は F7 の60セル（2019〜2021年）だけ。",
+   "en": "## Extension to 10 years (2016–2025) — evening of 2026-11-16\n- For FY2015 and FY2016 (2015, 2016), obtained the old format (h27_630.xlsx, h28_630.xlsx, NCNP `H28までの630調査`). In the old format, the prefectural rows do not include the designated cities (the designated cities are on separate rows; the sum of all rows is the total).\n- c303: compared \"prefecture + the designated cities within it\" in the old format with the prefectures in the long-term data, and the designated cities with each other, across the 12 disease categories and the total. All 1,742 pairs for 2015 and 2016 match. The row sums = total in the old format also match.\n- With this, of the 10 years 2016–2025, all have been checked against the annual tables except 2018, for which the long-term data has no designated-city values, and 2017, which had not been checked (correction above; prefectures later checked with c304). The only mismatches are the 60 F7 cells (2019–2021).",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "b4ed5dc6bc91dc0a7a01f4a2b1acd7a3d379d8ecf33b1ed1795be913ece98ed1": {
+   "ja": "## 追記（2026-11-16 夜）：2017年の照合（c304）\n- 2017年（h29）の「Ⅲ.2.(5)総数」と長期データを、都道府県×（疾患分類12区分＋合計）で照合：611組、不一致 0。\n- h29 の年度別の表には指定都市の行がない。長期データには 2017年の指定都市の値がある（例：札幌市 F7 222）。この値の出どころ（年度別の表のどこか）は今回の資料では確かめられない。\n- これで 2016〜2025年の10年のうち、都道府県は全年、指定都市は 2018年（長期データに値なし）と 2017年（年度別に行なし）を除いて照合した。",
+   "en": "## Addendum (evening of 2026-11-16): checking 2017 (c304)\n- Checked 2017 (h29) `Ⅲ.2.(5)総数` against the long-term data by prefecture × (12 disease categories + total): 611 pairs, 0 mismatches.\n- The h29 annual table has no designated-city rows. The long-term data has designated-city values for 2017 (e.g. Sapporo F7 222). The source of these values (which part of the annual tables) cannot be confirmed from the materials used this time.\n- With this, of the 10 years 2016–2025, prefectures have been checked for all years, and designated cities for all years except 2018 (no values in the long-term data) and 2017 (no rows in the annual table).",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "4d0a7f39427af3f672eedaeb98295252ed4849ebd1f1bd12b53ea9d712ff704c": {
+   "ja": "## 陰性対照（2026-11-17）\n- checks/generic/negctl_630_hogo.py：長期データの写しで、在院患者数（青森 2020年）に +100、F7（青森 2020年）に +7 を加えて c301・c302 を走らせた。c301 の検出行 867→872、c302 の検出行 587→589、c302 は青森2020年の食い違いを3行拾った。検査は1か所の変更を検出する。結果：results/scope/negctl_630_hogo.json",
+   "en": "## Negative control (2026-11-17)\n- checks/generic/negctl_630_hogo.py: on a copy of the long-term data, added +100 to the number of inpatients (Aomori 2020) and +7 to F7 (Aomori 2020), and ran c301 and c302. Detected rows in c301 went from 867→872 and in c302 from 587→589, and c302 picked up the Aomori 2020 discrepancy in 3 rows. The checks detect a change in a single location. Result: results/scope/negctl_630_hogo.json",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "89ebedb2efaa06d3e6dd0f98156c47ee2e8b9daf3a6e274af34271efc2fa8cca": {
+   "ja": "## 欠落（軽微）：長期データに「不明」の区分がなく、内訳の和が合計に合わない（2018年以降）\n- 年度別の表には入院形態・疾患分類・在院期間・年齢の「不明」の列がある（例：令和6年 北海道 入院形態 不明 324人）。長期データにはこの区分のシートがない。\n- そのため長期データでは、2018年以降、内訳の和が在院患者数より小さい（全国で最大 955人＝2018年の入院形態）。2017年以前は一致する（2026-11-18 訂正：以前は「2017年以降」と書いていた。R025 Q1 の指摘）。令和5・6年度の年度別の表には「不明」があり、足すと総数に合う（475人・382人）。目次の注にもこの説明はない。",
+   "en": "## Gap (minor): the long-term data have no \"Unknown\" category, and the sum of the breakdown does not match the total (2018 onwards)\n- The tables for each year have \"Unknown\" columns for admission type, disease classification, length of stay and age (e.g. 2024, Hokkaido, admission type Unknown: 324 persons). The long-term data have no sheet for this category.\n- As a result, in the long-term data from 2018 onwards, the sum of the breakdown is smaller than the number of inpatients (nationwide, at most 955 persons, for admission type in 2018). Up to 2017 they match (2026-11-18 correction: this previously read \"from 2017 onwards\"; pointed out in R025 Q1). The tables for FY2023 and FY2024 include \"Unknown\", and adding it gives the total (475 persons and 382 persons). The notes in the table of contents do not explain this either.",
+   "src": "results/seishin630/FINDINGS.md",
+   "src_commit": "67fdf0e+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  }
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "133dbf58ecd16177911fac058eb1059ef3affd87ae856c650671654ce0f3b052": {
+   "ja": "# 消費者物価指数の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Consumer Price Index (started 2026-11-17)　Verification status: Machine-verified only",
+   "src": "results/cpi/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "14fb17c6228afc094fa0ed7ccd239110d5ad353f32394c8b7ab9661b77e23e16": {
+   "ja": "## 対象と取得\n- 総務省 消費者物価指数（2020年基準）全国 年平均：中分類指数（1970〜2025年）と中分類指数 前年比（e-Stat CSV）、2025年平均の公表 PDF。取得記録：data/raw/cpi/MANIFEST.tsv。",
+   "en": "## Scope and acquisition\n- Ministry of Internal Affairs and Communications Consumer Price Index (2020 base), national, annual averages: middle-category indices (1970–2025) and middle-category indices, year-on-year change (e-Stat CSV), and the published PDF for the 2025 average. Acquisition record: data/raw/cpi/MANIFEST.tsv.",
+   "src": "results/cpi/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a54eb486895864f7732a09cc15d7e2216ad8a20aa6e434a5012802bf9b978d04": {
+   "ja": "## c2401 再計算・形式間（L5・L4）\n- (a) 指数から前年比を再計算し、指数・前年比の丸め（小数第1位）の範囲が重なるかを確かめた：4,219組中 4,183組は範囲内。範囲外の36組はすべて1971〜1990年（例：1971年 和服 22.5→25.7 で 14.2％、公表 14.6％）。CSV に前年比の計算方法の注記はない。過去の基準の指数で計算した前年比を接続している場合に起こる差で、その説明が公表資料のどこにあるかは今回確かめていない。記録にしない（次回、消費者物価指数の解説で確かめる）。\n- (b) 2025年平均 PDF の総合 111.9（3.2％上昇）、生鮮食品を除く総合 111.2（3.1％）、生鮮食品及びエネルギーを除く総合 110.3（3.0％）：CSV と一致。",
+   "en": "## c2401 Recalculation and between formats (L5, L4)\n- (a) The year-on-year changes were recalculated from the indices, and it was checked whether the rounding ranges (to one decimal place) of the indices and the year-on-year changes overlap: of 4,219 pairs, 4,183 are within range. All 36 pairs out of range are in 1971–1990 (example: 1971, Japanese clothing, 22.5→25.7 gives 14.2%, published 14.6%). The CSV has no note on the method of calculating the year-on-year change. This is a difference that arises when year-on-year changes calculated from indices on earlier bases are linked; where this is explained in the published materials was not checked this time. Not made a record (to be checked next time in the explanatory notes on the Consumer Price Index).\n- (b) In the 2025 average PDF, all items 111.9 (up 3.2%), all items less fresh food 111.2 (3.1%), and all items less fresh food and energy 110.3 (3.0%): match the CSV.",
+   "src": "results/cpi/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8f41fd2585e9ff7b056ab18f5b0b06714cc1e20ecccac81e8d001066cb6b09e8": {
+   "ja": "## 陰性対照\n- 2025年の総合指数を変えた写しで (b) が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- A copy with the 2025 all-items index altered was detected by (b) (results/scope/negctl_r08.json).",
+   "src": "results/cpi/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d64929cd68ced12d46eeaaab2f3036f858051a5b3960a998f3133e89a8c6622b": {
+   "ja": "## 照合した件数\n約4,200組。記録なし。",
+   "en": "## Number of items checked\nApproximately 4,200 pairs. No records.",
+   "src": "results/cpi/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

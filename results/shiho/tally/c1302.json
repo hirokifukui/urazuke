@@ -1,0 +1,13 @@
+{
+ "dir": "shiho",
+ "check": "c1302",
+ "label": "",
+ "note": "司法統計年報（刑事編）の正誤表の訂正セル：訂正後の値と更新版、次の年の年報",
+ "source": "check",
+ "compared": 741,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 37,
+ "script_sha256": "3c05ace49ba83c06c06251262049aee1e9b15f661af2e3671c7d49c4d16dfc19",
+ "written_utc": "2026-11-17T12:29:57Z"
+}

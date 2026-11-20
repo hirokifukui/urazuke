@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c004",
+ "label": "",
+ "note": "犯罪白書 平成26〜令和7年版：刑法犯の資料と再犯者の図の、同じ年の値の版どうしの比較",
+ "source": "check",
+ "compared": 572,
+ "mismatched": 71,
+ "explained": 65,
+ "read_failures": 0,
+ "script_sha256": "449c2842a02b935a540563b8360202f83dab392c5f12e91593cd6ba38dd656b6",
+ "written_utc": "2026-11-17T12:57:43Z"
+}

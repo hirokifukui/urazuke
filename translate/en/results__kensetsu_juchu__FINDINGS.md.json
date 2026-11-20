@@ -1,0 +1,61 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "ebf2c9a324452a92841915a2b8df9d72baf028cbf5c30c9c88e4782a249b86b4": {
+   "ja": "# 建設工事受注動態統計の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Survey of Construction Orders Received (started 2026-11-17)  Verification status: Machine-verified only",
+   "src": "results/kensetsu_juchu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "90e1f324f42959ab7aee321058fba064effc2d2df55a60ae50a6917433f56de5": {
+   "ja": "## 対象と取得\n- 国土交通省「建設工事受注動態統計調査報告（令和6年度計分）」の報道発表ページと添付（PDF 1・Excel 8。PDF の表紙は「令和7年5月13日公表（令和8年6月12日一部訂正）」）。令和6年10月分・12月分の訂正後 PDF。修正情報のページ（sosei_jouhouka_fr4_000033）。取得記録：data/raw/kensetsu_juchu/MANIFEST.tsv。\n- 訂正前の月報 PDF（kakuho2410.pdf、001861674.pdf）は 404 で取得できない。",
+   "en": "## Scope and acquisition\n- The press release page and attachments (1 PDF, 8 Excel files) of the Ministry of Land, Infrastructure, Transport and Tourism's `建設工事受注動態統計調査報告（令和6年度計分）` (Survey of Construction Orders Received report, FY2024 total). The cover of the PDF reads \"published 13 May 2025 (partially corrected 12 June 2026)\". The corrected PDFs for October 2024 and December 2024. The correction information page (sosei_jouhouka_fr4_000033). Acquisition record: data/raw/kensetsu_juchu/MANIFEST.tsv.\n- The monthly report PDFs before correction (kakuho2410.pdf, 001861674.pdf) return 404 and cannot be obtained.",
+   "src": "results/kensetsu_juchu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "7eee68ece059cf98d6bed50e566e67c7e7e1d581eca3a98585b7563eef2451c9": {
+   "ja": "## c3101 時系列表の恒等式\n- 受注高時系列（5区分×4）・公共工事時系列（発注機関別）：計=内訳、元請=公共+民間、受注高合計=元請+下請、年度=四半期の和=月の和、暦年。式 1,188、不一致 0（±1百万円）。",
+   "en": "## c3101 Identities in the time-series tables\n- Orders received time series (5 categories × 4) and public works time series (by ordering body): total = breakdown; prime contracts = public + private; total orders received = prime contracts + subcontracts; fiscal year = sum of quarters = sum of months; calendar year. Equations: 1,188; mismatches: 0 (±1 million yen).",
+   "src": "results/kensetsu_juchu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3437591eea670a2866cfb6c334f6f8fa95045d08ded4380dcbb8c0da02fb9a55": {
+   "ja": "## 公表ページ\n- 報道発表ページは「H27.2、R4.1、R5.3〜R6.11 の公表値の誤りについて、令和8年6月12日に公表資料の一部を差し替えた」「差替前と比較した新旧表はこちら」と書き、「こちら」は修正情報のページへつながる。修正情報のページの最新の項目は令和7年6月30日の訂正（大手50社調査）で、令和8年6月12日の差替の項目・新旧表はない → KJ-L1\n- 同じ報道発表ページの日付は「令和6年5月13日」。添付 PDF の表紙は「令和7年5月13日公表」。令和6年度計は令和7年3月までの集計 → KJ-I1",
+   "en": "## Published page\n- The press release page states that \"regarding errors in the published values for H27.2 (February 2015), R4.1 (January 2022) and R5.3 to R6.11 (March 2023 to November 2024), part of the published materials was replaced on 12 June 2026\" and that \"the old/new comparison table against the pre-replacement version is here\"; the \"here\" link leads to the correction information page. The latest item on the correction information page is the correction of 30 June 2025 (survey of the 50 major companies); there is no item and no old/new comparison table for the replacement of 12 June 2026 → KJ-L1\n- The date on the same press release page is \"13 May 2024\". The cover of the attached PDF reads \"published 13 May 2025\". The FY2024 total is aggregated up to March 2025 → KJ-I1",
+   "src": "results/kensetsu_juchu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "cd25b61d9693afd15a4d260663fa75b7729136bd32cc7207d0fe6300b4b81940": {
+   "ja": "## 陰性対照\n- 受注高時系列 R6年度 受注高合計の計を変えた写し（xls）で検出。",
+   "en": "## Negative control\n- Detected with a copy (xls) of the orders received time series in which the FY2024 total of total orders received was altered.",
+   "src": "results/kensetsu_juchu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "fe9d20070ea0f00317ed040f2dfc033985660d0c12cb4364b26dd7e2ec402b1f": {
+   "ja": "## 照合した件数\n1,188式。記録2件（KJ-L1、KJ-I1）。",
+   "en": "## Number of checks\n1,188 equations. 2 records (KJ-L1, KJ-I1).",
+   "src": "results/kensetsu_juchu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6865c6e115aaf2175e5cfad37b6429788bd012c1ce8c676cd7abc883a504b65f": {
+   "ja": "## 別系統の反証（R009）\n- KJ-L1：支持（Q4）。保存したページの範囲での判定で、新旧表がほかの場所にないとは言えない、との指摘を要旨に書き足した。\n- KJ-I1：支持（Q6）。",
+   "en": "## Refutation by an independent model (R009)\n- KJ-L1: Supported (Q4). The point that the judgment was made within the scope of the saved pages, and that it cannot be said that the old/new comparison table does not exist elsewhere, was added to the summary.\n- KJ-I1: Supported (Q6).",
+   "src": "results/kensetsu_juchu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

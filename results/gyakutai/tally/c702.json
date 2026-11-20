@@ -1,0 +1,13 @@
+{
+ "dir": "gyakutai",
+ "check": "c702",
+ "label": "",
+ "note": "児童虐待相談対応件数：速報値と確定値（自治体別）、前年度の値、増減の算術",
+ "source": "check",
+ "compared": 1080,
+ "mismatched": 25,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "c125c11b9cb964b90f8143f8da479c25ed0813b6e4339bc28d7fdd547bff6861",
+ "written_utc": "2026-11-17T12:26:17Z"
+}

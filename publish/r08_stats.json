@@ -1,0 +1,127 @@
+[
+ {
+  "slug": "jisatsu-hakusho",
+  "名前": "自殺対策白書",
+  "公表元": "厚生労働省",
+  "作業ノート": "results/jisatsu_hakusho/FINDINGS.md",
+  "接頭辞": "JH"
+ },
+ {
+  "slug": "futoko",
+  "名前": "児童生徒の問題行動・不登校等調査",
+  "公表元": "文部科学省",
+  "作業ノート": "results/futoko/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（都道府県の和 663列：令和3〜5年度。令和6年度の修正は告知済み）"
+ },
+ {
+  "slug": "shiho",
+  "名前": "司法統計年報（刑事編）",
+  "公表元": "最高裁判所",
+  "作業ノート": "results/shiho/FINDINGS.md",
+  "接頭辞": "SJ"
+ },
+ {
+  "slug": "eisei",
+  "名前": "衛生行政報告例（精神保健福祉）",
+  "公表元": "厚生労働省",
+  "作業ノート": "results/eisei/FINDINGS.md",
+  "接頭辞": "ES"
+ },
+ {
+  "slug": "jinko-dotai",
+  "名前": "人口動態統計（確定数）",
+  "公表元": "厚生労働省",
+  "作業ノート": "results/jinko_dotai/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（約630組：内部整合・版間・自殺対策白書との突き合わせ）"
+ },
+ {
+  "slug": "kokusei",
+  "名前": "国勢調査",
+  "公表元": "総務省",
+  "作業ノート": "results/kokusei/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（約8,000行：男女・都道府県・市区町村の和、2020年との組替）"
+ },
+ {
+  "slug": "juki-idou",
+  "名前": "住民基本台帳人口移動報告",
+  "公表元": "総務省",
+  "作業ノート": "results/juki_idou/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（約2,000組：転入・転出・転入超過、移動前の住所地別の表）"
+ },
+ {
+  "slug": "kanja",
+  "名前": "患者調査",
+  "公表元": "厚生労働省",
+  "作業ノート": "results/kanja/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（約160組：施設の種類・傷病分類の和、表の間の一致）"
+ },
+ {
+  "slug": "iryosd",
+  "名前": "医療施設（動態）調査",
+  "公表元": "厚生労働省",
+  "作業ノート": "results/iryosd/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（約900組：都道府県の和、人口10万対の再計算、版間）"
+ },
+ {
+  "slug": "shogai-hakusho",
+  "名前": "障害者白書",
+  "公表元": "内閣府",
+  "作業ノート": "results/shogai_hakusho/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（図表1 障害者数の内訳 18行）"
+ },
+ {
+  "slug": "danjo-hakusho",
+  "名前": "男女共同参画白書",
+  "公表元": "内閣府",
+  "作業ノート": "results/danjo_hakusho/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（警察庁の統計との突き合わせ 6件）"
+ },
+ {
+  "slug": "kodomo-hakusho",
+  "名前": "こども白書（旧 子供・若者白書）",
+  "公表元": "こども家庭庁",
+  "作業ノート": "results/kodomo_hakusho/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（引用元の統計との突き合わせ 12値）"
+ },
+ {
+  "slug": "maikin",
+  "名前": "毎月勤労統計調査",
+  "公表元": "厚生労働省",
+  "作業ノート": "results/maikin/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（約110組：給与の内訳、指数と前年比、版間）"
+ },
+ {
+  "slug": "roudouryoku",
+  "名前": "労働力調査",
+  "公表元": "総務省",
+  "作業ノート": "results/roudouryoku/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（年平均の主要な数 6組）"
+ },
+ {
+  "slug": "cpi",
+  "名前": "消費者物価指数",
+  "公表元": "総務省",
+  "作業ノート": "results/cpi/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（約4,200組：指数と前年比、PDF と CSV）"
+ },
+ {
+  "slug": "kessan",
+  "名前": "決算検査報告",
+  "公表元": "会計検査院",
+  "作業ノート": "results/kessan/FINDINGS.md",
+  "接頭辞": null,
+  "CHK": "照合済み・記録なし（検査の大要の件数・金額 4組。指摘の当否は扱わない）"
+ }
+]

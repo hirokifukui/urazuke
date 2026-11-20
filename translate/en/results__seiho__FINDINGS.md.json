@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "fd7654db595dad5deed75e72434f56f2b563bcf374c8ee8299a5019255e12637": {
+   "ja": "# 生活保護 被保護者調査の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Public Assistance Recipients Survey (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/seiho/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "4c6971bdbe93a5adfc658bfd4ba76855a2ff541da90926f03508cac8ab300f9c": {
+   "ja": "## 対象と取得\n- 厚生労働省 被保護者調査（月次概数）の報道発表資料 17本（令和7年4月分〜令和8年8月分）。取得記録：data/raw/seiho/MANIFEST.tsv。",
+   "en": "## Scope and retrieval\n- Ministry of Health, Labour and Welfare Public Assistance Recipients Survey (monthly preliminary figures): 17 press releases (April 2025 to August 2026). Retrieval log: data/raw/seiho/MANIFEST.tsv.",
+   "src": "results/seiho/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "7d8957ae92cbddea989fe292b37d89c947a4f39a5b3c5d64b107aecb8c5539e0": {
+   "ja": "## c3301\n- 各本：対前年同月差・伸び率・対前月差、世帯類型の内訳の和と構成割合。版間：m月分の当月 = m+1月分の前月 = m+12月分の前年同月。式 1,136、不一致 0。",
+   "en": "## c3301\n- Each release: difference from the same month of the previous year, growth rate and difference from the previous month; sum of the breakdown by household type and the composition ratios. Between editions: current month in the release for month m = previous month in the release for month m+1 = same month of the previous year in the release for month m+12. Formulas: 1,136; mismatches: 0.",
+   "src": "results/seiho/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8fba4f436f141d6de660741ee799427fb7b236fd2aa1e1b28169d68c1dd21fd3": {
+   "ja": "## 陰性対照\n- 令和8年8月分の被保護実人員の当月を pdftotext の出力で変えて検出（PDF の検査は、読み出した文字を置き換えて確かめる）。",
+   "en": "## Negative control\n- Detected after the current-month value of the actual number of recipients in the August 2026 release was altered in the pdftotext output (PDF checks are confirmed by replacing the extracted text).",
+   "src": "results/seiho/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "0938a6c635c42f9e43e38dd93b4fe8632a4edcdd1cfa987e6d66ecdb278e73fb": {
+   "ja": "## 照合した件数\n1,136式。記録なし。",
+   "en": "## Number of checks\n1,136 formulas. No records.",
+   "src": "results/seiho/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

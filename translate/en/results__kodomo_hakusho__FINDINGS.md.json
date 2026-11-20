@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "8eefe6a6375085e5a6620fe01174279f17d222ea8ee24ad81f0f2a016d1bf059": {
+   "ja": "# こども白書（旧 子供・若者白書）の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the White Paper on Children (formerly on Children and Young People) (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/kodomo_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3778b1dd5eda11cf499298e93d938b48f2aa8bb689f2ae877450a289e5e67376": {
+   "ja": "## 対象と取得\n- 「子供・若者白書」は令和5年度から、こども家庭庁の「こども白書」に引き継がれた。こども白書 令和8年版（第2部第1章、第3部第1・2章 PDF）を対象にした。取得記録：data/raw/kodomo_hakusho/MANIFEST.tsv。",
+   "en": "## Scope and retrieval\n- From FY2023, the White Paper on Children and Young People was succeeded by the Children and Families Agency's White Paper on Children. The scope was the White Paper on Children, 2026 edition (Reiwa 8) (PDFs of Part 2 Chapter 1 and Part 3 Chapters 1 and 2). Retrieval record: data/raw/kodomo_hakusho/MANIFEST.tsv.",
+   "src": "results/kodomo_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "479e58a4bebab66e7a7e51c3f3a8c510a1c69595f3915f4d0a2b6e1fc6d0be5e": {
+   "ja": "## c2001 引用元の統計との突き合わせ（L4）— 誤りなし\n- 児童虐待相談対応件数 2024年度 223,691：こども家庭庁の令和6年度の資料（2026-01-30）と一致。\n- 小中高生の自殺者数 2025年 538：自殺対策白書 令和8年版 参考資料2-15表と一致（同表の令和7年の内訳は文字列で入っている：記録 JH-A1）。\n- いじめの重大事態の発生件数 2015〜2024年度の10年分：問題行動・不登校等調査の修正版（2026-01-16）＜参考9＞と一致（2024年度は修正後の 1,404）。\n- 図表2-1-37（不登校）には「令和７年10月29日公表時点のデータ」と注記がある。不登校の数は 2026-01-16 の修正の対象外。",
+   "en": "## c2001 Cross-check against the cited source statistics (L4) — no errors\n- Child abuse consultations handled, FY2024, 223,691: matches the Children and Families Agency's FY2024 material (2026-01-30).\n- Number of suicides among elementary, junior high and high school students, 2025, 538: matches Reference Table 2-15 of the White Paper on Suicide Countermeasures, 2026 edition (Reiwa 8) (the 2025 breakdown in that table is entered as text: record JH-A1).\n- Number of serious bullying incidents, ten years from FY2015 to FY2024: matches <Reference 9> of the revised version (2026-01-16) of the Survey on Problem Behavior and School Non-attendance (FY2024 is the revised value, 1,404).\n- Figure 2-1-37 (school non-attendance) carries the note \"data as at the time of publication on 29 October 2025\". The number of non-attendance cases was not covered by the 2026-01-16 revision.",
+   "src": "results/kodomo_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "cd1870a5099fd4ec56609e7347ab91162b22c38c438803e9f148edf6aea91df9": {
+   "ja": "## 陰性対照\n- 白書の重大事態の値を変えた写しで不一致を検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- A mismatch was detected in a copy of the white paper with the serious-incident values altered (results/scope/negctl_r08.json).",
+   "src": "results/kodomo_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "975c17d3b06e05cf3b909b631a7191fbc1afe929b434edf0b6aef19f14fbe298": {
+   "ja": "## 照合した件数\n12値。記録なし。",
+   "en": "## Values checked\n12 values. No records.",
+   "src": "results/kodomo_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

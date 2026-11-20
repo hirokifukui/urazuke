@@ -1,0 +1,9 @@
+{
+  "title": "URAZUKE: verification records of Japanese official statistics",
+  "upload_type": "dataset",
+  "description": "Records of discrepancies found by code in Japanese official statistics (crime, justice, psychiatric care, welfare), with scripts, refutation checks by an independent model, and source fingerprints. The Japanese version is authoritative. Records and data: CC BY 4.0. Code: MIT.",
+  "creators": [{"name": "URAZUKE"}],
+  "license": "cc-by-4.0",
+  "keywords": ["official statistics", "Japan", "reproducibility", "verification"],
+  "related_identifiers": [{"identifier": "https://urazuke.org", "relation": "isDocumentedBy"}]
+}

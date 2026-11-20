@@ -1,0 +1,13 @@
+{
+ "dir": "maikin",
+ "check": "c2301",
+ "label": "",
+ "note": "毎月勤労統計：指数・前年比の再計算、表どうし",
+ "source": "check",
+ "compared": 114,
+ "mismatched": 3,
+ "explained": 3,
+ "read_failures": 0,
+ "script_sha256": "3a9164639bce5abd3d66e7c9ed8a9a6053e6cb66a9e32c9be2dcd0cb2c7e2acf",
+ "written_utc": "2026-11-17T12:34:08Z"
+}

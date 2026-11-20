@@ -1,0 +1,13 @@
+{
+ "dir": "keisatsu",
+ "check": "c402",
+ "label": "",
+ "note": "犯罪統計資料 CSV：N年版の前年列とN−1年版の当年列",
+ "source": "check",
+ "compared": 34623,
+ "mismatched": 2,
+ "explained": 2,
+ "read_failures": 1772,
+ "script_sha256": "8e94cb212770249ae94dd2fb551e9a8efb184eca67e06eb118a54960923c6be7",
+ "written_utc": "2026-11-17T12:49:18Z"
+}

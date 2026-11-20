@@ -1,0 +1,5 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.stat.go.jp/data/roudou/sokuhou/nen/ft/zuhyou/054bh01.xlsx	2025/054bh01.xlsx	21391	e1af0482735fe87c9fa86cbf37c7bdc810e7cadb86b5bc2ca5c013b770f9a087	200	Mon, 30 Jan 2023 23:33:52 GMT	2026-11-16T17:35:53+00:00
+https://www.stat.go.jp/data/roudou/sokuhou/nen/ft/zuhyou/054bh02.xlsx	2025/054bh02.xlsx	26373	f7a13b9b19ffc41e78666891fc7d7d79c10824f08a043bfc762d63d1574052f4	200	Mon, 30 Jan 2023 23:33:52 GMT	2026-11-16T17:35:53+00:00
+https://www.stat.go.jp/data/roudou/sokuhou/nen/ft/pdf/gaiyou.pdf	2025/gaiyou.pdf	625244	f29dc6dfacb5aec1a7f984c616dd22032e413e182ec62eb4eaa17e83db98350a	200	Mon, 30 Mar 2026 23:32:53 GMT	2026-11-16T17:35:54+00:00
+https://www.stat.go.jp/data/roudou/sokuhou/nen/ft/pdf/youyaku.pdf	2025/youyaku.pdf	112729	635248ff2471720b341ea8f0c172fe912c79fdf97ca8ed1ba66829afe1abdb15	200	Thu, 29 Jan 2026 23:31:34 GMT	2026-11-16T17:38:58+00:00

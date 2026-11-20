@@ -1,0 +1,13 @@
+{
+ "dir": "saihan",
+ "check": "c3902",
+ "label": "",
+ "note": "犯罪白書 5-3-10図・5-3-11図：比率・男女・年齢層の和、5-3-9図との一致、版間",
+ "source": "check",
+ "compared": 1752,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "f70fc82d253d811763fa8a9a8289068d5f1a8209a94ff182361d3eb4eaee2d75",
+ "written_utc": "2026-11-17T12:23:29Z"
+}

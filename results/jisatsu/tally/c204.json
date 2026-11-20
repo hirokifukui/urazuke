@@ -1,0 +1,13 @@
+{
+ "dir": "jisatsu",
+ "check": "c204",
+ "label": "",
+ "note": "「自殺の状況」補表2-1（年齢階級別の推移）と基礎資料",
+ "source": "check",
+ "compared": 28,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 2,
+ "script_sha256": "5193aae8b3ea71d8a7f33d0c73a5fdff6f8e2e1b4aac860bcc74c870ab523dd4",
+ "written_utc": "2026-11-17T12:25:49Z"
+}

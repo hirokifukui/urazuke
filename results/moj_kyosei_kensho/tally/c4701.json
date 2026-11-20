@@ -1,0 +1,12 @@
+{
+ "dir": "moj_kyosei_kensho",
+ "check": "c4701",
+ "label": "",
+ "note": "職業訓練の性差の論文（矯正研究 第8号）：表の χ²・φ の再計算、表の間の和",
+ "source": "check",
+ "compared": 27,
+ "mismatched": 3,
+ "explained": null,
+ "read_failures": 0,
+ "written_utc": "2026-11-20T06:07:08Z"
+}

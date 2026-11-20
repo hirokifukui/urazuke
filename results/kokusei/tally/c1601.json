@@ -1,0 +1,13 @@
+{
+ "dir": "kokusei",
+ "check": "c1601",
+ "label": "",
+ "note": "国勢調査 主な結果：男女の和、都道府県の和、増減、組替人口、市区町村の和",
+ "source": "check",
+ "compared": 7996,
+ "mismatched": 2,
+ "explained": 2,
+ "read_failures": 0,
+ "script_sha256": "92daee0dc5ceaf7e1d8c59b90276e7149c5a7d02e78f5d3c76db75581f412aeb",
+ "written_utc": "2026-11-17T12:34:09Z"
+}

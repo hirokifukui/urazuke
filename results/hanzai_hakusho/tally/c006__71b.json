@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c006",
+ "label": "71b",
+ "note": "犯罪白書 本文の「N（前年比M（P％））」の内部計算",
+ "source": "check",
+ "compared": 44,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "465b7fb5a4d5a6056140f6a094a428a11ef70d6c688705bc22dde1e353ef53a3",
+ "written_utc": "2026-11-17T12:18:57Z"
+}

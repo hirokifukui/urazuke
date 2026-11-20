@@ -1,0 +1,13 @@
+{
+ "dir": "iryosd",
+ "check": "c1801",
+ "label": "",
+ "note": "医療施設調査：施設数・病床数の和、表どうし",
+ "source": "check",
+ "compared": 910,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "b91b4327340e96341a9562f7853bb4c04cd3635e8f58dbcb7ea2120385d8bc7c",
+ "written_utc": "2026-11-17T12:34:08Z"
+}

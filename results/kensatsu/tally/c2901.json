@@ -1,0 +1,13 @@
+{
+ "dir": "kensatsu",
+ "check": "c2901",
+ "label": "",
+ "note": "検察統計年報：受理・既済・未済の恒等式",
+ "source": "check",
+ "compared": 780,
+ "mismatched": 115,
+ "explained": 29,
+ "read_failures": 0,
+ "script_sha256": "c3e863025e1425d9ff7bedd50f314b324e6ca95436da5429287a4ee9a39a14dd",
+ "written_utc": "2026-11-17T12:30:02Z"
+}

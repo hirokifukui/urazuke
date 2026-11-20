@@ -1,0 +1,13 @@
+{
+ "dir": "cpi",
+ "check": "c2401",
+ "label": "",
+ "note": "消費者物価指数：指数から前年比の再計算、PDF と CSV",
+ "source": "check",
+ "compared": 4225,
+ "mismatched": 36,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "c91d6d0317065e182280e41d6c715bdf56a462a2b9de66a35718c1935857d7f6",
+ "written_utc": "2026-11-17T12:34:10Z"
+}

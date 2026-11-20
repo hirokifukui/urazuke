@@ -1,0 +1,9186 @@
+{
+ "R029_gpt_types": {
+  "ctrl_ok": true,
+  "n": 21,
+  "n_key": 21,
+  "agree": 17,
+  "kappa": {
+   "T0": 0.81,
+   "T1": 1.0,
+   "T2": 1.0,
+   "T3": 0.83,
+   "T4": 0.86
+  },
+  "items": {
+   "Q-ST-I2-001": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "Q-ST-I2-004": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "Q-JH-A1-001": {
+    "gpt": [
+     "T1"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1",
+    "gemini_raw": "T1"
+   },
+   "Q-JH-A1-002": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "Q-YK-C1-001": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "Q-KP-C1-005": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "Q-YK-C1-002": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "Q-ST-I2-003": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "Q-KP-C1-004": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "Q-NK-K1-001": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "Q-GY-Q1-001": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "Q-ST-I2-002": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "Q-KP-C1-006": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "Q-GY-Q1-002": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "Q-SO-P1-002": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T0"
+   },
+   "Q-KP-C1-001": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "Q-KP-C1-002": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T2"
+   },
+   "Q-KP-C1-003": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T2"
+   },
+   "Q-YK-C1-003": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "Q-SO-P1-001": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T0"
+   },
+   "Q-630-D1-001": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   }
+  }
+ },
+ "R030_gpt_types": {
+  "ctrl_ok": true,
+  "n": 11,
+  "n_key": 11,
+  "agree": 10,
+  "kappa": {
+   "T0": 1.0,
+   "T1": 0.0,
+   "T2": 1.0,
+   "T3": null,
+   "T4": 1.0
+  },
+  "items": {
+   "P-JH-04": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "P-GY-02": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T2"
+   },
+   "P-ST-04": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "P-NK-03": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "P-JH-02": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "P-GY-03": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "P-GY-01": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T2"
+   },
+   "P-GY-04": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "P-NK-02": {
+    "gpt": [
+     "T1",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T1、T4",
+    "gemini_raw": "T4"
+   },
+   "P-NK-01": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "P-ST-05": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   }
+  }
+ },
+ "R031_gpt_types": {
+  "ctrl_ok": true,
+  "n": 4,
+  "n_key": 4,
+  "agree": 1,
+  "kappa": {
+   "T0": null,
+   "T1": 0.0,
+   "T2": null,
+   "T3": -0.5,
+   "T4": null
+  },
+  "items": {
+   "P-NK-03": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "P-NK-01": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T3, T4"
+   },
+   "P-NK-02": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "Q-NK-K1-001": {
+    "gpt": [
+     "T4",
+     "判定不能"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T4。「2015年6月時点」の一致は判定不能",
+    "gemini_raw": "T1, T3, T4"
+   }
+  }
+ },
+ "R035_h036_KP-C1": {
+  "ctrl_ok": true,
+  "n": 99,
+  "n_key": 99,
+  "agree": 45,
+  "kappa": {
+   "T0": 0.82,
+   "T1": 0.13,
+   "T2": 0.53,
+   "T3": -0.0,
+   "T4": 0.85
+  },
+  "items": {
+   "gemini-3.8-flash|A2|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "gemini-3.8-flash|A2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "claude-sonnet-4-5-20250929|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A1|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|B2|2": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T2"
+   },
+   "sonar-pro|A1|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "sonar-pro|A2|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "grok-4.7|A1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|A1|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|A3|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|A2|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|A3|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|B2|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T2"
+   },
+   "claude-sonnet-4-5-20250929|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "gemini-3.8-flash|A1|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A2|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A3|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "gemini-3.8-flash|B1|1": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T2"
+   },
+   "claude-sonnet-4-5-20250929|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A3|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T1, T4"
+   },
+   "gemini-3.8-flash|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A2|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A1|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "sonar-pro|A1|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "gpt-6.2-sol|A2|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|A3|1": {
+    "gpt": [
+     "T1",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T1、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "o3|A1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "grok-4.7|A2|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A2|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "grok-4.7|A3|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|A3|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|A3|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|A1|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "o3|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T1, T4"
+   },
+   "grok-4.7|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T4"
+   },
+   "o3|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T1, T4"
+   },
+   "gemini-3.8-flash|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "o3|B2|2": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T2"
+   },
+   "gpt-6.2-sol|A1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|A1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "claude-opus-5-5|A2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A3|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T2, T4"
+   },
+   "claude-opus-5-5|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A3|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "sonar-pro|A2|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A3|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T2, T4"
+   },
+   "claude-opus-5-5|A3|2": {
+    "gpt": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T1、T2、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "o3|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T2, T4"
+   },
+   "claude-sonnet-4-5-20250929|A1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "gpt-6.2-sol|A3|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|A1|3": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "claude-sonnet-4-5-20250929|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T2"
+   },
+   "o3|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "o3|A1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T2, T4"
+   },
+   "sonar-pro|A2|3": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "grok-4.7|A2|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B2|1": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T2"
+   },
+   "claude-sonnet-4-5-20250929|A2|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "claude-sonnet-4-5-20250929|A2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "o3|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T1, T4"
+   },
+   "claude-opus-5-5|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A3|1": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T1, T2, T4"
+   },
+   "gpt-6.2-sol|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T4"
+   },
+   "o3|B2|3": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T2"
+   },
+   "claude-opus-5-5|A1|2": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "grok-4.7|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "sonar-pro|A3|2": {
+    "gpt": [
+     "T4",
+     "判定不能"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T4、判定不能",
+    "gemini_raw": "T1, T4"
+   },
+   "gpt-6.2-sol|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T2"
+   },
+   "sonar-pro|A1|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|A1|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A3|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T2, T4"
+   },
+   "sonar-pro|A3|3": {
+    "gpt": [
+     "T2",
+     "T4",
+     "判定不能"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4、判定不能",
+    "gemini_raw": "T1, T2, T4"
+   },
+   "o3|B1|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T2"
+   },
+   "gemini-3.8-flash|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "sonar-pro|A3|1": {
+    "gpt": [
+     "T4",
+     "判定不能"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T4、判定不能",
+    "gemini_raw": "T1, T4"
+   },
+   "claude-opus-5-5|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A2|3": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T4"
+   },
+   "o3|A2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T1, T4"
+   },
+   "o3|A2|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T4"
+   }
+  }
+ },
+ "R037_h036_YK-C1": {
+  "ctrl_ok": true,
+  "n": 99,
+  "n_key": 99,
+  "agree": 59,
+  "kappa": {
+   "T0": 0.72,
+   "T1": 1.0,
+   "T2": 0.48,
+   "T3": 0.72,
+   "T4": 0.8
+  },
+  "items": {
+   "gemini-3.8-flash|B2|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|A1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "claude-opus-5-5|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B1|1": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "gpt-6.2-sol|A1|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "claude-opus-5-5|A3|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "claude-opus-5-5|A3|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "gpt-6.2-sol|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|A2|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "sonar-pro|A3|3": {
+    "gpt": [
+     "T1",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T1、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "gpt-6.2-sol|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A2|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "claude-opus-5-5|A2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "sonar-pro|A2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "gemini-3.8-flash|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "o3|A1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "gemini-3.8-flash|A1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "o3|A2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "gpt-6.2-sol|A1|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "claude-opus-5-5|A2|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "o3|B1|3": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|B2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T4"
+   },
+   "o3|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A3|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3"
+   },
+   "gemini-3.8-flash|A2|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "o3|B2|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|B2|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|B1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|B1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|A3|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A2|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "grok-4.7|B2|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|B1|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|A1|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "sonar-pro|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "claude-opus-5-5|A3|3": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "claude-sonnet-4-5-20250929|B2|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "sonar-pro|A1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "gemini-3.8-flash|A2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "sonar-pro|A2|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "grok-4.7|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "grok-4.7|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|B1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "grok-4.7|B1|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "claude-sonnet-4-5-20250929|B1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|A2|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A3|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "gpt-6.2-sol|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|B1|2": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A3|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "sonar-pro|A3|2": {
+    "gpt": [
+     "T1",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T1、T4",
+    "gemini_raw": "T1, T4"
+   },
+   "o3|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "o3|B1|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T4"
+   },
+   "o3|B1|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|A1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "grok-4.7|B1|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|B2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "grok-4.7|A2|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "claude-opus-5-5|A2|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "gpt-6.2-sol|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A2|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "claude-sonnet-4-5-20250929|B1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|B2|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|A1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "gpt-6.2-sol|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A3|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3"
+   },
+   "sonar-pro|A2|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "grok-4.7|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|B2|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T0"
+   },
+   "o3|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A3|1": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A3|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "gpt-6.2-sol|A2|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "gpt-6.2-sol|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T4"
+   },
+   "sonar-pro|A1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "o3|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|B2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "grok-4.7|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "gpt-6.2-sol|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "grok-4.7|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T2, T4"
+   },
+   "claude-opus-5-5|B2|1": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|B1|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T0"
+   },
+   "o3|B2|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gpt-6.2-sol|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T2, T4"
+   },
+   "o3|A2|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3, T4"
+   },
+   "claude-opus-5-5|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   }
+  }
+ },
+ "R039_h036_JH-A1": {
+  "ctrl_ok": true,
+  "n": 99,
+  "n_key": 99,
+  "agree": 83,
+  "kappa": {
+   "T0": 0.88,
+   "T1": 0.69,
+   "T2": 0.0,
+   "T3": 0.82,
+   "T4": 0.68
+  },
+  "items": {
+   "gpt-6.2-sol|A2|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|A2|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "sonar-pro|A3|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|B2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|A1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A1|2": {
+    "gpt": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1、T2、T3",
+    "gemini_raw": "T1"
+   },
+   "gemini-3.8-flash|A1|3": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T4"
+   },
+   "o3|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gpt-6.2-sol|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T1, T4"
+   },
+   "gemini-3.8-flash|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|B1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A3|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gpt-6.2-sol|A3|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|A2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|B1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T1, T4"
+   },
+   "grok-4.7|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|B1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A1|1": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T4"
+   },
+   "gemini-3.8-flash|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|B2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A2|3": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1"
+   },
+   "o3|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T1, T4"
+   },
+   "o3|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|A3|3": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3"
+   },
+   "grok-4.7|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T4"
+   },
+   "sonar-pro|A2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A3|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A3|3": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1"
+   },
+   "gpt-6.2-sol|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A3|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "o3|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A2|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3, T4"
+   },
+   "sonar-pro|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T4"
+   },
+   "o3|B1|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|B2|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-opus-5-5|B1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   }
+  }
+ },
+ "R040_h036_ST-I2": {
+  "ctrl_ok": true,
+  "n": 99,
+  "n_key": 99,
+  "agree": 45,
+  "kappa": {
+   "T0": 0.78,
+   "T1": 0.88,
+   "T2": -0.04,
+   "T3": 0.45,
+   "T4": 0.5
+  },
+  "items": {
+   "gemini-3.8-flash|A1|2": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "gpt-6.2-sol|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "sonar-pro|A2|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|B1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "o3|B2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|A3|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "sonar-pro|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "sonar-pro|A3|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "o3|A2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-sonnet-4-5-20250929|A2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|A2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "grok-4.7|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A3|1": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "gpt-6.2-sol|A3|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A1|1": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1"
+   },
+   "gemini-3.8-flash|A3|1": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "o3|A3|1": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "grok-4.7|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A2|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|A1|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|A2|2": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "grok-4.7|A3|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|A3|2": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "判定不能"
+   },
+   "o3|A2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T1, T4"
+   },
+   "o3|A3|3": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T2, T3, T4"
+   },
+   "grok-4.7|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "sonar-pro|A2|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|A2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|A1|3": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-sonnet-4-5-20250929|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A3|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "sonar-pro|A1|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|B1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A1|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|A2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "sonar-pro|A3|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "o3|B2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|A2|1": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "gemini-3.8-flash|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|A1|1": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "gpt-6.2-sol|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A1|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A1|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|A1|3": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1"
+   },
+   "grok-4.7|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A3|3": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "claude-opus-5-5|A2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "o3|A1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A3|3": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "claude-opus-5-5|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gpt-6.2-sol|A3|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T1, T4"
+   },
+   "gpt-6.2-sol|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|B1|2": {
+    "gpt": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T2、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-sonnet-4-5-20250929|A2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|A1|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|A3|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|B2|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A2|3": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T2, T3, T4"
+   },
+   "gpt-6.2-sol|A2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "o3|A3|2": {
+    "gpt": [
+     "T1"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T1",
+    "gemini_raw": "T1, T2, T4"
+   },
+   "claude-opus-5-5|A3|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B1|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|A1|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|B2|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|A3|2": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "gpt-6.2-sol|A2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|B2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|B1|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T0"
+   },
+   "o3|B2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A1|3": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1"
+   },
+   "o3|A2|2": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T2, T4"
+   },
+   "gemini-3.8-flash|B1|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   }
+  }
+ },
+ "R042_h036_630-D1": {
+  "ctrl_ok": true,
+  "n": 99,
+  "n_key": 99,
+  "agree": 88,
+  "kappa": {
+   "T0": 0.15,
+   "T1": null,
+   "T2": 0.0,
+   "T3": 0.76,
+   "T4": null
+  },
+  "items": {
+   "claude-opus-5-5|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|B1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|B2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|B1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "o3|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "o3|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|A3|1": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|B2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|B2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|B1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|B2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|B1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "o3|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   }
+  }
+ },
+ "R043_h036_SO-P1": {
+  "ctrl_ok": true,
+  "n": 99,
+  "n_key": 99,
+  "agree": 33,
+  "kappa": {
+   "T0": 0.59,
+   "T1": 0.33,
+   "T2": 0.32,
+   "T3": 0.71,
+   "T4": 0.0
+  },
+  "items": {
+   "gpt-6.2-sol|A2|3": {
+    "gpt": [
+     "T1"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1",
+    "gemini_raw": "T1"
+   },
+   "gpt-6.2-sol|A2|2": {
+    "gpt": [
+     "T1"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1",
+    "gemini_raw": "T1"
+   },
+   "grok-4.7|A2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A3|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A3|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A1|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "o3|B1|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|A1|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "claude-sonnet-4-5-20250929|B2|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A3|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|A1|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T3"
+   },
+   "gemini-3.8-flash|A1|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T3"
+   },
+   "gpt-6.2-sol|A3|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A3|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T1"
+   },
+   "sonar-pro|A3|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A1|2": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A1|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|A3|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T1, T3"
+   },
+   "o3|A1|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "sonar-pro|A2|3": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A3|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "sonar-pro|A3|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B2|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A1|2": {
+    "gpt": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T2、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "grok-4.7|A2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A3|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|B2|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A3|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A2|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-sonnet-4-5-20250929|B2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A3|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A2|2": {
+    "gpt": [
+     "T1",
+     "T4"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1、T4",
+    "gemini_raw": "T1"
+   },
+   "claude-opus-5-5|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A2|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "sonar-pro|A1|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T2"
+   },
+   "claude-opus-5-5|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T1"
+   },
+   "grok-4.7|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A2|3": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "gpt-6.2-sol|A1|1": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A1|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "o3|A3|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "grok-4.7|B2|3": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|B1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3"
+   },
+   "o3|B2|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "o3|B1|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "o3|A2|1": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T1",
+     "T2"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T1, T2"
+   },
+   "o3|A3|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-opus-5-5|A1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|A3|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T1"
+   },
+   "grok-4.7|B1|3": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B1|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A2|2": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T1"
+   },
+   "gpt-6.2-sol|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T2, T3"
+   },
+   "grok-4.7|A1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|B2|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|A3|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "claude-opus-5-5|B1|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "o3|A3|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "sonar-pro|A2|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T0"
+   },
+   "sonar-pro|A1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|A2|2": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T1"
+   },
+   "grok-4.7|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B1|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T2, T3"
+   },
+   "claude-opus-5-5|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T3"
+   },
+   "o3|B2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3"
+   },
+   "claude-opus-5-5|B2|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T2, T3"
+   },
+   "o3|B1|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|B2|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T2, T3"
+   },
+   "gemini-3.8-flash|A3|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2, T3"
+   },
+   "gpt-6.2-sol|B1|2": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T2"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T2"
+   },
+   "gemini-3.8-flash|A2|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T2"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T1, T2"
+   },
+   "claude-opus-5-5|B2|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T2, T3"
+   },
+   "grok-4.7|A3|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A1|1": {
+    "gpt": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T2、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-sonnet-4-5-20250929|A2|1": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-sonnet-4-5-20250929|B1|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T2, T3"
+   },
+   "claude-sonnet-4-5-20250929|A1|3": {
+    "gpt": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T2、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "o3|A2|3": {
+    "gpt": [
+     "T2"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T2",
+    "gemini_raw": "T1"
+   },
+   "gemini-3.8-flash|B2|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T2, T3"
+   },
+   "grok-4.7|A3|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A2|1": {
+    "gpt": [
+     "T1"
+    ],
+    "gemini": [
+     "T1"
+    ],
+    "gpt_raw": "T1",
+    "gemini_raw": "T1"
+   },
+   "gemini-3.8-flash|B1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A1|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|A3|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B1|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T2, T3"
+   }
+  }
+ },
+ "R044_h036_GY-Q1": {
+  "ctrl_ok": true,
+  "n": 99,
+  "n_key": 99,
+  "agree": 62,
+  "kappa": {
+   "T0": 0.76,
+   "T1": 1.0,
+   "T2": -0.02,
+   "T3": 0.76,
+   "T4": 0.48
+  },
+  "items": {
+   "o3|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A1|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A3|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|A2|2": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-opus-5-5|A3|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|B2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T2, T3"
+   },
+   "claude-sonnet-4-5-20250929|B2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A1|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "gemini-3.8-flash|A1|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "sonar-pro|A3|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A3|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|B1|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|A2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "o3|A2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A1|1": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-opus-5-5|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|B1|3": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A1|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "o3|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T0"
+   },
+   "o3|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A1|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|A1|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A3|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A3|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "grok-4.7|A2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|A1|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|A3|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|A3|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|B2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A2|2": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "gpt-6.2-sol|A1|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A3|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|B1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A2|1": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3"
+   },
+   "gemini-3.8-flash|A3|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A1|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|B2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|A3|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A3|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|A1|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "sonar-pro|A3|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|B1|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A3|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|B1|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T2",
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T2, T3"
+   },
+   "claude-sonnet-4-5-20250929|A2|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A1|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|B1|2": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|A1|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|A1|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|B1|1": {
+    "gpt": [
+     "T2",
+     "T3"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T2、T3",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A2|3": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3"
+   },
+   "gpt-6.2-sol|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "grok-4.7|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A3|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "grok-4.7|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B1|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "o3|A3|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "o3|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B2|1": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A3|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|A1|2": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3"
+   },
+   "claude-opus-5-5|A2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "gpt-6.2-sol|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A3|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A2|3": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "o3|A2|3": {
+    "gpt": [
+     "T1",
+     "T3"
+    ],
+    "gemini": [
+     "T1",
+     "T3"
+    ],
+    "gpt_raw": "T1、T3",
+    "gemini_raw": "T1, T3"
+   },
+   "grok-4.7|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "o3|B2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|A3|2": {
+    "gpt": [
+     "T3"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3",
+    "gemini_raw": "T3"
+   }
+  }
+ },
+ "R045_h036_NK-K1": {
+  "ctrl_ok": true,
+  "n": 99,
+  "n_key": 99,
+  "agree": 68,
+  "kappa": {
+   "T0": 0.91,
+   "T1": 0.59,
+   "T2": 0.22,
+   "T3": 0.85,
+   "T4": 0.78
+  },
+  "items": {
+   "gemini-3.8-flash|B2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "sonar-pro|A1|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A2|1": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "gemini-3.8-flash|B2|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|A2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gpt-6.2-sol|A3|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "o3|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A1|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "gpt-6.2-sol|A1|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "o3|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A3|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "o3|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A3|2": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|B2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A3|2": {
+    "gpt": [
+     "T1",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "sonar-pro|A3|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gpt-6.2-sol|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "sonar-pro|A3|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|B1|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|A3|3": {
+    "gpt": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gpt-6.2-sol|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A2|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "o3|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A1|1": {
+    "gpt": [
+     "T1",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "claude-sonnet-4-5-20250929|A3|1": {
+    "gpt": [
+     "T1",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "sonar-pro|A1|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A3|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T1, T4"
+   },
+   "gemini-3.8-flash|A1|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gpt-6.2-sol|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|A1|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T1, T2, T4"
+   },
+   "o3|B2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gpt-6.2-sol|A3|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A1|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T1",
+     "T4"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T1, T4"
+   },
+   "grok-4.7|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A3|2": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gpt-6.2-sol|A2|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|A3|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "gemini-3.8-flash|A3|1": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "o3|B1|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "o3|B1|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "o3|B2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|B2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "o3|A3|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|B1|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T3"
+   },
+   "claude-sonnet-4-5-20250929|B2|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gemini-3.8-flash|B1|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-sonnet-4-5-20250929|A2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T4"
+   },
+   "o3|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A1|3": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T1, T2, T3, T4"
+   },
+   "o3|B2|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "grok-4.7|B2|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|A1|3": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "grok-4.7|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "grok-4.7|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gemini-3.8-flash|A2|2": {
+    "gpt": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T2、T3、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "claude-opus-5-5|A2|1": {
+    "gpt": [
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T2、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "grok-4.7|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "T4"
+   },
+   "gpt-6.2-sol|A1|1": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "sonar-pro|A2|3": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-opus-5-5|A2|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "gpt-6.2-sol|A2|3": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|A2|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "gemini-3.8-flash|A2|3": {
+    "gpt": [
+     "T1",
+     "T2",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T2、T3、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "sonar-pro|A1|2": {
+    "gpt": [
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T4",
+    "gemini_raw": "T4"
+   },
+   "claude-opus-5-5|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "o3|A2|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A2|2": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T4"
+   },
+   "grok-4.7|A1|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "o3|A3|1": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A1|2": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "sonar-pro|A2|1": {
+    "gpt": [
+     "T2",
+     "T4"
+    ],
+    "gemini": [
+     "T4"
+    ],
+    "gpt_raw": "T2、T4",
+    "gemini_raw": "T4"
+   },
+   "gemini-3.8-flash|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "grok-4.7|A2|3": {
+    "gpt": [
+     "判定不能"
+    ],
+    "gemini": [
+     "判定不能"
+    ],
+    "gpt_raw": "判定不能",
+    "gemini_raw": "判定不能"
+   },
+   "claude-sonnet-4-5-20250929|A3|3": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T1, T3, T4"
+   },
+   "o3|B1|2": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3"
+   },
+   "claude-opus-5-5|B2|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B2|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-sonnet-4-5-20250929|B1|1": {
+    "gpt": [
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "claude-opus-5-5|A1|2": {
+    "gpt": [
+     "T1",
+     "T3",
+     "T4"
+    ],
+    "gemini": [
+     "T3",
+     "T4"
+    ],
+    "gpt_raw": "T1、T3、T4",
+    "gemini_raw": "T3, T4"
+   },
+   "grok-4.7|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "gpt-6.2-sol|B1|2": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B1|3": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   },
+   "claude-opus-5-5|B1|1": {
+    "gpt": [
+     "T0"
+    ],
+    "gemini": [
+     "T0"
+    ],
+    "gpt_raw": "T0",
+    "gemini_raw": "T0"
+   }
+  }
+ }
+}

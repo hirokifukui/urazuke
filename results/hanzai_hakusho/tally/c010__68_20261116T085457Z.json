@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c010",
+ "label": "68_20261116T085457Z",
+ "note": "犯罪白書 全表：比率の列の再計算と、計と内訳の和",
+ "source": "check",
+ "compared": 2007,
+ "mismatched": 38,
+ "explained": null,
+ "read_failures": 53,
+ "script_sha256": "7b73d82ce40d6dd594f863990e0aec0d9733bb84e52c9ac76d1390a580ff3ab8",
+ "written_utc": "2026-11-17T12:19:09Z"
+}

@@ -1,0 +1,13 @@
+{
+ "dir": "juki_idou",
+ "check": "c1701",
+ "label": "",
+ "note": "住民基本台帳人口移動報告：男女の和、転入超過、行列の和",
+ "source": "check",
+ "compared": 2031,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "d3a7f0d08af46f15a95a1bbc595987438feed83b0bd6183e262b22c19a9c40a1",
+ "written_utc": "2026-11-17T12:34:08Z"
+}

@@ -1,0 +1,69 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "6d183622279b775528624075c1bdf334523992ec74eb765a319a7ea572eb5870": {
+   "ja": "# 障害者虐待対応状況調査（都道府県・市区町村における障害者虐待事例への対応状況等）\n取得：data/raw/shogai_gyakutai/MANIFEST.tsv（令和3〜6年度の報道発表 PDF、令和6年度の経年グラフ・結果報告書など）。\n計画：hypotheses/H012_gyakutai_3_plan.md。",
+   "en": "# Survey on Responses to Abuse of Persons with Disabilities (status of responses to cases of abuse of persons with disabilities in prefectures and municipalities, etc.)\nAcquired: data/raw/shogai_gyakutai/MANIFEST.tsv (press release PDFs for FY2021–FY2024, the time-series charts and the results report for FY2024, etc.).\nPlan: hypotheses/H012_gyakutai_3_plan.md.",
+   "src": "results/shogai_gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "c05b803684228643925c0ac148474f35422ea61687d4c5ccbaeec4167e4ecfcb": {
+   "ja": "## c4002（2026-11-17）\n- 報道発表の全体像の表：令和4〜6年度の「前回調査」の値（養護者・施設従事者・使用者 × 通報・判断・被虐待者）と前年度の発表の値。27 式、不一致 0。\n- 令和6年度の経年グラフの表（養護者・施設従事者、平成24〜令和6年度）と令和3〜6年度の発表の値。24 式、不一致 0。\n- 令和6年度の発表の「N件（対前年度 D件（P％）増／減）」の文。6 式、不一致 0。\n- 計 57 式、不一致 0。",
+   "en": "## c4002 (2026-11-17)\n- Overview tables in the press releases: the \"previous survey\" (`前回調査`) values in FY2022–FY2024 (caregivers, facility staff and employers × reports, determinations and abused persons) against the values in the previous year's release. 27 equations, 0 mismatches.\n- Time-series chart tables in FY2024 (caregivers and facility staff, FY2012–FY2024) against the values in the FY2021–FY2024 releases. 24 equations, 0 mismatches.\n- Sentences of the form \"N cases (an increase/decrease of D cases (P%) from the previous fiscal year)\" (`N件（対前年度 D件（P％）増／減）`) in the FY2024 release. 6 equations, 0 mismatches.\n- Total 57 equations, 0 mismatches.",
+   "src": "results/shogai_gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "0e37db435a182d6f3342356ad44992de852c78353f56077d864dc8867a93afe7": {
+   "ja": "## 手計算（令和6年度の発表の構成割合）\n- 養護者：通報者の内訳（分母 11,656）、虐待の類型（分母 2,503）、影響の程度（分母 3,211）、障害種別（分母 2,518）、分離（785/2,518）。合う。\n- 施設従事者：虐待の類型（分母 1,267）、影響の程度（分母 1,593）、障害種別（分母 2,010）、施設種別（分母 1,267）。合う。",
+   "en": "## Hand calculation (composition ratios in the FY2024 release)\n- Caregivers: breakdown of reporters (denominator 11,656), types of abuse (denominator 2,503), degree of effect (denominator 3,211), types of disability (denominator 2,518), separation (785/2,518). They match.\n- Facility staff: types of abuse (denominator 1,267), degree of effect (denominator 1,593), types of disability (denominator 2,010), types of facility (denominator 1,267). They match.",
+   "src": "results/shogai_gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "31e57aa02b6edd4bedfe868ca18ca6d75c1c7931503d083f7c157e68b0394e38": {
+   "ja": "## 記録にしなかったもの\n- 令和5年度の発表の本文で被虐待者数を「2,356 件」と書く（表は「人」）。単位の表記で、数値は合う。\n- 令和3年度と令和4年度の使用者による通報の事業所数がともに 1,230（令和5年度の発表の増加率 22.9％ から令和4年度 1,230 は合う）。",
+   "en": "## Items not made into a record\n- The body text of the FY2023 release gives the number of abused persons as \"2,356 cases\" (`2,356 件`) (the table uses \"persons\" (`人`)). This is a matter of unit notation; the figures match.\n- The number of establishments in reports of abuse by employers is 1,230 in both FY2021 and FY2022 (the FY2022 figure of 1,230 matches the increase rate of 22.9% in the FY2023 release).",
+   "src": "results/shogai_gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6193ecfd0be45f63e34fb436d0583d539b298546e57f32525db6e63c6f6ad199": {
+   "ja": "## 照合していないもの\n- 令和6年度 結果報告書（3,209 行）の表ごとの内部の和。",
+   "en": "## Not checked\n- Internal sums of each table in the FY2024 results report (3,209 lines).",
+   "src": "results/shogai_gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5721626877cc7f4de8e1dd299629ccf2b23eaffb9ee162b5ebc9d7611fa36f79": {
+   "ja": "## c4004（2026-11-17、r11）令和6年度 結果報告書\n- 横長の表（「件数」と「構成割合」の行）を表ごとに読み、構成割合＝件数/分母（注の「N件に対するもの」、なければ合計）と、複数回答でない表の内訳の和＝合計を確かめた。読み取れた表 30（全 74 表）、式 259、不一致 0。\n- 読み取れなかった 44 表（縦長の表、都道府県別の表など）は照合していない。",
+   "en": "## c4004 (2026-11-17, r11) FY2024 results report\n- Wide tables (with \"count\" (`件数`) and \"composition ratio\" (`構成割合`) rows) were read table by table, and it was checked that composition ratio = count/denominator (the \"relative to N cases\" (`N件に対するもの`) in the note, or the total if there is none), and that for tables that are not multiple-response, the sum of the breakdown = the total. Tables read: 30 (out of 74 tables in all), 259 equations, 0 mismatches.\n- The 44 tables that could not be read (long tables, tables by prefecture, etc.) have not been checked.",
+   "src": "results/shogai_gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "13589bcbfcf24b59c2e71e6558ff7625eb432f16aef4b85517a66058ac0ff0ab": {
+   "ja": "## c4005（2026-11-17、r12）都道府県別の表\n- 表1・8-2・32・44-2：47都道府県の和＝合計、合計＝令和6年度の報道発表（11,656・2,503・5,870・1,267）。式 8、不一致 0。\n- 残りの表（複数回答で件数の行が分かれる表、縦長の表など）は照合していない。",
+   "en": "## c4005 (2026-11-17, r12) Tables by prefecture\n- Tables 1, 8-2, 32 and 44-2: sum of the 47 prefectures = total, and total = the FY2024 press release (11,656, 2,503, 5,870 and 1,267). 8 equations, 0 mismatches.\n- The remaining tables (multiple-response tables with count rows split across lines, long tables, etc.) have not been checked.",
+   "src": "results/shogai_gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "de0afe002adc8be77de719f81e23c64b0bbf655ddc5b3f5bb630b88710cb8e92": {
+   "ja": "## c4006（2026-11-17、r16）縦長の表\n- 「項目 件数 構成割合」の行を読み、本行の構成割合（分母は注、なければ合計）、小行 (x%) は直前の本行、[x%] は直前の小行に対する割合、複数回答でない表の本行の和＝合計・小行の和＝親を確かめた。読み取れた表 37、式 214、不一致 0。\n- まだ読んでいない表：体制と実績の表（4・11・35・37）、体制整備の表（65-1・67-1）など、行の形が違うもの。",
+   "en": "## c4006 (2026-11-17, r16) Long tables\n- Rows of the form \"item count composition ratio\" (`項目 件数 構成割合`) were read, and the following were checked: the composition ratio of main rows (denominator from the note, or the total if there is none); that (x%) in sub-rows is the proportion relative to the immediately preceding main row and [x%] relative to the immediately preceding sub-row; and, for tables that are not multiple-response, sum of main rows = total and sum of sub-rows = parent. Tables read: 37, 214 equations, 0 mismatches.\n- Tables not yet read: tables whose rows take a different form, such as the tables on systems and results (4, 11, 35, 37) and the tables on system development (65-1, 67-1).",
+   "src": "results/shogai_gyakutai/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

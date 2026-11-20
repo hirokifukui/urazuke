@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c001",
+ "label": "",
+ "note": "犯罪白書 令和7年版：資料1-1・1-1-1-1図の内部整合と突き合わせ",
+ "source": "check",
+ "compared": 2303,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "a9b719fd0ff5b6de90f714cc23a461049956fb9092dd3536eb3394b43fd164c9",
+ "written_utc": "2026-11-17T12:18:52Z"
+}

@@ -1,0 +1,53 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "91d4077d26a97cfe171e3038b46a57327516700e762d574eb6755bf7e94ede1b": {
+   "ja": "# 矯正統計年報の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Annual Report of Correctional Statistics (started 2026-11-17)　Verification status: Machine-verified only",
+   "src": "results/kyosei/FINDINGS.md",
+   "src_commit": "caeac4c",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6464df98a5962af22f99ba7449e609b0b8b90d0289639058730c23ab39d69adf": {
+   "ja": "## 対象と取得\n- 法務省「統計の正誤情報」（矯正統計）の正誤表 25本（既存：data/raw/moj_seigo/kyosei）と、e-Stat の矯正統計年報の現行ファイル（令和7年 101表、令和4年 36表）。取得記録：data/raw/kyosei/MANIFEST.tsv、一覧 data/raw/kyosei/LIST_2025.txt・LIST_2022.txt。",
+   "en": "## Scope and acquisition\n- 25 errata (existing: data/raw/moj_seigo/kyosei) from the Ministry of Justice's \"Statistical errata information\" (correctional statistics), and the current files of the Annual Report of Correctional Statistics on e-Stat (2025: 101 tables; 2022: 36 tables). Acquisition record: data/raw/kyosei/MANIFEST.tsv; lists: data/raw/kyosei/LIST_2025.txt and LIST_2022.txt.",
+   "src": "results/kyosei/FINDINGS.md",
+   "src_commit": "caeac4c",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ced23c75931bb4ecb307913d6de310981eeae3eaf2eff560690fcea233de5f98": {
+   "ja": "## c2701 正誤情報の反映（版間）\n- 令和7年の正誤表（163件）と令和4年の正誤表3本（413件）の各訂正について、現行の e-Stat ファイルで表側の行と表頭の列を探し、「正」があり「誤」がないかを見た。\n- 令和7年：列まで定まって反映を確かめた 135件、行の中に正があり誤がない 9件、判定不能 19件、未反映 0件。\n- 令和4年：列まで定まって反映 273件、行で反映 50件、後の正誤表で同じ箇所が再訂正 2件、判定不能 88件、未反映 0件。\n- 途中で「第7表 男 A 8097→8098 が未反映」と出たが、後の正誤表（001422546）が同じ箇所を 8098→8097 に訂正し直していた。説明のある違い。検査を「同じ箇所は最後の正誤表で判定する」に直した。\n- 「－」と 0 は同じとして扱う（正誤表の「－」が現行ファイルで 0 になっている例が4件）。\n- 判定不能は、表側の書き方が現行ファイルの行と一致しないもの（年の行や「（うち女子）」など）。判定不能を反映とは数えない。",
+   "en": "## c2701 Reflection of errata (between editions)\n- For each correction in the 2025 errata (163 items) and the three 2022 errata (413 items), the row in the row headings and the column in the column headings were located in the current e-Stat file, and it was checked whether the \"correct\" value is present and the \"erroneous\" value is absent.\n- 2025: 135 items confirmed as reflected with the column identified; 9 items where the correct value is in the row and the erroneous value is absent; 19 items inconclusive; 0 items not reflected.\n- 2022: 273 items reflected with the column identified; 50 items reflected at row level; 2 items where the same cell was corrected again by a later erratum; 88 items inconclusive; 0 items not reflected.\n- Partway through, the result \"Table 7, male, A, 8097→8098 not reflected\" appeared, but a later erratum (001422546) had corrected the same cell back from 8098 to 8097. This is a difference with an explanation. The check was changed to \"a cell is judged by the last erratum that covers it\".\n- `－` and 0 are treated as the same (4 cases where `－` in an erratum is 0 in the current file).\n- Inconclusive items are those whose row heading as written does not match a row in the current file (year rows, \"(of which female)\" and similar). Inconclusive items are not counted as reflected.",
+   "src": "results/kyosei/FINDINGS.md",
+   "src_commit": "caeac4c",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "0b15950c376d5e66e1e7b0eed2e2bcd93db7b9faab6adb13d98b489fdb7b776e": {
+   "ja": "## 陰性対照\n- 令和7年 第17表 総数 満期釈放を正（5557）から誤（5556）に戻した写しで「未反映」を検出（results/scope/negctl_r09.json）。",
+   "en": "## Negative control\n- In a copy of 2025 Table 17, total, release on expiration of sentence, reverted from the correct value (5557) to the erroneous value (5556), \"not reflected\" was detected (results/scope/negctl_r09.json).",
+   "src": "results/kyosei/FINDINGS.md",
+   "src_commit": "caeac4c",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e127f7cdc2fe468b048335b8729933160b8a0d1e8c032746ae64b1da50aa4487": {
+   "ja": "## 照合した件数\n576件。記録なし。",
+   "en": "## Number of items checked\n576 items. No records.",
+   "src": "results/kyosei/FINDINGS.md",
+   "src_commit": "caeac4c",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ef5d2b6f2900895aecc93c36871a9cdea123e2d2be6c03937f764cc997d43ee8": {
+   "ja": "## 外から見える欠落の検査（2026-11-17、r17）　c4501・c4502、lib/vanish.py\n- 表の一覧（e-Stat、2006〜2025年、各 97〜101 表）：消えた表題の多くは名称の変更（読点、処遇階級の廃止 2006→2007、知能指数→知能指数（相当値）→能力検査値 2010・2012、作業報奨金給与額→支給額 2015、拘禁刑の導入に伴う「矯正処遇課程等」2025）。名称の変更で説明できないのは、2025年に消えた「指紋対照、前科発見及び指紋原紙取扱数累年比較」（24-00-98）と「施設別 年末在所受刑者属性及び犯罪傾向の進度」（24-00-07、2025年に「施設別 年末在所受刑者の矯正処遇課程等」が現れた）。説明の所在は未確認。\n- 第37表（精神診断）の区分：2006〜2022年は 精神障害なし・知的障害・人格障害・神経症性障害・その他の精神障害・不詳。2023年から 発達障害・精神作用物質使用による精神及び行動の障害・統合失調症・気分（感情）障害 が加わった。認知症の区分は 2006〜2025年のどの年にもない（犯罪白書 令和7年版 4-10-2-1表の注は「その他の精神障害」を認知症・摂食障害・行為障害等とする）。\n- c4502（2023〜2025年の取得済みの表）：過去の年がすべて 0 で最新の年だけ値がある列は、第37表の4区分（2023年版）と、25-00-46 の「禁」の列（拘禁刑の導入前で 0 は事実と合う）。\n- 第37表の 2023〜2025年版は、区分を設ける前の年の4区分を保存値 0、表示「－」（表示書式の第3区分。該当者がいない欄と同じ表示）で載せる（R017 で「0 と表示」を反証され、R018 で書き直しを支持）。2022年版の同じ年は「その他の精神障害」1,705、犯罪白書 令和5年版 4-10-2-1表は発達障害を「…」とし、注で「その他の精神障害」は発達障害を含むと書く。表と用語の解説（doc/yougo_001467335.pdf）に注記はない。→ KY-I1。\n- 調査票：矯正統計調査の調査票は公開されていない（法務省・e-Stat で見つからない）。\n- 参考：矯正局の特別調査（令和5年度）は「発達障害又はその疑いのある受刑者」を約12％とする（2024-11-18 報道発表）。第37表の 2023年の発達障害は 80人（新受刑者 14,085人の 0.6％）。診断と「疑い」の違いで、比べる対象が違う。",
+   "en": "## Check for externally visible gaps (2026-11-17, r17)　c4501 and c4502, lib/vanish.py\n- Table list (e-Stat, 2006–2025, 97–101 tables each year): most of the table titles that disappeared are name changes (commas; abolition of treatment grades 2006→2007; IQ → IQ (equivalent value) → ability test score, 2010 and 2012; work remuneration \"amount granted\" → \"amount paid\", 2015; `矯正処遇課程等` accompanying the introduction of the custodial sentence (`拘禁刑`), 2025). Those not explained by a name change are `指紋対照、前科発見及び指紋原紙取扱数累年比較` (24-00-98), which disappeared in 2025, and `施設別 年末在所受刑者属性及び犯罪傾向の進度` (24-00-07; in 2025 `施設別 年末在所受刑者の矯正処遇課程等` appeared). Whether an explanation exists, and where, has not been confirmed.\n- Categories of Table 37 (psychiatric diagnosis): 2006–2022: no mental disorder, intellectual disability, personality disorder, neurotic disorder, other mental disorders, unknown. From 2023, developmental disorder, mental and behavioural disorders due to psychoactive substance use, schizophrenia, and mood (affective) disorders were added. There is no dementia category in any year from 2006 to 2025 (the note to Table 4-10-2-1 of the White Paper on Crime 2025 edition (Reiwa 7) states that \"other mental disorders\" covers dementia, eating disorders, conduct disorders, etc.).\n- c4502 (tables acquired for 2023–2025): the columns in which all past years are 0 and only the latest year has a value are the four categories of Table 37 (2023 edition) and the `禁` column of 25-00-46 (before the introduction of the custodial sentence, so 0 matches the facts).\n- The 2023–2025 editions of Table 37 show the four categories for years before the categories were created with stored value 0 and display `－` (the third section of the display format; the same display as cells with no applicable persons) (\"displayed as 0\" was refuted in R017, and the rewrite was supported in R018). In the 2022 edition, the same year shows \"other mental disorders\" 1,705; Table 4-10-2-1 of the White Paper on Crime 2023 edition (Reiwa 5) shows developmental disorder as \"…\" and states in a note that \"other mental disorders\" includes developmental disorders. There is no note in the table or in the glossary of terms (doc/yougo_001467335.pdf). → KY-I1.\n- Questionnaire: the questionnaire of the correctional statistics survey is not published (not found on the Ministry of Justice site or e-Stat).\n- Reference: a special survey by the Correction Bureau (FY2023) puts \"inmates with a developmental disorder or suspected developmental disorder\" at about 12% (press release of 2024-11-18). In Table 37, developmental disorder in 2023 is 80 persons (0.6% of 14,085 newly admitted inmates). Because of the difference between a diagnosis and a \"suspected\" case, the objects being compared differ.",
+   "src": "results/kyosei/FINDINGS.md",
+   "src_commit": "caeac4c",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

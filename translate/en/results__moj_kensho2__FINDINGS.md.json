@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "72ebe5ef841ca7174e367af89c4006db17632520a9a3f67753b237612974bd91": {
+   "ja": "# 矯正の就労関係の効果検証（職業訓練 令和5年3月、刑務作業 令和5年4月）と少年院出院者の学習支援 SIB の事業総括（令和7年9月）\n計画：hypotheses/H019_kensho2_plan.md（資料を読む前にコミット、23cb0be）。記録の候補：hypotheses/H020_r14_records.md。\n取得：data/raw/moj_kensho2/MANIFEST.tsv。少年院の特定生活指導の効果検証は「刑政」誌だけで公開 PDF がなく、飲酒運転防止プログラムの効果検証は公表が見つからなかった。",
+   "en": "# Effectiveness evaluations related to employment in corrections (vocational training, March 2023; prison work, April 2023) and the final report of the learning support SIB project for juvenile training school leavers (September 2025)\nPlan: hypotheses/H019_kensho2_plan.md (committed before reading the materials, 23cb0be). Record candidates: hypotheses/H020_r14_records.md.\nRetrieved: data/raw/moj_kensho2/MANIFEST.tsv. The effectiveness evaluation of specific life guidance in juvenile training schools is published only in the journal `刑政`, with no public PDF, and no publication of the effectiveness evaluation of the drunk-driving prevention program was found.",
+   "src": "results/moj_kensho2/FINDINGS.md",
+   "src_commit": "1a3e7f6",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "523da6b707c33d1e829b3e58bc74883f75df52e97201d6297b0463fa872e9b3f": {
+   "ja": "## c4201 数値の再計算（転記値）\n- 職業訓練 表1・表2 の有職率・一致率 28、男＋女＝全体 3、検証1 の χ²（率から人数を逆算、p≒0.0002）。SIB のプロセス指標・アウトカム指標の割合 10、対照群 33/379＝8.7％。計 43 項目、NG 0。\n- SIB の支援対象者 29人では、四捨五入で 5％ になる人数がない（1人 3.4％、2人 6.9％）。1人/20 対 33/379 の両側 p＝1.0、1人/29 では 0.49。",
+   "en": "## c4201 Recalculation of figures (transcribed values)\n- Vocational training Tables 1 and 2: employment rates and agreement rates 28; male + female = overall 3; χ² for Analysis 1 (counts back-calculated from the rates, p≈0.0002). SIB process indicator and outcome indicator percentages 10; control group 33/379 = 8.7%. Total 43 items, NG 0.\n- With 29 SIB support recipients, there is no number of persons that rounds to 5% (1 person 3.4%, 2 persons 6.9%). Two-sided p for 1/20 vs 33/379 = 1.0; for 1/29, 0.49.",
+   "src": "results/moj_kensho2/FINDINGS.md",
+   "src_commit": "1a3e7f6",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3fe2d8824e6121b7d2463a74947f500aea5454817a8e8538a5247b79bb75949b": {
+   "ja": "## 職業訓練\n- 本文「職業訓練の効果検証上の課題」：編入は希望者のみから選定、生活態度良好、健康状態に問題なし、などの条件 → バイアスの統制が必要。\n- 統制した変数：出所時年齢・入所回数・出所時の制限区分・能力検査値（傾向スコアマッチング、各 2,218名）。\n- 結果：保護観察終了時の有職率 78.7％・74.0％。本文は「安定した就労を継続している者の割合が高い」、結論は「出所後の安定的な就労に寄与」。→ 記録 SK-C1。\n- 検証2 の一致率は対象者全体（2,575）が分母（17.5％）。結論の「有職である修了者のうち少なくとも約2割」は 450/1,990＝22.6％ に当たり、矛盾しない。",
+   "en": "## Vocational training\n- Main text, \"Issues in evaluating the effectiveness of vocational training\": participants are selected only from those who applied, under conditions such as good conduct and no health problems → bias needs to be controlled.\n- Variables controlled: age at release, number of admissions, restriction category at release, aptitude test score (propensity score matching, 2,218 persons in each group).\n- Results: employment rate at the end of probation 78.7% and 74.0%. The main text states \"the proportion of those continuing in stable employment is higher\", and the conclusion is \"contributes to stable employment after release\". → record SK-C1.\n- The agreement rate in Analysis 2 uses all subjects (2,575) as the denominator (17.5%). The conclusion's \"at least about 20% of completers who are employed\" corresponds to 450/1,990 = 22.6%, and the two do not contradict each other.",
+   "src": "results/moj_kensho2/FINDINGS.md",
+   "src_commit": "1a3e7f6",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6bdd7563a317656da52e28df8c19f19dcdfd326a69f5b9a4d063ede07f554c49": {
+   "ja": "## 刑務作業\n- 釈放時アンケートの受け止め→就労イメージ→保護観察終了時の有職→2年以内再入の関連（各段で χ² 検定）。刑務作業の有無や量による比較はない。本文はロジックモデルとして示し、妥当性の検証が必要と書く。記録にしない。",
+   "en": "## Prison work\n- Associations along the chain: how prison work was perceived in the release questionnaire → image of employment → employment at the end of probation → re-admission within 2 years (χ² test at each stage). There is no comparison by whether prison work was done or by its amount. The main text presents this as a logic model and states that its validity needs to be verified. Not made a record.",
+   "src": "results/moj_kensho2/FINDINGS.md",
+   "src_commit": "1a3e7f6",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "b7276e228bdd5d11cfa5cc4ea5a963b4fc844daee26ac7cc00c8cc3461a02a0e": {
+   "ja": "## SIB（非行少年への学習支援）\n- 支援対象者 29人（想定 80人）。再処分率：支援対象者 5％、対照群（2021・22年に全国の少年院を出院した進学・復学希望者 379人）8.7％、指数「57」、評価A・支払 100％。分母は書かれていない。\n- 本文：29人は統計分析には過少。概要：対照群と比べて「因果関係の評価が行われた」。→ 記録 SB-C1。",
+   "en": "## SIB (learning support for juvenile delinquents)\n- Support recipients: 29 persons (80 planned). Re-disposition rate: support recipients 5%, control group (379 persons wishing to go on to or return to school who left juvenile training schools nationwide in 2021 and 2022) 8.7%, index \"57\", rating A, payment 100%. The denominator is not stated.\n- Main text: 29 persons is too few for statistical analysis. Summary: compared with the control group, \"an evaluation of the causal relationship was conducted\". → record SB-C1.",
+   "src": "results/moj_kensho2/FINDINGS.md",
+   "src_commit": "1a3e7f6",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

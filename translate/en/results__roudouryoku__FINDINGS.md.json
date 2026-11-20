@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "db4a4ac77bad4526882884b4a88ad59783cce2da781124ac1285dd21b10ca4d4": {
+   "ja": "# 労働力調査の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Labour Force Survey (started 2026-11-17)  Confirmation status: Machine-verified only",
+   "src": "results/roudouryoku/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e372536c9995f3654d7470db5b6a57e593f29186a159cd888ffa615124e39523": {
+   "ja": "## 対象と取得\n- 総務省 労働力調査（基本集計）2025年平均結果：結果の要約 PDF（2026-01-30）、結果の概要 PDF（2026-03-31）。取得記録：data/raw/roudouryoku/MANIFEST.tsv。\n- 結果のページの HTML には、2019年平均の要約の文と、2022年平均の統計表 Excel へのリンクが残っているが、どちらも HTML のコメントの中にあり、ページには表示されない。取得した 054bh01・054bh02.xlsx は 2022年平均の表（Last-Modified 2023-01-30）で、照合には使っていない。教訓：HTML から本文を抜き出す道具はコメントの中の文も拾うことがある。",
+   "en": "## Scope and retrieval\n- Ministry of Internal Affairs and Communications, Labour Force Survey (basic tabulation), 2025 annual average results: summary of results PDF (2026-01-30), outline of results PDF (2026-03-31). Retrieval record: data/raw/roudouryoku/MANIFEST.tsv.\n- The HTML of the results page still contains the summary text for the 2019 annual average and links to the statistical table Excel files for the 2022 annual average, but both are inside HTML comments and are not displayed on the page. The retrieved files 054bh01 and 054bh02.xlsx are the tables for the 2022 annual average (Last-Modified 2023-01-30) and were not used for matching. Lesson: tools that extract body text from HTML may also pick up text inside comments.",
+   "src": "results/roudouryoku/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "97641f300ba5816e808163e6540b85012ab6a47650656a74b9f417ee340b3610": {
+   "ja": "## c2501 文中の数の内部整合・要約と概要（L1・L4）— 誤りなし\n- (a) 労働力人口 7,004万人＝就業者 6,828万人＋完全失業者 176万人（男 3,805＝3,702＋102、女 3,200＝3,126＋74、万人単位の丸めの範囲内）。\n- (b) 役員を除く雇用者に占める非正規の割合 36.5％＝2,128／（3,708＋2,128）。\n- (c) 就業者数・就業率が要約と概要で一致。\n- 照合の範囲は文中の主要な数に限られる。e-Stat の結果原表（2000年〜）との照合は残っている。",
+   "en": "## c2501 Internal consistency of figures in the text, summary and outline (L1, L4) — no errors\n- (a) Labour force 7,004 (10,000 persons) = employed persons 6,828 (10,000 persons) + unemployed persons 176 (10,000 persons) (male 3,805 = 3,702 + 102, female 3,200 = 3,126 + 74, within the range of rounding to units of 10,000 persons).\n- (b) Share of non-regular employees among employees excluding executives 36.5% = 2,128 / (3,708 + 2,128).\n- (c) The number of employed persons and the employment rate match between the summary and the outline.\n- The scope of matching is limited to the main figures in the text. Matching against the e-Stat original result tables (2000 onward) remains to be done.",
+   "src": "results/roudouryoku/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "da4557ed873347c377ef6f480b8589b27ebb54870b82b65dc5153a1276caae97": {
+   "ja": "## 陰性対照\n- 概要の労働力人口の数を変えた写しで (a) が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- In a copy with the labour force figure in the outline altered, (a) detected it (results/scope/negctl_r08.json).",
+   "src": "results/roudouryoku/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "bd8a8c8e87712b19828431c67ecf902d68354bb621b4e370a1ff0260260bce06": {
+   "ja": "## 照合した件数\n6組。記録なし。",
+   "en": "## Number of items matched\n6 pairs. No records.",
+   "src": "results/roudouryoku/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

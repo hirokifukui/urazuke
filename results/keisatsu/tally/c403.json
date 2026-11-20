@@ -1,0 +1,13 @@
+{
+ "dir": "keisatsu",
+ "check": "c403",
+ "label": "",
+ "note": "犯罪統計資料 PDF と CSV：版の比較と形式間",
+ "source": "check",
+ "compared": 5634,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 151,
+ "script_sha256": "315c930223e31d7f18731dc97f5c811226ef354d371daeb92dac17a2c38aabea",
+ "written_utc": "2026-11-17T12:36:05Z"
+}

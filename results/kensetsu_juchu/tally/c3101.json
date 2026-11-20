@@ -1,0 +1,13 @@
+{
+ "dir": "kensetsu_juchu",
+ "check": "c3101",
+ "label": "",
+ "note": "建設工事受注動態統計：計と内訳、年度・四半期・月の和",
+ "source": "check",
+ "compared": 1188,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "cfcc687ba8071144f2baeed9421c7ce5d7d58c415e1db96f2804043149831db7",
+ "written_utc": "2026-11-17T12:33:54Z"
+}

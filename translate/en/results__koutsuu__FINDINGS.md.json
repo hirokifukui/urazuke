@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "10a58b2d3ba1a2c5d7dc341f3f0b2e32f5fb66fd030f88f4089f6d6d6fe14236": {
+   "ja": "# 交通事故統計の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of Traffic Accident Statistics (started 2026-11-17) — Verification status: Machine-verified only",
+   "src": "results/koutsuu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "32c48daf66a7a849762d772b4593d97d1538de7fe892887e4f8f1b7ed0e9ef85": {
+   "ja": "## 対象と取得\n- 警察庁「令和7年における交通事故の発生状況について」（令和8年2月26日）と令和6年版（PDF）。取得記録：data/raw/koutsuu/MANIFEST.tsv。",
+   "en": "## Scope and retrieval\n- National Police Agency, `令和7年における交通事故の発生状況について` (26 February 2026) and the 2024 edition (Reiwa 6) (PDF). Retrieval record: data/raw/koutsuu/MANIFEST.tsv.",
+   "src": "results/koutsuu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9a95f7369c72cbd409d0603e32e8cdd995eac2bcf797abc788815cecef93bee5": {
+   "ja": "## c3501\n- 1-2 の死者数（全体・65歳以上）の数値ラベル：65歳以上の構成率（11年×2版）、版間（H27〜R6）、本文の前年比（116人、4.4%減）。式 34、不一致 0。\n- 重傷者の図は数値ラベルが年の順に並ばない（令和4年のラベルが別の行にある）ため、今回は読んでいない。都道府県別の表も今回は扱っていない。",
+   "en": "## c3501\n- Data labels for the number of deaths (total and aged 65 and over) in 1-2: the share of persons aged 65 and over (11 years × 2 editions), between editions (2015–2024), and the year-on-year change stated in the main text (116 persons, a 4.4% decrease). 34 formulas, 0 mismatches.\n- The figure for seriously injured persons was not read this time, because its data labels are not arranged in year order (the label for 2022 is on a different row). The tables by prefecture were also not covered this time.",
+   "src": "results/koutsuu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9fc7ade77dab41ff530d5c14a44e41557b63c540360c21e3f6ef7e6b2b7ab384": {
+   "ja": "## 陰性対照\n- 令和7年の65歳以上の構成率を pdftotext の出力で変えて検出。",
+   "en": "## Negative control\n- Changing the 2025 share of persons aged 65 and over in the pdftotext output was detected.",
+   "src": "results/koutsuu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8b5e57fb16d1f719acb884156ca0ab80b26c52447c8d42cc5f7105c9e2595819": {
+   "ja": "## 照合した件数\n34式。記録なし。",
+   "en": "## Number of checks\n34 formulas. No records.",
+   "src": "results/koutsuu/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

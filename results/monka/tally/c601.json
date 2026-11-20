@@ -1,0 +1,13 @@
+{
+ "dir": "monka",
+ "check": "c601",
+ "label": "",
+ "note": "公立学校教職員の人事行政状況調査：内訳の和と合計、版の比較",
+ "source": "check",
+ "compared": 3426,
+ "mismatched": 2,
+ "explained": 2,
+ "read_failures": 0,
+ "script_sha256": "0409a87d97acd8b6f6262b803d194e66ddcc688bed73ad52da41634065989d53",
+ "written_utc": "2026-11-17T12:49:19Z"
+}

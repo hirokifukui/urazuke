@@ -1,0 +1,4 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040507382&fileKind=0	2025/shuyo_000040507382.xlsx	866880	df06b2cc520c1c4a6c5f03fc7e6eb27b33e64424f0d706361ea5a738e8a5b5ed	200		2026-11-16T17:22:32+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032143614&fileKind=0	2020/shuyo_000032143614.xlsx	1704465	8971701164fe44332767f648a591a9f6398d92f019857a9341298322b2a843b4	200		2026-11-16T17:22:33+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040506423&fileKind=0	2025/t1-1_000040506423.xlsx	809971	c1ff781e05af6fce6510ee9cfbeba856106c97ae780ca030a549466b0074d856	200		2026-11-16T17:22:34+00:00

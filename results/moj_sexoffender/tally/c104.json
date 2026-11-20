@@ -1,0 +1,13 @@
+{
+ "dir": "moj_sexoffender",
+ "check": "c104",
+ "label": "",
+ "note": "保護局 性犯罪者処遇プログラム効果検証（2020・2012）：表の和、ハザード比と信頼区間、χ²と p 値",
+ "source": "check",
+ "compared": 25,
+ "mismatched": 1,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "837e3fb75d43ab870c2eedb26eb2ffd6154df1f86a1471cf58377f6f47ada54b",
+ "written_utc": "2026-11-17T12:41:46Z"
+}

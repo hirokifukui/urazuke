@@ -1,0 +1,13 @@
+{
+ "dir": "keisatsu",
+ "check": "c401",
+ "label": "",
+ "note": "犯罪統計資料 CSV：内訳の和と計、うち≦親、増減・率の再計算",
+ "source": "check",
+ "compared": 99314,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "6aaa57df469529f6f8df83350f6adea62298d25d136df83dfabcd9ea26ab689e",
+ "written_utc": "2026-11-17T12:11:47Z"
+}

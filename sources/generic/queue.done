@@ -1,0 +1,11 @@
+sources/generic/list_keisatsu.tsv	data/raw/keisatsu
+sources/generic/list_gyakutai.tsv	data/raw/gyakutai
+sources/generic/list_monka.tsv	data/raw/monka
+sources/generic/list_saihan.tsv	data/raw/saihan
+sources/generic/list_stalker.tsv	data/raw/stalker
+sources/generic/list_keisatsu_wayback.tsv	data/raw/keisatsu
+sources/generic/list_stalker_wb_retry.tsv	data/raw/stalker
+sources/generic/list_gyakutai_wb_retry.tsv	data/raw/gyakutai
+sources/generic/list_keisatsu_wb_retry.tsv	data/raw/keisatsu
+sources/generic/list_gyakutai_r4sokuhou.tsv	data/raw/gyakutai
+sources/generic/list_stalker_wb_retry2.tsv	data/raw/stalker

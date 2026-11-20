@@ -1,0 +1,1 @@
+1e2f3698d54acb06af718543ab927944e385b81df2c22d87003937e7c238e0f3  replications/R020_gpt_refute/PROMPT.md

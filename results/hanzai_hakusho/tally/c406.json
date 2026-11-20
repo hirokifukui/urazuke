@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c406",
+ "label": "",
+ "note": "犯罪白書 資料1-1（令和2〜7年版）と犯罪統計資料 第1表",
+ "source": "check",
+ "compared": 120,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "2376e1fb9e1eb016b30bb75f22ef84ec42c5987662e2f5d4a5ed1dd492525511",
+ "written_utc": "2026-11-17T12:18:56Z"
+}

@@ -1,0 +1,53 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "049261143e0891636efbbf563a03373ce26d59b7f916c65cf390c282ca5abc10": {
+   "ja": "# 過労死等の労災補償状況の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of Workers' Compensation for Karoshi and Related Cases (started 2026-11-17)　Verification status: Machine-verified only",
+   "src": "results/karoshi/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "44878fce945332ae1581b4ae6b3fce3a9c19b9ff5c908079dc7a1c93914320d7": {
+   "ja": "## 対象と取得\n- 厚生労働省 令和7年度「過労死等の労災補償状況」報道発表と別添資料 1〜6（PDF）。取得記録：data/raw/karoshi/MANIFEST.tsv。\n- 過労死等防止対策白書は今回扱っていない（残した）。",
+   "en": "## Scope and acquisition\n- Ministry of Health, Labour and Welfare, FY2025 \"Workers' Compensation for Karoshi and Related Cases\" press release and Attachments 1–6 (PDF). Acquisition record: data/raw/karoshi/MANIFEST.tsv.\n- The White Paper on Measures to Prevent Karoshi is not covered this time (left for later).",
+   "src": "results/karoshi/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "954284d34822389745cffdc54d9faf82f95280d41233f5d7f502f8b9d8bb2af5": {
+   "ja": "## c3401 表の内訳の和\n- 「件数（女性）」の組が3つ以上並ぶ表のうち、合計行のある9表で、業種・年齢などの内訳の和=合計（件数・女性・死亡）。式 145、不一致 0。",
+   "en": "## c3401 Sums of breakdowns in tables\n- Among tables in which three or more `件数（女性）` pairs are placed side by side, in the 9 tables that have a total row, the sum of the breakdown by industry, age, etc. = the total (cases, women, deaths). Equations: 145, mismatches: 0.",
+   "src": "results/karoshi/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "846591347869e9e813edb674e8fde22f87fe80ee2cbfa4520704d6d3529ea74b": {
+   "ja": "## 報道発表の合計（手計算で照合）\n- 請求 6,212 = 脳・心臓 1,254 + 精神 4,958。決定 4,692 = 811 + 3,839 + 複数業務要因 25 + 17。支給決定 1,310 = 217 + 1,082 + 7 + 4。死亡・自殺 145 = 67 + 76 + 2 + 0。認定率 26.8% = 217/811。",
+   "en": "## Totals in the press release (checked by hand calculation)\n- Claims 6,212 = brain and heart diseases 1,254 + mental disorders 4,958. Decisions 4,692 = 811 + 3,839 + multiple-job factors 25 + 17. Decisions to pay 1,310 = 217 + 1,082 + 7 + 4. Deaths and suicides 145 = 67 + 76 + 2 + 0. Recognition rate 26.8% = 217/811.",
+   "src": "results/karoshi/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "06e12dd9cadf6e935b7eb2dc7ad27f108c0526d0c310939f76644b1028411a04": {
+   "ja": "## 陰性対照\n- 別添1 表1-2 の運輸業の請求件数を pdftotext の出力で変えて検出。",
+   "en": "## Negative control\n- The number of claims for the transport industry in Attachment 1, Table 1-2 was altered in the pdftotext output, and the change was detected.",
+   "src": "results/karoshi/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "52992cb272bee92f141968dbeb64773d98f7e10044460efd72c885a089558531": {
+   "ja": "## 照合した件数\n150式程度。記録なし。",
+   "en": "## Equations checked\nAbout 150 equations. No records.",
+   "src": "results/karoshi/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

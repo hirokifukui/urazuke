@@ -1,0 +1,13 @@
+{
+ "dir": "sna",
+ "check": "c3701",
+ "label": "",
+ "note": "国民経済計算 主要系列表1：支出側の恒等式、版間のGDP",
+ "source": "check",
+ "compared": 619,
+ "mismatched": 30,
+ "explained": 30,
+ "read_failures": 0,
+ "script_sha256": "2a05f0aaa5f8468b7a39db30da06677f5f7b3055cc9b86a8958a60314e54bd88",
+ "written_utc": "2026-11-17T12:34:08Z"
+}

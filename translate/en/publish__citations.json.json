@@ -1,0 +1,1229 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "13f1571ccd129836e1e2f08a4f251a78aa0b3be2a3f3725ed76e84eb1d77fcfb": {
+   "ja": "保護局が分析と概要を公表",
+   "en": "Rehabilitation Bureau publishes the analysis and summary",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "4119bcd4aef5cf4303ec3e137e4bb0cab342fce8dc056cb370f4d69af139c660": {
+   "ja": "参議院 常任委員会調査室『立法と調査』No.425",
+   "en": "House of Councillors Standing Committee Research Office, \"Rippō to Chōsa\" (Legislation and Research) No.425",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9a7dc689206e81c642d7c566701a423b445ef9b18c34e3fa82303b03b17e1eb9": {
+   "ja": "群別の割合は一致する。引用の「再犯率」が性犯罪に限るかは文からは決まらない。",
+   "en": "The proportions by group match. Whether the quoted \"recidivism rate\" is limited to sexual offences cannot be determined from the text.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "33d58d7dc4714a5fa13612994c00110367468e9d9cf85ba1b1e561a8a2fbfc0b": {
+   "ja": "再犯防止推進白書 令和3年版",
+   "en": "White Paper on Recidivism Prevention 2021 edition (Reiwa 3)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "aafc13c283d1ea58f60bf4ca7f2c7a503ee987325bd72eca3762b0fea7ee1b6b": {
+   "ja": "群の差と「示唆」をそのまま引く。率が性犯罪に限るかは元の文に書かれていない。",
+   "en": "It quotes the difference between groups and \"suggested\" as they are. The original text does not state whether the rate is limited to sexual offences.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "4a759c013e249942b4a7a23364b8f8c35672fd8e1b8e2895e3a4573970af0203": {
+   "ja": "概要は「受講群の再犯率は非受講群の0.67倍」とし、効果を「示唆された」と書く。0.67 は分析のハザード比 1.485 の逆数と一致する（記録 SO-P1）。表4の性犯罪の再犯率は受講群 15.1％、非受講群 26.2％。",
+   "en": "The summary states that \"the recidivism rate of the participant group was 0.67 times that of the non-participant group\" and writes that an effect \"was suggested\". 0.67 matches the reciprocal of the analysis's hazard ratio of 1.485 (record SO-P1). In Table 4, the sexual-offence recidivism rate is 15.1% for the participant group and 26.2% for the non-participant group.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d742fddd6a620420c7df8c70a51740ab693f5dde768fec8be54dacdc9a06a81a": {
+   "ja": "神奈川県弁護士会 シンポジウム資料（2026-01-11）",
+   "en": "Kanagawa Bar Association symposium materials (2026-01-11)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "8b4fd2d521ef89b28367eabfc751e63c7f1b8bf706c46a9c6a7f0b717057dfd6": {
+   "ja": "全国の推移と都道府県の順位を書くが、元の文に照合できる値がない。",
+   "en": "It states the national trend and the prefectural rankings, but the source text contains no values against which they can be checked.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "310077d33e4b51f701e91e40e968d14d6ebe2b7222a672dca7e79e4be094c0b3": {
+   "ja": "在院患者数の長期データに回答率の列も注もない。回答率の低い年に在院患者数が落ち込む（長野 2018年、福井 2023年、埼玉 2024年。記録 630-D1）。",
+   "en": "The long-term data on the number of inpatients have neither a response-rate column nor a note. In years with low response rates, the number of inpatients drops (Nagano 2018, Fukui 2023, Saitama 2024; record 630-D1).",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "dc2f893761ab29308966ac2a351240018054ee90029feda419387ecc0f275ff6": {
+   "ja": "こども家庭庁が速報値 219,170件を公表",
+   "en": "Children and Families Agency publishes preliminary figure of 219,170 cases",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "243a485ef71291faaa4b21142799324c06c165a2656d3e3a90ec4f4c45f6c697": {
+   "ja": "琉球新報（共同通信配信）",
+   "en": "Ryukyu Shimpo (distributed by Kyodo News)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "87a252f32880a3dd20f7288665bf39a1c97dbd1f420f737c04e47787ae2295bd": {
+   "ja": "速報値を速報値として引く。確定値の公表はこの記事より後。",
+   "en": "Cites the preliminary figure as a preliminary figure. The final figure was published after this article.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "a9c0488d5af90b0d3ea6cb252fa0ce8ea66ceb4795cc41d9a0c7ea8085fdf925": {
+   "ja": "厚生労働省が確定値 214,843件を公表",
+   "en": "Ministry of Health, Labour and Welfare publishes final figure of 214,843 cases",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "1c8e8c99ee8fc1da0faf532a54ee0e0c6d76ff6ba2907c08a0dd4ab7150d5d31": {
+   "ja": "リセマム",
+   "en": "ReseMom",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9402554e9058c50e692c41dc1719d22620eab406a8aed25b4749f41e6618f22c": {
+   "ja": "確定値と速報値、その差を元と同じ値で示す。",
+   "en": "Gives the final figure, the preliminary figure and the difference between them, with the same values as the source.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "3fe5f84fa6dbc93d0816376a621377cb2af4a49bf6417fdf5baf5f83cd7507af": {
+   "ja": "令和4年度の児童虐待相談対応件数は、速報値 219,170件、確定値 214,843件（4,327件減）。",
+   "en": "Child abuse consultations handled in FY2022: preliminary figure 219,170 cases, final figure 214,843 cases (a decrease of 4,327 cases).",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "1420e7eb455fb6d908ae67283a14402e55b5d87f3f6767a5ce9847398dd9f259": {
+   "ja": "法務省矯正局「刑事施設における性犯罪者処遇プログラム受講者の再犯等に関する分析結果」（令和2年3月）",
+   "en": "Correction Bureau, Ministry of Justice, \"Results of the Analysis of Reoffending etc. among Participants in the Sex Offender Treatment Program in Penal Institutions\" (March 2020)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "0626b199b3323bfe79b526c45987df8eace1a79762f95ae48ba2d8d0a7c1bf70": {
+   "ja": "法務省保護局「保護観察所における性犯罪者処遇プログラム受講者の再犯等に関する分析結果」（令和2年3月）",
+   "en": "Rehabilitation Bureau, Ministry of Justice, \"Results of the Analysis of Reoffending etc. among Participants in the Sex Offender Treatment Program at Probation Offices\" (March 2020)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d8796415a799dee2df50dedec1977406407ff5a86f3905614153987d52e217a5": {
+   "ja": "法務省矯正局・保護局「刑事施設及び保護観察所における薬物事犯者に対するプログラムの効果検証結果（概要）」（令和4年10月）",
+   "en": "Correction and Rehabilitation Bureaus, Ministry of Justice, \"Results of the Evaluation of the Effectiveness of Programs for Drug Offenders in Penal Institutions and Probation Offices (Summary)\" (October 2022)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "82abccacb832ebaa3a56521bc2165a6f785f6daad30cc837a60db6e6245b6a01": {
+   "ja": "こども家庭庁 速報値（令和4年度）／福祉行政報告例（令和4年度）",
+   "en": "Children and Families Agency preliminary figures (FY2022) / Report on Social Welfare Administration and Services (FY2022)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "b808c22c0bb64712edebcadf9f006316fd7ad4f9931ed25532b0ffd3ce800c1f": {
+   "ja": "自殺対策白書 令和7年版・令和8年版",
+   "en": "White Paper on Suicide Countermeasures, 2025 edition (Reiwa 7) and 2026 edition (Reiwa 8)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "70b27555ff66705da6489555080d48dffb2cf83d2e1926351f5c11e44d880726": {
+   "ja": "警察庁「ストーカー事案、配偶者からの暴力事案等…への対応状況について」各年版",
+   "en": "National Police Agency, \"On the Status of Responses to Stalking Cases, Spousal Violence Cases, etc. …\", each annual edition",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "c1b453866f1ea35d94a9941094b6565bc1e856156010c8ccdaacd650898443b7": {
+   "ja": "法務省矯正局 資料（平成28年1月）",
+   "en": "Correction Bureau, Ministry of Justice, material (January 2016)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "21a095bb205872caefd39fc4f46838530f469a77b98d8a8f14bbdcb18f340d55": {
+   "ja": "精神保健福祉資料（630調査）長期データ",
+   "en": "Mental Health and Welfare Data (630 Survey), long-term data",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "94ad5ee241a22e29a5007b9a236cefe63ab30d9f9ea98ca798e783aeb6393041": {
+   "ja": "自殺対策白書 令和7年版（2024年 529人）",
+   "en": "White Paper on Suicide Countermeasures, 2025 edition (Reiwa 7) (2024: 529 persons)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "2d08a63086b49ee580c1375071367142f3abd767e78368596307f8ab2670f338": {
+   "ja": "ニューズウィーク日本版",
+   "en": "Newsweek Japan",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "7e25f12ecefe18027630eb0887f5658205a2b424945089f61d125c242671188c": {
+   "ja": "2024年の小中高生の自殺者数を、元の 529人でなく 629人と書く。",
+   "en": "Gives the number of suicides among elementary, junior high and high school students in 2024 as 629, not 529 as in the source.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "7a391a907e99afdb14ea653818f48d725ea81ae0510ea3f6070c5969f529ae57": {
+   "ja": "KAB（熊本朝日放送、ANN）",
+   "en": "KAB (Kumamoto Asahi Broadcasting, ANN)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "076f8d4949a1c13268ca9ea088ddec0d198e66c1b9010d64c36596b0ba7ce244": {
+   "ja": "2025年の小中高生の自殺者数を元と同じ値で書く。",
+   "en": "Gives the number of suicides among elementary, junior high and high school students in 2025 as the same value as in the source.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "4375e33f9f28a845135bea02361514ba5878aa85a348570eeb9092eeed51a0fe": {
+   "ja": "自殺対策白書 令和8年版（2025年 538人）",
+   "en": "White Paper on Suicide Countermeasures, 2026 edition (Reiwa 8) (2025: 538 persons)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "ba4d0eed70cbc8834f6a961030d1637db826b349114c4b5236539d6fb99dc0bf": {
+   "ja": "小中高生の自殺者数は、2024年 529人（令和7年版）、2025年 538人（令和8年版）。",
+   "en": "The number of suicides among elementary, junior high and high school students was 529 in 2024 (2025 edition (Reiwa 7)) and 538 in 2025 (2026 edition (Reiwa 8)).",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "df8af2cd2f33d41aba930a6095bce82cf99df78a7ef3380027af6d258650816e": {
+   "ja": "矯正局が推計を公表",
+   "en": "Correction Bureau publishes estimate",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "bc9807f8574e73aa24e619dd59ee1bbf9fe632e99a86b8d8e8df0c20d29acb80": {
+   "ja": "日本医事新報（ウェブ）",
+   "en": "Japan Medical Journal (web)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "cb1319141d18bee0a68b6d20fe8252181eda602d0b7436928cfa102fc1c1a4ba": {
+   "ja": "割合と推計人数を元と同じ丸めで書く。",
+   "en": "State the proportion and the estimated number using the same rounding as the source.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "2dfc92443860c335734417f5292dce396df6262e3d2ff23c1bd15d38b89845fa": {
+   "ja": "60歳以上の受刑者のうち認知症傾向のある者はおよそ14％（13.8％）、全国でおよそ1,300人と推計。",
+   "en": "Among prisoners aged 60 and over, those showing signs of dementia were estimated at about 14% (13.8%), or about 1,300 people nationwide.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "1ac67c01d4e16d2562a6630f242588a6b8ea0be37e634b401bd0b4453d2e0865": {
+   "ja": "共同通信（配信記事）",
+   "en": "Kyodo News (syndicated article)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "e21a24f38f630b780a8a64fa3a412ad7653ce7d143c358898a9a35ddc508cd30": {
+   "ja": "見出しで効果を伝え、本文は受講者の再犯率が低かったとする。効果が裏付けられなかった罪名の但し書きはない。",
+   "en": "The headline reports an effect, and the body states that participants' reoffending rate was lower. There is no proviso about the offence categories for which the effect was not supported.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "2832935e4662509d256a6e573dc5bc72e45946c72d4e40d46a30b575a3d95ee4": {
+   "ja": "矯正局が分析結果と研究報告書を公表",
+   "en": "The Correction Bureau publishes its analysis results and research report",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "eeb5bc422f501fd1f51bf0b7afbe7345341e5202b6729b0a74be637df9426bbb": {
+   "ja": "保護観察所の分析の群別の割合と倍率を、元と同じ向きで伝える。",
+   "en": "Reports the group-wise proportions and the ratio from the probation office analysis in the same direction as the source.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "4508194d92ae9fe866692c404f59773603a05489cc476e1297953a533cab8728": {
+   "ja": "Cox モデルの再犯可能性 0.79倍を、再犯率の比として書く。同じ記事に罪名による限定はある。",
+   "en": "Describes the 0.79 times likelihood of reoffending from the Cox model as a ratio of reoffending rates. The same article does include a limitation by offence category.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "5ee5fc6ded64f16d30a73266df57951ba4d4abf290801d677bf84e23b859ba01": {
+   "ja": "文春オンライン（Yahoo!ニュース配信）",
+   "en": "Bunshun Online (distributed via Yahoo! News)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "f576e6c2a792da290fddac956d999a3f4d3e443701869c2a61521251d1ca268e": {
+   "ja": "別々の群の 38.0％と 27.3％を、受講者の再犯率の低下として書く。",
+   "en": "Describes the 38.0% and 27.3% of separate groups as a reduction in participants' reoffending rate.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "6e4e2136eb9de1c281ed23e45af29366383e7b7861e3a84553883035ebdca72a": {
+   "ja": "Sexual Offending: Theory, Research, and Prevention（査読論文）",
+   "en": "Sexual Offending: Theory, Research, and Prevention (peer-reviewed article)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "2470221eb6102b4b86470b62b8258ba76b1114fcb420b13bfeada32e755b1686": {
+   "ja": "群別の性犯罪再犯の割合を、元と同じ順で示す。",
+   "en": "Shows the group-wise proportions of sexual reoffending in the same order as the source.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "6e97323e8bf6f059ae2ba6cf8d7e3d2b1f0416a54c13a287f905c0e63d6083ef": {
+   "ja": "弁護士ドットコムニュース（Yahoo!ニュース配信）",
+   "en": "Bengo4.com News (distributed via Yahoo! News)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "2fb201ac35cfc7afeee5f7fd055257a0bf32d8f204304a186dbf0a6c182b3090": {
+   "ja": "群別の再犯率と 0.79倍を伝え、裏付けのない罪名も本文に書く。",
+   "en": "Reports the group-wise reoffending rates and the 0.79 times figure, and also states in the body the offence categories for which there was no support.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "3f35f7889aaeb351dc691783861aea40c58513b089fc9555e08f7c0bded7eea2": {
+   "ja": "全再犯の再犯率は受講群 27.3％、比較対照群 38.0％（別々の群）。受講群の再犯可能性は 0.79倍（Cox の比例ハザードモデル）。同じ報告書は、強制わいせつ・迷惑行為防止条例違反などでは指導の効果について統計的な裏付けが得られなかったと書く。",
+   "en": "The reoffending rate for all reoffending is 27.3% in the participant group and 38.0% in the comparison group (separate groups). The participant group's likelihood of reoffending is 0.79 times (Cox proportional hazards model). The same report states that for offences such as indecent assault and violations of nuisance prevention ordinances, no statistical support was obtained for the effect of the programme.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "8252c657db5cf21845ae1a0f6d118199e0ccff4ec4537cfdca18de61d1403b16": {
+   "ja": "矯正局・保護局が効果検証の概要を公表（「示唆された」）",
+   "en": "The Correction and Rehabilitation Bureaus publish a summary of the effectiveness evaluation (\"suggested\", `示唆された`)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d368e3ca79aeb2aaadecb0281ec857040e2be9f9e1365c600ed6829ead8c0dfb": {
+   "ja": "再犯防止推進白書 令和5年版",
+   "en": "White Paper on Recidivism Prevention 2023 edition (Reiwa 5)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "ac4be02f441671fae3c3620d394cadaae7d19907bb01468c075c5f7935a357a5": {
+   "ja": "元の「示唆された」を「認められた」とし、施設・保護観察所という範囲も書かない。",
+   "en": "Changes the original \"suggested\" (`示唆された`) to \"found\" (`認められた`), and does not state the scope of penal institutions and probation offices.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "ba922a02edd75a9af3b1ba7a906b6bf88674887d020982a3c879bad8df6012a5": {
+   "ja": "再犯防止推進白書 令和6年版",
+   "en": "White Paper on Recidivism Prevention 2024 edition (Reiwa 6)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "03fd4276dd379b3b61a53b8af588d7b2724f194d5c809fe8bc6d02e4df1fbdf4": {
+   "ja": "元の「示唆された」を「認められた」とする。",
+   "en": "Changes the original \"suggested\" (`示唆された`) to \"found\" (`認められた`).",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "bbff5c1e4aa94c9a99f6b7f11cf8bc956946d3a246680870f1d17440c4070c8d": {
+   "ja": "概要は再犯追跡調査について「刑事施設及び保護観察所におけるプログラムの処遇効果が示唆された」と書く。",
+   "en": "On the recidivism follow-up study, the summary states that \"treatment effects of the programs in penal institutions and probation offices were suggested\" (`刑事施設及び保護観察所におけるプログラムの処遇効果が示唆された`).",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "90071468378e5957e4dfddca4fd655860fca97e51cfcdc0c9de30eec4b0fb274": {
+   "ja": "時事通信",
+   "en": "Jiji Press",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "5ec57999141a4d72f86ca790fa4cd8ba3616e44540de855a8879cc720f35ef4d": {
+   "ja": "ストーカー規制法違反の検挙数を元と同じ値で書く。",
+   "en": "States the number of cleared cases for violations of the Anti-Stalking Act with the same value as the source.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "4249880fd8ff3111f613aaf9cced23dd2a29e3ac3b8bab1d9c9f0f58e810017c": {
+   "ja": "令和5年版（ストーカー規制法違反の検挙 1,081件。変更の前）",
+   "en": "2023 edition (Reiwa 5) (1,081 cases cleared for violations of the Anti-Stalking Act; before the change)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "57eaf9e4e74899026ce5a749f1acae5e63ba244344d666aa70ece513fdd65381": {
+   "ja": "令和6年版：令和6年から数え方を変更（注）",
+   "en": "2024 edition (Reiwa 6): counting method changed from 2024 (note)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "8710e2e3a418a8966bf48db8ab53549662212f198da5794e66f4bef5fb3e3c23": {
+   "ja": "ライブドアニュース",
+   "en": "Livedoor News",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "4a13834a7d21e1eddaff51b4c99b76da14a88926dacd3251a32af41b50cbf8c1": {
+   "ja": "計上方法の変更をまたいで増加率を書き、変更の注がない。",
+   "en": "States a rate of increase across the change in counting method, with no note on the change.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "a2994ba486c18a18e6b0ddd19ceb4600c8f3cbaa72d00dd133f2282154a8f6b1": {
+   "ja": "秋田魁新報（共同通信配信）",
+   "en": "Akita Sakigake Shimpo (distributed by Kyodo News)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "760a4bcda7381475b3b01ee16c20934d54020f6bd5a6075745069bae934969e8": {
+   "ja": "計上方法の変更をまたいで最多と書き、変更の注がない。",
+   "en": "States the highest number across the change in counting method, with no note on the change.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "a88bd6b103c7f95c0189f8b29c5531f732da8cf397ac97a7b8d8376a8cc4f482": {
+   "ja": "令和7年版",
+   "en": "2025 edition (Reiwa 7)",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "7413c4692e30cddc9401a03a7cc14216b33bc6affc5285daf67228566d471015": {
+   "ja": "2024年の計上方法の変更をまたいで増加率と最高を書き、変更の注がない。",
+   "en": "States a rate of increase and the highest level across the 2024 change in counting method, with no note on the change.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "efe20dd384602c3da644bd50c1088fac08007f177dc585bd1f3eb0e6894961cc": {
+   "ja": "令和6・7年版の注は、令和5年までは相談のうち同年中に検挙等をした件数を計上し、令和6年からは相談の有無に関わらずすべて計上したと書く。変更の前後の値をそのまま比べると、数え方の違いを含む。",
+   "en": "The notes in the 2024 and 2025 editions (Reiwa 6 and 7) state that up to 2023 the count included the number of cases, among consultations, that were cleared or otherwise dealt with within the same year, and that from 2024 all cases were counted regardless of whether there had been a consultation. Comparing values from before and after the change as they are includes the difference in counting method.",
+   "src": "publish/citations.json",
+   "src_commit": "untracked",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9754c6864d92b4a346a5d8629f2aaf95d1f3b4e98b26619065b915c1abebbcdd": {
+   "ja": "概要（001382494.pdf）",
+   "en": "Summary (001382494.pdf)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "96157215ff66ca2e598ce824c66bb6bb39a55638afdf01d342e81890439d2a92": {
+   "ja": "分析結果（001318217.pdf）",
+   "en": "Analysis results (001318217.pdf)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "551a038c1dcc7d8776607a9f3a2617996e516534df30bda13dc553950381fa96": {
+   "ja": "研究報告書（001317462.pdf）",
+   "en": "Research report (001317462.pdf)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d04b7858742add33994b2043c215b78cc15c90669cbc612944829342898c6560": {
+   "ja": "分析結果について（001317461.pdf）",
+   "en": "On the analysis results (001317461.pdf)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "7c4eb7fe0f11928188fa277ef0919754665090a2fcb1b2ca0d67cf44c7f0d39c": {
+   "ja": "分析（001318218.pdf）表4",
+   "en": "Analysis (001318218.pdf) Table 4",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9c8adabe3b5fbb904261bb983c07385e2d02e538c2e1ec00359fa3c1aebf47a8": {
+   "ja": "概要（001466396.pdf）",
+   "en": "Summary (001466396.pdf)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "7ab05ea45e5ba2fe4c86c7d85ce2d65a3ecc962b9f252395a3ea9a2a1a2d26f1": {
+   "ja": "速報値（こども家庭庁）",
+   "en": "Preliminary figures (Children and Families Agency)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "573755eb17c128c42d17932114341e5ab0e895c19de3da6a592f9854f8b7aba1": {
+   "ja": "確定値（福祉行政報告例 結果の概要）",
+   "en": "Final figures (Report on Social Welfare Administration and Services, summary of results)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "6bdc7a2468d11cdd44bcc3bce92c6c02c3482dd5a7a3b1798489952bcf09fdcf": {
+   "ja": "自殺対策白書 令和7年版（001581158.pdf）",
+   "en": "White Paper on Suicide Countermeasures, 2025 edition (Reiwa 7) (001581158.pdf)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "ab5bc708509504ef4ef2550032eb791a15c5e551f3aeb0aab606ea250a7f5ecd": {
+   "ja": "自殺対策白書 令和8年版（001760192.pdf）",
+   "en": "White Paper on Suicide Countermeasures, 2026 edition (Reiwa 8) (001760192.pdf)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "31906bf7915cc3e7738395f9ab12101a33210953dc91f7b653b60e049e8fbeb8": {
+   "ja": "令和5年版（警察庁）",
+   "en": "2023 edition (Reiwa 5) (National Police Agency)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "34d506515998f879ce69575843aa6a95ef1179cb507b9216b3cb78301bd63828": {
+   "ja": "令和6年版・令和7年版の注（警察庁）",
+   "en": "Notes in the 2024 edition (Reiwa 6) and 2025 edition (Reiwa 7) (National Police Agency)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d869b6780fffbe68c624a165548a6622689ab9c712ca4373ae0fe3cebac22e1d": {
+   "ja": "認知症傾向のある受刑者の概数調査（概要）（001170401.pdf）",
+   "en": "Survey of the Approximate Number of Inmates Showing Signs of Dementia (Summary) (001170401.pdf)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "312997dfb53471328b376f5893cb9c6148c4937559b11aca1e976ad64d0c1adc": {
+   "ja": "長期データ（longterm_1998_2025.xlsx）",
+   "en": "Long-term data (longterm_1998_2025.xlsx)",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "451ca882937758e5996dcd6c26d0870b99ac9b56a9f8b10eefb60550f3f77923": {
+   "ja": "平成30年 630調査 回答率",
+   "en": "2018 630 Survey response rate",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "cd50f3ebf223f93cf3c05648211eba33fa63f31fd0d6549b75c930e22ded281f": {
+   "ja": "別々の群の 38.0％と 27.3％を、受講者の再犯率の低下として書く。同じ記事は、分析結果とともに効果があると発表されたとも書く（元の資料は群別の率とハザード比を示し、罪名構成の差を注記する）。",
+   "en": "The figures of 38.0% and 27.3% for separate groups are written as a decline in the reoffending rate of participants. The same article also writes that the programme was announced as effective together with the analysis results (the original material shows rates by group and hazard ratios, and notes the difference in offence composition).",
+   "src": "publish/citations.json",
+   "src_commit": "2797e4a+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "07bc071592dccc118db0bad698995eca651c4930490ad0aa7eb8b0f625b144a1": {
+   "ja": "計上方法の変更をまたいで「過去最多」と書き、変更の注がない。",
+   "en": "Describes the figure as \"the highest on record\" across a change in the counting method, with no note on the change.",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "e3584aad8ba358f3742802d47c92c8db3d3a387e61e8f8a6c8dfb37c9aefe5f5": {
+   "ja": "テレビ朝日",
+   "en": "TV Asahi",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "0553d6db309d24af76e139ff424fd988300aec65b33bb551bff18007586a2832": {
+   "ja": "計上方法の変更をまたいで「施行以降、最多」と書き、変更の注がない。",
+   "en": "Describes the figure as \"the highest since enforcement\" across a change in the counting method, with no note on the change.",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "dd5ae5e44df73fbccdff4580829377b99feeb3ae1cbcf846de07aca522f776c4": {
+   "ja": "2024年の小中高生の自殺者数を、比較の範囲（1980年以降）とともに元と同じ値で書く。",
+   "en": "The number of suicides among elementary, junior high and senior high school students in 2024 is stated with the same value as the source, together with the range of comparison (since 1980).",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "bbb34952407f2d7ebc33218f9644489b641d3c1507ed08d4e5e297e61abaa3f1": {
+   "ja": "先端教育オンライン",
+   "en": "Sentan Kyoiku Online",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "2bd8a30bab673da69f2ed0a905677199a2b5a955cd36b08e1f86f7bc1609f9f3": {
+   "ja": "見出しで 529人を「過去最多」と書き、元にある比較の範囲（統計のある1980年以降）を書かない。",
+   "en": "The headline describes 529 as the \"highest ever\" and does not state the range of comparison given in the source (since 1980, when the statistics begin).",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "6a965e52ae8a9313f48b10a65175da34c6523e937bbb144464bea274d6695ac6": {
+   "ja": "福祉新聞",
+   "en": "Fukushi Shimbun",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "1c46de824812369c04dc177c0e4c1d178d1e0074b6e2734ad8342bbd07724da8": {
+   "ja": "日本テレビ（日テレNEWS）",
+   "en": "Nippon Television (NTV NEWS)",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "c47e9815a3534d2412cd5255761a932e92c860f091ef0ca04556c9dbf30a503f": {
+   "ja": "児童虐待相談の対応件数（確定値）を「児童虐待件数」として書く。値は確定値と同じ。",
+   "en": "Reports the number of child abuse consultations handled (final figure) as the \"number of child abuse cases\" (`児童虐待件数`). The value is the same as the final figure.",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "ad72b7dbcbe58c5755af6aa8505ebf3d5fbb2d8538c5f43cff4e479bf90a2e66": {
+   "ja": "教育新聞",
+   "en": "Kyoiku Shimbun",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d7a31d8597659e88dba1835974cc537bec662acbcdccfe27be4fd48651b3de4b": {
+   "ja": "確定値と、速報値より約4,000件少ないことを書く。",
+   "en": "Reports the final figure and that it is about 4,000 fewer than the preliminary figure.",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9f8a3c6072b7c398d805cd536f76e637bf21bd406966e068527cd4d484f66594": {
+   "ja": "見出しで、確定値と速報値からの差を元と同じ値で書く。対象を「虐待件数」と書く（元は児童虐待相談の対応件数）。",
+   "en": "In the headline, reports the final figure and the difference from the preliminary figure using the same values as the source. Describes the subject as the \"number of abuse cases\" (`虐待件数`) (the source refers to the number of child abuse consultations handled).",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "c42d14bd27a9646b231b275c7f946a3762f503cb91a6425e1f9ec8e9de6b5f55": {
+   "ja": "認知症ねっと",
+   "en": "Ninchisho Net",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "35a4a525844c2fe7def0faa03c9d75859efdf5756c3443bf170db5a7daa3a4ce": {
+   "ja": "認知症傾向のある受刑者の概数調査（概要）（001170401.pdf）調査概要",
+   "en": "`認知症傾向のある受刑者の概数調査（概要）` (Survey of the Approximate Number of Inmates Showing Dementia Tendencies (Summary)) (001170401.pdf), survey overview",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "5acf9f6f36321d3c1f56c243aeb144e5b008ac35dfbe57d9aa2b55cde284494c": {
+   "ja": "見出しで約14％と書き、元にある「認知症傾向」の定義（HDS-R 20点以下で、医師の診断によらない）を書かない。",
+   "en": "States about 14% in the headline and does not state the definition of \"dementia tendency\" given in the source (an HDS-R score of 20 or below, not based on a physician's diagnosis).",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9447c4de4dc813b388fad482354bcff9a6a5a79e1602cceebf74b5905c4ae501": {
+   "ja": "推計人数を元と同じ丸めで書き、定義を書かない。",
+   "en": "States the estimated number with the same rounding as the source and does not state the definition.",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "ec0dfc21dd587483d292509632ba951dcb59f059cba902c662c6b6e593f82fce": {
+   "ja": "みんジョブ",
+   "en": "Minjob",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "1e1a56879afb71c6680f13574721a3e0bb51d484b16884f3162c33f8265a1778": {
+   "ja": "「およそ」を落として 1,300人・14％と書き、定義も書かない。",
+   "en": "Drops \"approximately\" and states 1,300 people and 14%, and also does not state the definition.",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "e985269560745a4effbf04b03bc73047a02d703ab7d1145869dae0633ca2d684": {
+   "ja": "割合と推計人数を元と同じ丸めで書き、元にある「認知症傾向」の定義を書かない。「2015年6月時点」は、元の調査時期（2015年1〜2月）からは確かめられない（別系統も判定不能とした）。",
+   "en": "States the proportion and the estimated number with the same rounding as the source and does not state the definition of \"dementia tendency\" given in the source. \"As of June 2015\" cannot be confirmed from the source's survey period (January–February 2015) (the independent AI also judged this inconclusive).",
+   "src": "publish/citations.json",
+   "src_commit": "802ac4d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9e86d99cbbf823712ee43df35b331e8343eb1004a43a4ced47327d05db29ddee": {
+   "ja": "R030（GPT・Gemini とも T0）",
+   "en": "R030 (T0 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "da2dbde5e3c2814a8c709c5b037da67a934ccff46362886eff1aadf54f11ee89": {
+   "ja": "R030（GPT・Gemini とも T2）",
+   "en": "R030 (T2 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d76be21b40310b34d93f61be2e163977cc5a23798698702c0e8319e508964f00": {
+   "ja": "R029（GPT・Gemini とも T3）",
+   "en": "R029 (T3 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "c7ddd769b2a8795b31340f01f6a084b8c79f528e88083e80b9230205ab12d691": {
+   "ja": "R029（GPT・Gemini とも T4）",
+   "en": "R029 (T4 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "c7f39e420c06b2d444b55e98583e11bec9fac167fcfd87734693dcf7105f491f": {
+   "ja": "R029（GPT・Gemini とも T2）",
+   "en": "R029 (T2 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d110185519cae2f53ba301d00b040e9529a5df833a68b314d4b75ff86851f631": {
+   "ja": "R029（GPT・Gemini とも T0）",
+   "en": "R029 (T0 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "3920ae23153c79f097923454501c9f6e79c6b7877772d619e26dab28a5e097f3": {
+   "ja": "R029（GPT：判定不能／Gemini：T0）",
+   "en": "R029 (GPT: Inconclusive / Gemini: T0)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "59bca728f5a2acd7f9f6ad0e49085997773a979b35258a24f3ff11d5d2bf71ba": {
+   "ja": "R031（GPT・Gemini とも T4）",
+   "en": "R031 (GPT and Gemini both T4)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "26821ae71f855a753a0db023f04c56614885c4e1c2b5003f7e30cd7a7d1be2d9": {
+   "ja": "R031（GPT：T4、判定不能／Gemini：T1、T3、T4）",
+   "en": "R031 (GPT: T4, Inconclusive / Gemini: T1, T3, T4)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "2ce0180ebb8aa9f6fad6d8a9fbefde715aad620d281cb2ce3c15f06f7db7e264": {
+   "ja": "R029（GPT・Gemini とも 判定不能）",
+   "en": "R029 (GPT and Gemini both: Inconclusive)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "5e30a05d9c5b4a0d4595f97983c7aa4164158e7d14572d5ea9277b1bec513ac2": {
+   "ja": "R029（GPT・Gemini とも T1）",
+   "en": "R029 (T1 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "c1310d735881e3e2af11788a65d21bc62ff855de5b5272b8e03ee44da230b41a": {
+   "ja": "R030（GPT・Gemini とも T4）",
+   "en": "R030 (T4 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "67aa858+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "f73370bc4d83ebfcfee625164f4329803ea9c044318842c80ab4841285e9d675": {
+   "ja": "性犯罪の再犯率の差（11.1ポイント）と「示唆」を元と同じに書く。比較の時点（観測期間最終日）を書かない点を限定が落ちるとみるかで、二つの判定者の判定が分かれた。",
+   "en": "States the difference in sexual reoffending rates (11.1 points) and the word \"suggests\" in the same way as the original. The two assessors' judgments diverged on whether omitting the point in time of the comparison (the last day of the observation period) counts as dropping a qualification.",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "1739fa91df5e87b13a28aa402bcaafc46fe743456d7b7a54bc39bf7733068492": {
+   "ja": "再犯防止推進白書 令和4年版（全体版 25頁）",
+   "en": "White Paper on Recidivism Prevention 2022 edition (Reiwa 4) (full version, p. 25)",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "b561c04ef6b3cda5d75eae2b99844fdf909bf1cfccb587e7b9392983546ba908": {
+   "ja": "保護局 効果検証結果の概要（令和4年10月）",
+   "en": "Rehabilitation Bureau: Summary of Effectiveness Evaluation Results (October 2022)",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9e11e5605a317db446a5b78c7004c67eeb5bb22f1b4f12fdfed44558c9726d21": {
+   "ja": "保護局 報告書",
+   "en": "Rehabilitation Bureau report",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "98d70321840c12d73157dcd28d0b0819eff9f4c9e157d858542f414f857d4a77": {
+   "ja": "18頁",
+   "en": "p. 18",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "9dce8b276d2114977e3ae841e00c3f289988f2a596f6008e0174189fc01d1727": {
+   "ja": "保護観察所の受講群と非受講群の差と「示唆」を元と同じに書き、元にある抽出の条件、女性では有意差が認められなかったこと、効果量が小さいことを書かない。",
+   "en": "States the difference between the participant and non-participant groups at probation offices, and the \"suggestion\", in the same way as the source, but does not state the selection conditions given in the source, that no significant difference was found among women, or that the effect size is small.",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "98b488527dcb04b5eceba2f90a8aaa406ad6181c28dc17a35ff95b6e0842e7e3": {
+   "ja": "R047（GPT・Gemini とも T4）",
+   "en": "R047 (T4 from both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "96584d5942e213f040bbeeec7f1dc4dc6fe97e53864f99f75648fdce1a2e503a": {
+   "ja": "再犯防止推進白書 令和2年版（全体版 114頁）",
+   "en": "White Paper on Recidivism Prevention, 2020 edition (Reiwa 2) (full version, p. 114)",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "f74a3f7c9671d0f07c725e42ce6c508926533aee89a97307f16d22a0ad6b9857": {
+   "ja": "全再犯の群の差（38.0％と27.3％の差、10.7ポイント）を引き、元にある罪名構成の差の注と、効果が裏付けられなかった罪名（迷惑行為防止条例違反・強制わいせつ）を書かない。",
+   "en": "It quotes the between-group difference in overall reoffending (38.0% vs 27.3%, a difference of 10.7 points), and does not state the original's note on the difference in offence composition or the offences for which an effect was not substantiated (violation of nuisance prevention ordinances, indecent assault).",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "76e538a16130598b9d93ff2bce2ef68927d4fe0bc4dedb88509db64ac993d41e": {
+   "ja": "R046（GPT・Gemini とも T4）",
+   "en": "R046 (T4 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "75a1c83e8e7ca4f8b434114351574be678be62a569b031d293b1d33df380e353": {
+   "ja": "再犯防止推進白書 令和3年版（全体版 164頁）",
+   "en": "White Paper on Recidivism Prevention, 2021 edition (Reiwa 3) (full version, p. 164)",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "89bec6c4e6c0160c5a38f11aac90537d4d1aa50665ff4adc4db3f6de12bd57e1": {
+   "ja": "再犯防止推進白書 令和4年版（全体版 150頁）",
+   "en": "White Paper on Recidivism Prevention, 2022 edition (Reiwa 4) (full version, p. 150)",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d2448597af4d641679a5fdf2e0ccc1ed181c5ef702ebb2b84e7c9189da9105fd": {
+   "ja": "再犯防止推進白書 令和5年版（全体版 126頁）",
+   "en": "White Paper on Recidivism Prevention, 2023 edition (Reiwa 5) (full version, p. 126)",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "eaaef48de76e3ae12249c78dac089c7b186b89cf82774fe5c9859b09bc045bd8": {
+   "ja": "再犯防止推進白書 令和6年版（全体版 132頁）",
+   "en": "White Paper on Recidivism Prevention, 2024 edition (Reiwa 6) (full version, p. 132)",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "63374da36725209184f7562ac71e95b64b5abd9e6c171a5f5cff2fd491709148": {
+   "ja": "再犯防止推進白書 令和7年版（全体版 104頁）",
+   "en": "White Paper on Recidivism Prevention, 2025 edition (Reiwa 7) (full version, p. 104)",
+   "src": "publish/citations.json",
+   "src_commit": "c6690f3+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-18"
+  },
+  "d8e396fd6a47973f1cad5f15e30e9253af26b7feb7d7fa0e82671c2bbfcaf64d": {
+   "ja": "警察庁「令和７年におけるストーカー事案、配偶者からの暴力事案等、児童虐待事案等への対応状況について」（令和8年3月）",
+   "en": "National Police Agency, \"Responses to Stalking Cases, Spousal Violence Cases, etc. and Child Abuse Cases, etc. in 2025\" (March 2026)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "9695da652ea1f6050d29d3af4f495cc7d9aed7b4a56b7300f8f1a98bd8654106": {
+   "ja": "法務省矯正局「刑事施設における職業訓練の効果検証」（令和5年3月）",
+   "en": "Correction Bureau, Ministry of Justice, \"Evaluation of the Effects of Vocational Training in Penal Institutions\" (March 2023)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "4638c9f4c2e98c350caa6e7a6db12fc64c53bc28bc6f88c4775c5110bddf941f": {
+   "ja": "法務省矯正局「刑事施設における性犯罪者処遇プログラム受講者の再犯等に関する分析」（平成24年12月）",
+   "en": "Correction Bureau, Ministry of Justice, \"Analysis of Reoffending, etc. among Participants in the Sex Offender Treatment Program in Penal Institutions\" (December 2012)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "ac0e9402c3abc65318ac5522c33542792872576f1281cd6e89cc2a4466160079": {
+   "ja": "R066（GPT・Gemini とも T0）",
+   "en": "R066 (T0 from both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "7466f688d1d7ac66dde18bb6a38e95b04fbe5912ba5b83a28347e09cc12e1ddb": {
+   "ja": "福祉教育ラボ",
+   "en": "Welfare Education Lab",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "595d123da4558cfe78fd702bcc9a312df9913b4236b7545c6df96cb392bedd8a": {
+   "ja": "2025年の小中高生の自殺者数を、前年（529人）と比較の範囲（1980年以降）とともに書く。",
+   "en": "State the number of suicides among elementary, junior high and senior high school students in 2025, together with the previous year's figure (529) and the period of comparison (1980 onward).",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "1895ab96e49ec04e1a3ca7b6bca59d0e8e380e3a8c1d3fdffa6737abfb237277": {
+   "ja": "令和6・7年版の注は、令和5年までは相談のうち同年中に検挙等をした件数を計上し、令和6年からは相談の有無に関わらずすべて計上したと書く。変更の前後の値をそのまま比べると、数え方の違いを含む。令和7年版の本文は、それ自身が「法施行後でそれぞれ最多となった」と書き、注は同じ頁にある。",
+   "en": "The notes in the 2024 and 2025 editions (Reiwa 6 and 7) state that up to 2023 the count included, among consultations, the number of cases in which clearance (kenkyo) or similar action was taken within the same year, and that from 2024 all cases were counted regardless of whether there had been a consultation. Comparing the values before and after the change as they stand includes the difference in counting method. The main text of the 2025 edition itself states that each \"reached the highest level since the law came into force\", and the note is on the same page.",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "cedd9a8169a853bbcd475a3026ead175e6b5d78565416b8faf83a8848c15220d": {
+   "ja": "時事通信（時事ドットコム）",
+   "en": "Jiji Press (Jiji.com)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "0f2b3312f8d8ad12912cea508447fad6c3cc5d0df31f0569d73b45fac6bdf5cb": {
+   "ja": "令和7年の対応状況（警察庁）",
+   "en": "Status of responses in 2025 (National Police Agency)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "6d2adec5b9379030a827ac79bdfdbb1efadb582d6ff7b20bd96509f7dc61e332": {
+   "ja": "同 注3",
+   "en": "Same source, note 3",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "aca6a4a543b2988fff45ac8eaebba6019b5359b88151e27852482da8216fecf9": {
+   "ja": "令和7年の DV 相談等件数と「施行後最多」を元と同じ値で書き、令和6年4月からの計上の範囲の拡大を書かない。",
+   "en": "States the number of DV consultations etc. for 2025 and \"the highest since enforcement\" with the same values as the source, and does not mention the expansion of the scope of counting from April 2024.",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "b40f8d1183c811e36f5e2fb3d47bec5e8f9b609db8d9d1035a0db914d8c3581e": {
+   "ja": "R066（GPT・Gemini とも T4）",
+   "en": "R066 (T4 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "04cb9592dd75893bc6a5421ade36a51a5c80afd67f32a8f31ebdaa143e0e6732": {
+   "ja": "令和7年の配偶者からの暴力事案等の相談等件数は 98,289件で「ＤＶ防止法施行後最多」。同じ頁の注3は、令和6年4月1日施行以降、自由、名誉又は財産に対する脅迫についても計上すると書く（記録 ST-D1）。",
+   "en": "The number of consultations etc. on cases of violence by spouses etc. in 2025 was 98,289, \"the highest since the DV Prevention Act came into force\". Note 3 on the same page states that, from its enforcement on 1 April 2024 onward, threats against liberty, honour or property are also counted (record ST-D1).",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "147e389d3d8ca392ed10a11fc104e23b6f559df266b04b4e1bb3c906d309bd4b": {
+   "ja": "計上の範囲の拡大（脅迫）",
+   "en": "Expansion of the scope of counting (threats)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "63844a05aeace00ab109c97b6ed2515240dcc9ee0d4ee5e34556c2fa1c784cbe": {
+   "ja": "警察庁が令和7年の対応状況を公表",
+   "en": "National Police Agency publishes the status of responses in 2025",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "8786093e161ffe8edff1e798dfdfa91a7c61d82ff012b1887c74dd82bc65db54": {
+   "ja": "再犯防止推進白書 令和5年版（Column1）",
+   "en": "White Paper on Recidivism Prevention 2023 edition (Reiwa 5) (Column1)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "de84c57d51c4f7b2cff7ebd0a539a5aed44577707170948c40c849783700a977": {
+   "ja": "効果検証（001391826.pdf）",
+   "en": "Effectiveness evaluation (001391826.pdf)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "07c1ca292811b463b08befbf409921dabf00ccc975e03f8e2dd336bd46330479": {
+   "ja": "効果検証の結論の文を、ほぼ同じ言い方と同じ値（78.7％・74.0％・各2,218名）で引く。",
+   "en": "Quotes the concluding sentence of the effectiveness evaluation in almost the same wording and with the same values (78.7%, 74.0%, 2,218 persons each).",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "7d627b219371e06b131d7acb20e7dd6f32774916ff679e1713717d26c79669dd": {
+   "ja": "修了群 78.7％、非修了群 74.0％（各 2,218名、保護観察終了時の有職率）。本文は「安定した就労を継続している者の割合が高いことが明らかになりました」と書く（記録 SK-C1）。",
+   "en": "Completion group 78.7%, non-completion group 74.0% (2,218 persons each; employment rate at the end of probation). The main text states \"it has become clear that the proportion of those continuing in stable employment is higher\" (record SK-C1).",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "e56e9cb024cfec10afd8e9556d620e1e90abfad2f8cfaccd195968718511f4aa": {
+   "ja": "矯正局が効果検証を公表",
+   "en": "The Correction Bureau published the effectiveness evaluation",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "7a0a57a58a57c748d0376e614f598ab12e02e00149a3c2c8116b7158a0b04f86": {
+   "ja": "全国被害者支援ネットワークのニュースレター（法務省矯正局成人矯正課の寄稿）",
+   "en": "Newsletter of the National Network for Victim Support (contribution by the Adult Corrections Division, Correction Bureau, Ministry of Justice)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "9b384e0bd23e214ea53ef2badfedd3b5d40c3aca7f1d684dd18f8ed64772428b": {
+   "ja": "分析（000105286.pdf）表5",
+   "en": "Analysis (000105286.pdf) Table 5",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "13d9784f7c2f0de8d04d92eae897aef2f4f32685612376dde1794bebef9bef34": {
+   "ja": "分析（000105286.pdf）",
+   "en": "Analysis (000105286.pdf)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "36f95021de46ec93e9065ef24cb6469488b05ac554fe217d6b7c4c622f97db6d": {
+   "ja": "全ての犯罪の再犯率（21.9％・29.6％）を性犯罪再犯防止指導の効果として書き、性犯罪の再犯では効果が確認されなかったことと精度の限界を書かない。",
+   "en": "Presents the reoffending rates for all offences (21.9% and 29.6%) as the effect of the sex offence recidivism prevention guidance, and does not state that no effect was confirmed for sexual reoffending, or the limits of precision.",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "90f2bb5cfbb869ac02e510265b9b493eed2b9d1e8e51d8d21660ff21f8a7bf79": {
+   "ja": "R066（GPT・Gemini とも T3、T4）",
+   "en": "R066 (T3 and T4 for both GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "e068f7e4b635437fd621969d91c509446827b669b13cf28b087d8517d2cee0c9": {
+   "ja": "出所後3年の推定再犯率は、全ての犯罪で受講群 21.9％・非受講群 29.6％、性犯罪で 12.8％・15.4％。性犯罪再犯の分析では「効果を確認するまでには至らなかった」、精度には「一定の限界がある」と書く（記録 SH-C1）。",
+   "en": "The estimated reoffending rates three years after release are 21.9% for the participant group and 29.6% for the non-participant group for all offences, and 12.8% and 15.4% for sexual offences. The analysis of sexual reoffending states that it \"did not go as far as confirming an effect\", and that its precision has \"certain limits\" (record SH-C1).",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  },
+  "a961f878a379d05800a9519278ae1286f9367fdd933d865a491799875d19d821": {
+   "ja": "矯正局が分析を公表",
+   "en": "Correction Bureau publishes the analysis",
+   "src": "publish/citations.json",
+   "src_commit": "0743adb+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-20"
+  }
+ }
+}

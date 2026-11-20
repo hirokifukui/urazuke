@@ -1,0 +1,13 @@
+{
+ "dir": "stalker",
+ "check": "c413",
+ "label": "",
+ "note": "ストーカー事案の検挙状況の表：版の間の同じ年・同じ項目、内訳の和と計",
+ "source": "check",
+ "compared": 135,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "fa3c51c86278d2269b4594e1f80418f3d9125a3bc1e179fc8f7df0150e0ca677",
+ "written_utc": "2026-11-17T12:24:15Z"
+}

@@ -1,0 +1,13 @@
+{
+ "dir": "seiho",
+ "check": "c3301",
+ "label": "",
+ "note": "被保護者調査（月次概数）：差・伸び率、内訳の和、版間",
+ "source": "check",
+ "compared": 1136,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "8bcfdc67a5f22bd505b1ccd9634d191838afdf2801e58923fe6aa04946141067",
+ "written_utc": "2026-11-17T12:34:08Z"
+}

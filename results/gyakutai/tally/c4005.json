@@ -1,0 +1,13 @@
+{
+ "dir": "gyakutai",
+ "check": "c4005",
+ "label": "",
+ "note": "障害者虐待の調査結果報告書：都道府県の和と合計、合計と報道発表",
+ "source": "check",
+ "compared": 8,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "ff796cd8abcc0c8cdebac2900a58b120080dc09de5c76ded027f586119a05502",
+ "written_utc": "2026-11-17T12:30:18Z"
+}

@@ -1,0 +1,13 @@
+{
+ "dir": "stalker",
+ "check": "c411",
+ "label": "",
+ "note": "ストーカー・DV・児童虐待の対応状況：推移表の同じ項目・同じ年の値の、資料の版どうしの比較",
+ "source": "check",
+ "compared": 1346,
+ "mismatched": 7,
+ "explained": 3,
+ "read_failures": 1,
+ "script_sha256": "d1baec2ae511b6db66e656340ced8eb3e839e8a645e71b513ba887df80a3fa26",
+ "written_utc": "2026-11-17T12:36:06Z"
+}

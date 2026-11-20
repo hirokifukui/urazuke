@@ -1,0 +1,13 @@
+{
+ "dir": "eisei",
+ "check": "c1401",
+ "label": "",
+ "note": "衛生行政報告例（精神保健福祉）：都道府県の和、措置患者・手帳の年度の連続",
+ "source": "check",
+ "compared": 1820,
+ "mismatched": 21,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "5c14b778babb8e04fea9ed5890966016397b7feda4506a42c3f8b98bb1867f15",
+ "written_utc": "2026-11-17T12:30:19Z"
+}

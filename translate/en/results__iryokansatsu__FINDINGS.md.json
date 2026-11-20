@@ -1,0 +1,93 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "f12e97d44a9b087bf92c9855b7a713ed286eb4419b0a6668246223064a745ed0": {
+   "ja": "# 医療観察法の統計の検証（2026-11-17 開始）　確認の状態：機械検証のみ（運営者の業務に関わる対象）",
+   "en": "# Verification of the Statistics under the Medical Treatment and Supervision Act (started 2026-11-17) Verification status: Machine-verified only (a subject related to the operator's work)",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e0a54dc79bede0837ebc80abe291d9315d4ffb4302dd778cd0f063ce10c6363f": {
+   "ja": "## 事前登録\n- hypotheses/H009_iryokansatsu_plan.md（データを開く前にコミット：82c2b05）。検査の観点と、記録にしないもの（制度の評価・運用の当否など）を固定した。",
+   "en": "## Preregistration\n- hypotheses/H009_iryokansatsu_plan.md (committed before the data were opened: 82c2b05). The aspects to be examined and what is not recorded (evaluation of the system, appropriateness of its operation, etc.) were fixed.",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d9a10e10b4d4e79696b46c05a26397cc2348bfefc86e82f556beb13933de4300": {
+   "ja": "## 対象と取得\n- 厚生労働省 医療観察法のページ（入院対象者の状況 R8.4.1、指定入院医療機関の整備状況、指定通院医療機関の指定状況、地方裁判所の審判の状況）：data/raw/iryokansatsu/mhlw/\n- 保護統計年報の医療観察法の表（生活環境調査（33条・49/50条）、居住地における生活環境調整、精神保健観察）2019〜2025年版：data/raw/iryokansatsu/hogo/\n- 犯罪白書 令和7年版 第4編第10章第3節（既存の取得物）。",
+   "en": "## Subjects and acquisition\n- Ministry of Health, Labour and Welfare pages on the Medical Treatment and Supervision Act (status of inpatients as of 1 April 2026, status of development of designated inpatient medical institutions, status of designation of designated outpatient medical institutions, status of hearings at district courts): data/raw/iryokansatsu/mhlw/\n- Tables on the Medical Treatment and Supervision Act in the Annual Report of Rehabilitation Statistics (living environment investigations (Article 33 and Articles 49/50), coordination of the living environment at the place of residence, mental health observation), 2019–2025 editions: data/raw/iryokansatsu/hogo/\n- White Paper on Crime, 2025 edition (Reiwa 7), Part 4, Chapter 10, Section 3 (previously acquired).",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "b6bce27d1769105ae1a95058170481f2cb813f5944d87af74eb44cbf987b0ff6": {
+   "ja": "## c3001 厚労省ページの恒等式\n- 男+女=合計、内訳の和=合計、ステージ別と疾病別の合計（749）、病床数の和=本文（856床、うち国 504・都道府県 352）、指定通院医療機関の行と列の和、審判の終局処理人員の内訳の和（6,554）。式 77、不一致 0。",
+   "en": "## c3001 Identities on the Ministry of Health, Labour and Welfare pages\n- male + female = total, sum of the breakdown = total, totals by stage and by disease (749), sum of bed counts = main text (856 beds, of which national 504 and prefectural 352), row and column sums for designated outpatient medical institutions, sum of the breakdown of persons whose hearings were concluded (6,554). 77 formulas, 0 mismatches.",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "55ac1b50f38d9d64afb96499bb0d25a3fc17377fe945de161ee65b5f88569ae1": {
+   "ja": "## c3002 保護統計の3表（L1・版間）\n- 繰越+開始−終結=年末、開始・終結の内訳の和、観察所の和（本庁・支部の行は除く）=総数、累年行の版間（同じ年が7つの版で同じか、前年の版の年末=当年の版の繰越）。式 7,050、不一致 0。\n- 49条・50条の申立てによる生活環境調査の表は、2024年版以降の年報にない（2023年版まで）。",
+   "en": "## c3002 Three tables of the rehabilitation statistics (L1, between editions)\n- carried over + commenced − concluded = year end, sums of the breakdowns of commencements and conclusions, sum of probation offices (excluding main office and branch office rows) = total, the multi-year rows between editions (whether the same year is identical across the 7 editions; whether the year end in the previous year's edition = the carried-over figure in the current year's edition). 7,050 formulas, 0 mismatches.\n- The table of living environment investigations upon petitions under Articles 49 and 50 is not in the annual reports from the 2024 edition onward (it is present up to the 2023 edition).",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "c7d8c740203eb04347a22857dfb21c230b321450c988b01df0e8fa188c52041c": {
+   "ja": "## 他の資料\n- 犯罪白書 令和7年版「令和6年における生活環境の調査の開始件数は、262件」：保護統計 2024年版・2025年版の令和6年の開始 262 と一致。",
+   "en": "## Other sources\n- White Paper on Crime, 2025 edition (Reiwa 7): \"the number of living environment investigations commenced in 2024 was 262\": matches the 2024 commencements of 262 in the 2024 and 2025 editions of the rehabilitation statistics.",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "43d002c414174a4ec6e224fcfce49bf48dcc92a8312495c1406bbc0b1044fd00": {
+   "ja": "## 残したもの\n- 司法統計年報の医療観察事件の表（H009 の資料3）は今回取得していない。",
+   "en": "## What was left\n- The tables on medical treatment and supervision cases in the Annual Report of Judicial Statistics (Source 3 of H009) were not acquired this time.",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "045771a376ccd95dfde269e5a97da8660587363adf724f0f4b86ff0e869d0ff5": {
+   "ja": "## 陰性対照\n- 入院対象者の合計（749名→750名）、保護統計 精神保健観察の令和3年の繰越（576→577）を変えた写しで、それぞれ検出。",
+   "en": "## Negative control\n- Copies with the total number of inpatients changed (749 → 750) and with the 2021 carried-over figure in the mental health observation table of the rehabilitation statistics changed (576 → 577) were each detected.",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "27ae9aba33cc68a88de26c84b5bfc8b9485ac2c9fa264ca086a07c118f2014dc": {
+   "ja": "## 照合した件数\n7,128式。記録なし。",
+   "en": "## Number of checks\n7,128 formulas. No records.",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ab4722135ffc09888ffe6980be4e9f8938353e84d047b840b7ac00a83937f61c": {
+   "ja": "## c3003（2026-11-17、r13）入院対象者の状況の過去の版\n- Internet Archive の写し（2014〜2026年、18版、data/raw/iryokansatsu/wayback/、SHA256SUMS.txt）と現行の版。基準日が読めた6時点（H31.4.1〜R8.4.1）で、男＋女＝合計、ステージの和＝合計、疾病の和＝合計。式 204、不一致 0。同じ基準日で値が違う版はない。\n- 2014〜2017年の写しは本文の形式が違い読み取っていない（文字コード・表の構成）。R5.4.1 の版は写しがない。",
+   "en": "## c3003 (2026-11-17, r13) Past editions of the status of inpatients\n- Internet Archive copies (2014–2026, 18 editions, data/raw/iryokansatsu/wayback/, SHA256SUMS.txt) and the current edition. At the 6 points in time whose reference date could be read (1 April 2019 to 1 April 2026): male + female = total, sum of stages = total, sum of diseases = total. 204 formulas, 0 mismatches. No edition has different values for the same reference date.\n- The 2014–2017 copies have a different text format and were not read (character encoding, table structure). There is no copy of the edition as of 1 April 2023.",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "1a0b61929f09f1028baa425d5fa18e42f9ca399e82d80440005b6d4f9f9461f8": {
+   "ja": "## 2014〜2017年の写し（2026-11-17、r16）\n- 2014〜2017年の写しは Shift_JIS で、2014〜2016年はステージの表が列ごと（男性3・女性3・合計3、続いて合計行）。c3003 を直して読んだ。\n- 19版・基準日 12（H26.3.31〜R8.4.1）：男＋女＝合計、ステージの和＝合計、疾病の和＝合計。式 383、不一致 0。同じ基準日で値が違う版はない。H29.1.1 と H29.4.1 は合計が同じ（552・177・729）だが内訳は違う。",
+   "en": "## The 2014–2017 copies (2026-11-17, r16)\n- The 2014–2017 copies are in Shift_JIS, and in 2014–2016 the stage table is arranged by column (3 for male, 3 for female, 3 for total, followed by a total row). c3003 was corrected to read them.\n- 19 editions, 12 reference dates (31 March 2014 to 1 April 2026): male + female = total, sum of stages = total, sum of diseases = total. 383 formulas, 0 mismatches. No edition has different values for the same reference date. 1 January 2017 and 1 April 2017 have the same totals (552, 177, 729), but the breakdowns differ.",
+   "src": "results/iryokansatsu/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

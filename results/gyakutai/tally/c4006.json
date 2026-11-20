@@ -1,0 +1,13 @@
+{
+ "dir": "gyakutai",
+ "check": "c4006",
+ "label": "",
+ "note": "障害者虐待の調査結果報告書（縦の表）：構成割合と内訳の和",
+ "source": "check",
+ "compared": 214,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "773def42c07521cb32e901b8564cf32f5b076f0a5b106e352aa30be0c9a8f560",
+ "written_utc": "2026-11-17T12:30:18Z"
+}

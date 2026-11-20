@@ -1,0 +1,4 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.jbaudit.go.jp/report/new/summary07/pdf/fy07_01_gaiyou.pdf	r07/fy07_01_gaiyou.pdf	555606	819b7cff7b96f8b78defbf8abfb15f715791ded9c6e4f9468a2aa6622a8889f2	200	Thu, 29 Oct 2026 06:11:22 GMT	2026-11-16T17:40:51+00:00
+https://www.jbaudit.go.jp/report/new/summary06/pdf/fy06_01_gaiyou.pdf	r06/fy06_01_gaiyou.pdf	0		404		2026-11-16T17:41:01+00:00
+https://www.jbaudit.go.jp/report/new/summary07/pdf/fy07_03_futo.pdf	r07/fy07_03_futo.pdf	16097773	2b8539975682340965d89fec0219c8fbf1bcf074feb74e13e94b246ac6994764	200	Fri, 06 Nov 2026 00:55:46 GMT	2026-11-16T17:41:03+00:00

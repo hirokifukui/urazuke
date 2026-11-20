@@ -1,0 +1,13 @@
+{
+ "dir": "seishin630",
+ "check": "c301",
+ "label": "",
+ "note": "630調査 長期データ：都道府県の和と合計、区分の和、指定都市の和≦道府県",
+ "source": "check",
+ "compared": 42404,
+ "mismatched": 805,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "c372863a0ff86328e3425496d98f2d9be9f50d3edf5c2ec54bf5d91245aa81d3",
+ "written_utc": "2026-11-17T12:24:54Z"
+}

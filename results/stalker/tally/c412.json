@@ -1,0 +1,13 @@
+{
+ "dir": "stalker",
+ "check": "c412",
+ "label": "",
+ "note": "ストーカー・DV・児童虐待の CSV：親＝子の和、性別の和＝年齢の和、総数＝内訳",
+ "source": "check",
+ "compared": 255,
+ "mismatched": 4,
+ "explained": null,
+ "read_failures": 99,
+ "script_sha256": "95c9c489e5ccc30521655a4c3658c60f217818c0d639c57c5f2a9184b329960b",
+ "written_utc": "2026-11-17T12:24:15Z"
+}

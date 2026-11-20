@@ -1,0 +1,13 @@
+{
+ "dir": "kyoin_chokai",
+ "check": "c4602",
+ "label": "",
+ "note": "教員の懲戒処分の状況の表：内訳の和と合計、告発の状況の内訳",
+ "source": "check",
+ "compared": 19,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "0c1ca9aa449a2fbd45605f76996591759c5ad9866a40ab6b24406f67998d9ddc",
+ "written_utc": "2026-11-17T12:30:18Z"
+}

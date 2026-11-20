@@ -1,0 +1,53 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "73ff29ef2719b7b71d1f26e2b1e5901648428fec48763e7ea1aa928f612626ae": {
+   "ja": "# 地方財政状況調査（都道府県決算カード）の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Local Public Finance Survey (prefectural settlement cards) (started 2026-11-17)  Status of confirmation: Machine-verified only",
+   "src": "results/kessan_card/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "cfb4598e947eeaa2438dc8fbc629535e1ffae8750d0fc4a116db247de58a2ea5": {
+   "ja": "## 対象と取得\n- 総務省 都道府県決算カード 令和6年度・令和5年度・令和4年度（Excel、47シート）と令和6年度 PDF。取得記録：data/raw/kessan_card/MANIFEST.tsv。市町村決算カードは今回扱っていない。",
+   "en": "## Scope and acquisition\n- Ministry of Internal Affairs and Communications prefectural settlement cards for FY2024, FY2023 and FY2022 (Excel, 47 sheets) and the FY2024 PDF. Acquisition record: data/raw/kessan_card/MANIFEST.tsv. Municipal settlement cards are not covered this time.",
+   "src": "results/kessan_card/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6ed84800bf3835c9d6a4e0c680086ccf9fef9a0bfe67982e2c826a0bbc3a0135": {
+   "ja": "## c3801 収支の恒等式と版間\n- 差引=歳入−歳出、実質収支=差引−翌年度に繰り越すべき財源、実質単年度収支=単年度収支+積立金+繰上償還金−積立金取崩し額（当年度・前年度の両欄）、単年度収支=実質収支の差、歳入の状況の合計=歳入総額、版間（令和6年度カードの前年度欄=令和5年度カードの当年度欄）。式 1,222、不一致 1。\n- 令和5年度 沖縄県：単年度収支 −1,179,138千円。実質収支（令和5年度 4,438,368、令和4年度 5,617,504）の差は −1,179,136千円（差 2千円）。令和4年度カードの令和4年度の実質収支も 5,617,504、令和6年度カードの前年度欄の単年度収支も −1,179,138。千円未満の四捨五入で生じる差は 1千円まで → KC-A1",
+   "en": "## c3801 Balance identities and between editions\n- Balance = revenue − expenditure; real balance = balance − revenue sources to be carried over to the next fiscal year; real single-year balance = single-year balance + reserve fund contributions + early redemptions − reserve fund withdrawals (both the current-year and previous-year columns); single-year balance = difference in real balance; total of the revenue status = total revenue; between editions (previous-year column of the FY2024 card = current-year column of the FY2023 card). 1,222 equations, 1 mismatch.\n- FY2023 Okinawa Prefecture: single-year balance −1,179,138 thousand yen. The difference in real balance (FY2023 4,438,368, FY2022 5,617,504) is −1,179,136 thousand yen (a difference of 2 thousand yen). The FY2022 real balance on the FY2022 card is also 5,617,504, and the single-year balance in the previous-year column of the FY2024 card is also −1,179,138. A difference arising from rounding below one thousand yen is at most 1 thousand yen → KC-A1",
+   "src": "results/kessan_card/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "29f806690027d9481788a1fb510d0691236039d966c04063cbf2319f0c96ff38": {
+   "ja": "## 陰性対照\n- 令和6年度 沖縄県の実質収支を変えた写しで検出。",
+   "en": "## Negative control\n- Detected in a copy in which the FY2024 real balance of Okinawa Prefecture was altered.",
+   "src": "results/kessan_card/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "71ace00f4187c227b06735a22a0ce2eed9105f7d5ce579767a768304ff2df086": {
+   "ja": "## 照合した件数\n1,222式。記録1件（KC-A1）。",
+   "en": "## Number of items checked\n1,222 equations. 1 record (KC-A1).",
+   "src": "results/kessan_card/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9a840aee1b4d2c2da4c70bc5231a95f2756b3aa71040b9837b871745bc7b8f9a": {
+   "ja": "## 別系統の反証（R009）\n- KC-A1：支持（Q7）。原因・訂正すべき値は決まらない、との指摘は確実さの欄のとおり。",
+   "en": "## Refutation by an independent model (R009)\n- KC-A1: Supported (Q7). The point that the cause and the value to be corrected cannot be determined is as stated in the certainty field.",
+   "src": "results/kessan_card/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

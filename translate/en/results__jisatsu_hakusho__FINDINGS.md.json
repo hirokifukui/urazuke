@@ -1,0 +1,69 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "f2b0148bb0a19d5963244923f7ff02ea0a3a07f53c8fefc0b6846c5efd4fb0b5": {
+   "ja": "# 自殺対策白書の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the White Paper on Suicide Countermeasures (started 2026-11-17)　Verification status: Machine-verified only",
+   "src": "results/jisatsu_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d5717a2941783ac138be2f9b8c33c1e53683b9d139374a5cb262ca4e62bf4779": {
+   "ja": "## 対象と取得\n- 厚生労働省「自殺対策白書」令和6年版・令和7年版・令和8年版：本文・第1章の各節 PDF、留意事項 PDF、参考資料2（Excel：自殺対策に関する参考統計資料、15表）。令和4・5年版の正誤表 PDF。\n- 取得記録：data/raw/jisatsu_hakusho/MANIFEST.tsv（URL・バイト数・SHA256・Last-Modified・取得時刻）。\n- 白書の集計の基準は「発見日×発見地」（令和8年版 留意事項）。自殺死亡率の人口は「国勢調査実施年は総務省『国勢調査』、ほかの年は総務省『人口推計』」（参考資料2-13表の資料欄）。",
+   "en": "## Scope and retrieval\n- Ministry of Health, Labour and Welfare, \"White Paper on Suicide Countermeasures\", 2024 edition (Reiwa 6), 2025 edition (Reiwa 7) and 2026 edition (Reiwa 8): the main text and the PDFs for each section of Chapter 1, the notes-on-use PDF, and Reference Material 2 (Excel: reference statistical materials on suicide countermeasures, 15 tables). The errata PDFs for the 2022 (Reiwa 4) and 2023 (Reiwa 5) editions.\n- Retrieval log: data/raw/jisatsu_hakusho/MANIFEST.tsv (URL, bytes, SHA256, Last-Modified, retrieval time).\n- The white paper's counting basis is \"date of discovery × place of discovery\" (notes on use, 2026 edition (Reiwa 8)). The population used for the suicide rate is \"for Population Census years, the Ministry of Internal Affairs and Communications 'Population Census'; for other years, the Ministry of Internal Affairs and Communications 'Population Estimates'\" (source field of Reference Material Table 2-13).",
+   "src": "results/jisatsu_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6c49e5ffe577617dbedb9b4b3e31f45254da34d92cae82797b693e9579fe132b": {
+   "ja": "## c1101 参考資料2 の版間比較（L3）— 誤りなし\n- 令和6→7年版、7→8年版で、年を行の鍵にした表（2-1〜2-8、2-13〜2-15）の重なる値：15,861組、差 0。\n- 2-9〜2-12 は単年の表（版ごとに対象年が違う）で、差が出るのは当然のため比較の対象から外した（963件の差はすべてこの4表）。",
+   "en": "## c1101 Comparison of Reference Material 2 between editions (L3) — no errors\n- From the 2024 (Reiwa 6) to the 2025 (Reiwa 7) edition, and from the 2025 (Reiwa 7) to the 2026 (Reiwa 8) edition, the overlapping values in the tables keyed by year in the rows (2-1 to 2-8, 2-13 to 2-15): 15,861 pairs, difference 0.\n- Tables 2-9 to 2-12 are single-year tables (the target year differs by edition), so differences are expected; they were excluded from the comparison (all 963 differences are in these 4 tables).",
+   "src": "results/jisatsu_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "eb9ff9977e153d6a9efb187dd052f7ed57ebd97ee75484382cee48ce6cb260a7": {
+   "ja": "## c1102 内部整合・形式間・他の資料（L1・L4）\n- (a) 2-1 総数＝男＋女（自殺統計・人口動態統計）281組、2-14 合計＝男＋女 42組、2-15 合計＝小＋中＋高 134組：不一致 0。\n- (b) 2-13 都道府県の和＝2-1 の総数：62年分、不一致 0。\n- (c) 2-13 の直近の年＝「地域における自殺の基礎資料」B6（発見日・発見地）の都道府県：235組、不一致 0。\n- (d) 本文 図表1-25（PDF）の都道府県別自殺者数と前年差：令和7・8年版 94組、B6 と不一致 0。\n- **令和8年版 参考資料2-13表（1）都道府県別の自殺者数は令和6年の行で終わり、令和7年の行がない（機械検証のみ。記録にしていない）。** 同じ表の（2）自殺死亡率には令和7年の行がある（値は丸めていない小数：例 青森 19.99307）。令和6年版は（1）（2）とも令和5年まで、令和7年版は（1）（2）とも令和6年まで。R008 で「当年」の意味が曖昧として判定不能になり、H008 の基準どおり記録 JH-A1 から外した。令和7年の都道府県別の数は本文 図表1-25 にあり、B6 と一致する。確実さ：確定。\n- 説明のある違い（記録にしない）：都道府県別の自殺死亡率は、白書（例：令和7年 青森 20.0）、「令和7年中における自殺の状況」（19.6）、基礎資料（19.23）で3通り。白書は人口推計、基礎資料は住民基本台帳人口と明記している。「自殺の状況」は人口の出典を名指ししていない（自殺統計の作業ノート c202 に既記）。率から逆算した人口の比較は results/jisatsu_hakusho/c1102_rates.tsv。",
+   "en": "## c1102 Internal consistency, across formats, and other sources (L1, L4)\n- (a) Table 2-1 total = male + female (Suicide Statistics and Vital Statistics) 281 pairs, Table 2-14 sum = male + female 42 pairs, Table 2-15 sum = elementary + junior high + high school 134 pairs: 0 mismatches.\n- (b) Sum of prefectures in Table 2-13 = total in Table 2-1: 62 years, 0 mismatches.\n- (c) Most recent year in Table 2-13 = prefectures in B6 (date of discovery, place of discovery) of `地域における自殺の基礎資料` (Basic Data on Suicide in Regions): 235 pairs, 0 mismatches.\n- (d) Number of suicides by prefecture and change from the previous year in main-text Figure 1-25 (PDF): 2025 (Reiwa 7) and 2026 (Reiwa 8) editions, 94 pairs, 0 mismatches with B6.\n- **In the 2026 edition (Reiwa 8), Reference Material Table 2-13 (1), number of suicides by prefecture, ends with the 2024 row; there is no 2025 row (Machine-verified only; not made a record).** Part (2) of the same table, suicide rate, has a 2025 row (values are unrounded decimals: e.g. Aomori 19.99307). In the 2024 edition (Reiwa 6), both (1) and (2) run to 2023; in the 2025 edition (Reiwa 7), both (1) and (2) run to 2024. In R008 it was Inconclusive because the meaning of \"current year\" was ambiguous, and in line with the criterion of H008 it was removed from record JH-A1. The 2025 figures by prefecture are in main-text Figure 1-25 and match B6. Certainty: Established.\n- Differences with an explanation (not made a record): the suicide rate by prefecture takes three values: the white paper (e.g. 2025, Aomori 20.0), `令和7年中における自殺の状況` (Suicide in 2025) (19.6), and the Basic Data (19.23). The white paper states that it uses Population Estimates, and the Basic Data states that it uses the Basic Resident Registration population. `自殺の状況` does not name its population source (already noted in the Suicide Statistics working notes, c202). The comparison of populations back-calculated from the rates is in results/jisatsu_hakusho/c1102_rates.tsv.",
+   "src": "results/jisatsu_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "7edc056c0906c8719c09c348ab56bd8b134b0122b863c9e1e4dd8201a627b90f": {
+   "ja": "## c1103 数字が文字列で入っているセル（L4）\n- 令和6・7年版 0件、令和8年版 3件：2-15表 令和7年の行の小学生 '10'・中学生 '172'・高校生 '356'（合計 538 は数値）。数値セルは3版で計 26,030。\n- c1102 (a) の 2-15 合計＝小＋中＋高 の照合は、このため令和8年版の令和7年の行を数えていなかった（文字列を数値に直すと 10＋172＋356＝538 で一致）。\n- **記録 JH-A1：2-15表 令和7年の内訳の文字列。** R008 で支持（別系統で支持）。",
+   "en": "## c1103 Cells containing numbers stored as text (L4)\n- 2024 (Reiwa 6) and 2025 (Reiwa 7) editions: 0; 2026 edition (Reiwa 8): 3: in the 2025 row of Table 2-15, elementary school '10', junior high school '172', high school '356' (the sum 538 is numeric). Numeric cells total 26,030 across the 3 editions.\n- Because of this, the check of Table 2-15 sum = elementary + junior high + high school in c1102 (a) did not count the 2025 row of the 2026 edition (Reiwa 8) (converting the text to numbers gives 10 + 172 + 356 = 538, which matches).\n- **Record JH-A1: text in the 2025 breakdown of Table 2-15.** Supported in R008 (Supported by an independent model).",
+   "src": "results/jisatsu_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5e5f547c08f9cff74d72db14c560b3cb2bcda5ccd9f227e1c2a770ae3eaf4f07": {
+   "ja": "## 陰性対照\n- 2-1表の男の値を1増やした写しで (a) が検出、令和8年版 2-2表の値を変えた写しで c1101 が差を検出、令和7年版 2-15表の数値を文字列にした写しで c1103 が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative controls\n- (a) detected a copy in which a male value in Table 2-1 was increased by 1; c1101 detected the difference in a copy in which a value in Table 2-2 of the 2026 edition (Reiwa 8) was changed; c1103 detected a copy in which numbers in Table 2-15 of the 2025 edition (Reiwa 7) were converted to text (results/scope/negctl_r08.json).",
+   "src": "results/jisatsu_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "cf8e0de6bbbd11024d43ef71bc54e853d3e6881e665aa2c52aafd06815b070af": {
+   "ja": "## 照合した件数\n約1万6千組（版間 15,861、内部整合 457、都道府県 297）。",
+   "en": "## Number of comparisons\nAbout 16,000 pairs (between editions 15,861, internal consistency 457, prefectures 297).",
+   "src": "results/jisatsu_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "fa489334a1dfbf20c40270ba7771b41cd524c0c8ad16f750c088ad3db7aa170c": {
+   "ja": "## 別系統の反証（R008、2026-11-17）\n- JH-A1 その1（2-13表）：判定不能（「当年」の意味）。記録から外した。その2（2-15表の文字列）：支持。",
+   "en": "## Refutation by an independent model (R008, 2026-11-17)\n- JH-A1 part 1 (Table 2-13): Inconclusive (meaning of \"current year\"). Removed from the record. Part 2 (text in Table 2-15): supported.",
+   "src": "results/jisatsu_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

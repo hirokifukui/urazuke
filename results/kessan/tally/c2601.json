@@ -1,0 +1,13 @@
+{
+ "dir": "kessan",
+ "check": "c2601",
+ "label": "",
+ "note": "国の決算の概要：数値の照合",
+ "source": "check",
+ "compared": 4,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "f46ae0cb0dbcc421812230abb018a0127f14030061784f859650344be52890b7",
+ "written_utc": "2026-11-17T12:34:10Z"
+}

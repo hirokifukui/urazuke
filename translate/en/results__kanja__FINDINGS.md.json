@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "8ea821dcb3887e454ab3ff107edda642c9a811a8a68c7291f6c7bc49f09742e5": {
+   "ja": "# 患者調査の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Patient Survey (started 2026-11-17)  Verification status: Machine-verified only",
+   "src": "results/kanja/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3909eca6d9fb5c5a2042f6e2e2feee68de094e1e0e5a4f77ffe42f8576c712b3": {
+   "ja": "## 対象と取得\n- 厚生労働省 患者調査 令和5年：表（hyo.xlsx）、統計表1〜8（toukei.xlsx）、参考表、概況 PDF・推計患者数・総患者数・統計表 PDF。取得記録：data/raw/kanja/MANIFEST.tsv。\n- 値は千人単位で丸められているため、和の照合には丸めの幅（1項目 0.05千人）を許した。",
+   "en": "## Scope and retrieval\n- Ministry of Health, Labour and Welfare, Patient Survey 2023: tables (hyo.xlsx), statistical tables 1–8 (toukei.xlsx), reference tables, overview PDF, and PDFs of the estimated number of patients, the total number of patients and the statistical tables. Retrieval record: data/raw/kanja/MANIFEST.tsv.\n- Because values are rounded to units of one thousand persons, a rounding tolerance (0.05 thousand persons per item) was allowed when checking sums.",
+   "src": "results/kanja/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "533b17f93bf8bfa5a764edb0146b9270e78020d79762923fdca11da3f875febc": {
+   "ja": "## c1901 内部整合・形式間（L1・L4）— 誤りなし\n- (a) 表2 入院 総数＝病院＋一般診療所、外来 総数＝病院＋一般診療所＋歯科診療所：94組、丸めの幅を超える差 0。\n- (b) 表2 傷病大分類の和＝総数：7列、丸めの幅を超える差 0。\n- (c) 統計表2 の令和5年（総数・入院・外来）＝表2、総数＝入院＋外来：60組、差 0。\n- 参考：精神及び行動の障害の推計入院患者数 213.1千人（令和5年10月）。630調査の在院患者数とは調査日・定義が違うため、値の比較は行っていない。",
+   "en": "## c1901 Internal consistency and between formats (L1, L4) — no errors\n- (a) Table 2: inpatient total = hospitals + general clinics; outpatient total = hospitals + general clinics + dental clinics: 94 pairs, differences exceeding the rounding tolerance: 0.\n- (b) Table 2: sum of major disease categories = total: 7 columns, differences exceeding the rounding tolerance: 0.\n- (c) 2023 values in Statistical Table 2 (total, inpatients, outpatients) = Table 2, and total = inpatients + outpatients: 60 pairs, difference 0.\n- Reference: estimated number of inpatients with mental and behavioural disorders 213.1 thousand persons (October 2023). Because the survey date and definition differ from those of the number of inpatients in the 630 Survey, the values were not compared.",
+   "src": "results/kanja/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "afe94ae2f07fc1bec3605c2e9b30acf9d8a305f22ee46db65b5efde3c850fe6c": {
+   "ja": "## 陰性対照\n- 表2 の病院の値を変えた写しで (a) が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- In a copy of Table 2 with the hospital values altered, (a) detected the change (results/scope/negctl_r08.json).",
+   "src": "results/kanja/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ebbf1ebda78693c1bb12aef4baba1ea9d0f83eef75f6150e6f1b19e91e83a027": {
+   "ja": "## 照合した件数\n約160組。記録なし。",
+   "en": "## Number of checks\nAbout 160 pairs. No records.",
+   "src": "results/kanja/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

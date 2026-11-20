@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "40d679847865eec197b06a24fa0c46f3fbe6bf762c723f541439f4ffe1208751": {
+   "ja": "# 薬物事犯者のプログラムの効果検証（令和4年10月、矯正局・保護局）と暴力防止プログラムの効果検証（令和8年7月、保護局）\n計画：hypotheses/H017_yakubutsu_plan.md（資料を読む前にコミット、8757d4f）。記録の候補：hypotheses/H018_r13_records.md。\n取得：data/raw/moj_yakubutsu/MANIFEST.tsv。",
+   "en": "# Evaluation of Programs for Drug Offenders (October 2022, Correction and Rehabilitation Bureaus) and Evaluation of the Violence Prevention Program (July 2026, Rehabilitation Bureau)\nPlan: hypotheses/H017_yakubutsu_plan.md (committed before reading the materials, 8757d4f). Record candidates: hypotheses/H018_r13_records.md.\nRetrieved: data/raw/moj_yakubutsu/MANIFEST.tsv.",
+   "src": "results/moj_yakubutsu/FINDINGS.md",
+   "src_commit": "01fdb0b",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "cd8c46379c1ddfc66835afd32ae9fd3771e74f074f761dc2479e03cb702fbaf1": {
+   "ja": "## c4101 統計値の再計算（転記値）\n- 矯正局 表3・表4・表8、保護局 表2・表5〜7（構成比・φ・フィッシャーの正確確率）、保護局 表3・表4（HR と CI・Wald）。51 項目、NG 0。\n- 矯正局の表3・表4・表8 は片側検定（表4 の両側 p は 0.016 で、結論は変わらない）。\n- 暴力防止 表1-2・1-3：χ² と p は合う（15.229→<.001、2.494→.114、5.604→.018、3.603→.058）。",
+   "en": "## c4101 Recalculation of statistics (transcribed values)\n- Correction Bureau Tables 3, 4 and 8; Rehabilitation Bureau Tables 2 and 5–7 (proportions, φ, Fisher's exact test); Rehabilitation Bureau Tables 3 and 4 (HR and CI, Wald). 51 items, 0 NG.\n- Correction Bureau Tables 3, 4 and 8 use one-sided tests (the two-sided p for Table 4 is 0.016, and the conclusion does not change).\n- Violence prevention Tables 1-2 and 1-3: χ² and p match (15.229→<.001, 2.494→.114, 5.604→.018, 3.603→.058).",
+   "src": "results/moj_yakubutsu/FINDINGS.md",
+   "src_commit": "01fdb0b",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "f9efc66b17079913af46567032230889588593d3927a82a06e12ee094e1b67de": {
+   "ja": "## 矯正局（薬物依存離脱指導）\n- 調査2：旧実施体制（平成25年出所 593名）26.6％→新実施体制（742名）20.9％（表4、片側 p＝0.01）。\n- 新実施体制の中では、受講 21.0％（706名）と未受講 19.4％（36名）に有意差なし（表8）。受講者どうしは、旧 21.8％・新 21.0％で有意差なし（注21）。旧の未受講 37.0％（189名）。\n- 新実施体制の女子は 252/742（34.0％）、旧は 56/593（9.4％）。注22 の傾向スコアの感度分析（性別・入所度数・能力検査値）では、旧 31.7％・新 23.5％（各391名）。\n- 報告書の制約：出所後の状況、新型コロナの流行期間、群の違いを統制していない。\n- 犯罪白書 5-3-10図③ 覚醒剤取締法違反の2年以内再入率：平成25年 19.5％、平成30年 16.0％、令和元年 15.8％（定義が違う）。\n- 合同概要：「刑事施設及び保護観察所におけるプログラムの処遇効果が示唆された」。→ 記録 YK-C1。",
+   "en": "## Correction Bureau (guidance for withdrawal from drug dependence)\n- Study 2: old implementation system (released in 2013, 593 persons) 26.6% → new implementation system (742 persons) 20.9% (Table 4, one-sided p = 0.01).\n- Within the new implementation system, there is no significant difference between participants at 21.0% (706 persons) and non-participants at 19.4% (36 persons) (Table 8). Among participants, there is no significant difference between old at 21.8% and new at 21.0% (note 21). Non-participants under the old system: 37.0% (189 persons).\n- Women under the new implementation system: 252/742 (34.0%); under the old: 56/593 (9.4%). In the propensity score sensitivity analysis in note 22 (sex, number of admissions, ability test score), old 31.7% and new 23.5% (391 persons each).\n- Limitations stated in the report: post-release circumstances, the period of the COVID-19 pandemic and differences between groups are not controlled for.\n- White Paper on Crime Figure 5-3-10③, rate of re-admission within 2 years for Stimulants Control Act violations: 2013 19.5%, 2018 16.0%, 2019 15.8% (different definition).\n- Joint summary: \"the treatment effect of the programs in penal institutions and probation offices was suggested\". → record YK-C1.",
+   "src": "results/moj_yakubutsu/FINDINGS.md",
+   "src_commit": "01fdb0b",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8292971a7194c15405556c4d82cb0a36b4ade169bd3fd2a570846cf3a89babf4": {
+   "ja": "## 保護局（薬物再乱用防止プログラム）\n- 調査1：4,661名から傾向スコアで 1,406名ずつ。全再犯 33.7％・39.1％、薬物再犯 30.3％・34.6％（表5）。女性だけでは有意差なし（表7）。\n- 算出変数17に事件種別・保護観察期間なし。マッチング前：全部実刑者 36.8％・97.4％、保護観察期間6月以内 10.3％・95.0％（表1）。マッチング後の分布は不掲載。\n- Cox（表3・表4）は 12〜13 変数を除外（比例ハザード性 12、多重共線性 1）。\n- 考察：事件種別の偏りの統制に限界、未測定の交絡、効果量 0.1 未満。→ 記録 YK-D1。\n- 付録 表ア「入所度数 あり」1,091・1,772 は表1 の「2度以上」の人数。→ 記録 YK-I1。",
+   "en": "## Rehabilitation Bureau (drug relapse prevention program)\n- Study 1: 1,406 persons each selected by propensity score from 4,661 persons. All reoffending 33.7% and 39.1%; drug reoffending 30.3% and 34.6% (Table 5). No significant difference among women alone (Table 7).\n- The 17 variables used for the calculation do not include offence type or probation period. Before matching: persons with a fully custodial sentence 36.8% and 97.4%; probation period of 6 months or less 10.3% and 95.0% (Table 1). The distribution after matching is not published.\n- The Cox models (Tables 3 and 4) exclude 12–13 variables (proportional hazards 12, multicollinearity 1).\n- Discussion: limits to controlling the bias in offence type, unmeasured confounding, effect size below 0.1. → record YK-D1.\n- Appendix Table A \"number of admissions: yes\" 1,091 and 1,772 are the counts for \"2 or more\" in Table 1. → record YK-I1.",
+   "src": "results/moj_yakubutsu/FINDINGS.md",
+   "src_commit": "01fdb0b",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "499316c4fc3ad8526979cac381f0d4aba991f05f54a4663c4a90be1f7f26335c": {
+   "ja": "## 保護局（暴力防止プログラム、令和8年7月）\n- 調査1：傾向スコアで 402名ずつ。全再犯 14.4％・20.4％（p＝.018）、暴力再犯 6.0％・9.5％（p＝.058）。\n- 1枚の概要：「暴力再犯では非受講群の0.63倍に抑えられた」（有意傾向の記載なし）。3枚の概要は「有意傾向」と書く。→ 記録 BV-P1。\n- 児童虐待防止版：受講 1/71、非受講 4/99（導入前の期間の対象者）。児童虐待事案の再犯は 0・0。両側 p＝0.40。心理尺度は 11名の前後比較。→ 記録 BV-C1。",
+   "en": "## Rehabilitation Bureau (violence prevention program, July 2026)\n- Study 1: 402 persons each by propensity score. All reoffending 14.4% and 20.4% (p = .018); violent reoffending 6.0% and 9.5% (p = .058).\n- One-page summary: \"violent reoffending was held to 0.63 times that of the non-participant group\" (no mention of a trend toward significance). The three-page summary writes \"trend toward significance\". → record BV-P1.\n- Child abuse prevention version: participants 1/71, non-participants 4/99 (subjects from the period before introduction). Reoffending in child abuse cases: 0 and 0. Two-sided p = 0.40. The psychological scales are a before–after comparison of 11 persons. → record BV-C1.",
+   "src": "results/moj_yakubutsu/FINDINGS.md",
+   "src_commit": "01fdb0b",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "dir": "jisatsu",
+ "check": "c202",
+ "label": "",
+ "note": "「自殺の状況」本体の図表4-4・1-1 と基礎資料",
+ "source": "check",
+ "compared": 517,
+ "mismatched": 76,
+ "explained": 76,
+ "read_failures": 0,
+ "script_sha256": "239553bb209e25c18a2bb5061bd831f0c44c5ccc0f0940fba636ed24fe3c9d76",
+ "written_utc": "2026-11-17T12:25:49Z"
+}

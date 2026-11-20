@@ -1,0 +1,6 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.soumu.go.jp/main_content/001064044.xlsx	pref/R06_pref_card.xlsx	1983447	6546858be65df312dd936ca18be7fa98defced6b33af70933e308f337f41403b	200	Mon, 30 Mar 2026 07:00:41 GMT	2026-11-16T18:48:26+00:00
+https://www.soumu.go.jp/main_content/001064043.pdf	pref/R06_pref_card.pdf	2855295	8408a92c0d72ec8410bbd79da278358936e2a4e9088e162fd4454961264266ec	200	Mon, 30 Mar 2026 07:00:40 GMT	2026-11-16T18:48:27+00:00
+https://www.soumu.go.jp/main_content/000999084.xlsx	pref/R05_pref_card.xlsx	1950489	12ad307bbda02cd626af7ba659035b32d54e16e135113907433cc08b4b63cf5b	200	Mon, 31 Mar 2025 00:56:57 GMT	2026-11-16T18:48:28+00:00
+https://www.soumu.go.jp/iken/zaisei/card.html	pref/card.html	47816	d8d8b2c24c8439f8d54ab29d85124182a51ff0548e1dd239649efc0c155e4ca3	200	Tue, 12 May 2026 21:41:12 GMT	2026-11-16T18:48:28+00:00
+https://www.soumu.go.jp/main_content/000937781.xlsx	pref/R04_pref_card.xlsx	1963142	bd90b1d6d563bbc30eea89498bb1f3f18e9362b8d9d8f92ebc2a3eb5e68220a3	200	Wed, 22 Jan 2025 13:11:31 GMT	2026-11-16T18:50:07+00:00

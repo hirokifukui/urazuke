@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c007",
+ "label": "72",
+ "note": "犯罪白書 令和7年版：本文の前年比の記述と図表 Excel の前年値",
+ "source": "check",
+ "compared": 248,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 52,
+ "script_sha256": "f02ee3f36a70a17f64d78dd774d5280b07def11d5420e4667d067968b51fc879",
+ "written_utc": "2026-11-17T12:18:53Z"
+}

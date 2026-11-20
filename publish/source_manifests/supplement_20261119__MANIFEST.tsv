@@ -1,0 +1,9 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.moj.go.jp/content/001318218.pdf	data/raw/moj_sexoffender/001318218.pdf	218456	c9f88e7ff740a834dd5fe5fa62e573a32fa57bdbcb46c5af7801c356222b616d	200		2026-11-19T04:42:04+00:00
+https://www.moj.go.jp/content/001466396.pdf	data/raw/moj_sexoffender/001466396.pdf	176965	f964312500e1d3a12d0427e7c85c94246319051844701552a55af88a638f116f	200		2026-11-19T04:42:04+00:00
+https://www.moj.go.jp/content/001455506.pdf	data/raw/moj_sexoffender/001455506.pdf	454649	d07fcbdee28e7d30336f8dfc4f962a530426ed28a6e15e1c4af61176933576ce	200		2026-11-19T04:42:04+00:00
+https://www.moj.go.jp/hogo1/soumu/hogo10_00032.html	data/raw/moj_sexoffender/hogo10_00032.html	26736	62387a2721e3e932ede717c5af6f91f48ef8dfc6ed9643750ad9c9130d555f31	200		2026-11-19T04:42:04+00:00
+https://www.ncnp.go.jp/nimh/seisaku/data/assets/pdf/errata.pdf?v=2022122701	data/raw/seishin630/errata/errata_v2022122701.pdf	1049720	bb563bdc31bea7f44f228b7faf1d901e5cba5896bd69427cde245f37922fd2fc	200		2026-11-19T04:42:04+00:00
+https://www.ncnp.go.jp/nimh/seisaku/data/assets/pdf/H29_H30_zaiinkikan_revision.pdf?v=2022031701	data/raw/seishin630/errata/H29_H30_zaiinkikan_revision.pdf	356436	ec37750e34c5c982a3d3d51916ac0e50bda512a2bdc0228e02d29523bacf9307	200		2026-11-19T04:42:04+00:00
+https://www.ncnp.go.jp/nimh/seisaku/data/assets/pdf/teigisyo(R7_630).pdf?v=2026111101	data/raw/seishin630/docs/teigisyo_R7_630_.pdf	827158	2373f8b5a14e0c7f511ba830eb7ddbaf1b81ecba63c80fb23eb561a434b2ac38	200		2026-11-19T04:42:04+00:00
+https://www.ncnp.go.jp/nimh/seisaku/data/assets/pdf/teigisyo(R6_630).pdf?v=2026052201	data/raw/seishin630/docs/teigisyo_R6_630_.pdf	792256	0615f1eabd2f8cb4dbce69fdf6d7f449d5649dcc11f034679450fbdf3ea7da82	200		2026-11-19T04:42:04+00:00

@@ -1,0 +1,13 @@
+{
+ "dir": "kessan_card",
+ "check": "c3801",
+ "label": "",
+ "note": "都道府県決算カード：収支の式、歳入の合計、版間",
+ "source": "check",
+ "compared": 1222,
+ "mismatched": 1,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "6b8b10906ce907d0b8709f55b1ee92eb8254d493f2dcde06390f68f9c8fa4f9e",
+ "written_utc": "2026-11-17T12:34:06Z"
+}

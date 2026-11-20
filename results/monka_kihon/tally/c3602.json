@@ -1,0 +1,13 @@
+{
+ "dir": "monka_kihon",
+ "check": "c3602",
+ "label": "",
+ "note": "人事行政状況調査 体罰：67教育委員会の和と合計、版間",
+ "source": "check",
+ "compared": 556,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "c120b920682bf9c15ef76834adaf75f6892dd79921777432159957440f41b2c6",
+ "written_utc": "2026-11-17T12:34:07Z"
+}

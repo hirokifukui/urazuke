@@ -1,0 +1,13 @@
+{
+ "dir": "saihan",
+ "check": "c501",
+ "label": "",
+ "note": "再犯防止推進白書 平成30〜令和7年版：「年次」の表の同じ年の行の、版どうしの比較",
+ "source": "check",
+ "compared": 95,
+ "mismatched": 2,
+ "explained": 2,
+ "read_failures": 16,
+ "script_sha256": "606b7c987faa84a2c0bbcad6235de7d89b1f9d79749b1db9f7ec00d0d305b784",
+ "written_utc": "2026-11-17T12:23:28Z"
+}

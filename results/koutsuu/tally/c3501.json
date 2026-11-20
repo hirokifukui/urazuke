@@ -1,0 +1,13 @@
+{
+ "dir": "koutsuu",
+ "check": "c3501",
+ "label": "",
+ "note": "交通事故の発生状況：構成率、版間、本文の前年比",
+ "source": "check",
+ "compared": 34,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "48539d9481da20c857610faa2447404760d93ed2a9b4e484237134d2439d4ea3",
+ "written_utc": "2026-11-20T05:16:33Z"
+}

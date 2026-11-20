@@ -1,0 +1,146 @@
+{
+ "jisatsu_hakusho_2-1": {
+  "script": "checks/jisatsu_hakusho/c1102_internal_cross.py",
+  "pattern": "2-1 総数≠男\\+女",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "jisatsu_hakusho_ed": {
+  "script": "checks/jisatsu_hakusho/c1101_sanko_editions.py",
+  "pattern": "参考資料2-2表 common \\d+ diff [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "futoko_pref": {
+  "script": "checks/futoko/c1202_pref_sums.py",
+  "pattern": "r05/kekka tables \\d+ cols \\d+ issues [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "shiho_t1": {
+  "script": "checks/shiho/c1303_table1_internal.py",
+  "pattern": "'r07', '\\(a\\)', '全裁判所', 2025",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "eisei_flow": {
+  "script": "checks/eisei/c1401_seishin_tables.py",
+  "pattern": "\\(b\\)前年度末\\+新規−解除≠本年度末",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "jinko_dotai_t4": {
+  "script": "checks/jinko_dotai/c1501_kakutei.py",
+  "pattern": "第4表 総数≠男\\+女",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "kokusei_mf": {
+  "script": "checks/kokusei/c1601_shuyo.py",
+  "pattern": "\\(a\\)総数≠男\\+女",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "juki_t1": {
+  "script": "checks/juki_idou/c1701_idou.py",
+  "pattern": "\\(a\\)総数≠男\\+女",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "iryosd_t10": {
+  "script": "checks/iryosd/c1801_shisetsu.py",
+  "pattern": "\\(a\\)病院の病床≠種類の和",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "kanja_t2": {
+  "script": "checks/kanja/c1901_kanja.py",
+  "pattern": "\\(a\\)入院 総数≠病院\\+一般診療所",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "shogai_z1": {
+  "script": "checks/shogai_hakusho/c2101_zuhyo1.py",
+  "pattern": "総数≠内訳の和",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "danjo_st": {
+  "script": "checks/danjo_hakusho/c2201_vs_sources.py",
+  "pattern": "19568, 19567, False",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "kodomo_jd": {
+  "script": "checks/kodomo_hakusho/c2001_vs_sources.py",
+  "pattern": "1404\\], False",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "maikin_t1": {
+  "script": "checks/maikin/c2301_maikin.py",
+  "pattern": "\\(a\\)",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "cpi_pdf": {
+  "script": "checks/cpi/c2401_cpi.py",
+  "pattern": "\\(b\\)PDF≠CSV",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "roudou_lf": {
+  "script": "checks/roudouryoku/c2501_gaiyou.py",
+  "pattern": "\\(a\\)労働力≠就業者",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "kessan_ken": {
+  "script": "checks/kessan/c2601_taiyo.py",
+  "pattern": "事項計＝不当",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "jisatsu_hakusho_text": {
+  "script": "checks/jisatsu_hakusho/c1103_text_numbers.py",
+  "pattern": "r2025 numeric \\d+ text-numbers [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ }
+}

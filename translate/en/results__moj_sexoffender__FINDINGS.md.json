@@ -1,0 +1,69 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "4e378e3bbe592dd0b26ae20bcf5329c3b49929deba759bbe45ab2779c0216a01": {
+   "ja": "# 法務省保護局 性犯罪者処遇プログラムの効果検証（令和2年3月版・平成24年版）の検証",
+   "en": "# Verification of the Rehabilitation Bureau, Ministry of Justice: Evaluation of the Sex Offender Treatment Program (March 2020 edition (Reiwa 2) and 2012 edition (Heisei 24))",
+   "src": "results/moj_sexoffender/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a27bcec0eeac5cde06cd1925dd0a72f993f39648a2988db062849d35ee99b97b": {
+   "ja": "## c104（2026-11-16）\n状態：H1・H2（P07）、2012 表3（P12）は二重検証済み（別系統 R003）。概要の 0.67（P05）は文言を修正。ほかは機械検証のみ\n資料：001318218.pdf（保護局 2020、資料3）、001466396.pdf（同 概要）、001322889.pdf（保護局 2012、資料7）。再計算：checks/moj_sexoffender/c104_hogo.py、出力 c104_hogo.txt。",
+   "en": "## c104 (2026-11-16)\nStatus: H1 and H2 (P07) and 2012 Table 3 (P12) have been double-verified (independent model, R003). The wording on 0.67 in the summary (P05) has been corrected. All other items are machine-verified only.\nSources: 001318218.pdf (Rehabilitation Bureau 2020, Material 3), 001466396.pdf (summary of the same), 001322889.pdf (Rehabilitation Bureau 2012, Material 7). Recalculation: checks/moj_sexoffender/c104_hogo.py, output c104_hogo.txt.",
+   "src": "results/moj_sexoffender/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "34a81ee0e70d42db2af3ef2a31f7357f25013d367cbad7fe2a71dbe596238590": {
+   "ja": "### 数値の整合（L1）\n- 2020 表1〜3：行・列の合計はすべて一致。\n- 2020 表4：報告 χ²=17.11 の p は 3.5×10⁻⁵ で、報告 .00004 と一致。終点の再犯率（15.1%、26.2%）から作った概算の Pearson χ² は 18.99 で、log-rank の値と矛盾しない。\n- 2020 表5：ハザード比は信頼区間の中点と一致（1.485、1.442）。受講なしの p は 0.0097（報告 .009。慣例の四捨五入なら .010）。RAT の p は約 10⁻²⁵ で、「.001」は「<.001」の書き誤り（区分：軽微な表記）。\n- 2012 表1・2：人数の合計は一致（仮釈放 2,813、執行猶予 1,435、全体 4,248）。報告 χ² と p の対応も一致。\n- **2012 表3：罪種別の人数の合計は 4,185 で、全体 4,248 より 63 名少ない。** 除いた理由の記載がない（区分：欠落／候補）。",
+   "en": "### Numerical consistency (L1)\n- 2020 Tables 1–3: all row and column totals match.\n- 2020 Table 4: the p for the reported χ²=17.11 is 3.5×10⁻⁵, which matches the reported .00004. An approximate Pearson χ² constructed from the endpoint reoffending rates (15.1%, 26.2%) is 18.99, which is not inconsistent with the log-rank value.\n- 2020 Table 5: the hazard ratios match the midpoints of the confidence intervals (1.485, 1.442). The p for no participation is 0.0097 (reported .009; conventional rounding would give .010). The p for RAT is about 10⁻²⁵, and \".001\" is a miswriting of \"<.001\" (category: minor notation).\n- 2012 Tables 1 and 2: the totals of persons match (parole 2,813, suspended sentence 1,435, overall 4,248). The correspondence between the reported χ² and p also matches.\n- **2012 Table 3: the total of persons by offence type is 4,185, which is 63 persons fewer than the overall 4,248.** No reason for the exclusion is stated (category: Gap / Candidate).",
+   "src": "results/moj_sexoffender/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3bdf607fa19f7ac9ed4734e24950addf31e4aea27c77b62d7305a439bfb727e4": {
+   "ja": "### 表示と本文の不一致\n- **概要（001466396）の「受講群の再犯率は非受講群の 0.67 倍に抑えられた」**：0.67 は表5のハザード比 1.485 の逆数（1/1.485=0.673）と一致し、表4の再犯率の比とは一致しない。算出の経緯は資料に書かれていない（R003 の指摘により「逆数である」から「逆数と一致する」に改めた）。ハザード比は再犯率の比ではない。表4の再犯率そのものの比は 15.1/26.2=0.58。同じ図の「11.1 ポイント」は調整前の差（26.2−15.1）で、調整後の値と調整前の値が説明なく並んでいる（区分：不整合）。",
+   "en": "### Mismatch between presentation and main text\n- **\"The reoffending rate of the participant group was held down to 0.67 times that of the non-participant group\" in the summary (001466396)**: 0.67 matches the reciprocal of the hazard ratio 1.485 in Table 5 (1/1.485=0.673) and does not match the ratio of the reoffending rates in Table 4. How it was calculated is not stated in the sources (following R003's comment, \"is the reciprocal\" was changed to \"matches the reciprocal\"). A hazard ratio is not a ratio of reoffending rates. The ratio of the reoffending rates themselves in Table 4 is 15.1/26.2=0.58. The \"11.1 points\" in the same figure is the unadjusted difference (26.2−15.1), so an adjusted value and an unadjusted value are placed side by side without explanation (category: Inconsistency).",
+   "src": "results/moj_sexoffender/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ef8e8887efde1a724a8ea7a9870d647cefa0f84813880bf3c6a7ab7dfcdc2ab5": {
+   "ja": "### 設計上の問題（D）\n- **H1 非受講群の中身。** 非受講群 297 名のうち 226 名（76.1%）は「保護観察期間3月未満」の仮釈放者。仮釈放が遅く、残りの刑期が短い人たちで、刑事施設内での評価が低かった場合、比較にはその差も混ざる。比較は「プログラムの有無」より「仮釈放の時期」の差を含む。\n- **H2 号種の偏りが調整されていない。** 保護観察付執行猶予者の割合は受講群 35.4%、非受講群 15.5%。号種は再犯率と強く関わるが、Cox 回帰の変数は受講と RAT 得点だけ。号種別の再犯は公表されておらず、外から層別化できない。\n- **H3 すべての再犯の結果を出していない。** 「比例ハザード性の仮定を満たしていなかった」ため検証しなかったとある。しかし表4と同じ log-rank 検定や生存曲線は、比例ハザード性を満たさなくても出せる（その場合、log-rank 検定の検出力は下がりうる）。この点は統計学上の一般的な指摘で、資料の中では確かめられない（R003 では外部知識を禁じたため「判定不能」）。2012 年版はすべての再犯を報告していた。性犯罪の再犯だけが残る形になっている（区分：E 未報告）。\n- **H4 刑事施設のプログラム受講を考慮していない。** 2012 年版自身が「今後の課題」としたが、2020 年版でも扱われていない。仮釈放者の多くは矯正局のプログラムも受けており、保護観察と刑事施設の効果が分けられない。\n- **H5 2012 年版の比較。** 受講群は「修了した者」だけで、非受講群はプログラム導入前（平成18年4〜8月）の歴史的対照。修了者だけを数えると、途中でやめた人（再犯しやすい人が含まれうる）が除かれる。2020 年版は途中離脱 19 名を受講群に含めており、この点は改善されている。",
+   "en": "### Design issues (D)\n- **H1 Composition of the non-participant group.** Of the 297 persons in the non-participant group, 226 (76.1%) are parolees with a \"probation period of less than 3 months\". If these are people who were paroled late and had short remaining sentences, and who were assessed less favourably within the penal institution, that difference is also mixed into the comparison. The comparison includes a difference in \"timing of parole\" rather than \"presence or absence of the program\".\n- **H2 Imbalance in probation category is not adjusted for.** The proportion of persons with a suspended sentence under probation is 35.4% in the participant group and 15.5% in the non-participant group. Probation category is strongly related to the reoffending rate, but the variables in the Cox regression are only participation and the RAT score. Reoffending by probation category is not published, so stratification cannot be done externally.\n- **H3 Results for all reoffending are not presented.** The report states that this was not examined because \"the proportional hazards assumption was not satisfied\". However, the same log-rank test as in Table 4 and survival curves can be produced even when proportional hazards is not satisfied (in that case, the power of the log-rank test may decrease). This is a general point in statistics and cannot be confirmed within the sources (in R003, external knowledge was prohibited, so the result was \"Inconclusive\"). The 2012 edition reported all reoffending. Only reoffending by sexual offences remains (category: E, not reported).\n- **H4 Program participation in penal institutions is not taken into account.** The 2012 edition itself listed this as a \"future issue\", but it is not addressed in the 2020 edition either. Many parolees also received the Correction Bureau's program, so the effects of probation and of the penal institution cannot be separated.\n- **H5 Comparison in the 2012 edition.** The participant group consists only of \"those who completed\" the program, and the non-participant group is a historical control from before the program was introduced (April–August 2006 (Heisei 18)). Counting only completers excludes those who dropped out partway (who may include people more likely to reoffend). The 2020 edition includes the 19 dropouts in the participant group, and this point has been improved.",
+   "src": "results/moj_sexoffender/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "c59fd0a25539de6d589ef4f9e9017655d4b572fe9094e591ebff7f39d73b1ea9": {
+   "ja": "### 矯正局の報告との関係\n同じ日に公表された矯正局の報告（R02）では、性犯罪の再犯について層別の推定が 1 をまたぐ（MH RR 0.917 [0.723–1.162]）。保護局は同じ「性犯罪の再犯」でハザード比 1.485（受講なしが高い）を報告している。対象・期間・終点の定義が異なるため、直接は比べられない。",
+   "en": "### Relationship to the Correction Bureau's report\nIn the Correction Bureau's report published on the same day (R02), the stratified estimate for reoffending by sexual offences straddles 1 (MH RR 0.917 [0.723–1.162]). The Rehabilitation Bureau reports a hazard ratio of 1.485 (higher for no participation) for the same \"reoffending by sexual offences\". Because the subjects, periods and endpoint definitions differ, they cannot be compared directly.",
+   "src": "results/moj_sexoffender/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "4a237b5c6243e1ec9648a4492afc4e2ea7488eaef000585b52341b3fe6d4420f": {
+   "ja": "### 照会で尋ねること（案）\n1. 2012 表3 の 63 名の内訳。\n2. 概要の「0.67 倍」が何の比か。\n3. すべての再犯について、生存曲線と log-rank 検定の結果。\n4. 号種（仮釈放／執行猶予）を加えたモデル、または号種別の結果。\n5. 「保護観察期間3月未満」226 名を除いた比較（仮釈放者のうち比較できる人に限った結果）。",
+   "en": "### Questions for the inquiry (draft)\n1. The breakdown of the 63 persons in 2012 Table 3.\n2. What ratio the \"0.67 times\" in the summary refers to.\n3. Survival curves and log-rank test results for all reoffending.\n4. A model that adds probation category (parole / suspended sentence), or results by probation category.\n5. A comparison excluding the 226 persons with a \"probation period of less than 3 months\" (results limited to comparable persons among parolees).",
+   "src": "results/moj_sexoffender/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ffb37f7b0186395997d99d3ff3d5b206d7016cfc8494d997f514a4e5b6c0a55a": {
+   "ja": "## 陰性対照（2026-11-17）\n- checks/generic/negctl_630_hogo.py：c104 の転記値を1つ変えた写し（表1 仮釈放 582→583）を走らせ、合計の検査が「仮釈放 False」を出すことを確かめた。c104 の数値は PDF から転記したもので、転記そのものの確かめは原文引用（頁番号つき）の抽出で行う。c104 は scipy を使うため python3（scipy 入り）で走らせる。結果：results/scope/negctl_630_hogo.json",
+   "en": "## Negative control (2026-11-17)\n- checks/generic/negctl_630_hogo.py: ran a copy of c104 with one transcribed value changed (Table 1 parole 582→583) and confirmed that the total check outputs \"parole False\". The figures in c104 were transcribed from the PDFs; the transcription itself is checked by extracting quotations from the original text (with page numbers). Because c104 uses scipy, it is run with python3 (with scipy installed). Result: results/scope/negctl_630_hogo.json",
+   "src": "results/moj_sexoffender/FINDINGS.md",
+   "src_commit": "67fdf0e",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "ae0a4a633b95e354f81118bf0bb6941f83ed60068bd5e1efcd0d261c0957e99d": {
+   "ja": "# 自殺統計の検証（2026-11-16 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of Suicide Statistics (started 2026-11-16) Verification status: Machine-verified only",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "aca16642a20086cfa7867a0ea6f8e4cec4e958bc0963faf56e1941e01e95e0d6": {
+   "ja": "## 対象と取得\n- 厚生労働省「地域における自殺の基礎資料」（警察庁の自殺統計原票を厚労省が再集計）：令和4〜7年の確定値。自殺日集計（A1〜A8表）・発見日集計（B1〜B8表）・【発見日】性別・年齢階級×同居人の有無他。\n- 厚生労働省・警察庁「令和X年中における自殺の状況」：令和5〜7年の本体 PDF と参考 Excel。\n- 暫定値（1月公表）：令和5〜7年の「警察庁の自殺統計に基づく自殺者数の推移等」PDF と【暫定値 発見日】Excel。\n- 取得記録：data/raw/jisatsu/MANIFEST.tsv（URL・バイト数・SHA256・Last-Modified・取得時刻）。.xls の読み取りは xlrd（~/.venvs/urazuke）。\n- 留意：令和5年の本体・参考は Last-Modified が 2024-12-13（公表は2024年3月）、令和4年の確定値 ZIP は 2025-08-08。公表後に差し替えられている。当初の版は持っていない。",
+   "en": "## Scope and acquisition\n- Ministry of Health, Labour and Welfare, `地域における自殺の基礎資料` (Basic Data on Suicide in Regions; the Ministry of Health, Labour and Welfare re-aggregates the National Police Agency's suicide statistics source forms): final figures for 2022–2025. Tabulation by date of suicide (Tables A1–A8), tabulation by date of discovery (Tables B1–B8), and [Discovery date] by sex and age group × whether living with others, etc.\n- Ministry of Health, Labour and Welfare and National Police Agency, `令和X年中における自殺の状況` (The Suicide Situation in Reiwa X): main PDF and reference Excel files for 2023–2025.\n- Provisional figures (published in January): the PDF \"Trends in the Number of Suicides Based on the National Police Agency's Suicide Statistics, etc.\" and the [Provisional, discovery date] Excel files for 2023–2025.\n- Acquisition record: data/raw/jisatsu/MANIFEST.tsv (URL, byte count, SHA256, Last-Modified, time of acquisition). .xls files are read with xlrd (~/.venvs/urazuke).\n- Note: the 2023 main report and reference files have a Last-Modified date of 2024-12-13 (published in March 2024), and the ZIP of 2022 final figures has 2025-08-08. They were replaced after publication. We do not have the original editions.",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "fe9288d783d45cd87897a042571002aee360570632a142a573f2dcf675a90cd9": {
+   "ja": "## c201 基礎資料の内部整合（L1）— 誤りなし\n4年 × 自殺日・発見日 × 住居地・発見地 × 総数・男・女。\n- (a) 都道府県（1〜47と不明）の和＝全国：3,264組、不一致 0。\n- (b) 各行で項目群の和＝自殺者数（年齢・同居人・職業〔有職＋無職＋不詳、学生＋無職者＝無職、無職者の内訳〕・場所・手段・時間帯・曜日・未遂歴）：23,280組、不一致 0。\n- (c) 総数シート＝男＋女：52,768組、不一致 0。\n- (d) 率から逆算した人口：男＋女＝総数、自殺日表と発見日表で同じ：960組、不一致 0。\n- (e) 市区町村の和（政令市の区を除く）＝都道府県：752組、不一致 0（秘匿セルの有無も記録）。\n- (f) B1（全国・職業別）＝B5 の全国：4年すべて一致（令和4年 21,881、5年 21,837、6年 20,320、7年 19,188）。\n- 引っかかったのは「原因・動機の健康問題 > 自殺者数」の20件（令和6年 大阪府 女性、令和7年 滋賀・大阪・福岡・沖縄の女性）。原因・動機は「自殺者１人につき４つまで計上可能」（基礎資料の利用上の注意、参考 Excel の注）で、同じ大分類に複数の小分類が入りうるため、誤りではない。",
+   "en": "## c201 Internal consistency of the basic data (L1) — no errors\n4 years × date of suicide / date of discovery × place of residence / place of discovery × total / male / female.\n- (a) Sum of prefectures (1–47 and unknown) = national: 3,264 pairs, 0 mismatches.\n- (b) In each row, sum of each item group = number of suicides (age, living with others, occupation [employed + unemployed + unknown; students + unemployed persons = unemployed; breakdown of unemployed persons], place, method, time of day, day of week, history of attempts): 23,280 pairs, 0 mismatches.\n- (c) Total sheet = male + female: 52,768 pairs, 0 mismatches.\n- (d) Population back-calculated from rates: male + female = total, and identical between the date-of-suicide tables and the date-of-discovery tables: 960 pairs, 0 mismatches.\n- (e) Sum of municipalities (excluding wards of designated cities) = prefecture: 752 pairs, 0 mismatches (presence or absence of suppressed cells also recorded).\n- (f) B1 (national, by occupation) = national figures in B5: match in all 4 years (2022: 21,881; 2023: 21,837; 2024: 20,320; 2025: 19,188).\n- The only flags were 20 cases of \"health problems as cause/motive > number of suicides\" (2024 Osaka Prefecture, women; 2025 women in Shiga, Osaka, Fukuoka and Okinawa). Causes/motives \"can be counted up to four per suicide\" (notes on use of the basic data; note in the reference Excel), and multiple subcategories can fall under the same major category, so this is not an error.",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "97ab5de8cda6ae8f0ac1749467657b72b93f55958f3d04bf26df3adafdf921f8": {
+   "ja": "## c202 「自殺の状況」本体 PDF と基礎資料（L4・L3）\n対象は表形式の令和6・7年版（令和5年版は都道府県別が図のため対象外）。\n- 図表4-4 都道府県別の自殺者数：当年の数は B6（発見日・発見地）と 94件すべて一致。前年の数は前年の B6 と一致。前年差の計算も一致。前年の報告の当年値と今年の報告の前年値（遡及改訂）：47件、数の変化 0。\n- 図表1-1 年齢階級別・男女別：B5 の全国行と12組すべて一致。差の行の計算も一致。\n- **説明のある違い：都道府県別の自殺死亡率が、同じ日に公表された二つの資料で違う。** 例：令和7年 青森県は「自殺の状況」で 19.6、基礎資料で 19.23。令和6・7年で 76件。基礎資料は「住民基本台帳に基づく人口（令和７年１月１日）」で割ると明記している。「自殺の状況」は「令和８年２月末までに取得可能な最新のデータ」とだけ書き、人口の出典を名指ししていない。前年の率も、今年の報告では人口を入れ替えて計算し直されている（47件中41件で変化）。誤りではないが、利用者が二つの率を混ぜると食い違う。区分：不整合（説明あり）。照会では人口の出典を尋ねる。",
+   "en": "## c202 Main PDF of the Suicide Situation report and the basic data (L4, L3)\nCovered: the 2024 and 2025 editions (Reiwa 6 and 7), which are in table form (the 2023 edition (Reiwa 5) is excluded because its by-prefecture data are shown as a figure).\n- Figure/Table 4-4, number of suicides by prefecture: current-year numbers match B6 (date of discovery, place of discovery) in all 94 cases. Previous-year numbers match the previous year's B6. Calculation of the year-on-year difference also matches. Current-year values in the previous year's report versus previous-year values in this year's report (retroactive revision): 47 cases, 0 changes in numbers.\n- Figure/Table 1-1, by age group and sex: matches the national row of B5 in all 12 pairs. Calculation of the difference row also matches.\n- **Explained difference: the suicide death rates by prefecture differ between two documents published on the same day.** Example: for Aomori Prefecture in 2025, 19.6 in the Suicide Situation report and 19.23 in the basic data. 76 cases across 2024 and 2025. The basic data state explicitly that the divisor is \"population based on the Basic Resident Register (1 January 2025)\". The Suicide Situation report states only \"the latest data available by the end of February 2026\" and does not name the source of the population. Previous-year rates are also recalculated in this year's report with replaced population figures (changed in 41 of 47 cases). This is not an error, but if users mix the two rates, the values will disagree. Category: Inconsistency (explained). The inquiry will ask about the source of the population.",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "7d8dffc4abfb0549b5cd304c09ed6269e10edf0b4e74a28eadba45aa5cf92c92": {
+   "ja": "## c203 暫定値と確定値（L3）\n| 年 | 暫定値（1月） | 確定値（3月） | 差 | 変化したセル | 減ったセル |\n|---|---|---|---|---|---|\n| 令和5年 | 21,818 | 21,837 | +19 | 2,547／7,800 | 940 |\n| 令和6年 | 20,268 | 20,320 | +52 | 1,769／7,800 | 498 |\n| 令和7年 | 19,097 | 19,188 | +91 | 1,723／7,800 | 229 |\n- 総数は毎年増える（調査の進行による確定）。職業などの内訳は組み替えで減るものもある（例：令和5年 農林漁業従事者 147 → 111）。自然な改訂。〔訂正：先に「差が年々大きくなっている」と書いたが、令和2〜4年を加えると +4・+23・+38・+19・+52・+91 で、一方向の傾向ではない。下の10年分の表を参照〕\n- 二次利用の例：地方自治体の資料には、確定値の公表後も暫定値（令和5年 21,818人）を使っているものがある。",
+   "en": "## c203 Provisional and final figures (L3)\n| Year | Provisional (January) | Final (March) | Difference | Cells changed | Cells decreased |\n|---|---|---|---|---|---|\n| 2023 | 21,818 | 21,837 | +19 | 2,547/7,800 | 940 |\n| 2024 | 20,268 | 20,320 | +52 | 1,769/7,800 | 498 |\n| 2025 | 19,097 | 19,188 | +91 | 1,723/7,800 | 229 |\n- The total increases every year (finalisation as investigations proceed). Some breakdowns, such as occupation, decrease through reclassification (e.g. 2023 agriculture, forestry and fishery workers 147 → 111). A natural revision. [Correction: we earlier wrote that \"the difference is growing year by year\", but adding 2020–2022 gives +4, +23, +38, +19, +52, +91, which is not a one-directional trend. See the 10-year table below.]\n- Example of secondary use: some local government documents continue to use the provisional figure (2023: 21,818 persons) even after the final figures were published.",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a64b9f30abf050dc7918803c99eac4f087673e27e6cb8653f5395640e5de52ac": {
+   "ja": "## まだ行っていないこと\n- 人口動態統計（厚労省、死亡票）の自殺数との照合。定義（日本人のみ・住所地・死亡日）が違うため、差の大きさと方向だけを記録する予定。\n- 参考 Excel（参考1〜3）の年次推移の版間比較。\n- 本体 PDF の他の図表（職業・原因・動機・小中高生）と基礎資料の照合。\n---",
+   "en": "## Not yet done\n- Comparison with the number of suicides in Vital Statistics (Ministry of Health, Labour and Welfare, death certificates). Because definitions differ (Japanese nationals only, place of residence, date of death), we plan to record only the size and direction of the difference.\n- Comparison between editions of the annual trends in the reference Excel files (References 1–3).\n- Comparison of other figures and tables in the main PDF (occupation, causes/motives, elementary, junior high and high school students) with the basic data.\n---",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "64bdb344ef92cbb6aa78c40cfdf1861b9412f042c06807dc15d8e207112814e9": {
+   "ja": "## 10年分への拡張（平成28〜令和7年）— 2026-11-16 夜\n取得の追加：基礎資料の確定値（平成28〜令和3年）、「自殺の状況」旧ページの全資料（平成28〜令和4年：第1〜3章、図表の元データ、付録、発見日 Excel、暫定値 Excel、年間速報値）、訂正のお知らせ4件。取得記録は同じ MANIFEST.tsv（合計 97件）。",
+   "en": "## Extension to 10 years (2016–2025) — evening of 2026-11-16\nAdditional acquisitions: final figures of the basic data (2016–2021); all materials on the old Suicide Situation pages (2016–2022: Chapters 1–3, source data for figures and tables, appendices, discovery-date Excel files, provisional-figure Excel files, annual preliminary figures); 4 correction notices. The acquisition record is the same MANIFEST.tsv (97 items in total).",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "170521642a79f9526a393de1d99e4a1964d0b20eafb0ad68b58327828cb09580": {
+   "ja": "### c201b 基礎資料の内部整合（10年）— 誤りなし\n平成28〜令和3年は職業の列の構成が違う（自営業・家族従業者／被雇用・勤め人）ため、見出しから列を割り出す版（c201b）で行った。\n- (a) 8,232組、(b) 58,200組、(c) 133,084組、(d) 1,920組、(e) 1,880組。**不一致 0。**\n- 全国の自殺者数（発見日・住居地）：平成28年 21,897／29年 21,321／30年 20,840／令和元年 20,169／2年 21,081／3年 21,007／4年 21,881／5年 21,837／6年 20,320／7年 19,188。",
+   "en": "### c201b Internal consistency of the basic data (10 years) — no errors\nFor 2016–2021 the composition of the occupation columns differs (self-employed / family workers; employees / office workers), so we used a version (c201b) that identifies columns from the headings.\n- (a) 8,232 pairs, (b) 58,200 pairs, (c) 133,084 pairs, (d) 1,920 pairs, (e) 1,880 pairs. **0 mismatches.**\n- National number of suicides (date of discovery, place of residence): 2016: 21,897 / 2017: 21,321 / 2018: 20,840 / 2019: 20,169 / 2020: 21,081 / 2021: 21,007 / 2022: 21,881 / 2023: 21,837 / 2024: 20,320 / 2025: 19,188.",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e79022ff52bbf98211433706fd7fe59175267974d8137543cc6477e682143e1a": {
+   "ja": "### c204 「自殺の状況」補表2-1（年齢階級別の推移）と基礎資料（7つの報告・28行）— 一致\n- 平成28〜令和4年版の第3章 補表2-1 にある平成28〜令和4年の行（のべ28行）を、基礎資料 B5 の全国の年齢階級と比べ、すべて一致。行の和も合計と一致。\n- 陽性対照の意味：厚労省は令和6年12月27日に「自殺の統計（平成28〜令和4年分）の訂正」を出し、平成30年の 20〜29歳（2,154 → 2,152）・30〜39歳（2,596 → 2,597）・60〜69歳（3,078 → 3,079）を、平成30年版〜令和4年版の5つの報告で訂正した。基礎資料の平成30年は最初から正しい値（2,152・2,597・3,079）だった。つまり誤りは報告の側にあり、**c204 と同じ照合（報告の表と基礎資料の突き合わせ）を当時行っていれば、5年早く見つかっていた**。差し替え後のファイルしか入手できないため、当初の版で検出できることは直接は確かめられない。",
+   "en": "### c204 Supplementary Table 2-1 of the Suicide Situation report (trends by age group) and the basic data (7 reports, 28 rows) — match\n- The rows for 2016–2022 (28 rows in total) in Supplementary Table 2-1 of Chapter 3 of the 2016 (Heisei 28) to 2022 (Reiwa 4) editions were compared with the national age groups in B5 of the basic data; all match. Row sums also match the totals.\n- Significance as a positive control: on 27 December 2024 the Ministry of Health, Labour and Welfare issued \"Correction of the suicide statistics (2016–2022)\", correcting the 2018 values for ages 20–29 (2,154 → 2,152), 30–39 (2,596 → 2,597) and 60–69 (3,078 → 3,079) in five reports, from the 2018 edition (Heisei 30) to the 2022 edition (Reiwa 4). The 2018 values in the basic data were correct from the start (2,152, 2,597, 3,079). In other words, the error was on the report side, and **had the same comparison as c204 (matching the report's tables against the basic data) been made at the time, it would have been found five years earlier**. Because only the replaced files are available, it cannot be confirmed directly that the original editions would have been detected.",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "2e36a42a2456993c795f3c52f5e80682c0eff98b376961ab64ccd882f97efd66": {
+   "ja": "### 訂正の記録（厚労省の公表分）\n| 公表日 | 対象 | 内容（要約） |\n|---|---|---|\n| 令和5年3月14日 | 令和4年の状況 | 18頁の表題の年、補表1-1 の自殺死亡率（平成28・30年・令和元年）、補表3-1 の職業別の数 |\n| 令和6年2月22日 | 令和4年の状況 | 表6・表7 の無職者・年金等生活者の内訳 |\n| 令和6年12月13日 | 令和4年の状況 付録 | 付録2 の管理的職業従事者の内訳 |\n| 令和6年12月27日 | 平成28〜令和4年の状況 | 図表の元データの H24 男性の死亡率、平成30年の年齢階級別の数（5つの報告）ほか |\n- 誤りは、基礎資料（原票の集計）ではなく、報告の側の表（転記・再計算）に集中している。令和4年の報告は4回訂正されている。令和5年の報告（Last-Modified 2024-12-13）も、令和6年12月の訂正と同じ時期に差し替えられている。差し替えの内容は公表されていない（照会事項）。",
+   "en": "### Corrections (published by the Ministry of Health, Labour and Welfare)\n| Date published | Subject | Content (summary) |\n|---|---|---|\n| 14 March 2023 | Situation in 2022 | Year in the title on page 18; suicide death rates in Supplementary Table 1-1 (2016, 2018, 2019); numbers by occupation in Supplementary Table 3-1 |\n| 22 February 2024 | Situation in 2022 | Breakdown of unemployed persons and pension recipients etc. in Tables 6 and 7 |\n| 13 December 2024 | Situation in 2022, appendix | Breakdown of managerial workers in Appendix 2 |\n| 27 December 2024 | Situation in 2016–2022 | Male death rate for H24 (2012) in the source data for figures and tables; numbers by age group for 2018 (five reports); and others |\n- Errors are concentrated not in the basic data (aggregation of source forms) but in the tables on the report side (transcription and recalculation). The 2022 report has been corrected four times. The 2023 report (Last-Modified 2024-12-13) was also replaced around the same time as the December 2024 correction. The content of that replacement has not been published (open query).",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "30ce00680bf47dbefcfc88b7651d183c37c5575d685b6fb488837954ee5cbe1e": {
+   "ja": "### c203 暫定値と確定値（6年）\n| 年 | 暫定値 | 確定値 | 差 |\n|---|---|---|---|\n| 令和2年 | 21,077 | 21,081 | +4 |\n| 令和3年 | 20,984 | 21,007 | +23 |\n| 令和4年 | 21,843 | 21,881 | +38 |\n| 令和5年 | 21,818 | 21,837 | +19 |\n| 令和6年 | 20,268 | 20,320 | +52 |\n| 令和7年 | 19,097 | 19,188 | +91 |",
+   "en": "### c203 Provisional and final figures (6 years)\n| Year | Provisional | Final | Difference |\n|---|---|---|---|\n| 2020 | 21,077 | 21,081 | +4 |\n| 2021 | 20,984 | 21,007 | +23 |\n| 2022 | 21,843 | 21,881 | +38 |\n| 2023 | 21,818 | 21,837 | +19 |\n| 2024 | 20,268 | 20,320 | +52 |\n| 2025 | 19,097 | 19,188 | +91 |",
+   "src": "results/jisatsu/FINDINGS.md",
+   "src_commit": "fe8dacc",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

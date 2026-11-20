@@ -1,0 +1,13 @@
+{
+ "dir": "shogai_hakusho",
+ "check": "c2101",
+ "label": "",
+ "note": "障害者白書 図表1：行の内訳の和",
+ "source": "check",
+ "compared": 18,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "170f357c8f050fa10d829168cdbdaf790ca261bfb5763e848bc0f72e2dbb72f6",
+ "written_utc": "2026-11-17T12:34:08Z"
+}

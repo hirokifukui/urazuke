@@ -1,0 +1,13 @@
+{
+ "dir": "saihan",
+ "check": "c503",
+ "label": "",
+ "note": "再犯防止推進白書 指標7の保護観察終了者（総数）と保護統計年報 表38",
+ "source": "check",
+ "compared": 22,
+ "mismatched": 5,
+ "explained": 5,
+ "read_failures": 3,
+ "script_sha256": "fed42f471faf6fb63ebffc7442651cd964f30ce926e2902f74a632d0ee5c4f9e",
+ "written_utc": "2026-11-17T12:23:28Z"
+}

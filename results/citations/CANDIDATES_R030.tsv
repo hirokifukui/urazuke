@@ -1,0 +1,21 @@
+cid	rec	url	fetched_utc	status	file	sha256	datePublished
+P-GY-01	GY-Q1	https://news.ntv.co.jp/category/society/a10aad1acaca4833801ce6ea32f55391	2026-11-18T04:57:07+00:00	200	P-GY-01.html	92b754562725071a07bab81d60df638b64b342345ac6fe404aa01cc300688ca8	2024-09-24T14:17:01+09:00
+P-GY-02	GY-Q1	https://fukushishimbun.com/series07/37138	2026-11-18T04:57:12+00:00	200	P-GY-02.html	fc873efd880029673d16ff813665df6ba0205ede32af2fefdebf6e34999cd9b2	2024-09-29T04:00:34+00:00
+P-GY-03	GY-Q1	https://www.kyobun.co.jp/article/2024092405	2026-11-18T04:57:12+00:00	200	P-GY-03.html	19caa6a1709cec0c8e40034370004c100b1eb6ddc04e8c1e3705a2b2c8041ca9	2024-09-24T20:55:00+09:00
+P-GY-04	GY-Q1	https://fukushishimbun.com/topics/31075	2026-11-18T04:57:13+00:00	200	P-GY-04.html	8e019e48d5ebbeac7a2863e5a7d8fa88630e302092ad954c4ee72ee59a4934e1	2023-09-19T01:00:26+00:00
+P-JH-01	JH-A1	https://jen.jiji.com/jc/eng?g=eco&k=2025102400373	2026-11-18T04:57:14+00:00	取得できず（HTTPError: HTTP Error 404: Not Found）			
+P-JH-02	JH-A1	https://www.kyobun.co.jp/article/2025102405	2026-11-18T04:57:14+00:00	200	P-JH-02.html	1695d69fb65e148d74fa2276d3e1ae5d5d546ae18e285fe1c3bdb2955e5abc83	2025-10-24T20:55:00+09:00
+P-JH-03	JH-A1	https://www.kyobun.co.jp/article/2025032803	2026-11-18T04:57:15+00:00	200	P-JH-03.html	4737cc8b0506cf609f48319d9c22b96cabd000341d7436934dadb1562b162819	2025-03-28T20:55:00+09:00
+P-JH-04	JH-A1	https://www.sentankyo.jp/articles/200a089a-2419-4ec7-b0d0-90b77c259c35	2026-11-18T04:57:16+00:00	200	P-JH-04.html	f683fd7005f3bea059ecdc7012e04cf974d16d24358fb909f36ceec324f8591d	2025-10-29T11:01:12+09:00
+P-JH-05	JH-A1	https://news.tv-asahi.co.jp/news_society/articles/000414203.html	2026-11-18T04:57:17+00:00	200	P-JH-05.html	71ba40533fcc0e7c38ccc719296bbe491ff0476089e79174118794064b10f25c	2025-03-28T10:00:56+09:00
+P-JH-06	JH-A1	https://jpjj.jp/articles/suicide-white-paper-2026-children/	2026-11-18T04:57:18+00:00	robots.txt で拒否（取得しない）			
+P-ST-01	ST-I2	https://www.jiji.com/jc/article?k=2025060500369&g=soc	2026-11-18T04:57:18+00:00	取得できず（HTTPError: HTTP Error 404: Not Found）			
+P-ST-02	ST-I2	https://www.fnn.jp/articles/-/882375	2026-11-18T04:57:18+00:00	取得できず（HTTPError: HTTP Error 404: Not Found）			
+P-ST-03	ST-I2	https://news.yahoo.co.jp/articles/97b21ba7bf2113e7ec4a3c2a26a325f18ed8780e	2026-11-18T04:57:18+00:00	取得できず（HTTPError: HTTP Error 404: Not Found）			
+P-ST-04	ST-I2	https://news.ntv.co.jp/category/society/624a38986ea54fcc97d848f66893edee	2026-11-18T04:57:18+00:00	200	P-ST-04.html	75087e8160e90b83d98b569ade2d4604b4556b50ef4c3e3c695a6c347cb33792	2026-03-19T10:27:01+09:00
+P-ST-05	ST-I2	https://news.tv-asahi.co.jp/news_politics/articles/000548663.html	2026-11-18T04:57:19+00:00	200	P-ST-05.html	e802ef0bd265f9d5ce4095278014938e5d77324db04980ebac6f0b5aca3adac5	2026-11-18T09:40:38+09:00
+P-NK-01	NK-K1	https://info.ninchisho.net/archives/7328	2026-11-18T04:57:20+00:00	200	P-NK-01.html	72358f8161ff0d752517f50b5fc7f1d7d0e0e218500b2e91014f35c3764d2b60	
+P-NK-02	NK-K1	https://minjob.com/news/kaigogaku/no474/	2026-11-18T04:57:21+00:00	200	P-NK-02.html	76c1b8f73d0a7f6058539319ef81b7f0fb74482177e083dc22d8ec2dc186fca4	2020-01-24
+P-NK-03	NK-K1	https://www.nippon.com/ja/features/h00195/	2026-11-18T04:57:21+00:00	200	P-NK-03.html	dad4b2a4027a21b601af8debcd658e37cf77de1deb7d19c2f0dd142e073aa4ad	2018-05-17T09:12:29+09:00
+P-YK-01	YK-C1	https://www.jstage.jst.go.jp/article/jjcp/62/S/62_62S15/_pdf/-char/ja	2026-11-18T04:57:21+00:00	robots.txt で拒否（取得しない）			
+P-630-01	630-D1	https://journal.jspn.or.jp/jspn/openpdf/1250090762.pdf	2026-11-18T04:57:22+00:00	200	P-630-01.pdf	ff5c2e48542f4455f3b1d58001b36f74eb045c0abdcf99775475441ca960768c	

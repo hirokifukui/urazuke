@@ -1,0 +1,13 @@
+{
+ "dir": "moj_sexoffender",
+ "check": "c101",
+ "label": "",
+ "note": "矯正局の性犯罪再犯防止指導の効果検証（令和2年）：統計量・比率・合計の再計算",
+ "source": "check",
+ "compared": 256,
+ "mismatched": 2,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "d73f8e789639045478b4224d9efaa43dee8f3e0ca357d12dddd158982eb1bcfe",
+ "written_utc": "2026-11-17T12:34:14Z"
+}

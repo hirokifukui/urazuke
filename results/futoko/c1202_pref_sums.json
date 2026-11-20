@@ -1,0 +1,27 @@
+{
+ "r03/kekka": {
+  "tables": 29,
+  "columns_checked": 225,
+  "issues": []
+ },
+ "r04/kekka": {
+  "tables": 29,
+  "columns_checked": 225,
+  "issues": []
+ },
+ "r05/kekka": {
+  "tables": 29,
+  "columns_checked": 213,
+  "issues": []
+ },
+ "r06/kekka_20260116": {
+  "tables": 1,
+  "columns_checked": 4,
+  "issues": []
+ },
+ "r06/wayback_kekka_20251029": {
+  "tables": 0,
+  "columns_checked": 0,
+  "issues": []
+ }
+}

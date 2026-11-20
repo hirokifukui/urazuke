@@ -1,0 +1,13 @@
+{
+ "dir": "danjo_hakusho",
+ "check": "c2201",
+ "label": "",
+ "note": "男女共同参画白書の数値と元の統計",
+ "source": "check",
+ "compared": 6,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "b60b7964486d35a7ff72892444b6be7308d0a7f5c0228388b062d2a4be0efc2d",
+ "written_utc": "2026-11-17T12:34:14Z"
+}

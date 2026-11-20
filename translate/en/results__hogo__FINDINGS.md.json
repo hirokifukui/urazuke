@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "a11ccdd48bc8796ab016b96c62e3e1db9921b2afdc06beccfa2d577883c17ad8": {
+   "ja": "# 保護統計年報の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Annual Report of Rehabilitation Statistics (started 2026-11-17)  Status: Machine-verified only",
+   "src": "results/hogo/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "2fe9207be497199f409b52a88571f1e01c6f57d03009d271b8b1bb7f2fce2953": {
+   "ja": "## 対象と取得\n- 法務省「統計の正誤情報」（保護統計）の正誤表 25本のうち、直近の3本（令和7年7月31日・令和7年11月28日・令和8年7月31日掲載）。正誤表はシートごとに年が違い（平成21年〜令和6年）、合わせて 5,168件。\n- e-Stat の保護統計年報（toukei 00250007、tstat 000001013295）の現行ファイル：正誤表に出てくる年・表（276表、2009・2016〜2024年）。一覧 data/raw/hogo/LIST_<年>.txt（e-Stat の公開（更新）日つき）、取得記録 data/raw/hogo/MANIFEST.tsv。",
+   "en": "## Scope and retrieval\n- Of the 25 errata in the Ministry of Justice's `統計の正誤情報` (rehabilitation statistics), the three most recent (posted 31 July 2025, 28 November 2025 and 31 July 2026). The year differs from sheet to sheet within the errata (2009 to 2024), for a total of 5,168 entries.\n- Current files of the Annual Report of Rehabilitation Statistics on e-Stat (toukei 00250007, tstat 000001013295): the years and tables that appear in the errata (276 tables, 2009 and 2016–2024). Lists in `data/raw/hogo/LIST_<年>.txt` (with e-Stat publication (update) dates); retrieval log in data/raw/hogo/MANIFEST.tsv.",
+   "src": "results/hogo/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "aed53b973e3976a6567f831c1e3ce31a81bbdfeb6c1db252a9ed5d62ba94a526": {
+   "ja": "## c2702 正誤情報の反映（版間）\n- 列まで定まって反映を確かめた 1,963件、未反映 1件、後の正誤表で同じ箇所が再訂正 112件、判定不能 3,086件、ファイルなし 6件（2009年 第43表・第48表）。\n- 未反映の1件（令和5年 第21表「（うち女子）」の行）は、表側の名前が複数の行に当たるため、検査の読み違いの可能性が高い。記録にしない。\n- 列判定だけを数えた（行の中に値があるかだけの判定は、別の列の同じ数字を拾うため使わない）。\n- e-Stat 側の公開（更新）日は、正誤表の掲載日と同じ日のものが多い（例：令和5年 第58・59表 2025-11-28）。\n- 判定不能が多いのは、一つの表の中に同じ表側（「総数」など）が節ごとに繰り返し出るため。",
+   "en": "## c2702 Reflection of correction information (between editions)\n- Confirmed as reflected with the column identified: 1,963 entries; not reflected: 1; corrected again at the same location in a later errata: 112; inconclusive: 3,086; no file: 6 (2009, Table 43 and Table 48).\n- The one unreflected entry (the `（うち女子）` row in Table 21, 2023) is highly likely to be a misreading by the check, because the row label matches multiple rows. It is not made a record.\n- Only column-level judgements were counted (judgements based only on whether the value appears somewhere in the row are not used, because they pick up the same number in a different column).\n- On the e-Stat side, the publication (update) dates are in many cases the same as the posting dates of the errata (e.g. 2023, Tables 58 and 59: 2025-11-28).\n- The large number of inconclusive entries is because, within a single table, the same row label (such as `総数` (total)) appears repeatedly in each section.",
+   "src": "results/hogo/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "130a7e9046b66ea6b2f46b13f904a1bfeedb5413271813ded4b9a0e94b8c18df": {
+   "ja": "## 陰性対照\n- 令和5年 第59表 総数 前年からの繰越しを正（1045）から誤（1053）に戻した写しで「未反映」を検出。",
+   "en": "## Negative control\n- In a copy in which the total carried over from the previous year in Table 59, 2023 was reverted from the correct value (1045) to the erroneous value (1053), \"not reflected\" was detected.",
+   "src": "results/hogo/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "f6a1aca7f73253f468509078e915afbfa0fc4dc29e1e8544e4aeec7f35836621": {
+   "ja": "## 照合した件数\n5,168件（うち列まで定まったもの 1,964件）。記録なし。",
+   "en": "## Entries checked\n5,168 entries (of which 1,964 with the column identified). No records.",
+   "src": "results/hogo/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "dir": "kyosei_ninchi",
+ "check": "c4401",
+ "label": "",
+ "note": "矯正統計 第22表と犯罪白書 4-8-2-2図・4-8-2-3図：年齢の和、高齢者率、版間",
+ "source": "check",
+ "compared": 1161,
+ "mismatched": 3,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "a6627b06e0a03b08404a71b9431fb0ef583493075a812df40643e95e86215659",
+ "written_utc": "2026-11-17T12:34:08Z"
+}

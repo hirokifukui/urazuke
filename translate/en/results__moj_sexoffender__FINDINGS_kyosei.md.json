@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "119f4c7376a87a70c9aeacf9988328b3527f4370ab2f9dde693a49ce046a5a7e": {
+   "ja": "# 法務省矯正局「刑事施設における性犯罪者処遇プログラム受講者の再犯等に関する分析」（令和2年3月・平成24年12月）\n取得：data/raw/moj_sexoffender/（001317462.pdf＝令和2年報告、000105286.pdf＝平成24年報告、SHA256SUMS.txt）。\n計画：hypotheses/H013_kyosei_r3_plan.md（分析のあとの登録であることを明記）。記録の候補：hypotheses/H014_r10_records.md。\n2026-11-16 に分析し、H001（運営者の業務に関わる対象）のため R001・R002 では記録を保留していた。r10（2026-11-17）で重点領域の手順（事前の固定＋Codex）にのせた。",
+   "en": "# Correction Bureau, Ministry of Justice, \"Analysis of Reoffending etc. among Participants in the Sex Offender Treatment Program in Penal Institutions\" (March 2020 and December 2012)\nObtained: data/raw/moj_sexoffender/ (001317462.pdf = 2020 report, 000105286.pdf = 2012 report, SHA256SUMS.txt).\nPlan: hypotheses/H013_kyosei_r3_plan.md (states explicitly that it was registered after the analysis). Candidate records: hypotheses/H014_r10_records.md.\nAnalysed on 2026-11-16; because of H001 (a subject related to the operator's work), records were withheld in R001 and R002. In r10 (2026-11-17) it was placed on the procedure for priority areas (fixing in advance + Codex).",
+   "src": "results/moj_sexoffender/FINDINGS_kyosei.md",
+   "src_commit": "74320d7",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "28a7d8ef627074ea418478774b9ec385bcba10084e12ea5649e8e638a13c27d4": {
+   "ja": "## c101 統計値の再計算\n- 2×2 表の χ²・φ・構成比、t 検定、Cox のハザード比と Wald 値。256 項目、不一致 3。\n- 表41 受講の有無：係数 0.12、HR 0.89（0.64–1.24）、Wald 0.48。exp(0.12)=1.13、log(0.89)=−0.117。→ 記録 KP-A1。\n- 考察 27頁：迷惑行為防止条例違反者の「集中 59.6％、高密度 37％」。表6 で 59.6＝34/57（プログラム内）、37.0＝30/81（罪名内）、集中の罪名内は 42.0＝34/81。→ 記録 KP-A2。\n- 表20 性 χ²（補正なし）0.04 と再計算 0.037：丸めの範囲。記録しない。",
+   "en": "## c101 Recalculation of statistics\n- χ², φ and composition ratios for 2×2 tables, t-tests, Cox hazard ratios and Wald values. 256 items, 3 mismatches.\n- Table 41, participation (yes/no): coefficient 0.12, HR 0.89 (0.64–1.24), Wald 0.48. exp(0.12)=1.13, log(0.89)=−0.117. → record KP-A1.\n- Discussion, p. 27: for violators of nuisance prevention ordinances, \"intensive 59.6%, high-density 37%\". In Table 6, 59.6 = 34/57 (within programme), 37.0 = 30/81 (within offence), and the within-offence figure for intensive is 42.0 = 34/81. → record KP-A2.\n- Table 20, sex χ² (uncorrected) 0.04 versus recalculated 0.037: within rounding. Not recorded.",
+   "src": "results/moj_sexoffender/FINDINGS_kyosei.md",
+   "src_commit": "74320d7",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9c966304979adc7107b3fa6d7784ce03e37b32f55d69c754a9f4d6fe9a3cfab0": {
+   "ja": "## c102 罪名で層別した再分析\n- 表1：迷惑行為防止条例違反は受講群 81/1,444（5.6％）、比較対照群 82/324（25.3％）。\n- 罪名別の表（表10・13・16・19）と表7 から、主な4罪名＋その他3罪名を1層にした5層。全再犯の MH リスク比 0.927（0.784–1.096）、性犯罪再犯 0.917（0.723–1.162）。粗いリスク比は 0.719・0.667。\n- 報告 8頁：罪名構成比・犯罪傾向の進度・RAT 得点に有意差があり単純比較は適当でない、と書き、Cox で RAT 得点を統制する。まとめ（29頁）は全対象者で効果が確認されたとする。\n- 平成24年報告 表3：仮釈放率 受講群 65.0％、非受講群 37.8％（χ² 157.226）。令和2年報告に「仮釈放」の語はない。\n- 比較対照群：受講しなかった 536名から除外 212名（精神疾患等 25、能力 64、動機付け 61、その他 25、受講に至らず 37）を除いた 324名。324名が受講しなかった理由は書かれていない。\n- → 記録 KP-C1。MH は集計表からのリスク比で、Cox のハザード比とは別の量（R010 の指摘）。",
+   "en": "## c102 Re-analysis stratified by offence\n- Table 1: violations of nuisance prevention ordinances are 81/1,444 (5.6%) in the participant group and 82/324 (25.3%) in the comparison control group.\n- From the tables by offence (Tables 10, 13, 16 and 19) and Table 7, five strata were formed: the four main offences, plus the other three offences combined into one stratum. MH risk ratio for all reoffending 0.927 (0.784–1.096); for sexual reoffending 0.917 (0.723–1.162). The crude risk ratios are 0.719 and 0.667.\n- The report (p. 8) states that there are significant differences in offence composition, degree of progression of criminal tendency and RAT score, so that a simple comparison is not appropriate, and controls for RAT score in the Cox model. The summary (p. 29) states that an effect was confirmed among all subjects.\n- 2012 report, Table 3: parole rate 65.0% in the participant group and 37.8% in the non-participant group (χ² 157.226). The word \"parole\" (`仮釈放`) does not appear in the 2020 report.\n- Comparison control group: 324 persons, obtained by excluding 212 persons (mental disorders etc. 25, ability 64, motivation 61, other 25, did not proceed to participation 37) from the 536 who did not participate. The reasons why the 324 persons did not participate are not stated.\n- → record KP-C1. The MH value is a risk ratio from the aggregate tables and is a different quantity from the Cox hazard ratio (pointed out in R010).",
+   "src": "results/moj_sexoffender/FINDINGS_kyosei.md",
+   "src_commit": "74320d7",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "7eaaf78118b3de2a5cee71f3519878f89869b383d9d46c57a25b70229ca28ae5": {
+   "ja": "## R010（2026-11-17）\n- Q3（KP-A1）支持、Q4（KP-A2）支持。Q4 で、順位（集中が最多）は罪名内の割合でも変わらない、との指摘を要旨に入れた。\n- Q5（KP-C1）判定不能：層の定義が主張になかった。5層で数値は再現された。要旨に層の定義を書いた。",
+   "en": "## R010 (2026-11-17)\n- Q3 (KP-A1) supported, Q4 (KP-A2) supported. In Q4, the point that the ranking (intensive is highest) does not change when within-offence proportions are used was added to the summary.\n- Q5 (KP-C1) Inconclusive: the definition of the strata was not in the claim. The figures were reproduced with the five strata. The definition of the strata was written into the summary.",
+   "src": "results/moj_sexoffender/FINDINGS_kyosei.md",
+   "src_commit": "74320d7",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8cd47ef3c0bf94ff67a75732d9a244e1ad4d0002a9e16c6b29b9a69a4f53701b": {
+   "ja": "## r11（2026-11-17）\n- 報道発表（001317461）・概要（001318217）の再犯率 16 値と HR（0.79・0.75・0.61・0.53・0.56・0.43）は報告書の値と合う。「再犯の可能性が0.79倍」は、報告書がハザード比を「瞬間再犯確率」と定義した上での表現で、説明がある。記録にしない。\n- 平成24年→令和2年の定義の変更（受講群・再犯・観察期間）は令和2年報告の「（１）平成24年報告と本調査報告における相違点」に書かれている。説明のある違いとして記録にしない（H013 の候補から外した）。\n- 保護局の報告との突き合わせ：対象・期間・終点が違い、直接比べられない（results/moj_sexoffender/FINDINGS.md）。新しい記録なし。",
+   "en": "## r11 (2026-11-17)\n- The 16 reoffending rate values and the HRs (0.79, 0.75, 0.61, 0.53, 0.56, 0.43) in the press release (001317461) and the overview (001318217) match the values in the report. \"The possibility of reoffending is 0.79 times\" is an expression based on the report's definition of the hazard ratio as \"instantaneous probability of reoffending\", and an explanation is given. Not recorded.\n- The changes in definitions from the 2012 report to the 2020 report (participant group, reoffending, observation period) are described in the 2020 report under \"(1) Differences between the 2012 report and this survey report\". Treated as explained differences and not recorded (removed from the H013 candidates).\n- Cross-check with the Rehabilitation Bureau report: the subjects, periods and endpoints differ, and they cannot be compared directly (results/moj_sexoffender/FINDINGS.md). No new records.",
+   "src": "results/moj_sexoffender/FINDINGS_kyosei.md",
+   "src_commit": "74320d7",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

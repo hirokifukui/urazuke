@@ -1,0 +1,13 @@
+{
+ "dir": "iryokansatsu",
+ "check": "c3003",
+ "label": "",
+ "note": "医療観察法の入院対象者の状況（Wayback",
+ "source": "check",
+ "compared": 383,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "73547666e78b3008f9bb4e65bbf22df1d4319b69035f75e974666357f212a48b",
+ "written_utc": "2026-11-17T12:30:18Z"
+}

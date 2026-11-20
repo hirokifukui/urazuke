@@ -1,0 +1,319 @@
+# 食い違い
+fy	table	check	key	sum	stated
+# 表どうし（全件）
+fy	item	values	status
+2014	種別:心理的虐待	ken_shubetsu=38775 nenrei_shubetsu=38775 shubetsu_keiro=38775	一致
+2014	種別:性的虐待	ken_shubetsu=1520 nenrei_shubetsu=1520 shubetsu_keiro=1520	一致
+2014	種別:身体的虐待	ken_shubetsu=26181 nenrei_shubetsu=26181 shubetsu_keiro=26181	一致
+2014	経路:その他	ken_keiro=3194 shubetsu_keiro=3194	一致
+2014	経路:保健センター	ken_keiro=353 shubetsu_keiro=353	一致
+2014	経路:保健所	ken_keiro=155 shubetsu_keiro=155	一致
+2014	経路:保育所	ken_keiro=906 shubetsu_keiro=906	一致
+2014	経路:児童委員	ken_keiro=56 shubetsu_keiro=56	一致
+2014	経路:児童委員（通告の仲介を含む）	ken_keiro=225 shubetsu_keiro=225	一致
+2014	経路:児童家庭支援センター	ken_keiro=62 shubetsu_keiro=62	一致
+2014	経路:児童本人	ken_keiro=849 shubetsu_keiro=849	一致
+2014	経路:児童相談所	ken_keiro=5806 shubetsu_keiro=5806	一致
+2014	経路:児童福祉施設	ken_keiro=808 shubetsu_keiro=808	一致
+2014	経路:医療機関	ken_keiro=2965 shubetsu_keiro=2965	一致
+2014	経路:学校	ken_keiro=6719 shubetsu_keiro=6719	一致
+2014	経路:家庭裁判所	ken_keiro=49 shubetsu_keiro=49	一致
+2014	経路:幼稚園	ken_keiro=259 shubetsu_keiro=259	一致
+2014	経路:指定医療機関	ken_keiro=48 shubetsu_keiro=48	一致
+2014	経路:教育委員会等	ken_keiro=278 shubetsu_keiro=278	一致
+2014	経路:母親	ken_keiro=2555 shubetsu_keiro=2555	一致
+2014	経路:父親	ken_keiro=1559 shubetsu_keiro=1559	一致
+2014	経路:福祉事務所	ken_keiro=5625 shubetsu_keiro=5625	一致
+2014	経路:親戚	ken_keiro=1996 shubetsu_keiro=1996	一致
+2014	経路:警察等	ken_keiro=29172 shubetsu_keiro=29172	一致
+2014	経路:近隣・知人	ken_keiro=15636 shubetsu_keiro=15636	一致
+2014	経路:里親	ken_keiro=52 shubetsu_keiro=52	一致
+2014	総数	ken_keiro=88931 ken_shubetsu=88931 nenrei_shubetsu=88931 shubetsu_keiro=88931	一致
+2015	種別:心理的虐待	ken_shubetsu=48700 nenrei_shubetsu=48700 shubetsu_keiro=48700	一致
+2015	種別:性的虐待	ken_shubetsu=1521 nenrei_shubetsu=1521 shubetsu_keiro=1521	一致
+2015	種別:身体的虐待	ken_shubetsu=28621 nenrei_shubetsu=28621 shubetsu_keiro=28621	一致
+2015	経路:その他	ken_keiro=3390 shubetsu_keiro=3390	一致
+2015	経路:保健センター	ken_keiro=339 shubetsu_keiro=339	一致
+2015	経路:保健所	ken_keiro=192 shubetsu_keiro=192	一致
+2015	経路:保育所	ken_keiro=1047 shubetsu_keiro=1047	一致
+2015	経路:児童委員	ken_keiro=67 shubetsu_keiro=67	一致
+2015	経路:児童委員（通告の仲介を含む）	ken_keiro=179 shubetsu_keiro=179	一致
+2015	経路:児童家庭支援センター	ken_keiro=173 shubetsu_keiro=173	一致
+2015	経路:児童本人	ken_keiro=930 shubetsu_keiro=930	一致
+2015	経路:児童相談所	ken_keiro=6372 shubetsu_keiro=6372	一致
+2015	経路:児童福祉施設	ken_keiro=678 shubetsu_keiro=678	一致
+2015	経路:医療機関	ken_keiro=3078 shubetsu_keiro=3078	一致
+2015	経路:学校	ken_keiro=7546 shubetsu_keiro=7546	一致
+2015	経路:家庭裁判所	ken_keiro=45 shubetsu_keiro=45	一致
+2015	経路:幼稚園	ken_keiro=288 shubetsu_keiro=288	一致
+2015	経路:指定医療機関	ken_keiro=50 shubetsu_keiro=50	一致
+2015	経路:教育委員会等	ken_keiro=349 shubetsu_keiro=349	一致
+2015	経路:母親	ken_keiro=2995 shubetsu_keiro=2995	一致
+2015	経路:父親	ken_keiro=1611 shubetsu_keiro=1611	一致
+2015	経路:福祉事務所	ken_keiro=5708 shubetsu_keiro=5708	一致
+2015	経路:親戚	ken_keiro=2059 shubetsu_keiro=2059	一致
+2015	経路:警察等	ken_keiro=38524 shubetsu_keiro=38524	一致
+2015	経路:近隣・知人	ken_keiro=17415 shubetsu_keiro=17415	一致
+2015	経路:里親	ken_keiro=52 shubetsu_keiro=52	一致
+2015	総数	ken_keiro=103286 ken_shubetsu=103286 nenrei_shubetsu=103286 shubetsu_keiro=103286	一致
+2016	種別:保護の怠慢・拒否（ネグレクト）	shubetsu_gyakutaisha=25842 shubetsu_keiro=25842	一致
+2016	種別:心理的虐待	ken_shubetsu=63186 nenrei_shubetsu=63186 shubetsu_gyakutaisha=63186 shubetsu_keiro=63186	一致
+2016	種別:性的虐待	ken_shubetsu=1622 nenrei_shubetsu=1622 shubetsu_gyakutaisha=1622 shubetsu_keiro=1622	一致
+2016	種別:身体的虐待	ken_shubetsu=31925 nenrei_shubetsu=31925 shubetsu_gyakutaisha=31925 shubetsu_keiro=31925	一致
+2016	経路:その他	ken_keiro=3853 shubetsu_keiro=3853	一致
+2016	経路:保健センター	ken_keiro=306 shubetsu_keiro=306	一致
+2016	経路:保健所	ken_keiro=203 shubetsu_keiro=203	一致
+2016	経路:保育所	ken_keiro=947 shubetsu_keiro=947	一致
+2016	経路:児童委員	ken_keiro=78 shubetsu_keiro=78	一致
+2016	経路:児童委員（通告の仲介を含む）	ken_keiro=157 shubetsu_keiro=157	一致
+2016	経路:児童家庭支援センター	ken_keiro=59 shubetsu_keiro=59	一致
+2016	経路:児童本人	ken_keiro=1108 shubetsu_keiro=1108	一致
+2016	経路:児童相談所	ken_keiro=6747 shubetsu_keiro=6747	一致
+2016	経路:児童福祉施設	ken_keiro=825 shubetsu_keiro=825	一致
+2016	経路:医療機関	ken_keiro=3109 shubetsu_keiro=3109	一致
+2016	経路:学校	ken_keiro=8264 shubetsu_keiro=8264	一致
+2016	経路:家庭裁判所	ken_keiro=27 shubetsu_keiro=27	一致
+2016	経路:幼稚園	ken_keiro=248 shubetsu_keiro=248	一致
+2016	経路:指定発達支援医療機関	ken_keiro=35 shubetsu_keiro=35	一致
+2016	経路:教育委員会等	ken_keiro=338 shubetsu_keiro=338	一致
+2016	経路:母親	ken_keiro=3253 shubetsu_keiro=3253	一致
+2016	経路:父親	ken_keiro=1850 shubetsu_keiro=1850	一致
+2016	経路:福祉事務所	ken_keiro=6174 shubetsu_keiro=6174	一致
+2016	経路:親戚	ken_keiro=1997 shubetsu_keiro=1997	一致
+2016	経路:認定こども園	ken_keiro=67 shubetsu_keiro=67	一致
+2016	経路:警察等	ken_keiro=54812 shubetsu_keiro=54812	一致
+2016	経路:近隣・知人	ken_keiro=17428 shubetsu_keiro=17428	一致
+2016	経路:里親	ken_keiro=52 shubetsu_keiro=52	一致
+2016	総数	ken_keiro=122575 ken_shubetsu=122575 nenrei_shubetsu=122575 shubetsu_gyakutaisha=122575 shubetsu_keiro=122575	一致
+2017	種別:保護の怠慢・拒否（ネグレクト）	shubetsu_gyakutaisha=26821 shubetsu_keiro=26821	一致
+2017	種別:心理的虐待	ken_shubetsu=72197 nenrei_shubetsu=72197 shubetsu_gyakutaisha=72197 shubetsu_keiro=72197	一致
+2017	種別:性的虐待	ken_shubetsu=1537 nenrei_shubetsu=1537 shubetsu_gyakutaisha=1537 shubetsu_keiro=1537	一致
+2017	種別:身体的虐待	ken_shubetsu=33223 nenrei_shubetsu=33223 shubetsu_gyakutaisha=33223 shubetsu_keiro=33223	一致
+2017	経路:その他	ken_keiro=3869 shubetsu_keiro=3869	一致
+2017	経路:保健センター	ken_keiro=273 shubetsu_keiro=273	一致
+2017	経路:保健所	ken_keiro=168 shubetsu_keiro=168	一致
+2017	経路:保育所	ken_keiro=1047 shubetsu_keiro=1047	一致
+2017	経路:児童委員	ken_keiro=87 shubetsu_keiro=87	一致
+2017	経路:児童委員（通告の仲介を含む）	ken_keiro=131 shubetsu_keiro=131	一致
+2017	経路:児童家庭支援センター	ken_keiro=60 shubetsu_keiro=60	一致
+2017	経路:児童本人	ken_keiro=1118 shubetsu_keiro=1118	一致
+2017	経路:児童相談所	ken_keiro=6328 shubetsu_keiro=6328	一致
+2017	経路:児童福祉施設	ken_keiro=999 shubetsu_keiro=999	一致
+2017	経路:医療機関	ken_keiro=3199 shubetsu_keiro=3199	一致
+2017	経路:学校	ken_keiro=8605 shubetsu_keiro=8605	一致
+2017	経路:家庭裁判所	ken_keiro=32 shubetsu_keiro=32	一致
+2017	経路:幼稚園	ken_keiro=333 shubetsu_keiro=333	一致
+2017	経路:指定発達支援医療機関	ken_keiro=17 shubetsu_keiro=17	一致
+2017	経路:教育委員会等	ken_keiro=343 shubetsu_keiro=343	一致
+2017	経路:母親	ken_keiro=3372 shubetsu_keiro=3372	一致
+2017	経路:父親	ken_keiro=1884 shubetsu_keiro=1884	一致
+2017	経路:福祉事務所	ken_keiro=6294 shubetsu_keiro=6294	一致
+2017	経路:親戚	ken_keiro=2171 shubetsu_keiro=2171	一致
+2017	経路:認定こども園	ken_keiro=85 shubetsu_keiro=85	一致
+2017	経路:警察等	ken_keiro=66055 shubetsu_keiro=66055	一致
+2017	経路:近隣・知人	ken_keiro=16982 shubetsu_keiro=16982	一致
+2017	経路:里親	ken_keiro=83 shubetsu_keiro=83	一致
+2017	総数	ken_keiro=133778 ken_shubetsu=133778 nenrei_shubetsu=133778 shubetsu_gyakutaisha=133778 shubetsu_keiro=133778	一致
+2018	種別:保護の怠慢・拒否（ネグレクト）	shubetsu_gyakutaisha=29479 shubetsu_keiro=29479	一致
+2018	種別:心理的虐待	ken_shubetsu=88391 nenrei_shubetsu=88391 shubetsu_gyakutaisha=88391 shubetsu_keiro=88391	一致
+2018	種別:性的虐待	ken_shubetsu=1730 nenrei_shubetsu=1730 shubetsu_gyakutaisha=1730 shubetsu_keiro=1730	一致
+2018	種別:身体的虐待	ken_shubetsu=40238 nenrei_shubetsu=40238 shubetsu_gyakutaisha=40238 shubetsu_keiro=40238	一致
+2018	経路:その他	ken_keiro=4765 shubetsu_keiro=4765	一致
+2018	経路:保健センター	ken_keiro=348 shubetsu_keiro=348	一致
+2018	経路:保健所	ken_keiro=216 shubetsu_keiro=216	一致
+2018	経路:保育所	ken_keiro=1397 shubetsu_keiro=1397	一致
+2018	経路:児童委員	ken_keiro=62 shubetsu_keiro=62	一致
+2018	経路:児童委員（通告の仲介を含む）	ken_keiro=168 shubetsu_keiro=168	一致
+2018	経路:児童家庭支援センター	ken_keiro=77 shubetsu_keiro=77	一致
+2018	経路:児童本人	ken_keiro=1414 shubetsu_keiro=1414	一致
+2018	経路:児童相談所	ken_keiro=7460 shubetsu_keiro=7460	一致
+2018	経路:児童福祉施設	ken_keiro=1042 shubetsu_keiro=1042	一致
+2018	経路:医療機関	ken_keiro=3542 shubetsu_keiro=3542	一致
+2018	経路:学校	ken_keiro=10649 shubetsu_keiro=10649	一致
+2018	経路:家庭裁判所	ken_keiro=26 shubetsu_keiro=26	一致
+2018	経路:幼稚園	ken_keiro=406 shubetsu_keiro=406	一致
+2018	経路:指定発達支援医療機関	ken_keiro=38 shubetsu_keiro=38	一致
+2018	経路:教育委員会等	ken_keiro=394 shubetsu_keiro=394	一致
+2018	経路:母親	ken_keiro=4108 shubetsu_keiro=4108	一致
+2018	経路:父親	ken_keiro=2303 shubetsu_keiro=2303	一致
+2018	経路:福祉事務所	ken_keiro=6986 shubetsu_keiro=6986	一致
+2018	経路:親戚	ken_keiro=2314 shubetsu_keiro=2314	一致
+2018	経路:認定こども園	ken_keiro=182 shubetsu_keiro=182	一致
+2018	経路:警察等	ken_keiro=79138 shubetsu_keiro=79138	一致
+2018	経路:近隣・知人	ken_keiro=21449 shubetsu_keiro=21449	一致
+2018	経路:里親	ken_keiro=86 shubetsu_keiro=86	一致
+2018	総数	ken_keiro=159838 ken_shubetsu=159838 nenrei_shubetsu=159838 shubetsu_gyakutaisha=159838 shubetsu_keiro=159838	一致
+2019	種別:保護の怠慢・拒否（ネグレクト）	shubetsu_gyakutaisha=33345 shubetsu_keiro=33345	一致
+2019	種別:心理的虐待	ken_shubetsu=109118 nenrei_shubetsu=109118 shubetsu_gyakutaisha=109118 shubetsu_keiro=109118	一致
+2019	種別:性的虐待	ken_shubetsu=2077 nenrei_shubetsu=2077 shubetsu_gyakutaisha=2077 shubetsu_keiro=2077	一致
+2019	種別:身体的虐待	ken_shubetsu=49240 nenrei_shubetsu=49240 shubetsu_gyakutaisha=49240 shubetsu_keiro=49240	一致
+2019	経路:その他	ken_keiro=5755 shubetsu_keiro=5755	一致
+2019	経路:保健センター	ken_keiro=396 shubetsu_keiro=396	一致
+2019	経路:保健所	ken_keiro=232 shubetsu_keiro=232	一致
+2019	経路:保育所	ken_keiro=1616 shubetsu_keiro=1616	一致
+2019	経路:児童委員	ken_keiro=62 shubetsu_keiro=62	一致
+2019	経路:児童委員（通告の仲介を含む）	ken_keiro=148 shubetsu_keiro=148	一致
+2019	経路:児童家庭支援センター	ken_keiro=127 shubetsu_keiro=127	一致
+2019	経路:児童本人	ken_keiro=1663 shubetsu_keiro=1663	一致
+2019	経路:児童相談所	ken_keiro=9313 shubetsu_keiro=9313	一致
+2019	経路:児童福祉施設	ken_keiro=1255 shubetsu_keiro=1255	一致
+2019	経路:医療機関	ken_keiro=3675 shubetsu_keiro=3675	一致
+2019	経路:学校	ken_keiro=13856 shubetsu_keiro=13856	一致
+2019	経路:家庭裁判所	ken_keiro=31 shubetsu_keiro=31	一致
+2019	経路:幼稚園	ken_keiro=525 shubetsu_keiro=525	一致
+2019	経路:指定発達支援医療機関	ken_keiro=28 shubetsu_keiro=28	一致
+2019	経路:教育委員会等	ken_keiro=447 shubetsu_keiro=447	一致
+2019	経路:母親	ken_keiro=4612 shubetsu_keiro=4612	一致
+2019	経路:父親	ken_keiro=2770 shubetsu_keiro=2770	一致
+2019	経路:福祉事務所	ken_keiro=8890 shubetsu_keiro=8890	一致
+2019	経路:親戚	ken_keiro=2639 shubetsu_keiro=2639	一致
+2019	経路:認定こども園	ken_keiro=236 shubetsu_keiro=236	一致
+2019	経路:警察等	ken_keiro=96473 shubetsu_keiro=96473	一致
+2019	経路:近隣・知人	ken_keiro=25285 shubetsu_keiro=25285	一致
+2019	経路:里親	ken_keiro=98 shubetsu_keiro=98	一致
+2019	総数	ken_keiro=193780 ken_shubetsu=193780 nenrei_shubetsu=193780 shubetsu_gyakutaisha=193780 shubetsu_keiro=193780	一致
+2020	種別:保護の怠慢・拒否（ネグレクト）	ken_shubetsu=31430 nenrei_shubetsu=31430 shubetsu_gyakutaisha=31430 shubetsu_keiro=31430	一致
+2020	種別:心理的虐待	ken_shubetsu=121334 nenrei_shubetsu=121334 shubetsu_gyakutaisha=121334 shubetsu_keiro=121334	一致
+2020	種別:性的虐待	ken_shubetsu=2245 nenrei_shubetsu=2245 shubetsu_gyakutaisha=2245 shubetsu_keiro=2245	一致
+2020	種別:身体的虐待	ken_shubetsu=50035 nenrei_shubetsu=50035 shubetsu_gyakutaisha=50035 shubetsu_keiro=50035	一致
+2020	経路:その他	ken_keiro=6278 shubetsu_keiro=6278	一致
+2020	経路:保健センター	ken_keiro=405 shubetsu_keiro=405	一致
+2020	経路:保健所	ken_keiro=233 shubetsu_keiro=233	一致
+2020	経路:保育所	ken_keiro=1607 shubetsu_keiro=1607	一致
+2020	経路:児童委員	ken_keiro=60 shubetsu_keiro=60	一致
+2020	経路:児童委員（通告の仲介を含む）	ken_keiro=150 shubetsu_keiro=150	一致
+2020	経路:児童家庭支援センター	ken_keiro=148 shubetsu_keiro=148	一致
+2020	経路:児童本人	ken_keiro=2115 shubetsu_keiro=2115	一致
+2020	経路:児童相談所	ken_keiro=9947 shubetsu_keiro=9947	一致
+2020	経路:児童福祉施設	ken_keiro=1346 shubetsu_keiro=1346	一致
+2020	経路:医療機関	ken_keiro=3427 shubetsu_keiro=3427	一致
+2020	経路:学校	ken_keiro=13644 shubetsu_keiro=13644	一致
+2020	経路:家庭裁判所	ken_keiro=50 shubetsu_keiro=50	一致
+2020	経路:幼稚園	ken_keiro=479 shubetsu_keiro=479	一致
+2020	経路:指定発達支援医療機関	ken_keiro=26 shubetsu_keiro=26	一致
+2020	経路:教育委員会等	ken_keiro=553 shubetsu_keiro=553	一致
+2020	経路:母親	ken_keiro=5126 shubetsu_keiro=5126	一致
+2020	経路:父親	ken_keiro=2724 shubetsu_keiro=2724	一致
+2020	経路:福祉事務所	ken_keiro=8265 shubetsu_keiro=8265	一致
+2020	経路:親戚	ken_keiro=2672 shubetsu_keiro=2672	一致
+2020	経路:認定こども園	ken_keiro=257 shubetsu_keiro=257	一致
+2020	経路:警察等	ken_keiro=103625 shubetsu_keiro=103625	一致
+2020	経路:近隣・知人	ken_keiro=27641 shubetsu_keiro=27641	一致
+2020	経路:里親	ken_keiro=84 shubetsu_keiro=84	一致
+2020	総数	ken_keiro=205044 ken_shubetsu=205044 nenrei_shubetsu=205044 shubetsu_gyakutaisha=205044 shubetsu_keiro=205044	一致
+2021	種別:保護の怠慢・拒否（ネグレクト）	ken_shubetsu=31448 nenrei_shubetsu=31448 shubetsu_gyakutaisha=31448 shubetsu_keiro=31448	一致
+2021	種別:心理的虐待	ken_shubetsu=124724 nenrei_shubetsu=124724 shubetsu_gyakutaisha=124724 shubetsu_keiro=124724	一致
+2021	種別:性的虐待	ken_shubetsu=2247 nenrei_shubetsu=2247 shubetsu_gyakutaisha=2247 shubetsu_keiro=2247	一致
+2021	種別:身体的虐待	ken_shubetsu=49241 nenrei_shubetsu=49241 shubetsu_gyakutaisha=49241 shubetsu_keiro=49241	一致
+2021	経路:その他	ken_keiro=6748 shubetsu_keiro=6748	一致
+2021	経路:保健センター	ken_keiro=309 shubetsu_keiro=309	一致
+2021	経路:保健所	ken_keiro=226 shubetsu_keiro=226	一致
+2021	経路:保育所	ken_keiro=1663 shubetsu_keiro=1663	一致
+2021	経路:児童委員	ken_keiro=60 shubetsu_keiro=60	一致
+2021	経路:児童委員（通告の仲介を含む）	ken_keiro=135 shubetsu_keiro=135	一致
+2021	経路:児童家庭支援センター	ken_keiro=121 shubetsu_keiro=121	一致
+2021	経路:児童本人	ken_keiro=2529 shubetsu_keiro=2529	一致
+2021	経路:児童相談所	ken_keiro=9584 shubetsu_keiro=9584	一致
+2021	経路:児童福祉施設	ken_keiro=1183 shubetsu_keiro=1183	一致
+2021	経路:医療機関	ken_keiro=3608 shubetsu_keiro=3608	一致
+2021	経路:学校	ken_keiro=13972 shubetsu_keiro=13972	一致
+2021	経路:家庭裁判所	ken_keiro=26 shubetsu_keiro=26	一致
+2021	経路:幼稚園	ken_keiro=524 shubetsu_keiro=524	一致
+2021	経路:指定発達支援医療機関	ken_keiro=21 shubetsu_keiro=21	一致
+2021	経路:教育委員会等	ken_keiro=448 shubetsu_keiro=448	一致
+2021	経路:母親	ken_keiro=5292 shubetsu_keiro=5292	一致
+2021	経路:父親	ken_keiro=2808 shubetsu_keiro=2808	一致
+2021	経路:福祉事務所	ken_keiro=9071 shubetsu_keiro=9071	一致
+2021	経路:親戚	ken_keiro=2649 shubetsu_keiro=2649	一致
+2021	経路:認定こども園	ken_keiro=265 shubetsu_keiro=265	一致
+2021	経路:警察等	ken_keiro=103104 shubetsu_keiro=103104	一致
+2021	経路:近隣・知人	ken_keiro=28075 shubetsu_keiro=28075	一致
+2021	経路:里親	ken_keiro=78 shubetsu_keiro=78	一致
+2021	総数	ken_keiro=207660 ken_shubetsu=207660 nenrei_shubetsu=207660 shubetsu_gyakutaisha=207660 shubetsu_keiro=207660	一致
+2022	種別:保護の怠慢・拒否（ネグレクト）	ken_shubetsu=34872 nenrei_shubetsu=34872 shubetsu_gyakutaisha=34872 shubetsu_keiro=34872	一致
+2022	種別:心理的虐待	ken_shubetsu=128114 nenrei_shubetsu=128114 shubetsu_gyakutaisha=128114 shubetsu_keiro=128114	一致
+2022	種別:性的虐待	ken_shubetsu=2393 nenrei_shubetsu=2393 shubetsu_gyakutaisha=2393 shubetsu_keiro=2393	一致
+2022	種別:身体的虐待	ken_shubetsu=49464 nenrei_shubetsu=49464 shubetsu_gyakutaisha=49464 shubetsu_keiro=49464	一致
+2022	経路:その他	ken_keiro=7390 shubetsu_keiro=7390	一致
+2022	経路:保健センター	ken_keiro=299 shubetsu_keiro=299	一致
+2022	経路:保健所	ken_keiro=189 shubetsu_keiro=189	一致
+2022	経路:保育所	ken_keiro=1821 shubetsu_keiro=1821	一致
+2022	経路:児童委員	ken_keiro=76 shubetsu_keiro=76	一致
+2022	経路:児童委員（通告の仲介を含む）	ken_keiro=74 shubetsu_keiro=74	一致
+2022	経路:児童家庭支援センター	ken_keiro=134 shubetsu_keiro=134	一致
+2022	経路:児童本人	ken_keiro=2716 shubetsu_keiro=2716	一致
+2022	経路:児童相談所	ken_keiro=9400 shubetsu_keiro=9400	一致
+2022	経路:児童福祉施設	ken_keiro=1315 shubetsu_keiro=1315	一致
+2022	経路:医療機関	ken_keiro=3926 shubetsu_keiro=3926	一致
+2022	経路:学校	ken_keiro=14828 shubetsu_keiro=14828	一致
+2022	経路:家庭裁判所	ken_keiro=18 shubetsu_keiro=18	一致
+2022	経路:幼稚園	ken_keiro=535 shubetsu_keiro=535	一致
+2022	経路:指定発達支援医療機関	ken_keiro=24 shubetsu_keiro=24	一致
+2022	経路:教育委員会等	ken_keiro=472 shubetsu_keiro=472	一致
+2022	経路:母親	ken_keiro=5305 shubetsu_keiro=5305	一致
+2022	経路:父親	ken_keiro=2986 shubetsu_keiro=2986	一致
+2022	経路:福祉事務所	ken_keiro=9988 shubetsu_keiro=9988	一致
+2022	経路:親戚	ken_keiro=2545 shubetsu_keiro=2545	一致
+2022	経路:認定こども園	ken_keiro=357 shubetsu_keiro=357	一致
+2022	経路:警察等	ken_keiro=112311 shubetsu_keiro=112311	一致
+2022	経路:近隣・知人	ken_keiro=22188 shubetsu_keiro=22188	一致
+2022	経路:里親	ken_keiro=88 shubetsu_keiro=88	一致
+2022	総数	ken_keiro=214843 ken_shubetsu=214843 nenrei_shubetsu=214843 shubetsu_gyakutaisha=214843 shubetsu_keiro=214843	一致
+2023	種別:保護の怠慢・拒否（ネグレクト）	ken_shubetsu=36465 nenrei_shubetsu=36465 shubetsu_gyakutaisha=36465 shubetsu_keiro=36465	一致
+2023	種別:心理的虐待	ken_shubetsu=134948 nenrei_shubetsu=134948 shubetsu_gyakutaisha=134948 shubetsu_keiro=134948	一致
+2023	種別:性的虐待	ken_shubetsu=2473 nenrei_shubetsu=2473 shubetsu_gyakutaisha=2473 shubetsu_keiro=2473	一致
+2023	種別:身体的虐待	ken_shubetsu=51623 nenrei_shubetsu=51623 shubetsu_gyakutaisha=51623 shubetsu_keiro=51623	一致
+2023	経路:その他	ken_keiro=7909 shubetsu_keiro=7909	一致
+2023	経路:保健センター	ken_keiro=319 shubetsu_keiro=319	一致
+2023	経路:保健所	ken_keiro=182 shubetsu_keiro=182	一致
+2023	経路:保育所	ken_keiro=2243 shubetsu_keiro=2243	一致
+2023	経路:児童委員	ken_keiro=57 shubetsu_keiro=57	一致
+2023	経路:児童委員（通告の仲介を含む）	ken_keiro=74 shubetsu_keiro=74	一致
+2023	経路:児童家庭支援センター	ken_keiro=191 shubetsu_keiro=191	一致
+2023	経路:児童本人	ken_keiro=3147 shubetsu_keiro=3147	一致
+2023	経路:児童相談所	ken_keiro=9605 shubetsu_keiro=9605	一致
+2023	経路:児童福祉施設	ken_keiro=1290 shubetsu_keiro=1290	一致
+2023	経路:医療機関	ken_keiro=4279 shubetsu_keiro=4279	一致
+2023	経路:学校	ken_keiro=16583 shubetsu_keiro=16583	一致
+2023	経路:家庭裁判所	ken_keiro=24 shubetsu_keiro=24	一致
+2023	経路:幼稚園	ken_keiro=585 shubetsu_keiro=585	一致
+2023	経路:指定発達支援医療機関	ken_keiro=27 shubetsu_keiro=27	一致
+2023	経路:教育委員会等	ken_keiro=468 shubetsu_keiro=468	一致
+2023	経路:母親	ken_keiro=5730 shubetsu_keiro=5730	一致
+2023	経路:父親	ken_keiro=3030 shubetsu_keiro=3030	一致
+2023	経路:福祉事務所	ken_keiro=10863 shubetsu_keiro=10863	一致
+2023	経路:親戚	ken_keiro=2656 shubetsu_keiro=2656	一致
+2023	経路:認定こども園	ken_keiro=419 shubetsu_keiro=419	一致
+2023	経路:警察等	ken_keiro=116649 shubetsu_keiro=116649	一致
+2023	経路:近隣・知人	ken_keiro=22112 shubetsu_keiro=22112	一致
+2023	経路:里親	ken_keiro=86 shubetsu_keiro=86	一致
+2023	総数	ken_keiro=225509 ken_shubetsu=225509 nenrei_shubetsu=225509 shubetsu_gyakutaisha=225509 shubetsu_keiro=225509	一致
+2024	種別:保護の怠慢・拒否（ネグレクト）	ken_shubetsu=35612 nenrei_shubetsu=35612 shubetsu_gyakutaisha=35612 shubetsu_keiro=35612	一致
+2024	種別:心理的虐待	ken_shubetsu=133024 nenrei_shubetsu=133024 shubetsu_gyakutaisha=133024 shubetsu_keiro=133024	一致
+2024	種別:性的虐待	ken_shubetsu=2520 nenrei_shubetsu=2520 shubetsu_gyakutaisha=2520 shubetsu_keiro=2520	一致
+2024	種別:身体的虐待	ken_shubetsu=52535 nenrei_shubetsu=52535 shubetsu_gyakutaisha=52535 shubetsu_keiro=52535	一致
+2024	経路:その他	ken_keiro=8558 shubetsu_keiro=8558	一致
+2024	経路:保健センター	ken_keiro=239 shubetsu_keiro=239	一致
+2024	経路:保健所	ken_keiro=166 shubetsu_keiro=166	一致
+2024	経路:保育所	ken_keiro=2224 shubetsu_keiro=2224	一致
+2024	経路:児童委員	ken_keiro=26 shubetsu_keiro=26	一致
+2024	経路:児童委員（通告の仲介を含む）	ken_keiro=72 shubetsu_keiro=72	一致
+2024	経路:児童家庭支援センター	ken_keiro=237 shubetsu_keiro=237	一致
+2024	経路:児童本人	ken_keiro=3394 shubetsu_keiro=3394	一致
+2024	経路:児童相談所	ken_keiro=9141 shubetsu_keiro=9141	一致
+2024	経路:児童福祉施設	ken_keiro=1200 shubetsu_keiro=1200	一致
+2024	経路:医療機関	ken_keiro=4483 shubetsu_keiro=4483	一致
+2024	経路:学校	ken_keiro=17924 shubetsu_keiro=17924	一致
+2024	経路:家庭裁判所	ken_keiro=26 shubetsu_keiro=26	一致
+2024	経路:幼稚園	ken_keiro=657 shubetsu_keiro=657	一致
+2024	経路:指定発達支援医療機関	ken_keiro=38 shubetsu_keiro=38	一致
+2024	経路:教育委員会等	ken_keiro=443 shubetsu_keiro=443	一致
+2024	経路:母親	ken_keiro=5385 shubetsu_keiro=5385	一致
+2024	経路:父親	ken_keiro=2983 shubetsu_keiro=2983	一致
+2024	経路:福祉事務所	ken_keiro=11455 shubetsu_keiro=11455	一致
+2024	経路:親戚	ken_keiro=2836 shubetsu_keiro=2836	一致
+2024	経路:認定こども園	ken_keiro=449 shubetsu_keiro=449	一致
+2024	経路:警察等	ken_keiro=115644 shubetsu_keiro=115644	一致
+2024	経路:近隣・知人	ken_keiro=19841 shubetsu_keiro=19841	一致
+2024	経路:里親	ken_keiro=66 shubetsu_keiro=66	一致
+2024	総数	ken_keiro=223691 ken_shubetsu=223691 nenrei_shubetsu=223691 shubetsu_gyakutaisha=223691 shubetsu_keiro=223691	一致

@@ -1,0 +1,13 @@
+{
+ "dir": "chinkin",
+ "check": "c3201",
+ "label": "",
+ "note": "賃金構造基本統計調査 第1表：格差・増減率の再計算、版間、形式間",
+ "source": "check",
+ "compared": 285,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "46a6f481da7a60ea40148072ab85b7d4d333f39f4c62055df86509beab9b893c",
+ "written_utc": "2026-11-17T12:33:54Z"
+}

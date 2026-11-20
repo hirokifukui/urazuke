@@ -1,0 +1,138 @@
+{
+ "files": 8571,
+ "bytes": 2542619578,
+ "xlsx": 5522,
+ "xls": 429,
+ "csv": 116,
+ "pdf": 457,
+ "html": 1749,
+ "numeric_cells": 17422776,
+ "pdf_pages": 18592,
+ "errors": 0,
+ "by_dir": {
+  "data/raw": {
+   "files": 1,
+   "numeric_cells": 0
+  },
+  "futoko": {
+   "files": 19,
+   "numeric_cells": 0
+  },
+  "jisatsu": {
+   "files": 308,
+   "numeric_cells": 11437865
+  },
+  "kensatsu_toukei": {
+   "files": 2,
+   "numeric_cells": 2716
+  },
+  "keisatsu": {
+   "files": 1080,
+   "numeric_cells": 292950
+  },
+  "stalker": {
+   "files": 42,
+   "numeric_cells": 7551
+  },
+  "hanzai_hakusho": {
+   "files": 6368,
+   "numeric_cells": 2611102
+  },
+  "shiho": {
+   "files": 8,
+   "numeric_cells": 281289
+  },
+  "cpi": {
+   "files": 4,
+   "numeric_cells": 9253
+  },
+  "jinko_dotai": {
+   "files": 12,
+   "numeric_cells": 14819
+  },
+  "keisatsu_hanzai_toukei": {
+   "files": 3,
+   "numeric_cells": 28566
+  },
+  "monka": {
+   "files": 157,
+   "numeric_cells": 0
+  },
+  "kokusei": {
+   "files": 4,
+   "numeric_cells": 358777
+  },
+  "saihan": {
+   "files": 16,
+   "numeric_cells": 0
+  },
+  "gyakutai": {
+   "files": 87,
+   "numeric_cells": 36905
+  },
+  "moj_sexoffender": {
+   "files": 15,
+   "numeric_cells": 0
+  },
+  "hogo_toukei": {
+   "files": 11,
+   "numeric_cells": 33180
+  },
+  "maikin": {
+   "files": 10,
+   "numeric_cells": 2310
+  },
+  "moj_seigo": {
+   "files": 54,
+   "numeric_cells": 105375
+  },
+  "shogai_hakusho": {
+   "files": 9,
+   "numeric_cells": 0
+  },
+  "jisatsu_hakusho": {
+   "files": 76,
+   "numeric_cells": 26660
+  },
+  "kodomo_hakusho": {
+   "files": 7,
+   "numeric_cells": 0
+  },
+  "eisei": {
+   "files": 53,
+   "numeric_cells": 408045
+  },
+  "iryosd": {
+   "files": 12,
+   "numeric_cells": 15797
+  },
+  "kessan": {
+   "files": 5,
+   "numeric_cells": 0
+  },
+  "kanja": {
+   "files": 8,
+   "numeric_cells": 16213
+  },
+  "juki_idou": {
+   "files": 5,
+   "numeric_cells": 51395
+  },
+  "seishin630": {
+   "files": 172,
+   "numeric_cells": 1675069
+  },
+  "kyosei_toukei": {
+   "files": 11,
+   "numeric_cells": 5106
+  },
+  "roudouryoku": {
+   "files": 7,
+   "numeric_cells": 1833
+  },
+  "danjo_hakusho": {
+   "files": 5,
+   "numeric_cells": 0
+  }
+ }
+}

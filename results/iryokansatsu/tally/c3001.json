@@ -1,0 +1,13 @@
+{
+ "dir": "iryokansatsu",
+ "check": "c3001",
+ "label": "",
+ "note": "医療観察法の入院対象者・指定医療機関（厚生労働省）：内訳の和と合計",
+ "source": "check",
+ "compared": 77,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "85422c122c350d218ab86df86ad6f1e6df23cfc3f83f927816cf1fe3ce495096",
+ "written_utc": "2026-11-17T12:30:17Z"
+}

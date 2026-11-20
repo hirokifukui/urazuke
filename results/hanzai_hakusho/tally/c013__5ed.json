@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c013",
+ "label": "5ed",
+ "note": "犯罪白書 令和3〜7年版：同じ行の和暦と西暦",
+ "source": "check",
+ "compared": 50213,
+ "mismatched": 1,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "7346bb937f59dd6d368fb5831b0fbc3240e46b2b3adca4677ab64ee2b741069d",
+ "written_utc": "2026-11-17T12:19:02Z"
+}

@@ -1,0 +1,4 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032103936&fileKind=1	2025/chubunrui_index_000032103936.csv	27696	474f966947d21f446d85d712327cbef1154fb811bda1e72524b37851b6044fa7	200		2026-11-16T17:35:55+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032103940&fileKind=1	2025/chubunrui_yoy_000032103940.csv	23400	2f5714f61734ed65f76c22ca30af0797fcaf91391343e1d8119a9fa15f47737e	200		2026-11-16T17:35:56+00:00
+https://www.stat.go.jp/data/cpi/sokuhou/nen/pdf/zen-n.pdf	2025/zen-n.pdf	414762	f3f387fef45dec37fdf0881b68e8cfd2a39daaede3b147d67072b894fe79d04c	200	Thu, 22 Jan 2026 23:33:41 GMT	2026-11-16T17:35:56+00:00

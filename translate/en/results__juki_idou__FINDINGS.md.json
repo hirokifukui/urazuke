@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "84b019c872cb3a6f5803e5eedd905146818335e16c1a908108ac4f9ef5c8c481": {
+   "ja": "# 住民基本台帳人口移動報告の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Report on Internal Migration (Basic Resident Registration) (started 2026-11-17)　Verification status: Machine-verified only",
+   "src": "results/juki_idou/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9010e4fba7274e4518b7612635a4a17e0fe9766a26c381152d1d9805c4c44211": {
+   "ja": "## 対象と取得\n- 総務省 住民基本台帳人口移動報告 2025年：表1（都道府県別の転入・転出・転入超過）、表2（移動前の住所地別 都道府県間移動者数）、付表（都道府県別社会増減数）、結果の要約・概要 PDF。取得記録：data/raw/juki_idou/MANIFEST.tsv。",
+   "en": "## Scope and retrieval\n- Ministry of Internal Affairs and Communications, Report on Internal Migration (Basic Resident Registration) 2025: Table 1 (in-migration, out-migration and net in-migration by prefecture), Table 2 (number of inter-prefectural migrants by previous place of residence), Appended table (social increase/decrease by prefecture), summary and overview of results PDFs. Retrieval log: data/raw/juki_idou/MANIFEST.tsv.",
+   "src": "results/juki_idou/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "54b7fbba1424912b81a9b371bc0bf5c4f1fd3e8fb8920305a00497fd00321439": {
+   "ja": "## c1701 内部整合・形式間（L1・L4）— 誤りなし\n- (a) 表1 総数＝男＋女 876組、転入超過＝転入−転出 657組（移動者・日本人・外国人）：不一致 0。\n- (b) 都道府県の転入の和＝転出の和、転入超過の和＝0、全国の値＝和：27組、不一致 0。\n- (c) 表2 の転出元ごとの全国列＝表1の転出、転出元の行の和＝全国列、転入先の列の和＝表1の転入：423組、不一致 0。\n- (d) 付表の社会増加数＝A−B＋C−D＋E−F、国内の転入・転出＝表1：48行、不一致 0。",
+   "en": "## c1701 Internal consistency and consistency between formats (L1, L4) — no errors\n- (a) Table 1 total = male + female: 876 pairs; net in-migration = in-migration − out-migration: 657 pairs (migrants, Japanese nationals, foreign nationals): mismatches 0.\n- (b) Sum of prefectural in-migration = sum of out-migration, sum of net in-migration = 0, national value = sum: 27 pairs, mismatches 0.\n- (c) In Table 2, national column for each place of origin = Table 1 out-migration, sum of each origin row = national column, sum of each destination column = Table 1 in-migration: 423 pairs, mismatches 0.\n- (d) Appended table social increase = A−B+C−D+E−F, domestic in-migration and out-migration = Table 1: 48 rows, mismatches 0.",
+   "src": "results/juki_idou/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "0542d509aba61c8b1b65aade09ad10bbd4cf0ee96e9231d6e8de6e61066f5582": {
+   "ja": "## 陰性対照\n- 表1の転入の値を変えた写しで (a) が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- In a copy in which a Table 1 in-migration value was changed, (a) detected it (results/scope/negctl_r08.json).",
+   "src": "results/juki_idou/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "45089bf235bec07444d2d5e5c9b854d1fe79743637cf202cabcd5ce2f5576b68": {
+   "ja": "## 照合した件数\n約2,000組。記録なし。",
+   "en": "## Number of comparisons\nAbout 2,000 pairs. No records.",
+   "src": "results/juki_idou/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

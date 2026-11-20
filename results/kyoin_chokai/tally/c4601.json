@@ -1,0 +1,13 @@
+{
+ "dir": "kyoin_chokai",
+ "check": "c4601",
+ "label": "",
+ "note": "教員の懲戒処分（児童生徒性暴力等）の推移の表：和と合計、版間",
+ "source": "check",
+ "compared": 3702,
+ "mismatched": 16,
+ "explained": 16,
+ "read_failures": 0,
+ "script_sha256": "7351ce6f55d0fe95a1194684c807873d873da6757ace62d0ce96be2754f15c28",
+ "written_utc": "2026-11-17T12:30:18Z"
+}

@@ -1,0 +1,61 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "4d8db22367ce9c36d0b0e001de9c054a8e5a9f3db4255d58d9a0cf96ec32cd8b": {
+   "ja": "# 児童生徒の問題行動・不登校等生徒指導上の諸課題に関する調査の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Survey on Problem Behavior and School Non-attendance (started 2026-11-17)  Verification status: Machine-verified only",
+   "src": "results/futoko/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6ea231f9b0867e4a044a85a8261aefeefca707a5ccedb749af91e6fcfe5462cd": {
+   "ja": "## 対象と取得\n- 文部科学省 調査結果 PDF と概要 PDF：令和3〜6年度。令和6年度は、令和7年10月29日の当初版（Wayback の写し）と、令和8年1月16日の修正版の両方。\n- 取得記録：data/raw/futoko/MANIFEST.tsv。",
+   "en": "## Scope and acquisition\n- Ministry of Education, Culture, Sports, Science and Technology survey results PDFs and summary PDFs: FY2021–FY2024. For FY2024, both the original version of 29 October 2025 (a Wayback copy) and the revised version of 16 January 2026.\n- Acquisition record: data/raw/futoko/MANIFEST.tsv.",
+   "src": "results/futoko/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "1b78bee5cc3b718254c5536cafdf061bc781897893b23dc06d8b5adc895a9c6e": {
+   "ja": "## c1201 令和6年度 当初版と修正版の比較（L3）\n- 修正版の表紙に「令和８年１月16日一部修正」とある。変わったのは、いじめの重大事態の数：発生件数 1,405→1,404、発生学校数 1,255→1,254、高等学校 263→262、第2号 897→896、前年度からの増加 99件（7.6％）→98件（7.5％）、関連する割合（52.6％→52.7％など）。概要・本文・都道府県別の表で、修正後の値は互いに一致する。\n- 修正は日付つきで告知され、正誤情報のページもあるため、記録にしない。差分：results/futoko/c1201_r06_diff_kekka.txt・c1201_r06_diff_gaiyou.txt。\n- 令和6年度の結果 PDF は、多くの頁で文字の符号が変換できず、テキストとして抽出できない（pdftotext）。修正した頁だけが抽出できる。このため c1202 は令和6年度の大半の表を照合できていない。",
+   "en": "## c1201 Comparison of the original and revised versions for FY2024 (L3)\n- The cover of the revised version states `令和８年１月16日一部修正` (partially revised on 16 January 2026). What changed is the number of serious bullying incidents: number of incidents 1,405→1,404, number of schools where incidents occurred 1,255→1,254, upper secondary schools 263→262, Category 2 897→896, increase from the previous fiscal year 99 cases (7.6%)→98 cases (7.5%), and the related percentages (52.6%→52.7%, etc.). The revised values agree with one another across the summary, the main text and the tables by prefecture.\n- The revision was announced with a date and there is also a page with errata information, so it is not recorded. Diffs: results/futoko/c1201_r06_diff_kekka.txt and c1201_r06_diff_gaiyou.txt.\n- In the FY2024 results PDF, the character codes on many pages cannot be converted, and the text cannot be extracted (pdftotext). Only the revised pages can be extracted. For this reason, c1202 has not been able to check most of the FY2024 tables.",
+   "src": "results/futoko/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "edf23fea8de750a2d0d0836ce09a5de82429e978739dd204e3a3a85e225db450": {
+   "ja": "## c1202 都道府県別の表の和（L1）— 誤りなし\n- 令和3・4・5年度：各29表、計663列で、都道府県（47）の和＝全国。不一致 0。",
+   "en": "## c1202 Sums of the tables by prefecture (L1) — no errors\n- FY2021, FY2022 and FY2023: 29 tables each, 663 columns in total; the sum of the prefectures (47) = the national figure. Mismatches: 0.",
+   "src": "results/futoko/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "de3edfbe59dc4bc4857f2751511a94b0f308d0f325d5da278b8c49a6574248dc": {
+   "ja": "## 他の資料との関係（記録にしない）\n- 自殺した児童生徒の数は、学校からの報告による本調査と、警察の自殺統計（自殺対策白書 参考資料2-15表）で定義と期間（年度・暦年）が違う。値の比較は行っていない。",
+   "en": "## Relationship with other sources (not recorded)\n- For the number of students who died by suicide, this survey, which is based on reports from schools, and the police Suicide Statistics (White Paper on Suicide Countermeasures, Reference Material Table 2-15) differ in definition and period (fiscal year vs. calendar year). The values have not been compared.",
+   "src": "results/futoko/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "b41a756edd94c1212605c581aaa993655d38620b1398f80a53f4893d7ffd78b6": {
+   "ja": "## 陰性対照\n- 令和5年度の都道府県表の北海道の値を1変えた写しで c1202 が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- c1202 detected a copy in which a value for Hokkaido in the FY2023 prefectural table was changed by 1 (results/scope/negctl_r08.json).",
+   "src": "results/futoko/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8f9ca8408cb0299ed2ee6828fd38fc446071a201165a4fa6917080ba51c93cca": {
+   "ja": "## 照合した件数\n都道府県の和 663列（約3万1千の値）。記録なし。",
+   "en": "## Number of items checked\nPrefectural sums: 663 columns (about 31,000 values). No records.",
+   "src": "results/futoko/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

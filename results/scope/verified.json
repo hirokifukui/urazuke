@@ -1,0 +1,1832 @@
+{
+ "chinkin": {
+  "compared": 285,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c3201",
+    "label": "",
+    "source": "check",
+    "compared": 285,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "賃金構造基本統計調査 第1表：格差・増減率の再計算、版間、形式間",
+    "script": "chinkin/c3201_tab1.py",
+    "file": "results/chinkin/tally/c3201.json"
+   }
+  ]
+ },
+ "cpi": {
+  "compared": 4225,
+  "mismatched": 36,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2401",
+    "label": "",
+    "source": "check",
+    "compared": 4225,
+    "mismatched": 36,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "消費者物価指数：指数から前年比の再計算、PDF と CSV",
+    "script": "cpi/c2401_cpi.py",
+    "file": "results/cpi/tally/c2401.json"
+   }
+  ]
+ },
+ "hanzai-hakusho": {
+  "compared": 489606,
+  "mismatched": 1690,
+  "explained": 456,
+  "read_failures": 234270,
+  "checks_compare": 14,
+  "checks_tallied": 14,
+  "parts": [
+   {
+    "check": "c406",
+    "label": "",
+    "source": "check",
+    "compared": 120,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 資料1-1（令和2〜7年版）と犯罪統計資料 第1表",
+    "script": "cross/c406_hanzaihakusho_vs_toukei.py",
+    "file": "results/hanzai_hakusho/tally/c406.json"
+   },
+   {
+    "check": "c001",
+    "label": "",
+    "source": "check",
+    "compared": 2303,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 令和7年版：資料1-1・1-1-1-1図の内部整合と突き合わせ",
+    "script": "hanzai_hakusho/c001_keihouhan.py",
+    "file": "results/hanzai_hakusho/tally/c001.json"
+   },
+   {
+    "check": "c002",
+    "label": "",
+    "source": "check",
+    "compared": 3286,
+    "mismatched": 11,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 令和7年版 第5編：再犯・再入の図表の内部整合と突き合わせ",
+    "script": "hanzai_hakusho/c002_saihan.py",
+    "file": "results/hanzai_hakusho/tally/c002.json"
+   },
+   {
+    "check": "c003",
+    "label": "",
+    "source": "check",
+    "compared": 1320,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 令和7年版と矯正統計年報・検察統計年報（2024年）",
+    "script": "hanzai_hakusho/c003_primary_2024.py",
+    "file": "results/hanzai_hakusho/tally/c003.json"
+   },
+   {
+    "check": "c004",
+    "label": "",
+    "source": "check",
+    "compared": 572,
+    "mismatched": 71,
+    "read_failures": 0,
+    "explained": 65,
+    "note": "犯罪白書 平成26〜令和7年版：刑法犯の資料と再犯者の図の、同じ年の値の版どうしの比較",
+    "script": "hanzai_hakusho/c004_revisions.py",
+    "file": "results/hanzai_hakusho/tally/c004.json"
+   },
+   {
+    "check": "c005",
+    "label": "",
+    "source": "check",
+    "compared": 36,
+    "mismatched": 3,
+    "read_failures": 0,
+    "explained": 3,
+    "note": "犯罪統計資料と犯罪白書、警察庁の訂正の反映",
+    "script": "hanzai_hakusho/c005_police.py",
+    "file": "results/hanzai_hakusho/tally/c005.json"
+   },
+   {
+    "check": "c006",
+    "label": "65",
+    "source": "check",
+    "compared": 0,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 本文の「N（前年比M（P％））」の内部計算",
+    "script": "hanzai_hakusho/c006_text_arith.py",
+    "file": "results/hanzai_hakusho/tally/c006__65.json"
+   },
+   {
+    "check": "c006",
+    "label": "66",
+    "source": "check",
+    "compared": 27,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 本文の「N（前年比M（P％））」の内部計算",
+    "script": "hanzai_hakusho/c006_text_arith.py",
+    "file": "results/hanzai_hakusho/tally/c006__66.json"
+   },
+   {
+    "check": "c006",
+    "label": "67",
+    "source": "check",
+    "compared": 31,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 本文の「N（前年比M（P％））」の内部計算",
+    "script": "hanzai_hakusho/c006_text_arith.py",
+    "file": "results/hanzai_hakusho/tally/c006__67.json"
+   },
+   {
+    "check": "c006",
+    "label": "68",
+    "source": "check",
+    "compared": 29,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 本文の「N（前年比M（P％））」の内部計算",
+    "script": "hanzai_hakusho/c006_text_arith.py",
+    "file": "results/hanzai_hakusho/tally/c006__68.json"
+   },
+   {
+    "check": "c006",
+    "label": "69",
+    "source": "check",
+    "compared": 52,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 本文の「N（前年比M（P％））」の内部計算",
+    "script": "hanzai_hakusho/c006_text_arith.py",
+    "file": "results/hanzai_hakusho/tally/c006__69.json"
+   },
+   {
+    "check": "c006",
+    "label": "70",
+    "source": "check",
+    "compared": 43,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 本文の「N（前年比M（P％））」の内部計算",
+    "script": "hanzai_hakusho/c006_text_arith.py",
+    "file": "results/hanzai_hakusho/tally/c006__70.json"
+   },
+   {
+    "check": "c006",
+    "label": "71b",
+    "source": "check",
+    "compared": 44,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 本文の「N（前年比M（P％））」の内部計算",
+    "script": "hanzai_hakusho/c006_text_arith.py",
+    "file": "results/hanzai_hakusho/tally/c006__71b.json"
+   },
+   {
+    "check": "c006",
+    "label": "72",
+    "source": "check",
+    "compared": 43,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 本文の「N（前年比M（P％））」の内部計算",
+    "script": "hanzai_hakusho/c006_text_arith.py",
+    "file": "results/hanzai_hakusho/tally/c006__72.json"
+   },
+   {
+    "check": "c007",
+    "label": "72",
+    "source": "check",
+    "compared": 248,
+    "mismatched": 0,
+    "read_failures": 52,
+    "explained": 0,
+    "note": "犯罪白書 令和7年版：本文の前年比の記述と図表 Excel の前年値",
+    "script": "hanzai_hakusho/c007_text_vs_excel.py",
+    "file": "results/hanzai_hakusho/tally/c007__72.json"
+   },
+   {
+    "check": "c009h",
+    "label": "68to69",
+    "source": "check",
+    "compared": 32606,
+    "mismatched": 222,
+    "read_failures": 36538,
+    "explained": 130,
+    "note": "犯罪白書 2版間：中身で対応させた表の同じ年の値",
+    "script": "hanzai_hakusho/c009h_revisions_matched.py",
+    "file": "results/hanzai_hakusho/tally/c009h__68to69.json"
+   },
+   {
+    "check": "c009h",
+    "label": "69to70",
+    "source": "check",
+    "compared": 56650,
+    "mismatched": 240,
+    "read_failures": 48242,
+    "explained": 0,
+    "note": "犯罪白書 2版間：中身で対応させた表の同じ年の値",
+    "script": "hanzai_hakusho/c009h_revisions_matched.py",
+    "file": "results/hanzai_hakusho/tally/c009h__69to70.json"
+   },
+   {
+    "check": "c009h",
+    "label": "70to71b",
+    "source": "check",
+    "compared": 69334,
+    "mismatched": 307,
+    "read_failures": 25410,
+    "explained": 158,
+    "note": "犯罪白書 2版間：中身で対応させた表の同じ年の値",
+    "script": "hanzai_hakusho/c009h_revisions_matched.py",
+    "file": "results/hanzai_hakusho/tally/c009h__70to71b.json"
+   },
+   {
+    "check": "c009h",
+    "label": "71bto72",
+    "source": "check",
+    "compared": 84628,
+    "mismatched": 284,
+    "read_failures": 14490,
+    "explained": 100,
+    "note": "犯罪白書 2版間：中身で対応させた表の同じ年の値",
+    "script": "hanzai_hakusho/c009h_revisions_matched.py",
+    "file": "results/hanzai_hakusho/tally/c009h__71bto72.json"
+   },
+   {
+    "check": "c009v",
+    "label": "63to64v",
+    "source": "check",
+    "compared": 27145,
+    "mismatched": 123,
+    "read_failures": 15482,
+    "explained": 0,
+    "note": "犯罪白書 2版間：値で対応させた列の同じ年の値",
+    "script": "hanzai_hakusho/c009v_revisions_valuematch.py",
+    "file": "results/hanzai_hakusho/tally/c009v__63to64v.json"
+   },
+   {
+    "check": "c009v",
+    "label": "64to65v",
+    "source": "check",
+    "compared": 32971,
+    "mismatched": 29,
+    "read_failures": 15845,
+    "explained": 0,
+    "note": "犯罪白書 2版間：値で対応させた列の同じ年の値",
+    "script": "hanzai_hakusho/c009v_revisions_valuematch.py",
+    "file": "results/hanzai_hakusho/tally/c009v__64to65v.json"
+   },
+   {
+    "check": "c009v",
+    "label": "65to66v",
+    "source": "check",
+    "compared": 36394,
+    "mismatched": 31,
+    "read_failures": 16201,
+    "explained": 0,
+    "note": "犯罪白書 2版間：値で対応させた列の同じ年の値",
+    "script": "hanzai_hakusho/c009v_revisions_valuematch.py",
+    "file": "results/hanzai_hakusho/tally/c009v__65to66v.json"
+   },
+   {
+    "check": "c009v",
+    "label": "66to67v",
+    "source": "check",
+    "compared": 36357,
+    "mismatched": 46,
+    "read_failures": 14232,
+    "explained": 0,
+    "note": "犯罪白書 2版間：値で対応させた列の同じ年の値",
+    "script": "hanzai_hakusho/c009v_revisions_valuematch.py",
+    "file": "results/hanzai_hakusho/tally/c009v__66to67v.json"
+   },
+   {
+    "check": "c009v",
+    "label": "67to68v",
+    "source": "check",
+    "compared": 40726,
+    "mismatched": 10,
+    "read_failures": 47017,
+    "explained": 0,
+    "note": "犯罪白書 2版間：値で対応させた列の同じ年の値",
+    "script": "hanzai_hakusho/c009v_revisions_valuematch.py",
+    "file": "results/hanzai_hakusho/tally/c009v__67to68v.json"
+   },
+   {
+    "check": "c010",
+    "label": "67_20261116T094520Z",
+    "source": "check",
+    "compared": 0,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 全表：比率の列の再計算と、計と内訳の和",
+    "script": "hanzai_hakusho/c010_formula_totals.py",
+    "file": "results/hanzai_hakusho/tally/c010__67_20261116T094520Z.json"
+   },
+   {
+    "check": "c010",
+    "label": "68_20261116T085457Z",
+    "source": "check",
+    "compared": 2007,
+    "mismatched": 38,
+    "read_failures": 53,
+    "explained": 0,
+    "note": "犯罪白書 全表：比率の列の再計算と、計と内訳の和",
+    "script": "hanzai_hakusho/c010_formula_totals.py",
+    "file": "results/hanzai_hakusho/tally/c010__68_20261116T085457Z.json"
+   },
+   {
+    "check": "c010",
+    "label": "69_20261116T085457Z",
+    "source": "check",
+    "compared": 2364,
+    "mismatched": 76,
+    "read_failures": 119,
+    "explained": 0,
+    "note": "犯罪白書 全表：比率の列の再計算と、計と内訳の和",
+    "script": "hanzai_hakusho/c010_formula_totals.py",
+    "file": "results/hanzai_hakusho/tally/c010__69_20261116T085457Z.json"
+   },
+   {
+    "check": "c010",
+    "label": "70_20261116T073025Z",
+    "source": "check",
+    "compared": 3985,
+    "mismatched": 131,
+    "read_failures": 130,
+    "explained": 0,
+    "note": "犯罪白書 全表：比率の列の再計算と、計と内訳の和",
+    "script": "hanzai_hakusho/c010_formula_totals.py",
+    "file": "results/hanzai_hakusho/tally/c010__70_20261116T073025Z.json"
+   },
+   {
+    "check": "c010",
+    "label": "71_20261116T090659Z",
+    "source": "check",
+    "compared": 2515,
+    "mismatched": 56,
+    "read_failures": 177,
+    "explained": 0,
+    "note": "犯罪白書 全表：比率の列の再計算と、計と内訳の和",
+    "script": "hanzai_hakusho/c010_formula_totals.py",
+    "file": "results/hanzai_hakusho/tally/c010__71_20261116T090659Z.json"
+   },
+   {
+    "check": "c010",
+    "label": "72",
+    "source": "check",
+    "compared": 2486,
+    "mismatched": 0,
+    "read_failures": 93,
+    "explained": 0,
+    "note": "犯罪白書 全表：比率の列の再計算と、計と内訳の和",
+    "script": "hanzai_hakusho/c010_formula_totals.py",
+    "file": "results/hanzai_hakusho/tally/c010__72.json"
+   },
+   {
+    "check": "c012g",
+    "label": "67",
+    "source": "check",
+    "compared": 0,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書：同じ Excel の閲覧用シートと機械判読用シートの値の出現回数",
+    "script": "hanzai_hakusho/c012g_view_vs_machine.py",
+    "file": "results/hanzai_hakusho/tally/c012g__67.json"
+   },
+   {
+    "check": "c012g",
+    "label": "68",
+    "source": "check",
+    "compared": 184,
+    "mismatched": 1,
+    "read_failures": 1,
+    "explained": 0,
+    "note": "犯罪白書：同じ Excel の閲覧用シートと機械判読用シートの値の出現回数",
+    "script": "hanzai_hakusho/c012g_view_vs_machine.py",
+    "file": "results/hanzai_hakusho/tally/c012g__68.json"
+   },
+   {
+    "check": "c012g",
+    "label": "69",
+    "source": "check",
+    "compared": 283,
+    "mismatched": 1,
+    "read_failures": 1,
+    "explained": 0,
+    "note": "犯罪白書：同じ Excel の閲覧用シートと機械判読用シートの値の出現回数",
+    "script": "hanzai_hakusho/c012g_view_vs_machine.py",
+    "file": "results/hanzai_hakusho/tally/c012g__69.json"
+   },
+   {
+    "check": "c012g",
+    "label": "70",
+    "source": "check",
+    "compared": 323,
+    "mismatched": 3,
+    "read_failures": 3,
+    "explained": 0,
+    "note": "犯罪白書：同じ Excel の閲覧用シートと機械判読用シートの値の出現回数",
+    "script": "hanzai_hakusho/c012g_view_vs_machine.py",
+    "file": "results/hanzai_hakusho/tally/c012g__70.json"
+   },
+   {
+    "check": "c013",
+    "label": "5ed",
+    "source": "check",
+    "compared": 50213,
+    "mismatched": 1,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 令和3〜7年版：同じ行の和暦と西暦",
+    "script": "hanzai_hakusho/c013_era_year.py",
+    "file": "results/hanzai_hakusho/tally/c013__5ed.json"
+   },
+   {
+    "check": "c014",
+    "label": "r02",
+    "source": "check",
+    "compared": 51,
+    "mismatched": 1,
+    "read_failures": 30,
+    "explained": 0,
+    "note": "犯罪白書 全体版 PDF の表の数値と同じ番号の Excel",
+    "script": "hanzai_hakusho/c014_pdf_vs_excel.py",
+    "file": "results/hanzai_hakusho/tally/c014__r02.json"
+   },
+   {
+    "check": "c014",
+    "label": "r03",
+    "source": "check",
+    "compared": 50,
+    "mismatched": 1,
+    "read_failures": 35,
+    "explained": 0,
+    "note": "犯罪白書 全体版 PDF の表の数値と同じ番号の Excel",
+    "script": "hanzai_hakusho/c014_pdf_vs_excel.py",
+    "file": "results/hanzai_hakusho/tally/c014__r03.json"
+   },
+   {
+    "check": "c014",
+    "label": "r04",
+    "source": "check",
+    "compared": 46,
+    "mismatched": 1,
+    "read_failures": 28,
+    "explained": 0,
+    "note": "犯罪白書 全体版 PDF の表の数値と同じ番号の Excel",
+    "script": "hanzai_hakusho/c014_pdf_vs_excel.py",
+    "file": "results/hanzai_hakusho/tally/c014__r04.json"
+   },
+   {
+    "check": "c014",
+    "label": "r05",
+    "source": "check",
+    "compared": 51,
+    "mismatched": 1,
+    "read_failures": 23,
+    "explained": 0,
+    "note": "犯罪白書 全体版 PDF の表の数値と同じ番号の Excel",
+    "script": "hanzai_hakusho/c014_pdf_vs_excel.py",
+    "file": "results/hanzai_hakusho/tally/c014__r05.json"
+   },
+   {
+    "check": "c014",
+    "label": "r06b",
+    "source": "check",
+    "compared": 42,
+    "mismatched": 1,
+    "read_failures": 34,
+    "explained": 0,
+    "note": "犯罪白書 全体版 PDF の表の数値と同じ番号の Excel",
+    "script": "hanzai_hakusho/c014_pdf_vs_excel.py",
+    "file": "results/hanzai_hakusho/tally/c014__r06b.json"
+   },
+   {
+    "check": "c014",
+    "label": "r07",
+    "source": "check",
+    "compared": 41,
+    "mismatched": 1,
+    "read_failures": 34,
+    "explained": 0,
+    "note": "犯罪白書 全体版 PDF の表の数値と同じ番号の Excel",
+    "script": "hanzai_hakusho/c014_pdf_vs_excel.py",
+    "file": "results/hanzai_hakusho/tally/c014__r07.json"
+   }
+  ]
+ },
+ "danjo-hakusho": {
+  "compared": 6,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2201",
+    "label": "",
+    "source": "check",
+    "compared": 6,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "男女共同参画白書の数値と元の統計",
+    "script": "danjo_hakusho/c2201_vs_sources.py",
+    "file": "results/danjo_hakusho/tally/c2201.json"
+   }
+  ]
+ },
+ "eisei": {
+  "compared": 1820,
+  "mismatched": 21,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c1401",
+    "label": "",
+    "source": "check",
+    "compared": 1820,
+    "mismatched": 21,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "衛生行政報告例（精神保健福祉）：都道府県の和、措置患者・手帳の年度の連続",
+    "script": "eisei/c1401_seishin_tables.py",
+    "file": "results/eisei/tally/c1401.json"
+   }
+  ]
+ },
+ "futoko": {
+  "compared": 667,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c1202",
+    "label": "",
+    "source": "check",
+    "compared": 667,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "問題行動・不登校等調査：都道府県別の表の和と全国",
+    "script": "futoko/c1202_pref_sums.py",
+    "file": "results/futoko/tally/c1202.json"
+   }
+  ]
+ },
+ "shibo-jirei": {
+  "compared": 2374,
+  "mismatched": 10,
+  "explained": 0,
+  "read_failures": 203,
+  "checks_compare": 2,
+  "checks_tallied": 2,
+  "parts": [
+   {
+    "check": "c4001",
+    "label": "",
+    "source": "check",
+    "compared": 260,
+    "mismatched": 4,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "子ども虐待による死亡事例等の検証結果：表1・表2の和と総数、版間",
+    "script": "gyakutai/c4001_shibo_hyo12.py",
+    "file": "results/gyakutai/tally/c4001.json"
+   },
+   {
+    "check": "c4003",
+    "label": "",
+    "source": "check",
+    "compared": 2114,
+    "mismatched": 6,
+    "read_failures": 203,
+    "explained": 0,
+    "note": "子ども虐待による死亡事例等の検証結果：各表の和と構成割合",
+    "script": "gyakutai/c4003_shibo_tables.py",
+    "file": "results/gyakutai/tally/c4003.json"
+   }
+  ]
+ },
+ "shogai-gyakutai": {
+  "compared": 538,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 4,
+  "checks_tallied": 4,
+  "parts": [
+   {
+    "check": "c4002",
+    "label": "",
+    "source": "check",
+    "compared": 57,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "障害者虐待の対応状況：報道発表の前回調査欄・経年グラフ・増減率",
+    "script": "gyakutai/c4002_shogai_press.py",
+    "file": "results/gyakutai/tally/c4002.json"
+   },
+   {
+    "check": "c4004",
+    "label": "",
+    "source": "check",
+    "compared": 259,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "障害者虐待の調査結果報告書：構成割合と内訳の和",
+    "script": "gyakutai/c4004_shogai_houkoku.py",
+    "file": "results/gyakutai/tally/c4004.json"
+   },
+   {
+    "check": "c4005",
+    "label": "",
+    "source": "check",
+    "compared": 8,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "障害者虐待の調査結果報告書：都道府県の和と合計、合計と報道発表",
+    "script": "gyakutai/c4005_shogai_pref.py",
+    "file": "results/gyakutai/tally/c4005.json"
+   },
+   {
+    "check": "c4006",
+    "label": "",
+    "source": "check",
+    "compared": 214,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "障害者虐待の調査結果報告書（縦の表）：構成割合と内訳の和",
+    "script": "gyakutai/c4006_shogai_tate.py",
+    "file": "results/gyakutai/tally/c4006.json"
+   }
+  ]
+ },
+ "gyakutai": {
+  "compared": 4322,
+  "mismatched": 25,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 2,
+  "checks_tallied": 2,
+  "parts": [
+   {
+    "check": "c701",
+    "label": "",
+    "source": "check",
+    "compared": 3242,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "福祉行政報告例（児童虐待）：行・列の和と総数、表どうしの総数",
+    "script": "gyakutai/c701_internal.py",
+    "file": "results/gyakutai/tally/c701.json"
+   },
+   {
+    "check": "c702",
+    "label": "",
+    "source": "check",
+    "compared": 1080,
+    "mismatched": 25,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "児童虐待相談対応件数：速報値と確定値（自治体別）、前年度の値、増減の算術",
+    "script": "gyakutai/c702_sokuhou_vs_kakutei.py",
+    "file": "results/gyakutai/tally/c702.json"
+   }
+  ]
+ },
+ "hogo": {
+  "compared": 1963,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 3093,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2702",
+    "label": "",
+    "source": "check",
+    "compared": 1963,
+    "mismatched": 0,
+    "read_failures": 3093,
+    "explained": 0,
+    "note": "保護統計年報：法務省の統計の正誤情報の訂正が現行ファイルに入っているか",
+    "script": "hogo/c2702_seigo_applied.py",
+    "file": "results/hogo/tally/c2702.json"
+   }
+  ]
+ },
+ "iryokansatsu": {
+  "compared": 7510,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 3,
+  "checks_tallied": 3,
+  "parts": [
+   {
+    "check": "c3001",
+    "label": "",
+    "source": "check",
+    "compared": 77,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "医療観察法の入院対象者・指定医療機関（厚生労働省）：内訳の和と合計",
+    "script": "iryokansatsu/c3001_mhlw.py",
+    "file": "results/iryokansatsu/tally/c3001.json"
+   },
+   {
+    "check": "c3002",
+    "label": "",
+    "source": "check",
+    "compared": 7050,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "保護統計の医療観察の表：受理・終結・繰越の式、版間",
+    "script": "iryokansatsu/c3002_hogo_mhoa.py",
+    "file": "results/iryokansatsu/tally/c3002.json"
+   },
+   {
+    "check": "c3003",
+    "label": "",
+    "source": "check",
+    "compared": 383,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "医療観察法の入院対象者の状況（Wayback",
+    "script": "iryokansatsu/c3003_nyuin_wayback.py",
+    "file": "results/iryokansatsu/tally/c3003.json"
+   }
+  ]
+ },
+ "iryosd": {
+  "compared": 910,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c1801",
+    "label": "",
+    "source": "check",
+    "compared": 910,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "医療施設調査：施設数・病床数の和、表どうし",
+    "script": "iryosd/c1801_shisetsu.py",
+    "file": "results/iryosd/tally/c1801.json"
+   }
+  ]
+ },
+ "jinko-dotai": {
+  "compared": 632,
+  "mismatched": 25,
+  "explained": 25,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c1501",
+    "label": "",
+    "source": "check",
+    "compared": 632,
+    "mismatched": 25,
+    "read_failures": 0,
+    "explained": 25,
+    "note": "人口動態統計 確定数：男女の和、都道府県の和、死因の和、自殺統計との並置",
+    "script": "jinko_dotai/c1501_kakutei.py",
+    "file": "results/jinko_dotai/tally/c1501.json"
+   }
+  ]
+ },
+ "jinko-suikei": {
+  "compared": 1166,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2801",
+    "label": "",
+    "source": "check",
+    "compared": 1166,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "人口推計：表の内部整合と版間",
+    "script": "jinko_suikei/c2801_suikei.py",
+    "file": "results/jinko_suikei/tally/c2801.json"
+   }
+  ]
+ },
+ "jisatsu": {
+  "compared": 327069,
+  "mismatched": 10317,
+  "explained": 10317,
+  "read_failures": 2,
+  "checks_compare": 5,
+  "checks_tallied": 5,
+  "parts": [
+   {
+    "check": "c201",
+    "label": "",
+    "source": "check",
+    "compared": 81028,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "自殺の統計（地域における自殺の基礎資料）令和6・7年：都道府県の和、内訳の和、男＋女、人口、市区町村の和",
+    "script": "jisatsu/c201_kiso_internal.py",
+    "file": "results/jisatsu/tally/c201.json"
+   },
+   {
+    "check": "c201b",
+    "label": "",
+    "source": "check",
+    "compared": 203316,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "自殺の統計（地域における自殺の基礎資料）10年分：都道府県・市区町村の内訳の和と総数",
+    "script": "jisatsu/c201b_kiso_internal_10y.py",
+    "file": "results/jisatsu/tally/c201b.json"
+   },
+   {
+    "check": "c202",
+    "label": "",
+    "source": "check",
+    "compared": 517,
+    "mismatched": 76,
+    "read_failures": 0,
+    "explained": 76,
+    "note": "「自殺の状況」本体の図表4-4・1-1 と基礎資料",
+    "script": "jisatsu/c202_joukyou_vs_kiso.py",
+    "file": "results/jisatsu/tally/c202.json"
+   },
+   {
+    "check": "c203",
+    "label": "",
+    "source": "check",
+    "compared": 42180,
+    "mismatched": 10241,
+    "read_failures": 0,
+    "explained": 10241,
+    "note": "自殺の統計：暫定値（1月）と確定値（3月）の同じ表のセル",
+    "script": "jisatsu/c203_zantei_vs_kakutei.py",
+    "file": "results/jisatsu/tally/c203.json"
+   },
+   {
+    "check": "c204",
+    "label": "",
+    "source": "check",
+    "compared": 28,
+    "mismatched": 0,
+    "read_failures": 2,
+    "explained": 0,
+    "note": "「自殺の状況」補表2-1（年齢階級別の推移）と基礎資料",
+    "script": "jisatsu/c204_hohyou_age_series.py",
+    "file": "results/jisatsu/tally/c204.json"
+   }
+  ]
+ },
+ "jisatsu-hakusho": {
+  "compared": 17112,
+  "mismatched": 83,
+  "explained": 82,
+  "read_failures": 1038,
+  "checks_compare": 2,
+  "checks_tallied": 2,
+  "parts": [
+   {
+    "check": "c1101",
+    "label": "",
+    "source": "check",
+    "compared": 16170,
+    "mismatched": 0,
+    "read_failures": 1038,
+    "explained": 0,
+    "note": "自殺対策白書 参考資料2：令和6・7・8年版の重なる年の値",
+    "script": "jisatsu_hakusho/c1101_sanko_editions.py",
+    "file": "results/jisatsu_hakusho/tally/c1101.json"
+   },
+   {
+    "check": "c1102",
+    "label": "",
+    "source": "check",
+    "compared": 942,
+    "mismatched": 83,
+    "read_failures": 0,
+    "explained": 82,
+    "note": "自殺対策白書：参考資料の内部整合、基礎資料・本文との照合",
+    "script": "jisatsu_hakusho/c1102_internal_cross.py",
+    "file": "results/jisatsu_hakusho/tally/c1102.json"
+   }
+  ]
+ },
+ "juki-idou": {
+  "compared": 2031,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c1701",
+    "label": "",
+    "source": "check",
+    "compared": 2031,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "住民基本台帳人口移動報告：男女の和、転入超過、行列の和",
+    "script": "juki_idou/c1701_idou.py",
+    "file": "results/juki_idou/tally/c1701.json"
+   }
+  ]
+ },
+ "kanja": {
+  "compared": 161,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c1901",
+    "label": "",
+    "source": "check",
+    "compared": 161,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "患者調査：表の内部整合、統計表どうし",
+    "script": "kanja/c1901_kanja.py",
+    "file": "results/kanja/tally/c1901.json"
+   }
+  ]
+ },
+ "karoshi": {
+  "compared": 145,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c3401",
+    "label": "",
+    "source": "check",
+    "compared": 145,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "過労死等の労災補償状況 別添資料：内訳の和と合計",
+    "script": "karoshi/c3401_tables.py",
+    "file": "results/karoshi/tally/c3401.json"
+   }
+  ]
+ },
+ "keisatsu": {
+  "compared": 141721,
+  "mismatched": 2,
+  "explained": 2,
+  "read_failures": 1964,
+  "checks_compare": 4,
+  "checks_tallied": 4,
+  "parts": [
+   {
+    "check": "c401",
+    "label": "",
+    "source": "check",
+    "compared": 99314,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪統計資料 CSV：内訳の和と計、うち≦親、増減・率の再計算",
+    "script": "keisatsu/c401_estat_internal.py",
+    "file": "results/keisatsu/tally/c401.json"
+   },
+   {
+    "check": "c402",
+    "label": "",
+    "source": "check",
+    "compared": 34623,
+    "mismatched": 2,
+    "read_failures": 1772,
+    "explained": 2,
+    "note": "犯罪統計資料 CSV：N年版の前年列とN−1年版の当年列",
+    "script": "keisatsu/c402_estat_prev_year.py",
+    "file": "results/keisatsu/tally/c402.json"
+   },
+   {
+    "check": "c403",
+    "label": "",
+    "source": "check",
+    "compared": 5634,
+    "mismatched": 0,
+    "read_failures": 151,
+    "explained": 0,
+    "note": "犯罪統計資料 PDF と CSV：版の比較と形式間",
+    "script": "keisatsu/c403_pdf_prev_year.py",
+    "file": "results/keisatsu/tally/c403.json"
+   },
+   {
+    "check": "c405",
+    "label": "",
+    "source": "check",
+    "compared": 2150,
+    "mismatched": 0,
+    "read_failures": 41,
+    "explained": 0,
+    "note": "警察白書の統計表：包括罪種の和と総数、白書と犯罪統計資料 第3表",
+    "script": "keisatsu/c405_hakusho_vs_toukei.py",
+    "file": "results/keisatsu/tally/c405.json"
+   }
+  ]
+ },
+ "kensatsu": {
+  "compared": 780,
+  "mismatched": 115,
+  "explained": 29,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2901",
+    "label": "",
+    "source": "check",
+    "compared": 780,
+    "mismatched": 115,
+    "read_failures": 0,
+    "explained": 29,
+    "note": "検察統計年報：受理・既済・未済の恒等式",
+    "script": "kensatsu/c2901_flow.py",
+    "file": "results/kensatsu/tally/c2901.json"
+   }
+  ]
+ },
+ "kensetsu-juchu": {
+  "compared": 1188,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c3101",
+    "label": "",
+    "source": "check",
+    "compared": 1188,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "建設工事受注動態統計：計と内訳、年度・四半期・月の和",
+    "script": "kensetsu_juchu/c3101_nendo.py",
+    "file": "results/kensetsu_juchu/tally/c3101.json"
+   }
+  ]
+ },
+ "kessan": {
+  "compared": 4,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2601",
+    "label": "",
+    "source": "check",
+    "compared": 4,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "国の決算の概要：数値の照合",
+    "script": "kessan/c2601_taiyo.py",
+    "file": "results/kessan/tally/c2601.json"
+   }
+  ]
+ },
+ "kessan-card": {
+  "compared": 1222,
+  "mismatched": 1,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c3801",
+    "label": "",
+    "source": "check",
+    "compared": 1222,
+    "mismatched": 1,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "都道府県決算カード：収支の式、歳入の合計、版間",
+    "script": "kessan_card/c3801_pref.py",
+    "file": "results/kessan_card/tally/c3801.json"
+   }
+  ]
+ },
+ "kodomo-hakusho": {
+  "compared": 3,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2001",
+    "label": "",
+    "source": "check",
+    "compared": 3,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "こども白書の数値と元の統計",
+    "script": "kodomo_hakusho/c2001_vs_sources.py",
+    "file": "results/kodomo_hakusho/tally/c2001.json"
+   }
+  ]
+ },
+ "kokusei": {
+  "compared": 7996,
+  "mismatched": 2,
+  "explained": 2,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c1601",
+    "label": "",
+    "source": "check",
+    "compared": 7996,
+    "mismatched": 2,
+    "read_failures": 0,
+    "explained": 2,
+    "note": "国勢調査 主な結果：男女の和、都道府県の和、増減、組替人口、市区町村の和",
+    "script": "kokusei/c1601_shuyo.py",
+    "file": "results/kokusei/tally/c1601.json"
+   }
+  ]
+ },
+ "koutsuu": {
+  "compared": 34,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c3501",
+    "label": "",
+    "source": "check",
+    "compared": 34,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "交通事故の発生状況：構成率、版間、本文の前年比",
+    "script": "koutsuu/c3501_nenkan.py",
+    "file": "results/koutsuu/tally/c3501.json"
+   }
+  ]
+ },
+ "kyoin-chokai": {
+  "compared": 3721,
+  "mismatched": 16,
+  "explained": 16,
+  "read_failures": 0,
+  "checks_compare": 2,
+  "checks_tallied": 2,
+  "parts": [
+   {
+    "check": "c4601",
+    "label": "",
+    "source": "check",
+    "compared": 3702,
+    "mismatched": 16,
+    "read_failures": 0,
+    "explained": 16,
+    "note": "教員の懲戒処分（児童生徒性暴力等）の推移の表：和と合計、版間",
+    "script": "kyoin_chokai/c4601_suii.py",
+    "file": "results/kyoin_chokai/tally/c4601.json"
+   },
+   {
+    "check": "c4602",
+    "label": "",
+    "source": "check",
+    "compared": 19,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "教員の懲戒処分の状況の表：内訳の和と合計、告発の状況の内訳",
+    "script": "kyoin_chokai/c4602_jokyo.py",
+    "file": "results/kyoin_chokai/tally/c4602.json"
+   }
+  ]
+ },
+ "kyosei": {
+  "compared": 467,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 107,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2701",
+    "label": "",
+    "source": "check",
+    "compared": 467,
+    "mismatched": 0,
+    "read_failures": 107,
+    "explained": 0,
+    "note": "矯正統計年報：法務省の統計の正誤情報の訂正が現行ファイルに入っているか",
+    "script": "kyosei/c2701_seigo_applied.py",
+    "file": "results/kyosei/tally/c2701.json"
+   }
+  ]
+ },
+ "kyosei-ninchi": {
+  "compared": 1161,
+  "mismatched": 3,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c4401",
+    "label": "",
+    "source": "check",
+    "compared": 1161,
+    "mismatched": 3,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "矯正統計 第22表と犯罪白書 4-8-2-2図・4-8-2-3図：年齢の和、高齢者率、版間",
+    "script": "kyosei_ninchi/c4401_settou_korei.py",
+    "file": "results/kyosei_ninchi/tally/c4401.json"
+   }
+  ]
+ },
+ "maikin": {
+  "compared": 114,
+  "mismatched": 3,
+  "explained": 3,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2301",
+    "label": "",
+    "source": "check",
+    "compared": 114,
+    "mismatched": 3,
+    "read_failures": 0,
+    "explained": 3,
+    "note": "毎月勤労統計：指数・前年比の再計算、表どうし",
+    "script": "maikin/c2301_maikin.py",
+    "file": "results/maikin/tally/c2301.json"
+   }
+  ]
+ },
+ "shokugyo": {
+  "compared": 70,
+  "mismatched": 3,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 2,
+  "checks_tallied": 2,
+  "parts": [
+   {
+    "check": "c4201",
+    "label": "",
+    "source": "check",
+    "compared": 43,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "職業訓練・刑務作業の効果検証（矯正局）と SIB 事業総括：割合・検定の再計算",
+    "script": "moj_kensho2/c4201_recalc.py",
+    "file": "results/moj_kensho2/tally/c4201.json"
+   },
+   {
+    "check": "c4701",
+    "label": "",
+    "source": "check",
+    "compared": 27,
+    "mismatched": 3,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "職業訓練の性差の論文（矯正研究 第8号）：表の χ²・φ の再計算、表の間の和",
+    "script": "moj_kyosei_kensho/c4701_shokugyo_seisa.py",
+    "file": "results/moj_kyosei_kensho/tally/c4701.json"
+   }
+  ]
+ },
+ "kyosei-so": {
+  "compared": 256,
+  "mismatched": 2,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c101",
+    "label": "",
+    "source": "check",
+    "compared": 256,
+    "mismatched": 2,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "矯正局の性犯罪再犯防止指導の効果検証（令和2年）：統計量・比率・合計の再計算",
+    "script": "moj_sexoffender/c101_r2020.py",
+    "file": "results/moj_sexoffender/tally/c101.json"
+   }
+  ]
+ },
+ "moj-sexoffender": {
+  "compared": 25,
+  "mismatched": 1,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c104",
+    "label": "",
+    "source": "check",
+    "compared": 25,
+    "mismatched": 1,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "保護局 性犯罪者処遇プログラム効果検証（2020・2012）：表の和、ハザード比と信頼区間、χ²と p 値",
+    "script": "moj_sexoffender/c104_hogo.py",
+    "file": "results/moj_sexoffender/tally/c104.json"
+   }
+  ]
+ },
+ "yakubutsu": {
+  "compared": 51,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c4101",
+    "label": "",
+    "source": "check",
+    "compared": 51,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "薬物事犯者のプログラム効果検証（矯正局・保護局）：割合・検定の再計算",
+    "script": "moj_yakubutsu/c4101_recalc.py",
+    "file": "results/moj_yakubutsu/tally/c4101.json"
+   }
+  ]
+ },
+ "monka": {
+  "compared": 3426,
+  "mismatched": 2,
+  "explained": 2,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c601",
+    "label": "",
+    "source": "check",
+    "compared": 3426,
+    "mismatched": 2,
+    "read_failures": 0,
+    "explained": 2,
+    "note": "公立学校教職員の人事行政状況調査：内訳の和と合計、版の比較",
+    "script": "monka/c601_choukai.py",
+    "file": "results/monka/tally/c601.json"
+   }
+  ]
+ },
+ "monka-kihon": {
+  "compared": 792,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 2,
+  "checks_tallied": 2,
+  "parts": [
+   {
+    "check": "c3601",
+    "label": "",
+    "source": "check",
+    "compared": 236,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "学校基本調査 表1：計＝国立＋公立＋私立、比率、版間",
+    "script": "monka_kihon/c3601_hyo1.py",
+    "file": "results/monka_kihon/tally/c3601.json"
+   },
+   {
+    "check": "c3602",
+    "label": "",
+    "source": "check",
+    "compared": 556,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "人事行政状況調査 体罰：67教育委員会の和と合計、版間",
+    "script": "monka_kihon/c3602_taibatsu.py",
+    "file": "results/monka_kihon/tally/c3602.json"
+   }
+  ]
+ },
+ "roudouryoku": {
+  "compared": 6,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2501",
+    "label": "",
+    "source": "check",
+    "compared": 6,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "労働力調査：概要の数値の再計算",
+    "script": "roudouryoku/c2501_gaiyou.py",
+    "file": "results/roudouryoku/tally/c2501.json"
+   }
+  ]
+ },
+ "saihan": {
+  "compared": 3543,
+  "mismatched": 17,
+  "explained": 8,
+  "read_failures": 19,
+  "checks_compare": 7,
+  "checks_tallied": 6,
+  "parts": [
+   {
+    "check": "c3901",
+    "label": "",
+    "source": "check",
+    "compared": 1101,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 5-3-9図の再入率と矯正統計 第64表、白書の版間",
+    "script": "saihan/c3901_sainyu.py",
+    "file": "results/saihan/tally/c3901.json"
+   },
+   {
+    "check": "c3902",
+    "label": "",
+    "source": "check",
+    "compared": 1752,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 5-3-10図・5-3-11図：比率・男女・年齢層の和、5-3-9図との一致、版間",
+    "script": "saihan/c3902_5310.py",
+    "file": "results/saihan/tally/c3902.json"
+   },
+   {
+    "check": "c3903",
+    "label": "",
+    "source": "check",
+    "compared": 561,
+    "mismatched": 9,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "犯罪白書 5-4-2図：再処分の内容の和、再処分率の再計算、版間",
+    "script": "saihan/c3903_542.py",
+    "file": "results/saihan/tally/c3903.json"
+   },
+   {
+    "check": "c501",
+    "label": "",
+    "source": "check",
+    "compared": 95,
+    "mismatched": 2,
+    "read_failures": 16,
+    "explained": 2,
+    "note": "再犯防止推進白書 平成30〜令和7年版：「年次」の表の同じ年の行の、版どうしの比較",
+    "script": "saihan/c501_year_tables.py",
+    "file": "results/saihan/tally/c501.json"
+   },
+   {
+    "check": "c502",
+    "label": "",
+    "source": "check",
+    "compared": 12,
+    "mismatched": 1,
+    "read_failures": 0,
+    "explained": 1,
+    "note": "再犯防止推進白書の刑務所出所者総数と矯正統計年報 表84",
+    "script": "saihan/c502_kyosei_kijuu.py",
+    "file": "results/saihan/tally/c502.json"
+   },
+   {
+    "check": "c503",
+    "label": "",
+    "source": "check",
+    "compared": 22,
+    "mismatched": 5,
+    "read_failures": 3,
+    "explained": 5,
+    "note": "再犯防止推進白書 指標7の保護観察終了者（総数）と保護統計年報 表38",
+    "script": "saihan/c503_hogo_shuuryou.py",
+    "file": "results/saihan/tally/c503.json"
+   }
+  ]
+ },
+ "seiho": {
+  "compared": 1136,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c3301",
+    "label": "",
+    "source": "check",
+    "compared": 1136,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "被保護者調査（月次概数）：差・伸び率、内訳の和、版間",
+    "script": "seiho/c3301_monthly.py",
+    "file": "results/seiho/tally/c3301.json"
+   }
+  ]
+ },
+ "seishin630": {
+  "compared": 51569,
+  "mismatched": 865,
+  "explained": 0,
+  "read_failures": 14,
+  "checks_compare": 4,
+  "checks_tallied": 4,
+  "parts": [
+   {
+    "check": "c301",
+    "label": "",
+    "source": "check",
+    "compared": 42404,
+    "mismatched": 805,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "630調査 長期データ：都道府県の和と合計、区分の和、指定都市の和≦道府県",
+    "script": "seishin630/c301_longterm_internal.py",
+    "file": "results/seishin630/tally/c301.json"
+   },
+   {
+    "check": "c302",
+    "label": "",
+    "source": "check",
+    "compared": 6786,
+    "mismatched": 60,
+    "read_failures": 1,
+    "explained": 0,
+    "note": "630調査 年度別の表（Ⅲ.2.(5)）と長期データ",
+    "script": "seishin630/c302_longterm_vs_annual.py",
+    "file": "results/seishin630/tally/c302.json"
+   },
+   {
+    "check": "c303",
+    "label": "",
+    "source": "check",
+    "compared": 1768,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "630調査 旧様式（2015・2016年）と長期データ",
+    "script": "seishin630/c303_old_vs_longterm.py",
+    "file": "results/seishin630/tally/c303.json"
+   },
+   {
+    "check": "c304",
+    "label": "",
+    "source": "check",
+    "compared": 611,
+    "mismatched": 0,
+    "read_failures": 13,
+    "explained": 0,
+    "note": "630調査 2017年の従来ベース集計と長期データ",
+    "script": "seishin630/c304_2017_vs_longterm.py",
+    "file": "results/seishin630/tally/c304.json"
+   }
+  ]
+ },
+ "shiho": {
+  "compared": 79713,
+  "mismatched": 18,
+  "explained": 12,
+  "read_failures": 37,
+  "checks_compare": 3,
+  "checks_tallied": 3,
+  "parts": [
+   {
+    "check": "c1301",
+    "label": "",
+    "source": "check",
+    "compared": 75888,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "司法統計年報（刑事編）の正誤表と更新版、次の年の年報",
+    "script": "shiho/c1301_seigo_vs_updated.py",
+    "file": "results/shiho/tally/c1301.json"
+   },
+   {
+    "check": "c1302",
+    "label": "",
+    "source": "check",
+    "compared": 741,
+    "mismatched": 0,
+    "read_failures": 37,
+    "explained": 0,
+    "note": "司法統計年報（刑事編）の正誤表の訂正セル：訂正後の値と更新版、次の年の年報",
+    "script": "shiho/c1302_seigo_cells.py",
+    "file": "results/shiho/tally/c1302.json"
+   },
+   {
+    "check": "c1303",
+    "label": "",
+    "source": "check",
+    "compared": 3084,
+    "mismatched": 18,
+    "read_failures": 0,
+    "explained": 12,
+    "note": "司法統計年報 第1表：総数＝訴訟事件＋以外、全裁判所＝各裁判所の和、版間",
+    "script": "shiho/c1303_table1_internal.py",
+    "file": "results/shiho/tally/c1303.json"
+   }
+  ]
+ },
+ "shogai-hakusho": {
+  "compared": 18,
+  "mismatched": 0,
+  "explained": 0,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c2101",
+    "label": "",
+    "source": "check",
+    "compared": 18,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "障害者白書 図表1：行の内訳の和",
+    "script": "shogai_hakusho/c2101_zuhyo1.py",
+    "file": "results/shogai_hakusho/tally/c2101.json"
+   }
+  ]
+ },
+ "sna": {
+  "compared": 619,
+  "mismatched": 30,
+  "explained": 30,
+  "read_failures": 0,
+  "checks_compare": 1,
+  "checks_tallied": 1,
+  "parts": [
+   {
+    "check": "c3701",
+    "label": "",
+    "source": "check",
+    "compared": 619,
+    "mismatched": 30,
+    "read_failures": 0,
+    "explained": 30,
+    "note": "国民経済計算 主要系列表1：支出側の恒等式、版間のGDP",
+    "script": "sna/c3701_ffm1n.py",
+    "file": "results/sna/tally/c3701.json"
+   }
+  ]
+ },
+ "stalker": {
+  "compared": 1736,
+  "mismatched": 11,
+  "explained": 3,
+  "read_failures": 100,
+  "checks_compare": 3,
+  "checks_tallied": 3,
+  "parts": [
+   {
+    "check": "c411",
+    "label": "",
+    "source": "check",
+    "compared": 1346,
+    "mismatched": 7,
+    "read_failures": 1,
+    "explained": 3,
+    "note": "ストーカー・DV・児童虐待の対応状況：推移表の同じ項目・同じ年の値の、資料の版どうしの比較",
+    "script": "stalker/c411_trend_versions.py",
+    "file": "results/stalker/tally/c411.json"
+   },
+   {
+    "check": "c412",
+    "label": "",
+    "source": "check",
+    "compared": 255,
+    "mismatched": 4,
+    "read_failures": 99,
+    "explained": 0,
+    "note": "ストーカー・DV・児童虐待の CSV：親＝子の和、性別の和＝年齢の和、総数＝内訳",
+    "script": "stalker/c412_csv_internal.py",
+    "file": "results/stalker/tally/c412.json"
+   },
+   {
+    "check": "c413",
+    "label": "",
+    "source": "check",
+    "compared": 135,
+    "mismatched": 0,
+    "read_failures": 0,
+    "explained": 0,
+    "note": "ストーカー事案の検挙状況の表：版の間の同じ年・同じ項目、内訳の和と計",
+    "script": "stalker/c413_kenkyo_chuki.py",
+    "file": "results/stalker/tally/c413.json"
+   }
+  ]
+ }
+}

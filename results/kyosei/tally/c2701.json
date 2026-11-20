@@ -1,0 +1,13 @@
+{
+ "dir": "kyosei",
+ "check": "c2701",
+ "label": "",
+ "note": "矯正統計年報：法務省の統計の正誤情報の訂正が現行ファイルに入っているか",
+ "source": "check",
+ "compared": 467,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 107,
+ "script_sha256": "30903bd7799094eb19956afdefb18438c252de907163d802e0ebe3401b582c20",
+ "written_utc": "2026-11-17T12:30:10Z"
+}

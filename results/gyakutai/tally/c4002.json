@@ -1,0 +1,13 @@
+{
+ "dir": "gyakutai",
+ "check": "c4002",
+ "label": "",
+ "note": "障害者虐待の対応状況：報道発表の前回調査欄・経年グラフ・増減率",
+ "source": "check",
+ "compared": 57,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "33090637b3e472067c20754612bb14031b4e9792ea33b7e91edf29fb94164c3e",
+ "written_utc": "2026-11-17T12:30:18Z"
+}

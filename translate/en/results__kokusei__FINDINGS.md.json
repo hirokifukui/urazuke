@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "37a6aca9e7a5aa72fa10864951b823c47c10596c31c5d4bbe9eea264e0d494b2": {
+   "ja": "# 国勢調査の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Population Census (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/kokusei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "c0c2659546a83562ecf2dd19d1334f29a4da398bb4d630361fcd002ede477078": {
+   "ja": "## 対象と取得\n- 総務省 国勢調査「都道府県・市区町村別の主な結果」：2025年（令和7年、2026-09-29 公表）と 2020年。2025年 人口等基本集計 表1-1（Excel）。取得記録：data/raw/kokusei/MANIFEST.tsv。",
+   "en": "## Scope and acquisition\n- Ministry of Internal Affairs and Communications, Population Census `都道府県・市区町村別の主な結果`: 2025 (Reiwa 7, published 2026-09-29) and 2020. 2025 `人口等基本集計` Table 1-1 (Excel). Acquisition record: data/raw/kokusei/MANIFEST.tsv.",
+   "src": "results/kokusei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d9ad7367f039d8aa0757c31f42b403a46a23f28a50ec0070a3aa96ba3182d5ad": {
+   "ja": "## c1601 内部整合・版間（L1・L3）— 誤りなし\n- (a) 各行 総数＝男＋女：3,925行、不一致 0。\n- (b) 都道府県（47）の和＝全国（総数・男・女・2020年組替人口・増減数）：10列、不一致 0。\n- (c) 5年間の人口増減数＝2025年−2020年組替：1,960行、増減率の再計算 1,960行、不一致 0。\n- (d) 2025年表の「2020年の人口（組替）」と2020年表の都道府県の総数：47件中 東京都（+4）・神奈川県（−4）だけ違う。2020年以後の都県の境界変更に伴う組替で、和は一致する。記録にしない。\n- (e) 市区町村（政令市の区を除く）の和＝都道府県：94件、不一致 0。",
+   "en": "## c1601 Internal consistency and between editions (L1, L3) — no errors\n- (a) Total = male + female in each row: 3,925 rows, 0 mismatches.\n- (b) Sum of the prefectures (47) = national figure (total, male, female, 2020 population (reaggregated), change): 10 columns, 0 mismatches.\n- (c) Population change over 5 years = 2025 − 2020 (reaggregated): 1,960 rows; rate of change recalculated for 1,960 rows; 0 mismatches.\n- (d) `2020年の人口（組替）` in the 2025 table compared with the prefectural totals in the 2020 table: of 47 cases, only Tokyo (+4) and Kanagawa (−4) differ. This results from reaggregation following boundary changes between the two prefectures after 2020, and the sum matches. Not recorded.\n- (e) Sum of municipalities (excluding wards of designated cities) = prefecture: 94 cases, 0 mismatches.",
+   "src": "results/kokusei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e129553b19178c2f0c5791f7f8c9fb3f27edd99b2b93b54f42913c1f521e130a": {
+   "ja": "## 陰性対照\n- 2025年の都道府県の男の値を変えた写しで (a) が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- In a copy with the 2025 prefectural male values altered, (a) detected the change (results/scope/negctl_r08.json).",
+   "src": "results/kokusei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "bd3fd601dd94a7f7e483b5c9ca6587c898fc0dd4e5414dbe98190c034f7aff7d": {
+   "ja": "## 照合した件数\n約8,000行。記録なし。",
+   "en": "## Number of items checked\nApproximately 8,000 rows. No records.",
+   "src": "results/kokusei/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

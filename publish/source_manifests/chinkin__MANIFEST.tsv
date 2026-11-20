@@ -1,0 +1,9 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.mhlw.go.jp/toukei/itiran/roudou/chingin/kouzou/z2025/index.html	2025/index.html	11858	683a937b2dc81fbad7772dff95783092fd2e085952d82eecade38a1c5847ac96	200	Tue, 24 Mar 2026 07:03:16 GMT	2026-11-16T18:38:07+00:00
+https://www.mhlw.go.jp/toukei/itiran/roudou/chingin/kouzou/z2025/xls/toukeihyo_gaikyo.xlsx	2025/toukeihyo_gaikyo.xlsx	52327	58ae9bb57e58c808f39d63ae44061aa6882655dcd3eec3a05a27062b4379b6e3	200	Tue, 24 Mar 2026 07:02:27 GMT	2026-11-16T18:38:08+00:00
+https://www.mhlw.go.jp/toukei/itiran/roudou/chingin/kouzou/z2025/xls/zuhyo.xlsx	2025/zuhyo.xlsx	417212	30addec9aa73f6bc4bc2e51f6d5aa6008dda632fd607484f82ad222e2f37b1cf	200	Tue, 24 Mar 2026 07:02:25 GMT	2026-11-16T18:38:08+00:00
+https://www.mhlw.go.jp/toukei/itiran/roudou/chingin/kouzou/z2025/dl/14.pdf	2025/gaikyo.pdf	1121696	133f4746a716b5b9e7e7ac5c851b14abc6f0f7da22929d36cf9c3941dc10d2b3	200	Tue, 24 Mar 2026 07:02:42 GMT	2026-11-16T18:38:09+00:00
+https://www.mhlw.go.jp/toukei/itiran/roudou/chingin/kouzou/z2024/index.html	2024/index.html	11872	c5b00eea4ad9914cf55ba5b5be438b39905724334383f5136c2a84a35fb8dec6	200	Mon, 17 Mar 2025 07:01:46 GMT	2026-11-16T18:38:09+00:00
+https://www.mhlw.go.jp/toukei/itiran/roudou/chingin/kouzou/z2024/xls/toukeihyo_gaikyo.xlsx	2024/toukeihyo_gaikyo.xlsx	45474	86cbbbdb7a004e35f49e82ebccb2371cc36cdbbe39e321c739886366637721f2	200	Mon, 17 Mar 2025 07:01:24 GMT	2026-11-16T18:38:10+00:00
+https://www.mhlw.go.jp/toukei/itiran/roudou/chingin/kouzou/z2024/xls/zuhyo.xlsx	2024/zuhyo.xlsx	426962	bc3e00387826e692594cbfcdfd9dd280d571a1f168a8ddb8b529277359019cfc	200	Mon, 17 Mar 2025 07:01:25 GMT	2026-11-16T18:38:11+00:00
+https://www.mhlw.go.jp/toukei/itiran/roudou/chingin/kouzou/z2024/dl/14.pdf	2024/gaikyo.pdf	822192	9b3772d976b9ed6975d23a16aad6b59524770d8adf81bef8cd06cc7047886343	200	Mon, 17 Mar 2025 07:00:49 GMT	2026-11-16T18:38:11+00:00

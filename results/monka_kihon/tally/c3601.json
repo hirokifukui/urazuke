@@ -1,0 +1,13 @@
+{
+ "dir": "monka_kihon",
+ "check": "c3601",
+ "label": "",
+ "note": "学校基本調査 表1：計＝国立＋公立＋私立、比率、版間",
+ "source": "check",
+ "compared": 236,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "32d1e3036e48f39335b7f2ce1959da255fb7d30d06ae942f73d87e1d48a8e766",
+ "written_utc": "2026-11-17T12:34:07Z"
+}

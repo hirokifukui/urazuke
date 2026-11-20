@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c009v",
+ "label": "67to68v",
+ "note": "犯罪白書 2版間：値で対応させた列の同じ年の値",
+ "source": "check",
+ "compared": 40726,
+ "mismatched": 10,
+ "explained": 0,
+ "read_failures": 47017,
+ "script_sha256": "66d6eebc63735b713f8d22f6dec9402754fce4970b7ec7d580ef47eae0d9c6dc",
+ "written_utc": "2026-11-17T12:57:42Z"
+}

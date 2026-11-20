@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "c2524f4d2466dcef1b41defa0d9a1fc503197d0296f6fc4f891f4936bb6d5b08": {
+   "ja": "# 人口推計の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of Population Estimates (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/jinko_suikei/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "2c2ac788465f9441ef4b8fb53ba31b6b7749a5d5f0a801c8a533b8b78c99a5c7": {
+   "ja": "## 対象と取得\n- 総務省 人口推計（各年10月1日現在）2024年・2023年の統計表 Excel 5本ずつと PDF。取得記録：data/raw/jinko_suikei/MANIFEST.tsv。\n- 2025年10月1日現在の年次の結果は、2026-11-17 の時点で統計局の「各年10月1日現在人口」の一覧にない（月次は「令和2年国勢調査を基準とする確定値」で公表中）。公表予定は今回確かめていない。",
+   "en": "## Scope and acquisition\n- Ministry of Internal Affairs and Communications Population Estimates (as of 1 October each year): five Excel statistical tables each for 2024 and 2023, and PDFs. Acquisition log: data/raw/jinko_suikei/MANIFEST.tsv.\n- As of 2026-11-17, the annual results as of 1 October 2025 are not in the Statistics Bureau's list `各年10月1日現在人口` (population as of 1 October each year) (monthly figures are being published as \"final figures based on the 2020 Population Census\"). The scheduled publication date was not checked this time.",
+   "src": "results/jinko_suikei/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "73c23c8754421cf305344a53fb210849aa6cf43c35b4ee8fe0149b025234e590": {
+   "ja": "## c2801（L1・版間）\n- 第1表（各歳 男+女=男女計）、第2表（男+女、都道府県の和=全国）、第3表（3区分の和=第2表、男+女）、参考表2（1950〜2023年の男女別人口）の版間。千人単位の丸めに許容幅を置いた。\n- 不一致 0。参考表2 の共通74年は 2023年版と2024年版で同じ。",
+   "en": "## c2801 (L1, between editions)\n- Between-edition comparison of Table 1 (by single year of age, male + female = both sexes), Table 2 (male + female, sum of prefectures = national), Table 3 (sum of the three age groups = Table 2, male + female) and Reference Table 2 (population by sex, 1950–2023). A tolerance was allowed for rounding to thousands.\n- Mismatches: 0. In Reference Table 2, the 74 years common to both editions are identical in the 2023 edition and the 2024 edition.",
+   "src": "results/jinko_suikei/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "20951047aecbabf1bbef26db1927201aa6d02041c7b2166537385739e4812953": {
+   "ja": "## 陰性対照\n- 2024年 第2表 北海道 男女計を変えた写しで検出。",
+   "en": "## Negative control\n- Detected in a copy in which the both-sexes figure for Hokkaido in the 2024 Table 2 was altered.",
+   "src": "results/jinko_suikei/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d8120a97c44d4f52f2e9f4c1f265dcc19769aa37d6f67006e69e4f53f9795be5": {
+   "ja": "## 照合した件数\n数百式。記録なし。",
+   "en": "## Number of checks\nSeveral hundred formulas. No records.",
+   "src": "results/jinko_suikei/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

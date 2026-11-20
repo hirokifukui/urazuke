@@ -1,0 +1,8 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.mhlw.go.jp/toukei/saikin/hw/kanja/23/xls/hyo.xlsx	2023/hyo.xlsx	289909	32439e66f0935189d7b81c596055abcbf63dc969641e17b40fe9ae3581f4673f	200	Thu, 09 Jan 2025 01:49:14 GMT	2026-11-16T17:27:19+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/kanja/23/xls/toukei.xlsx	2023/toukei.xlsx	164551	e2f8e0369c2bf05463e21c5dd48640fe6866c4e22e99b99359c51538659b8ddc	200	Fri, 20 Dec 2024 05:52:43 GMT	2026-11-16T17:27:19+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/kanja/23/xls/sankou.xlsx	2023/sankou.xlsx	23736	56d13e2083b66aaaa80b5f04b58779a63e0980622a2dc9a9269f0db00d7d9024	200	Fri, 20 Dec 2024 05:52:42 GMT	2026-11-16T17:27:20+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/kanja/23/dl/kanjya.pdf	2023/kanjya.pdf	813903	ba96bce2b78b4dd1d1dec1f2abcee02a5f9054c10133561b67b90bf0a32272b1	200	Fri, 20 Dec 2024 05:52:32 GMT	2026-11-16T17:27:21+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/kanja/23/dl/soukanjya.pdf	2023/soukanjya.pdf	295003	b01f2fde7962a7ef6fdc6c4f4a763e4c9dd2d7b4f6b46124ecdcd3f055d41f7c	200	Fri, 20 Dec 2024 05:52:35 GMT	2026-11-16T17:27:21+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/kanja/23/dl/suikeikanjya.pdf	2023/suikeikanjya.pdf	354181	87753e28a4fc975e0ee325d839bbf8ad238610a3a1bdd249d3d50c583abc2168	200	Fri, 20 Dec 2024 05:52:36 GMT	2026-11-16T17:27:22+00:00
+https://www.mhlw.go.jp/toukei/saikin/hw/kanja/23/dl/toukei.pdf	2023/toukei.pdf	533283	67067be6ea036282d8437abd67a357334913213c7c1491b0f2cb366c82055cea	200	Fri, 20 Dec 2024 05:52:38 GMT	2026-11-16T17:27:22+00:00

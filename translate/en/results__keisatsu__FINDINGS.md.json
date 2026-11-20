@@ -1,0 +1,77 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "89cafa9d1d532c28c1c21c2f67e455b80b1e9d005cdf35600f701efdff7d1d06": {
+   "ja": "# 犯罪統計（警察庁「犯罪統計資料」「犯罪統計書」）・警察白書 — 検証の記録（2026-11-16、探索）\n確実さ：確定＝ファイル上で再現できる／推定＝読み取り方に依存する／要照会＝当局に聞かないと決まらない。\n確認の状態：機械検証のみ（人による確認はまだ）。",
+   "en": "# Crime Statistics (National Police Agency, `犯罪統計資料` \"Crime Statistics Data\" and `犯罪統計書` \"Crime Statistics\") and White Paper on Police — record of verification (2026-11-16, exploratory)\nCertainty: Established = reproducible from the files / Inferred = depends on how the data are read / Requires inquiry = cannot be determined without asking the authority.\nVerification status: Machine-verified only (not yet checked by a person).",
+   "src": "results/keisatsu/FINDINGS.md",
+   "src_commit": "3ec58ad",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9978429dd645d4546485578f62a1a850e38c270e14872ab23c3e245104b56de7": {
+   "ja": "## 取得（data/raw/keisatsu/、MANIFEST.tsv）\n- 犯罪統計資料（e-Stat 00130001）平成27〜令和7年：令和2年以降は CSV＋PDF、平成27〜令和元年は PDF のみ。平成27・28年は e-Stat の一覧に出ず、statInfId 000031368126・000031530270 を取得して表紙で年を確かめた（estat/RENAMED.tsv）。令和6年の PDF は未取得（CSV は既存）。\n- 犯罪統計書「年間の犯罪」全体版 PDF 平成27〜令和7年（11版、Excel の掲載はない）。\n- 警察白書 統計資料（Excel）平成28〜令和8年版 1,033 ファイル、正誤表（「訂正とお詫び」「修正内容」）平成28〜令和7年版の10本。\n- 訂正の公表：犯罪統計数値(平成29年)の一部訂正（平成31年3月8日）、令和3年の犯罪の一部訂正（令和5年10月2日）、令和4年の犯罪の一部訂正（令和5年11月29日）、平成13年の犯罪の一部訂正。\n- 差し替え前の版（Wayback）：令和3年の犯罪（2022-10-31 保存）、令和4年の犯罪（2023-11-07 保存）。平成29年の犯罪は2021年の保存しかなく、訂正後の版だった。",
+   "en": "## Acquisition (data/raw/keisatsu/, MANIFEST.tsv)\n- Crime Statistics Data (e-Stat 00130001), 2015–2025: CSV + PDF from 2020 onward; PDF only for 2015–2019. 2015 and 2016 do not appear in the e-Stat listing; statInfId 000031368126 and 000031530270 were downloaded and the year was confirmed from the cover page (estat/RENAMED.tsv). The PDF for 2024 has not been acquired (the CSV is already held).\n- Crime Statistics (National Police Agency) `年間の犯罪` (\"Crimes during the Year\") full-version PDF, 2015–2025 (11 editions; no Excel version is published).\n- White Paper on Police statistical annex (Excel), 2016 (Heisei 28) to 2026 (Reiwa 8) editions, 1,033 files; errata (`訂正とお詫び`, `修正内容`) for the 2016 (Heisei 28) to 2025 (Reiwa 7) editions, 10 documents.\n- Published corrections: partial correction of crime statistics figures (2017) (8 March 2019); partial correction of \"Crimes in 2021\" (2 October 2023); partial correction of \"Crimes in 2022\" (29 November 2023); partial correction of \"Crimes in 2001\".\n- Editions before replacement (Wayback): \"Crimes in 2021\" (saved 2022-10-31), \"Crimes in 2022\" (saved 2023-11-07). For \"Crimes in 2017\" only a 2021 capture exists, and it was the corrected edition.",
+   "src": "results/keisatsu/FINDINGS.md",
+   "src_commit": "3ec58ad",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3e224d8bb9b267369e28d2be280a2f903ae3fb9917f13938cf0c4bbbbf148007": {
+   "ja": "## (a) 内部の整合\n- c401：犯罪統計資料 CSV 令和2〜7年の全表（第1〜15表）で、内訳＝計、総数＝ブロックの和、「うち」≦親、増減・増減率・検挙率・増減ポイントの再計算。**99,314件、食い違い0件（確定）**。\n  - 負の対照：令和6年の CSV の刑法犯総数 認知件数を1件だけ書き換えた写しで走らせ、増減・総数・版の比較の3つの検査が拾うことを確かめた。\n  - 読み取りの注意：第5表・第12表は表の標識が2列目にある。第5表は1つの標識の下に件数の表と人員の表がある。第13表は見出しが3段。第7・8表の「うち)男」「うち)女」は部分集合で、法人等があるため男＋女≠総数。\n- c403（形式間）：同じ年の PDF と CSV（令和2〜5・7年）の第1・3表、約1,400値が一致。\n- c405（白書の内部）：警察白書 統計資料2-1（都道府県別刑法犯）の「全国＝都道府県の和」33件、「刑法犯総数＝包括罪種の和」260件、すべて一致。",
+   "en": "## (a) Internal consistency\n- c401: across all tables (Tables 1–15) of the Crime Statistics Data CSV for 2020–2025, breakdown = sum, total = sum of blocks, \"of which\" ≤ parent, and recalculation of change, rate of change, clearance rate and change in percentage points. **99,314 items, 0 discrepancies (Established).**\n  - Negative control: run on a copy of the 2024 CSV in which the number of recognised cases for the Penal Code offences total was altered by 1; confirmed that three checks (change, total, comparison between editions) detect it.\n  - Notes on reading: in Tables 5 and 12, the table identifier is in the second column. Table 5 has a table of cases and a table of persons under a single identifier. Table 13 has three levels of headings. In Tables 7 and 8, `うち)男` (\"of which: male\") and `うち)女` (\"of which: female\") are subsets, and because legal entities etc. are included, male + female ≠ total.\n- c403 (between formats): for the same year, the PDF and CSV (2020–2023 and 2025) Tables 1 and 3, about 1,400 values, match.\n- c405 (internal to the white paper): in White Paper on Police statistical annex 2-1 (Penal Code offences by prefecture), 33 checks of \"national = sum of prefectures\" and 260 checks of \"total Penal Code offences = sum of comprehensive offence categories\" all match.",
+   "src": "results/keisatsu/FINDINGS.md",
+   "src_commit": "3ec58ad",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "c4a4940c757d1ab9b9adf2ae5c3ad5ead7a59d091073618c31f82e233db1a050": {
+   "ja": "## (b) 版の比較\n- c402：犯罪統計資料 CSV の「前年」列 ↔ 前年の資料の「当年」列（令和3〜7年版）。一致 34,621件。食い違いは2件で、令和2年の第15表「その他」（暴力団犯罪・特別法犯）。令和3年版で主要法令の区分が増え「その他」が縮んだもの（特別法犯計 7,793 は一致）。**説明のない改訂は0件（確定）**。\n- c403：PDF を含めて平成27年→令和7年の第1・3表をつなぐ。各年の組で約140〜310値、**食い違い0件**。\n- c404：白書の統計資料の Last-Modified の外れ値（同じ版の最頻日から7日以上）。36版で1件だけ：令和6年版 5-2（都道府県別の交通事故発生状況）が 2024-12-09（他は 2024-07-26）。令和6年版の正誤表（統計5-2 の「人口10万人当たり死者数・負傷者数」、総数の負傷者 285.4→292.6）と一致し、現行の Excel は訂正後の値。**告知のない差し替えは0件**。",
+   "en": "## (b) Comparison between editions\n- c402: Crime Statistics Data CSV \"previous year\" column ↔ \"current year\" column of the previous year's data (2021 (Reiwa 3) to 2025 (Reiwa 7) editions). 34,621 matches. There are 2 discrepancies, in the \"Other\" rows of Table 15 for 2020 (organised crime group offences, special law offences). In the 2021 edition (Reiwa 3) the categories of major laws were increased and \"Other\" became smaller (the special law offences total of 7,793 matches). **0 unexplained revisions (Established).**\n- c403: Tables 1 and 3 linked from 2015 to 2025, including the PDFs. About 140–310 values per pair of years, **0 discrepancies**.\n- c404: outliers in the Last-Modified dates of the white paper statistical annex files (7 or more days from the modal date of the same edition). Only 1 case across 36 editions: 2024 edition (Reiwa 6) 5-2 (traffic accidents by prefecture) is 2024-12-09 (the others are 2024-07-26). This matches the errata for the 2024 edition (Reiwa 6) (statistical annex 5-2, \"deaths and injuries per 100,000 population\", injuries for the total 285.4→292.6), and the current Excel contains the corrected values. **0 replacements without notice.**",
+   "src": "results/keisatsu/FINDINGS.md",
+   "src_commit": "3ec58ad",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "676b14e3c1d613cc92200c94786ab7a55bc8093bbefcf58211a7ecf4352f3042": {
+   "ja": "## (c) 他の資料との突き合わせ\n- c405：警察白書 統計資料2-1（平成28〜令和8年版＝2015〜2025年の値）↔ 犯罪統計資料 第3表 刑法犯総数（認知・検挙件数・検挙人員、都道府県・方面）。**1,857値、食い違い0件（確定）**。\n- c406（checks/cross）：犯罪白書 資料1-1（令和2〜7年版）↔ 犯罪統計資料 第1表 刑法犯総数（2015〜2024年）。**120値、すべて一致**。白書の「刑法犯」と警察の「刑法犯総数」の範囲（交通業過を除く）がそろっていることも、これで確かめられた。",
+   "en": "## (c) Cross-checks with other sources\n- c405: White Paper on Police statistical annex 2-1 (2016 (Heisei 28) to 2026 (Reiwa 8) editions = values for 2015–2025) ↔ Crime Statistics Data Table 3, total Penal Code offences (recognised cases, cleared cases, persons cleared, by prefecture and area). **1,857 values, 0 discrepancies (Established).**\n- c406 (checks/cross): White Paper on Crime Appendix 1-1 (2020 (Reiwa 2) to 2025 (Reiwa 7) editions) ↔ Crime Statistics Data Table 1, total Penal Code offences (2015–2024). **120 values, all match.** This also confirmed that the scope of the white paper's \"Penal Code offences\" and the police's \"total Penal Code offences\" (excluding traffic-related professional negligence) is aligned.",
+   "src": "results/keisatsu/FINDINGS.md",
+   "src_commit": "3ec58ad",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "de81db64bacfa90146e589fd575aad78a08477c262265b3781bdb84433b4dd80": {
+   "ja": "## 陽性対照（訂正の公表を検査で再検出できるか）\n1. 令和3年の犯罪（交通事故事件 2021年 検挙件数 289,185→289,754、検挙人員 297,307→297,882）：差し替え前の令和3年版（Wayback）に 289,185 があり、現行の令和3〜7年版はすべて 289,754。版の比較で再検出できる。**確定**。\n2. 令和4年の犯罪（青少年保護育成条例違反 総数 件数 2,268→2,276、人員 1,769→1,772）：差し替え前の令和4年版に 2,268/1,769、現行の令和4年版に 2,276/1,772。**確定**。\n3. 平成29年の訂正（強制わいせつの被害者の性別1件）：犯罪白書側では c005 で再検出済み。犯罪統計資料・年報の訂正前の版は入手できず、警察側での再検出はできていない。\n4. 警察白書 令和6年版 統計5-2：c404 の Last-Modified の外れ値として再検出。",
+   "en": "## Positive controls (whether the checks re-detect published corrections)\n1. \"Crimes in 2021\" (traffic accident cases, 2021, cleared cases 289,185→289,754, persons cleared 297,307→297,882): the 2021 edition (Reiwa 3) before replacement (Wayback) has 289,185, and the current 2021 (Reiwa 3) to 2025 (Reiwa 7) editions all have 289,754. Re-detectable by comparison between editions. **Established.**\n2. \"Crimes in 2022\" (violations of youth protection and development ordinances, total, cases 2,268→2,276, persons 1,769→1,772): the 2022 edition (Reiwa 4) before replacement has 2,268/1,769, and the current 2022 edition (Reiwa 4) has 2,276/1,772. **Established.**\n3. Correction for 2017 (sex of 1 victim of forcible indecency): already re-detected on the White Paper on Crime side by c005. The pre-correction editions of the Crime Statistics Data and the annual report could not be obtained, and re-detection on the police side has not been achieved.\n4. White Paper on Police 2024 edition (Reiwa 6) statistical annex 5-2: re-detected as a Last-Modified outlier by c404.",
+   "src": "results/keisatsu/FINDINGS.md",
+   "src_commit": "3ec58ad",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9d18a88b3e6a7d2f7a199009bb5e61b6309723c82ccdae10173191b7f72a8038": {
+   "ja": "## 気づいたこと（誤りの判定ではない）\n- 警察白書の正誤表は10版すべてにある。猟銃等の所持許可件数（図表2-43／2-54）は、平成28・29・30年版の3版続けて同じ過去の値（2012〜2016年）が訂正されている。誤った値が翌年の版にそのまま持ち越された型。白書本文の PDF は取得しておらず、図表と本文の照合は未着手。\n- 警察の訂正の公表（令和3・4年の犯罪）は、年報を「訂正版に差し替え」る形で、差し替え前のファイルはサイトに残らない。Wayback がなければ訂正前の値は確かめられない。",
+   "en": "## Observations (not judgments of error)\n- Errata exist for all 10 editions of the White Paper on Police. For the number of possession permits for hunting guns etc. (Figure/Table 2-43/2-54), the same past values (2012–2016) were corrected in three consecutive editions, 2016, 2017 and 2018 (Heisei 28, 29 and 30). This is the pattern in which an incorrect value was carried over unchanged into the following year's edition. The white paper main-text PDFs have not been acquired, and comparison of figures/tables with the main text has not started.\n- The police's published corrections (\"Crimes in 2021\" and \"Crimes in 2022\") take the form of \"replacing with a corrected version\" of the annual report, and the files before replacement do not remain on the site. Without Wayback, the values before correction cannot be confirmed.",
+   "src": "results/keisatsu/FINDINGS.md",
+   "src_commit": "3ec58ad",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "3424a8532aeeb2db6f0fe2030499c13791900516cf6a7c60c1ef18255fb22ea8": {
+   "ja": "## まだ行っていないこと\n- 警察白書の本文 PDF（本文の数字・前年比 ↔ 統計資料）。\n- 犯罪統計書（年報）の表どうしの整合（PDF 約400頁×11版。今回は訂正箇所の確認だけ）。\n- 平成27〜令和元年の第3表のうち、方面別の一部の行は名前の対応が取れていない（c403 の「対応なし」）。",
+   "en": "## Not yet done\n- White Paper on Police main-text PDFs (figures and year-on-year comparisons in the main text ↔ statistical annex).\n- Consistency between tables within the Crime Statistics (National Police Agency) annual report (PDFs of about 400 pages × 11 editions; this time only the corrected parts were checked).\n- In Table 3 for 2015–2019, some rows by area have not been matched by name (\"no match\" in c403).",
+   "src": "results/keisatsu/FINDINGS.md",
+   "src_commit": "3ec58ad",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "dedda91254be7c45c70c7726e749723038b9a0902a0b25c888ca81dee028aeb0": {
+   "ja": "## 追記（2026-11-17、r20）：犯罪統計書 第56表の関係の区分（KH-K1）\n- ストーカー統計との並置の作業の中で確かめた。記録・数値は results/stalker/FINDINGS.md の r20 の節と checks/stalker/c414 にある。\n- 要点：第56表の関係の区分は令和2年に「配偶者（内縁含む）」から「配偶者」「元配偶者」「交際相手」に分かれたが、注も凡例の定義もない。元交際相手の区分はない。各行の区分の和＝総数は 339/339。",
+   "en": "## Addendum (2026-11-17, r20): relationship categories in Table 56 of the Crime Statistics (National Police Agency) (KH-K1)\n- Confirmed in the course of placing the data alongside the stalking statistics. The records and figures are in the r20 section of results/stalker/FINDINGS.md and in checks/stalker/c414.\n- Key points: in 2020 the relationship categories of Table 56 were split from \"spouse (including common-law)\" into \"spouse\", \"former spouse\" and \"dating partner\", but there is neither a note nor a legend definition. There is no category for former dating partner. Sum of categories = total in each row: 339/339.",
+   "src": "results/keisatsu/FINDINGS.md",
+   "src_commit": "3ec58ad",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

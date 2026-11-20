@@ -1,0 +1,13 @@
+{
+ "dir": "jisatsu",
+ "check": "c203",
+ "label": "",
+ "note": "自殺の統計：暫定値（1月）と確定値（3月）の同じ表のセル",
+ "source": "check",
+ "compared": 42180,
+ "mismatched": 10241,
+ "explained": 10241,
+ "read_failures": 0,
+ "script_sha256": "4e4b1530ce14d30a7f160d713344bff64f294d15cd9f8c74dc14862a87a0483e",
+ "written_utc": "2026-11-17T12:25:49Z"
+}

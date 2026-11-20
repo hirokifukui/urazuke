@@ -1,0 +1,152 @@
+{
+ "shibo_21": {
+  "script": "checks/gyakutai/c4001_shibo_hyo12.py",
+  "pattern": "\"版\": 21, \"表\": \"表2自殺\"",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "shibo_20v": {
+  "script": "checks/gyakutai/c4001_shibo_hyo12.py",
+  "pattern": "\"版\": \"20→21\"",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "shogai_r05": {
+  "script": "checks/gyakutai/c4002_shogai_press.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "shogai_rate": {
+  "script": "checks/gyakutai/c4002_shogai_press.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "kyosei_64": {
+  "script": "checks/saihan/c3901_sainyu.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "shogai_h32": {
+  "script": "checks/gyakutai/c4004_shogai_houkoku.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "shibo_t59": {
+  "script": "checks/gyakutai/c4003_shibo_tables.py",
+  "pattern": "\"版\": 22, \"表\": \"表 59[^\"]*\", \"行\": \\d+, \"列\": 1, \"検査\": \"内訳の和",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "shogai_pref": {
+  "script": "checks/gyakutai/c4005_shogai_pref.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "hk_542": {
+  "script": "checks/saihan/c3903_542.py",
+  "pattern": "\"版\": \"令和7年版\", \"シート\": \"（H28～R６）①\", \"年\": \"平成28年\"",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "hk_5310": {
+  "script": "checks/saihan/c3902_5310.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "mhoa_wb": {
+  "script": "checks/iryokansatsu/c3003_nyuin_wayback.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "yk_c4101": {
+  "script": "checks/moj_yakubutsu/c4101_recalc.py",
+  "mutation": "転記値 保護 表5 薬物再犯 受講 30.3 → 30.4（スクリプトの写しで）",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true
+ },
+ "kn_c4201": {
+  "script": "checks/moj_kensho2/c4201_recalc.py",
+  "mutation": "転記値 表2 溶接科 一致率 56.8 → 57.8（スクリプトの写しで）",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true
+ },
+ "r06_seigo": {
+  "script": "checks/kyosei_ninchi/c4301_ninchi.py",
+  "pattern": "235頁 診断 +Web本文 誤0 正1",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": "/Users/hiroki/.venvs/urazuke/lib/python3.14/site-packages/openpyxl/reader/workbook.py:118: UserWarning: Print area cannot be set to Defined name: '25-00-09'!$1:$39.\n  warn(f\"Print area cannot be set to Defined name: {defn.value}.\")\n"
+ },
+ "settou": {
+  "script": "checks/kyosei_ninchi/c4401_settou_korei.py",
+  "pattern": "不一致 2024 総数 総数",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "shogai_tate": {
+  "script": "checks/gyakutai/c4006_shogai_tate.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "mhoa_wb2014": {
+  "script": "checks/iryokansatsu/c3003_nyuin_wayback.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "zero_past": {
+  "script": "checks/kyosei_ninchi/c4502_zero_past.py",
+  "pattern": "2024 24-00-37.*発達障害",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": "/Users/hiroki/.venvs/urazuke/lib/python3.14/site-packages/openpyxl/reader/workbook.py:118: UserWarning: Print area cannot be set to Defined name: '25-00-09'!$1:$39.\n  warn(f\"Print area cannot be set to Defined name: {defn.value}.\")\n"
+ },
+ "kohyo_vanish": {
+  "script": "checks/kyoin_chokai/c4602_jokyo.py",
+  "pattern": "一時的に消えた：2022年度調査まで「懲戒処分に関する処分基準の作成及び懲戒処分の公表",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ }
+}

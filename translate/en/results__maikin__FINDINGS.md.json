@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "c59853b82b57632489e83c959df115441dff7ba4db036bd3c6c10b3a7de9a656": {
+   "ja": "# 毎月勤労統計調査の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Monthly Labour Survey (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/maikin/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "4f8a2626771285413a2cb638c242ad0d3a6e725106f683df13f5f63360c142c8": {
+   "ja": "## 対象と取得\n- 厚生労働省 毎月勤労統計調査（全国調査）2025年分結果確報・2024年分結果確報：第1表（月間現金給与額）、時系列第1表（賃金指数）、付表、概況 PDF。取得記録：data/raw/maikin/MANIFEST.tsv。\n- この統計は過去に作成方法が問題になったことがある。ここでは数値と版の差だけを記録の対象にする（METHODS・r07 引き継ぎの方針）。",
+   "en": "## Scope and acquisition\n- Ministry of Health, Labour and Welfare, Monthly Labour Survey (national survey), final results for 2025 and final results for 2024: Table 1 (monthly cash earnings), Time-series Table 1 (wage indices), appendix tables, summary PDF. Acquisition log: data/raw/maikin/MANIFEST.tsv.\n- The compilation methods of this statistic have been at issue in the past. Here, only figures and differences between editions are subject to records (policy in METHODS and the r07 handover).",
+   "src": "results/maikin/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "9ca646b818384b5a7442553b1d779955eede00b42cae3d3b1c75ec7a0fa4ef77": {
+   "ja": "## c2301 内部整合・再計算・版間（L1・L5・L3）\n- (a) 第1表 現金給与総額＝きまって支給する給与＋特別に支払われた給与、きまって支給＝所定内＋所定外：72組（2年）、差 0。\n- (b) 時系列第1表の指数から前年比を再計算：21組。2024年の3組（現金給与総額・きまって支給・所定内）だけ公表の前年比と違う（例：現金給与総額 指数 103.5→109.2 で 5.5％、公表 2.8％）。概況 PDF の注6 に「令和６年１月分確報において…ベンチマーク更新を実施した。令和６年の前年比等については、令和５年１月にベンチマーク更新を行った参考値を作成し…算出しているため、指数から算出した場合と一致しない」とあり、説明がつく。時系列第1表の Excel には同じ注がない（実質前年比の注だけ）。記録にしない。\n- (c) 2025年版と2024年版の時系列第1表の重なる年の指数：21組、差 0。",
+   "en": "## c2301 Internal consistency, recalculation, between editions (L1, L5, L3)\n- (a) Table 1: total cash earnings = contractual cash earnings + special cash earnings; contractual cash earnings = scheduled + non-scheduled: 72 pairs (2 years), difference 0.\n- (b) Year-on-year changes recalculated from the indices in Time-series Table 1: 21 pairs. Only 3 pairs for 2024 (total cash earnings, contractual cash earnings, scheduled cash earnings) differ from the published year-on-year changes (e.g. total cash earnings index 103.5→109.2 gives 5.5%, published 2.8%). Note 6 of the summary PDF states: \"In the final results for January 2024 … a benchmark update was implemented. Because the year-on-year changes etc. for 2024 are … calculated by producing reference values with a benchmark update applied as of January 2023, they do not match those calculated from the indices\", which accounts for the difference. The Excel file of Time-series Table 1 does not carry the same note (only the note on real year-on-year changes). Not recorded.\n- (c) Indices for overlapping years in Time-series Table 1 of the 2025 and 2024 editions: 21 pairs, difference 0.",
+   "src": "results/maikin/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "33e8d493eb8350f9253ea0698b0fc04c5df44e8aaea3d701a3f1d3c77c7dba7c": {
+   "ja": "## 陰性対照\n- 第1表 調査産業計のきまって支給の値を変えた写しで (a) が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- (a) detected the change in a copy in which the contractual cash earnings value for all industries surveyed in Table 1 was altered (results/scope/negctl_r08.json).",
+   "src": "results/maikin/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "dd4fe044e871e6e6d034f412f3ca3e53bda3c3a1bf0194d5d9b9ba4f1ee722f4": {
+   "ja": "## 照合した件数\n約110組。記録なし。",
+   "en": "## Number of comparisons\nAbout 110 pairs. No records.",
+   "src": "results/maikin/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

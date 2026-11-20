@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "f2d804a0d07fe8655f5fd128a152c6892bb9a7622feca9189072b1fc920e5181": {
+   "ja": "# 男女共同参画白書の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the White Paper on Gender Equality (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/danjo_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d234e15d395f02659e5d9772f48f4641f654c0660e7d6baa4c516eb75a81d052": {
+   "ja": "## 対象と取得\n- 内閣府 男女共同参画白書 令和8年版（第1章〜第11章 PDF、附属資料 PDF）。取得記録：data/raw/danjo_hakusho/MANIFEST.tsv。",
+   "en": "## Scope and acquisition\n- Cabinet Office, White Paper on Gender Equality, 2026 edition (Reiwa 8) (Chapters 1–11 PDF, appendix PDF). Acquisition log: data/raw/danjo_hakusho/MANIFEST.tsv.",
+   "src": "results/danjo_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "8529f93b120864c6d344b9d03f1218da11540f6396e9c4e95aab0792191f2d92": {
+   "ja": "## c2201 引用元の統計との突き合わせ（L4）— 誤りなし\n- 5-7図 ストーカー事案の相談等件数：令和7年 22,881、令和6年 19,567。警察庁の令和7年 CSV の被害者の男性＋女性と一致。\n- 5-10図 不同意性交等 4,177（前年比 +241）、不同意わいせつ 7,193（+201）。警察庁「犯罪統計」令和7年・令和6年の認知件数と一致。",
+   "en": "## c2201 Cross-check against the source statistics (L4) — no errors\n- Figure 5-7, number of consultations etc. concerning stalking cases: 22,881 in 2025, 19,567 in 2024. Matches the sum of male and female victims in the National Police Agency's 2025 CSV.\n- Figure 5-10, non-consensual sexual intercourse etc. 4,177 (+241 from the previous year), non-consensual indecency 7,193 (+201). Matches the numbers of recognised cases in the National Police Agency's \"Crime Statistics\" for 2025 and 2024.",
+   "src": "results/danjo_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "faab1cfb981870450de09e649da218ed869ec5e9bd7274b78dbbc108929ca123": {
+   "ja": "## 陰性対照\n- 白書の 19,567 を変えた写しで不一致を検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- A mismatch was detected in a copy in which the white paper's 19,567 was altered (results/scope/negctl_r08.json).",
+   "src": "results/danjo_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "52ce90f109f168eb0f96294d32f6f3276fddb6ea36d2d4b2b1a79de860f38d4c": {
+   "ja": "## 照合した件数\n6件。記録なし。",
+   "en": "## Number of items checked\n6. No records.",
+   "src": "results/danjo_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

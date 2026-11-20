@@ -1,0 +1,2450 @@
+{
+ "rounds": [
+  {
+   "round": "R003",
+   "n": 9,
+   "支持": 5,
+   "反証": 0,
+   "判定不能": 4,
+   "controls": 3,
+   "adopted": true,
+   "records": []
+  },
+  {
+   "round": "R004",
+   "n": 4,
+   "支持": 3,
+   "反証": 0,
+   "判定不能": 1,
+   "controls": 8,
+   "adopted": true,
+   "records": []
+  },
+  {
+   "round": "R005",
+   "n": 1,
+   "支持": 1,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": []
+  },
+  {
+   "round": "R006",
+   "n": 1,
+   "支持": 1,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": []
+  },
+  {
+   "round": "R007",
+   "n": 7,
+   "支持": 5,
+   "反証": 0,
+   "判定不能": 2,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "SO-H2",
+    "SO-P1",
+    "SO-H4",
+    "SO-H1",
+    "SO-H5",
+    "SO-P2",
+    "SO-H3"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R008",
+   "n": 4,
+   "支持": 2,
+   "反証": 1,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "JH-A1",
+    "JH-A1",
+    "SJ-A1",
+    "ES-I1"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R009",
+   "n": 5,
+   "支持": 4,
+   "反証": 1,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "KS-A1",
+    "KS-I1",
+    "KJ-L1",
+    "KJ-I1",
+    "KC-A1"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R010",
+   "n": 5,
+   "支持": 3,
+   "反証": 0,
+   "判定不能": 2,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "SD-A1",
+    "SD-A2",
+    "KP-A1",
+    "KP-A2",
+    "KP-C1"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R011",
+   "n": 5,
+   "支持": 5,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "SD-A2",
+    "SD-A3",
+    "SD-A3",
+    "SD-A3",
+    "SD-A3"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R012",
+   "n": 3,
+   "支持": 3,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "HK-A8",
+    "HK-A8",
+    "HK-A8"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R013",
+   "n": 5,
+   "支持": 5,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "YK-C1",
+    "YK-D1",
+    "YK-I1",
+    "BV-P1",
+    "BV-C1"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R014",
+   "n": 2,
+   "支持": 1,
+   "反証": 0,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "SK-C1",
+    "SB-C1"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R015",
+   "n": 5,
+   "支持": 3,
+   "反証": 0,
+   "判定不能": 2,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "HK-A9",
+    "NK-K1",
+    "NK-K1",
+    "NK-K1",
+    "NK-K1"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R016",
+   "n": 4,
+   "支持": 3,
+   "反証": 0,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "HK-A10",
+    "HK-A9",
+    "SB-C1",
+    ""
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R017",
+   "n": 5,
+   "支持": 4,
+   "反証": 1,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "KY-I1",
+    "KY-I1",
+    "KY-I1",
+    "KY-I1",
+    "NK-K1"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R018",
+   "n": 2,
+   "支持": 2,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "KY-I1",
+    "KY-I1"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R019",
+   "n": 3,
+   "支持": 3,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "MK-L1",
+    "KM-K1",
+    ""
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R020",
+   "n": 2,
+   "支持": 1,
+   "反証": 0,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "MK-L2",
+    "MK-L2"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R021",
+   "n": 3,
+   "支持": 3,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "ST-I2",
+    "ST-I2",
+    "KH-K1"
+   ],
+   "date": "2026-11-17"
+  },
+  {
+   "round": "R022",
+   "n": 5,
+   "支持": 4,
+   "反証": 1,
+   "判定不能": 0,
+   "controls": 3,
+   "adopted": false,
+   "records": [
+    "HK-A5",
+    "HK-A1",
+    "HK-A3",
+    "HK-A10",
+    "HK-A2"
+   ],
+   "date": "2026-11-18"
+  },
+  {
+   "round": "R023",
+   "n": 3,
+   "支持": 0,
+   "反証": 2,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "HK-A9",
+    "NK-K1",
+    "SH-A1"
+   ],
+   "date": "2026-11-18"
+  },
+  {
+   "round": "R024",
+   "n": 4,
+   "支持": 3,
+   "反証": 0,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "KS-A1",
+    "SO-H1",
+    "KP-C1",
+    "SO-H4"
+   ],
+   "date": "2026-11-18"
+  },
+  {
+   "round": "R025",
+   "n": 5,
+   "支持": 3,
+   "反証": 1,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "630-M1",
+    "GY-Q1",
+    "ES-I1",
+    "630-D1",
+    "MK-L2"
+   ],
+   "date": "2026-11-18"
+  },
+  {
+   "round": "R026",
+   "n": 5,
+   "支持": 5,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "HK-A1",
+    "HK-A5",
+    "HK-A2",
+    "HK-A10",
+    "HK-A3"
+   ],
+   "date": "2026-11-18"
+  },
+  {
+   "round": "R027",
+   "n": 6,
+   "支持": 4,
+   "反証": 1,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "630-M1",
+    "HK-A9",
+    "KP-C1",
+    "NK-K1",
+    "GY-Q1",
+    "SH-A1"
+   ],
+   "date": "2026-11-18"
+  },
+  {
+   "round": "R028",
+   "n": 2,
+   "支持": 2,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "SH-A1",
+    "HK-A9"
+   ],
+   "date": "2026-11-18"
+  },
+  {
+   "round": "R048",
+   "n": 3,
+   "支持": 3,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "SH-C1",
+    "ST-D1",
+    "SH-A2"
+   ],
+   "date": "2026-11-18"
+  },
+  {
+   "round": "R049",
+   "n": 8,
+   "支持": 0,
+   "反証": 1,
+   "判定不能": 7,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "HK-A1",
+    "HK-A10",
+    "HK-A2",
+    "HK-A3",
+    "HK-A4",
+    "HK-A5",
+    "HK-A6",
+    "HK-A7"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R050",
+   "n": 8,
+   "支持": 6,
+   "反証": 0,
+   "判定不能": 2,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "SO-H1",
+    "SO-H2",
+    "SO-H3",
+    "SO-H4",
+    "SO-H5",
+    "SO-P1",
+    "SO-P2",
+    "ES-I1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R051",
+   "n": 8,
+   "支持": 1,
+   "反証": 0,
+   "判定不能": 7,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "HK-A8",
+    "HK-A9",
+    "HK-B1",
+    "HK-I1",
+    "SH-A1",
+    "SH-A2",
+    "SH-B1",
+    "SH-C1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R052",
+   "n": 8,
+   "支持": 2,
+   "反証": 1,
+   "判定不能": 5,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "ST-B1",
+    "ST-D1",
+    "ST-I1",
+    "ST-I2",
+    "630-A1",
+    "630-D1",
+    "630-M1",
+    "GY-Q1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R053",
+   "n": 8,
+   "支持": 4,
+   "反証": 0,
+   "判定不能": 4,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "KP-A1",
+    "KP-A2",
+    "KP-C1",
+    "MK-I1",
+    "MK-L1",
+    "MK-L2",
+    "BV-C1",
+    "BV-P1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R054",
+   "n": 8,
+   "支持": 4,
+   "反証": 1,
+   "判定不能": 3,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "SD-A1",
+    "SD-A2",
+    "SD-A3",
+    "YK-C1",
+    "YK-D1",
+    "YK-I1",
+    "KJ-I1",
+    "KJ-L1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R055",
+   "n": 8,
+   "支持": 2,
+   "反証": 1,
+   "判定不能": 5,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "KS-A1",
+    "KS-I1",
+    "JH-A1",
+    "KC-A1",
+    "KH-K1",
+    "KM-K1",
+    "KY-I1",
+    "NK-K1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R056",
+   "n": 3,
+   "支持": 1,
+   "反証": 1,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "SB-C1",
+    "SJ-A1",
+    "SK-C1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R057",
+   "n": 8,
+   "支持": 7,
+   "反証": 1,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "HK-A1",
+    "HK-A10",
+    "HK-A2",
+    "HK-A3",
+    "HK-A4",
+    "HK-A5",
+    "HK-A6",
+    "HK-A7"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R058",
+   "n": 8,
+   "支持": 6,
+   "反証": 0,
+   "判定不能": 2,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "HK-A8",
+    "HK-A9",
+    "HK-B1",
+    "HK-I1",
+    "630-A1",
+    "630-D1",
+    "630-M1",
+    "BV-P1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R059",
+   "n": 8,
+   "支持": 1,
+   "反証": 1,
+   "判定不能": 6,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "MK-I1",
+    "MK-L1",
+    "MK-L2",
+    "SH-A1",
+    "SH-A2",
+    "SH-B1",
+    "YK-C1",
+    "YK-D1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R060",
+   "n": 8,
+   "支持": 7,
+   "反証": 1,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "ST-B1",
+    "ST-I1",
+    "ST-I2",
+    "ES-I1",
+    "JH-A1",
+    "KC-A1",
+    "KH-K1",
+    "KJ-L1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R061",
+   "n": 7,
+   "支持": 5,
+   "反証": 1,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "KM-K1",
+    "KY-I1",
+    "NK-K1",
+    "SB-C1",
+    "SD-A2",
+    "SJ-A1",
+    "SO-P1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R062",
+   "n": 8,
+   "支持": 8,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "SH-A1",
+    "SH-A2",
+    "SH-B1",
+    "HK-A1",
+    "HK-A9",
+    "MK-I1",
+    "MK-L2",
+    "630-D1"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R063",
+   "n": 5,
+   "支持": 3,
+   "反証": 1,
+   "判定不能": 1,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "YK-C1",
+    "YK-D1",
+    "KM-K1",
+    "SO-P1",
+    "ST-I2"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R064",
+   "n": 2,
+   "支持": 2,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "YK-C1",
+    "ST-I2"
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "round": "R065",
+   "n": 2,
+   "支持": 2,
+   "反証": 0,
+   "判定不能": 0,
+   "controls": 2,
+   "adopted": true,
+   "records": [
+    "ST-C1",
+    "SK-A1"
+   ],
+   "date": "2026-11-20"
+  }
+ ],
+ "total": {
+  "n": 218,
+  "支持": 138,
+  "反証": 17,
+  "判定不能": 63,
+  "rounds": 44,
+  "rounds_adopted": 43
+ },
+ "events": [
+  {
+   "id": "HK-A6",
+   "round": "R003",
+   "q": "P04",
+   "verdict": "支持",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "HK-A7",
+   "round": "R003",
+   "q": "P02",
+   "verdict": "判定不能",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "HK-A7",
+   "round": "R003",
+   "q": "P02+",
+   "verdict": "支持",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "HK-B1",
+   "round": "R003",
+   "q": "P09",
+   "verdict": "支持",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "HK-A4",
+   "round": "R003",
+   "q": "P06",
+   "verdict": "判定不能",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "SO-P1",
+   "round": "R003",
+   "q": "P05",
+   "verdict": "判定不能",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "630-A1",
+   "round": "R004",
+   "q": "H002",
+   "verdict": "支持",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "MK-I1",
+   "round": "R004",
+   "q": "H003",
+   "verdict": "支持",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "ST-I1",
+   "round": "R004",
+   "q": "H004",
+   "verdict": "支持",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "ST-B1",
+   "round": "R004",
+   "q": "H005",
+   "verdict": "判定不能",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "ST-B1",
+   "round": "R005",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "SH-B1",
+   "round": "R006",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-16"
+  },
+  {
+   "id": "SO-H2",
+   "round": "R007",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SO-P1",
+   "round": "R007",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SO-H4",
+   "round": "R007",
+   "q": "Q4",
+   "verdict": "判定不能",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SO-H1",
+   "round": "R007",
+   "q": "Q5",
+   "verdict": "判定不能",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SO-H5",
+   "round": "R007",
+   "q": "Q7",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SO-P2",
+   "round": "R007",
+   "q": "Q8",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SO-H3",
+   "round": "R007",
+   "q": "Q9",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "JH-A1",
+   "round": "R008",
+   "q": "Q1",
+   "verdict": "判定不能",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "JH-A1",
+   "round": "R008",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SJ-A1",
+   "round": "R008",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "ES-I1",
+   "round": "R008",
+   "q": "Q6",
+   "verdict": "反証",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KS-A1",
+   "round": "R009",
+   "q": "Q1",
+   "verdict": "反証",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KS-I1",
+   "round": "R009",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KJ-L1",
+   "round": "R009",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KJ-I1",
+   "round": "R009",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KC-A1",
+   "round": "R009",
+   "q": "Q7",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SD-A1",
+   "round": "R010",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SD-A2",
+   "round": "R010",
+   "q": "Q2",
+   "verdict": "判定不能",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KP-A1",
+   "round": "R010",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KP-A2",
+   "round": "R010",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KP-C1",
+   "round": "R010",
+   "q": "Q5",
+   "verdict": "判定不能",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SD-A2",
+   "round": "R011",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SD-A3",
+   "round": "R011",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SD-A3",
+   "round": "R011",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SD-A3",
+   "round": "R011",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SD-A3",
+   "round": "R011",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "HK-A8",
+   "round": "R012",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "HK-A8",
+   "round": "R012",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "HK-A8",
+   "round": "R012",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "YK-C1",
+   "round": "R013",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "YK-D1",
+   "round": "R013",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "YK-I1",
+   "round": "R013",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "BV-P1",
+   "round": "R013",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "BV-C1",
+   "round": "R013",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SK-C1",
+   "round": "R014",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SB-C1",
+   "round": "R014",
+   "q": "Q2",
+   "verdict": "判定不能",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "HK-A9",
+   "round": "R015",
+   "q": "Q1",
+   "verdict": "判定不能",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "NK-K1",
+   "round": "R015",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "NK-K1",
+   "round": "R015",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "NK-K1",
+   "round": "R015",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "NK-K1",
+   "round": "R015",
+   "q": "Q7",
+   "verdict": "判定不能",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "HK-A10",
+   "round": "R016",
+   "q": "Q1",
+   "verdict": "判定不能",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "HK-A9",
+   "round": "R016",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "SB-C1",
+   "round": "R016",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "",
+   "round": "R016",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KY-I1",
+   "round": "R017",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KY-I1",
+   "round": "R017",
+   "q": "Q2",
+   "verdict": "反証",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KY-I1",
+   "round": "R017",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KY-I1",
+   "round": "R017",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "NK-K1",
+   "round": "R017",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KY-I1",
+   "round": "R018",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KY-I1",
+   "round": "R018",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "MK-L1",
+   "round": "R019",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KM-K1",
+   "round": "R019",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "",
+   "round": "R019",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "MK-L2",
+   "round": "R020",
+   "q": "Q1",
+   "verdict": "判定不能",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "MK-L2",
+   "round": "R020",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "ST-I2",
+   "round": "R021",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "ST-I2",
+   "round": "R021",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "KH-K1",
+   "round": "R021",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-17",
+   "plain": false
+  },
+  {
+   "id": "HK-A9",
+   "round": "R023",
+   "q": "Q1",
+   "verdict": "反証",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "NK-K1",
+   "round": "R023",
+   "q": "Q3",
+   "verdict": "反証",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "SH-A1",
+   "round": "R023",
+   "q": "Q4",
+   "verdict": "判定不能",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "KS-A1",
+   "round": "R024",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "SO-H1",
+   "round": "R024",
+   "q": "Q2",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "KP-C1",
+   "round": "R024",
+   "q": "Q4",
+   "verdict": "判定不能",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "SO-H4",
+   "round": "R024",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "630-M1",
+   "round": "R025",
+   "q": "Q1",
+   "verdict": "反証",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "GY-Q1",
+   "round": "R025",
+   "q": "Q2",
+   "verdict": "判定不能",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "ES-I1",
+   "round": "R025",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "630-D1",
+   "round": "R025",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "MK-L2",
+   "round": "R025",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "HK-A1",
+   "round": "R026",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "HK-A5",
+   "round": "R026",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "HK-A2",
+   "round": "R026",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "HK-A10",
+   "round": "R026",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "HK-A3",
+   "round": "R026",
+   "q": "Q7",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "630-M1",
+   "round": "R027",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "HK-A9",
+   "round": "R027",
+   "q": "Q2",
+   "verdict": "判定不能",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "KP-C1",
+   "round": "R027",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "NK-K1",
+   "round": "R027",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "GY-Q1",
+   "round": "R027",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "SH-A1",
+   "round": "R027",
+   "q": "Q8",
+   "verdict": "反証",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "SH-A1",
+   "round": "R028",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "HK-A9",
+   "round": "R028",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "SH-C1",
+   "round": "R048",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "ST-D1",
+   "round": "R048",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "SH-A2",
+   "round": "R048",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-18",
+   "plain": false
+  },
+  {
+   "id": "HK-A1",
+   "round": "R049",
+   "q": "Q1",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A10",
+   "round": "R049",
+   "q": "Q3",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A2",
+   "round": "R049",
+   "q": "Q4",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A3",
+   "round": "R049",
+   "q": "Q5",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A4",
+   "round": "R049",
+   "q": "Q6",
+   "verdict": "反証",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A5",
+   "round": "R049",
+   "q": "Q7",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A6",
+   "round": "R049",
+   "q": "Q8",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A7",
+   "round": "R049",
+   "q": "Q10",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SO-H1",
+   "round": "R050",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SO-H2",
+   "round": "R050",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SO-H3",
+   "round": "R050",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SO-H4",
+   "round": "R050",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SO-H5",
+   "round": "R050",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SO-P1",
+   "round": "R050",
+   "q": "Q7",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SO-P2",
+   "round": "R050",
+   "q": "Q8",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ES-I1",
+   "round": "R050",
+   "q": "Q10",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A8",
+   "round": "R051",
+   "q": "Q1",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A9",
+   "round": "R051",
+   "q": "Q3",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-B1",
+   "round": "R051",
+   "q": "Q4",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-I1",
+   "round": "R051",
+   "q": "Q5",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SH-A1",
+   "round": "R051",
+   "q": "Q6",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SH-A2",
+   "round": "R051",
+   "q": "Q7",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SH-B1",
+   "round": "R051",
+   "q": "Q8",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SH-C1",
+   "round": "R051",
+   "q": "Q10",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ST-B1",
+   "round": "R052",
+   "q": "Q1",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ST-D1",
+   "round": "R052",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ST-I1",
+   "round": "R052",
+   "q": "Q4",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ST-I2",
+   "round": "R052",
+   "q": "Q5",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "630-A1",
+   "round": "R052",
+   "q": "Q6",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "630-D1",
+   "round": "R052",
+   "q": "Q7",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "630-M1",
+   "round": "R052",
+   "q": "Q8",
+   "verdict": "反証",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "GY-Q1",
+   "round": "R052",
+   "q": "Q10",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KP-A1",
+   "round": "R053",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KP-A2",
+   "round": "R053",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KP-C1",
+   "round": "R053",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "MK-I1",
+   "round": "R053",
+   "q": "Q5",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "MK-L1",
+   "round": "R053",
+   "q": "Q6",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "MK-L2",
+   "round": "R053",
+   "q": "Q7",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "BV-C1",
+   "round": "R053",
+   "q": "Q8",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "BV-P1",
+   "round": "R053",
+   "q": "Q10",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SD-A1",
+   "round": "R054",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SD-A2",
+   "round": "R054",
+   "q": "Q3",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SD-A3",
+   "round": "R054",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "YK-C1",
+   "round": "R054",
+   "q": "Q5",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "YK-D1",
+   "round": "R054",
+   "q": "Q6",
+   "verdict": "反証",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "YK-I1",
+   "round": "R054",
+   "q": "Q7",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KJ-I1",
+   "round": "R054",
+   "q": "Q8",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KJ-L1",
+   "round": "R054",
+   "q": "Q10",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KS-A1",
+   "round": "R055",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KS-I1",
+   "round": "R055",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "JH-A1",
+   "round": "R055",
+   "q": "Q4",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KC-A1",
+   "round": "R055",
+   "q": "Q5",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KH-K1",
+   "round": "R055",
+   "q": "Q6",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KM-K1",
+   "round": "R055",
+   "q": "Q7",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KY-I1",
+   "round": "R055",
+   "q": "Q8",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "NK-K1",
+   "round": "R055",
+   "q": "Q10",
+   "verdict": "反証",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SB-C1",
+   "round": "R056",
+   "q": "Q1",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SJ-A1",
+   "round": "R056",
+   "q": "Q3",
+   "verdict": "反証",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SK-C1",
+   "round": "R056",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A1",
+   "round": "R057",
+   "q": "Q1",
+   "verdict": "反証",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A10",
+   "round": "R057",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A2",
+   "round": "R057",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A3",
+   "round": "R057",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A4",
+   "round": "R057",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A5",
+   "round": "R057",
+   "q": "Q7",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A6",
+   "round": "R057",
+   "q": "Q8",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A7",
+   "round": "R057",
+   "q": "Q10",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A8",
+   "round": "R058",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A9",
+   "round": "R058",
+   "q": "Q3",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-B1",
+   "round": "R058",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-I1",
+   "round": "R058",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "630-A1",
+   "round": "R058",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "630-D1",
+   "round": "R058",
+   "q": "Q7",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "630-M1",
+   "round": "R058",
+   "q": "Q8",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "BV-P1",
+   "round": "R058",
+   "q": "Q10",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "MK-I1",
+   "round": "R059",
+   "q": "Q1",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "MK-L1",
+   "round": "R059",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "MK-L2",
+   "round": "R059",
+   "q": "Q4",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SH-A1",
+   "round": "R059",
+   "q": "Q5",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SH-A2",
+   "round": "R059",
+   "q": "Q6",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SH-B1",
+   "round": "R059",
+   "q": "Q7",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "YK-C1",
+   "round": "R059",
+   "q": "Q8",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "YK-D1",
+   "round": "R059",
+   "q": "Q10",
+   "verdict": "反証",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ST-B1",
+   "round": "R060",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ST-I1",
+   "round": "R060",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ST-I2",
+   "round": "R060",
+   "q": "Q4",
+   "verdict": "反証",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ES-I1",
+   "round": "R060",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "JH-A1",
+   "round": "R060",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KC-A1",
+   "round": "R060",
+   "q": "Q7",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KH-K1",
+   "round": "R060",
+   "q": "Q8",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KJ-L1",
+   "round": "R060",
+   "q": "Q10",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KM-K1",
+   "round": "R061",
+   "q": "Q1",
+   "verdict": "反証",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KY-I1",
+   "round": "R061",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "NK-K1",
+   "round": "R061",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SB-C1",
+   "round": "R061",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SD-A2",
+   "round": "R061",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SJ-A1",
+   "round": "R061",
+   "q": "Q7",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SO-P1",
+   "round": "R061",
+   "q": "Q9",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SH-A1",
+   "round": "R062",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SH-A2",
+   "round": "R062",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SH-B1",
+   "round": "R062",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A1",
+   "round": "R062",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "HK-A9",
+   "round": "R062",
+   "q": "Q6",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "MK-I1",
+   "round": "R062",
+   "q": "Q7",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "MK-L2",
+   "round": "R062",
+   "q": "Q8",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "630-D1",
+   "round": "R062",
+   "q": "Q10",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "YK-C1",
+   "round": "R063",
+   "q": "Q1",
+   "verdict": "判定不能",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "YK-D1",
+   "round": "R063",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "KM-K1",
+   "round": "R063",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "SO-P1",
+   "round": "R063",
+   "q": "Q5",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ST-I2",
+   "round": "R063",
+   "q": "Q7",
+   "verdict": "反証",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "YK-C1",
+   "round": "R064",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ST-I2",
+   "round": "R064",
+   "q": "Q4",
+   "verdict": "支持",
+   "date": "2026-11-19",
+   "plain": true
+  },
+  {
+   "id": "ST-C1",
+   "round": "R065",
+   "q": "Q1",
+   "verdict": "支持",
+   "date": "2026-11-20",
+   "plain": false
+  },
+  {
+   "id": "SK-A1",
+   "round": "R065",
+   "q": "Q3",
+   "verdict": "支持",
+   "date": "2026-11-20",
+   "plain": false
+  }
+ ]
+}

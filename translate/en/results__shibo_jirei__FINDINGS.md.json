@@ -1,0 +1,61 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "04b749e01e43ae36d68c5886120c7b20f9abe1a547d167e7d0b8edd6ba0c2117": {
+   "ja": "# こども虐待による死亡事例等の検証結果等について（死亡事例検証報告）\n取得：data/raw/shibo_jirei/MANIFEST.tsv（第19〜22次の「個別調査票による死亡事例の調査結果」の章、第18・20・21次の正誤表、公表ページ）。\n計画：hypotheses/H012_gyakutai_3_plan.md。記録の候補：hypotheses/H014_r10_records.md。",
+   "en": "# Reviews of Child Deaths from Abuse (death review reports)\nRetrieved: data/raw/shibo_jirei/MANIFEST.tsv (the chapter `個別調査票による死亡事例の調査結果` of the 19th–22nd reports, the errata for the 18th, 20th and 21st reports, and the publication pages).\nPlan: hypotheses/H012_gyakutai_3_plan.md. Candidate records: hypotheses/H014_r10_records.md.",
+   "src": "results/shibo_jirei/FINDINGS.md",
+   "src_commit": "eac9690",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "73c70119deb6fe68f0ab4a22903b2de0c2fd94c1267c6871d06ed29b5acd8a46": {
+   "ja": "## c4001（2026-11-17）表1・表2\n- 第20・21次は表1＝心中以外、表2＝心中。第22次は表1＝合計、表2＝内訳（こども／保護者の自殺を伴う）。\n- 調べた式：各回の和と総数（値・括弧）、表1＝表2の和（第22次）、第20→21次・第21→22次の過去の回の値。式 260、不一致 4。\n- 不一致はすべて第22次：表2（自殺を伴う）総数の例数の括弧 1（各回の和 9）、表1 総数の例数の括弧 212（和 220）、表1 第14次の人数 87（表2の和 77）、それに伴う表1の人数の和 1,832（総数 1,822）。→ 記録 SD-A1。\n- 版間（過去の回の値）は不一致 0。",
+   "en": "## c4001 (2026-11-17) Tables 1 and 2\n- In the 20th and 21st reports, Table 1 = other than murder-suicide and Table 2 = murder-suicide. In the 22nd report, Table 1 = combined and Table 2 = breakdown (child / involving the guardian's suicide).\n- Formulas checked: sum over reports vs total (values and figures in parentheses), Table 1 = sum of Table 2 (22nd report), and values for past reports from the 20th to the 21st report and from the 21st to the 22nd report. Formulas: 260; mismatches: 4.\n- All mismatches are in the 22nd report: in Table 2 (involving suicide), the figure in parentheses for the number of cases in the total is 1 (sum over reports 9); in Table 1, the figure in parentheses for the number of cases in the total is 212 (sum 220); in Table 1, the number of persons for the 14th report is 87 (sum of Table 2: 77); and, following from this, the sum of the number of persons in Table 1 is 1,832 (total 1,822). → record SD-A1.\n- Between editions (values for past reports): 0 mismatches.",
+   "src": "results/shibo_jirei/FINDINGS.md",
+   "src_commit": "eac9690",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "bfd9223f652a7c3c01f735e74b775e739a30a770c39d8cbf6b749c73a8fab2db": {
+   "ja": "## 0歳児の月齢の累計（表5、手計算）\n- 第18次の正誤表（令和8年9月1日）：第5次から第17次まで 0か月 157→164、月齢不明 1→5、計 338→349。\n- 第20次の正誤表（同日）：第5次から第19次まで 179→186、1→5、394→405。総数（第5次から第20次）194→201 など。\n- 第21次の正誤表（同日）：第5次から第20次まで 194→201、1→5、419→430。総数（第5次から第21次）212→219、5→9。正の欄の 201 には括弧（疑義事例）がない。\n- 第19次報告の表5（第5次から第18次まで）：0か月 173 (20)、月齢不明 1 (0)、計 370 (63)。第19次の公表ページの正誤表は令和7年10月6日のものだけ。173＋第19次 6＝179（第20次の訂正前の値）。→ 記録 SD-A2。\n- 第22次報告の表5の総数（241、9、497）＝訂正後の第21次の総数（219、9、463）＋第22次（22、0、34）。合う。\n- 当初、第20・21次の正誤表を見落とし「第19〜21次に正誤表がない」と書いた（H014 の G2）。R010 は判定不能。正誤表を取得して書き直した。",
+   "en": "## Cumulative age in months of children aged 0 (Table 5, hand calculation)\n- Errata for the 18th report (1 September 2026): 5th to 17th reports, 0 months 157→164, age in months unknown 1→5, total 338→349.\n- Errata for the 20th report (same date): 5th to 19th reports, 179→186, 1→5, 394→405. Total (5th to 20th reports) 194→201, etc.\n- Errata for the 21st report (same date): 5th to 20th reports, 194→201, 1→5, 419→430. Total (5th to 21st reports) 212→219, 5→9. The 201 in the \"correct\" column has no figure in parentheses (suspected cases).\n- Table 5 of the 19th report (5th to 18th reports): 0 months 173 (20), age in months unknown 1 (0), total 370 (63). The only errata on the publication page of the 19th report are those dated 6 October 2025. 173 + 6 for the 19th report = 179 (the value before correction in the errata for the 20th report). → record SD-A2.\n- Total in Table 5 of the 22nd report (241, 9, 497) = corrected total of the 21st report (219, 9, 463) + 22nd report (22, 0, 34). Matches.\n- Initially, the errata for the 20th and 21st reports were overlooked and it was written that \"there are no errata for the 19th–21st reports\" (G2 in H014). R010 was Inconclusive. The errata were retrieved and the text was rewritten.",
+   "src": "results/shibo_jirei/FINDINGS.md",
+   "src_commit": "eac9690",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "650f91e96f0e5ccb038f16ec90fa2c7e056d50949bb137918c3615bf8b471390": {
+   "ja": "## 照合していないもの\n- 第18次の正誤表（令和7年10月6日）の主たる加害者の訂正：第20〜22次報告に回ごとの表がない。\n- 第22次報告の表3以降の内部の和。",
+   "en": "## Not checked\n- Correction of the main perpetrator in the errata for the 18th report (6 October 2025): the 20th–22nd reports have no table by report.\n- Internal sums of Table 3 onward in the 22nd report.",
+   "src": "results/shibo_jirei/FINDINGS.md",
+   "src_commit": "eac9690",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "d763a536989e788d7f4e9a508875b99d129b08997e92dcd52b763e2c572764f2": {
+   "ja": "## c4003（2026-11-17、r11）第21・22次の章内の縦長の表\n- 表ごとに「人数(疑義) 構成割合 [有効割合]」の組を読み、内訳の和＝小計／計、構成割合＝人数/計を確かめる。第22次：式 1,059、不一致 62。第21次：式 1,258、不一致 147。\n- 不一致の多くは読み取りの誤り（見出しの行を値として読む、行のラベルが2行に分かれる、「内訳」の入れ子を二重に数える、横に並んだ表）。表ごとに原文を見て、次の6表を残した（第22次）。\n  - 表14「３歳以上」小計 8(3)、行の和 7(2)。表16「身体的虐待」小計 13(6)、行の和 12(5)。ほかの列は合う。表12 の「実父とその他」1(1) の行が表14・16 にない。\n  - 表22「こどもの虐待死」実施なし 6(1)＋実施あり 41(23)＝47(24)、小計 50(27)。第21次の表22 には「本児死亡時は実施していないが現在は実施済み」の行がある（第21次は合う）。\n  - 表44・表45「保護者の自殺を伴う」計 8(0)、行の和 4・5。表50 の児童相談所の関与は 5＋3＝8。\n  - 表59「こどもの虐待死」行の和 48(25)、計 49(26)。表60 の「ある程度活用している」の不明 1(2)、表61 の同じ行 0(2)。\n  - → 記録 SD-A3（R011 Q2〜Q5 支持）。\n- 合うことを確かめた例：表7・9・12・17・29・50・55・80 など（読み取りの誤りで不一致に出たが、原文の和は合う）。\n- 第21次の不一致は、確かめた範囲では読み取りの誤り。表22 も3行で合う。",
+   "en": "## c4003 (2026-11-17, r11) Long vertical tables in the chapters of the 21st and 22nd reports\n- For each table, read the set \"number of persons (suspected) composition ratio [valid ratio]\" and check that the sum of the breakdown = subtotal/total, and composition ratio = number of persons/total. 22nd report: formulas 1,059, mismatches 62. 21st report: formulas 1,258, mismatches 147.\n- Most mismatches are reading errors (a heading row read as values, a row label split over two lines, nested \"breakdown\" rows counted twice, tables placed side by side). Each table was checked against the original, and the following 6 tables were kept (22nd report).\n  - Table 14 \"3 years and over\": subtotal 8(3), row sum 7(2). Table 16 \"physical abuse\": subtotal 13(6), row sum 12(5). The other columns match. The row \"biological father and other\" 1(1) in Table 12 is not in Tables 14 and 16.\n  - Table 22 \"child abuse deaths\": not conducted 6(1) + conducted 41(23) = 47(24), subtotal 50(27). Table 22 of the 21st report has a row \"not conducted at the time of the child's death but conducted now\" (the 21st report matches).\n  - Tables 44 and 45 \"involving the guardian's suicide\": total 8(0), row sums 4 and 5. Involvement of the child guidance centre in Table 50 is 5 + 3 = 8.\n  - Table 59 \"child abuse deaths\": row sum 48(25), total 49(26). In Table 60, unknown for \"used to some extent\" is 1(2); the same row in Table 61 is 0(2).\n  - → record SD-A3 (R011 Q2–Q5 supported).\n- Examples confirmed to match: Tables 7, 9, 12, 17, 29, 50, 55, 80, etc. (they appeared as mismatches due to reading errors, but the sums in the original match).\n- The mismatches in the 21st report are, within the range checked, reading errors. Table 22 also matches with 3 rows.",
+   "src": "results/shibo_jirei/FINDINGS.md",
+   "src_commit": "eac9690",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "1e11f7d0f43e82c4e59b960fed954542c7a37e153464734f2491b18417eea72f": {
+   "ja": "## R011（2026-11-17）\n- Q1（SD-A2 の書き直し版）支持。第19次の公表ページの写しには、令和5年9月27日の「一部誤植を修正」の案内もある（正誤表の掲載とは別）→ 要旨に書いた。\n- Q2〜Q5（SD-A3）支持。対照 Q6・Q7 は両方反証（正答）。",
+   "en": "## R011 (2026-11-17)\n- Q1 (rewritten version of SD-A2) supported. The copy of the publication page of the 19th report also has a notice dated 27 September 2023 stating \"some typographical errors corrected\" (separate from the posting of errata) → written in the summary.\n- Q2–Q5 (SD-A3) supported. Controls Q6 and Q7: refutation for both (correct answers).",
+   "src": "results/shibo_jirei/FINDINGS.md",
+   "src_commit": "eac9690",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "bb0396fbcf763a7ba8bab89f63957b2234f923d07200be9797c502f6145655eb": {
+   "ja": "## r12（2026-11-17）第21次の残り\n- c4003 の第21次の不一致のうち、表22・51・61・62・103 などを原文で確かめた。すべて読み取りの誤り（ラベルが2行に分かれる、横に並んだ表）で、原文の和は合う。",
+   "en": "## r12 (2026-11-17) Remainder of the 21st report\n- Of the mismatches in the 21st report from c4003, Tables 22, 51, 61, 62, 103, etc. were checked against the original. All are reading errors (labels split over two lines, tables placed side by side), and the sums in the original match.",
+   "src": "results/shibo_jirei/FINDINGS.md",
+   "src_commit": "eac9690",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

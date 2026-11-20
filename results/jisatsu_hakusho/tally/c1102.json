@@ -1,0 +1,13 @@
+{
+ "dir": "jisatsu_hakusho",
+ "check": "c1102",
+ "label": "",
+ "note": "自殺対策白書：参考資料の内部整合、基礎資料・本文との照合",
+ "source": "check",
+ "compared": 942,
+ "mismatched": 83,
+ "explained": 82,
+ "read_failures": 0,
+ "script_sha256": "7c18a1d6c1ec02ac07bedeeb2b57b8c3ff6437de4ab4bea6f91b059919c4e8c4",
+ "written_utc": "2026-11-17T12:30:19Z"
+}

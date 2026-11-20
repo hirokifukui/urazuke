@@ -1,0 +1,4 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.npa.go.jp/bureau/traffic/bunseki/nenkan/080226R07nenkan.pdf	nenkan/R07nenkan.pdf	346812	b5ccdef49dd5d1204356fb3f9e731352e35d0c5fbe8e75ccfb3beff3785b9bf8	200	Fri, 28 Aug 2026 18:49:25 GMT	2026-11-16T18:41:55+00:00
+https://www.npa.go.jp/bureau/traffic/bunseki/nenkan/070227R06nenkan.pdf	nenkan/R06nenkan.pdf	425104	f892dc1256f7c84798b9c071a4fc9cee2773f96fd8e55393c5cbaf50b6b70dc0	200	Tue, 29 Jul 2025 05:00:20 GMT	2026-11-16T18:41:55+00:00
+https://www.npa.go.jp/publications/statistics/koutsuu/toukeihyo.html	index/toukeihyo.html	24355	ff9f73a1a01a1938f396a948e895a69dd3c251d592ebab50073ef14d5943c337	200		2026-11-16T18:41:56+00:00

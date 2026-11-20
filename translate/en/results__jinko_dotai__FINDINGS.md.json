@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "eb811773786d0009ab2dcf929302f697b5172a3a052c7b5ceed96974c560d265": {
+   "ja": "# 人口動態統計（確定数）の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of Vital Statistics (final figures) (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/jinko_dotai/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "56a22b568a3950a578414d6af4aaad9064f62f6864088912d933944269dd2af2": {
+   "ja": "## 対象と取得\n- 厚生労働省 人口動態統計 確定数：令和7年（2025、統計表 Excel・PDF、概況 PDF）、令和6年（2024、統計表 Excel、第4表 PDF、概況 PDF）。取得記録：data/raw/jinko_dotai/MANIFEST.tsv。\n- 令和7年の都道府県別の率（出生率・死亡率など）は「令和8（2026）年11月に公表予定」と注記があり、まだ載っていない。",
+   "en": "## Scope and acquisition\n- Ministry of Health, Labour and Welfare Vital Statistics, final figures: 2025 (statistical tables in Excel and PDF, summary PDF) and 2024 (statistical tables in Excel, Table 4 PDF, summary PDF). Acquisition record: data/raw/jinko_dotai/MANIFEST.tsv.\n- For 2025, the rates by prefecture (birth rate, death rate, etc.) carry a note saying they are \"scheduled for publication in November 2026\" and are not yet included.",
+   "src": "results/jinko_dotai/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "cd384f8921b0161d48dcacd6473259976db87c587116ec40cf8ea7dfef207a01": {
+   "ja": "## c1501 内部整合・版間・他の資料（L1・L3）\n- (a) 第4表 総数＝男＋女（出生・死亡・乳児死亡）288組：不一致 0。\n- (a) 第4表 都道府県（47）の和と全国：28列すべてで都道府県の和が全国より小さい（例：令和7年 死亡 1,588,605 と 1,589,533）。第5表（率）の注に「全国には住所が外国・不詳を含む」とあり、説明がつく。第4表の Excel・PDF には同じ注がない。記録にしない。\n- (b) 第8表 死因簡単分類 総数＝男＋女 136行：不一致 0。\n- (c) 第2表（年次推移）令和7年版と令和6年版の重なる年 40組：差 0。\n- (d) 第8表 令和7年版の「令和6年」の列＝令和6年版の値：140死因、差 0。\n- (e) 自殺の死亡数（死因 20200）令和6年 19,608 ＝自殺対策白書 令和8年版 参考資料2-1 の人口動態統計の値。令和7年は白書が「－」（未掲載）。",
+   "en": "## c1501 Internal consistency, between editions and other sources (L1, L3)\n- (a) Table 4, total = male + female (births, deaths, infant deaths), 288 pairs: 0 mismatches.\n- (a) Table 4, sum of the prefectures (47) versus national figure: in all 28 columns the sum of the prefectures is smaller than the national figure (e.g. 2025 deaths: 1,588,605 and 1,589,533). The note to Table 5 (rates) states that \"the national figure includes persons whose address is abroad or unknown\", which accounts for this. The Excel and PDF files of Table 4 do not carry the same note. Not recorded.\n- (b) Table 8, abridged classification of causes of death, total = male + female, 136 rows: 0 mismatches.\n- (c) Table 2 (time series), overlapping years between the 2025 edition (Reiwa 7) and the 2024 edition (Reiwa 6), 40 pairs: difference 0.\n- (d) Table 8, the \"2024\" column of the 2025 edition (Reiwa 7) = values in the 2024 edition (Reiwa 6): 140 causes of death, difference 0.\n- (e) Number of suicide deaths (cause of death 20200) in 2024, 19,608 = the Vital Statistics value in Reference Material 2-1 of the White Paper on Suicide Countermeasures 2026 edition (Reiwa 8). For 2025 the white paper shows \"－\" (not included).",
+   "src": "results/jinko_dotai/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "916828e9081a165d5056d654a80ee88cd74cd50f8866cda6430dd989234a6985": {
+   "ja": "## 陰性対照\n- 第4表の男の値を変えた写しで (a) が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- In a copy with altered male values in Table 4, (a) detected the change (results/scope/negctl_r08.json).",
+   "src": "results/jinko_dotai/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "115bca5694915cf2d18a6e47874b306716442d7676ecd28cb40489dfc52d6f8e": {
+   "ja": "## 照合した件数\n約630組。記録なし。",
+   "en": "## Number of items checked\nAbout 630 pairs. No records.",
+   "src": "results/jinko_dotai/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

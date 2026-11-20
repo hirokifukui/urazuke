@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "記録を引くときは、URAZUKE、記録の ID、ページの URL、見た日付を示してください。If you cite a record, give URAZUKE, the record ID, the page URL and the date viewed."
+title: "URAZUKE: verification records of Japanese official statistics"
+authors:
+  - name: "URAZUKE"
+    website: "https://urazuke.org"
+    email: "contact@urazuke.org"
+url: "https://urazuke.org"
+repository-code: "https://github.com/hirokifukui/urazuke"
+license: MIT
+version: "draft-2026-11-19"
+doi: "10.5281/zenodo.24357841"
+date-released: "2026-11-19"
+keywords: ["official statistics", "Japan", "reproducibility", "criminal justice", "verification"]

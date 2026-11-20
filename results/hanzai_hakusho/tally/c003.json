@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c003",
+ "label": "",
+ "note": "犯罪白書 令和7年版と矯正統計年報・検察統計年報（2024年）",
+ "source": "check",
+ "compared": 1320,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "13d9b30cf19f1f4120414cad94c731db1e77cb54d21e392f22a9a7b323214228",
+ "written_utc": "2026-11-17T12:18:52Z"
+}

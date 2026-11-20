@@ -1,0 +1,13 @@
+{
+ "dir": "kodomo_hakusho",
+ "check": "c2001",
+ "label": "",
+ "note": "こども白書の数値と元の統計",
+ "source": "check",
+ "compared": 3,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "9c46b1dc93b4b4159679a8b496e425a121a5a3e82db273d7088f1f2fbb23788b",
+ "written_utc": "2026-11-17T12:34:14Z"
+}

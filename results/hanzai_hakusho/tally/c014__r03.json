@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c014",
+ "label": "r03",
+ "note": "犯罪白書 全体版 PDF の表の数値と同じ番号の Excel",
+ "source": "check",
+ "compared": 50,
+ "mismatched": 1,
+ "explained": null,
+ "read_failures": 35,
+ "script_sha256": "2590912d7ba70b2f4af8f76e621238c84116411c66c7ad31d4655605b7d4c294",
+ "written_utc": "2026-11-17T12:19:33Z"
+}

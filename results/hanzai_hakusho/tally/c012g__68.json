@@ -1,0 +1,13 @@
+{
+ "dir": "hanzai_hakusho",
+ "check": "c012g",
+ "label": "68",
+ "note": "犯罪白書：同じ Excel の閲覧用シートと機械判読用シートの値の出現回数",
+ "source": "check",
+ "compared": 184,
+ "mismatched": 1,
+ "explained": null,
+ "read_failures": 1,
+ "script_sha256": "202e7e76bc25950ca62abb8de08d8aa3ba3addd181bef18a34990d20162da1e0",
+ "written_utc": "2026-11-17T12:19:04Z"
+}

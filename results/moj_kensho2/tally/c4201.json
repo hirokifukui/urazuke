@@ -1,0 +1,13 @@
+{
+ "dir": "moj_kensho2",
+ "check": "c4201",
+ "label": "",
+ "note": "職業訓練・刑務作業の効果検証（矯正局）と SIB 事業総括：割合・検定の再計算",
+ "source": "check",
+ "compared": 43,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "dd4f7ea8f6a85dc7e498ee5ba2b3f18c263b1b4da27870c24841c6111ff13538",
+ "written_utc": "2026-11-17T12:41:46Z"
+}

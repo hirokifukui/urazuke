@@ -1,0 +1,45 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "b98524108c28209f2c8ab8e8edcb5480b94dad21808f181b212227f85f71d5d3": {
+   "ja": "# 障害者白書の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the White Paper on Persons with Disabilities (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/shogai_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "08b601db3bf8f7c7ba91974f307a134c1b2685d5be54afee89b6ef68e4560a65": {
+   "ja": "## 対象と取得\n- 内閣府 障害者白書 令和8年版（全文 PDF のうち 第4章第1・2節、参考資料）、令和3〜6年版の正誤表。取得記録：data/raw/shogai_hakusho/MANIFEST.tsv。",
+   "en": "## Scope and retrieval\n- Cabinet Office, White Paper on Persons with Disabilities, 2026 edition (Reiwa 8) (from the full-text PDF: Chapter 4, Sections 1 and 2, and the reference materials), and the errata for the 2021–2024 editions (Reiwa 3–6). Retrieval record: data/raw/shogai_hakusho/MANIFEST.tsv.",
+   "src": "results/shogai_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "dacd76587f359f3b8494e2400b78ad004529b025c8114368a81df3479eb75b0c": {
+   "ja": "## c2101 参考資料 図表1 障害者数（推計）の内部整合（L1）— 誤りなし\n- 総数＝在宅者数＋施設入所者数（身体・知的）、総数＝外来患者＋入院患者（精神）：18行、丸めの幅（0.15万人）を超える差 0。\n- 精神障害者数 603.0万人（外来 576.4・入院 26.6）は患者調査（令和5年）からの推計と注記されている。患者調査の作業ノートの表7（総患者数）との一致の確認は、精神障害者の定義（傷病の範囲）が白書の注で特定できないため、今回は行っていない。",
+   "en": "## c2101 Reference materials, Figure 1, Number of persons with disabilities (estimates): internal consistency (L1) — no errors\n- Total = persons living at home + persons in residential facilities (physical, intellectual); total = outpatients + inpatients (mental): 18 rows; differences exceeding the rounding margin (0.15 ×10,000 persons): 0.\n- The number of persons with mental disabilities, 603.0 ×10,000 persons (outpatients 576.4, inpatients 26.6), carries a note stating that it is an estimate from the Patient Survey (2023). A check of agreement with Table 7 (total number of patients) in the working notes for the Patient Survey has not been carried out this time, because the definition of persons with mental disabilities (the range of diseases and injuries) cannot be identified from the notes in the white paper.",
+   "src": "results/shogai_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "62e7d52405bb8bae78bc14937660365c34cc0a27fd1b390576103fbd9ec4cf90": {
+   "ja": "## 陰性対照\n- 図表1 の精神障害者の外来の値を変えた写しで検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- Detected in a copy in which the outpatient value for persons with mental disabilities in Figure 1 was altered (results/scope/negctl_r08.json).",
+   "src": "results/shogai_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "e17ee7f5233123a41d6a93f9764fdbffa8d81cd4538931b697b0e294239015e0": {
+   "ja": "## 照合した件数\n18行。記録なし。",
+   "en": "## Number of items checked\n18 rows. No records.",
+   "src": "results/shogai_hakusho/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

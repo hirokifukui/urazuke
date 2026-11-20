@@ -1,0 +1,6 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.moj.go.jp/content/001391825.pdf	shokugyo_gaiyou.pdf	109455	aa8e87231469dc5bb40a122e1a07b7ba6ffa374238bcd49d7facf2c39a2bfa6a	200	Wed, 08 Mar 2023 01:00:30 GMT	2026-11-17T04:07:51+00:00
+https://www.moj.go.jp/content/001391826.pdf	shokugyo_report.pdf	209761	791574b3d38dd7e4b3942b782130d0c42224d938786bae892d3fde8f660b4767	200	Wed, 08 Mar 2023 01:00:31 GMT	2026-11-17T04:07:52+00:00
+https://www.moj.go.jp/content/001394880.pdf	sagyo_report.pdf	469700	bd8c9d2fbe7b26055968aed0d55de2ad7513047c96df5f23c12627d29cdda4ec	200	Fri, 21 Apr 2023 04:00:18 GMT	2026-11-17T04:07:53+00:00
+https://www.moj.go.jp/content/001447073.pdf	sib_gaiyou.pdf	782072	4eda6c3ff37fc9bc912f1f6f851205d64ff3f66a94f423ecae6efa1df8570b87	200	Fri, 03 Oct 2025 07:01:19 GMT	2026-11-17T04:07:53+00:00
+https://www.moj.go.jp/content/001447074.pdf	sib_report.pdf	677248	3f766a7e6c651c41f408a39880a8d1949778ed69cfe23818870367d5c030d90d	200	Fri, 03 Oct 2025 07:01:16 GMT	2026-11-17T04:07:54+00:00

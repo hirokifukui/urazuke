@@ -1,0 +1,160 @@
+id	label	glob	tokens	mode
+HK-A1	機械判読用③（誤り：1,168 は表①の値）	hanzai_hakusho/70_*/zuhyo/5-4-4.xlsx::5-4-4表③※機械判読用	1989年|1168	row
+HK-A1	閲覧用（正：元年 1,421）	hanzai_hakusho/70_*/zuhyo/5-4-4.xlsx::5-4-4表※閲覧用	元年|1421	row
+HK-A2	機械判読用（3,953）	hanzai_hakusho/70_*/zuhyo/4-7-2-3.xlsx	3953	page
+HK-A2	閲覧用（3,913）	hanzai_hakusho/70_*/zuhyo/4-7-2-3.xlsx	3913	page
+HK-A3	機械判読用（令和3年・2022年）	hanzai_hakusho/70_*/zuhyo/2-5-2-2.xlsx::2-5-2-2図（R３）（総数）※機械判読用	令和３年|2022年	row
+HK-A5	Excel の総数	hanzai_hakusho/72/zuhyo/2-3-3-3.xlsx	1975	page
+HK-A6	図（83,315）	hanzai_hakusho/69_*/zuhyo/2-2-3-1.xlsx	83315	page
+HK-A6	表（83,815）	hanzai_hakusho/69_*/zuhyo/2-2-3-2.xlsx	83815	page
+HK-A7	Excel（7,411）	hanzai_hakusho/68_*/zuhyo/2-5-3-6.xlsx	7411	page
+HK-A7	正誤表（7,410）	hanzai_hakusho/seigohyo/r03_*	7,410	page
+HK-I1	1-1-1-1図（347,558）	hanzai_hakusho/69_*/zuhyo/1-1-1-1.xlsx	347558	page
+HK-I1	1-1-1-5図①（347,880）	hanzai_hakusho/69_*/zuhyo/1-1-1-5.xlsx	347880	page
+HK-B1	令和4年版（令和3年の行。4形態の押収量の和 912）	hanzai_hakusho/69_*/zuhyo/4-2-2-2.xlsx::4-2-2-2表①覚醒剤※機械判読用	令和３年	row
+HK-B1	令和5年版（令和3年の行。和 1,014）	hanzai_hakusho/70_*/zuhyo/4-2-2-2.xlsx::4-2-2-2表①※機械判読用	令和３年	row
+SO-H1	表3（3月未満 226・計 297）	moj_sexoffender/001318218.pdf	226|297	line
+SO-H2	表1（執行猶予 319・46）	moj_sexoffender/001318218.pdf	319|46	line
+SO-H3	本文（すべての再犯）	moj_sexoffender/001318218.pdf	比例ハザード性の仮定を満たしていなかった	line
+SO-H4	平成24年版（今後の課題）	moj_sexoffender/001322889.pdf	今後の課題	line
+SO-H5	平成24年版（修了した者）	moj_sexoffender/001322889.pdf	修了	line
+SO-P1	概要（0.67）	moj_sexoffender/001466396.pdf	0.67	line
+SO-P1	表5（1.485）	moj_sexoffender/001318218.pdf	1.485	line
+SO-P2	表3（罪種別）	moj_sexoffender/001322889.pdf	1,264|1,531|1,390	page
+SO-P2	表1（仮釈放 2,813・執行猶予 1,435）	moj_sexoffender/001322889.pdf	2,813|1,435	page
+630-A1	長期データ F7（札幌 2019）	seishin630/longterm_1998_2025.xlsx::F7	札幌市|2019	yearcell
+630-A1	年度別 Ⅲ.2.(5)（札幌 F7 299・F8 42）	seishin630/r1/r1_other_totalization_630/*.xlsx::Ⅲ.2.(5)	札幌市|299|42	row
+630-D1	回答率（長野 2018）	seishin630/h30/h30_other_totalization_630/*.xlsx::1.1	長野	row
+630-D1	在院患者数（長野 2018）	seishin630/longterm_1998_2025.xlsx::在院患者数	長野|2018	yearcell
+630-M1	長期データ（在院患者数）	seishin630/longterm_1998_2025.xlsx::在院患者数	合計	row
+ST-I1	動機（762）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	抵触しない動機|762	line
+ST-I1	動機の表の年の見出し（左から令和元〜5年。令和4年＝2022年は4列目）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	（6）動機	line
+ST-I1	抵触する動機（令和4年 15,657）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	抵触する動機|15,657	line
+ST-I1	内訳：精神障害（令和4年 124）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	精神障害（被害妄想含む）|124	line
+ST-I1	内訳：職場・商取引上トラブル（令和4年 27）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	職場・商取引上トラブル|27	line
+ST-I1	内訳：その他怨恨の感情（令和4年 208）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	その他怨恨の感情|208	line
+ST-I1	内訳：その他（令和4年 409。124＋27＋208＋409＝768）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	その他|409	line
+ST-I1	不明（令和4年 2,706。15,657＋768＋2,706＝19,131、15,657＋762＋2,706＝19,125）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	不明|2,706	line
+ST-I1	相談等件数（令和4年 19,131）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	19,131	line
+ST-B1	令和5年版（殺人 既遂・2020年 35）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	殺人（既遂）|47|35	line
+ST-B1	令和5年版（殺人 未遂・2020年 43）	stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf	殺人（未遂）|31|43	line
+ST-B1	令和6年版（殺人 既遂・2020年 43）	stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf	殺人（既遂）|43|37	line
+ST-B1	令和6年版（殺人 未遂・2020年 35）	stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf	殺人（未遂）|35|27	line
+MK-I1	平成26年度版 2-1（9,677）	monka/H26/1365252_12.pdf	9,677	line
+MK-I1	平成27年度版 参考行（8,445）	monka/H27/*.pdf	8,445	line
+SH-B1	令和3年版（6,866）	saihan/R03/zentai_*.pdf	6,866	line
+SH-B1	令和6年版（6,864）	saihan/R06/zentai_*.pdf	6,864	line
+SH-A1	正誤表（26,185）	saihan/R0*/seigo_*.pdf	26,185	line
+GY-Q1	速報値（219,170）	gyakutai/sokuhou/*	219,170	line
+GY-Q1	確定値（214,843）	gyakutai/kakutei_gaiyo/*	214,843	line
+HK-A4	機械判読用（表の外の68行目）	hanzai_hakusho/70_*/zuhyo/2-2-3-2.xlsx::2-2-3-2表（R３）※機械判読用	68	rowno
+JH-A1	2-15表 令和7年の行（文字列の数字）	jisatsu_hakusho/r2026/sanko2_001760475.xlsx::参考資料2-15表	令和７年|538	row
+SJ-A1	令和7年 PDF 第1表	shiho/r07/keiji_16676.pdf	2829544|2292979|536575	line
+SJ-A1	令和7年 Excel 第1表	shiho/r07/keiji_16676.xlsx::1	2829544|2292979|536575	row
+ES-I1	2024年度の表（全国 本年度末 1,336）	eisei/r06/t2-1_*.csv	全国|1336	line
+ES-I1	2025年度の表（全国 前年度末 1,365）	eisei/r07/t2-1_*.csv	全国,1365	line
+KS-A1	第1表 昭和18年	kensatsu/2025/25-00-01.xlsx::25-00-01	378798|160986|152259	row
+KS-A1	第2表 昭和18年	kensatsu/2025/25-00-02.xlsx::25-00-02	543176|230237|217756	row
+KS-A1	第2表 昭和19年	kensatsu/2025/25-00-02.xlsx::25-00-02	530173|18997|511716	row
+KS-A1	第2表 昭和37年	kensatsu/2025/25-00-02.xlsx::25-00-02	6744559|3641795	row
+KS-A1	第2表 昭和50年	kensatsu/2025/25-00-02.xlsx::25-00-02	4166376|2306618	row
+KS-A1	第2表 昭和4年	kensatsu/2025/25-00-02.xlsx::25-00-02	554909|153436|305199	row
+KS-I1	第2表 平成16年	kensatsu/2025/25-00-02.xlsx::25-00-02	20988|24615	row
+KJ-L1	報道発表ページ	kensetsu_juchu/press/joho04_hh_001301.html	令和8年6月12日|差替前と比較した新旧表	page
+KJ-L1	修正情報のページ（最新の項目）	kensetsu_juchu/press/fr4_000033_shusei.html	令和７年６月３０日訂正公表	page
+KJ-I1	報道発表ページ	kensetsu_juchu/press/joho04_hh_001301.html	令和6年5月13日|令和6年度計分	page
+KJ-I1	記者発表資料 PDF 表紙	kensetsu_juchu/nendo/R06_press.pdf	令和7年5月13日公表	page
+KC-A1	令和5年度カード 沖縄県 単年度収支	kessan_card/pref/R05_pref_card.xlsx::48沖縄県	単年度収支|-1179138	row
+KC-A1	令和5年度カード 沖縄県 実質収支	kessan_card/pref/R05_pref_card.xlsx::48沖縄県	実質収支|4438368|5617504	row
+SD-A1	第22次 表1	shibo_jirei/22/04_kobetsu.pdf	1,571(212)|87(21)|1,822(228)	page
+SD-A1	第22次 表2	shibo_jirei/22/04_kobetsu.pdf	488（1）|679（14）|19（1）	page
+SD-A1	第21次 表2	shibo_jirei/21/04_kobetsu.pdf	469（8）|652（13）	page
+SD-A2	第19次 表5	shibo_jirei/19/05_kobetsu.pdf	173(20)|370(63)	page
+SD-A2	第20次 正誤表（令和8年9月1日）	shibo_jirei/seigo/20_seigo_20260831.pdf	179|186	page
+SD-A2	第18次 正誤表（令和8年9月1日）	shibo_jirei/seigo/seigo_20260901.pdf	157|164	page
+SD-A2	第22次 表5	shibo_jirei/22/04_kobetsu.pdf	241(39)|497(117)	page
+KP-A1	表41	moj_sexoffender/001317462.pdf	受講の有無|0.12|0.48|0.89|0.64|1.24	page
+KP-A2	考察	moj_sexoffender/001317462.pdf	59.6％と最多|37％	page
+KP-A2	表6	moj_sexoffender/001317462.pdf	迷惑行為防止条例違反|59.6|42.0|37.0	page
+KP-C1	表1	moj_sexoffender/001317462.pdf	迷惑行為防止条例違反|81|5.6|82|25.3	page
+KP-C1	単純比較の注記	moj_sexoffender/001317462.pdf	罪名構成|単純	page
+KP-C1	平成24年報告 表3	moj_sexoffender/000105286.pdf	仮釈放率|65.0%|37.8%	page
+SD-A3	表14	shibo_jirei/22/04_kobetsu.pdf	主たる加害者と死亡したこどもの年齢|8(3)	page
+SD-A3	表16	shibo_jirei/22/04_kobetsu.pdf	死因となった主な虐待の類型と主たる加害者|13(6)	page
+SD-A3	表22	shibo_jirei/22/04_kobetsu.pdf	産後ケア事業の実施の有無|6(1)|41(23)|50(27)	page
+SD-A3	表44	shibo_jirei/22/04_kobetsu.pdf	最終安全確認の時期|8(0)	page
+SD-A3	表59	shibo_jirei/22/04_kobetsu.pdf	34(21)|14(4)|49(26)	page
+SD-A3	第21次 表22	shibo_jirei/21/04_kobetsu.pdf	本児死亡時は実施していないが	page
+HK-A8	令和7年版 ① 平成18年	hanzai_hakusho/72/zuhyo/5-4-2.xlsx::5-4-2図（H元～27）①	平成18年|16496|133	row
+HK-A8	令和7年版 ② 平成20年	hanzai_hakusho/72/zuhyo/5-4-2.xlsx::5-4-2図（H元～27）②	平成20年|4711|1384	row
+HK-A8	令和7年版 ② 平成27年	hanzai_hakusho/72/zuhyo/5-4-2.xlsx::5-4-2図（H元～27）②	平成27年|3422|1016	row
+YK-C1	合同概要	moj_yakubutsu/gaiyou_joint.pdf	処遇効果が示唆された|26.6%|20.9%	page
+YK-C1	報告書 表4	moj_yakubutsu/kyosei_report.pdf	26.6%|20.9%|593|742	page
+YK-C1	報告書 表8	moj_yakubutsu/kyosei_report.pdf	19.4%|21.0%|706名	page
+YK-C1	報告書 注21	moj_yakubutsu/kyosei_report.pdf	21.0％|21.8％	page
+YK-D1	報告書 表1	moj_yakubutsu/hogo_report.pdf	878|2,215|36.8%|97.4%	page
+YK-D1	報告書 算出変数	moj_yakubutsu/hogo_report.pdf	傾向スコア算出変数	page
+YK-D1	報告書 考察	moj_yakubutsu/hogo_report.pdf	事件種別の偏りは	page
+YK-D1	概要	moj_yakubutsu/hogo_gaiyou.pdf	等質となるように抽出した2,812名	page
+YK-I1	付録 表ア	moj_yakubutsu/hogo_report.pdf	入所度数|1,091|1,772|1,295	page
+YK-I1	報告書 表1	moj_yakubutsu/hogo_report.pdf	2 度以上|1,091|1,772	page
+BV-P1	1枚の概要	moj_yakubutsu/boryoku_gaiyou_2026.pdf	0.63|抑えられた	page
+BV-P1	報告書 表1-3	moj_yakubutsu/boryoku_report_2026.pdf	24（ 6.0%）|38（ 9.5%）|.058	page
+BV-C1	報告書 表3-2	moj_yakubutsu/boryoku_report_2026.pdf	1（ 1.4%）|4（ 4.0%）|児童虐待事案	page
+BV-C1	1枚の概要	moj_yakubutsu/boryoku_gaiyou_2026.pdf	1.4%|4.0	page
+BV-C1	1枚の概要（続き：非受講群の再犯率）	moj_yakubutsu/boryoku_gaiyou_2026.pdf	4.0％）よりも低い	page
+BV-C1	1枚の概要（検証結果の欄）	moj_yakubutsu/boryoku_gaiyou_2026.pdf	再犯抑止に寄与した可能性	page
+SK-C1	本文 課題	moj_kensho2/shokugyo_report.pdf	訓練を希望した者|生活態度|健康状態	page
+SK-C1	本文 統制した変数	moj_kensho2/shokugyo_report.pdf	出所時の年齢|能力検査値	page
+SK-C1	本文 結果	moj_kensho2/shokugyo_report.pdf	78.7％|74.0％|継続	page
+SK-C1	本文 結論	moj_kensho2/shokugyo_report.pdf	安定的な就労に寄与	page
+SB-C1	本文 評価方法	moj_kensho2/sib_report.pdf	379|支援対象	page
+SB-C1	本文 評価結果	moj_kensho2/sib_report.pdf	8.7％|５％|57	page
+SB-C1	本文 少人数	moj_kensho2/sib_report.pdf	29 人|過少	page
+SB-C1	概要	moj_kensho2/sib_gaiyou.pdf	因果関係の評価が行われた	page
+HK-A10	令和7年版 4-8-2-2図①	hanzai_hakusho/72/zuhyo/4-8-2-2.xlsx::4-8-2-2図①	2004年|5296|1772|32090	row
+HK-A10	令和6年版 4-8-2-2図（総数）	hanzai_hakusho/71_20261116T090659Z/zuhyo/4-8-2-2.xlsx::4-8-2-2図（総数）	2004年|5296|1772	row
+HK-A10	令和5年版 4-8-2-2図（総数）機械判読用	hanzai_hakusho/70_20261116T073025Z/zuhyo/4-8-2-2.xlsx::4-8-2-2図（総数）※機械判読用	2004年|7698|32090	row
+HK-A9	訂正のお知らせ（235頁）	hanzai_hakusho/seigohyo/s_00140.html	313|126	page
+HK-A9	Web 版本文（認知症スクリーニング）	hanzai_hakusho/71_20261116T090659Z/honbun/n71_2_4_8_2_2.html	312人|125人	page
+HK-A9	Web 版本文（生活環境の調整）	hanzai_hakusho/71_20261116T090659Z/honbun/n71_2_2_5_2_2.html	2万8,559人	page
+HK-A9	Web 版本文（配偶者からの暴力）	hanzai_hakusho/71_20261116T090659Z/honbun/n71_2_4_6_2_0.html	6万2,444件	page
+HK-A9	令和5年版 Web 版本文（生活環境の調整）	hanzai_hakusho/70_20261116T073025Z/honbun/n70_2_2_5_2_2.html	2万8,648人	page
+HK-A9	PDF（認知症スクリーニング）	hanzai_hakusho/pdf/r06_001432725.pdf	312人|125人	page
+NK-K1	矯正統計年報 第88表（2025年）	kyosei/2025/25-00-88.xlsx::25-00-88	血管性及び詳細不明の認知症|15	row
+NK-K1	再犯防止推進白書 令和4年版 特2-1-4	saihan/R04/zentai_*.pdf	認知症診断者|973	page
+NK-K1	再犯防止推進白書 令和4年版（平成27年の推計）	saihan/R04/zentai_*.pdf	17%|1100人程度	page
+NK-K1	再犯防止推進白書 令和7年版	saihan/R07/zentai_*.pdf	2,086人|132人	page
+NK-K1	犯罪白書 令和7年版	hanzai_hakusho/pdf/r07_001455836.pdf	2,086人|284人|132人	page
+NK-K1	犯罪白書 令和7年版 4-10-2-1表（注）	hanzai_hakusho/72/zuhyo/4-10-2-1.xlsx::4-10-2-1表（R６）	認知症、摂食障害、行為障害等	page
+KY-I1	2023年版 第37表（2022年の行）	kyosei/2023/23-00-37.xlsx::23-00-37	総数|14460|1705	row
+KY-I1	2022年版 第37表（2022年の行）	kyosei/2022/22-00-37.xlsx::22-00-37	総数|14460|1705	row
+KY-I1	犯罪白書 令和5年版 4-10-2-1表（注）	hanzai_hakusho/70_20261116T073025Z/zuhyo/4-10-2-1.xlsx::4-10-2-1表（R４）※閲覧用	発達障害を含む	page
+MK-L1	令和4年度 結果のページ	kyoin_chokai/pages/1411820_00007.htm	懲戒処分の公表に関する取組状況一覧	page
+MK-L1	令和4年度 資料 2-6	kyoin_chokai/00007/20231222-mxt_syoto01-000033180_50.pdf	懲戒処分の公表|公表の例外	page
+MK-L1	令和6年度 結果のページ（資料 2-7 まで）	kyoin_chokai/pages/1411820_00009.htm	懲戒処分に関する処分基準の内容（令和7年10月1日現在）	page
+KM-K1	人事院 資料2（令和6年）	koumuin_chokai/jinji_R6_shiryo2.pdf	公務外非行関係|窃盗、暴行等	page
+KM-K1	総務省（令和6年度）	koumuin_chokai/soumu_R6_chokai.pdf	金銭・異性関係等の非行等	page
+KM-K1	警察庁（令和8年上半期）	koumuin_chokai/npa_R8_kamihanki.pdf	異性関係	page
+KM-K1	犯罪白書 令和7年版 4-11-1表	hanzai_hakusho/72/zuhyo/4-11-1.xlsx::4-11-1表（R６）	その他の刑法犯|2709	row
+KM-K1	文科省 資料 2-5-1（令和6年度）	kyoin_chokai/00009/20251217-mxt_syoto01-000046407_36.pdf	性犯罪・性暴力等|281	page
+MK-L2	文科省のページ（令和8年4月1日現在）	kyoin_db/mext_00001.html	特定免許状失効者等の登録件数|2,918件	page
+MK-L2	Internet Archive の写し（令和7年4月1日現在）	kyoin_db/wayback/mext_00001_20250422043151.html	令和7年4月1日現在|2,698件	page
+MK-L2	人事行政状況調査 令和6年度 資料 2-5-1	kyoin_chokai/00009/20251217-mxt_syoto01-000046407_36.pdf	性犯罪・性暴力等|167	page
+ST-I2	平成27年版 p2（注）	stalker/wayback/20160528040909_seianki27STDV.pdf	同法違反で検挙した件数すべてを計上	page
+ST-I2	平成27年版 p2（注）	stalker/wayback/20160528040909_seianki27STDV.pdf	ストーカー事案であることが判明したもの	page
+ST-I2	令和6年版 p3（注）	stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf	受理した相談のうち同年中に実施した	page
+ST-I2	令和元年版（2015年の値）	stalker/wayback/20200927010635_R1_STDVkouhoushiryou.pdf	1,872|677	page
+KH-K1	令和元年 第56表	keisatsu_hanzai_toukei/sho/R01_056.xlsx	内縁含む	page
+KH-K1	令和6年 第56表	keisatsu_hanzai_toukei/sho/R06_056.xlsx	元配偶者|交際相手	page
+KH-K1	令和7年版 ストーカー統計 CSV	stalker/npa/01_R7_ST.csv	殺人（未遂）	page
+SH-C1	平成30年版（80頁）	saihan/H30/zentai_*.pdf	7.7|一定の再犯抑止効果が認められている	page
+SH-C1	令和元年版（80頁）	saihan/R01/zentai_*.pdf	7.7|一定の再犯抑止効果が認められている	page
+SH-C1	平成24年報告 表5	moj_sexoffender/000105286.pdf	表５|21.9%|29.6%|12.8%|15.4%	page
+SH-C1	平成24年報告 性犯罪再犯	moj_sexoffender/000105286.pdf	性犯罪再犯|効果を確認するまでには至らなかった	page
+SH-C1	平成24年報告 精度の限界	moj_sexoffender/000105286.pdf	精度については，一定の限界がある	page
+ST-D1	令和6年 p5	stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf	94,937|施行後最多	page
+ST-D1	令和6年 注3	stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf	令和６年４月１日施行以降|名誉又は財産に対する脅迫	page
+ST-D1	令和7年 p7	stalker/npa/R7_STDVRPCA_kouhou.pdf	98,289|施行後最多	page
+SH-A2	正誤表（38頁）	saihan/R05/seigo_*.pdf	38 ページ|前年：75	page
+SH-A2	全体版（38頁 ※3）	saihan/R05/zentai_*.pdf	就労支援スタッフ|前年：76	page

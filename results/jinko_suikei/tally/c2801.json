@@ -1,0 +1,13 @@
+{
+ "dir": "jinko_suikei",
+ "check": "c2801",
+ "label": "",
+ "note": "人口推計：表の内部整合と版間",
+ "source": "check",
+ "compared": 1166,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "6c0c6923a4becf622e6e1e203c995c651dcaf2476f3938e891e01859f93eff8b",
+ "written_utc": "2026-11-17T12:35:46Z"
+}

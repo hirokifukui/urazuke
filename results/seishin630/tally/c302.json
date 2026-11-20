@@ -1,0 +1,13 @@
+{
+ "dir": "seishin630",
+ "check": "c302",
+ "label": "",
+ "note": "630調査 年度別の表（Ⅲ.2.(5)）と長期データ",
+ "source": "check",
+ "compared": 6786,
+ "mismatched": 60,
+ "explained": null,
+ "read_failures": 1,
+ "script_sha256": "6017181fcbabd868b11aff568783e9bea3e658683e07c9333d0b2b3cb6923114",
+ "written_utc": "2026-11-17T12:24:54Z"
+}

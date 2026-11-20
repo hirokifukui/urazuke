@@ -1,0 +1,13 @@
+{
+ "dir": "karoshi",
+ "check": "c3401",
+ "label": "",
+ "note": "過労死等の労災補償状況 別添資料：内訳の和と合計",
+ "source": "check",
+ "compared": 145,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "b564b38f030bc9a34daf78c6fa6f03b0aa926095e17e83a68349621d37474ad0",
+ "written_utc": "2026-11-17T12:33:54Z"
+}

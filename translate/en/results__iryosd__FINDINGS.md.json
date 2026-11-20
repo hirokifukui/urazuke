@@ -1,0 +1,53 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "ee4c4d223ea39fb346da34f14c5445f5768c7050385adeb6f7320ed851cfe732": {
+   "ja": "# 医療施設（動態）調査の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of the Survey of Medical Institutions (Dynamic) (started 2026-11-17)  Verification status: Machine-verified only",
+   "src": "results/iryosd/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "53c0a7b65b86e2b2bdc1cfb15dc3b001067ed8f311635f44bd57a6f0a9874926": {
+   "ja": "## 対象と取得\n- 厚生労働省 医療施設（動態）調査・病院報告：令和7年（2025）と令和6年（2024）の統計表 Excel、概況 PDF。令和7年の「人口10万対比率等の再計算のお知らせ」（2026-11-10）。取得記録：data/raw/iryosd/MANIFEST.tsv。\n- お知らせによると、2026-09-29 の公表時は国勢調査の人口速報集計で率を計算し、2026-11-10 に人口等基本集計で再計算した版に差し替えた。取得したのは差し替え後。",
+   "en": "## Scope and acquisition\n- Ministry of Health, Labour and Welfare, Survey of Medical Institutions (Dynamic) and Hospital Report: statistical table Excel files and summary PDFs for 2025 and 2024. The notice for 2025, \"Recalculation of rates per 100,000 population etc.\" (`人口10万対比率等の再計算のお知らせ`), dated 2026-11-10. Acquisition record: data/raw/iryosd/MANIFEST.tsv.\n- According to the notice, at publication on 2026-09-29 the rates were calculated with the preliminary population counts of the Population Census, and on 2026-11-10 the edition was replaced with one recalculated using the basic tabulation on population etc. The files acquired are those after the replacement.",
+   "src": "results/iryosd/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "4971fa9902aca47b54b801c3d4777a0a88717aa4b87083592b5972ea98f9e21a": {
+   "ja": "## c1801 内部整合・再計算・版間（L1・L5・L3）— 誤りなし\n- (a) 統計表10 都道府県（47）の和＝全国（病床の7列×2年）14組、病院の病床＝精神＋感染症＋結核＋療養＋一般 96行：不一致 0。\n- (b) 統計表10・9 の人口10万対病床数・施設数を、国勢調査2025年 人口等基本集計の都道府県人口で再計算：624組すべて小数第1位で一致。差し替えが反映されていることを確かめた。\n- (c) 統計表1（年次推移）令和7年版と令和6年版の重なる年 176組：差 0。",
+   "en": "## c1801 Internal consistency, recalculation, between editions (L1, L5, L3) — no errors\n- (a) Statistical Table 10: sum of prefectures (47) = national total (7 bed columns × 2 years), 14 pairs; hospital beds = psychiatric + infectious disease + tuberculosis + long-term care + general, 96 rows: 0 mismatches.\n- (b) Beds and facilities per 100,000 population in Statistical Tables 10 and 9 were recalculated using the prefectural populations from the 2025 Population Census basic tabulation on population etc.: all 624 pairs match to the first decimal place. This confirms that the replacement has been reflected.\n- (c) Statistical Table 1 (annual trends), 2025 edition and 2024 edition, 176 pairs for overlapping years: difference 0.",
+   "src": "results/iryosd/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "671dc78ac2569d22b7ba28b70a3667c233726a9b91df5ee5e2ad200491292991": {
+   "ja": "## 他の資料との関係（記録にしない）\n- 精神病床数は 630調査（6月30日時点）と調査日（10月1日）が違うため、値の比較は行っていない。",
+   "en": "## Relationship to other sources (not recorded)\n- For the number of psychiatric beds, the 630 Survey (as of 30 June) and this survey (survey date 1 October) have different reference dates, so the values were not compared.",
+   "src": "results/iryosd/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "46670735c40451b8708c680fdbd54e0d4bd9888791b3d274c496959131318e49": {
+   "ja": "## 陰性対照\n- 統計表10 の病床数を変えた写しで (a) が検出（results/scope/negctl_r08.json）。",
+   "en": "## Negative control\n- In a copy with altered bed counts in Statistical Table 10, (a) detected the change (results/scope/negctl_r08.json).",
+   "src": "results/iryosd/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a1a1dc19263c3ecaa5120e443af7cfcdcd5236e6450cba082a2e80a04441140e": {
+   "ja": "## 照合した件数\n約900組。記録なし。",
+   "en": "## Number of pairs compared\nAbout 900 pairs. No records.",
+   "src": "results/iryosd/FINDINGS.md",
+   "src_commit": "1b4932a",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

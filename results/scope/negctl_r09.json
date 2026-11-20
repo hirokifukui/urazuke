@@ -1,0 +1,127 @@
+{
+ "kyosei_seigo": {
+  "script": "checks/kyosei/c2701_seigo_applied.py",
+  "pattern": "NOT_APPLIED 2025",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "hogo_seigo": {
+  "script": "checks/hogo/c2702_seigo_applied.py",
+  "pattern": "TABLE 2025-11-28 2023 kansatsu 59",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "kensatsu_t2": {
+  "script": "checks/kensatsu/c2901_flow.py",
+  "pattern": "不一致 11[6-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "suikei_t2": {
+  "script": "checks/jinko_suikei/c2801_suikei.py",
+  "pattern": "2024 第2表 北海道",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "mhoa_nyuin": {
+  "script": "checks/iryokansatsu/c3001_mhlw.py",
+  "pattern": "男\\+女=合計",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "mhoa_hogo": {
+  "script": "checks/iryokansatsu/c3002_hogo_mhoa.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "chinkin_t1": {
+  "script": "checks/chinkin/c3201_tab1.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "sna_gdp": {
+  "script": "checks/sna/c3701_ffm1n.py",
+  "pattern": "GDP=1\\+2\\+3\\+4",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "card_okinawa": {
+  "script": "checks/kessan_card/c3801_pref.py",
+  "pattern": "R06 沖縄県 当年度 実質収支",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "seiho_m": {
+  "script": "checks/seiho/c3301_monthly.py",
+  "pattern": "不一致 [1-9]",
+  "mutation": "m2026_08.pdf: 1,965,132       1,985,720 → 1,965,133       1,985,720（pdftotext の出力で置き換え）",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "karoshi_t": {
+  "script": "checks/karoshi/c3401_tables.py",
+  "pattern": "不一致 [1-9]",
+  "mutation": "b1_noushinzou.pdf: 257 ( 9 ) → 258 ( 9 )（pdftotext の出力で置き換え）",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "koutsuu_r": {
+  "script": "checks/koutsuu/c3501_nenkan.py",
+  "pattern": "不一致 [1-9]",
+  "mutation": "R07nenkan.pdf: 55.9% → 56.9%（pdftotext の出力で置き換え）",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "monka_h1": {
+  "script": "checks/monka_kihon/c3601_hyo1.py",
+  "pattern": "不一致 [1-9]",
+  "mutation": "R08_sokuho.pdf: 5,654,461 → 5,654,462（pdftotext の出力で置き換え）",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "monka_tb": {
+  "script": "checks/monka_kihon/c3602_taibatsu.py",
+  "pattern": "不一致 [1-9]",
+  "mutation": "000046407_33.pdf:     合 計      393 →     合 計      394（pdftotext の出力で置き換え）",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ },
+ "kensetsu_fy": {
+  "script": "checks/kensetsu_juchu/c3101_nendo.py",
+  "pattern": "不一致 [1-9]",
+  "detected_before_mutation": false,
+  "detected_after_mutation": true,
+  "pass": true,
+  "stderr_tail": ""
+ }
+}

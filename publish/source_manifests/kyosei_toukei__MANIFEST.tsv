@@ -1,0 +1,9 @@
+url	path	bytes	sha256	status	last_modified	fetched_utc
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031846940&fileKind=0	kijuu/2018_84_000031846940.xls	21009	3406901fab2dac5abb4968f360c844284414bcd38aff503e634f8b4656f9ba12	200		2026-11-16T11:51:53+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031962409&fileKind=0	kijuu/2019_84_000031962409.xls	20574	04afb4d034fdaebf20659ae0a426ae68cc789557cba93376ee7c83c022b25c7b	200		2026-11-16T11:51:55+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032105791&fileKind=4	kijuu/2020_84_000032105791.xls	20491	1ecef588dc101778a460f1b9d566e20dc310847d726ad17b73efbd0bdda247b5	200		2026-11-16T11:51:57+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032209855&fileKind=4	kijuu/2021_84_000032209855.xls	20155	cf6b388100b3acc904d6d5efbf47b13de955ca3ac1cf9fc6148f9ab6a83b05c3	200		2026-11-16T11:52:00+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040081464&fileKind=4	kijuu/2022_84_000040081464.xls	19613	38fe5fe5cfdec61354c29cb86aed3bea7e620e567e399a450f73a8434171c53c	200		2026-11-16T11:52:02+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040196043&fileKind=4	kijuu/2023_84_000040196043.xls	20166	a21192c52e7dd83ec002d5731bcb999853e95c266eb6c537e01de6b0966c4e83	200		2026-11-16T11:52:05+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040290250&fileKind=4	kijuu/2024_84_000040290250.xls	19605	ab1fa5c0ec1a2c204aec01bf5b5a26d7bbe8cb8713d018cff6adf4ceedd9b9ab	200		2026-11-16T11:52:07+00:00
+https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040476747&fileKind=4	kijuu/2025_84_000040476747.xls	21124	a939bb839ba9bef02b6ff32e6e8693892f64b3b0345c8805ca32221daba489d3	200		2026-11-16T11:52:10+00:00

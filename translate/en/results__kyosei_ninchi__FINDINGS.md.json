@@ -1,0 +1,53 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "52cb5eff91fa796a8c2559f867d1d1000959a1ebac44c24eccb232bd6141c133": {
+   "ja": "# 刑事施設の認知症 — 把握の所在（2026-11-17 調べ）",
+   "en": "# Dementia in penal institutions — where it is identified (checked 2026-11-17)",
+   "src": "results/kyosei_ninchi/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5a4d76a300faaa3cb4292ec4bb8ca04f6db1a716896dd6e6f0065dedca902222": {
+   "ja": "## 定期の統計\n- 矯正統計年報 第37表（精神診断）: 認知症の区分なし。\n- 第88・90表（休養患者の病名別）: 血管性及び詳細不明の認知症 2020-2025 = 18, 13, 14, 12, 12, 15（男）。アルツハイマー病 = 6, 5, 2, 3, 4, 3。\n- 第93表（死亡者の病名別）: 認知症 0-3、アルツハイマー 0-1。\n- いずれも療養・死亡に至った者の数で、有病の把握ではない。",
+   "en": "## Regular statistics\n- Annual Report of Correctional Statistics, Table 37 (psychiatric diagnosis): no category for dementia.\n- Tables 88 and 90 (patients placed on rest, by disease): vascular and unspecified dementia 2020-2025 = 18, 13, 14, 12, 12, 15 (male). Alzheimer's disease = 6, 5, 2, 3, 4, 3.\n- Table 93 (deaths, by disease): dementia 0-3, Alzheimer's 0-1.\n- All of these are counts of persons who came to be placed on medical rest or died; they do not identify prevalence.",
+   "src": "results/kyosei_ninchi/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "27df4c6996b47a4467095ac658d8a83699879972cca7cc897d549248b3a72f43": {
+   "ja": "## 後継の把握（2016 年の推計「約17%・約1,100人」の後）\n- 認知症スクリーニング検査（法務省矯正局の資料）。白書の本文と表にだけ載り、統計表としては出ていない。\n  - 2018-2021（再犯防止推進白書 令和4年版 特2-1-4、10庁・60歳以上等）: 実施 893/908/930/973、診察 131/206/195/183、診断 35/50/54/55。\n  - 2022（犯罪白書 令和5年版）: 実施 744、診察 145、診断 28。\n  - 2023（全庁・65歳以上等に拡大）: 実施 2,096、診察 312。診断は 犯罪白書 令和6年版 = 125、再犯防止推進白書 令和6年版 = 126。\n  - 2024（再犯防止推進白書 令和7年版）: 実施 2,086、診断 132。",
+   "en": "## Subsequent identification (after the 2016 estimate of \"about 17%, about 1,100 persons\")\n- Dementia screening tests (Correction Bureau, Ministry of Justice materials). These appear only in the text and tables of the white papers and are not published as statistical tables.\n  - 2018-2021 (White Paper on Recidivism Prevention, 2022 edition (Reiwa 4), `特2-1-4`, 10 institutions, aged 60 and over etc.): tested 893/908/930/973, examined 131/206/195/183, diagnosed 35/50/54/55.\n  - 2022 (White Paper on Crime, 2023 edition (Reiwa 5)): tested 744, examined 145, diagnosed 28.\n  - 2023 (expanded to all institutions, aged 65 and over etc.): tested 2,096, examined 312. Diagnosed: White Paper on Crime, 2024 edition (Reiwa 6) = 125; White Paper on Recidivism Prevention, 2024 edition (Reiwa 6) = 126.\n  - 2024 (White Paper on Recidivism Prevention, 2025 edition (Reiwa 7)): tested 2,086, diagnosed 132.",
+   "src": "results/kyosei_ninchi/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "c99d70ae7658a76b28cfc2d0c550a1ce6c24c6230494db21a2ca3fc99b64a087": {
+   "ja": "## 候補\n- 不整合（中）: 2023 年の認知症診断者数が白書間で 125 と 126。\n- 欠落（中）: スクリーニングの年次値は白書の本文に散在し、対象（60歳以上→65歳以上、10庁→全庁）が途中で変わる。有病率として読める系列はない。\n- 未実施: 事前登録・Codex 反証。",
+   "en": "## Candidates\n- Inconsistency (Medium): the number of persons diagnosed with dementia in 2023 is 125 and 126 between the white papers.\n- Gap (Medium): annual screening values are scattered across the text of the white papers, and the target population changes partway (aged 60 and over → aged 65 and over; 10 institutions → all institutions). There is no series that can be read as a prevalence rate.\n- Not yet done: preregistration, Codex refutation.",
+   "src": "results/kyosei_ninchi/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "6fc9287f431ce48959703ece5692a737dc343f2eb677d0e35981098471aa5511": {
+   "ja": "## 追記（同日、r15）\n- 2023 年の 125/126 は、法務省「令和６年版犯罪白書の訂正のお知らせ」（s_00140）が 312人・125人 → 313人・126人 と訂正済み。不整合の候補は取り下げ、訂正が Web 版本文・PDF に反映されていないこととして HK-A9 に記録（results/hanzai_hakusho/FINDINGS.md）。\n- 記録：NK-K1（欠落・D・中、機械検証のみ）。R015：Q2・Q4・Q5 支持、Q7 判定不能（書き直し）。対照 2 件とも反証。",
+   "en": "## Addendum (same day, r15)\n- The 2023 figures 125/126 have been corrected by the Ministry of Justice correction notice `令和６年版犯罪白書の訂正のお知らせ` (s_00140) from 312 persons and 125 persons → 313 persons and 126 persons. The inconsistency candidate is withdrawn, and the fact that the correction is not reflected in the Web version text or the PDF is recorded as HK-A9 (results/hanzai_hakusho/FINDINGS.md).\n- Record: NK-K1 (gap, D, medium, machine-verified only). R015: Q2, Q4 and Q5 supported; Q7 inconclusive (rewritten). Both controls refuted.",
+   "src": "results/kyosei_ninchi/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "559f4fd2c439d19b086a10bc6ada2c5267a41a445f13d94b216c1f6b5f47d93e": {
+   "ja": "## 窃盗・高齢の入所受刑者（2026-11-17、r16）　c4401\n- 取得：矯正統計年報 第22表（新受刑者の罪名別 年齢）2020〜2024年（2025年は取得済み）。\n- 第22表の罪名ごとの年齢の和＝総数（2020〜2025年）：式 296、不一致 0。\n- 犯罪白書 令和7年版 4-8-2-3図（令和5・6年）と第22表：窃盗・総数・詐欺・覚醒剤・殺人・放火の年齢層別の値、白書の年齢の和・65歳以上の男女の和：式 500、不一致 0。\n- 窃盗の65歳以上の入所受刑者：2023年 1,215人（65歳以上全体 2,009人）、2024年 1,257人（同 2,049人）。\n- 4-8-2-2図（令和7年版）の 2020〜2024年と第22表の年の総数：不一致 0。高齢者率の再計算（1989〜2024年）：不一致 0。\n- 4-8-2-2図の年齢の和＝総数：2004年だけ合わない（31,460 と 32,090）。版間で見ると、令和5年版までの「50～64歳」7,698 を令和6年版で「50～59歳」「60～64歳」に分けたとき、50～59歳が 5,296（7,698－1,772＝5,926）。→ HK-A10（results/hanzai_hakusho/FINDINGS.md L10）。",
+   "en": "## Theft: elderly admitted prisoners (2026-11-17, r16) c4401\n- Obtained: Annual Report of Correctional Statistics, Table 22 (new prisoners by offence and age), 2020–2024 (2025 already obtained).\n- Sum of the ages for each offence in Table 22 = total (2020–2025): equations 296, mismatches 0.\n- White Paper on Crime 2025 edition (Reiwa 7), Figure 4-8-2-3 (2023 and 2024) and Table 22: values by age group for theft, total, fraud, stimulants, homicide and arson; sum of the ages in the white paper; sum of men and women aged 65 and over: equations 500, mismatches 0.\n- Admitted prisoners aged 65 and over for theft: 2023: 1,215 (all aged 65 and over: 2,009); 2024: 1,257 (same: 2,049).\n- Figure 4-8-2-2 (2025 edition) for 2020–2024 and the annual totals in Table 22: mismatches 0. Recalculation of the elderly rate (1989–2024): mismatches 0.\n- Sum of the ages in Figure 4-8-2-2 = total: only 2004 does not match (31,460 and 32,090). Between editions: when \"50–64\" 7,698 up to the 2023 edition (Reiwa 5) was split into \"50–59\" and \"60–64\" in the 2024 edition (Reiwa 6), 50–59 is 5,296 (7,698 − 1,772 = 5,926). → HK-A10 (results/hanzai_hakusho/FINDINGS.md L10).",
+   "src": "results/kyosei_ninchi/FINDINGS.md",
+   "src_commit": "27c70ab",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}

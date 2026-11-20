@@ -1,0 +1,2547 @@
+[
+ {
+  "id": "HK-A1",
+  "label": "機械判読用③（誤り：1,168 は表①の値）",
+  "glob": "hanzai_hakusho/70_*/zuhyo/5-4-4.xlsx",
+  "tokens": [
+   "1989年",
+   "1168"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/70_20261116T073025Z/zuhyo/5-4-4.xlsx",
+    "where": "シート「5-4-4表③※機械判読用」C7・AM7",
+    "text": "行：平成元年 1989年 5205 193 546 388 217 61 16 … … … … … … … … … … … … … … … … … … … … … … … … … … … … 1168 7.209876543209877"
+   }
+  ]
+ },
+ {
+  "id": "HK-A1",
+  "label": "閲覧用（正：元年 1,421）",
+  "glob": "hanzai_hakusho/70_*/zuhyo/5-4-4.xlsx",
+  "tokens": [
+   "元年",
+   "1421"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/70_20261116T073025Z/zuhyo/5-4-4.xlsx",
+    "where": "シート「5-4-4表※閲覧用」B57・AL57",
+    "text": "行：  元年 5205 193 546 388 217 61 16 … … … … … … … … … … … … … … … … … … … … … … … … … … … … 1421 27.300672430355426"
+   }
+  ]
+ },
+ {
+  "id": "HK-A2",
+  "label": "機械判読用（3,953）",
+  "glob": "hanzai_hakusho/70_*/zuhyo/4-7-2-3.xlsx",
+  "tokens": [
+   "3953"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/70_20261116T073025Z/zuhyo/4-7-2-3.xlsx",
+    "where": "シート「4-7-2-3図※機械判読用」E39",
+    "text": "行の見出し：令和３年 2021年 6491／値：3953"
+   }
+  ]
+ },
+ {
+  "id": "HK-A2",
+  "label": "閲覧用（3,913）",
+  "glob": "hanzai_hakusho/70_*/zuhyo/4-7-2-3.xlsx",
+  "tokens": [
+   "3913"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/70_20261116T073025Z/zuhyo/4-7-2-3.xlsx",
+    "where": "シート「4-7-2-3図※閲覧用」D39",
+    "text": "行の見出し：３ 6491 3913／値：3913"
+   }
+  ]
+ },
+ {
+  "id": "HK-A3",
+  "label": "機械判読用（令和3年・2022年）",
+  "glob": "hanzai_hakusho/70_*/zuhyo/2-5-2-2.xlsx",
+  "tokens": [
+   "令和３年",
+   "2022年"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/70_20261116T073025Z/zuhyo/2-5-2-2.xlsx",
+    "where": "シート「2-5-2-2図（R３）（総数）※機械判読用」B10・C10",
+    "text": "行：令和３年 2022年 11086 150 2098 4986 3852"
+   }
+  ]
+ },
+ {
+  "id": "HK-A5",
+  "label": "Excel の総数",
+  "glob": "hanzai_hakusho/72/zuhyo/2-3-3-3.xlsx",
+  "tokens": [
+   "1975"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/72/zuhyo/2-3-3-3.xlsx",
+    "where": "シート「2-3-3-3表（R６）」C8",
+    "text": "行の見出し：総数 1975 33／値：1975"
+   }
+  ]
+ },
+ {
+  "id": "HK-A6",
+  "label": "図（83,315）",
+  "glob": "hanzai_hakusho/69_*/zuhyo/2-2-3-1.xlsx",
+  "tokens": [
+   "83315"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/69_20261116T085457Z/zuhyo/2-2-3-1.xlsx",
+    "where": "シート「2-2-3-1図※閲覧用」H43",
+    "text": "行の見出し：３ 271489 92511／値：83315"
+   }
+  ]
+ },
+ {
+  "id": "HK-A6",
+  "label": "表（83,815）",
+  "glob": "hanzai_hakusho/69_*/zuhyo/2-2-3-2.xlsx",
+  "tokens": [
+   "83815"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/69_20261116T085457Z/zuhyo/2-2-3-2.xlsx",
+    "where": "シート「2-2-3-2表（R３）※閲覧用」K10",
+    "text": "行の見出し：総数 271489／値：83815"
+   }
+  ]
+ },
+ {
+  "id": "HK-A7",
+  "label": "Excel（7,411）",
+  "glob": "hanzai_hakusho/68_*/zuhyo/2-5-3-6.xlsx",
+  "tokens": [
+   "7411"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/68_20261116T085457Z/zuhyo/2-5-3-6.xlsx",
+    "where": "シート「2-5-3-6表（R２）」F6",
+    "text": "行の見出し：総数／値：7411"
+   }
+  ]
+ },
+ {
+  "id": "HK-A7",
+  "label": "正誤表（7,410）",
+  "glob": "hanzai_hakusho/seigohyo/r03_*",
+  "tokens": [
+   "7,410"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/seigohyo/r03_housouken03_00115.html",
+    "where": "ページ本文",
+    "text": "&nbsp; 7,410人"
+   }
+  ]
+ },
+ {
+  "id": "HK-I1",
+  "label": "1-1-1-1図（347,558）",
+  "glob": "hanzai_hakusho/69_*/zuhyo/1-1-1-1.xlsx",
+  "tokens": [
+   "347558"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/69_20261116T085457Z/zuhyo/1-1-1-1.xlsx",
+    "where": "シート「1-1-1-1図※閲覧用」L78",
+    "text": "行の見出し：14 2853739 2377488／値：347558"
+   }
+  ]
+ },
+ {
+  "id": "HK-I1",
+  "label": "1-1-1-5図①（347,880）",
+  "glob": "hanzai_hakusho/69_*/zuhyo/1-1-1-5.xlsx",
+  "tokens": [
+   "347880"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/69_20261116T085457Z/zuhyo/1-1-1-5.xlsx",
+    "where": "シート「1-1-1-5図①※閲覧用」C35",
+    "text": "行の見出し：14 347880 56535／値：347880"
+   }
+  ]
+ },
+ {
+  "id": "HK-B1",
+  "label": "令和4年版（令和3年の行。4形態の押収量の和 912）",
+  "glob": "hanzai_hakusho/69_*/zuhyo/4-2-2-2.xlsx",
+  "tokens": [
+   "令和３年"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/69_20261116T085457Z/zuhyo/4-2-2-2.xlsx",
+    "where": "シート「4-2-2-2表①覚醒剤※機械判読用」B12",
+    "text": "行：令和３年 2021年 5 35 33 52 57 825 50 199 7 626 0 0"
+   }
+  ]
+ },
+ {
+  "id": "HK-B1",
+  "label": "令和5年版（令和3年の行。和 1,014）",
+  "glob": "hanzai_hakusho/70_*/zuhyo/4-2-2-2.xlsx",
+  "tokens": [
+   "令和３年"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/70_20261116T073025Z/zuhyo/4-2-2-2.xlsx",
+    "where": "シート「4-2-2-2表①※機械判読用」B12",
+    "text": "行：令和３年 2021年 5 35 33 62 57 917 50 266 7 650 0 0"
+   }
+  ]
+ },
+ {
+  "id": "SO-H1",
+  "label": "表3（3月未満 226・計 297）",
+  "glob": "moj_sexoffender/001318218.pdf",
+  "tokens": [
+   "226",
+   "297"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001318218.pdf",
+    "where": "2頁",
+    "text": "保護観察付執行猶予者 7 0 0 39 46 非 受 講 群 全 体 12 0 226 59 297"
+   }
+  ]
+ },
+ {
+  "id": "SO-H2",
+  "label": "表1（執行猶予 319・46）",
+  "glob": "moj_sexoffender/001318218.pdf",
+  "tokens": [
+   "319",
+   "46"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001318218.pdf",
+    "where": "2頁",
+    "text": "仮 釈 放 者 582 251 833 保護観察付執行猶予者 319 46 365"
+   }
+  ]
+ },
+ {
+  "id": "SO-H3",
+  "label": "本文（すべての再犯）",
+  "glob": "moj_sexoffender/001318218.pdf",
+  "tokens": [
+   "比例ハザード性の仮定を満たしていなかった"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001318218.pdf",
+    "where": "4頁",
+    "text": "11 比例ハザード性の仮定を満たしていなかった。"
+   }
+  ]
+ },
+ {
+  "id": "SO-H4",
+  "label": "平成24年版（今後の課題）",
+  "glob": "moj_sexoffender/001322889.pdf",
+  "tokens": [
+   "今後の課題"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001322889.pdf",
+    "where": "2頁",
+    "text": "なお，刑事施設における性犯罪者処遇プログラムの受講の有無等を加味した分析を行 うこと，本プログラムのどの要素が再犯防止に効果的に作用したのかを多角的に分析す ることなどは，今後の課題である。"
+   }
+  ]
+ },
+ {
+  "id": "SO-H5",
+  "label": "平成24年版（修了した者）",
+  "glob": "moj_sexoffender/001322889.pdf",
+  "tokens": [
+   "修了"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001322889.pdf",
+    "where": "1頁",
+    "text": "ア・プログラムを修了した性犯罪者３，８３８人（仮釈放者２，５２８人，保護観察付"
+   }
+  ]
+ },
+ {
+  "id": "SO-P1",
+  "label": "概要（0.67）",
+  "glob": "moj_sexoffender/001466396.pdf",
+  "tokens": [
+   "0.67"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001466396.pdf",
+    "where": "1頁",
+    "text": "受講群の再犯率は非 果 受講群の0.67倍に抑"
+   }
+  ]
+ },
+ {
+  "id": "SO-P1",
+  "label": "表5（1.485）",
+  "glob": "moj_sexoffender/001318218.pdf",
+  "tokens": [
+   "1.485"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001318218.pdf",
+    "where": "4頁",
+    "text": "プログラム受講の有無 1.485 （1.101-2.004） .009 **"
+   }
+  ]
+ },
+ {
+  "id": "SO-P2",
+  "label": "表3（罪種別）",
+  "glob": "moj_sexoffender/001322889.pdf",
+  "tokens": [
+   "1,264",
+   "1,531",
+   "1,390"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001322889.pdf",
+    "where": "2頁",
+    "text": "強 姦 1,264 9.5％ 12.6％ 1.18 .277"
+   }
+  ]
+ },
+ {
+  "id": "SO-P2",
+  "label": "表1（仮釈放 2,813・執行猶予 1,435）",
+  "glob": "moj_sexoffender/001322889.pdf",
+  "tokens": [
+   "2,813",
+   "1,435"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001322889.pdf",
+    "where": "1頁",
+    "text": "仮 釈 放 者 2,813 22.6％ 30.0％ 5.01 .025*"
+   }
+  ]
+ },
+ {
+  "id": "630-A1",
+  "label": "長期データ F7（札幌 2019）",
+  "glob": "seishin630/longterm_1998_2025.xlsx",
+  "tokens": [
+   "札幌市",
+   "2019"
+  ],
+  "hits": [
+   {
+    "file": "seishin630/longterm_1998_2025.xlsx",
+    "where": "シート「F7」W52",
+    "text": "札幌市・2019年：42"
+   }
+  ]
+ },
+ {
+  "id": "630-A1",
+  "label": "年度別 Ⅲ.2.(5)（札幌 F7 299・F8 42）",
+  "glob": "seishin630/r1/r1_other_totalization_630/*.xlsx",
+  "tokens": [
+   "札幌市",
+   "299",
+   "42"
+  ],
+  "hits": [
+   {
+    "file": "seishin630/r1/r1_other_totalization_630/r1_other_totalization_630__r1_630調査_従来ベース集計.xlsx",
+    "where": "シート「Ⅲ.2.(5)」A57・Q57・R57",
+    "text": "行：札幌市 1455 849 174 432 216 194 11 11 2981 681 332 349 110 16 21 299 42 20 22 52 1 5916"
+   }
+  ]
+ },
+ {
+  "id": "630-D1",
+  "label": "回答率（長野 2018）",
+  "glob": "seishin630/h30/h30_other_totalization_630/*.xlsx",
+  "tokens": [
+   "長野"
+  ],
+  "hits": [
+   {
+    "file": "seishin630/h30/h30_other_totalization_630/h30_other_totalization_630__h30_other_totalization_630.xlsx",
+    "where": "シート「1.1」B25",
+    "text": "行：20 長　　　野 19 30 0.6333333333333333"
+   }
+  ]
+ },
+ {
+  "id": "630-D1",
+  "label": "在院患者数（長野 2018）",
+  "glob": "seishin630/longterm_1998_2025.xlsx",
+  "tokens": [
+   "長野",
+   "2018"
+  ],
+  "hits": [
+   {
+    "file": "seishin630/longterm_1998_2025.xlsx",
+    "where": "シート「在院患者数」V24",
+    "text": "長野・2018年：2630"
+   }
+  ]
+ },
+ {
+  "id": "630-M1",
+  "label": "長期データ（在院患者数）",
+  "glob": "seishin630/longterm_1998_2025.xlsx",
+  "tokens": [
+   "合計"
+  ],
+  "hits": [
+   {
+    "file": "seishin630/longterm_1998_2025.xlsx",
+    "where": "シート「在院患者数」A72",
+    "text": "行：合計 335847 332913 333003 332714 330413 329096 326125 324335 320308 316109 313271 310738 308615 304394 302156 297436 290406 284806 286406 284172 280815 272096 269"
+   }
+  ]
+ },
+ {
+  "id": "ST-I1",
+  "label": "動機（762）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "抵触しない動機",
+   "762"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "4頁",
+    "text": "ストーカー規制法に抵触しない動機 660 816 810 762 883"
+   }
+  ]
+ },
+ {
+  "id": "ST-I1",
+  "label": "動機の表の年の見出し（左から令和元〜5年。令和4年＝2022年は4列目）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "（6）動機"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "4頁",
+    "text": "（6）動機"
+   }
+  ]
+ },
+ {
+  "id": "ST-I1",
+  "label": "抵触する動機（令和4年 15,657）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "抵触する動機",
+   "15,657"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "4頁",
+    "text": "ストーカー規制法に抵触する動機 17,902 16,911 16,115 15,657 16,231"
+   }
+  ]
+ },
+ {
+  "id": "ST-I1",
+  "label": "内訳：精神障害（令和4年 124）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "精神障害（被害妄想含む）",
+   "124"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "4頁",
+    "text": "好意が満たされず怨恨の感情 3,623 3,056 2,601 2,753 2,969 ストーカー規制法に抵触しない動機 660 816 810 762 883 精神障害（被害妄想含む） 85 89 95 124 114"
+   }
+  ]
+ },
+ {
+  "id": "ST-I1",
+  "label": "内訳：職場・商取引上トラブル（令和4年 27）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "職場・商取引上トラブル",
+   "27"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "4頁",
+    "text": "ストーカー規制法に抵触しない動機 660 816 810 762 883 精神障害（被害妄想含む） 85 89 95 124 114 職場・商取引上トラブル 19 34 24 27 24"
+   }
+  ]
+ },
+ {
+  "id": "ST-I1",
+  "label": "内訳：その他怨恨の感情（令和4年 208）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "その他怨恨の感情",
+   "208"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "4頁",
+    "text": "精神障害（被害妄想含む） 85 89 95 124 114 職場・商取引上トラブル 19 34 24 27 24 その他怨恨の感情 171 226 210 208 202"
+   }
+  ]
+ },
+ {
+  "id": "ST-I1",
+  "label": "内訳：その他（令和4年 409。124＋27＋208＋409＝768）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "その他",
+   "409"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "4頁",
+    "text": "職場・商取引上トラブル 19 34 24 27 24 その他怨恨の感情 171 226 210 208 202 その他 385 467 481 409 543"
+   }
+  ]
+ },
+ {
+  "id": "ST-I1",
+  "label": "不明（令和4年 2,706。15,657＋768＋2,706＝19,131、15,657＋762＋2,706＝19,125）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "不明",
+   "2,706"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "4頁",
+    "text": "その他怨恨の感情 171 226 210 208 202 その他 385 467 481 409 543 不明 2,350 2,462 2,803 2,706 2,729"
+   }
+  ]
+ },
+ {
+  "id": "ST-I1",
+  "label": "相談等件数（令和4年 19,131）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "19,131"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "1頁",
+    "text": "20,189 16,176 16,176 19,131"
+   }
+  ]
+ },
+ {
+  "id": "ST-B1",
+  "label": "令和5年版（殺人 既遂・2020年 35）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "殺人（既遂）",
+   "47",
+   "35"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "11頁",
+    "text": "令和元年 令和２年 令和３年 令和４年 令和５年 総 数（件） 1,972 2,133 2,174 2,181 2,385 殺人（既遂） 47 35 27 23 14"
+   }
+  ]
+ },
+ {
+  "id": "ST-B1",
+  "label": "令和5年版（殺人 未遂・2020年 43）",
+  "glob": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+  "tokens": [
+   "殺人（未遂）",
+   "31",
+   "43"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R5_STDVRPCAkouhousiryou_syuusei.pdf",
+    "where": "11頁",
+    "text": "総 数（件） 1,972 2,133 2,174 2,181 2,385 殺人（既遂） 47 35 27 23 14 殺人（未遂） 31 43 37 22 25"
+   }
+  ]
+ },
+ {
+  "id": "ST-B1",
+  "label": "令和6年版（殺人 既遂・2020年 43）",
+  "glob": "stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf",
+  "tokens": [
+   "殺人（既遂）",
+   "43",
+   "37"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf",
+    "where": "11頁",
+    "text": "令和２年 令和３年 令和４年 令和５年 令和６年 総 数（件） 2,133 2,174 2,181 2,385 2,649 殺人（既遂） 43 37 23 14 32"
+   }
+  ]
+ },
+ {
+  "id": "ST-B1",
+  "label": "令和6年版（殺人 未遂・2020年 35）",
+  "glob": "stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf",
+  "tokens": [
+   "殺人（未遂）",
+   "35",
+   "27"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf",
+    "where": "11頁",
+    "text": "総 数（件） 2,133 2,174 2,181 2,385 2,649 殺人（既遂） 43 37 23 14 32 殺人（未遂） 35 27 22 25 38"
+   }
+  ]
+ },
+ {
+  "id": "MK-I1",
+  "label": "平成26年度版 2-1（9,677）",
+  "glob": "monka/H26/1365252_12.pdf",
+  "tokens": [
+   "9,677"
+  ],
+  "hits": [
+   {
+    "file": "monka/H26/1365252_12.pdf",
+    "where": "1頁",
+    "text": "合 計 182 (0) 184 (2) 271 (21) 315 (71) 952 (94) 8,725 (1,912) 9,677 (2,006) 1.05%"
+   }
+  ]
+ },
+ {
+  "id": "MK-I1",
+  "label": "平成27年度版 参考行（8,445）",
+  "glob": "monka/H27/*.pdf",
+  "tokens": [
+   "8,445"
+  ],
+  "hits": [
+   {
+    "file": "monka/H27/20251219-ope_dev04-1.pdf",
+    "where": "1頁",
+    "text": "132 (0) 152 (2) 161 (15) 171 (57) 616 (74) 7,829 (1,658) 8,445 (1,732) 0.92%"
+   }
+  ]
+ },
+ {
+  "id": "SH-B1",
+  "label": "令和3年版（6,866）",
+  "glob": "saihan/R03/zentai_*.pdf",
+  "tokens": [
+   "6,866"
+  ],
+  "hits": [
+   {
+    "file": "saihan/R03/zentai_001365515.pdf",
+    "where": "79頁",
+    "text": "（平成 28 年〜令和 2 年） 1 年 次 保護観察終了者（総数） 職業不詳の者 無職である者 平成 28 年 31,827 731 6,866 （22.1）"
+   }
+  ]
+ },
+ {
+  "id": "SH-B1",
+  "label": "令和6年版（6,864）",
+  "glob": "saihan/R06/zentai_*.pdf",
+  "tokens": [
+   "6,864"
+  ],
+  "hits": [
+   {
+    "file": "saihan/R06/zentai_001433241.pdf",
+    "where": "216頁",
+    "text": "○ 保護観察終了時に無職である者の数及びその割合 （出典：法務省・保護統計年報） 基準値 6,864 人・22.1%（平成 28 年）"
+   }
+  ]
+ },
+ {
+  "id": "SH-A1",
+  "label": "正誤表（26,185）",
+  "glob": "saihan/R0*/seigo_*.pdf",
+  "tokens": [
+   "26,185"
+  ],
+  "hits": [
+   {
+    "file": "saihan/R02/seigo_001452648.pdf",
+    "where": "1頁",
+    "text": "者（総数）（令和元年） 誤 26,184 正 26,185"
+   }
+  ]
+ },
+ {
+  "id": "GY-Q1",
+  "label": "速報値（219,170）",
+  "glob": "gyakutai/sokuhou/*",
+  "tokens": [
+   "219,170"
+  ],
+  "hits": [
+   {
+    "file": "gyakutai/sokuhou/R4_sokuhou_cfa_20230401_19.pdf",
+    "where": "2頁",
+    "text": "児童相談所における虐待相談対応件数とその推移 ○令和４年度中に、全国232か所の児童相談所が児童虐待相談として対応した件数は 219,170 件（速報値）で、過去最多。"
+   }
+  ]
+ },
+ {
+  "id": "GY-Q1",
+  "label": "確定値（214,843）",
+  "glob": "gyakutai/kakutei_gaiyo/*",
+  "tokens": [
+   "214,843"
+  ],
+  "hits": [
+   {
+    "file": "gyakutai/kakutei_gaiyo/gyousei222_kekka_gaiyo.pdf",
+    "where": "1頁",
+    "text": "２ 児童相談所における児童虐待相談の対応件数 令和４年度中に児童相談所が対応した養護相談のうち児童虐待相談の対応件数は 214,843 件となっている。"
+   }
+  ]
+ },
+ {
+  "id": "HK-A4",
+  "label": "機械判読用（表の外の68行目）",
+  "glob": "hanzai_hakusho/70_*/zuhyo/2-2-3-2.xlsx",
+  "tokens": [
+   "68"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/70_20261116T073025Z/zuhyo/2-2-3-2.xlsx",
+    "where": "シート「2-2-3-2表（R３）※機械判読用」68行",
+    "text": "行：281342 176076 7426 97683 157 34.77617988071457 87810"
+   }
+  ]
+ },
+ {
+  "id": "JH-A1",
+  "label": "2-15表 令和7年の行（文字列の数字）",
+  "glob": "jisatsu_hakusho/r2026/sanko2_001760475.xlsx",
+  "tokens": [
+   "令和７年",
+   "538"
+  ],
+  "hits": [
+   {
+    "file": "jisatsu_hakusho/r2026/sanko2_001760475.xlsx",
+    "where": "シート「参考資料2-15表」A49・B49",
+    "text": "行：令和７年 538 10 172 356"
+   }
+  ]
+ },
+ {
+  "id": "SJ-A1",
+  "label": "令和7年 PDF 第1表",
+  "glob": "shiho/r07/keiji_16676.pdf",
+  "tokens": [
+   "2829544",
+   "2292979",
+   "536575"
+  ],
+  "hits": [
+   {
+    "file": "shiho/r07/keiji_16676.pdf",
+    "where": "14頁",
+    "text": "50 2 830 403 2 829 544 85 282 2 293 472 2 292 979 80 655 536 931 536 575 4 627"
+   }
+  ]
+ },
+ {
+  "id": "SJ-A1",
+  "label": "令和7年 Excel 第1表",
+  "glob": "shiho/r07/keiji_16676.xlsx",
+  "tokens": [
+   "2829544",
+   "2292979",
+   "536575"
+  ],
+  "hits": [
+   {
+    "file": "shiho/r07/keiji_16676.xlsx",
+    "where": "シート「1」G14・K14・O14",
+    "text": "行：50 2830403 2829544 85282 2293472 2292979 80655 536931 536575 4627"
+   }
+  ]
+ },
+ {
+  "id": "ES-I1",
+  "label": "2024年度の表（全国 本年度末 1,336）",
+  "glob": "eisei/r06/t2-1_*.csv",
+  "tokens": [
+   "全国",
+   "1336"
+  ],
+  "hits": [
+   {
+    "file": "eisei/r06/t2-1_000040359127.csv",
+    "where": "CSV 7行",
+    "text": "全国,1376,7623,7663,1336,-,4"
+   }
+  ]
+ },
+ {
+  "id": "ES-I1",
+  "label": "2025年度の表（全国 前年度末 1,365）",
+  "glob": "eisei/r07/t2-1_*.csv",
+  "tokens": [
+   "全国,1365"
+  ],
+  "hits": [
+   {
+    "file": "eisei/r07/t2-1_000040516026.csv",
+    "where": "CSV 7行",
+    "text": "全国,1365,7982,7917,1430,3,11"
+   }
+  ]
+ },
+ {
+  "id": "KS-A1",
+  "label": "第1表 昭和18年",
+  "glob": "kensatsu/2025/25-00-01.xlsx",
+  "tokens": [
+   "378798",
+   "160986",
+   "152259"
+  ],
+  "hits": [
+   {
+    "file": "kensatsu/2025/25-00-01.xlsx",
+    "where": "シート「25-00-01」G80・H80・I80",
+    "text": "行：18 391855 9497 382358 378798 160986 152259 18247 48306 12057"
+   }
+  ]
+ },
+ {
+  "id": "KS-A1",
+  "label": "第2表 昭和18年",
+  "glob": "kensatsu/2025/25-00-02.xlsx",
+  "tokens": [
+   "543176",
+   "230237",
+   "217756"
+  ],
+  "hits": [
+   {
+    "file": "kensatsu/2025/25-00-02.xlsx",
+    "where": "シート「25-00-02」G35・H35・I35",
+    "text": "行：18 562172 16375 545797 543176 230237 217756 171527 46229 26096 69086 18997"
+   }
+  ]
+ },
+ {
+  "id": "KS-A1",
+  "label": "第2表 昭和19年",
+  "glob": "kensatsu/2025/25-00-02.xlsx",
+  "tokens": [
+   "530173",
+   "18997",
+   "511716"
+  ],
+  "hits": [
+   {
+    "file": "kensatsu/2025/25-00-02.xlsx",
+    "where": "シート「25-00-02」D36・E36・F36",
+    "text": "行：19 530173 18997 511716 513723 227343 193050 154440 38610 27147 66183 16990"
+   }
+  ]
+ },
+ {
+  "id": "KS-A1",
+  "label": "第2表 昭和37年",
+  "glob": "kensatsu/2025/25-00-02.xlsx",
+  "tokens": [
+   "6744559",
+   "3641795"
+  ],
+  "hits": [
+   {
+    "file": "kensatsu/2025/25-00-02.xlsx",
+    "where": "シート「25-00-02」G61・H61",
+    "text": "行：37 6880886 97678 6783208 6744559 3641795 719925 642033 77892 40278 2342661 136227"
+   }
+  ]
+ },
+ {
+  "id": "KS-A1",
+  "label": "第2表 昭和50年",
+  "glob": "kensatsu/2025/25-00-02.xlsx",
+  "tokens": [
+   "4166376",
+   "2306618"
+  ],
+  "hits": [
+   {
+    "file": "kensatsu/2025/25-00-02.xlsx",
+    "where": "シート「25-00-02」G75・H75",
+    "text": "行：50 4209273 41225 4168048 4166376 2306618 375971 306277 69694 23418 1460360 42906"
+   }
+  ]
+ },
+ {
+  "id": "KS-A1",
+  "label": "第2表 昭和4年",
+  "glob": "kensatsu/2025/25-00-02.xlsx",
+  "tokens": [
+   "554909",
+   "153436",
+   "305199"
+  ],
+  "hits": [
+   {
+    "file": "kensatsu/2025/25-00-02.xlsx",
+    "where": "シート「25-00-02」G20・H20・I20",
+    "text": "行：4 564139 8147 555992 554909 153436 305199 187734 117465 45757 50539 9230"
+   }
+  ]
+ },
+ {
+  "id": "KS-I1",
+  "label": "第2表 平成16年",
+  "glob": "kensatsu/2025/25-00-02.xlsx",
+  "tokens": [
+   "20988",
+   "24615"
+  ],
+  "hits": [
+   {
+    "file": "kensatsu/2025/25-00-02.xlsx",
+    "where": "シート「25-00-02」N108・E108",
+    "text": "行：16 2628126 24615 2603511 2607079 903067 1041697 977616 64081 4023 658292 20988"
+   }
+  ]
+ },
+ {
+  "id": "KJ-L1",
+  "label": "報道発表ページ",
+  "glob": "kensetsu_juchu/press/joho04_hh_001301.html",
+  "tokens": [
+   "令和8年6月12日",
+   "差替前と比較した新旧表"
+  ],
+  "hits": [
+   {
+    "file": "kensetsu_juchu/press/joho04_hh_001301.html",
+    "where": "ページ本文",
+    "text": "過去に公表した建設工事受注動態統計調査報告（甲調査）のうち、H27.2、R4.1、R5.3～R6.11において、データの取り込み漏れ等による公表値の誤りがありましたので、令和8年6月12日に公表資料の一部について差替を行いました。"
+   }
+  ]
+ },
+ {
+  "id": "KJ-L1",
+  "label": "修正情報のページ（最新の項目）",
+  "glob": "kensetsu_juchu/press/fr4_000033_shusei.html",
+  "tokens": [
+   "令和７年６月３０日訂正公表"
+  ],
+  "hits": [
+   {
+    "file": "kensetsu_juchu/press/fr4_000033_shusei.html",
+    "where": "ページ本文",
+    "text": "・令和７年６月３０日訂正公表"
+   }
+  ]
+ },
+ {
+  "id": "KJ-I1",
+  "label": "報道発表ページ",
+  "glob": "kensetsu_juchu/press/joho04_hh_001301.html",
+  "tokens": [
+   "令和6年5月13日",
+   "令和6年度計分"
+  ],
+  "hits": [
+   {
+    "file": "kensetsu_juchu/press/joho04_hh_001301.html",
+    "where": "ページ本文",
+    "text": "令和6年5月13日"
+   }
+  ]
+ },
+ {
+  "id": "KJ-I1",
+  "label": "記者発表資料 PDF 表紙",
+  "glob": "kensetsu_juchu/nendo/R06_press.pdf",
+  "tokens": [
+   "令和7年5月13日公表"
+  ],
+  "hits": [
+   {
+    "file": "kensetsu_juchu/nendo/R06_press.pdf",
+    "where": "1頁",
+    "text": "令和 7 年 5 月 13 日 公 表"
+   }
+  ]
+ },
+ {
+  "id": "KC-A1",
+  "label": "令和5年度カード 沖縄県 単年度収支",
+  "glob": "kessan_card/pref/R05_pref_card.xlsx",
+  "tokens": [
+   "単年度収支",
+   "-1179138"
+  ],
+  "hits": [
+   {
+    "file": "kessan_card/pref/R05_pref_card.xlsx",
+    "where": "シート「48沖縄県」CC10・CQ10",
+    "text": "行：単年度収支 -1179138 1337102"
+   }
+  ]
+ },
+ {
+  "id": "KC-A1",
+  "label": "令和5年度カード 沖縄県 実質収支",
+  "glob": "kessan_card/pref/R05_pref_card.xlsx",
+  "tokens": [
+   "実質収支",
+   "4438368",
+   "5617504"
+  ],
+  "hits": [
+   {
+    "file": "kessan_card/pref/R05_pref_card.xlsx",
+    "where": "シート「48沖縄県」CC9・CQ9・DA9",
+    "text": "行：区分 決算額 構成比 経常一般財源等 構成比 区分 収入済額 構成比 超過課税分 実質収支 4438368 5617504"
+   }
+  ]
+ },
+ {
+  "id": "SD-A1",
+  "label": "第22次 表1",
+  "glob": "shibo_jirei/22/04_kobetsu.pdf",
+  "tokens": [
+   "1,571(212)",
+   "87(21)",
+   "1,822(228)"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/22/04_kobetsu.pdf",
+    "where": "1頁",
+    "text": "例数 65(26) 1,571(212)"
+   }
+  ]
+ },
+ {
+  "id": "SD-A1",
+  "label": "第22次 表2",
+  "glob": "shibo_jirei/22/04_kobetsu.pdf",
+  "tokens": [
+   "488（1）",
+   "679（14）",
+   "19（1）"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/22/04_kobetsu.pdf",
+    "where": "2頁",
+    "text": "例数 19（1） 488（1）"
+   }
+  ]
+ },
+ {
+  "id": "SD-A1",
+  "label": "第21次 表2",
+  "glob": "shibo_jirei/21/04_kobetsu.pdf",
+  "tokens": [
+   "469（8）",
+   "652（13）"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/21/04_kobetsu.pdf",
+    "where": "2頁",
+    "text": "例数 469（8）"
+   }
+  ]
+ },
+ {
+  "id": "SD-A2",
+  "label": "第19次 表5",
+  "glob": "shibo_jirei/19/05_kobetsu.pdf",
+  "tokens": [
+   "173(20)",
+   "370(63)"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/19/05_kobetsu.pdf",
+    "where": "5頁",
+    "text": "０か月 173 (20) 46.8% 46.8% 7 (0) 12.1% 12.1% 6 (2) 25.0% 25.0% 0 (0) 0.0% 0.0%"
+   }
+  ]
+ },
+ {
+  "id": "SD-A2",
+  "label": "第20次 正誤表（令和8年9月1日）",
+  "glob": "shibo_jirei/seigo/20_seigo_20260831.pdf",
+  "tokens": [
+   "179",
+   "186"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/seigo/20_seigo_20260831.pdf",
+    "where": "1頁",
+    "text": "101 表５死亡した０歳児の月齢 ０か月 第５次から第 19 次まで 179 186"
+   }
+  ]
+ },
+ {
+  "id": "SD-A2",
+  "label": "第18次 正誤表（令和8年9月1日）",
+  "glob": "shibo_jirei/seigo/seigo_20260901.pdf",
+  "tokens": [
+   "157",
+   "164"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/seigo/seigo_20260901.pdf",
+    "where": "1頁",
+    "text": "126 表１―２－１－３ ０か月 第５次から第 17 次まで 157 164"
+   }
+  ]
+ },
+ {
+  "id": "SD-A2",
+  "label": "第22次 表5",
+  "glob": "shibo_jirei/22/04_kobetsu.pdf",
+  "tokens": [
+   "241(39)",
+   "497(117)"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/22/04_kobetsu.pdf",
+    "where": "5頁",
+    "text": "０か月 22(7) 64.7% 241(39) 48.5%"
+   }
+  ]
+ },
+ {
+  "id": "KP-A1",
+  "label": "表41",
+  "glob": "moj_sexoffender/001317462.pdf",
+  "tokens": [
+   "受講の有無",
+   "0.12",
+   "0.48",
+   "0.89",
+   "0.64",
+   "1.24"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001317462.pdf",
+    "where": "26頁",
+    "text": "受講の有無 0.12 0.48 0.89 0.64 1.24"
+   }
+  ]
+ },
+ {
+  "id": "KP-A2",
+  "label": "考察",
+  "glob": "moj_sexoffender/001317462.pdf",
+  "tokens": [
+   "59.6％と最多",
+   "37％"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001317462.pdf",
+    "where": "29頁",
+    "text": "59.6％と最多で，次いで高密度プログラム受講者が 37％であった。集中"
+   }
+  ]
+ },
+ {
+  "id": "KP-A2",
+  "label": "表6",
+  "glob": "moj_sexoffender/001317462.pdf",
+  "tokens": [
+   "迷惑行為防止条例違反",
+   "59.6",
+   "42.0",
+   "37.0"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001317462.pdf",
+    "where": "9頁",
+    "text": "迷惑行為防止条例違反 30 8.6 37.0 11 1.5 13.6 0 0.0 0.0 34 59.6 42.0 6 6.1 7.4 81 5.6"
+   }
+  ]
+ },
+ {
+  "id": "KP-C1",
+  "label": "表1",
+  "glob": "moj_sexoffender/001317462.pdf",
+  "tokens": [
+   "迷惑行為防止条例違反",
+   "81",
+   "5.6",
+   "82",
+   "25.3"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001317462.pdf",
+    "where": "7頁",
+    "text": "迷惑行為防止条例違反 81 5.6 82 25.3 163 9.2"
+   }
+  ]
+ },
+ {
+  "id": "KP-C1",
+  "label": "単純比較の注記",
+  "glob": "moj_sexoffender/001317462.pdf",
+  "tokens": [
+   "罪名構成",
+   "単純"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/001317462.pdf",
+    "where": "10頁",
+    "text": "ただし，３（１）で見たとおり，受講群と比較対照群の間に，罪名構成"
+   }
+  ]
+ },
+ {
+  "id": "KP-C1",
+  "label": "平成24年報告 表3",
+  "glob": "moj_sexoffender/000105286.pdf",
+  "tokens": [
+   "仮釈放率",
+   "65.0%",
+   "37.8%"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/000105286.pdf",
+    "where": "7頁",
+    "text": "こと，仮釈放率が高いこと，刑事施設における在所日数が短いこと，ＩＱ相当値が"
+   }
+  ]
+ },
+ {
+  "id": "SD-A3",
+  "label": "表14",
+  "glob": "shibo_jirei/22/04_kobetsu.pdf",
+  "tokens": [
+   "主たる加害者と死亡したこどもの年齢",
+   "8(3)"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/22/04_kobetsu.pdf",
+    "where": "12頁",
+    "text": "表 14 主たる加害者と死亡したこどもの年齢（こどもの虐待死）"
+   }
+  ]
+ },
+ {
+  "id": "SD-A3",
+  "label": "表16",
+  "glob": "shibo_jirei/22/04_kobetsu.pdf",
+  "tokens": [
+   "死因となった主な虐待の類型と主たる加害者",
+   "13(6)"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/22/04_kobetsu.pdf",
+    "where": "14頁",
+    "text": "表 16 死因となった主な虐待の類型と主たる加害者（こどもの虐待死）"
+   }
+  ]
+ },
+ {
+  "id": "SD-A3",
+  "label": "表22",
+  "glob": "shibo_jirei/22/04_kobetsu.pdf",
+  "tokens": [
+   "産後ケア事業の実施の有無",
+   "6(1)",
+   "41(23)",
+   "50(27)"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/22/04_kobetsu.pdf",
+    "where": "20頁",
+    "text": "表 22 本児死亡時点における各自治体における産後ケア事業の実施の有無"
+   }
+  ]
+ },
+ {
+  "id": "SD-A3",
+  "label": "表44",
+  "glob": "shibo_jirei/22/04_kobetsu.pdf",
+  "tokens": [
+   "最終安全確認の時期",
+   "8(0)"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/22/04_kobetsu.pdf",
+    "where": "38頁",
+    "text": "カ 児童相談所による最終安全確認の時期"
+   }
+  ]
+ },
+ {
+  "id": "SD-A3",
+  "label": "表59",
+  "glob": "shibo_jirei/22/04_kobetsu.pdf",
+  "tokens": [
+   "34(21)",
+   "14(4)",
+   "49(26)"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/22/04_kobetsu.pdf",
+    "where": "49頁",
+    "text": "よく活用している 34(21) 69.4% 26(1) 96.3%"
+   }
+  ]
+ },
+ {
+  "id": "SD-A3",
+  "label": "第21次 表22",
+  "glob": "shibo_jirei/21/04_kobetsu.pdf",
+  "tokens": [
+   "本児死亡時は実施していないが"
+  ],
+  "hits": [
+   {
+    "file": "shibo_jirei/21/04_kobetsu.pdf",
+    "where": "20頁",
+    "text": "本児死亡時は実施していないが"
+   }
+  ]
+ },
+ {
+  "id": "HK-A8",
+  "label": "令和7年版 ① 平成18年",
+  "glob": "hanzai_hakusho/72/zuhyo/5-4-2.xlsx",
+  "tokens": [
+   "平成18年",
+   "16496",
+   "133"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/72/zuhyo/5-4-2.xlsx",
+    "where": "シート「5-4-2図（H元～27）①」B26・D26・E26",
+    "text": "行：平成18年 2006年 16496 133 0.8063538256335637 68 0 0 10 37 1 17 0 6.2984966052376326 6.6327149266399905"
+   }
+  ]
+ },
+ {
+  "id": "HK-A8",
+  "label": "令和7年版 ② 平成20年",
+  "glob": "hanzai_hakusho/72/zuhyo/5-4-2.xlsx",
+  "tokens": [
+   "平成20年",
+   "4711",
+   "1384"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/72/zuhyo/5-4-2.xlsx",
+    "where": "シート「5-4-2図（H元～27）②」B28・D28・E28",
+    "text": "行：平成20年 2008年 4711 1384 29.384288747346073 1134 1 0 81 99 3 66 0 26.072186836518046 31.06157112526539"
+   }
+  ]
+ },
+ {
+  "id": "HK-A8",
+  "label": "令和7年版 ② 平成27年",
+  "glob": "hanzai_hakusho/72/zuhyo/5-4-2.xlsx",
+  "tokens": [
+   "平成27年",
+   "3422",
+   "1016"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/72/zuhyo/5-4-2.xlsx",
+    "where": "シート「5-4-2図（H元～27）②」B35・D35・E35",
+    "text": "行：平成27年 2015年 3422 1016 29.669687225957322 798 1 0 77 55 5 80 0 24.9561659848042 30.9760374050263"
+   }
+  ]
+ },
+ {
+  "id": "YK-C1",
+  "label": "合同概要",
+  "glob": "moj_yakubutsu/gaiyou_joint.pdf",
+  "tokens": [
+   "処遇効果が示唆された",
+   "26.6%",
+   "20.9%"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/gaiyou_joint.pdf",
+    "where": "1頁",
+    "text": "○ 再犯追跡調査 ⇒刑事施設及び保護観察所におけるプログラムの処遇効果が示唆された"
+   }
+  ]
+ },
+ {
+  "id": "YK-C1",
+  "label": "報告書 表4",
+  "glob": "moj_yakubutsu/kyosei_report.pdf",
+  "tokens": [
+   "26.6%",
+   "20.9%",
+   "593",
+   "742"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/kyosei_report.pdf",
+    "where": "13頁",
+    "text": "構成比 26.6% 20.9%"
+   }
+  ]
+ },
+ {
+  "id": "YK-C1",
+  "label": "報告書 表8",
+  "glob": "moj_yakubutsu/kyosei_report.pdf",
+  "tokens": [
+   "19.4%",
+   "21.0%",
+   "706名"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/kyosei_report.pdf",
+    "where": "15頁",
+    "text": "再犯 構成比 19.4% 21.0% 20.9%"
+   }
+  ]
+ },
+ {
+  "id": "YK-C1",
+  "label": "報告書 注21",
+  "glob": "moj_yakubutsu/kyosei_report.pdf",
+  "tokens": [
+   "21.0％",
+   "21.8％"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/kyosei_report.pdf",
+    "where": "13頁",
+    "text": "21 新実施体制下の調査対象者のうち同指導の受講者の出所後２年以内薬物犯罪再犯率（21.0％）と旧実施"
+   }
+  ]
+ },
+ {
+  "id": "YK-D1",
+  "label": "報告書 表1",
+  "glob": "moj_yakubutsu/hogo_report.pdf",
+  "tokens": [
+   "878",
+   "2,215",
+   "36.8%",
+   "97.4%"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/hogo_report.pdf",
+    "where": "5頁",
+    "text": "全部実刑者（仮釈放者） 878 (36.8%) 2,215 (97.4%)"
+   }
+  ]
+ },
+ {
+  "id": "YK-D1",
+  "label": "報告書 算出変数",
+  "glob": "moj_yakubutsu/hogo_report.pdf",
+  "tokens": [
+   "傾向スコア算出変数"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/hogo_report.pdf",
+    "where": "8頁",
+    "text": "(q)大麻取締法違反を独立変数（以下「傾向スコア算出変数」という。）とすることとし"
+   }
+  ]
+ },
+ {
+  "id": "YK-D1",
+  "label": "報告書 考察",
+  "glob": "moj_yakubutsu/hogo_report.pdf",
+  "tokens": [
+   "事件種別の偏りは"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/hogo_report.pdf",
+    "where": "20頁",
+    "text": "因について、傾向スコア算出変数により統制したものの、調査対象者の事件種別の偏りは"
+   }
+  ]
+ },
+ {
+  "id": "YK-D1",
+  "label": "概要",
+  "glob": "moj_yakubutsu/hogo_gaiyou.pdf",
+  "tokens": [
+   "等質となるように抽出した2,812名"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/hogo_gaiyou.pdf",
+    "where": "1頁",
+    "text": "因が結果に影響を与えないよう、受講群と非受講群の属性や特性等が等質となるように抽出した2,812名について、"
+   }
+  ]
+ },
+ {
+  "id": "YK-I1",
+  "label": "付録 表ア",
+  "glob": "moj_yakubutsu/hogo_report.pdf",
+  "tokens": [
+   "入所度数",
+   "1,091",
+   "1,772",
+   "1,295"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/hogo_report.pdf",
+    "where": "35頁",
+    "text": "入所度数"
+   }
+  ]
+ },
+ {
+  "id": "YK-I1",
+  "label": "報告書 表1",
+  "glob": "moj_yakubutsu/hogo_report.pdf",
+  "tokens": [
+   "2 度以上",
+   "1,091",
+   "1,772"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/hogo_report.pdf",
+    "where": "5頁",
+    "text": "2 度以上 1,091 (45.7%) 1,772 (77.9%)"
+   }
+  ]
+ },
+ {
+  "id": "BV-P1",
+  "label": "1枚の概要",
+  "glob": "moj_yakubutsu/boryoku_gaiyou_2026.pdf",
+  "tokens": [
+   "0.63",
+   "抑えられた"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/boryoku_gaiyou_2026.pdf",
+    "where": "1頁",
+    "text": "講群の0.71倍、暴力再犯では非受講群の0.63"
+   }
+  ]
+ },
+ {
+  "id": "BV-P1",
+  "label": "報告書 表1-3",
+  "glob": "moj_yakubutsu/boryoku_report_2026.pdf",
+  "tokens": [
+   "24（ 6.0%）",
+   "38（ 9.5%）",
+   ".058"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/boryoku_report_2026.pdf",
+    "where": "13頁",
+    "text": "再犯あり 24（ 6.0%） 38（ 9.5%） .058† 3.603"
+   }
+  ]
+ },
+ {
+  "id": "BV-C1",
+  "label": "報告書 表3-2",
+  "glob": "moj_yakubutsu/boryoku_report_2026.pdf",
+  "tokens": [
+   "1（ 1.4%）",
+   "4（ 4.0%）",
+   "児童虐待事案"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/boryoku_report_2026.pdf",
+    "where": "27頁",
+    "text": "再犯あり 1（ 1.4%） 4（ 4.0%）"
+   }
+  ]
+ },
+ {
+  "id": "BV-C1",
+  "label": "1枚の概要",
+  "glob": "moj_yakubutsu/boryoku_gaiyou_2026.pdf",
+  "tokens": [
+   "1.4%",
+   "4.0"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/boryoku_gaiyou_2026.pdf",
+    "where": "1頁",
+    "text": "暴力犯罪に限らず、再犯抑止効果 ◆ 受講群の再犯率（1.4%）は非受講群の"
+   }
+  ]
+ },
+ {
+  "id": "BV-C1",
+  "label": "1枚の概要（続き：非受講群の再犯率）",
+  "glob": "moj_yakubutsu/boryoku_gaiyou_2026.pdf",
+  "tokens": [
+   "4.0％）よりも低い"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/boryoku_gaiyou_2026.pdf",
+    "where": "1頁",
+    "text": "あり 再犯率（4.0％）よりも低い"
+   }
+  ]
+ },
+ {
+  "id": "BV-C1",
+  "label": "1枚の概要（検証結果の欄）",
+  "glob": "moj_yakubutsu/boryoku_gaiyou_2026.pdf",
+  "tokens": [
+   "再犯抑止に寄与した可能性"
+  ],
+  "hits": [
+   {
+    "file": "moj_yakubutsu/boryoku_gaiyou_2026.pdf",
+    "where": "1頁",
+    "text": "再犯抑止に寄与した可能性 0.0"
+   }
+  ]
+ },
+ {
+  "id": "SK-C1",
+  "label": "本文 課題",
+  "glob": "moj_kensho2/shokugyo_report.pdf",
+  "tokens": [
+   "訓練を希望した者",
+   "生活態度",
+   "健康状態"
+  ],
+  "hits": [
+   {
+    "file": "moj_kensho2/shokugyo_report.pdf",
+    "where": "1頁",
+    "text": "まず、刑事施設の職業訓練は、その最初の編入において、訓練を希望した者の"
+   }
+  ]
+ },
+ {
+  "id": "SK-C1",
+  "label": "本文 統制した変数",
+  "glob": "moj_kensho2/shokugyo_report.pdf",
+  "tokens": [
+   "出所時の年齢",
+   "能力検査値"
+  ],
+  "hits": [
+   {
+    "file": "moj_kensho2/shokugyo_report.pdf",
+    "where": "2頁",
+    "text": "職業訓練への編入に影響を与えるバイアスは、出所時の年齢、刑事施設への入"
+   }
+  ]
+ },
+ {
+  "id": "SK-C1",
+  "label": "本文 結果",
+  "glob": "moj_kensho2/shokugyo_report.pdf",
+  "tokens": [
+   "78.7％",
+   "74.0％",
+   "継続"
+  ],
+  "hits": [
+   {
+    "file": "moj_kensho2/shokugyo_report.pdf",
+    "where": "3頁",
+    "text": "たところ、職業訓練修了群の有職率は 78.7％で、非修了群の有職率の 74.0％よ"
+   }
+  ]
+ },
+ {
+  "id": "SK-C1",
+  "label": "本文 結論",
+  "glob": "moj_kensho2/shokugyo_report.pdf",
+  "tokens": [
+   "安定的な就労に寄与"
+  ],
+  "hits": [
+   {
+    "file": "moj_kensho2/shokugyo_report.pdf",
+    "where": "5頁",
+    "text": "以上のことから、刑事施設における職業訓練は、出所後の安定的な就労に寄与して"
+   }
+  ]
+ },
+ {
+  "id": "SB-C1",
+  "label": "本文 評価方法",
+  "glob": "moj_kensho2/sib_report.pdf",
+  "tokens": [
+   "379",
+   "支援対象"
+  ],
+  "hits": [
+   {
+    "file": "moj_kensho2/sib_report.pdf",
+    "where": "15頁",
+    "text": "（379 人）"
+   }
+  ]
+ },
+ {
+  "id": "SB-C1",
+  "label": "本文 評価結果",
+  "glob": "moj_kensho2/sib_report.pdf",
+  "tokens": [
+   "8.7％",
+   "５％",
+   "57"
+  ],
+  "hits": [
+   {
+    "file": "moj_kensho2/sib_report.pdf",
+    "where": "16頁",
+    "text": "処分又は刑事処分を受けた者の人員の占める比率）は 8.7％のところ、支援対象者は５％であ"
+   }
+  ]
+ },
+ {
+  "id": "SB-C1",
+  "label": "本文 少人数",
+  "glob": "moj_kensho2/sib_report.pdf",
+  "tokens": [
+   "29 人",
+   "過少"
+  ],
+  "hits": [
+   {
+    "file": "moj_kensho2/sib_report.pdf",
+    "where": "26頁",
+    "text": "の確保である。本事業の支援対象者数は結果的に 29 人であったことは「4(2)ア支援.対象者」のとお"
+   }
+  ]
+ },
+ {
+  "id": "SB-C1",
+  "label": "概要",
+  "glob": "moj_kensho2/sib_gaiyou.pdf",
+  "tokens": [
+   "因果関係の評価が行われた"
+  ],
+  "hits": [
+   {
+    "file": "moj_kensho2/sib_gaiyou.pdf",
+    "where": "1頁",
+    "text": "• 学習支援計画上の目標達成率、YNPSスコア：対照群は設定せず、目標達成・ かった場合の仮想の結果とし、本事業の対象者の再処分率と比較することで因果関係の評価が行われた。"
+   }
+  ]
+ },
+ {
+  "id": "HK-A10",
+  "label": "令和7年版 4-8-2-2図①",
+  "glob": "hanzai_hakusho/72/zuhyo/4-8-2-2.xlsx",
+  "tokens": [
+   "2004年",
+   "5296",
+   "1772",
+   "32090"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/72/zuhyo/4-8-2-2.xlsx",
+    "where": "シート「4-8-2-2図①」C22・I22・J22・D22",
+    "text": "行：平成16年 2004年 32090 84 6868 9622 6461 5296 1772 850 507 4.228731692115924"
+   }
+  ]
+ },
+ {
+  "id": "HK-A10",
+  "label": "令和6年版 4-8-2-2図（総数）",
+  "glob": "hanzai_hakusho/71_20261116T090659Z/zuhyo/4-8-2-2.xlsx",
+  "tokens": [
+   "2004年",
+   "5296",
+   "1772"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/71_20261116T090659Z/zuhyo/4-8-2-2.xlsx",
+    "where": "シート「4-8-2-2図（総数）」C22・I22・J22",
+    "text": "行：平成16年 2004年 32090 84 6868 9622 6461 5296 1772 850 507 4.228731692115924"
+   }
+  ]
+ },
+ {
+  "id": "HK-A10",
+  "label": "令和5年版 4-8-2-2図（総数）機械判読用",
+  "glob": "hanzai_hakusho/70_20261116T073025Z/zuhyo/4-8-2-2.xlsx",
+  "tokens": [
+   "2004年",
+   "7698",
+   "32090"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/70_20261116T073025Z/zuhyo/4-8-2-2.xlsx",
+    "where": "シート「4-8-2-2図（総数）※機械判読用」C22・I22・D22",
+    "text": "行：平成16年 2004年 32090 84 6868 9622 6461 7698 850 507 4.228731692115924"
+   }
+  ]
+ },
+ {
+  "id": "HK-A9",
+  "label": "訂正のお知らせ（235頁）",
+  "glob": "hanzai_hakusho/seigohyo/s_00140.html",
+  "tokens": [
+   "313",
+   "126"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/seigohyo/s_00140.html",
+    "where": "ページ本文",
+    "text": "医師による診察を受けた者が 313 人、認知症と診断された者が 126 人"
+   }
+  ]
+ },
+ {
+  "id": "HK-A9",
+  "label": "Web 版本文（認知症スクリーニング）",
+  "glob": "hanzai_hakusho/71_20261116T090659Z/honbun/n71_2_4_8_2_2.html",
+  "tokens": [
+   "312人",
+   "125人"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/71_20261116T090659Z/honbun/n71_2_4_8_2_2.html",
+    "where": "ページ本文",
+    "text": "平成30年4月から、各矯正管区の基幹施設（札幌刑務所、宮城刑務所、府中刑務所、名古屋刑務所、大阪刑務所、広島刑務所、高松刑務所及び福岡刑務所）において、令和元年8月からは、これらに加え栃木刑務所及び和歌山刑務所において、5年4月からは、市原青年矯正センターを除く全ての刑事施設において、入所受刑者のうち、刑執行開始時の年"
+   }
+  ]
+ },
+ {
+  "id": "HK-A9",
+  "label": "Web 版本文（生活環境の調整）",
+  "glob": "hanzai_hakusho/71_20261116T090659Z/honbun/n71_2_2_5_2_2.html",
+  "tokens": [
+   "2万8,559人"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/71_20261116T090659Z/honbun/n71_2_2_5_2_2.html",
+    "where": "ページ本文",
+    "text": "令和5年に生活環境の調整を開始した受刑者の人員は、2万8,559人（前年比0.3％減）であり、このうち保護観察付一部執行猶予者の人員は、1,325人であった（保護統計年報による。）。"
+   }
+  ]
+ },
+ {
+  "id": "HK-A9",
+  "label": "Web 版本文（配偶者からの暴力）",
+  "glob": "hanzai_hakusho/71_20261116T090659Z/honbun/n71_2_4_6_2_0.html",
+  "tokens": [
+   "6万2,444件"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/71_20261116T090659Z/honbun/n71_2_4_6_2_0.html",
+    "where": "ページ本文",
+    "text": "なお、令和5年における配偶者からの暴力事案等に関する相談等件数（配偶者からの身体に対する暴力又は生命等に対する脅迫を受けた被害者の相談等を受理した件数をいう。）は、8万8,619件（前年比4.9％増）であり、被害者の性別の内訳を見ると、女性が6万2,444件（70.5％）、男性が2万6,175件（29.5％）であった。"
+   }
+  ]
+ },
+ {
+  "id": "HK-A9",
+  "label": "令和5年版 Web 版本文（生活環境の調整）",
+  "glob": "hanzai_hakusho/70_20261116T073025Z/honbun/n70_2_2_5_2_2.html",
+  "tokens": [
+   "2万8,648人"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/70_20261116T073025Z/honbun/n70_2_2_5_2_2.html",
+    "where": "ページ本文",
+    "text": "令和4年に生活環境の調整を開始した受刑者の人員は、2万8,648人（前年比10.1％減）であり、このうち保護観察付一部執行猶予者の人員は1,806人であった（保護統計年報による。）。"
+   }
+  ]
+ },
+ {
+  "id": "HK-A9",
+  "label": "PDF（認知症スクリーニング）",
+  "glob": "hanzai_hakusho/pdf/r06_001432725.pdf",
+  "tokens": [
+   "312人",
+   "125人"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/pdf/r06_001432725.pdf",
+    "where": "257頁",
+    "text": "者が312人、認知症と診断された者が125人であった（法務省矯正局の資料による。）。"
+   }
+  ]
+ },
+ {
+  "id": "NK-K1",
+  "label": "矯正統計年報 第88表（2025年）",
+  "glob": "kyosei/2025/25-00-88.xlsx",
+  "tokens": [
+   "血管性及び詳細不明の認知症",
+   "15"
+  ],
+  "hits": [
+   {
+    "file": "kyosei/2025/25-00-88.xlsx",
+    "where": "シート「25-00-88」B147・I147",
+    "text": "行：血管性及び詳細不明の認知症 男 15 3 5 4 3 15 2 3 0 0 0 1 6 3 520.4"
+   }
+  ]
+ },
+ {
+  "id": "NK-K1",
+  "label": "再犯防止推進白書 令和4年版 特2-1-4",
+  "glob": "saihan/R04/zentai_*.pdf",
+  "tokens": [
+   "認知症診断者",
+   "973"
+  ],
+  "hits": [
+   {
+    "file": "saihan/R04/zentai_001389118.pdf",
+    "where": "38頁",
+    "text": "総数 60 歳以上 検査実施者 医師による診察 認知症診断者"
+   }
+  ]
+ },
+ {
+  "id": "NK-K1",
+  "label": "再犯防止推進白書 令和4年版（平成27年の推計）",
+  "glob": "saihan/R04/zentai_*.pdf",
+  "tokens": [
+   "17%",
+   "1100人程度"
+  ],
+  "hits": [
+   {
+    "file": "saihan/R04/zentai_001389118.pdf",
+    "where": "276頁",
+    "text": "※1 高齢受刑者のうち、認知症傾向のある者はおよそ 17% で、1100 人程度収容されていると推計される（平成 27 年・法務省調査）"
+   }
+  ]
+ },
+ {
+  "id": "NK-K1",
+  "label": "再犯防止推進白書 令和7年版",
+  "glob": "saihan/R07/zentai_*.pdf",
+  "tokens": [
+   "2,086人",
+   "132人"
+  ],
+  "hits": [
+   {
+    "file": "saihan/R07/zentai_001451882.pdf",
+    "where": "64頁",
+    "text": "等の早期把握に努めている。令和６年は、2,086 人に認知症スクリーニング検査等を実施し、そのう"
+   }
+  ]
+ },
+ {
+  "id": "NK-K1",
+  "label": "犯罪白書 令和7年版",
+  "glob": "hanzai_hakusho/pdf/r07_001455836.pdf",
+  "tokens": [
+   "2,086人",
+   "284人",
+   "132人"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/pdf/r07_001455836.pdf",
+    "where": "263頁",
+    "text": "施する取組を行っている。令和６年においては、2,086人に対して検査を実施し、そのうち、医師に"
+   }
+  ]
+ },
+ {
+  "id": "NK-K1",
+  "label": "犯罪白書 令和7年版 4-10-2-1表（注）",
+  "glob": "hanzai_hakusho/72/zuhyo/4-10-2-1.xlsx",
+  "tokens": [
+   "認知症、摂食障害、行為障害等"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/72/zuhyo/4-10-2-1.xlsx",
+    "where": "シート「4-10-2-1表（R６）」B12",
+    "text": "行の見出し：    ３  「その他の精神障害」は、認知症、摂食障害、行為障害等である。／値：    ３  「その他の精神障害」は、認知症、摂食障害、行為障害等である。"
+   }
+  ]
+ },
+ {
+  "id": "KY-I1",
+  "label": "2023年版 第37表（2022年の行）",
+  "glob": "kyosei/2023/23-00-37.xlsx",
+  "tokens": [
+   "総数",
+   "14460",
+   "1705"
+  ],
+  "hits": [
+   {
+    "file": "kyosei/2023/23-00-37.xlsx",
+    "where": "シート「23-00-37」G19・L19・U19",
+    "text": "行：44682 4 総数 14460 12014 313 103 314 0 0 0 0 1705 11"
+   }
+  ]
+ },
+ {
+  "id": "KY-I1",
+  "label": "2022年版 第37表（2022年の行）",
+  "glob": "kyosei/2022/22-00-37.xlsx",
+  "tokens": [
+   "総数",
+   "14460",
+   "1705"
+  ],
+  "hits": [
+   {
+    "file": "kyosei/2022/22-00-37.xlsx",
+    "where": "シート「22-00-37」G23・L23・Q23",
+    "text": "行：2022-05-01 00:00:00 4 総数 14460 12014 313 103 314 1705 11"
+   }
+  ]
+ },
+ {
+  "id": "KY-I1",
+  "label": "犯罪白書 令和5年版 4-10-2-1表（注）",
+  "glob": "hanzai_hakusho/70_20261116T073025Z/zuhyo/4-10-2-1.xlsx",
+  "tokens": [
+   "発達障害を含む"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/70_20261116T073025Z/zuhyo/4-10-2-1.xlsx",
+    "where": "シート「4-10-2-1表（R４）※閲覧用」B12",
+    "text": "行の見出し：    ３  「入所受刑者」の「その他の精神障害」は、発達障害を含む。／値：    ３  「入所受刑者」の「その他の精神障害」は、発達障害を含む。"
+   }
+  ]
+ },
+ {
+  "id": "MK-L1",
+  "label": "令和4年度 結果のページ",
+  "glob": "kyoin_chokai/pages/1411820_00007.htm",
+  "tokens": [
+   "懲戒処分の公表に関する取組状況一覧"
+  ],
+  "hits": [
+   {
+    "file": "kyoin_chokai/pages/1411820_00007.htm",
+    "where": "ページ本文",
+    "text": "2-6 懲戒処分に関する処分基準の作成及び懲戒処分の公表に関する取組状況一覧（教育職員） （PDF:202KB）"
+   }
+  ]
+ },
+ {
+  "id": "MK-L1",
+  "label": "令和4年度 資料 2-6",
+  "glob": "kyoin_chokai/00007/20231222-mxt_syoto01-000033180_50.pdf",
+  "tokens": [
+   "懲戒処分の公表",
+   "公表の例外"
+  ],
+  "hits": [
+   {
+    "file": "kyoin_chokai/00007/20231222-mxt_syoto01-000033180_50.pdf",
+    "where": "1頁",
+    "text": "２－６．懲戒処分に関する処分基準の作成及び懲戒処分の公表に関する取組状況一覧（教育職員）"
+   }
+  ]
+ },
+ {
+  "id": "MK-L1",
+  "label": "令和6年度 結果のページ（資料 2-7 まで）",
+  "glob": "kyoin_chokai/pages/1411820_00009.htm",
+  "tokens": [
+   "懲戒処分に関する処分基準の内容（令和7年10月1日現在）"
+  ],
+  "hits": [
+   {
+    "file": "kyoin_chokai/pages/1411820_00009.htm",
+    "where": "ページ本文",
+    "text": "2-7 懲戒処分に関する処分基準の内容（令和7年10月1日現在）（PDF:668KB）"
+   }
+  ]
+ },
+ {
+  "id": "KM-K1",
+  "label": "人事院 資料2（令和6年）",
+  "glob": "koumuin_chokai/jinji_R6_shiryo2.pdf",
+  "tokens": [
+   "公務外非行関係",
+   "窃盗、暴行等"
+  ],
+  "hits": [
+   {
+    "file": "koumuin_chokai/jinji_R6_shiryo2.pdf",
+    "where": "1頁",
+    "text": "公 務 外 非 行 関 係 11 22 54 18 105"
+   }
+  ]
+ },
+ {
+  "id": "KM-K1",
+  "label": "総務省（令和6年度）",
+  "glob": "koumuin_chokai/soumu_R6_chokai.pdf",
+  "tokens": [
+   "金銭・異性関係等の非行等"
+  ],
+  "hits": [
+   {
+    "file": "koumuin_chokai/soumu_R6_chokai.pdf",
+    "where": "2頁",
+    "text": "違 （金銭・異性関係等の非行等） (▲7) (＋24) (▲16) (▲23) (▲22)"
+   }
+  ]
+ },
+ {
+  "id": "KM-K1",
+  "label": "警察庁（令和8年上半期）",
+  "glob": "koumuin_chokai/npa_R8_kamihanki.pdf",
+  "tokens": [
+   "異性関係"
+  ],
+  "hits": [
+   {
+    "file": "koumuin_chokai/npa_R8_kamihanki.pdf",
+    "where": "1頁",
+    "text": "異 性 関 係 8 9 23 3 43 (-3)"
+   }
+  ]
+ },
+ {
+  "id": "KM-K1",
+  "label": "犯罪白書 令和7年版 4-11-1表",
+  "glob": "hanzai_hakusho/72/zuhyo/4-11-1.xlsx",
+  "tokens": [
+   "その他の刑法犯",
+   "2709"
+  ],
+  "hits": [
+   {
+    "file": "hanzai_hakusho/72/zuhyo/4-11-1.xlsx",
+    "where": "シート「4-11-1表（R６）」B14・C14",
+    "text": "行：その他の刑法犯 2709 2017 692 2733 501 227 274 2196 872 1324 36"
+   }
+  ]
+ },
+ {
+  "id": "KM-K1",
+  "label": "文科省 資料 2-5-1（令和6年度）",
+  "glob": "kyoin_chokai/00009/20251217-mxt_syoto01-000046407_36.pdf",
+  "tokens": [
+   "性犯罪・性暴力等",
+   "281"
+  ],
+  "hits": [
+   {
+    "file": "kyoin_chokai/00009/20251217-mxt_syoto01-000046407_36.pdf",
+    "where": "1頁",
+    "text": "２－５－１．性犯罪・性暴力等に係る懲戒処分等の状況（教育職員）（令和６年度）"
+   }
+  ]
+ },
+ {
+  "id": "MK-L2",
+  "label": "文科省のページ（令和8年4月1日現在）",
+  "glob": "kyoin_db/mext_00001.html",
+  "tokens": [
+   "特定免許状失効者等の登録件数",
+   "2,918件"
+  ],
+  "hits": [
+   {
+    "file": "kyoin_db/mext_00001.html",
+    "where": "ページ本文",
+    "text": "特定免許状失効者等の登録件数"
+   }
+  ]
+ },
+ {
+  "id": "MK-L2",
+  "label": "Internet Archive の写し（令和7年4月1日現在）",
+  "glob": "kyoin_db/wayback/mext_00001_20250422043151.html",
+  "tokens": [
+   "令和7年4月1日現在",
+   "2,698件"
+  ],
+  "hits": [
+   {
+    "file": "kyoin_db/wayback/mext_00001_20250422043151.html",
+    "where": "ページ本文",
+    "text": "特定免許状失効者管理システムの稼働状況 （令和7年4月1日現在）"
+   }
+  ]
+ },
+ {
+  "id": "MK-L2",
+  "label": "人事行政状況調査 令和6年度 資料 2-5-1",
+  "glob": "kyoin_chokai/00009/20251217-mxt_syoto01-000046407_36.pdf",
+  "tokens": [
+   "性犯罪・性暴力等",
+   "167"
+  ],
+  "hits": [
+   {
+    "file": "kyoin_chokai/00009/20251217-mxt_syoto01-000046407_36.pdf",
+    "where": "1頁",
+    "text": "２－５－１．性犯罪・性暴力等に係る懲戒処分等の状況（教育職員）（令和６年度）"
+   }
+  ]
+ },
+ {
+  "id": "ST-I2",
+  "label": "平成27年版 p2（注）",
+  "glob": "stalker/wayback/20160528040909_seianki27STDV.pdf",
+  "tokens": [
+   "同法違反で検挙した件数すべてを計上"
+  ],
+  "hits": [
+   {
+    "file": "stalker/wayback/20160528040909_seianki27STDV.pdf",
+    "where": "2頁",
+    "text": "注３) ストーカー規制法違反検挙は、同法違反で検挙した件数すべてを計上"
+   }
+  ]
+ },
+ {
+  "id": "ST-I2",
+  "label": "平成27年版 p2（注）",
+  "glob": "stalker/wayback/20160528040909_seianki27STDV.pdf",
+  "tokens": [
+   "ストーカー事案であることが判明したもの"
+  ],
+  "hits": [
+   {
+    "file": "stalker/wayback/20160528040909_seianki27STDV.pdf",
+    "where": "2頁",
+    "text": "・事件を検挙した後、当該事案がストーカー事案であることが判明したものを含む。"
+   }
+  ]
+ },
+ {
+  "id": "ST-I2",
+  "label": "令和6年版 p3（注）",
+  "glob": "stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf",
+  "tokens": [
+   "受理した相談のうち同年中に実施した"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf",
+    "where": "3頁",
+    "text": "年までは基準年中に受理した相談のうち同年中に実施した行政措置、検挙及び援助（以下「行政措置等」という。）"
+   }
+  ]
+ },
+ {
+  "id": "ST-I2",
+  "label": "令和元年版（2015年の値）",
+  "glob": "stalker/wayback/20200927010635_R1_STDVkouhoushiryou.pdf",
+  "tokens": [
+   "1,872",
+   "677"
+  ],
+  "hits": [
+   {
+    "file": "stalker/wayback/20200927010635_R1_STDVkouhoushiryou.pdf",
+    "where": "2頁",
+    "text": "刑法犯・他の特別法犯 1,917 1,872 1,919"
+   }
+  ]
+ },
+ {
+  "id": "KH-K1",
+  "label": "令和元年 第56表",
+  "glob": "keisatsu_hanzai_toukei/sho/R01_056.xlsx",
+  "tokens": [
+   "内縁含む"
+  ],
+  "hits": [
+   {
+    "file": "keisatsu_hanzai_toukei/sho/R01_056.xlsx",
+    "where": "シート「56」L4",
+    "text": "行の見出し：              　　被害者　　罪　種／値：配偶者\n（内縁含む）"
+   }
+  ]
+ },
+ {
+  "id": "KH-K1",
+  "label": "令和6年 第56表",
+  "glob": "keisatsu_hanzai_toukei/sho/R06_056.xlsx",
+  "tokens": [
+   "元配偶者",
+   "交際相手"
+  ],
+  "hits": [
+   {
+    "file": "keisatsu_hanzai_toukei/sho/R06_056.xlsx",
+    "where": "シート「56」T4・U4",
+    "text": "行の見出し：              　　被害者　　罪　種／値：元配偶者・交際相手"
+   }
+  ]
+ },
+ {
+  "id": "KH-K1",
+  "label": "令和7年版 ストーカー統計 CSV",
+  "glob": "stalker/npa/01_R7_ST.csv",
+  "tokens": [
+   "殺人（未遂）"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/01_R7_ST.csv",
+    "where": "CSV 79行",
+    "text": ",,殺人（未遂）,3,10,18,11,14,"
+   }
+  ]
+ },
+ {
+  "id": "SH-C1",
+  "label": "平成30年版（80頁）",
+  "glob": "saihan/H30/zentai_*.pdf",
+  "tokens": [
+   "7.7",
+   "一定の再犯抑止効果が認められている"
+  ],
+  "hits": [
+   {
+    "file": "saihan/H30/zentai_001283071.pdf",
+    "where": "93頁",
+    "text": "が、非受講群よりも再犯率が 7.7 ポイント低いことが示され、一定の再犯抑止効果が認められている。"
+   }
+  ]
+ },
+ {
+  "id": "SH-C1",
+  "label": "令和元年版（80頁）",
+  "glob": "saihan/R01/zentai_*.pdf",
+  "tokens": [
+   "7.7",
+   "一定の再犯抑止効果が認められている"
+  ],
+  "hits": [
+   {
+    "file": "saihan/R01/zentai_001313763.pdf",
+    "where": "95頁",
+    "text": "が、非受講群よりも再犯率が 7.7 ポイント低いことが示され、一定の再犯抑止効果が認められている。"
+   }
+  ]
+ },
+ {
+  "id": "SH-C1",
+  "label": "平成24年報告 表5",
+  "glob": "moj_sexoffender/000105286.pdf",
+  "tokens": [
+   "表５",
+   "21.9%",
+   "29.6%",
+   "12.8%",
+   "15.4%"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/000105286.pdf",
+    "where": "8頁",
+    "text": "表５ 再犯の分類別推定再犯率"
+   }
+  ]
+ },
+ {
+  "id": "SH-C1",
+  "label": "平成24年報告 性犯罪再犯",
+  "glob": "moj_sexoffender/000105286.pdf",
+  "tokens": [
+   "性犯罪再犯",
+   "効果を確認するまでには至らなかった"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/000105286.pdf",
+    "where": "11頁",
+    "text": "図ア② 全対象者の「性犯罪再犯」推定再犯率"
+   }
+  ]
+ },
+ {
+  "id": "SH-C1",
+  "label": "平成24年報告 精度の限界",
+  "glob": "moj_sexoffender/000105286.pdf",
+  "tokens": [
+   "精度については，一定の限界がある"
+  ],
+  "hits": [
+   {
+    "file": "moj_sexoffender/000105286.pdf",
+    "where": "4頁",
+    "text": "から，本分析結果の精度については，一定の限界がある。"
+   }
+  ]
+ },
+ {
+  "id": "ST-D1",
+  "label": "令和6年 p5",
+  "glob": "stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf",
+  "tokens": [
+   "94,937",
+   "施行後最多"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf",
+    "where": "5頁",
+    "text": "相談等件数は増加傾向であり、令和６年は 94,937 件（前年比＋6,318 件、＋7.1％）とＤ"
+   }
+  ]
+ },
+ {
+  "id": "ST-D1",
+  "label": "令和6年 注3",
+  "glob": "stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf",
+  "tokens": [
+   "令和６年４月１日施行以降",
+   "名誉又は財産に対する脅迫"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf",
+    "where": "5頁",
+    "text": "からの暴力事案について、また、令和６年４月１日施行以降、自由、名誉又は財産に対する脅迫についても計"
+   }
+  ]
+ },
+ {
+  "id": "ST-D1",
+  "label": "令和7年 p7",
+  "glob": "stalker/npa/R7_STDVRPCA_kouhou.pdf",
+  "tokens": [
+   "98,289",
+   "施行後最多"
+  ],
+  "hits": [
+   {
+    "file": "stalker/npa/R7_STDVRPCA_kouhou.pdf",
+    "where": "7頁",
+    "text": "相談等件数は増加傾向であり、令和７年は 98,289 件（前年比＋3,352 件、＋3.5％）とＤ"
+   }
+  ]
+ },
+ {
+  "id": "SH-A2",
+  "label": "正誤表（38頁）",
+  "glob": "saihan/R05/seigo_*.pdf",
+  "tokens": [
+   "38 ページ",
+   "前年：75"
+  ],
+  "hits": [
+   {
+    "file": "saihan/R05/seigo_001452655.pdf",
+    "where": "1頁",
+    "text": "ページ 38 ページ"
+   }
+  ]
+ },
+ {
+  "id": "SH-A2",
+  "label": "全体版（38頁 ※3）",
+  "glob": "saihan/R05/zentai_*.pdf",
+  "tokens": [
+   "就労支援スタッフ",
+   "前年：76"
+  ],
+  "hits": [
+   {
+    "file": "saihan/R05/zentai_001407646.pdf",
+    "where": "56頁",
+    "text": "常勤職員である就労支援スタッフ※ 3 を配置し、2019 年度（令和元年度）からは常勤職員である就労"
+   }
+  ]
+ }
+]

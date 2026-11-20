@@ -1,0 +1,13 @@
+{
+ "dir": "gyakutai",
+ "check": "c701",
+ "label": "",
+ "note": "福祉行政報告例（児童虐待）：行・列の和と総数、表どうしの総数",
+ "source": "check",
+ "compared": 3242,
+ "mismatched": 0,
+ "explained": null,
+ "read_failures": 0,
+ "script_sha256": "8e15d6b45392562ea2152ce36e9fc7b46b150fed80f11ffd745b16dd29996f4a",
+ "written_utc": "2026-11-17T12:11:51Z"
+}

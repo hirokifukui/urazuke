@@ -1,0 +1,53 @@
+{
+ "note": "English translation of URAZUKE (Japanese is authoritative). Each entry keeps the Japanese source text, its sha256, and the commit of the source file at translation time.",
+ "entries": {
+  "87e9a28f3192f5f167e2b941346ba33b240641d12465904578e07ff4b0376b6e": {
+   "ja": "# 学校基本調査・体罰の懲戒処分等の推移の検証（2026-11-17 開始）　確認の状態：機械検証のみ",
+   "en": "# Verification of School Basic Survey and Trends in Discipline for Corporal Punishment (started 2026-11-17) Verification status: Machine-verified only",
+   "src": "results/monka_kihon/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "5395769a2b9a9e70e211f476c2837110a9404d03c1939ecd66b3e1b39dc1184e": {
+   "ja": "## 対象と取得\n- 文部科学省 令和8年度学校基本統計 速報（令和8年8月26日）・令和7年度 確定（令和7年12月26日）の公表資料 PDF。\n- 公立学校教職員の人事行政状況調査 令和6年度（令和7年12月公表）・令和5年度の 2-3（体罰）・2-1-2（懲戒処分等の推移）など。取得記録：data/raw/monka_kihon/MANIFEST.tsv。",
+   "en": "## Scope and retrieval\n- Ministry of Education, Culture, Sports, Science and Technology: published PDF materials of the FY2026 (Reiwa 8) School Basic Statistics preliminary report (26 August 2026) and the FY2025 (Reiwa 7) final figures (26 December 2025).\n- Personnel Administration Survey of Public School Staff (discipline, sexual offences etc.) for FY2024 (published December 2025) and FY2023: tables 2-3 (corporal punishment), 2-1-2 (trends in disciplinary actions etc.), and others. Retrieval record: data/raw/monka_kihon/MANIFEST.tsv.",
+   "src": "results/monka_kihon/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "075ebda81e75abcfe6611234f7a5a04d243ec8b3d1b365c1d9195ef78afca736": {
+   "ja": "## c3601 学校基本統計 表1\n- 計=国立+公立+私立（学校数・在学者数・前年度差）、女性の比率、版間（速報の値−前年度差 = 前年度確定）。式 236、不一致 0。\n- 令和7年度確定の表1には「高等学校（通信制）」の行がない（令和8年度速報にはある）。表の作りの違いで、記録にしない。",
+   "en": "## c3601 School Basic Statistics Table 1\n- Total = national + public + private (number of schools, number of enrolled students, change from previous year); proportion of women; between editions (preliminary value − change from previous year = previous year's final figure). 236 formulas, 0 mismatches.\n- Table 1 of the FY2025 final figures has no `高等学校（通信制）` (upper secondary school, correspondence course) row (the FY2026 preliminary report has one). This is a difference in table structure and is not recorded.",
+   "src": "results/monka_kihon/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "ed271c6cd39656ca890d80f160e3460d5653651585f5ed5e49657d818411bd65": {
+   "ja": "## c3602 体罰・懲戒処分等の推移（67教育委員会×5年度）\n- 67教育委員会の和=合計、版間（令和5年度版と令和6年度版の R2〜R5 年度）。式 556、不一致 0。体罰の合計 R2〜R6：393・343・397・343・311。",
+   "en": "## c3602 Trends in corporal punishment and disciplinary actions etc. (67 boards of education × 5 fiscal years)\n- Sum of the 67 boards of education = total; between editions (FY2020–FY2023 in the FY2023 edition (Reiwa 5) and the FY2024 edition (Reiwa 6)). 556 formulas, 0 mismatches. Corporal punishment totals FY2020–FY2024: 393, 343, 397, 343, 311.",
+   "src": "results/monka_kihon/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "274006d5df97644c80ed6041e68a8e70523ad5511b74ba0bbac5ef63138754f0": {
+   "ja": "## 陰性対照\n- 学校基本統計の小学校の在学者数、体罰の合計を pdftotext の出力で変えて、それぞれ検出。",
+   "en": "## Negative control\n- The number of enrolled students in elementary schools in the School Basic Statistics and the corporal punishment total were each altered in the pdftotext output, and each change was detected.",
+   "src": "results/monka_kihon/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  },
+  "a1a2242f25046b4487445fed2b13c7ce95bb05dc0ee95ab8e908d0f2bfcbf207": {
+   "ja": "## 照合した件数\n792式。記録なし。",
+   "en": "## Number of checks\n792 formulas. No records.",
+   "src": "results/monka_kihon/FINDINGS.md",
+   "src_commit": "1e2817d",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-17"
+  }
+ }
+}
