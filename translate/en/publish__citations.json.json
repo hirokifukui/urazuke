@@ -1904,6 +1904,150 @@
    "src_commit": "a09e3ad+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-21"
+  },
+  "553d67dc474e2e11e2b9494f24abe915c8d47912ef4639d6e1624b37925a2762": {
+   "ja": "資料の注3には、令和6年4月から自由・名誉・財産に対する脅迫も計上するよう数え方を広げたとあり、令和7年の98,289件は令和5年以前と計上の範囲が違います。",
+   "en": "Note 3 of the material states that, from April 2024, the counting method was broadened to also include threats against liberty, honour or property, so the 98,289 cases for 2025 differ in counting scope from 2023 and earlier.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "81c47983a77cb4f7e2a676fd38844b4df840f4bd8ce82e20997470041f3d25b0": {
+   "ja": "資料の注3は、令和6年4月1日以降は脅迫の相談も計上するよう数え方を広げたと書いており、令和7年の98,289件は令和5年以前と計上の範囲が違います。",
+   "en": "Note 3 of the material states that, from 1 April 2024 onward, the counting method was broadened to also include consultations about threats, so the 98,289 cases for 2025 differ in counting scope from 2023 and earlier.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "479b53028e644c4ab891ba023a372097cc69d52e1bc0231182e8c8e7460aa383": {
+   "ja": "資料の注では、令和5年までは相談を受けた事案について同じ年に検挙した件数だけを数え、令和6年からは相談の有無に関わらずすべて数えるよう変えています。",
+   "en": "The note in the source states that up to 2023 only the number of cases cleared (kenkyo) in the same year was counted for cases on which a consultation had been received, and that from 2024 the method was changed to count all cases regardless of whether a consultation had been received.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "90b37ea3ad517f7ca1cc8b4810626afde3ec489933fa5b865cda34cc3d5bac8c": {
+   "ja": "資料の注によると、検挙件数の数え方は令和6年から変わり、令和5年までは相談を受けた事案のうち同年中に検挙した件数だけを数えていました。",
+   "en": "According to the note in the source, the method of counting the number of cases cleared (kenkyo) changed from 2024; up to 2023, only the number of cases cleared (kenkyo) in the same year among cases on which a consultation had been received was counted.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "b9480c11ecca342991ceccf84fa3d791d189cf6ee60c2abe0f46d5e73ba5007a": {
+   "ja": "令和2年3月の効果検証の概要は、再犯抑止効果を「示唆された」と書いています。",
+   "en": "The summary of the March 2020 evaluation states that a recidivism-deterrent effect was \"suggested\".",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "d0866a4693e5cf28cda71121e532a0e4b84982c526f5689a0728eae98fe9e838": {
+   "ja": "資料（令和2年3月の概要）は再犯抑止効果を「示唆された」と書いていますが、答弁は「統計的に認められております」と言い切りにしています。",
+   "en": "The document (the March 2020 summary) states that a recidivism-deterrent effect was \"suggested\", but the reply states it definitively: \"it is statistically recognised\".",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "2b0c30545a0a4ca6d9a3449987d2eb0b99726ed2d80db26f572e55c9ed191004": {
+   "ja": "資料（令和2年3月の分析）は再犯抑止効果を「示唆された」と書くにとどめていますが、答弁は「一定の効果を上げていると認められる」と言い切っています。",
+   "en": "The document (the March 2020 analysis) goes no further than stating that a recidivism-deterrent effect was \"suggested\", but the reply states definitively that \"it is recognised as having achieved a certain effect\".",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "497e27d4174fea75f01a49e88a44427c593bace52fa76ba65b03ff93df263d4f": {
+   "ja": "国会答弁の照合（Claude が5回の過半で型を付け、GPT と Gemini が3回の盲検でそろって支持。kokkai/）",
+   "en": "Cross-check of Diet answers (Claude assigned the type by majority across 5 runs; GPT and Gemini both supported it in 3 blinded runs. kokkai/)",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "c0ff2b74730a6bf62abcad0c357f5b723b19b67717a338bb9d092c46cd617f3c": {
+   "ja": "参議院 内閣委員会（質問した議員）",
+   "en": "House of Councillors, Cabinet Committee (member who asked the question)",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "9ab6e7710834e3ec4be44c352ff21462a21dcf941ff5677ce76ec2d2553610a4": {
+   "ja": "10.7ポイント（27.3％と38.0％の差）は、受講しなかった536名から不適当な212名を除いた比較対照群324名との比較である。",
+   "en": "The 10.7 percentage points (the difference between 27.3% and 38.0%) is a comparison with a comparison group of 324 persons, obtained by excluding 212 unsuitable persons from the 536 who did not take the course.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "79e75177e388e5f82a362ccd8215761634cf577aafeeccfa5c3e9cbdc6e377cf": {
+   "ja": "参議院 内閣委員会（法務省大臣官房審議官）",
+   "en": "House of Councillors, Cabinet Committee (Councillor, Minister's Secretariat, Ministry of Justice)",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "5276ea2652a6e66b2d12624504e45bd0009bd35d590155cd405d18d7c3ae27eb": {
+   "ja": "答弁の21.9％・29.6％は平成24年報告の「全ての犯罪」の再犯の推定再犯率ですが、答弁はその指標を言わないまま「一定の再犯抑止効果があった」と述べています。",
+   "en": "The 21.9% and 29.6% in the answer are the estimated recidivism rates for reoffending in \"all offences\" in the 2012 report, but the answer states that \"there was a certain recidivism-deterrent effect\" without stating which indicator these figures refer to.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "36e069fab0e8cf15e34a9f219462b64a150ca1264778e7d409e3368057e6fb37": {
+   "ja": "平成24年の矯正局報告書が効果を示したのは「全ての犯罪」の再犯（受講群21.9％、非受講群29.6％）だけです。",
+   "en": "The 2012 Correction Bureau report showed an effect only for reoffending in \"all offences\" (participant group 21.9%, non-participant group 29.6%).",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "ae8116fd10ad145288e854303fdf18314ad84d32f9f4a2e602b5273331d2c279": {
+   "ja": "平成24年12月の報告書で21.9％と29.6％は「全ての犯罪」の推定再犯率で、性犯罪の再犯では差が有意でなく、効果は確認されていない。",
+   "en": "In the December 2012 report, 21.9% and 29.6% are the estimated recidivism rates for \"all offences\"; for sexual reoffending the difference was not significant, and no effect was confirmed.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "faaea58c101099696d7e58e18f13cc32b6e283170871a6d6419f31f18e6e63f7": {
+   "ja": "答弁時点（2017年）で拠り所となる平成24年12月の矯正局報告書が効果を示したのは「全ての犯罪」の再犯（推定再犯率 受講群21.9％・非受講群29.6％）だけで、性犯罪の再犯では効果を確認するまでには至らなかったと書いています。",
+   "en": "The December 2012 Correction Bureau report, which was the basis available at the time of the answer (2017), showed an effect only for reoffending in \"all offences\" (estimated recidivism rate: participant group 21.9%, non-participant group 29.6%), and states that for sexual reoffending it did not go so far as to confirm an effect.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "4d43790e1888194b2fcea0a452173cb5a4b0259bcc26f7ace96af2f66efcc571": {
+   "ja": "答弁の21.9％と29.6％は平成24年報告の「全ての犯罪」の再犯率です。",
+   "en": "The 21.9% and 29.6% in the answer are the recidivism rates for \"all offences\" in the 2012 report.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "4c93b84000f9fb1755aec380530768166efaf45845a8865fc29deeedfecdaf7f": {
+   "ja": "答弁の21.9％・29.6％は平成24年報告の「全ての犯罪」の再犯の推定再犯率です。",
+   "en": "The 21.9% and 29.6% in the answer are the estimated recidivism rates for reoffending in \"all offences\" in the 2012 report.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "f8b767e3215726c84f6388cb9be0a507732f82e28bb0cef57ff5e4451828ac99": {
+   "ja": "平成24年の報告で効果が示されたのは全ての犯罪の再犯（受講群21.9％、非受講群29.6％）だけで、性犯罪の再犯では効果を確認するまでには至っていません。",
+   "en": "In the 2012 report, an effect was shown only for reoffending in all offences (participant group 21.9%, non-participant group 29.6%); for sexual reoffending, the report did not go so far as to confirm an effect.",
+   "src": "publish/citations.json",
+   "src_commit": "d6bddb1+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
   }
  }
 }

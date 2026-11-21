@@ -13,16 +13,22 @@ R = [json.loads(l) for f in ('refuted.jsonl', 'refuted2.jsonl', 'refuted3.jsonl'
      if os.path.exists(os.path.join(D, f)) for l in open(os.path.join(D, f), encoding='utf-8')]
 def cand(r):
     j = r['claude']; runs = j.get('runs') or []
-    return r['gpt']['result'] == '別系統で支持' and j.get('type') in TY and len(runs) >= 3 and len(set(runs)) == 1 and set(j.get('record_ids') or []) & CIT
+    return r['gpt']['result'] == '別系統で支持' and j.get('type') in TY and len(runs) >= 3 and runs.count(j.get('type')) * 2 > len(runs) and set(j.get('record_ids') or []) & CIT
 C = [r for r in R if cand(r)]
-def blind(r):
+NB = int(os.environ.get('KOKKAI_NBLIND', '5'))
+def blind(r):   # 2026-11-21：各判定者に5回渡し、過半の型をその判定者の型とする（1回だけだと外れ1回で落ちる。引かれ方の R072 と同じ考え方）
     P = series_check.prompt(r, r['source']) if r.get('source') else classify_prompt.prompt(r)
-    out = {}
+    out, raw = {}, {}
     for name, fn in (('gpt', llm.gpt), ('gemini', llm.gemini)):
-        try: out[name] = (llm.js(fn(P)) or {}).get('type', '')
-        except Exception as ex: out[name] = 'エラー'
-    ok = all(g(t) == g(r['claude']['type']) for t in out.values())
-    return {'speechID': r['speechID'], 'url': r['url'], 'type': r['claude']['type'], 'blind': out, 'results': ['別系統で支持' if ok else '型が合わない']}
+        ts = []
+        for _ in range(NB):
+            try: ts.append(g((llm.js(fn(P)) or {}).get('type', '')))
+            except Exception: ts.append('エラー')
+        raw[name] = ts
+        top = max(set(ts), key=ts.count)
+        out[name] = top if ts.count(top) * 2 > len(ts) else '過半なし'
+    ok = all(t == g(r['claude']['type']) for t in out.values())
+    return {'speechID': r['speechID'], 'url': r['url'], 'type': r['claude']['type'], 'blind': out, 'runs': raw, 'results': ['別系統で支持' if ok else '型が合わない']}
 with cf.ThreadPoolExecutor(4) as ex, open(os.path.join(D, 'confirmed.jsonl'), 'w', encoding='utf-8') as w:
     for x in ex.map(blind, C):
         w.write(json.dumps(x, ensure_ascii=False) + '\n'); print(x['url'][-30:], x['type'], x['blind'], x['results'][0], flush=True)

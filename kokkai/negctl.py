@@ -11,7 +11,7 @@ R = [json.loads(l) for f in ('refuted.jsonl', 'refuted2.jsonl', 'refuted3.jsonl'
      if os.path.exists(os.path.join(D, f)) for l in open(os.path.join(D, f), encoding='utf-8')]
 def base(r):
     j = r['claude']; runs = j.get('runs') or []
-    return j.get('type') == '食い違いなし' and len(runs) >= 3 and len(set(runs)) == 1 and r['gpt']['result'] == '別系統で支持' \
+    return j.get('type') == '食い違いなし' and len(runs) >= 3 and runs.count(j.get('type')) * 2 > len(runs) and r['gpt']['result'] == '別系統で支持' \
         and j.get('speech_quote_ok') and j.get('source_quote_ok')
 C = []
 for r in filter(base, R):

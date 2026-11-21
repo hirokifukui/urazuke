@@ -31,9 +31,9 @@ if CONF is None: sys.exit('confirmed.jsonl がない（先に kokkai/confirm.py�
 for r in sorted(R, key=lambda r: r['date']):
     if r['gpt']['result'] != '別系統で支持' or set(CONF.get((r['speechID'], r['claude']['type']), [])) != {'別系統で支持'}: continue
     j = r['claude']; recs = [x for x in (j.get('record_ids') or []) if x in CIT]
-    # 2026-11-21：Claude が3回とも同じ型を付けたもの（classify.py の NRUN）だけ。GPT と Gemini の両方の支持は refute.py の result に入っている
+    # 2026-11-21：Claude が5回の過半で型を付けたもの（classify.py の NRUN）だけ。GPT と Gemini の両方の支持は refute.py の result に入っている
     runs = j.get('runs') or []
-    if j.get('type') not in TY or len(runs) < 3 or len(set(runs)) != 1: continue
+    if j.get('type') not in TY or not (len(runs) >= 3 and runs.count(j['type']) * 2 > len(runs)): continue  # 2026-11-22：過半
     if not recs: continue
     # 「食い違いなし」は、答弁が資料の数字・結論を実際に引いているものだけ載せる（引いていない答弁を「同じ」と見せない）
     if j['type'] == '食い違いなし' and (NOCITE.search(j.get('explanation', '')) or not re.search(r'[〇一二三四五六七八九十百千万]|効果|認め|示唆|最多|割合|推計', j.get('speech_quote', ''))): continue
@@ -53,7 +53,7 @@ for r in sorted(R, key=lambda r: r['date']):
     n = len(out.setdefault(rec, [])) + 1
     out[rec].append(dict(id=f'{rec}-K{n:02d}', date=r['date'], kind='国会', media=f"{r['house']} {r['meeting']}（{pos(r)}）", url=r['url'], wayback='', live=True,
                          src_phrase=short(sq[pair[0]]['text']), cite_phrase=phrase(j['speech_quote']), types=['判定が分かれた' if unsure else TY[j['type']]],
-                         gist=(re.split(r'(?<=。)', j.get('explanation', ''))[0][:120] or '答弁の数字・言い方は元の資料と同じ。'), judge='国会答弁の照合（Claude が3回とも同じ型を付け、GPT と Gemini が3回の盲検でそろって支持。kokkai/）' if not unsure else 'Claude の説明が不確かさを述べているため判定しない',
+                         gist=(re.split(r'(?<=。)', j.get('explanation', ''))[0][:120] or '答弁の数字・言い方は元の資料と同じ。'), judge='国会答弁の照合（Claude が5回の過半で型を付け、GPT と Gemini が3回の盲検でそろって支持。kokkai/）' if not unsure else 'Claude の説明が不確かさを述べているため判定しない',
                          quote=j['speech_quote'], pair=pair, basis='国会会議録で確認'))
 json.dump(out, open(OUTP, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print({k: [(c['date'], c['types'][0]) for c in v] for k, v in out.items()})

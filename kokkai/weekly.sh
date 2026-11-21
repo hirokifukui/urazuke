@@ -19,7 +19,8 @@ step python3 kokkai/shuisho_candidates.py "$D"
 step python3 kokkai/classify.py "$D" 100000 candidates_shuisho.jsonl classified_shuisho.jsonl
 step python3 kokkai/refute.py "$D" classified_shuisho.jsonl refuted_shuisho.jsonl
 step python3 kokkai/negctl.py "$D"
-step python3 kokkai/confirm.py "$D"   # 2026-11-21：載せる候補を順序を変えてさらに2回反証
+step python3 kokkai/confirm.py "$D"   # 2026-11-21：載せる候補を、主張を見せずに GPT・Gemini に各5回型を付けさせ、過半が Claude と同じものだけ
+step python3 kokkai/diagnose.py "$D"   # 2026-11-21：確かめで型が合わなかった候補の原因（根拠・足りない情報）を残す
 step python3 kokkai/report.py "$D"
 step python3 kokkai/export.py "$D"   # 2026-11-21 再開：3回判定・二者の反証・確認の反証を通ったものだけ（METHODS r57）
 [ -n "$FAIL" ] && python3 crawl/notify.py "⚠️ URAZUKE 国会答弁の回 $D：失敗した段 $FAIL（$O/weekly.log）"

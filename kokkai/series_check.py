@@ -45,7 +45,7 @@ def prompt(c, s):
 - 限定が落ちる：資料にある限定が答弁で落ち、結論が当てはまる範囲が広くなっている（結論に影響しない細目は含めない）
 - 食い違いなし：答弁は資料と食い違わない
 - 判定不能：抜粋では判断できない（答弁の数が抜粋に見当たらない、別の資料を引いている、など）
-決まり：推測で補わない。答弁からの引用（speech_quote）と資料からの引用（source_quote）は、下の文からそのまま写す（60字以内）。食い違いなし・判定不能以外なら、explanation に2文以内で書く。
+決まり：推測で補わない。資料が対象者全体の結果と一部の対象者（罪名・属性などで分けた群）の結果を分けて書いているとき、答弁が全体の結果を全体の結果として述べるだけなら限定は落ちていない。全体の結果を、裏付けのなかった群を含む個々の対象にも当てはまるように述べる場合や、一部の群の結果を全体の結果のように述べる場合は「限定が落ちる」とする。指標（何の再犯を数えたか、など）の違いは、全体と一部の違いではない。資料が一つの指標（例：全ての犯罪の再犯）でだけ効果を示し、別の指標（例：性犯罪の再犯）では示せなかったとき、答弁が指標を言わずに効果を述べれば「限定が落ちる」とする。比べた群の取り方（比較対照群が誰か、除外の条件など）を別の群の名前で言い換えることも、全体と一部の違いではない。言い換えで比べた群が変わって読めるなら「範囲のずれ」とする。発言が、他の人の答弁を「…という御答弁だった」などと言い直しているだけのときは、資料を引いたことにならないので「渡した資料と別の資料」とする（言い直された元の答弁を、それ自体として判定する）。答弁からの引用（speech_quote）と資料からの引用（source_quote）は、下の文からそのまま写す（60字以内）。食い違いなし・判定不能以外なら、explanation に2文以内で書く。
 JSON だけを出力：{{"type": "...", "speech_quote": "...", "source_quote": "...", "explanation": "..."}}
 
 【答弁】{c['date']} {c['house']} {c['meeting']} {c['speaker']}
@@ -55,12 +55,13 @@ JSON だけを出力：{{"type": "...", "speech_quote": "...", "source_quote": "
 {s['text']}
 """
 norm = lambda x: re.sub(r'\s+', '', x or '')
-NRUN = int(os.environ.get('KOKKAI_NRUN', '3'))
-def vote(once):   # 2026-11-21：同じ候補を NRUN 回判定し、型が全て一致し引用が元にあるものだけを型として残す（classify.py と同じ規則）
+NRUN = int(os.environ.get('KOKKAI_NRUN', '5'))
+def vote(once):   # 2026-11-22：NRUN 回（既定5）判定し、過半の型を採る（classify.py と同じ規則）
     runs = [once() for _ in range(NRUN)]; types = [r.get('type') for r in runs]
-    ok = [r for r in runs if r.get('speech_quote_ok') and r.get('source_quote_ok')]
-    j = dict(ok[0] if ok else runs[0])
-    if len(set(types)) > 1: j['type'] = '判定が分かれた'
+    top = max(set(types), key=types.count)
+    ok = [r for r in runs if r.get('type') == top and r.get('speech_quote_ok') and r.get('source_quote_ok')]
+    if types.count(top) * 2 > len(types) and ok: j = dict(ok[0])
+    else: j = dict(runs[0]); j['type'] = '判定が分かれた'
     j['runs'] = types
     return j
 def run(c):
