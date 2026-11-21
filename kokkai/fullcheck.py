@@ -22,11 +22,14 @@ def run(r):
     words = sorted({x for x in re.findall(r'[一-龥０-９]{2,}', kansuji.terms(r['claude']['speech_quote'])) if x not in ('報告', '資料', '答弁')})[:12]
     s = dict(name=r['source']['name'], text=wide(t, kansuji.numbers(r['passage']), words), nums=r['source']['nums'])
     p = SC.prompt(r, s).replace('（抜粋は、答弁に出てくる数を含む行とその前後を機械で切り出したもの。', '（抜粋は、答弁に出てくる数や語を含む行の前後30行を報告書の全体から機械で切り出したもの。')
-    try: j = llm.js(llm.claude(p, max_tokens=2500)) or {}
-    except Exception as ex: j = {'type': 'エラー', 'explanation': type(ex).__name__}
-    j['speech_quote_ok'] = bool(j.get('speech_quote')) and SC.norm(j['speech_quote']) in SC.norm(r['passage'])
-    j['source_quote_ok'] = bool(j.get('source_quote')) and SC.norm(j['source_quote']) in SC.norm(s['text'])
-    j['record_ids'] = []
+    def once():
+        try: j = llm.js(llm.claude(p, max_tokens=2500)) or {}
+        except Exception as ex: j = {'type': 'エラー', 'explanation': type(ex).__name__}
+        j['speech_quote_ok'] = bool(j.get('speech_quote')) and SC.norm(j['speech_quote']) in SC.norm(r['passage'])
+        j['source_quote_ok'] = bool(j.get('source_quote')) and SC.norm(j['source_quote']) in SC.norm(s['text'])
+        j['record_ids'] = []
+        return j
+    j = SC.vote(once)
     return {**{k: v for k, v in r.items() if k not in ('gpt',)}, 'source': s, 'claude': j}
 if __name__ == '__main__':
     R = [json.loads(l) for l in open(os.path.join(D, 'refuted2.jsonl'), encoding='utf-8') if json.loads(l)['gpt']['result'] == '別系統で支持']

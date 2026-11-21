@@ -1408,6 +1408,102 @@
    "src_commit": "4a6eb8c+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-21"
+  },
+  "1030ee8804c75aaf840ceeddcfff00252b9da1a60c40bd41378e4824b2da7b91": {
+   "ja": "R070（GPT・Gemini 各3回とも T1）",
+   "en": "R070 (GPT and Gemini: T1 in all 3 runs each)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "34fd9e35768e48e8513099e2e739c7ff7496a6345a8d48e424f336835e0924b4": {
+   "ja": "R070（GPT・Gemini 各3回とも T3）",
+   "en": "R070 (GPT and Gemini: T3 in all 3 runs each)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "aded9454865b740bb5d7d30d43e1e7957a40107b70a1443e4f1bfb9d5b7e2cfe": {
+   "ja": "R070（GPT・Gemini の全ての回に共通する型 T4。GPT 各回：T2、T4｜T4｜T2、T4／Gemini 各回：T4｜T4｜T4）",
+   "en": "R070 (type T4, common to every run of GPT and Gemini. GPT runs: T2, T4 | T4 | T2, T4 / Gemini runs: T4 | T4 | T4)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "822ab57a0660c5a186dd51e92b6cf5477ebe7fc78a4edb0e3ce48f74ff5082cc": {
+   "ja": "R070（GPT・Gemini 各3回とも T4）",
+   "en": "R070 (T4 in all 3 runs each for GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "89a25415098b631d9439ac2873408df91d93bd1cf608288fa067fb801268d3fa": {
+   "ja": "R070（GPT・Gemini 各3回とも T2）",
+   "en": "R070 (T2 in all 3 runs each for GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "2d9512c556c1bab7b89b0f2871b545e75fbd845a8bc31735782d2ee11bd3ea65": {
+   "ja": "R070（GPT・Gemini 各3回とも T0）",
+   "en": "R070 (T0 in all 3 runs each for GPT and Gemini)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "9073ab97c8509573f9c923ba46f5715dba09291afa15ff52ae08dbb129d83cc4": {
+   "ja": "R070（GPT・Gemini の全ての回に共通する型 T2。GPT 各回：T2、T3｜T2、T3｜T2／Gemini 各回：T2｜T2｜T2）",
+   "en": "R070 (type T2 common to all runs of GPT and Gemini. GPT runs: T2, T3 | T2, T3 | T2 / Gemini runs: T2 | T2 | T2)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "10032835c926e836e79e235516509e98655c4d23f6a8edaf2788d6d979395002": {
+   "ja": "R070（GPT 各回：T0｜T0｜T0／Gemini 各回：T0｜T2｜T2）",
+   "en": "R070 (GPT runs: T0 | T0 | T0 / Gemini runs: T0 | T2 | T2)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "4569ecae9d668f15abb3727ede285286a1abfffbf0b8b6c5c6e1f186a6308a7c": {
+   "ja": "R070（GPT 各回：T0｜T0｜T0／Gemini 各回：T0｜T4｜T0）",
+   "en": "R070 (GPT, each run: T0 | T0 | T0 / Gemini, each run: T0 | T4 | T0)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "87d73f53c8d61b43db451177901cd2a6775a424665dfd6c4f1be4d14754c9a98": {
+   "ja": "R070（GPT 各回：T1｜T1｜T1／Gemini 各回：T1｜T4｜T1）",
+   "en": "R070 (GPT, each run: T1 | T1 | T1 / Gemini, each run: T1 | T4 | T1)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "2ca13cd4f9792e7bc10afbd939d3e36ff82b5a847d6ac8cc05988acf4054a47b": {
+   "ja": "R070（GPT 各回：T4｜T4｜T4／Gemini 各回：判定不能｜判定不能｜T4）",
+   "en": "R070 (GPT, each run: T4 | T4 | T4 / Gemini, each run: Inconclusive | Inconclusive | T4)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "0bedc4f7d45990200a47a72a795dfcb18b628d84ebb80ca11965df9a9376f548": {
+   "ja": "R070（GPT・Gemini の全ての回に共通する型 T4。GPT 各回：T3、T4｜T3、T4｜T3、T4／Gemini 各回：T3、T4｜T4｜T4）",
+   "en": "R070 (type T4, common to all runs of GPT and Gemini. GPT runs: T3, T4 | T3, T4 | T3, T4 / Gemini runs: T3, T4 | T4 | T4)",
+   "src": "publish/citations.json",
+   "src_commit": "5b1f2bf+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
   }
  }
 }

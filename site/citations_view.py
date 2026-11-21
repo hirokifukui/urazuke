@@ -10,14 +10,14 @@ TYPE_EN = {'同じ': 'Same', '値が違う': 'Different value', '量が置き換
            '限定が落ちる': 'Qualification dropped', '訂正が入っていない': 'Correction not reflected', '判定が分かれた': 'No verdict'}
 TYPE_DEF = {'同じ': '数値も言い方も元と同じ。', '値が違う': '数値が元と違う（写し間違い、速報値と確定値の取り違えを含む）。',
             '量が置き換わる': '別の量として書く（ハザード比を「再犯率」、群の比較を「低下」など）。',
-            '言い方が強まる': '元の「示唆」「可能性」などが「確認」「認められた」などになる。',
-            '限定が落ちる': '元の同じ箇所にある但し書き（効果が裏付けられなかった群、数え方の変更など）を書かずに結論を引く。',
-            '訂正が入っていない': '元の資料が後に直されたのに、直す前の値を引く。', '判定が分かれた': '二つの判定者（GPT と Gemini）に共通する型がなかった、または判定できないとした（共通する型があるときはそれだけを表示する）。国会の答弁では、型を付けた側（Claude）が資料から確かめられないと述べたもの。人は判定しない。'}
+            '言い方が強まる': '元の「示唆」「可能性」などが「確認」「認められた」などになる。結論の強さを変えるものだけを数える。',
+            '限定が落ちる': '元の同じ箇所にある但し書き（効果が裏付けられなかった群、数え方の変更など）を書かずに結論を引く。結論が当てはまる範囲（効果の有無・程度、対象者、罪種、指標、年度、数え方）を変えるものだけを数え、細目の言い残しは数えない。',
+            '訂正が入っていない': '元の資料が後に直されたのに、直す前の値を引く。', '判定が分かれた': '二つの判定者（GPT と Gemini）に3回ずつ判定させ、全ての回に共通する型がなかった、または判定できないとした（共通する型があるときはそれだけを表示する）。国会の答弁では、型を付けた側（Claude）が資料から確かめられないと述べたもの。人は判定しない。'}
 TYPE_DEF_EN = {'同じ': 'Figures and wording are the same as the source.', '値が違う': 'A figure differs from the source (including copying errors and mixing up preliminary and final figures).',
                '量が置き換わる': 'Written as a different quantity (a hazard ratio as a "reoffending rate", a comparison of groups as a "fall", and so on).',
-               '言い方が強まる': 'The source’s "suggested" or "possible" becomes "confirmed" or "recognised".',
-               '限定が落ちる': 'The conclusion is cited without a qualification stated at the same place in the source (groups where no effect was supported, a change in counting, and so on).',
-               '訂正が入っていない': 'The source was later corrected, but the citation uses the value before correction.', '判定が分かれた': 'The two judges (GPT and Gemini) had no type in common, or found the texts insufficient for a verdict (when they share a type, only the shared type is shown). For Diet answers: the model assigning the type (Claude) said the texts could not settle it. No person decides.'}
+               '言い方が強まる': 'The source’s "suggested" or "possible" becomes "confirmed" or "recognised". Counted only when the strength of the conclusion changes.',
+               '限定が落ちる': 'The conclusion is cited without a qualification stated at the same place in the source (groups where no effect was supported, a change in counting, and so on). Counted only when it changes what the conclusion applies to (whether there is an effect and how large, who, which offences, which measure, which year, how things are counted); omitted minor details are not counted.',
+               '訂正が入っていない': 'The source was later corrected, but the citation uses the value before correction.', '判定が分かれた': 'Each of the two judges (GPT and Gemini) judged three times, and no type was common to all the runs, or found the texts insufficient for a verdict (when they share a type, only the shared type is shown). For Diet answers: the model assigning the type (Claude) said the texts could not settle it. No person decides.'}
 KIND_EN = {'報道': 'News', '公的文書': 'Official document', '論文': 'Paper', '団体の資料': 'Organisation’s material', '国会': 'Diet'}
 RKIND = {'途中': ('資料の値・書き方が、引かれるときに変わる', 'The source’s figures or wording change when cited'),
          '資料': ('資料の側が後で変わる、または注がない', 'The source changes later, or lacks a note')}

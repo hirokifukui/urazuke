@@ -5,7 +5,7 @@ Claude の説明が不確かさを述べているもの（確認できない・�
 import json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); day = sys.argv[1]; D = os.path.join(ROOT, 'results/kokkai', day)
 CIT = {r['rec']: r for r in json.load(open(os.path.join(ROOT, 'publish/citations.json'), encoding='utf-8'))['records']}
-TY = {'限定が落ちる': '限定が落ちる', '範囲のずれ': '限定が落ちる', '数字の不一致': '値が違う', '食い違いなし': '同じ'}
+TY = {'言い方が強まる': '言い方が強まる', '限定が落ちる': '限定が落ちる', '範囲のずれ': '限定が落ちる', '数字の不一致': '値が違う', '食い違いなし': '同じ'}
 NOCITE = re.compile(r'述べず|触れず|述べるだけ|説明するだけ|触れていない|述べていない|挙げるだけ|引いていない')
 UNSURE = re.compile(r'確認できな|確認できま|確かめられ|判断できな|特定できな|分からな|わからな|かどうかは|同じ範囲か')
 def short(s, n=15): s = re.sub(r'\s+', '', s); return s if len(s) <= n else s[:n]
@@ -25,9 +25,15 @@ OUTP = os.path.join(ROOT, 'publish/kokkai_cites.json')
 out = json.load(open(OUTP, encoding='utf-8')) if os.path.exists(OUTP) else {}
 seen = {(k, c['url']) for k, v in out.items() for c in v}
 R = [json.loads(l) for f in ('refuted.jsonl', 'refuted2.jsonl', 'refuted3.jsonl', 'refuted_shuisho.jsonl', 'refuted_q.jsonl') if os.path.exists(os.path.join(D, f)) for l in open(os.path.join(D, f), encoding='utf-8')]
+# 2026-11-21：confirm.py の3回の反証がすべて「別系統で支持」のものだけ
+CONF = {(x['speechID'], x['type']): x['results'] for x in (json.loads(l) for l in open(os.path.join(D, 'confirmed.jsonl'), encoding='utf-8'))} if os.path.exists(os.path.join(D, 'confirmed.jsonl')) else None
+if CONF is None: sys.exit('confirmed.jsonl がない（先に kokkai/confirm.py）')
 for r in sorted(R, key=lambda r: r['date']):
-    if r['gpt']['result'] != '別系統で支持': continue
+    if r['gpt']['result'] != '別系統で支持' or set(CONF.get((r['speechID'], r['claude']['type']), [])) != {'別系統で支持'}: continue
     j = r['claude']; recs = [x for x in (j.get('record_ids') or []) if x in CIT]
+    # 2026-11-21：Claude が3回とも同じ型を付けたもの（classify.py の NRUN）だけ。GPT と Gemini の両方の支持は refute.py の result に入っている
+    runs = j.get('runs') or []
+    if j.get('type') not in TY or len(runs) < 3 or len(set(runs)) != 1: continue
     if not recs: continue
     # 「食い違いなし」は、答弁が資料の数字・結論を実際に引いているものだけ載せる（引いていない答弁を「同じ」と見せない）
     if j['type'] == '食い違いなし' and (NOCITE.search(j.get('explanation', '')) or not re.search(r'[〇一二三四五六七八九十百千万]|効果|認め|示唆|最多|割合|推計', j.get('speech_quote', ''))): continue
@@ -38,7 +44,7 @@ for r in sorted(R, key=lambda r: r['date']):
         # 前の回と型が違えば「判定が分かれた」にする（回ごとの LLM のぶれ。どちらかを選ばない。2026-11-21）
         for c in out[rec]:
             if c['url'] == r['url'] and c['types'] != [newt] and c['types'] != ['判定が分かれた']:
-                c['judge'] = f"回によって型が分かれた（{c['types'][0]}／{newt}）。どちらも Claude が型を付け GPT が盲検で支持"; c['types'] = ['判定が分かれた']
+                c['judge'] = f"回によって型が分かれた（{c['types'][0]}／{newt}）。どちらも判定者がそろって支持"; c['types'] = ['判定が分かれた']
         continue
     seen.add((rec, r['url']))
     nq = re.sub(r'\s', '', j['source_quote'])
@@ -47,7 +53,7 @@ for r in sorted(R, key=lambda r: r['date']):
     n = len(out.setdefault(rec, [])) + 1
     out[rec].append(dict(id=f'{rec}-K{n:02d}', date=r['date'], kind='国会', media=f"{r['house']} {r['meeting']}（{pos(r)}）", url=r['url'], wayback='', live=True,
                          src_phrase=short(sq[pair[0]]['text']), cite_phrase=phrase(j['speech_quote']), types=['判定が分かれた' if unsure else TY[j['type']]],
-                         gist=(re.split(r'(?<=。)', j.get('explanation', ''))[0][:120] or '答弁の数字・言い方は元の資料と同じ。'), judge='国会答弁の照合（Claude が型を付け、GPT が盲検で支持。kokkai/）' if not unsure else 'Claude の説明が不確かさを述べているため判定しない',
+                         gist=(re.split(r'(?<=。)', j.get('explanation', ''))[0][:120] or '答弁の数字・言い方は元の資料と同じ。'), judge='国会答弁の照合（Claude が3回とも同じ型を付け、GPT と Gemini が3回の盲検でそろって支持。kokkai/）' if not unsure else 'Claude の説明が不確かさを述べているため判定しない',
                          quote=j['speech_quote'], pair=pair, basis='国会会議録で確認'))
 json.dump(out, open(OUTP, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print({k: [(c['date'], c['types'][0]) for c in v] for k, v in out.items()})

@@ -41,7 +41,8 @@ def prompt(c, s):
 答弁の数字や結論を資料の原文と比べ、次の型のどれか一つを選んでください。
 - 数字の不一致：答弁の数字が資料の数字と合わない
 - 範囲のずれ：数字の対象・年度・指標が、答弁が当てはめる範囲と違う
-- 限定が落ちる：資料にある限定が答弁で落ち、結論が強くなっている（結論に影響しない細目は含めない）
+- 言い方が強まる：資料の「示唆」「可能性」などが答弁で言い切りになっている
+- 限定が落ちる：資料にある限定が答弁で落ち、結論が当てはまる範囲が広くなっている（結論に影響しない細目は含めない）
 - 食い違いなし：答弁は資料と食い違わない
 - 判定不能：抜粋では判断できない（答弁の数が抜粋に見当たらない、別の資料を引いている、など）
 決まり：推測で補わない。答弁からの引用（speech_quote）と資料からの引用（source_quote）は、下の文からそのまま写す（60字以内）。食い違いなし・判定不能以外なら、explanation に2文以内で書く。
@@ -54,15 +55,25 @@ JSON だけを出力：{{"type": "...", "speech_quote": "...", "source_quote": "
 {s['text']}
 """
 norm = lambda x: re.sub(r'\s+', '', x or '')
+NRUN = int(os.environ.get('KOKKAI_NRUN', '3'))
+def vote(once):   # 2026-11-21：同じ候補を NRUN 回判定し、型が全て一致し引用が元にあるものだけを型として残す（classify.py と同じ規則）
+    runs = [once() for _ in range(NRUN)]; types = [r.get('type') for r in runs]
+    ok = [r for r in runs if r.get('speech_quote_ok') and r.get('source_quote_ok')]
+    j = dict(ok[0] if ok else runs[0])
+    if len(set(types)) > 1: j['type'] = '判定が分かれた'
+    j['runs'] = types
+    return j
 def run(c):
     s = source_for(c)
     if not s: return None
-    try: j = llm.js(llm.claude(prompt(c, s))) or {}
-    except Exception as ex: j = {'type': 'エラー', 'explanation': type(ex).__name__}
-    j['speech_quote_ok'] = bool(j.get('speech_quote')) and norm(j['speech_quote']) in norm(c['passage'])
-    j['source_quote_ok'] = bool(j.get('source_quote')) and norm(j['source_quote']) in norm(s['text'])
-    j['record_ids'] = []
-    return {**c, 'source': s, 'claude': j}
+    def once():
+        try: j = llm.js(llm.claude(prompt(c, s))) or {}
+        except Exception as ex: j = {'type': 'エラー', 'explanation': type(ex).__name__}
+        j['speech_quote_ok'] = bool(j.get('speech_quote')) and norm(j['speech_quote']) in norm(c['passage'])
+        j['source_quote_ok'] = bool(j.get('source_quote')) and norm(j['source_quote']) in norm(s['text'])
+        j['record_ids'] = []
+        return j
+    return {**c, 'source': s, 'claude': vote(once)}
 if __name__ == '__main__':
     C = [json.loads(l) for l in open(os.path.join(D, 'classified.jsonl'), encoding='utf-8')]
     C = [c for c in C if c['claude'].get('type') in ('渡した資料と別の資料', '判定不能') and set(c['qids']) & {'SH2', 'JG1'}]

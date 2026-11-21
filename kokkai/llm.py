@@ -23,3 +23,9 @@ def gpt(prompt, model='gpt-5.5'):
 def js(t):
     m = re.search(r'\{.*\}', t, re.S)
     return json.loads(m.group(0)) if m else None
+def gemini(prompt, model='gemini-4-argon'):
+    """三つ目の判定者（2026-11-21）。鍵は運営者の鍵のファイルの2つ目の AIza（checks/judge2/run_gemini.py と同じ）。"""
+    gk = os.environ.get('GEMINI_API_KEY') or re.findall(r'AIza[0-9A-Za-z_\-]{35}', open(KEYF, encoding='utf-8').read())[1]
+    d = _post(f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={gk}', {'Content-Type': 'application/json'},
+              {'contents': [{'parts': [{'text': prompt}]}]})
+    return ''.join(x.get('text', '') for x in d['candidates'][0]['content']['parts'])
