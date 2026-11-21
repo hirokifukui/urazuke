@@ -8,6 +8,7 @@ checks/gyakutai/c700_teisei_yotei.py.bak_20261116_201811	個人名を含みう�
 checks/kyosei_ninchi/__pycache__/c4501_vanish_kyosei.cpython-314.pyc	個人名を含みうる資料、またはキャッシュ
 checks/llm_probe/__pycache__/h036_spec.cpython-314.pyc	個人名を含みうる資料、またはキャッシュ
 hypotheses/H001_selective_subgroups.md	個人名を含みうる資料、またはキャッシュ
+kokkai/__pycache__/classify_prompt.cpython-314.pyc	個人名を含みうる資料、またはキャッシュ
 kokkai/__pycache__/classify_src.cpython-314.pyc	個人名を含みうる資料、またはキャッシュ
 kokkai/__pycache__/kansuji.cpython-314.pyc	個人名を含みうる資料、またはキャッシュ
 kokkai/__pycache__/llm.cpython-314.pyc	個人名を含みうる資料、またはキャッシュ
@@ -197,6 +198,7 @@ results/kokkai/2026-11-21t/classify.log	個人名を含みうる資料、また�
 results/kokkai/2026-11-21t/classify_shuisho.log	個人名を含みうる資料、またはキャッシュ
 results/kokkai/2026-11-21t/confirm.log	個人名を含みうる資料、またはキャッシュ
 results/kokkai/2026-11-21t/confirmed.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-21t/confirmed_v1.jsonl	個人名を含みうる資料、またはキャッシュ
 results/kokkai/2026-11-21t/fullcheck.log	個人名を含みうる資料、またはキャッシュ
 results/kokkai/2026-11-21t/negctl.jsonl	個人名を含みうる資料、またはキャッシュ
 results/kokkai/2026-11-21t/negctl.log	個人名を含みうる資料、またはキャッシュ
