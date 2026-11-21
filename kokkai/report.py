@@ -10,7 +10,7 @@ okq = sum(1 for c in C if c['claude'].get('speech_quote_ok') and c['claude'].get
 L = [f'# 国会答弁の引かれ方（{day}）', '', f'- 候補（政府側の発言）：{len(C)}。逐語の引用が両方とも元にあった：{okq}。',
      '- Claude の分類：' + '、'.join(f'{k} {v}' for k, v in t.most_common()),
      '- 版の原文で照らし直した（死亡事例検証・虐待相談件数）：' + str(len(C2)) + '件。' + '、'.join(f'{k} {v}' for k, v in collections.Counter(c['claude'].get('type') for c in C2).most_common()),
-     f"- 陰性対照（Claude が食い違いなしとした答弁に、わざと「限定が落ちる」を付けた）：{len(NC)}件中 {sum(r['gpt']['result'] == '別系統で支持' for r in NC)}件を GPT が誤って支持",
+     f"- 陰性対照（三つの判定者がそろって食い違いなしとした答弁に、偽の「限定が落ちる」を付けた）：{len(NC)}件中 {sum(r['gpt']['result'] == '別系統で支持' for r in NC)}件を GPT と Gemini がそろって支持",
      '- GPT の盲検（食い違いの型・引用が元にあったもの）：' + '、'.join(f'{k} {v}' for k, v in collections.Counter(r['gpt']['result'] for r in R).most_common()), '']
 S = [r for r in R if r['gpt']['result'] == '別系統で支持']
 L += ['## 別系統で支持されたもの（記録の候補）', '']
