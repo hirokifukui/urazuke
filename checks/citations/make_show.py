@@ -152,6 +152,12 @@ for r in out:
         f = CHK.get(q)
         c['basis'] = ('Wayback の写しで確認' if f and 'wayback' in f else ('保存した写しで確認' if f else '原文未確認（検索の表示で得た文。写しなし）'))
 
+# 国会答弁の引かれ方（kokkai/export.py が作る publish/kokkai_cites.json。2026-11-21）
+import os as _os
+if _os.path.exists('publish/kokkai_cites.json'):
+    _K = json.load(open('publish/kokkai_cites.json', encoding='utf-8'))
+    for r in out: r['cites'] = [c for c in r['cites'] if c.get('kind') != '国会'] + _K.get(r['rec'], [])
+
 import csv as _csv, os
 _H = 'crawl/hold.tsv'
 _HOLD = {r['id'] for r in _csv.DictReader(open(_H, encoding='utf-8'), delimiter='\t') if r['status'] == '保留'} if os.path.exists(_H) else set()

@@ -3,9 +3,9 @@
 個人名を含みうる資料（教育委員会の処分ごとの発表）は、ファイルも URL も公開しない。"""
 import os, hashlib, re, csv
 ROOT = '.'
-INCLUDE_DIRS = ['lib', 'checks', 'sources', 'results', 'hypotheses', 'replications', 'publish', 'translate']
+INCLUDE_DIRS = ['lib', 'checks', 'kokkai', 'sources', 'results', 'hypotheses', 'replications', 'publish', 'translate']
 INCLUDE_FILES = ['README.md', 'METHODS.md', 'PROCESS.md', 'TERMS.md', 'LICENSE', 'requirements.txt', 'site/build_site.py', 'site/citations_view.py', 'site/checklist_view.py', 'CITATION.cff', '.zenodo.json', 'publish/zenodo.py', 'site/crawl.json']
-EXCLUDE = [r'^data/', r'/ANALYTICS\.md$', r'^crawl/analytics\.py$', r'^publish/send_mail\.py$', r'^publish/inquiry_contacts\.tsv$', r'^publish/letters/', r'zenodo_state\.json$',  r'(^|/)kyoi/', r'list_monka_kyoi\.tsv$', r'c605_kouhyou_shozai\.tsv$', r'FINDINGS_kyosei_wip\.md$', r'^hypotheses/H001_', r'^replications/R00[12]_', r'^translate/missing\.json$', r'citations_draft\.tsv$', r'^results/citations/perplexity/', r'^results/llm_probe/(?!h036/)', r'^replications/R03[234]_gpt_llmprobe/', r'^replications/R03[01]_gpt_types/(PROMPT\.md|events\.jsonl)$', r'^replications/R029_gpt_types/(PROMPT\.md|events\.jsonl)$', r'__pycache__', r'\.DS_Store$', r'\.bak', r'/\.']
+EXCLUDE = [r'^data/', r'^results/kokkai/', r'/ANALYTICS\.md$', r'^crawl/analytics\.py$', r'^publish/send_mail\.py$', r'^publish/inquiry_contacts\.tsv$', r'^publish/letters/', r'zenodo_state\.json$',  r'(^|/)kyoi/', r'list_monka_kyoi\.tsv$', r'c605_kouhyou_shozai\.tsv$', r'FINDINGS_kyosei_wip\.md$', r'^hypotheses/H001_', r'^replications/R00[12]_', r'^translate/missing\.json$', r'citations_draft\.tsv$', r'^results/citations/perplexity/', r'^results/llm_probe/(?!h036/)', r'^replications/R03[234]_gpt_llmprobe/', r'^replications/R03[01]_gpt_types/(PROMPT\.md|events\.jsonl)$', r'^replications/R029_gpt_types/(PROMPT\.md|events\.jsonl)$', r'__pycache__', r'\.DS_Store$', r'\.bak', r'/\.']
 def sha(p): return hashlib.sha256(open(p, 'rb').read()).hexdigest()
 pub, exc = [], []
 for d in INCLUDE_DIRS:

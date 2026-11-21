@@ -18,7 +18,7 @@ TYPE_DEF_EN = {'同じ': 'Figures and wording are the same as the source.', '値
                '言い方が強まる': 'The source’s "suggested" or "possible" becomes "confirmed" or "recognised".',
                '限定が落ちる': 'The conclusion is cited without a qualification stated at the same place in the source (groups where no effect was supported, a change in counting, and so on).',
                '訂正が入っていない': 'The source was later corrected, but the citation uses the value before correction.', '判定が分かれた': 'The two judges (GPT and Gemini) disagreed, or found the texts insufficient for a verdict. No person decides.'}
-KIND_EN = {'報道': 'News', '公的文書': 'Official document', '論文': 'Paper', '団体の資料': 'Organisation’s material'}
+KIND_EN = {'報道': 'News', '公的文書': 'Official document', '論文': 'Paper', '団体の資料': 'Organisation’s material', '国会': 'Diet'}
 RKIND = {'途中': ('資料の値・書き方が、引かれるときに変わる', 'The source’s figures or wording change when cited'),
          '資料': ('資料の側が後で変わる、または注がない', 'The source changes later, or lacks a note')}
 CSS = """
@@ -79,10 +79,10 @@ def block(rid, lang='ja', T=None):
     en, t, E = _fns(lang, T)
     if en:
         return (f'<section class="cit"><h2>How this source is cited</h2><div class="src"><p class="kick">{e(RKIND[r["kind"]][1])}</p>'
-                f'<p>{len(r["cites"])} citations found in news, official documents and papers ({summary(r, True)}).</p>'
+                f'<p>{len(r["cites"])} citations found in news, official documents, papers and Diet answers ({summary(r, True)}).</p>'
                 f'<p><a href="../citations/{rid}.html">Each citation side by side with the source text</a></p></div></section>')
     return (f'<section class="cit"><h2>この資料の引かれ方</h2><div class="src"><p class="kick">{e(RKIND[r["kind"]][0])}</p>'
-            f'<p>報道・公的文書・論文で見つけた引用 {len(r["cites"])}件（{summary(r, False)}）。</p>'
+            f'<p>報道・公的文書・論文・国会の答弁で見つけた引用 {len(r["cites"])}件（{summary(r, False)}）。</p>'
             f'<p><a href="../citations/{rid}.html">引用ごとに、元の資料の原文と並べて見る</a></p></div></section>')
 
 def detail(rid, lang='ja', T=None):
@@ -93,7 +93,7 @@ def detail(rid, lang='ja', T=None):
     for c in sorted(r['cites'], key=lambda c: dkey(c['date'])):
         dd = den(c['date']) if en else dja(c['date'])
         ty = ''.join(f'<span class="ty">{e(TYPE_EN[x] if en else x)}</span>' for x in c['types'])
-        basis = {'保存した写しで確認': 'checked against the saved copy', 'Wayback の写しで確認': 'checked against the Wayback copy', '原文未確認（検索の表示で得た文。写しなし）': 'not checked against the original (text as shown in search results; no copy)'}[c['basis']] if en else c['basis']
+        basis = {'国会会議録で確認': 'checked against the Diet record (NDL)', '保存した写しで確認': 'checked against the saved copy', 'Wayback の写しで確認': 'checked against the Wayback copy', '原文未確認（検索の表示で得た文。写しなし）': 'not checked against the original (text as shown in search results; no copy)'}[c['basis']] if en else c['basis']
         lk = f'<a href="{e(c["url"])}">{"Original page" if en else "元のページ"}</a>' + ('' if c['live'] else (' <span class="muted">(not retrievable now)</span>' if en else '<span class="muted">（現在は取得できない）</span>'))
         lk += f'　<a href="{e(c["wayback"])}">{"Archived copy" if en else "保存された写し"}</a>' if c['wayback'] else ''
         L = ('Citation', 'Source text', 'Difference', 'Type') if en else ('引用', '元の資料の原文', '違い', '型')
@@ -138,7 +138,7 @@ def index_body(lang='ja', T=None):
     th = ''.join(f'<th>{e(TYPE_EN[k] if en else k)}</th>' for k in TYPES)
     dl = ''.join(f'<tr><td>{e(TYPE_EN[k] if en else k)}</td><td>{e(TYPE_DEF_EN[k] if en else TYPE_DEF[k])}</td><td>{tot[k]}</td></tr>' for k in TYPES)
     if en:
-        return (f'<h1>How sources are cited</h1><p class="lead">For the source documents of the records, we searched how their figures and conclusions are cited in news, official documents and papers, and compared each citation with the source text. New citations are searched for every week as part of the weekly crawl. Checks to make before citing: <a href="checklist.html">Before citing a statistic</a>.</p>'
+        return (f'<h1>How sources are cited</h1><p class="lead">For the source documents of the records, we searched how their figures and conclusions are cited in news, official documents, papers and answers in the Diet, and compared each citation with the source text. Diet answers are collected from the Diet record (National Diet Library); Claude assigns a type and only those supported by GPT in a blinded test are shown (speakers are identified by post and date, with a link to the record; the procedure is in kokkai/ in the public repository). New citations are searched for every week as part of the weekly crawl. Checks to make before citing: <a href="checklist.html">Before citing a statistic</a>.</p>'
                 f'<div class="nums big"><div><b>{len(D["records"])}</b><span>records with citations found</span></div><div><b>{n}</b><span>citations</span></div><div><b>{tot["同じ"]}</b><span>of which the same as the source</span></div></div>'
                 f'<h2>By record</h2><table><tr><th>Record</th><th>Source</th><th>Citations</th>{th}<th>Years</th></tr>{"".join(rows)}</table><p class="muted">A citation can have more than one type. Citations that differ from the source (where the two judgments agreed) number {len(_diff)}. {f'{_multi} of them have two or more types, so the column totals are larger.' if _multi else 'At present no citation has two or more types, so the column totals match.'}</p>'
                 f'<h2>Types</h2><table><tr><th>Type</th><th>Definition</th><th>Count</th></tr>{dl}</table>'
@@ -147,7 +147,7 @@ def index_body(lang='ja', T=None):
                 f'<li>Types were assigned separately by two independent AIs (GPT / Codex and Gemini) shown only the source text, the citation text and the definitions (H037). Only types on which both agreed are shown; where they disagreed, the citation is marked “No verdict” and both judgments are given. Two dummy pairs with obvious types were mixed in; the rounds ({D["round"]}) were adopted because both were answered correctly. Where the AI could not decide, the result is shown as “No verdict”; no person decides. For NK-K1, the source text first given omitted the survey period and the definition of “tendency towards dementia”; the pairs were judged again with them included (R031), and that round replaces the earlier judgments.</li>'
                 f'<li>Each cited page was saved with a SHA-256 hash and checked for an archived copy. Pages that can no longer be retrieved are marked.</li>'
                 f'<li>We do not assess the intentions of the citing side or evaluate media outlets, and we do not ask them for corrections. Compared key phrases are limited to 15 characters; each citation quotes one passage per article (about 30 characters for news, one sentence for official documents and papers).</li></ul>')
-    return (f'<h1>引かれ方</h1><p class="lead">記録のある資料について、その数字・結論が報道・公的文書・論文でどう引かれているかを探し、引用の文を元の文と比べました。新しい引用は、週1回の巡回で毎週検索して足します。引く前の確かめ方は<a href="checklist.html">引く前に確かめること</a>にあります。</p>'
+    return (f'<h1>引かれ方</h1><p class="lead">記録のある資料について、その数字・結論が報道・公的文書・論文・国会の答弁でどう引かれているかを探し、引用の文を元の文と比べました。国会の答弁は国会会議録（国立国会図書館）から集め、Claude が型を付け、GPT がそれを盲検で試して支持したものだけを載せます（答弁者は役職と日付で示し、会議録へのリンクを付けます。手順は公開リポジトリの kokkai/）。新しい引用は、週1回の巡回で毎週検索して足します。引く前の確かめ方は<a href="checklist.html">引く前に確かめること</a>にあります。</p>'
             f'<div class="nums big"><div><b>{len(D["records"])}</b><span>引用が見つかった記録</span></div><div><b>{n}</b><span>引用</span></div><div><b>{tot["同じ"]}</b><span>そのうち元と同じ</span></div></div>'
             f'<h2>記録ごと</h2><table><tr><th>記録</th><th>元の資料</th><th>引用</th>{th}<th>年</th></tr>{"".join(rows)}</table><p class="muted">一つの引用が複数の型を持つことがある。元の文と違う形で引かれた引用（二つの判定が一致した分）は実数で {len(_diff)} 件。{f'うち {_multi} 件が2つ以上の型に当たるため、列の和はこれより多い。' if _multi else 'いまは2つ以上の型に当たる引用はなく、列の和と一致する。'}</p>'
             f'<h2>型</h2><table><tr><th>型</th><th>定義</th><th>数</th></tr>{dl}</table>'
