@@ -92,6 +92,9 @@ replications/R069_rejudge3/PROMPT_2.md	個人名を含みうる資料、また�
 replications/R070_rejudge3/PROMPT_0.md	個人名を含みうる資料、またはキャッシュ
 replications/R070_rejudge3/PROMPT_1.md	個人名を含みうる資料、またはキャッシュ
 replications/R070_rejudge3/PROMPT_2.md	個人名を含みうる資料、またはキャッシュ
+replications/R071_perpair/calls.jsonl	個人名を含みうる資料、またはキャッシュ
+replications/R072_perpair5/calls.jsonl	個人名を含みうる資料、またはキャッシュ
+replications/R072b_inputs/calls.jsonl	個人名を含みうる資料、またはキャッシュ
 results/citations/citations_draft.tsv	個人名を含みうる資料、またはキャッシュ
 results/citations/perplexity/630-D1.json	個人名を含みうる資料、またはキャッシュ
 results/citations/perplexity/BV-P1.json	個人名を含みうる資料、またはキャッシュ
