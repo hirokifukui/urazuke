@@ -12,8 +12,8 @@ def src(rid):
     qs = '\n'.join(f'  - 「{q["文"]}」（{q["ファイル"]} {q["箇所"]}）' for q in f.get('原文の引用', []))
     return f'■ 記録 {rid}（資料：{f["統計"]}）\n要旨：{f["要旨"]}\n資料の原文：\n{qs}'
 def prompt(c):
-    return f"""あなたは日本の公的資料の引用を点検する係です。以下は国会での政府側の答弁の一部と、URAZUKE が記録した資料の原文です。
-答弁が、渡した資料（の内容）を引いているかを判断し、引いているなら、資料の原文と比べて次の型のどれに当たるかを一つ選んでください。
+    return f"""あなたは日本の公的資料の引用を点検する係です。以下は国会での発言（政府側の答弁、閣議決定された答弁書、または議員の質問）の一部と、URAZUKE が記録した資料の原文です。
+発言（以下「答弁」と呼ぶ）が、渡した資料（の内容）を引いているかを判断し、引いているなら、資料の原文と比べて次の型のどれに当たるかを一つ選んでください。
 型：
 - 限定が落ちる：資料にある限定（「示唆」「一部」「有意差なし」「〜に限る」など）が答弁で落ち、言い方が強くなっている
 - 範囲のずれ：資料の数字や結論の範囲（対象・罪種・年度・指標）と、答弁が当てはめる範囲が違う
@@ -40,8 +40,9 @@ def run(c):
     j['speech_quote_ok'] = bool(j.get('speech_quote')) and norm(j['speech_quote']) in norm(c['passage'])
     j['source_quote_ok'] = bool(j.get('source_quote')) and norm(j['source_quote']) in srcs
     return {**c, 'claude': j}
-C = [json.loads(l) for l in open(os.path.join(D, 'candidates.jsonl'), encoding='utf-8')][:LIM]
-with cf.ThreadPoolExecutor(4) as ex, open(os.path.join(D, 'classified.jsonl'), 'w', encoding='utf-8') as w:
+IN, OUT = (sys.argv[3], sys.argv[4]) if len(sys.argv) > 4 else ('candidates.jsonl', 'classified.jsonl')
+C = [json.loads(l) for l in open(os.path.join(D, IN), encoding='utf-8')][:LIM]
+with cf.ThreadPoolExecutor(4) as ex, open(os.path.join(D, OUT), 'w', encoding='utf-8') as w:
     for r in ex.map(run, C):
         w.write(json.dumps(r, ensure_ascii=False) + '\n'); w.flush()
         print(r['date'], r['speaker'], r['claude'].get('type'), r['claude'].get('record_ids'), r['claude'].get('speech_quote_ok'), r['claude'].get('source_quote_ok'), flush=True)

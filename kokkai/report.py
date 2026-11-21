@@ -2,7 +2,7 @@
 import collections, json, os, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); day = sys.argv[1]; D = os.path.join(ROOT, 'results/kokkai', day)
 C = [json.loads(l) for l in open(os.path.join(D, 'classified.jsonl'), encoding='utf-8')]
-R = [json.loads(l) for f in ('refuted.jsonl', 'refuted2.jsonl') if os.path.exists(os.path.join(D, f)) for l in open(os.path.join(D, f), encoding='utf-8')]
+R = [json.loads(l) for f in ('refuted.jsonl', 'refuted2.jsonl', 'refuted3.jsonl', 'refuted_shuisho.jsonl', 'refuted_q.jsonl') if os.path.exists(os.path.join(D, f)) for l in open(os.path.join(D, f), encoding='utf-8')]
 C2 = [json.loads(l) for l in open(os.path.join(D, 'classified2.jsonl'), encoding='utf-8')] if os.path.exists(os.path.join(D, 'classified2.jsonl')) else []
 NC = [json.loads(l) for l in open(os.path.join(D, 'negctl.jsonl'), encoding='utf-8')] if os.path.exists(os.path.join(D, 'negctl.jsonl')) else []
 t = collections.Counter(c['claude'].get('type') for c in C)

@@ -6,14 +6,16 @@ import json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); day = sys.argv[1]; D = os.path.join(ROOT, 'results/kokkai', day)
 CIT = {r['rec']: r for r in json.load(open(os.path.join(ROOT, 'publish/citations.json'), encoding='utf-8'))['records']}
 TY = {'限定が落ちる': '限定が落ちる', '範囲のずれ': '限定が落ちる', '数字の不一致': '値が違う'}
-UNSURE = re.compile(r'確認できな|確認できま|判断できな|特定できな|分からな|わからな|かどうかは')
+UNSURE = re.compile(r'確認できな|確認できま|確かめられ|判断できな|特定できな|分からな|わからな|かどうかは|同じ範囲か')
 def short(s, n=15): s = re.sub(r'\s+', '', s); return s if len(s) <= n else s[:n]
 def phrase(q):
     m = re.search(r'([^、。]{0,7}?)(再犯抑止化?効果|再犯防止効果|抑止の効果|効果|最多)', q)
     if not m: return short(q)
     pre = re.sub(r'^[のがはをにでと]+', '', m.group(1)[-6:])
     return f'{pre}[[{m.group(2)}]]'
-def pos(c):   # 役職（会議録の speakerPosition。なければ発言の頭の肩書き）
+def pos(c):   # 役職（会議録の speakerPosition。なければ発言の頭の肩書き）。質問の側は個人名を出さず「質問した議員」
+    if c.get('side') == 'q': return '質問した議員' if c.get('position') != '質問主意書の提出者' else '質問主意書の提出者'
+    if c.get('position') == '閣議決定': return '答弁書（閣議決定）'
     p = c.get('position') or ''
     if not p: m = re.match(r'○\S+?(政府参考人|国務大臣|副大臣|政務官)', c['passage']); p = m.group(1) if m else ''
     return p
@@ -21,7 +23,7 @@ def pos(c):   # 役職（会議録の speakerPosition。なければ発言の頭
 OUTP = os.path.join(ROOT, 'publish/kokkai_cites.json')
 out = json.load(open(OUTP, encoding='utf-8')) if os.path.exists(OUTP) else {}
 seen = {(k, c['url']) for k, v in out.items() for c in v}
-R = [json.loads(l) for f in ('refuted.jsonl', 'refuted2.jsonl') if os.path.exists(os.path.join(D, f)) for l in open(os.path.join(D, f), encoding='utf-8')]
+R = [json.loads(l) for f in ('refuted.jsonl', 'refuted2.jsonl', 'refuted3.jsonl', 'refuted_shuisho.jsonl', 'refuted_q.jsonl') if os.path.exists(os.path.join(D, f)) for l in open(os.path.join(D, f), encoding='utf-8')]
 for r in sorted(R, key=lambda r: r['date']):
     if r['gpt']['result'] != '別系統で支持': continue
     j = r['claude']; recs = [x for x in (j.get('record_ids') or []) if x in CIT]

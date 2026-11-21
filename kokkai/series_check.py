@@ -4,7 +4,7 @@
 python3 kokkai/series_check.py <日付>"""
 import glob, json, os, re, subprocess, sys, concurrent.futures as cf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import llm, kansuji
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); day = sys.argv[1]; D = os.path.join(ROOT, 'results/kokkai', day)
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); day = sys.argv[1] if len(sys.argv) > 1 else ''; D = os.path.join(ROOT, 'results/kokkai', day)
 # 死亡事例検証報告の公表年月（各次）。答弁の日より前に出た最新の次を既定にする
 PUB = {1: '2005-04', 2: '2006-03', 3: '2007-06', 4: '2008-03', 5: '2009-07', 6: '2010-07', 7: '2011-07', 8: '2012-07', 9: '2013-07', 10: '2014-09', 11: '2015-10',
        12: '2016-09', 13: '2017-08', 14: '2018-08', 15: '2019-08', 16: '2020-09', 17: '2021-08', 18: '2022-09', 19: '2023-09', 20: '2024-09', 21: '2025-09', 22: '2026-09'}
@@ -21,10 +21,7 @@ def edition(c):
     ym = c['date'][:7]; return max(n for n, d in PUB.items() if d < ym)
 def excerpt(text, nums, cap=6000):
     L = text.splitlines(); keep = set()
-    forms = set()
-    for v in nums:
-        forms.add(v)
-        if '.' not in v and len(v) >= 4: forms.add(f'{int(v):,}')
+    forms = kansuji.forms(nums)
     for i, l in enumerate(L):
         if any(f in l for f in forms): keep |= set(range(max(0, i - 2), min(len(L), i + 3)))
     s = '\n'.join(L[i] for i in sorted(keep))
@@ -66,11 +63,12 @@ def run(c):
     j['source_quote_ok'] = bool(j.get('source_quote')) and norm(j['source_quote']) in norm(s['text'])
     j['record_ids'] = []
     return {**c, 'source': s, 'claude': j}
-C = [json.loads(l) for l in open(os.path.join(D, 'classified.jsonl'), encoding='utf-8')]
-C = [c for c in C if c['claude'].get('type') in ('渡した資料と別の資料', '判定不能') and set(c['qids']) & {'SH2', 'JG1'}]
-print('対象', len(C), flush=True)
-with cf.ThreadPoolExecutor(4) as ex, open(os.path.join(D, 'classified2.jsonl'), 'w', encoding='utf-8') as w:
-    for r in ex.map(run, C):
-        if not r: continue
-        w.write(json.dumps(r, ensure_ascii=False) + '\n'); w.flush()
-        print(r['date'], r['speaker'], r['source']['name'][-12:], r['claude'].get('type'), r['claude'].get('speech_quote_ok'), r['claude'].get('source_quote_ok'), flush=True)
+if __name__ == '__main__':
+    C = [json.loads(l) for l in open(os.path.join(D, 'classified.jsonl'), encoding='utf-8')]
+    C = [c for c in C if c['claude'].get('type') in ('渡した資料と別の資料', '判定不能') and set(c['qids']) & {'SH2', 'JG1'}]
+    print('対象', len(C), flush=True)
+    with cf.ThreadPoolExecutor(4) as ex, open(os.path.join(D, 'classified2.jsonl'), 'w', encoding='utf-8') as w:
+        for r in ex.map(run, C):
+            if not r: continue
+            w.write(json.dumps(r, ensure_ascii=False) + '\n'); w.flush()
+            print(r['date'], r['speaker'], r['source']['name'][-12:], r['claude'].get('type'), r['claude'].get('speech_quote_ok'), r['claude'].get('source_quote_ok'), flush=True)

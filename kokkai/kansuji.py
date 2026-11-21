@@ -22,3 +22,15 @@ def numbers(text):
     return out
 if __name__ == '__main__':
     print(numbers('平成二十九年度は十三万三千七百七十八件、二一・九％と二九・六％、二千百四十七名、第十二次報告'))
+
+FW = str.maketrans('0123456789.,', '０１２３４５６７８９．，')
+def forms(nums):
+    """資料の原文で探す形：算用数字、3桁区切り、全角（pdftotext の出力は全角と半角が混じる）。"""
+    out = set()
+    for v in nums:
+        out |= {v, v.translate(FW)}
+        if '.' not in v and len(v) >= 4: c = f'{int(v):,}'; out |= {c, c.translate(FW)}
+    return out
+def terms(text):
+    """語の照合用に、答弁の言い回しを資料の書き方に寄せる（ゼロ日児→０日児 など）。"""
+    return text.replace('ゼロ', '０').replace('〇', '０')
