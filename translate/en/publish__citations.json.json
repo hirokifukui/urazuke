@@ -1816,6 +1816,94 @@
    "src_commit": "0f70cce+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-21"
+  },
+  "cf86b01cea8df42c8b9e74a61264e006e90ea17f9a772ced7ac2999908aea22f": {
+   "ja": "R073（二つの判定者の過半の型が同じ：GPT T1／Gemini T1。組ごとに各5回の過半）",
+   "en": "R073 (the majority type of the two judges is the same: GPT T1 / Gemini T1. Majority of 5 runs each, per pair)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "88f6d6b8b4b529bfbce54fc38868cc5a680e8cc8df6cc59504e4e3778a6e50f8": {
+   "ja": "R073b（二つの判定者の過半の型が同じ：GPT T0／Gemini T0。組ごとに各5回の過半）",
+   "en": "R073b (the majority type of the two judges is the same: GPT T0 / Gemini T0. Majority of 5 runs each, per pair)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "aa77f11d081543acdacc335a388337c4838d14f1676d803826bbf906be0ff45b": {
+   "ja": "R073（二つの判定者の過半の型が同じ：GPT T3／Gemini T3。組ごとに各5回の過半）",
+   "en": "R073 (the majority type from the two judges is the same: GPT T3 / Gemini T3; majority of 5 runs each, per pair)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "47e5e7706c73eda8b2913bf4dceebbf3fb01e7e4be8d7e65213e11443bc481a5": {
+   "ja": "R073（二つの判定者の過半の型に共通する型：GPT T1／Gemini T1、T4。組ごとに各5回の過半）",
+   "en": "R073 (types common to the majority types of the two judges: GPT T1 / Gemini T1, T4. Majority of 5 runs each, per pair)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "7353e3c7c831fccfea1746bf4f0c077d74989baf3b0a9325ed48d57a6ffe8c37": {
+   "ja": "R073（二つの判定者の過半の型が同じ：GPT T4／Gemini T4。組ごとに各5回の過半）",
+   "en": "R073 (the majority type of the two judges is the same: GPT T4 / Gemini T4; majority of 5 runs each, per pair)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "cf111026e90e9c5487c7562a950b3c270761e5b000cdee5696a4895e2f6ff314": {
+   "ja": "R073（二つの判定者の過半の型が同じ：GPT T2／Gemini T2。組ごとに各5回の過半）",
+   "en": "R073 (the majority type of the two judges is the same: GPT T2 / Gemini T2; majority of 5 runs each, per pair)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "b47a4fb4098d22af0e5ee1dfe1ce60eb208b9b9e5d0379d229e839e916df6981": {
+   "ja": "R073b（二つの判定者の過半の型が同じ：GPT T4／Gemini T4。組ごとに各5回の過半）",
+   "en": "R073b (the majority type of the two judges is the same: GPT T4 / Gemini T4; majority of 5 runs each, per pair)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "3a61e133b922798b0ea2170a1ec5e82f2e474246d869e242a35c270dbcb1b57b": {
+   "ja": "R073（二つの判定者の過半の型に共通する型：GPT T2、T3／Gemini T2。組ごとに各5回の過半）",
+   "en": "R073 (type common to the majority types of the two judges: GPT T2, T3 / Gemini T2; majority of 5 runs each, per pair)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "f511cfe3cf7b361dcb7a317c9333ff360dfacbfdb4ea8f32c81d54389e937a0f": {
+   "ja": "R073（二つの判定者の過半の型が同じ：GPT T0／Gemini T0。組ごとに各5回の過半）",
+   "en": "R073 (the majority type of the two judges is the same: GPT T0 / Gemini T0; majority of 5 runs each, per pair)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "9738343b84210afe1c9ed00e610ae2edfe9fb0d7a275beca4e7ae0dcac91f93d": {
+   "ja": "R073（二つの判定者の過半の型が同じ：GPT T3、T4／Gemini T3、T4。組ごとに各5回の過半）",
+   "en": "R073 (the majority type of the two judges is the same: GPT T3, T4 / Gemini T3, T4. Majority of 5 runs each, for each pair)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "b97fccb6cd6c0832d3f2b6174d6c242895e32e96a8caa5b5f78ebcdb47919045": {
+   "ja": "R073（二つの判定者の過半の型に共通する型：GPT T1、T4／Gemini T1。組ごとに各5回の過半）",
+   "en": "R073 (types common to the majority types of the two judges: GPT T1, T4 / Gemini T1; majority of 5 runs each per group)",
+   "src": "publish/citations.json",
+   "src_commit": "a09e3ad+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
   }
  }
 }
