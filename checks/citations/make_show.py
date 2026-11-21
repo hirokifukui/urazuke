@@ -4,6 +4,17 @@ import csv, json, re
 C = {r['引用ID']: r for r in csv.DictReader(open('results/citations/citations.tsv'), delimiter='\t')}
 TYPE = {'T0': '同じ', 'T1': '値が違う', 'T2': '量が置き換わる', 'T3': '言い方が強まる', 'T4': '限定が落ちる', 'T5': '訂正が入っていない', '判定不能': '判定が分かれた', '判定が分かれた': '判定が分かれた'}
 
+def common_types(r):
+    """二つの判定者の型の組が完全には一致しないとき、両者に共通する型があればそれを表示する（2026-11-21、運営者の指摘）。
+    以前は組が一致しないと一律に「判定が分かれた」にしていた。共通する型がなければ、従来どおり「判定が分かれた」。"""
+    ts = [TYPE[t] for t in re.split(r'[、,]\s*', r['型'])]
+    if ts != ['判定が分かれた']: return ts, r['型の判定']
+    m = re.search(r'GPT：([^／）]+)／Gemini：([^）]+)）', r['型の判定'])
+    if not m: return ts, r['型の判定']
+    g, gm = (set(x for x in re.split(r'[、,]\s*', m.group(k)) if x.startswith('T')) for k in (1, 2))
+    com = sorted(g & gm)
+    if not com: return ts, r['型の判定']
+    return [TYPE[t] for t in com], r['型の判定'] + '。両者に共通する型だけを表示'
 # 記録ごと：型（資料の側／伝わる途中）、元の資料、元の資料が言っていること、資料の側の出来事（日付・文）
 REC = {
  'KP-C1': dict(kind='途中', src='法務省矯正局「刑事施設における性犯罪者処遇プログラム受講者の再犯等に関する分析結果」（令和2年3月）',
@@ -97,7 +108,7 @@ for rid, d in REC.items():
         cs.append(dict(id=q.replace('Q-', ''), date=r['掲載日'], kind=r['種類'], media=r['媒体'], url=r['url'],
                        wayback=r['wayback'] if r['wayback'].startswith('http') else '',
                        live=st == '取得できた', src_phrase=PH[q][0], cite_phrase=PH[q][1],
-                       types=[TYPE[t] for t in re.split(r'[、,]\s*', r['型'])], gist=r['要旨'], judge=r['型の判定']))
+                       types=common_types(r)[0], gist=r['要旨'], judge=common_types(r)[1]))
     out.append(dict(rec=rid, kind=d['kind'], src=d['src'], says=d['says'], ev=[dict(date=a, text=b) for a, b in d['ev']], cites=cs))
 
 # 元の資料の原文（逐語、頁は PDF の頁）。引用ごとに対応する原文の番号（SRCQ の添字）を MAP に置く

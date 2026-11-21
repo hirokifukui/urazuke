@@ -20,6 +20,6 @@ step python3 kokkai/classify.py "$D" 100000 candidates_shuisho.jsonl classified_
 step python3 kokkai/refute.py "$D" classified_shuisho.jsonl refuted_shuisho.jsonl
 step python3 kokkai/negctl.py "$D"
 step python3 kokkai/report.py "$D"
-step python3 kokkai/export.py "$D"
+# step python3 kokkai/export.py "$D"   # 2026-11-21 止めた：回ごとの判定のぶれと陰性対照（20件中7件を誤って支持）のため、安定させるまでサイトへの自動の追加をしない
 [ -n "$FAIL" ] && python3 crawl/notify.py "⚠️ URAZUKE 国会答弁の回 $D：失敗した段 $FAIL（$O/weekly.log）"
 exit 0

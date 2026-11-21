@@ -7,10 +7,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 day = sys.argv[1]; LIM = int(sys.argv[2]) if len(sys.argv) > 2 else 10**9; D = os.path.join(ROOT, 'results/kokkai', day)
 F = {f['id']: f for f in json.load(open(os.path.join(ROOT, 'publish/findings.json'), encoding='utf-8'))}
 TYPES = ['限定が落ちる', '範囲のずれ', '数字の不一致', '出典が示されていない', '食い違いなし', '渡した資料と別の資料', '判定不能']
-def src(rid):
-    f = F[rid]
-    qs = '\n'.join(f'  - 「{q["文"]}」（{q["ファイル"]} {q["箇所"]}）' for q in f.get('原文の引用', []))
-    return f'■ 記録 {rid}（資料：{f["統計"]}）\n要旨：{f["要旨"]}\n資料の原文：\n{qs}'
+import classify_src
+src = classify_src.src
 def prompt(c):
     return f"""あなたは日本の公的資料の引用を点検する係です。以下は国会での発言（政府側の答弁、閣議決定された答弁書、または議員の質問）の一部と、URAZUKE が記録した資料の原文です。
 発言（以下「答弁」と呼ぶ）が、渡した資料（の内容）を引いているかを判断し、引いているなら、資料の原文と比べて次の型のどれに当たるかを一つ選んでください。
@@ -36,7 +34,7 @@ def run(c):
     try:
         t = llm.claude(prompt(c)); j = llm.js(t) or {}
     except Exception as ex: j = {'type': 'エラー', 'explanation': type(ex).__name__}
-    srcs = norm(' '.join(q['文'] for r in c['records'] for q in F[r].get('原文の引用', [])))
+    srcs = norm(' '.join(q['文'] for r in c['records'] for q in F[r].get('原文の引用', [])) + ' '.join(q['text'] for r in c['records'] if r in classify_src.CIT for q in classify_src.CIT[r]['src_quotes']))
     j['speech_quote_ok'] = bool(j.get('speech_quote')) and norm(j['speech_quote']) in norm(c['passage'])
     j['source_quote_ok'] = bool(j.get('source_quote')) and norm(j['source_quote']) in srcs
     return {**c, 'claude': j}

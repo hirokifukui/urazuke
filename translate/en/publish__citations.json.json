@@ -1344,6 +1344,70 @@
    "src_commit": "941749d+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-21"
+  },
+  "d7ec889c544455c754cd48e70d5ff0a04b45390721608b5ab070efd5041f2d8e": {
+   "ja": "R029（GPT：T3、T4／Gemini：T3）。両者に共通する型だけを表示",
+   "en": "R029 (GPT: T3, T4 / Gemini: T3). Only the types common to both are shown",
+   "src": "publish/citations.json",
+   "src_commit": "4a6eb8c+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "78185661e74ee7f7d244b4b3886fb03cba9c975675e77b069409b135ed2d5f10": {
+   "ja": "回によって型が分かれた（限定が落ちる／同じ）。どちらも Claude が型を付け GPT が盲検で支持",
+   "en": "The type differed between runs (the qualification is dropped / the same). In both cases, Claude assigned the type and GPT supported it in a blind check.",
+   "src": "publish/citations.json",
+   "src_commit": "4a6eb8c+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "70f6bd742af79625dfd7e6d704ae11bfde8cfd0795a1320ce6f83c65c96dc5ba": {
+   "ja": "R029（GPT：T2、T3／Gemini：T2）。両者に共通する型だけを表示",
+   "en": "R029 (GPT: T2, T3 / Gemini: T2). Only the types common to both are shown",
+   "src": "publish/citations.json",
+   "src_commit": "4a6eb8c+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "3001e71b31375051b329453ccfe21e0c41d4c9c503f3b605cec5b4951521cb5b": {
+   "ja": "R031（GPT：T4／Gemini：T3、T4）。両者に共通する型だけを表示",
+   "en": "R031 (GPT: T4 / Gemini: T3, T4). Only the types common to both are shown",
+   "src": "publish/citations.json",
+   "src_commit": "4a6eb8c+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "68765eb826f8c28777e2f1e54ec81ea0ef10cf2b9fc5fabac7f33d532c21b238": {
+   "ja": "答弁の数字・言い方は元の資料と同じ。",
+   "en": "The figures and wording in the answer are the same as in the source material.",
+   "src": "publish/citations.json",
+   "src_commit": "4a6eb8c+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "493de986177d226d924cad41204e9fc31c1d31b50ad3cddb3749cbbb7fdb9427": {
+   "ja": "国会答弁の照合（Claude が型を付け、GPT が盲検で支持。2026-11-21 に、答弁が引いた元の資料を渡していなかった誤りを直して判定し直した）",
+   "en": "Cross-check of Diet answers (Claude assigned the types and GPT supported them in a blind review. On 2026-11-21, the error of not having provided the source material cited in the answers was corrected and the judgments were made again)",
+   "src": "publish/citations.json",
+   "src_commit": "4a6eb8c+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "da6fb867b803be04341465fd09dac7a5d71880996d4cd120b9c5306ece339283": {
+   "ja": "R031（GPT：T3、T4／Gemini：T4）。両者に共通する型だけを表示",
+   "en": "R031 (GPT: T3, T4 / Gemini: T4). Only the types common to both are shown",
+   "src": "publish/citations.json",
+   "src_commit": "4a6eb8c+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
+  },
+  "97e5eb1d2516eaa08197cd1034888feda079ce6d1e2729e04408e30e2b30feac": {
+   "ja": "R031（GPT：T4、判定不能／Gemini：T1、T3、T4）。両者に共通する型だけを表示",
+   "en": "R031 (GPT: T4, Inconclusive / Gemini: T1, T3, T4). Only the types common to both are shown",
+   "src": "publish/citations.json",
+   "src_commit": "4a6eb8c+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
   }
  }
 }

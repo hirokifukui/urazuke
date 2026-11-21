@@ -6,7 +6,7 @@ import json, os, random, sys, concurrent.futures as cf
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import llm, classify_src
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 day = sys.argv[1]; D = os.path.join(ROOT, 'results/kokkai', day)
-TARGET = {'限定が落ちる', '範囲のずれ', '数字の不一致'}
+TARGET = {'限定が落ちる', '範囲のずれ', '数字の不一致', '食い違いなし'}
 def prompt(c, claims):
     cl = '\n'.join(f'主張{k}：{t}' for k, t in claims)
     return f"""以下は国会での発言（政府側の答弁、答弁書、または議員の質問。以下「答弁」）の一部と、ある公的資料についての記録・原文の抜粋です。続く二つの主張それぞれについて、答弁と資料の抜粋に書いてあることだけから、
@@ -24,11 +24,13 @@ JSON だけを出力：{{"判定": {{"A": "...", "B": "..."}}, "理由": {{"A": 
 """
 def run(c):
     j = c['claude']; rid = '・'.join(j.get('record_ids') or []) or (c.get('source') or {}).get('name', '')
-    claim = f"答弁の「{j['speech_quote']}」は、資料（{rid}）の「{j['source_quote']}」と比べて「{j['type']}」に当たる：{j.get('explanation', '')}"
+    claim = (f"答弁の「{j['speech_quote']}」は、資料（{rid}）の「{j['source_quote']}」と食い違わない（数字・限定・範囲とも資料に沿っている）。" if j['type'] == '食い違いなし'
+             else f"答弁の「{j['speech_quote']}」は、資料（{rid}）の「{j['source_quote']}」と比べて「{j['type']}」に当たる：{j.get('explanation', '')}")
     # 対の主張は型ごとに、Claude の主張と両立しない形にする（2026-11-21：「食い違わない」だと数字が正しい場合に両方が支持された）
     null = {'限定が落ちる': f"答弁の「{j['speech_quote']}」は、資料（{rid}）にある限定や条件を保っており、資料より強い言い方をしていない。",
             '範囲のずれ': f"答弁の「{j['speech_quote']}」が当てはめる対象・範囲は、資料（{rid}）の数字や結論の対象・範囲と同じである。",
-            '数字の不一致': f"答弁の「{j['speech_quote']}」の数字は、資料（{rid}）の数字と合っている。"}[j['type']]
+            '数字の不一致': f"答弁の「{j['speech_quote']}」の数字は、資料（{rid}）の数字と合っている。",
+            '食い違いなし': f"答弁の「{j['speech_quote']}」は、資料（{rid}）と数字・限定・範囲のいずれかで食い違っている。"}[j['type']]
     order = [('claim', claim), ('null', null)]; random.Random(c['speechID']).shuffle(order)
     lab = {'A': order[0][0], 'B': order[1][0]}
     try:

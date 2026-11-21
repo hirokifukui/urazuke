@@ -424,6 +424,14 @@
    "src_commit": "941749d+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-21"
+  },
+  "f3727bba78ff1993cae3736c8b94f1d14229026e67a9bae626d21cfa7b5ba58f": {
+   "ja": "- 2026-11-21（r55）　引かれ方の「判定が分かれた」を見直した（運営者の指摘）。(1) 報道・公的文書の引用で、二つの判定者の型の組が完全には一致しないが共通する型がある5件（KP-C1-003、YK-C1-001、NK-K1-001〜003）は、共通する型を表示するようにした（以前は組が一致しないと一律に「判定が分かれた」にしていた。checks/citations/make_show.py の common_types）。共通する型がない、または判定不能のものは従来どおり。(2) 国会の NK-K1 の2件は、答弁が引いた元の資料（法務省矯正局 平成28年1月の概数調査。60歳以上・約14％・約1,300人）を Claude に渡していなかった誤りで「判定が分かれた」になっていた。元の資料を渡して判定し直し、「同じ」になった（kokkai/classify_src.py が引かれ方の元の資料も渡す）。(3) 判定し直しの回で、SH-C1 の2件（2015-05-20、2019-05-29）は前の回の「限定が落ちる」と違い「同じ」と判定されたため、どちらも選ばず「判定が分かれた」にした。同じ回の陰性対照は 20件中7件を GPT が誤って支持し、回ごとのぶれと合わせて、国会の判定はまだ安定していない。安定させる手立て（同じ候補を複数回判定して一致を求める、Gemini を三つ目の判定者に加える）を入れるまで、毎週の回からサイトへの自動の追加を止めた（kokkai/weekly.sh の export）。",
+   "en": "- 2026-11-21 (r55) Reviewed \"judgments split\" in how sources are cited (pointed out by the operator). (1) For citations in news reports and official documents, the 5 cases where the two judges' sets of types do not match completely but share a common type (KP-C1-003, YK-C1-001, NK-K1-001 to 003) now show the common type (previously, any set that did not match was uniformly marked \"judgments split\"; `common_types` in checks/citations/make_show.py). Cases with no common type, or that are inconclusive, are handled as before. (2) The 2 Diet cases in NK-K1 had become \"judgments split\" because of an error: the original material cited in the answer (the approximate-count survey of January 2016 by the Correction Bureau, Ministry of Justice; aged 60 and over, about 14%, about 1,300 people) had not been given to Claude. The original material was provided and the cases were judged again, and they became \"same\" (kokkai/classify_src.py now also passes the original material for how sources are cited). (3) In the re-judging run, the 2 SH-C1 cases (2015-05-20 and 2019-05-29) were judged \"same\", unlike \"qualification dropped\" in the previous run, so neither was chosen and they were set to \"judgments split\". In the same run, GPT wrongly supported 7 of the 20 negative controls; together with the variation between runs, the Diet judgments are not yet stable. Until measures to stabilise them are introduced (judging the same candidate several times and requiring agreement, adding Gemini as a third judge), automatic additions to the site from the weekly runs have been stopped (the export in kokkai/weekly.sh).",
+   "src": "METHODS.md",
+   "src_commit": "4a6eb8c+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
   }
  }
 }
