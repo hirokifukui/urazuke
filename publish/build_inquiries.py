@@ -27,6 +27,8 @@ Q = {  # 発見ごとの、答えが一つに決まる問い
  'MK-I1':'平成26年度の教育職員の懲戒処分等の総計は、平成26年度版 2-1 の 9,677 と、平成27年度版 2-1（令和7年12月22日更新）の参考行の 8,445 のどちらが正しいですか。もう一方を訂正する予定はありますか。',
  'SH-B1':'「保護観察終了時に無職である者」の基準値（平成28年）は、令和4年版までの 6,866 人と令和6・7年版の 6,864 人のどちらが正しいですか。変更は、もとの値の訂正ですか、定義・集計範囲の変更ですか。',
  'SH-A1':'2025年12月26日に公表した正誤表の訂正を、各版の全体版 PDF に反映する予定はありますか。あるならいつですか。',
+ 'SD-K1':'平成28年3月23日の参議院厚生労働委員会での政府参考人の答弁は、第11次報告の虐待死について「件数は六十九、うち心中によるものが三十三、心中以外のものが三十六」と述べました。第11次報告では、69・33・36 は死亡した子どもの人数で、事例の数は 63例・27例・36例です。また第11次報告の対象は平成25年4月から26年3月の年度です。答弁の「件数」は、報告書の人数を指していますか（はい／いいえ）。',
+ 'SD-K2':'令和4年5月19日の参議院内閣委員会での政府参考人の答弁は、第17次報告の心中以外の事例について、死亡時点の年齢が0歳から3歳未満の者を「四十九人中三十四人」（69.4％）と述べました。第17次報告の本文では、心中以外の虐待死は57人で、3歳未満は34人（59.7％）です。答弁の母数 49人は、報告書のどの集計に当たりますか。',
  'GY-Q1':'令和4年度の確定値で、速報値から 4,327件減っています。確定の段階で、一部の自治体の計上方法（相談対応件数の数え方）を変えましたか。変えた場合、その自治体と内容を教えてください。',
  # r08 BEGIN
  'JH-A1':'令和8年版 参考資料2-15表 令和7年の小学生・中学生・高校生の値（文字列）を数値に直す予定はありますか。',
@@ -106,12 +108,15 @@ os.makedirs('publish/inquiries', exist_ok=True)
 for old in glob.glob('publish/inquiries/*.md'): os.remove(old)   # 古い草案を残さない
 miss = [f['id'] for f in F if f['id'] not in Q]
 assert not miss, f'問いのない記録: {miss}'
-by = collections.defaultdict(list)
-for f in F: by[bureau(f['照会先'])].append(f)
-for dest, fs in by.items():
-    fn = 'publish/inquiries/' + fname(dest) + '.md'
+PENDING = {l.split('\t')[0] for l in open('publish/inquiry_pending.tsv', encoding='utf-8') if l.strip() and not l.startswith('id')} if os.path.exists('publish/inquiry_pending.tsv') else set()
+by = collections.defaultdict(list); add_by = collections.defaultdict(list)
+for f in F: (add_by if f['id'] in PENDING else by)[bureau(f['照会先'])].append(f)
+JOBS = [(d, fs, 'publish/inquiries/' + fname(d) + '.md', SENT) for d, fs in by.items()] + \
+       [(d, fs, 'publish/letters/追加の照会_' + fname(d) + '.md', '（送付時に記入）') for d, fs in add_by.items()]   # 追加の照会は送付まで公開しない（letters/ は公開から除く）
+os.makedirs('publish/letters', exist_ok=True)
+for dest, fs, fn, SENT in JOBS:
     with open(fn, 'w') as w:
-        w.write(f'# 照会　{dest} 御中\n\n')
+        w.write(f'# 照会　{dest} 御中\n\n' if 'letters/' not in fn else f'# 照会（追加）　{dest} 御中\n\n')
         w.write('URAZUKE（urazuke.org）は、日本の犯罪・司法・精神医療・福祉に関する公開データを、大規模言語モデル（LLM）がコードで自動的に検証し、記録として公開しています。この照会文は、その記録から作成しています。貴部署が公表している資料について、次の点をお尋ねします。\n\n')
         w.write('- 各項目の根拠（対象の資料・表・値）と、確かめ方（計算に使ったスクリプト）を添えます。URAZUKE の計算に誤りがあれば、ご指摘ください。\n')
         w.write('- 照会日から30日を過ぎてもご回答がない場合は、記録に「30日までに回答なし」と記します。その後にご回答をいただいた場合は、その時点で追記します。ご回答の義務はありません。\n')

@@ -158,3 +158,6 @@ ST-D1	令和6年 注3	stalker/npa/R6_STDVRP_CA_kouhoushiryou.pdf	令和６年４
 ST-D1	令和7年 p7	stalker/npa/R7_STDVRPCA_kouhou.pdf	98,289|施行後最多	page
 SH-A2	正誤表（38頁）	saihan/R05/seigo_*.pdf	38 ページ|前年：75	page
 SH-A2	全体版（38頁 ※3）	saihan/R05/zentai_*.pdf	就労支援スタッフ|前年：76	page
+SD-K1	第11次報告 本文（事例の数と人数。同じ段落に「心中による虐待死事例…27 例（33 人）」）	kokkai_src/shibo/11/*.pdf	63|69|27|33	page
+SD-K2	第17次報告 本文（心中以外 56例・57人）	kokkai_src/shibo/17/*.pdf	56|57	page
+SD-K2	第17次報告 本文（３歳未満 34人・59.7％）	kokkai_src/shibo/17/*.pdf	３歳未満|59.7	page

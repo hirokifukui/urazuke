@@ -551,7 +551,7 @@ RECS = (f'<p class="muted">重点領域の記録 {len(INSCOPE)} 件（ほかに�
         + ''.join(f'<tr class="rsep"><td colspan="5">{ST_JA[k]} {len(g)} 件</td></tr>' + ''.join(_rr(f) for f in g) for k in ST_PEND for g in [[f for f in _pen if STATE(f) == k]] if g) + '</table>')
 TIERS = ''
 # 確かめたことの説明（何と何を照合したか）。数は verified.json から。説明つきの食い違いは、件数が想定と同じときだけ説明を出す
-STAGE_OF = lambda f: {'未照会': 0, '照会中': 1, '照会中・資料の改訂あり': 1, '回答あり': 2, '期限までに回答なし': 2, '期限までに回答なし・資料の改訂あり': 2}.get(f['照会'], 1)
+STAGE_OF = lambda f: {'未照会': 0, '未照会（追加の照会を送る前）': 0, '照会中': 1, '照会中・資料の改訂あり': 1, '回答あり': 2, '期限までに回答なし': 2, '期限までに回答なし・資料の改訂あり': 2}.get(f['照会'], 1)
 def revblock(f):
     """資料の差し替え（publish/revisions.json）。判定はせず、検出日・資料・引用した箇所の前後・改訂前の写しを並べる（2026-11-20）。"""
     R_ = f.get('改訂') or []
@@ -731,7 +731,7 @@ for f in F:
 <dt>撤回の条件</dt><dd>{e(f['撤回の条件'])}</dd>
 <dt>照会先</dt><dd>{e(f['照会先'])}　<a href="../inquiries.html#{qslug(_fname(f['照会先']))}">照会文</a></dd><dt>照会の状態</dt><dd>{e(f['照会'])}</dd></dl></div>
 {CV.block(f['id'], 'ja')}
-{revblock(f)}<h2>回答</h2><p class="muted">照会中です（照会日 {SENT['date']}、回答の期限の目安 {SENT['deadline']}）。回答があれば、手を加えずに全文をここに載せ、論評は付けません。回答が記録の誤りを示した場合は、記録を訂正または撤回します。</p>
+{revblock(f)}<h2>回答</h2><p class="muted">{'まだ照会していません（公開の日の照会の後に記録になったため、追加の照会を送ります）。' if f['照会'].startswith('未照会') else f'照会中です（照会日 {SENT[chr(100)+chr(97)+chr(116)+chr(101)]}、回答の期限の目安 {SENT[chr(100)+chr(101)+chr(97)+chr(100)+chr(108)+chr(105)+chr(110)+chr(101)]}）。'}回答があれば、手を加えずに全文をここに載せ、論評は付けません。回答が記録の誤りを示した場合は、記録を訂正または撤回します。</p>
 {sens(f)}<h2>経過</h2><ul>{hist(f)[0]}</ul>""")
 # ---- 統計
 def _row(s):
@@ -752,11 +752,15 @@ for fn in sorted(glob.glob(os.path.join(R, 'publish/inquiries/*.md'))):
     iq += f'<div class="card prose" id="{qslug(os.path.basename(fn)[:-3])}">{md(open(fn).read())}</div>'
 from inquiry_dest import bureau as _bureau
 _iqtxt = ''.join(open(x).read() for x in glob.glob(os.path.join(R, 'publish/inquiries/*.md')))
+_iqtxt += ''.join(open(_p, encoding='utf-8').read() for _p in glob.glob(os.path.join(R, 'publish/letters/追加の照会_*.md')))   # 送付前の追加の照会（公開しない）も照合する
 _stale = [f['id'] for f in F if f['要旨'] not in _iqtxt]
 assert not _stale, f'照会文の草案が記録の要旨と合わない（publish/build_inquiries.py を回す）: {_stale}'
 by = {}
-for f in F: by.setdefault(_bureau(f['照会先']), []).append(f['id'])
+for f in F:
+    if not f['照会'].startswith('未照会'): by.setdefault(_bureau(f['照会先']), []).append(f['id'])
+_pend = [f['id'] for f in F if f['照会'].startswith('未照会')]
 st = ''.join(f'<tr><td>{e(k)}</td><td>{len(v)}</td><td>照会中</td><td>{SENT['deadline']}</td></tr>' for k, v in by.items())
+if _pend: st += f'<tr><td>追加の照会（送付前）</td><td>{len(_pend)}</td><td>未照会</td><td>—</td></tr>'
 page('inquiries.html', '照会', f"""<h1>照会</h1><p class="muted">照会と同時に「照会中」として公開し、回答は全文を載せます（担当職員の氏名・個人の連絡先などは省きます）。照会から30日を目安に、回答の有無を記録に記します。照会の後に記録の根拠の資料が取得元で差し替えられ、引用した箇所が変わった場合は、照会の状態に「資料の改訂あり」と添え、前後の箇所と差し替え前の写しを記録のページに載せます（差し替えの理由は判断しません）。</p>
 <table><tr><th>照会先</th><th>項目</th><th>状態</th><th>期限</th></tr>{st}</table><h2>照会文（{SENT['date']} 送付）</h2>{iq}""")
 # ---- 方法・進め方
@@ -1010,7 +1014,7 @@ for f in F:
 <dt>Withdrawal condition</dt><dd>{inline(ftr(f, '撤回の条件'))}</dd>
 <dt>Addressee of inquiry</dt><dd>{inline(ftr(f, '照会先'))}　<a href="../../inquiries.html#{qslug(_fname(f['照会先']))}">inquiry letter (Japanese only)</a></dd><dt>Inquiry status</dt><dd>{inline(ftr(f, '照会'))}</dd></dl></div>
 {CV.block(f['id'], 'en', lambda x, _i=f['id']: T(x, CV.SRC, 'cit-' + _i))}
-<h2>Response</h2><p class="muted">Inquiry pending (sent {SENT['date']}; response expected by {SENT['deadline']}). Any response will be published here in full, unedited and without comment. If a response shows the record to be wrong, the record will be corrected or withdrawn.</p>
+<h2>Response</h2><p class="muted">{'No inquiry sent yet (this record was added after the inquiries of the publication day; a further inquiry will be sent).' if f['照会'].startswith('未照会') else 'Inquiry pending (sent ' + SENT['date'] + '; response expected by ' + SENT['deadline'] + ').'} Any response will be published here in full, unedited and without comment. If a response shows the record to be wrong, the record will be corrected or withdrawn.</p>
 {sens(f, True)}<h2>History</h2><ul>{hist(f, True)[0]}</ul>""")
 # 統計
 def _row_en(s):
