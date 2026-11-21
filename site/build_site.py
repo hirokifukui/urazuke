@@ -731,7 +731,7 @@ for f in F:
 <dt>撤回の条件</dt><dd>{e(f['撤回の条件'])}</dd>
 <dt>照会先</dt><dd>{e(f['照会先'])}　<a href="../inquiries.html#{qslug(_fname(f['照会先']))}">照会文</a></dd><dt>照会の状態</dt><dd>{e(f['照会'])}</dd></dl></div>
 {CV.block(f['id'], 'ja')}
-{revblock(f)}<h2>回答</h2><p class="muted">{'まだ照会していません（公開の日の照会の後に記録になったため、追加の照会を送ります）。' if f['照会'].startswith('未照会') else f'照会中です（照会日 {SENT[chr(100)+chr(97)+chr(116)+chr(101)]}、回答の期限の目安 {SENT[chr(100)+chr(101)+chr(97)+chr(100)+chr(108)+chr(105)+chr(110)+chr(101)]}）。'}回答があれば、手を加えずに全文をここに載せ、論評は付けません。回答が記録の誤りを示した場合は、記録を訂正または撤回します。</p>
+{revblock(f)}<h2>回答</h2><p class="muted">{'まだ照会していません（公開の日の照会の後に記録になったため、追加の照会を送ります）。' if f['照会'].startswith('未照会') else '照会中です（照会日 ' + f.get('照会日', '') + '、回答の期限の目安 ' + f.get('期限', '') + '）。'}回答があれば、手を加えずに全文をここに載せ、論評は付けません。回答が記録の誤りを示した場合は、記録を訂正または撤回します。</p>
 {sens(f)}<h2>経過</h2><ul>{hist(f)[0]}</ul>""")
 # ---- 統計
 def _row(s):
@@ -757,12 +757,12 @@ _stale = [f['id'] for f in F if f['要旨'] not in _iqtxt]
 assert not _stale, f'照会文の草案が記録の要旨と合わない（publish/build_inquiries.py を回す）: {_stale}'
 by = {}
 for f in F:
-    if not f['照会'].startswith('未照会'): by.setdefault(_bureau(f['照会先']), []).append(f['id'])
+    if not f['照会'].startswith('未照会'): by.setdefault((_bureau(f['照会先']) + ('（追加の照会 ' + f['照会日'] + '）' if f.get('照会日') and f['照会日'] != SENT['date'] else '')), []).append(f)
 _pend = [f['id'] for f in F if f['照会'].startswith('未照会')]
-st = ''.join(f'<tr><td>{e(k)}</td><td>{len(v)}</td><td>照会中</td><td>{SENT['deadline']}</td></tr>' for k, v in by.items())
+st = ''.join(f'<tr><td>{e(k)}</td><td>{len(v)}</td><td>照会中</td><td>{v[0]["期限"]}</td></tr>' for k, v in by.items())
 if _pend: st += f'<tr><td>追加の照会（送付前）</td><td>{len(_pend)}</td><td>未照会</td><td>—</td></tr>'
 page('inquiries.html', '照会', f"""<h1>照会</h1><p class="muted">照会と同時に「照会中」として公開し、回答は全文を載せます（担当職員の氏名・個人の連絡先などは省きます）。照会から30日を目安に、回答の有無を記録に記します。照会の後に記録の根拠の資料が取得元で差し替えられ、引用した箇所が変わった場合は、照会の状態に「資料の改訂あり」と添え、前後の箇所と差し替え前の写しを記録のページに載せます（差し替えの理由は判断しません）。</p>
-<table><tr><th>照会先</th><th>項目</th><th>状態</th><th>期限</th></tr>{st}</table><h2>照会文（{SENT['date']} 送付）</h2>{iq}""")
+<table><tr><th>照会先</th><th>項目</th><th>状態</th><th>期限</th></tr>{st}</table><h2>照会文（{SENT['date']} 送付。追加の照会はその日付）</h2>{iq}""")
 # ---- 方法・進め方
 import sys as _sys; _sys.path.insert(0, os.path.join(R, 'translate')); import tr as _tr
 GLO = _tr.load_glossary()
@@ -1014,7 +1014,7 @@ for f in F:
 <dt>Withdrawal condition</dt><dd>{inline(ftr(f, '撤回の条件'))}</dd>
 <dt>Addressee of inquiry</dt><dd>{inline(ftr(f, '照会先'))}　<a href="../../inquiries.html#{qslug(_fname(f['照会先']))}">inquiry letter (Japanese only)</a></dd><dt>Inquiry status</dt><dd>{inline(ftr(f, '照会'))}</dd></dl></div>
 {CV.block(f['id'], 'en', lambda x, _i=f['id']: T(x, CV.SRC, 'cit-' + _i))}
-<h2>Response</h2><p class="muted">{'No inquiry sent yet (this record was added after the inquiries of the publication day; a further inquiry will be sent).' if f['照会'].startswith('未照会') else 'Inquiry pending (sent ' + SENT['date'] + '; response expected by ' + SENT['deadline'] + ').'} Any response will be published here in full, unedited and without comment. If a response shows the record to be wrong, the record will be corrected or withdrawn.</p>
+<h2>Response</h2><p class="muted">{'No inquiry sent yet (this record was added after the inquiries of the publication day; a further inquiry will be sent).' if f['照会'].startswith('未照会') else 'Inquiry pending (sent ' + f.get('照会日', '') + '; response expected by ' + f.get('期限', '') + ').'} Any response will be published here in full, unedited and without comment. If a response shows the record to be wrong, the record will be corrected or withdrawn.</p>
 {sens(f, True)}<h2>History</h2><ul>{hist(f, True)[0]}</ul>""")
 # 統計
 def _row_en(s):
@@ -1029,7 +1029,7 @@ for s, n, o, path, p in STATS:
 <h2>Records</h2><ul>{recs or f'<li class="muted">{inline(T(CHK[s], SRC_S, "chk")) if CHK.get(s) else "Under verification; no published records"}</li>'}</ul>{vtab_en(s)}
 <h2>Working notes</h2><div class="box"><p><b>These are working notes that have not been through the refutation check. Please do not cite them as records.</b> They include candidates, unconfirmed discrepancies and withdrawn inferences, so they are kept in the public repository, not on the site (Japanese only): <a href="https://github.com/hirokifukui/urazuke/blob/main/{path}"><code>{path}</code></a>. Checks that agreed are listed in the table of checks above.</p></div>""")
 # 照会（照会文は日本語だけ）
-st_en = ''.join(f'<tr><td>{inline(T(k, SRC_F, "inq"))}</td><td>{len(v)}</td><td>Inquiry pending</td><td>{SENT['deadline']}</td></tr>' for k, v in by.items())
+st_en = ''.join(f'<tr><td>{inline(T(k, SRC_F, "inq"))}</td><td>{len(v)}</td><td>Inquiry pending</td><td>{v[0]["期限"]}</td></tr>' for k, v in by.items())
 page_en('inquiries.html', 'Inquiries', f"""<h1>Inquiries</h1><p class="muted">Each inquiry is published as “inquiry pending” when it is sent, and responses are published in full, omitting only staff names, personal contact details and details that could identify third parties. Whether a reply was received is noted in the record about 30 days after the inquiry.</p>
 <table><tr><th>Addressee</th><th>Items</th><th>Status</th><th>Deadline</th></tr>{st_en}</table><h2>Inquiry letters (sent {SENT['date']})</h2><p>The inquiry letters are addressed to Japanese government bodies and are written in Japanese only. See the <a href="../inquiries.html" lang="ja" hreflang="ja">Japanese page</a>.</p><p>If, after an inquiry, a source behind a record is replaced at its origin and the quoted passage changes, the inquiry status is marked “source revised”, and the record page shows the passage before and after and a pre-revision copy (Wayback Machine) where available. We do not judge the reason for the revision.</p>""")
 GLO_EN = f'<h2 id="glossary">Glossary of English terms</h2><p>The English version is a translation; the Japanese is authoritative. The following renderings are fixed and used on every English page. Words that attribute intent (cover-up, manipulation, falsification, concealment and the like) are not used in English either. Translations of the names of statistics and agencies are in <code>translate/glossary.tsv</code>.</p>{glo_table(True)}'

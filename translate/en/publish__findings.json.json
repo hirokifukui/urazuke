@@ -14680,6 +14680,14 @@
    "src_commit": "78c3a0c+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-21"
+  },
+  "2df66d5c0d705d0c876ccf61d4803f3aeaf14419704c1a40821e85697aead96f": {
+   "ja": "こども家庭庁 支援局（追加の照会 2026-11-21）",
+   "en": "Children and Families Agency, Support Bureau (additional inquiry 2026-11-21)",
+   "src": "publish/findings.json",
+   "src_commit": "fa37ed6+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-21"
   }
  }
 }

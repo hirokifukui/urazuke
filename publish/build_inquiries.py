@@ -110,14 +110,18 @@ miss = [f['id'] for f in F if f['id'] not in Q]
 assert not miss, f'問いのない記録: {miss}'
 PENDING = {l.split('\t')[0] for l in open('publish/inquiry_pending.tsv', encoding='utf-8') if l.strip() and not l.startswith('id')} if os.path.exists('publish/inquiry_pending.tsv') else set()
 by = collections.defaultdict(list); add_by = collections.defaultdict(list)
-for f in F: (add_by if f['id'] in PENDING else by)[bureau(f['照会先'])].append(f)
+import csv as _csv
+EXTRA = {r['id']: r for r in _csv.DictReader(open('publish/inquiry_extra.tsv', encoding='utf-8'), delimiter='\t')} if os.path.exists('publish/inquiry_extra.tsv') else {}
+ext_by = collections.defaultdict(list)
+for f in F: (add_by if f['id'] in PENDING else ext_by if f['id'] in EXTRA else by)[bureau(f['照会先'])].append(f)
 JOBS = [(d, fs, 'publish/inquiries/' + fname(d) + '.md', SENT) for d, fs in by.items()] + \
+       [(d, fs, 'publish/inquiries/追加の照会_' + fname(d) + '.md', EXTRA[fs[0]['id']]['照会日']) for d, fs in ext_by.items()] + \
        [(d, fs, 'publish/letters/追加の照会_' + fname(d) + '.md', '（送付時に記入）') for d, fs in add_by.items()]   # 追加の照会は送付まで公開しない（letters/ は公開から除く）
 os.makedirs('publish/letters', exist_ok=True)
 for dest, fs, fn, SENT in JOBS:
     with open(fn, 'w') as w:
-        w.write(f'# 照会　{dest} 御中\n\n' if 'letters/' not in fn else f'# 照会（追加）　{dest} 御中\n\n')
-        w.write('URAZUKE（urazuke.org）は、日本の犯罪・司法・精神医療・福祉に関する公開データを、大規模言語モデル（LLM）がコードで自動的に検証し、記録として公開しています。この照会文は、その記録から作成しています。貴部署が公表している資料について、次の点をお尋ねします。\n\n')
+        w.write(f'# 照会（追加）　{dest} 御中\n\n' if '追加の照会_' in fn else f'# 照会　{dest} 御中\n\n')
+        w.write('URAZUKE（urazuke.org）は、日本の犯罪・司法・精神医療・福祉に関する公開データを、大規模言語モデル（LLM）がコードで自動的に検証し、記録として公開しています。この照会文は、その記録から作成しています。貴部署が公表している資料について、次の点をお尋ねします。' + ('2026年11月20日にお送りした照会に続く、追加の照会です（11月20日の後に記録になった項目です）。' if '追加の照会_' in fn else '') + '\n\n')
         w.write('- 各項目の根拠（対象の資料・表・値）と、確かめ方（計算に使ったスクリプト）を添えます。URAZUKE の計算に誤りがあれば、ご指摘ください。\n')
         w.write('- 照会日から30日を過ぎてもご回答がない場合は、記録に「30日までに回答なし」と記します。その後にご回答をいただいた場合は、その時点で追記します。ご回答の義務はありません。\n')
         w.write('- この照会の文面と記録は、照会と同時に「照会中」として公開します。いただいた回答は、ご担当の方のお名前・個人の連絡先と、第三者を特定しうる記述だけを省いて（省いた箇所は明示します）、ほかは手を加えずに全文を公開し、「訂正する／検討中／異論あり／30日までに回答なし」のいずれかに分類して記録します。\n\n')

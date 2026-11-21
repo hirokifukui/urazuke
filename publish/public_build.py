@@ -8,6 +8,10 @@ SRC = os.path.join(R, 'site', 'out'); DST = SRC if INPLACE else os.path.join(R, 
 if not INPLACE:
     if os.path.exists(DST): shutil.rmtree(DST)
     shutil.copytree(SRC, DST, ignore=shutil.ignore_patterns('.vercel'))
+import unicodedata
+for dp, _, fs in os.walk(DST):   # Dropbox の競合コピーを配備しない（2026-11-21 に 79件が site/out に紛れた）
+    for f in fs:
+        if '競合コピー' in unicodedata.normalize('NFC', f) or 'conflicted copy' in f: os.remove(os.path.join(dp, f))
 n = 0
 for dp, _, fs in os.walk(DST):
     for f in fs:

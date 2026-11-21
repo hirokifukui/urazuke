@@ -208,9 +208,11 @@ _HOLD = {r['id'] for r in _csv.DictReader(open(_H, encoding='utf-8'), delimiter=
 F = [f for f in F if f['id'] not in _HOLD]
 os.makedirs('publish/cards', exist_ok=True)
 _PEND = {l.split('\t')[0] for l in open('publish/inquiry_pending.tsv', encoding='utf-8') if l.strip() and not l.startswith('id')} if os.path.exists('publish/inquiry_pending.tsv') else set()
+_EXTRA = {r['id']: (r['照会日'], r['期限']) for r in csv.DictReader(open('publish/inquiry_extra.tsv', encoding='utf-8'), delimiter='\t')} if os.path.exists('publish/inquiry_extra.tsv') else {}
+_SENT0 = json.load(open('publish/inquiry_sent.json')) if os.path.exists('publish/inquiry_sent.json') else None
 keys = ['id','統計','区分','格付け','確実さ','確認','照会先','要旨','撤回の条件','再現','根拠','業務との関係']
 for f in F:
-    f['照会'] = ('未照会（追加の照会を送る前）' if f['id'] in _PEND else '照会中') if os.path.exists('publish/inquiry_sent.json') else '未照会'; f['原文の引用（頁番号つき）'] = QS.get(f['id'], '準備中（頁番号つきの抽出を機械で行う）'); f['原文の引用'] = QL.get(f['id'], [])
+    f['照会'] = ('未照会（追加の照会を送る前）' if f['id'] in _PEND else '照会中') if os.path.exists('publish/inquiry_sent.json') else '未照会'; f['照会日'], f['期限'] = (_EXTRA[f['id']] if f['id'] in _EXTRA else ((_SENT0['date'], _SENT0['deadline']) if _SENT0 else ('', ''))); f['原文の引用（頁番号つき）'] = QS.get(f['id'], '準備中（頁番号つきの抽出を機械で行う）'); f['原文の引用'] = QL.get(f['id'], [])
 # 記録の根拠の資料の差し替え（crawl/revisions.py が publish/revisions.json に足す。2026-11-20）。
 # 照会の後に、引用した箇所が変わった差し替えがあれば、照会の状態に「資料の改訂あり」を添える（判定はしない。事実だけ）。
 import json as _json, datetime as _dtm
