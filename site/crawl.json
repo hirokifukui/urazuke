@@ -111,9 +111,23 @@
    "sources": 8479,
    "changed": 7,
    "new_records": null
+  },
+  {
+   "date": "2026-11-22",
+   "kind": "週1回の巡回",
+   "sources": 8557,
+   "changed": 0,
+   "new_records": null
+  },
+  {
+   "date": "2026-11-22",
+   "kind": "週1回の巡回",
+   "sources": 8557,
+   "changed": 0,
+   "new_records": null
   }
  ],
  "interval_days": 7,
- "next": "2026-11-22",
+ "next": "2026-11-29",
  "active": true
 }
