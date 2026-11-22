@@ -2648,14 +2648,14 @@
  {
   "id": "NK-K2",
   "label": "答弁書 衆質200第64号「一について」",
-  "glob": "kokkai_src/shuisho/shu/200/064_a.txt",
+  "glob": "kokkai_src/shuisho/shu/200/b200064.htm",
   "tokens": [
    "九百四名",
    "百九名"
   ],
   "hits": [
    {
-    "file": "kokkai_src/shuisho/shu/200/064_a.txt",
+    "file": "kokkai_src/shuisho/shu/200/b200064.htm",
     "where": "ページ本文",
     "text": "また、平成三十年に、札幌刑務所、宮城刑務所、府中刑務所、名古屋刑務所、大阪刑務所、広島刑務所、高松刑務所及び福岡刑務所に入所した受刑者のうち、これらの刑事施設に入所した時点での年齢が六十歳以上のもの九百四名を対象として検査を実施した結果、認知症傾向がある者は百九名であった。"
    }

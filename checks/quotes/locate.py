@@ -4,6 +4,9 @@
 使い方: ~/.venvs/urazuke/bin/python checks/quotes/locate.py"""
 import csv, glob, json, os, re, subprocess, io
 import openpyxl, xlrd
+def _dec(b):   # HTML・テキストの文字コード：UTF-8 で読めなければ Shift_JIS 系（衆議院の答弁書）
+    try: return b.decode('utf-8')
+    except UnicodeDecodeError: return b.decode('cp932', errors='ignore')
 B = 'data/raw'
 def norm(s): return re.sub(r'[,\s，]', '', str(s))
 def num(s):
@@ -41,7 +44,7 @@ def find(rid, label, g, toks, mode='page'):
                 k = next((j for j, l in enumerate(L0) if all(norm(t) in norm(l) for t in toks)), None)
                 if k is not None: hits.append({'file': rel, 'where': f'CSV {k+1}行', 'text': L0[k][:200]}); break
                 continue
-            pages = pdf_pages(p) if p.lower().endswith('.pdf') else [re.sub(r'<[^>]+>', ' ', open(p, errors='ignore').read())]
+            pages = pdf_pages(p) if p.lower().endswith('.pdf') else [re.sub(r'<[^>]+>', ' ', _dec(open(p, 'rb').read()))]
             for i, pg in enumerate(pages, 1):
                 if mode == 'line':
                     L = pg.splitlines(); k = next((j for j, l in enumerate(L) if all(norm(t) in norm(l) for t in toks)), None)
