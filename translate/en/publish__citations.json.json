@@ -2048,6 +2048,166 @@
    "src_commit": "d6bddb1+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-22"
+  },
+  "e0c84460c32d23c22c3620899953141d34dc63d6caf450e65005385c6e2b40e8": {
+   "ja": "法務総合研究所 研究部報告55「性犯罪に関する総合的研究」（平成28年）",
+   "en": "Research and Training Institute, Research Department Report 55, \"Comprehensive Study on Sexual Offences\" (2016)",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "4864aa80f906add9c2120c99b8523c8376df9006e359334bc2098ccf21398556": {
+   "ja": "現代ビジネス",
+   "en": "Gendai Business",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "691c2163875af74efa7015929dec0e65e46890d9223ee874a6ec4be2e9d3372a": {
+   "ja": "研究部報告55（001178522.pdf）4-5-10図の本文",
+   "en": "Research Department Report 55 (001178522.pdf), text accompanying Figure 4-5-10",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "cffef391889f2bef6e6ca3762483f72ee3db47e28a5000c41ebb66a86d6d4de7": {
+   "ja": "PDF 61頁（報告書の 146〜147頁）",
+   "en": "PDF page 61 (pages 146–147 of the report)",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "73c2dcffa4d3d17f7ba681e99bbdd6be456de2f67174739bad46c10ba67b7883": {
+   "ja": "研究部報告55（001178522.pdf）4-4-3図 再犯率（性犯罪者類型別）",
+   "en": "Research Department Report 55 (001178522.pdf), Figure 4-4-3, Reoffending rate (by sex offender type)",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "61772f8dffb5ff909219058f720648e2cbe0682c8d20618c900fcbafbf77e286": {
+   "ja": "PDF 37頁",
+   "en": "PDF page 37",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "45370cf1f4cfc73c32fe4d127bda7391c10192ebb05c2fa8fc968c0bf711a051": {
+   "ja": "小見出しで「再犯率84.6％」とし、本文では性犯罪前科2回以上の者を類型別に見た同じ類型の割合として書き、5年の性犯罪再犯 9.5％も書く。",
+   "en": "Uses \"reoffending rate 84.6%\" in a subheading; in the body text, describes the figure as the proportion of the same type when persons with two or more prior sexual offence convictions are examined by type, and also states the 5-year sexual reoffending rate of 9.5%.",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "6150972cb86edc68c78be2610177454d2b8727f88e2f3e6167d1e090ea5943e1": {
+   "ja": "R074（二つの判定者の過半の型が同じ：GPT T2／Gemini T2。組ごとに各5回の過半）",
+   "en": "R074 (the majority type of the two judges is the same: GPT T2 / Gemini T2; majority of 5 runs for each pair)",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "a7f1109589ffa1869786ef1938f1fe9958421188d55c2dbddc43cde14ceaeba4": {
+   "ja": "リディラバジャーナル",
+   "en": "Ridilover Journal",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "5a96e34b4e20714b23ef147923728e01852b3fb05526f7e24bce1a86f58cf890": {
+   "ja": "掲載時は「性犯罪前科が2回以上ある小児わいせつ型の人の再犯率」を 84.6％と書いた（判定はこの文）。",
+   "en": "At the time of publication, it stated the \"reoffending rate of persons of the child molestation type with two or more prior sexual offence convictions\" as 84.6% (the judgment is based on this sentence).",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "f246645a020888a44e79376dceb1735aa703c86ea4cc5bd94a9f2960d39d5c76": {
+   "ja": "内外タイムス（ニコニコニュース配信）",
+   "en": "Naigai Times (distributed via Niconico News)",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "fa3e54bd09cf964aaa2b5e1fdbeec1abce3d5ae9d1d109401c4f2aff4db72b61": {
+   "ja": "平成27年版犯罪白書によるとして、子どもに手を出した者の「再犯率」を 84.6％と書く。",
+   "en": "Citing the 2015 edition (Heisei 27) of the White Paper on Crime, states the \"reoffending rate\" of persons who targeted children as 84.6%.",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "76d0eb03762eb878ba57d6453414ce0f4275496de0973e7702da0ac7bad629d8": {
+   "ja": "R074（二つの判定者の過半の型が同じ：GPT T2、T4／Gemini T2、T4。組ごとに各5回の過半）",
+   "en": "R074 (the majority type of the two judges is the same: GPT T2, T4 / Gemini T2, T4; majority of 5 runs for each pair)",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "2d8ef4e1611972e47128752d5f7356aba70cb6ad64801f98c294b085348f7854": {
+   "ja": "小児性わいせつの「再犯率」を 84.6％と書く。",
+   "en": "States the \"reoffending rate\" for child sexual molestation as 84.6%.",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "aab6494b24c21aac3cf48a48712313be8219c8ae3209879bd753763752d2126a": {
+   "ja": "こども家庭庁 こども関連業務従事者の性犯罪歴等確認の仕組みに関する有識者会議（第2回）議事録",
+   "en": "Children and Families Agency, Expert Panel on the System for Checking Sexual Offence Records etc. of Persons Engaged in Child-Related Work (2nd meeting), minutes",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "614b2f575c643353128df7fb97fd37f794c01474fa06e017deaaf02f86ca8d5b": {
+   "ja": "84.6％を、13人のうち前科も同じ類型だった11人の割合で、再犯率ではないと説明する。",
+   "en": "Explains that 84.6% is the proportion of the 11 out of 13 persons whose prior convictions were also of the same type, and that it is not a reoffending rate.",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "9065c074833e34b1dc5e7edd7095d284435d77e66c33720d77cc6245b0fd64ef": {
+   "ja": "R074（二つの判定者の過半の型が同じ：GPT T0／Gemini T0。組ごとに各5回の過半）",
+   "en": "R074 (the majority type of the two judges is the same: GPT T0 / Gemini T0; majority of 5 runs for each pair)",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "572d7ab4d1a5f45932a142fcce6778dbc4195a57278a00e17b2987bf002edafc": {
+   "ja": "4-5-10図の 84.6％は、性犯罪前科2回以上の小児わいせつ型13人のうち、前科に同じ類型の性犯罪がある者の割合（さかのぼる割合）。同じ報告書の4-4-3図で、小児わいせつ型（136人）の裁判確定から5年経過時点の性犯罪再犯は 9.5％（刑法犯 6.6％、条例違反 2.9％）。",
+   "en": "The 84.6% in Figure 4-5-10 is the proportion, among 13 persons of the child molestation type with two or more prior sexual offence convictions, of those whose prior convictions include a sexual offence of the same type (a retrospective proportion). In Figure 4-4-3 of the same report, sexual reoffending for the child molestation type (136 persons) at 5 years after the judgment became final is 9.5% (Penal Code offences 6.6%, ordinance violations 2.9%).",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "5ff87522c0c93640dcc350ec328edd32735af88949e335e1da5323e865d5925e": {
+   "ja": "法務総合研究所が研究部報告55を公表",
+   "en": "The Research and Training Institute publishes Research Department Report 55",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "b85b541ab2a19887dc715568bb014d24be4caa41921720c6e2ad907eb8ee6b27": {
+   "ja": "こども家庭庁の有識者会議で、事務局が 84.6％は再犯率ではないと説明",
+   "en": "At the Children and Families Agency's expert panel, the secretariat explains that 84.6% is not a reoffending rate",
+   "src": "publish/citations.json",
+   "src_commit": "89d530d+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
   }
  }
 }

@@ -4,6 +4,7 @@ group	ja	en	note
 区分	誤り	Error	correct value shown by two or more independent sources
 区分	欠落	Gap	information present in one form is missing from another
 区分	説明のない改訂	Unexplained revision	value changed between editions without a note
+区分	引かれ方	How it is cited	the source is correct; the figure changes into another quantity, strength or scope when cited
 区分	設計上の問題	Design issue	about analysis design or the basis of a conclusion
 区分	照会事項	Open query	information needed for judgment is not published
 影響	影響 大	Impact: High	

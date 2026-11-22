@@ -64,7 +64,7 @@ h1{font-size:1.7rem;margin:2.2rem 0 1.2rem}h2{font-size:1.25rem;margin:2.6rem 0 
 .nums div{padding:1.2rem 1rem}.nums.lead b{font-size:2.5rem}.nums.big b{font-size:1.5rem}h2.sub{font-size:1rem;color:var(--sub);border:0;margin:2rem 0 .2rem}.nums b{display:block;font-family:"Hiragino Mincho ProN",serif;font-size:1.9rem;font-weight:500}.nums span{color:var(--sub);font-size:.82rem}
 table{border-collapse:collapse;width:100%;font-size:.88rem;margin:1rem 0;background:var(--paper)}td:first-child,#t td:last-child,#t th:last-child{white-space:nowrap}th,td{border-bottom:1px solid var(--line);padding:.55rem .6rem;text-align:left;vertical-align:top}th{color:var(--sub);font-weight:500;font-size:.8rem;background:#f4f5f3}
 .tag{display:inline-block;font-size:.75rem;padding:.05rem .55rem;border:1px solid currentColor;border-radius:2px;white-space:nowrap}
-.lv3{color:#7a2e1f;font-weight:600;white-space:nowrap}.lv2{color:#8a6d2f;font-weight:600;white-space:nowrap}.lv1{color:#7d858c;white-space:nowrap}.k-誤り{color:#6b3b2a}.k-不整合{color:#5b4a1f}.k-欠落{color:#3d5a3a}.k-説明のない改訂{color:#2f4f6f}.k-設計上の問題{color:#4b3f66}.k-照会事項{color:#555}
+.lv3{color:#7a2e1f;font-weight:600;white-space:nowrap}.lv2{color:#8a6d2f;font-weight:600;white-space:nowrap}.lv1{color:#7d858c;white-space:nowrap}.k-誤り{color:#6b3b2a}.k-不整合{color:#5b4a1f}.k-欠落{color:#3d5a3a}.k-説明のない改訂{color:#2f4f6f}.k-設計上の問題{color:#4b3f66}.k-照会事項{color:#555}.k-引かれ方{color:#6a4a2a}
 .card{background:var(--paper);border:1px solid var(--line);padding:1.6rem 1.8rem;margin:1.2rem 0}
 .card dl{display:grid;grid-template-columns:11em 1fr;gap:.55rem 1.2rem;margin:0}.card dt{color:var(--sub);font-size:.85rem}.card dd{margin:0}
 .head{font-family:"Hiragino Mincho ProN",serif;font-size:1.35rem;margin:.5rem 0 0}.qt{margin:0 0 .6rem;font-size:.85rem;line-height:1.6;word-break:break-all}.concl{font-family:"Hiragino Mincho ProN","Noto Serif JP",serif;font-size:1.2rem;line-height:1.9;border-left:3px solid var(--acc);padding:.2rem 0 .2rem 1.2rem;margin:1.5rem 0}
@@ -141,7 +141,7 @@ p.foot{margin-top:2.4rem;font-size:.88rem;color:var(--sub)}
 # ---- r38：記録の3つの型（区分から機械的に決める）と、各ページの入口の数行・目次
 TYPE3 = [('A', '数字が合わない', 'Numbers that do not agree', '同じになるはずの数字が、表どうし・版どうしで合わない。転記のずれや、正誤表の反映漏れを含む。', 'Figures that should be the same differ between tables or editions, including transcription slips and corrections not carried into the files.', ('誤り', '不整合')),
          ('B', '版で変わる・載っていない', 'Changed between editions, or not published', '説明なしに過去の値が変わった、数え方が変わった、判断に必要な数字が載っていない。', 'Past values changed without explanation, the way of counting changed, or figures needed to judge are not published.', ('説明のない改訂', '欠落')),
-         ('C', '分析や書き方の論点', 'Questions of analysis or wording', '効果の書き方、群の比べ方、概要と本文の違いなど。数字の誤りではなく、読み方に関わる。', 'How effects are described, how groups are compared, differences between a summary and the report. Not numerical errors, but matters of interpretation.', ('設計上の問題', '照会事項'))]
+         ('C', '分析や書き方の論点', 'Questions of analysis or wording', '効果の書き方、群の比べ方、概要と本文の違いなど。数字の誤りではなく、読み方に関わる。', 'How effects are described, how groups are compared, differences between a summary and the report. Not numerical errors, but matters of interpretation.', ('設計上の問題', '照会事項', '引かれ方'))]
 def type3(f):
     k = f['区分'].split('（')[0]
     return next(t for t in TYPE3 if k in t[5])

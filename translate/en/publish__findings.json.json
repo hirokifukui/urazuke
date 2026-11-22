@@ -14688,6 +14688,166 @@
    "src_commit": "fa37ed6+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-21"
+  },
+  "dabb4f4f1a8859ea1e2bfe1227e1b7efcb50bfc96a802b154f2995c5a6195f3b": {
+   "ja": "法務総合研究所 研究部報告55「性犯罪に関する総合的研究」",
+   "en": "Research and Training Institute, Research Department Report 55, \"Comprehensive Study on Sexual Offences\" (`性犯罪に関する総合的研究`)",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "0a14f0230ce2c106a7cb2eb55978934ca2e6825513e1a4361b5610898d692960": {
+   "ja": "「小児わいせつの再犯率 84.6％」：元は、前科2回以上の13人のうち前科も同じ類型だった者の割合（さかのぼる割合）。同じ報告書の5年の性犯罪再犯率は 9.5％",
+   "en": "\"Recidivism rate for child molestation: 84.6%\": originally, the proportion, among 13 persons with two or more prior convictions, of those whose prior convictions were also of the same type (a proportion looking back in time). The 5-year sexual reoffending rate in the same report is 9.5%.",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "e5f15ea28a52da13fd457cf81cffa11ecfd82631235cc657438423676d67175f": {
+   "ja": "元の数字の定義は確定（報告書の本文と図の注）",
+   "en": "The definition of the original figure is established (main text of the report and the note to the figure)",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "1f3b7e97e0dd26e366dc6627c6bb7b99f734cc4facbf2ae62d6b4e05c3c73e01": {
+   "ja": "4-5-10図の本文（同型性犯罪前科のある者の割合）",
+   "en": "Main text on Figure 4-5-10 (proportion of persons with prior sexual offence convictions of the same type)",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "cda6182ee4eea4ef3fb52fc615eaa779cc293bfa57e31f9f435be0af0c7b7751": {
+   "ja": "61頁",
+   "en": "p. 61",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "f501e9c27e40e6a48b62420eded5017e8489b7067d0423fb21f509502817e64a": {
+   "ja": "4-5-10図の題（性犯罪前科2回以上の者）",
+   "en": "Title of Figure 4-5-10 (persons with two or more prior sexual offence convictions)",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "84589eaa9e38421f94bcf22ee8ea16baed903a3cee2a4cad7b61c00a48525aee": {
+   "ja": "4-4-3図（再犯率、裁判確定から5年）",
+   "en": "Figure 4-4-3 (reoffending rate, 5 years after the judgment became final)",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "631dbdc6157ae4b5b382040959b04c45aa4d26bea3fc6e8208dd3b85ee5dc397": {
+   "ja": "37頁",
+   "en": "p. 37",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "5b23e9600cd31b797daea0989877491b29c0b2f8360a15dd373255980fe3e7a2": {
+   "ja": "研究部報告55の4-5-10図の 84.6％は、調査対象事件の性犯罪が小児わいせつ型の者のうち、それ以前に性犯罪前科が2回以上ある13人について、前科に同じ類型（小児わいせつ型）の性犯罪がある者の割合（11人）。調査対象事件から過去にさかのぼる割合で、その後の再犯を追った率ではない。同じ報告書で、小児わいせつ型（136人）の裁判確定から5年経過時点の再犯は、性犯罪再犯（刑法犯）6.6％、性犯罪再犯（条例違反）2.9％、その他再犯 6.6％（4-4-3図）。国会の質問主意書（2023年）と報道が 84.6％を「再犯率」として引く。こども家庭庁の有識者会議（2023年7月19日）で、事務局は 84.6％は再犯率ではないと説明した。資料の側に誤りはない。",
+   "en": "The 84.6% in Figure 4-5-10 of Research Department Report 55 is, among persons whose sexual offence in the surveyed case was of the child molestation type, the proportion of those (11 persons) who had a sexual offence of the same type (child molestation type) among their prior convictions, out of 13 persons who had two or more prior sexual offence convictions before that case. It is a proportion looking back in time from the surveyed case, not a rate that followed subsequent reoffending. In the same report, reoffending among the child molestation type (136 persons) at 5 years after the judgment became final was 6.6% for sexual reoffending (Penal Code offences), 2.9% for sexual reoffending (ordinance violations) and 6.6% for other reoffending (Figure 4-4-3). A written question in the Diet (2023) and news reports cite 84.6% as a \"recidivism rate\". At a Children and Families Agency expert meeting (19 July 2023), the secretariat explained that 84.6% is not a recidivism rate. There is no error on the side of the source material.",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "76fa452db78de86d41f0261ae02e1270966f16c482d0ea99a0a368be716b0aa4": {
+   "ja": "別系統で支持（R074：引用の型の判定。84.6％を再犯率として引いた5件を GPT・Gemini とも「量が置き換わる」（うち2件は「限定が落ちる」も）、こども家庭庁の会議での事務局の説明を「同じ」。組ごとに各5回の過半）",
+   "en": "Supported by an independent model (R074: classification of citation type. For the 5 instances citing 84.6% as a recidivism rate, both GPT and Gemini judged \"the quantity is replaced\" (for 2 of them, also \"a qualifier is dropped\"), and judged the secretariat's explanation at the Children and Families Agency meeting as \"same\". Majority of 5 runs each per set)",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "5692da981173a4966e1f1dfb13fcbdf30b821b53ce4a24ed1074d56e7c8816c1": {
+   "ja": "報告書の別の箇所に、84.6％を裁判確定後などの再犯率として示す記述が見つかった場合。",
+   "en": "If a passage is found elsewhere in the report that presents 84.6% as a reoffending rate after the judgment became final or similar.",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "395baace432af6b67d6887f35fc8aeb5aaaad44dfeea7d7f151ea69b3a4948da": {
+   "ja": "認知症スクリーニング検査の平成30年の実施人数",
+   "en": "Number of persons given dementia screening tests in 2018",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "ce526dc1233103def7938e38ed2e32785d3d2bffaeeecbbd6ef6c7e023c5c050": {
+   "ja": "認知症スクリーニング検査の平成30年の人数：答弁書は 904名（入所時60歳以上）、再犯防止推進白書は 893人（対象はより広い）。数え方の説明はどちらにもない",
+   "en": "Number of persons given dementia screening tests in 2018: the written answer gives 904 persons (aged 60 or over at admission); the White Paper on Recidivism Prevention gives 893 persons (with a broader target group). Neither explains how the count was made",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "7a7e337beacff687f2850f92163cb2c6faa78f0940bd047417ed923b7c36e81f": {
+   "ja": "値の食い違いは確定（両資料の原文）／どちらの数え方によるかは要照会",
+   "en": "The disagreement in values is established (original text of both sources) / which counting method each figure is based on requires inquiry",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "e16a21ff91f168cee13aa67eedabbcb25b0f0fc8ab94e556440e2deebab38aff": {
+   "ja": "答弁書 衆質200第64号「一について」",
+   "en": "Written answer `衆質200第64号`, on item 1 (`一について`)",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "92e557c8a8f7d25e15cc3757bacb99adcc4abd44921143b3d1ecc746d0dda860": {
+   "ja": "再犯防止推進白書 令和4年版 本文（検査の対象）",
+   "en": "White Paper on Recidivism Prevention, 2022 edition (Reiwa 4), main text (target group of the test)",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "a36ebd4bc8b4da77e39282d1ef2e31d503ea692169277b10a3cba4b67a3bd488": {
+   "ja": "認知症スクリーニング検査の平成30年の実施人数（内閣の答弁書 衆質200第64号・再犯防止推進白書 令和4年版 特2-1-4表）",
+   "en": "Number of persons given dementia screening tests in 2018 (Cabinet written answer `衆質200第64号` and White Paper on Recidivism Prevention, 2022 edition (Reiwa 4), table `特2-1-4表`)",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "9d09a9a1d681551794bb7e75387c28b6c99cd0a658b88239df5f148cb41be82d": {
+   "ja": "認知症スクリーニング検査の平成30年の人数が、法務省の二つの公表で合わない。内閣の答弁書（衆議院 質問第64号への答弁、令和元年11月15日）は、平成30年に札幌・宮城・府中・名古屋・大阪・広島・高松・福岡の8刑務所に入所した受刑者のうち入所時60歳以上の者 904名に検査を実施し、認知症傾向がある者（得点が基準点以下）は 109名とする。再犯防止推進白書 令和4年版の特2-1-4表は、平成30年の認知症スクリーニング検査実施者を 893人とする（医師による診察 131人、認知症診断者 35人。注は「法務省調査による」）。同じ白書の本文は検査の対象を「入所時の年齢が60歳以上又は…認知症が疑われる者」とし、答弁書の対象（入所時60歳以上の者）を含む広い範囲だが、人数は 11人少ない。どちらの資料にも、数え方の基準（入所の年か検査の年か、年か年度か）は書かれていない。令和2年・3年の値（930人・973人）は犯罪白書 令和3年版・令和4年版の本文と表で一致する。答弁書の 109名（検査で基準点以下）と表の 131人（医師による診察）は別の量として示されている。",
+   "en": "The number of persons given dementia screening tests in 2018 does not match between two publications of the Ministry of Justice. The Cabinet's written answer (answer to House of Representatives Question No. 64, 15 November 2019) states that, of the prisoners admitted in 2018 to the eight prisons of Sapporo, Miyagi, Fuchu, Nagoya, Osaka, Hiroshima, Takamatsu and Fukuoka, the test was given to 904 persons aged 60 or over at admission, and that 109 persons showed a tendency towards dementia (scores at or below the cut-off). Table `特2-1-4表` of the White Paper on Recidivism Prevention, 2022 edition (Reiwa 4), gives 893 persons as having taken the dementia screening test in 2018 (131 examined by a doctor, 35 diagnosed with dementia; the note states \"Based on a Ministry of Justice survey\"). The main text of the same white paper defines the target group of the test as \"persons aged 60 or over at admission, or … persons suspected of having dementia\", a broader range that includes the target group of the written answer (persons aged 60 or over at admission), yet the number is 11 persons smaller. Neither source states the basis of the count (year of admission or year of testing, calendar year or fiscal year). The values for 2020 and 2021 (930 persons and 973 persons) agree between the main text and the tables of the White Paper on Crime, 2021 edition (Reiwa 3) and 2022 edition (Reiwa 4). The 109 persons in the written answer (at or below the cut-off in the test) and the 131 persons in the table (examined by a doctor) are presented as different quantities.",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "c930b4c838a3fb1f85bd6d42f0063f05309da44d48349e36dbf4b9f278c5d84e": {
+   "ja": "別系統で支持（R075：主張を伏せて原文だけを渡し、GPT・Gemini とも各5回の過半で、同じ年・同じ取組の人数として示され、904 が多く、白書の対象が広く、違いを説明する記述はなく、資料からどちらが正しいか決められない、と答えた。対照（令和2年 930人の一致）は 10回とも正答）",
+   "en": "Supported by an independent model (R075: given only the original text with the claim withheld, GPT and Gemini each answered, in a majority of 5 runs, that the figures are presented as the number of persons for the same year and the same measure, that 904 is the larger, that the white paper's target group is broader, that there is no statement explaining the difference, and that it cannot be determined from the sources which is correct. The control (agreement of 930 persons in 2020) was answered correctly in all 10 runs)",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "7a35d88603f1efc824e28595634ab0083bc2c551528119baa705cea2abf5e703": {
+   "ja": "どちらかの資料、または法務省の別の公表に、904 と 893 の数え方の違い（基準日、年と年度、対象施設など）を示す記述が見つかった場合。",
+   "en": "If a statement showing the difference in counting method between 904 and 893 (reference date, calendar year versus fiscal year, institutions covered, etc.) is found in either source or in another Ministry of Justice publication.",
+   "src": "publish/findings.json",
+   "src_commit": "949f8cd+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
   }
  }
 }
