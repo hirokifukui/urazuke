@@ -14848,6 +14848,22 @@
    "src_commit": "949f8cd+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-22"
+  },
+  "7264e3547a32027a5fab8b7a580f732322a0c25e91335b6535ea98d105790c88": {
+   "ja": "法務省 法務総合研究所（追加の照会 2026-11-22）",
+   "en": "Research and Training Institute, Ministry of Justice (additional inquiry 2026-11-22)",
+   "src": "publish/findings.json",
+   "src_commit": "abfc238+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
+  },
+  "305d1b8d1877300428a86b1a8271d486bc09891aa756b4dcd8896d983636f8b2": {
+   "ja": "法務省 矯正局（追加の照会 2026-11-22）",
+   "en": "Correction Bureau, Ministry of Justice (additional inquiry 2026-11-22)",
+   "src": "publish/findings.json",
+   "src_commit": "abfc238+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-22"
   }
  }
 }
