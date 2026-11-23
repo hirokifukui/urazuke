@@ -8,6 +8,8 @@ CIT = {r['rec']: r for r in json.load(open(os.path.join(ROOT, 'publish/citations
 TY = {'言い方が強まる': '言い方が強まる', '限定が落ちる': '限定が落ちる', '範囲のずれ': '限定が落ちる', '数字の不一致': '値が違う', '食い違いなし': '同じ'}
 NOCITE = re.compile(r'述べず|触れず|述べるだけ|説明するだけ|触れていない|述べていない|挙げるだけ|引いていない')
 UNSURE = re.compile(r'確認できな|確認できま|確かめられ|判断できな|特定できな|分からな|わからな|かどうかは|同じ範囲か')
+# 2026-11-23：資料の結果を述べる「効果を確認できなかった」などは判定者の不確かさではない（SH-C1 2019-05-29 の答弁が誤って「判定が分かれた」になった）。照合の前に除く
+SRCSAYS = re.compile(r'(効果|差|有意差|裏付け)(を|が|は)?(統計的に)?確認できな(かった|い)')
 def short(s, n=15): s = re.sub(r'\s+', '', s); return s if len(s) <= n else s[:n]
 def phrase(q):
     m = re.search(r'([^、。]{0,7}?)(再犯抑止化?効果|再犯防止効果|抑止の効果|効果|最多)', q)
@@ -38,7 +40,7 @@ for r in sorted(R, key=lambda r: r['date']):
     # 「食い違いなし」は、答弁が資料の数字・結論を実際に引いているものだけ載せる（引いていない答弁を「同じ」と見せない）
     if j['type'] == '食い違いなし' and (NOCITE.search(j.get('explanation', '')) or not re.search(r'[〇一二三四五六七八九十百千万]|効果|認め|示唆|最多|割合|推計', j.get('speech_quote', ''))): continue
     rec = recs[0]; sq = CIT[rec]['src_quotes']
-    unsure0 = bool(UNSURE.search(j.get('explanation', '')))
+    unsure0 = bool(UNSURE.search(SRCSAYS.sub('', j.get('explanation', ''))))
     newt = '判定が分かれた' if unsure0 else TY[j['type']]
     if (rec, r['url']) in seen:
         # 前の回と型が違えば「判定が分かれた」にする（回ごとの LLM のぶれ。どちらかを選ばない。2026-11-21）
@@ -49,7 +51,7 @@ for r in sorted(R, key=lambda r: r['date']):
     seen.add((rec, r['url']))
     nq = re.sub(r'\s', '', j['source_quote'])
     pair = [i for i, q in enumerate(sq) if any(nq[k:k + 8] in re.sub(r'\s', '', q['text']) for k in range(0, max(1, len(nq) - 7), 2))] or [0]
-    unsure = bool(UNSURE.search(j.get('explanation', '')))
+    unsure = bool(UNSURE.search(SRCSAYS.sub('', j.get('explanation', ''))))
     n = len(out.setdefault(rec, [])) + 1
     out[rec].append(dict(id=f'{rec}-K{n:02d}', date=r['date'], kind='国会', media=f"{r['house']} {r['meeting']}（{pos(r)}）", url=r['url'], wayback='', live=True,
                          src_phrase=short(sq[pair[0]]['text']), cite_phrase=phrase(j['speech_quote']), types=['判定が分かれた' if unsure else TY[j['type']]],

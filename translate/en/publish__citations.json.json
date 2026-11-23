@@ -2208,6 +2208,54 @@
    "src_commit": "89d530d+uncommitted",
    "model": "claude-opus-5-5",
    "date": "2026-11-22"
+  },
+  "c19ac6c1a6dda545c96d9902aead7abd2c772333dd61eedcaba82b0501d9b4c8": {
+   "ja": "TBS NEWS DIG（東北放送）",
+   "en": "TBS NEWS DIG (Tohoku Broadcasting)",
+   "src": "publish/citations.json",
+   "src_commit": "abfc238+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-23"
+  },
+  "16a759b3748d8c7bdd7e49d716ada95e6b938079bce4e046f16606b9fbfc7aee": {
+   "ja": "性犯罪の再犯率（15.1％・26.2％）を元と同じ値で引き、「一定の効果がうかがえます」と結ぶ（元は「再犯抑止効果が示唆された」）。",
+   "en": "Cites the sex-offence recidivism rates (15.1% and 26.2%) at the same values as the source, and concludes that \"a certain effect can be seen\" (the source states that \"a deterrent effect on reoffending was suggested\").",
+   "src": "publish/citations.json",
+   "src_commit": "abfc238+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-23"
+  },
+  "3df84e3b7fd87ee71c5f532e0705b93c2349ed2b40f30fddacf93836b39aec03": {
+   "ja": "R076（二つの判定者の過半の型が同じ：GPT T0／Gemini T0。組ごとに各5回の過半）",
+   "en": "R076 (the majority type of the two judges is the same: GPT T0 / Gemini T0; majority of 5 runs each, per pair)",
+   "src": "publish/citations.json",
+   "src_commit": "abfc238+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-23"
+  },
+  "c2f3815cb61e1921fd38bb593612361f8f7c793e1afdc0530d1ab7dfb359a05e": {
+   "ja": "khb東日本放送（テレビ朝日系）",
+   "en": "khb Higashi Nippon Broadcasting (TV Asahi network)",
+   "src": "publish/citations.json",
+   "src_commit": "abfc238+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-23"
+  },
+  "f5947e7791da5eb74ae1623f4aebcb5d97fe9d0c945342bfc8108ca49700300b": {
+   "ja": "令和7年の検挙（刑法犯等 2,171・規制法違反 1,546 の和 3,717）を「施行されて以降、最多」と書き、令和6年からの計上方法の変更の注がない。",
+   "en": "The clearances (kenkyo) in 2025 (the sum of 2,171 Penal Code offences etc. and 1,546 violations of the Regulation Act, 3,717) are described as \"the most since the law came into force\", and there is no note on the change in counting method from 2024.",
+   "src": "publish/citations.json",
+   "src_commit": "abfc238+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-23"
+  },
+  "696d237c6901012d7d7b15f9bb175e83f033b5069dfdc74a44552208280be721": {
+   "ja": "R076（二つの判定者の過半の型が同じ：GPT T4／Gemini T4。組ごとに各5回の過半）",
+   "en": "R076 (the majority type of the two assessors is the same: GPT T4 / Gemini T4. Majority of 5 runs for each set)",
+   "src": "publish/citations.json",
+   "src_commit": "abfc238+uncommitted",
+   "model": "claude-opus-5-5",
+   "date": "2026-11-23"
   }
  }
 }

@@ -104,6 +104,7 @@ replications/R073_context/calls.jsonl	個人名を含みうる資料、または
 replications/R073b_bodies/calls.jsonl	個人名を含みうる資料、またはキャッシュ
 replications/R074_hrq1/calls.jsonl	個人名を含みうる資料、またはキャッシュ
 replications/R075_ninchi_904/calls.jsonl	個人名を含みうる資料、またはキャッシュ
+replications/R076_pairs/calls.jsonl	個人名を含みうる資料、またはキャッシュ
 results/citations/citations_draft.tsv	個人名を含みうる資料、またはキャッシュ
 results/citations/perplexity/630-D1.json	個人名を含みうる資料、またはキャッシュ
 results/citations/perplexity/BV-P1.json	個人名を含みうる資料、またはキャッシュ
@@ -115,6 +116,7 @@ results/citations/perplexity/KP-C1.json	個人名を含みうる資料、また�
 results/citations/perplexity/MK-I1.json	個人名を含みうる資料、またはキャッシュ
 results/citations/perplexity/NK-K1.json	個人名を含みうる資料、またはキャッシュ
 results/citations/perplexity/SH-C1.json	個人名を含みうる資料、またはキャッシュ
+results/citations/perplexity/SK-A1.json	個人名を含みうる資料、またはキャッシュ
 results/citations/perplexity/SK-C1.json	個人名を含みうる資料、またはキャッシュ
 results/citations/perplexity/SO-P1.json	個人名を含みうる資料、またはキャッシュ
 results/citations/perplexity/ST-C1.json	個人名を含みうる資料、またはキャッシュ
@@ -122,6 +124,7 @@ results/citations/perplexity/ST-D1.json	個人名を含みうる資料、また�
 results/citations/perplexity/ST-I2.json	個人名を含みうる資料、またはキャッシュ
 results/citations/perplexity/YK-C1.json	個人名を含みうる資料、またはキャッシュ
 results/crawl/2026-11-20/ANALYTICS.md	個人名を含みうる資料、またはキャッシュ
+results/crawl/2026-11-23/ANALYTICS.md	個人名を含みうる資料、またはキャッシュ
 results/kokkai/2026-11-21/PILOT.md	個人名を含みうる資料、またはキャッシュ
 results/kokkai/2026-11-21/QUERIES.tsv	個人名を含みうる資料、またはキャッシュ
 results/kokkai/2026-11-21/REPORT.md	個人名を含みうる資料、またはキャッシュ
@@ -366,6 +369,23 @@ results/kokkai/2026-11-22y/refuted_shuisho.jsonl	個人名を含みうる資料�
 results/kokkai/2026-11-22y/report.log	個人名を含みうる資料、またはキャッシュ
 results/kokkai/2026-11-22y/series.log	個人名を含みうる資料、またはキャッシュ
 results/kokkai/2026-11-22y/speeches.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/QUERIES.tsv	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/REPORT.md	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/candidates.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/candidates_shuisho.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/classified.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/classified2.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/classified3.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/classified_shuisho.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/confirmed.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/diagnose.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/negctl.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/refuted.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/refuted2.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/refuted3.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/refuted_shuisho.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/speeches.jsonl	個人名を含みうる資料、またはキャッシュ
+results/kokkai/2026-11-23/weekly.log	個人名を含みうる資料、またはキャッシュ
 results/llm_probe/FINDINGS.md	個人名を含みうる資料、またはキャッシュ
 results/llm_probe/PROMPTS.json	個人名を含みうる資料、またはキャッシュ
 results/llm_probe/PROMPTS2.json	個人名を含みうる資料、またはキャッシュ
