@@ -23,17 +23,18 @@ for dp, _, fs in os.walk(DST):
         if t != s: open(p, 'w', encoding='utf-8').write(t); n += 1
 open(os.path.join(DST, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n\nSitemap: https://urazuke.org/sitemap.xml\n')
 # sitemap.xml（2026-11-20）：公開する HTML 全部。index.html はディレクトリの URL にする（canonical と同じ形）
-_today = __import__('datetime').date.today().isoformat(); _urls = []
+# 2026-11-25：lastmod は出さない（ページは毎回作り直すので、更新日にならない）。転送だけのページ（stats/index.html）は載せない
+_REDIRECT = {'stats/', 'en/stats/'}; _urls = []
 for dp, _, fs in os.walk(DST):
     if '/.vercel' in dp or os.sep + 'data' + os.sep in dp + os.sep: continue
     for f in sorted(fs):
         if not f.endswith('.html') or f == '404.html': continue
         rel = os.path.relpath(os.path.join(dp, f), DST).replace(os.sep, '/')
         if rel.endswith('index.html'): rel = rel[:-len('index.html')]
-        _urls.append(rel)
+        if rel not in _REDIRECT: _urls.append(rel)
 _urls.sort(key=lambda u: (u.count('/'), u))
 open(os.path.join(DST, 'sitemap.xml'), 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    + ''.join(f'<url><loc>https://urazuke.org/{u}</loc><lastmod>{_today}</lastmod></url>\n' for u in _urls) + '</urlset>\n')
+    + ''.join(f'<url><loc>https://urazuke.org/{u}</loc></url>\n' for u in _urls) + '</urlset>\n')
 json.dump({"cleanUrls": False}, open(os.path.join(DST, 'vercel.json'), 'w'))
 bad = []
 for dp, _, fs in os.walk(DST):

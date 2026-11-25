@@ -30,6 +30,7 @@ for f in files:
         body = re.sub(r'<(\w+)[^>]*\blang="ja"[^>]*>.*?</\1>', ' ', t, flags=re.S)
         body = re.sub(r'<code>.*?</code>', ' ', body, flags=re.S)
         body = re.sub(r'<(script|style)[^>]*>.*?</\1>', ' ', body, flags=re.S)
+        body = re.sub(r'<head>.*?</head>', ' ', body, flags=re.S)   # title・description は本文の見出し・要旨から作る（本文の側で調べる。2026-11-25）
         etxt = html.unescape(re.sub(r'<[^>]+>', ' ', body))
         if 'The Japanese version is authoritative' not in etxt: bad.append((os.path.relpath(f, root), '正本の注記なし', ''))
         if '[translation pending]' in etxt: bad.append((os.path.relpath(f, root), '訳なし', str(etxt.count('[translation pending]')) + ' 箇所'))
@@ -53,7 +54,8 @@ for f in files:
     if f.endswith('.html'):
         for href in re.findall(r'href="([^"#:]+)(?:#[^"]*)?"', t):
             if href.startswith(('http', 'mailto', '//')): continue
-            target = os.path.normpath(os.path.join(os.path.dirname(f), href))
+            # / で始まるもの（404.html）はサイトの根（site/out）から
+            target = os.path.normpath(os.path.join(root, 'site/out', href.lstrip('/')) if href.startswith('/') else os.path.join(os.path.dirname(f), href))
             if not os.path.exists(target) and not os.path.exists(target + '.html') and not os.path.exists(os.path.join(target, 'index.html')):
                 bad.append((os.path.relpath(f, root), 'リンク切れ', href))
 print('files', len(files), 'problems', len(bad))

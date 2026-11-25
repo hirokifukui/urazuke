@@ -14,7 +14,8 @@ def inline(s):
     s = re.sub(r'`([^`]+)`', r'<code>\1</code>', s)
     s = re.sub(r'\[([^\]]+)\]\((https?://[^)]+)\)', r'<a href="\2">\1</a>', s)
     return s
-def md(t):
+def md(t, shift=1):
+    # shift=0：# を h1 にする（方法・進め方・規約。見出しに class="m" を付け、前の見た目を CSS で保つ）
     out, lst, tbl = [], 0, []
     lines = t.split('\n')
     def flush_tbl():
@@ -33,7 +34,7 @@ def md(t):
         m = re.match(r'^(#{1,4})\s+(.*)', ln)
         if m:
             while lst: out.append('</ul>'); lst -= 1
-            n = len(m.group(1)) + 1; out.append(f'<h{n}>{inline(m.group(2))}</h{n}>'); continue
+            n = len(m.group(1)) + shift; c = '' if shift else ' class="m"'; out.append(f'<h{n}{c}>{inline(m.group(2))}</h{n}>'); continue
         m = re.match(r'^(\s*)[-*]\s+(.*)', ln) or re.match(r'^(\s*)\d+\.\s+(.*)', ln)
         if m:
             depth = len(m.group(1)) // 2 + 1
@@ -53,7 +54,7 @@ a{color:var(--acc);text-decoration:none;border-bottom:1px solid rgba(47,79,111,.
 .draft{background:#3a3a3a;color:#f5f5f0;text-align:center;font-size:.8rem;padding:.35rem;letter-spacing:.08em}
 header.site{max-width:1040px;margin:0 auto;padding:2.2rem 1.5rem 1rem;display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:1rem}
 .logo{font-family:"Hiragino Mincho ProN","Noto Serif JP",serif;font-size:1.5rem;letter-spacing:.35em;color:var(--ink);border:0;display:inline-flex;align-items:center;gap:.7rem}.logo .mark{width:1.55rem;height:1.55rem;flex:none}
-nav a{margin-left:1.4rem;font-size:.9rem;color:var(--sub);border:0}nav a:hover{color:var(--ink)}
+header.site nav a{margin-left:1.4rem;font-size:.9rem;color:var(--sub);border:0}header.site nav a:hover{color:var(--ink)}
 main{max-width:1040px;margin:0 auto;padding:1rem 1.5rem 5rem}
 h1,h2,h3{font-family:"Hiragino Mincho ProN","Noto Serif JP",serif;font-weight:600;letter-spacing:.06em}
 h1{font-size:1.7rem;margin:2.2rem 0 1.2rem}h2{font-size:1.25rem;margin:2.6rem 0 .8rem;padding-bottom:.4rem;border-bottom:1px solid var(--line)}h3{font-size:1.05rem;margin:1.8rem 0 .5rem}h4,h5{font-size:.95rem;margin:1.4rem 0 .4rem}
@@ -62,9 +63,9 @@ h1{font-size:1.7rem;margin:2.2rem 0 1.2rem}h2{font-size:1.25rem;margin:2.6rem 0 
 .hero p.idea{font-family:"Hiragino Mincho ProN","Noto Serif JP",serif;font-size:1.05rem;line-height:1.95;max-width:40em;margin:0 0 1.4rem;padding-left:1rem;border-left:2px solid var(--line)}.hero p.note{color:var(--sub);font-size:.92rem;margin:0 0 .6rem}
 .nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0;margin:2.2rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .nums div{padding:1.2rem 1rem}.nums.lead b{font-size:2.5rem}.nums.big b{font-size:1.5rem}h2.sub{font-size:1rem;color:var(--sub);border:0;margin:2rem 0 .2rem}.nums b{display:block;font-family:"Hiragino Mincho ProN",serif;font-size:1.9rem;font-weight:500}.nums span{color:var(--sub);font-size:.82rem}
-table{border-collapse:collapse;width:100%;font-size:.88rem;margin:1rem 0;background:var(--paper)}td:first-child,#t td:last-child,#t th:last-child{white-space:nowrap}th,td{border-bottom:1px solid var(--line);padding:.55rem .6rem;text-align:left;vertical-align:top}th{color:var(--sub);font-weight:500;font-size:.8rem;background:#f4f5f3}
+table{border-collapse:collapse;width:100%;font-size:.88rem;margin:1rem 0;background:var(--paper)}td:first-child,#t td:last-child,#t th:last-child{white-space:nowrap}#t tr.rsep td{white-space:normal}th,td{border-bottom:1px solid var(--line);padding:.55rem .6rem;text-align:left;vertical-align:top}th{color:var(--sub);font-weight:500;font-size:.8rem;background:#f4f5f3}
 .tag{display:inline-block;font-size:.75rem;padding:.05rem .55rem;border:1px solid currentColor;border-radius:2px;white-space:nowrap}
-.lv3{color:#7a2e1f;font-weight:600;white-space:nowrap}.lv2{color:#8a6d2f;font-weight:600;white-space:nowrap}.lv1{color:#7d858c;white-space:nowrap}.k-誤り{color:#6b3b2a}.k-不整合{color:#5b4a1f}.k-欠落{color:#3d5a3a}.k-説明のない改訂{color:#2f4f6f}.k-設計上の問題{color:#4b3f66}.k-照会事項{color:#555}.k-引かれ方{color:#6a4a2a}
+.lv3{color:#7a2e1f;font-weight:600;white-space:nowrap}.lv2{color:#8a6d2f;font-weight:600;white-space:nowrap}.lv1{color:#687076;white-space:nowrap}.k-誤り{color:#6b3b2a}.k-不整合{color:#5b4a1f}.k-欠落{color:#3d5a3a}.k-説明のない改訂{color:#2f4f6f}.k-設計上の問題{color:#4b3f66}.k-照会事項{color:#555}.k-引かれ方{color:#6a4a2a}
 .card{background:var(--paper);border:1px solid var(--line);padding:1.6rem 1.8rem;margin:1.2rem 0}
 .card dl{display:grid;grid-template-columns:11em 1fr;gap:.55rem 1.2rem;margin:0}.card dt{color:var(--sub);font-size:.85rem}.card dd{margin:0}
 .head{font-family:"Hiragino Mincho ProN",serif;font-size:1.35rem;margin:.5rem 0 0}.qt{margin:0 0 .6rem;font-size:.85rem;line-height:1.6;word-break:break-all}.concl{font-family:"Hiragino Mincho ProN","Noto Serif JP",serif;font-size:1.2rem;line-height:1.9;border-left:3px solid var(--acc);padding:.2rem 0 .2rem 1.2rem;margin:1.5rem 0}
@@ -77,7 +78,7 @@ code{font-family:ui-monospace,Menlo,monospace;font-size:.85em;background:#f0f1ee
 .tierh{border:0;margin:2.4rem 0 .4rem}.tiers{display:grid;grid-template-columns:1.25fr 1fr .8fr;gap:1.2rem;margin:1rem 0 .6rem}
 .tier{background:var(--paper);border:1px solid var(--line);border-top:4px solid var(--ink);padding:1.2rem 1.3rem}
 .tier.t3{border-top-color:#7a2e1f}.tier.t2{border-top-color:#8a6d2f}.tier.t1{border-top-color:#9aa1a7}
-.kick{font-size:.75rem;letter-spacing:.2em;font-weight:600}.t3 .kick{color:#7a2e1f}.t2 .kick{color:#8a6d2f}.t1 .kick{color:#7d858c}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin:1.5rem 0}@media(max-width:640px){.grid2{grid-template-columns:1fr}}.box .kick{color:var(--sub);letter-spacing:.05em;margin:0 0 .4rem}
+.kick{font-size:.75rem;letter-spacing:.2em;font-weight:600}.t3 .kick{color:#7a2e1f}.t2 .kick{color:#8a6d2f}.t1 .kick{color:#687076}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin:1.5rem 0}@media(max-width:640px){.grid2{grid-template-columns:1fr}}.box .kick{color:var(--sub);letter-spacing:.05em;margin:0 0 .4rem}
 .big{font-family:"Hiragino Mincho ProN",serif;line-height:1;margin:.5rem 0 .2rem}.big b{font-weight:500}.big span{font-size:.9rem;margin-left:.3rem;color:var(--sub)}
 .t3 .big b{font-size:3.6rem;color:#7a2e1f}.t2 .big b{font-size:2.8rem}.t1 .big b{font-size:2.2rem;color:#5d646b}
 .tier h3{margin:.4rem 0 .2rem;font-size:1.1rem}.t3 h3{font-size:1.25rem}
@@ -89,17 +90,17 @@ code{font-family:ui-monospace,Menlo,monospace;font-size:.85em;background:#f0f1ee
 .crawl b{font-weight:600;color:var(--ink);font-feature-settings:"palt"}.cl{letter-spacing:.08em}.sep{width:1px;height:.8rem;background:var(--line);margin:0 .3rem;align-self:center}
 .dot{width:.5rem;height:.5rem;border-radius:50%;background:#3d6b4f;align-self:center;box-shadow:0 0 0 0 rgba(61,107,79,.5);animation:pl 2.4s infinite}
 .dot.off{background:#9aa1a7;animation:none}@keyframes pl{0%{box-shadow:0 0 0 0 rgba(61,107,79,.45)}70%{box-shadow:0 0 0 .45rem rgba(61,107,79,0)}100%{box-shadow:0 0 0 0 rgba(61,107,79,0)}}
-.crn{display:grid;grid-template-columns:repeat(5,1fr);gap:.9rem;margin:1.2rem 0 .2rem}.crn div{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--acc);padding:.9rem .8rem .8rem;display:flex;flex-direction:column;gap:.15rem}.crn b{font-family:"Hiragino Mincho ProN","Noto Serif JP",serif;font-weight:400;font-size:1.65rem;line-height:1.2;color:var(--ink);font-variant-numeric:tabular-nums lining-nums;white-space:nowrap}.crn span{font-size:.78rem;color:var(--sub);white-space:nowrap}@media(max-width:700px){.crn{grid-template-columns:repeat(3,1fr);gap:.6rem}.crn b{font-size:1.35rem}}dl.crscope{display:grid;grid-template-columns:9.5em 1fr;margin:1.1rem 0 .6rem;font-size:.92rem;border-top:1px solid var(--line)}dl.crscope dt,dl.crscope dd{margin:0;padding:.55rem 0;border-bottom:1px solid var(--line)}dl.crscope dt{color:var(--sub);font-size:.82rem;padding-right:1rem}@media(max-width:600px){dl.crscope{grid-template-columns:1fr}dl.crscope dt{border-bottom:0;padding-bottom:0}dl.crscope dd{padding-top:.1rem}}.cn{margin-left:auto;font-size:.75rem}@media(max-width:860px){.cn{margin-left:0;width:100%}}
-@media(max-width:640px){.card dl{grid-template-columns:1fr}nav a{margin:0 1rem 0 0}.hero p.lead{font-size:1.25rem}}
+.crn{display:grid;grid-template-columns:repeat(5,1fr);gap:.9rem;margin:1.2rem 0 .2rem}.crn div{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--acc);padding:.9rem .8rem .8rem;display:flex;flex-direction:column;gap:.15rem}.crn b{font-family:"Hiragino Mincho ProN","Noto Serif JP",serif;font-weight:400;font-size:1.65rem;line-height:1.2;color:var(--ink);font-variant-numeric:tabular-nums lining-nums;white-space:nowrap}.crn span{font-size:.78rem;color:var(--sub);white-space:nowrap}@media(max-width:700px){.crn{grid-template-columns:repeat(3,1fr);gap:.6rem}.crn b{font-size:1.35rem}html[lang=en] .crn span{white-space:normal}}dl.crscope{display:grid;grid-template-columns:9.5em 1fr;margin:1.1rem 0 .6rem;font-size:.92rem;border-top:1px solid var(--line)}dl.crscope dt,dl.crscope dd{margin:0;padding:.55rem 0;border-bottom:1px solid var(--line)}dl.crscope dt{color:var(--sub);font-size:.82rem;padding-right:1rem}@media(max-width:600px){dl.crscope{grid-template-columns:1fr}dl.crscope dt{border-bottom:0;padding-bottom:0}dl.crscope dd{padding-top:.1rem}}.cn{margin-left:auto;font-size:.75rem}@media(max-width:860px){.cn{margin-left:0;width:100%}}
+@media(max-width:640px){.card dl{grid-template-columns:1fr}header.site nav a{margin:0 1rem 0 0}.hero p.lead{font-size:1.25rem}}
 """
 # スマートフォン（幅640px以下）：主な表はカード型の縦並び（各セルに項目名）、それ以外の表は表だけを横にスクロール（r26）
 CSS += """
 @media(max-width:640px){
-header.site{padding:1.2rem 1rem .6rem;gap:.5rem}nav{display:flex;flex-wrap:wrap;gap:.1rem 1rem}nav a{margin:0;white-space:nowrap}.filters select,.filters input{max-width:100%;min-width:0}main{padding:.6rem 1rem 4rem}.cin{padding:.5rem 1rem}
+header.site{padding:1.2rem 1rem .6rem;gap:.5rem}header.site nav{display:flex;flex-wrap:wrap;gap:.1rem 1rem}header.site nav a{margin:0;white-space:nowrap}.filters select,.filters input{max-width:100%;min-width:0}main{padding:.6rem 1rem 4rem}.cin{padding:.5rem 1rem}
 h1{font-size:1.4rem;margin:1.4rem 0 .8rem}h2{font-size:1.1rem;margin:2rem 0 .6rem}
 .nums.lead b{font-size:1.8rem}.nums b{font-size:1.5rem}
 .stages{gap:.35rem}.stg{min-width:0;flex:1 1 28%;padding:.5rem .6rem}.stg.s0,.stg.s9{flex:1 1 100%}.stg b{font-size:1.45rem}.stg .sl{font-size:.68rem;line-height:1.4}
-td:first-child{white-space:normal}td code,th code,.prose code{overflow-wrap:anywhere;word-break:break-all}.prose p,.prose li,.card dd,.qt{overflow-wrap:anywhere}
+td:first-child{white-space:normal}code{overflow-wrap:anywhere;word-break:break-all}.prose p,.prose li,.card dd,.qt,.concl{overflow-wrap:anywhere}
 table:not(.stack){display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
 table.stack,table.stack tbody{display:block;background:none}table.stack tr.hd{display:none}
 table.stack tr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.35rem .8rem;background:var(--paper);border:1px solid var(--line);margin:0 0 .6rem;padding:.6rem .7rem}
@@ -189,13 +190,13 @@ def add_lead(path, body, en=False):
             elif seen_h2[0]: return m.group(0)
             n = len(hs) + 1; hid = re.search(r'id="([^"]+)"', attrs); hid = hid.group(1) if hid else f's{n}'
             hs.append((hid, re.sub('<[^>]+>', '', txt)))
-            return f'<h{lv} id="{hid}">{txt}</h{lv}>'
+            return f'<h{lv}{attrs}>{txt}</h{lv}>' if 'id="' in attrs else f'<h{lv}{attrs} id="{hid}">{txt}</h{lv}>'
         rest = re.sub(r'<h([23])([^>]*)>(.*?)</h\1>', _id, rest)
         toc = '<nav class="toc"><b>' + ('Contents' if en else '目次') + '</b><ol>' + ''.join(f'<li><a href="#{h}">{t}</a></li>' for h, t in hs) + '</ol></nav>'
     return head + f'<p class="plain">{L}</p>' + toc + rest
 CSS += """
 p.plain{font-size:1rem;line-height:1.9;max-width:40em;margin:.2rem 0 1.6rem;padding:.9rem 1.1rem;background:var(--paper);border-left:3px solid var(--acc)}
-nav.toc{margin:0 0 2rem;padding:.8rem 1.1rem;border:1px solid var(--line);background:var(--paper);font-size:.92rem}nav.toc ol{margin:.3rem 0 0;padding-left:1.4rem;columns:2;column-gap:2rem}nav.toc a{border:0}
+nav.toc{margin:0 0 2rem;padding:.8rem 1.1rem;border:1px solid var(--line);background:var(--paper);font-size:.92rem}nav.toc ol{margin:.3rem 0 0;padding-left:1.4rem;columns:2;column-gap:2rem}nav.toc a{border:0;font-size:.9rem;color:var(--sub)}nav.toc a:hover{color:var(--ink)}
 tr.rsep.t3 td{background:#f1f3f5;padding:.8rem .7rem;font-size:.95rem}tr.rsep.t3 b{font-family:"Hiragino Mincho ProN","Noto Serif JP",serif;letter-spacing:.06em}
 p.type3{margin:.4rem 0 -.6rem;font-size:.85rem;color:var(--acc);letter-spacing:.06em}
 @media(max-width:640px){nav.toc ol{columns:1}}
@@ -216,15 +217,25 @@ def plain_block(f, d, en=False):
     t = d['表']
     tab = '<table class="ptab"><tr>' + ''.join(f'<th>{tr(h)}</th>' for h in t['head']) + '</tr>' + ''.join('<tr>' + ''.join(f'<td>{tr(c)}</td>' for c in r) + '</tr>' for r in t['rows']) + '</table>'
     st = _PST[f['id']]
-    return (f'<div class="plainrec"><h3>{H[0]}</h3><p>{tr(d["書かれていること"])}</p><h3>{H[1]}</h3>{tab}'
-            f'<h3>{H[2]}</h3><ul>' + ''.join(f'<li>{tr(x)}</li>' for x in d['読み違え']) + f'<li><b>{H[3]}</b>：{tr(d["向き"])}</li></ul>'
-            f'<h3>{H[4]}</h3><ul>' + ''.join(f'<li>{tr(x)}</li>' for x in d['言えないこと']) + '</ul>'
-            f'<h3>{H[5]}</h3><p>{tr(d["照会"])}</p>'
+    return (f'<div class="plainrec"><h2>{H[0]}</h2><p>{tr(d["書かれていること"])}</p><h2>{H[1]}</h2>{tab}'
+            f'<h2>{H[2]}</h2><ul>' + ''.join(f'<li>{tr(x)}</li>' for x in d['読み違え']) + f'<li><b>{H[3]}</b>：{tr(d["向き"])}</li></ul>'
+            f'<h2>{H[4]}</h2><ul>' + ''.join(f'<li>{tr(x)}</li>' for x in d['言えないこと']) + '</ul>'
+            f'<h2>{H[5]}</h2><p>{tr(d["照会"])}</p>'
             f'<p class="muted">{H[6]}：{st["round"]} {st["q"]}（' + ('supported' if en else '支持') + '）</p></div>')
 CSS += """
-.plainrec{margin:1.2rem 0 2rem}.plainrec h3{margin:1.6rem 0 .4rem;font-size:1rem;color:var(--acc)}.plainrec p,.plainrec li{max-width:44em}
+.plainrec{margin:1.2rem 0 2rem}.plainrec h2{margin:1.6rem 0 .4rem;font-size:1rem;color:var(--acc);padding-bottom:0;border-bottom:0}.plainrec p,.plainrec li{max-width:44em}
 table.ptab{margin:.4rem 0 .6rem;font-size:.95rem}table.ptab th{background:#f1f3f5}
 h3.yoshi{margin-top:2rem;font-size:.95rem;color:var(--sub)}
+"""
+# 形式面の点検（2026-11-25）：見出しの順を直しても、見た目は前の大きさを保つ。
+# .m は md(shift=0) が出す見出し（方法・進め方・規約）。h1.m は前の h2、h2.m は前の h3、h3.m は前の h4 の見た目。
+CSS += """
+h1.m{font-size:1.25rem;margin:2.6rem 0 .8rem;padding-bottom:.4rem;border-bottom:1px solid var(--line)}
+h2.m{font-size:1.05rem;margin:1.8rem 0 .5rem;padding-bottom:0;border-bottom:0}
+h3.m{font-family:inherit;letter-spacing:inherit;font-weight:700;font-size:.95rem;margin:1.4rem 0 .4rem}
+.vis h1.vlead{font-weight:400}
+footer a{display:inline-block;padding:.3rem 0;margin:-.3rem 0;border-bottom:0;text-decoration:underline 1px rgba(47,79,111,.25);text-underline-offset:.28em}footer a:hover{text-decoration-color:var(--acc)}
+@media(max-width:640px){h1.m{font-size:1.1rem;margin:2rem 0 .6rem}}
 """
 open(os.path.join(OUT, 'style.css'), 'w').write(CSS + CV.CSS + CK.CSS)
 def _mobile(doc):
@@ -235,7 +246,7 @@ def _mobile(doc):
         t = m.group(0)
         hdr = re.search(r'<tr>((?:\s*<th[^>]*>.*?</th>)+)\s*</tr>', t, re.S)
         if not hdr: return t
-        labs = [re.sub(r'<[^>]+>', '', x).strip() for x in re.findall(r'<th[^>]*>(.*?)</th>', hdr.group(1), re.S)]
+        labs = [html.unescape(re.sub(r'<[^>]+>', '', x)).strip() for x in re.findall(r'<th[^>]*>(.*?)</th>', hdr.group(1), re.S)]
         t = t.replace(hdr.group(0), '<tr class="hd">' + hdr.group(0)[4:], 1)
         def row(rm):
             r = rm.group(0)
@@ -261,12 +272,39 @@ MARK = '<svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="11" y=
 SITE_URL = 'https://urazuke.org/'
 def canon(path):
     return SITE_URL + (path[:-len('index.html')] if path.endswith('index.html') else path)
-def head_extra(root, og_img, path, title, desc, lang):
-    return (f'<link rel="canonical" href="{canon(path)}"><meta name="description" content="{e(desc)}">'
+DESC_JA = '日本の犯罪・司法・精神医療・福祉に関する公開データを、再現できる方法で検証し、記録する。'
+DESC_EN = 'Verifying public data on crime, justice, psychiatry and welfare in Japan with reproducible methods, and keeping a record.'
+def _txt(h):
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', h))).strip()
+def cut(t, n=120):
+    t = _txt(t); return t if len(t) <= n else t[:n].rstrip() + '…'
+def page_desc(body, en=False, with_h1=False):
+    """description をそのページの導入文から作る（h1 の後の段落・項目を、80字ほどになるまで順につなぐ）。取れないときはサイト共通の文。"""
+    b = re.sub(r'<(script|style)[^>]*>.*?</\1>|<nav class="toc">.*?</nav>|<table.*?</table>', '', body, flags=re.S)
+    k = b.find('</h1>'); h1 = _txt(b[:k].split('<h1', 1)[-1].split('>', 1)[-1]) if k >= 0 else ''
+    b = b[k + 5:] if k >= 0 else b
+    out = h1 if with_h1 else ''   # 統計のページ：導入が「公表元」だけなので、統計の名前から始める
+    for m in re.finditer(r'<(p|li)[^>]*>(.*?)</\1>', b, re.S):
+        t = _txt(m.group(2))
+        if len(t) < 8: continue
+        out += (' ' if en else ('' if not out or out[-1] in '。．.）」' else '。')) + t if out else t
+        if len(out) >= 80: break
+    return cut(out) if len(out) >= 20 else (DESC_EN if en else DESC_JA)
+def alt_links(path):
+    # hreflang：完全な URL で ja・en・x-default（日本語）を、日英のどちらのページにも同じに出す
+    return (f'<link rel="alternate" hreflang="ja" href="{canon(path)}"><link rel="alternate" hreflang="en" href="{canon("en/" + path)}">'
+            f'<link rel="alternate" hreflang="x-default" href="{canon(path)}">')
+def head_extra(root, og_img, path, title, desc, lang, canon_to=None):
+    c = canon(canon_to or path) if path != '404.html' else None
+    return ((f'<link rel="canonical" href="{c}">' if c else '') + f'<meta name="description" content="{e(desc)}">'
             f'<link rel="icon" href="{root}favicon.svg" type="image/svg+xml"><link rel="icon" href="{root}favicon-32.png" sizes="32x32" type="image/png">'
             f'<link rel="apple-touch-icon" href="{root}apple-touch-icon.png"><meta property="og:site_name" content="URAZUKE">'
             f'<meta property="og:title" content="{e(title)} — URAZUKE"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website">'
-            f'<meta property="og:url" content="{canon(path)}"><meta property="og:image" content="{SITE_URL}{og_img}"><meta property="og:locale" content="{lang}"><meta name="twitter:card" content="summary_large_image">')
+            + (f'<meta property="og:url" content="{c}">' if c else '') + f'<meta property="og:image" content="{SITE_URL}{og_img}"><meta property="og:locale" content="{lang}"><meta name="twitter:card" content="summary_large_image">')
+# 構造化データ（JSON-LD）：トップに WebSite、data.html に Dataset（2026-11-25）
+def ldjson(o): return '<script type="application/ld+json">' + json.dumps(o, ensure_ascii=False).replace('</', '<\\/') + '</script>'
+ORG = {"@type": "Organization", "name": "URAZUKE", "url": SITE_URL}
+LD_SITE = ldjson({"@context": "https://schema.org", "@type": "WebSite", "name": "URAZUKE", "url": SITE_URL, "inLanguage": ["ja", "en"], "description": DESC_JA, "publisher": ORG})
 import datetime as _dt
 CR = json.load(open(os.path.join(R, 'site/crawl.json')))
 _WD = '月火水木金土日'
@@ -292,12 +330,16 @@ except Exception: CRN['council_docs'] = None
 def _n(x): return '—' if x is None else f'{x:,}'
 CRAWL = (f'''<div class="crawl"><div class="cin"><span class="dot"></span><span class="cl"><b class="wk">毎週の自動巡回</b>　{'最終' if _last['kind'] == '週1回の巡回' else '最終の取得'}</span><b>{jds(_last['date'])}</b><span class="sep"></span><span class="cl">変わった資料</span><b>{_n(CRN['changed'])}</b><span class="sep"></span><span class="cl">次回</span><b>{jds(CR['next'])}</b><a class="cmore" href="@PRE@about.html#crawl">しくみ</a></div></div>''' if CR.get('active') else f'''<div class="crawl"><div class="cin"><span class="dot off"></span><span class="cl">資料の取得日</span><b>{jd(_last['date'])}</b><span class="sep"></span><span class="cl">定期巡回（{CR['interval_days']}日ごと）</span><b>準備中</b><span class="cn">取得元 {_last['sources']:,} 件を取り直し、変化を LLM が検証して記録する仕組みを準備しています</span></div></div>''')
 NAV = [('records/', '記録'), ('overview.html', '統計'), ('citations.html', '引かれ方'), ('inquiries.html', '照会'), ('about.html', 'しくみ')]
-def page(path, title, body, depth=None):
+def page(path, title, body, depth=None, desc=None, canon_to=None, head=''):
+    """desc：description（なければ導入文から作る）。canon_to：canonical の先（転送だけのページ）。head：<head> に足すもの（構造化データ）。"""
     body = add_lead(path, body)
     d = path.count('/'); pre = '../' * d
-    nav = ''.join(f'<a href="{pre}{h}">{t}</a>' for h, t in NAV) + f'<a href="{pre}en/{path}" hreflang="en" lang="en">English</a>'
+    if path == '404.html': pre = '/'   # 404 はどの階層でも出るので、絶対パス
+    en_href = f'{pre}en/' if path == '404.html' else f'{pre}en/{path}'
+    nav = ''.join(f'<a href="{pre}{h}">{t}</a>' for h, t in NAV) + f'<a href="{en_href}" hreflang="en" lang="en">English</a>'
+    desc = page_desc(body, with_h1=True) if desc == '@H1@' else (desc or page_desc(body))
     doc = f"""<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><link rel="alternate" hreflang="en" href="{pre}en/{path}">{head_extra(pre, "og.png", path, title, "日本の犯罪・司法・精神医療・福祉に関する公開データを、再現できる方法で検証し、記録する。", "ja_JP")}<title>{e(title)} — URAZUKE（草案）</title><link rel="stylesheet" href="{pre}style.css"><script>window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};</script><script defer src="/_vercel/insights/script.js"></script></head><body>
+<meta name="robots" content="noindex,nofollow">{'' if path == '404.html' else alt_links(path)}{head_extra(pre, "og.png", path, title, desc, "ja_JP", canon_to)}{head}<title>{e(title)} — URAZUKE（草案）</title><link rel="stylesheet" href="{pre}style.css"><script>window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};</script><script defer src="/_vercel/insights/script.js"></script></head><body>
 <div class="draft">草案・非公開　顧問弁護士の確認前です。内容は確定していません。</div>
 {CRAWL.replace('@PRE@', pre)}
 <header class="site"><a class="logo" href="{pre}index.html">{MARK}URAZUKE</a><nav>{nav}</nav></header>
@@ -673,8 +715,8 @@ FLOW_EN = """<ol class="flow">
 <li><span class="fn">6</span><b>Publish</b><span>The exchange is published as it is</span></li>
 </ol>"""
 # ---- トップ（r37）：理念・しくみの図・入口だけ。数の詳しいことは overview.html
-page('index.html', 'トップ', f"""
-<section class="vis"><p class="vlead">国の統計は、政策の裏付けになる。<br>その数字が本当に裏付けになるのかを、確かめて残す。</p>
+page('index.html', 'トップ', head=LD_SITE, body=f"""
+<section class="vis"><h1 class="vlead">国の統計は、政策の裏付けになる。<br>その数字が本当に裏付けになるのかを、確かめて残す。</h1>
 <p class="videa">日本の犯罪・司法・精神医療・福祉の公開データを、AI が先に決めた手順で照合します。食い違いも、合っていたことも記録し、同じ版の資料を入手できれば誰でも同じ計算をやり直せるように公開します。</p></section>
 <h2 class="vh">しくみ</h2>
 {FLOW_JA}
@@ -731,13 +773,13 @@ _rowj = lambda f: f'<tr data-v="{f["影響"]}" data-k="{e(f["区分"].split("（
 rows = type_rows(_rowj, F)
 opts = lambda xs: ''.join(f'<option>{e(x)}</option>' for x in xs)
 page('records/index.html', '記録', f"""<h1>記録</h1><p class="muted">{len(F)} 件。区分は「進め方」、確実さ・確認の状態は「方法」を参照。</p>
-<div class="filters"><select id="fv"><option value="">影響：すべて</option><option value="3">影響 大：結論・指標</option><option value="2">影響 中：値の食い違い</option><option value="1">影響 小：形式の不備</option></select><select id="fk"><option value="">区分：すべて</option>{opts(kinds)}</select><select id="fs"><option value="">統計：すべて</option>{opts(stats)}</select><select id="fd"><option value="">確認の状態：すべて</option>{ST_OPTS_JA}</select></div>
+<div class="filters"><select id="fv" aria-label="影響で絞り込む"><option value="">影響：すべて</option><option value="3">影響 大：結論・指標</option><option value="2">影響 中：値の食い違い</option><option value="1">影響 小：形式の不備</option></select><select id="fk" aria-label="区分で絞り込む"><option value="">区分：すべて</option>{opts(kinds)}</select><select id="fs" aria-label="統計で絞り込む"><option value="">統計：すべて</option>{opts(stats)}</select><select id="fd" aria-label="確認の状態で絞り込む"><option value="">確認の状態：すべて</option>{ST_OPTS_JA}</select></div>
 <table id="t"><tr><th>ID</th><th>影響</th><th>区分</th><th>統計</th><th>見出し</th><th>確実さ</th><th>確認の状態</th><th>照会</th></tr>{rows}</table>
 <script>const f=()=>{{const v=fv.value,k=fk.value,s=fs.value,d=fd.value;document.querySelectorAll('#t tr[data-k]').forEach(r=>{{r.style.display=(!v||r.dataset.v==v)&&(!k||r.dataset.k==k)&&(!s||r.dataset.s==s)&&(!d||r.dataset.d==d)?'':'none'}})}};[fv,fk,fs,fd].forEach(x=>x.onchange=f)</script>""")
 # ---- 記録の個別
 for f in F:
     slug = next((s for s, n, o, path, p in STATS if p and f['id'].startswith(p + '-')), None)
-    page(f'records/{f["id"]}.html', f['id'], f"""<p class="muted"><a href="index.html">記録</a> ／ {e(f['統計'])}</p>{PRE_NOTE if slug in PRE else ''}
+    page(f'records/{f["id"]}.html', f'{_txt(inline(HEAD(f)))}（{f["id"]}）', desc=cut(inline(f['要旨'])), body=f"""<p class="muted"><a href="index.html">記録</a> ／ {e(f['統計'])}</p>{PRE_NOTE if slug in PRE else ''}
 <p class="type3">{type3(f)[1]}</p><h1>{f['id']}　{tag(f['区分'])}</h1><p class="head">{e(plain(f)['見出し'] if plain(f) else f['見出し'])}</p>{hist(f)[1]}{(plain_block(f, plain(f)) + '<h3 class="yoshi">記録の要旨（反証にかけた文）</h3>') if plain(f) else ''}<p class="concl">{inline(f['要旨'])}</p>{'' if plain(f) else cansay(f)}
 <div class="card"><dl>
 <dt>統計</dt><dd>{e(f['統計'])}{f' — <a href="../stats/{slug}.html">検証の記録</a>' if slug else ''}</dd>
@@ -756,11 +798,11 @@ def _row(s):
     return f'<tr><td><a href="{s}.html">{e(n)}</a></td><td class="muted">{e(o)}</td><td>{CHK.get(s) or sum(1 for f in F if p and f["id"].startswith(p+"-"))}</td></tr>'
 _rest = [x[0] for x in STATS if not any(x[0] in g for _, g in FIELD)]
 sb = ''.join(f'<h2>{e(fl)}{PRE_H if fl in PRE_FIELD else ''}</h2><table><tr><th>統計</th><th>公表元</th><th>記録</th></tr>' + ''.join(_row(x) for x in g if x in _SI) + '</table>' for fl, g in FIELD + ([('その他', _rest)] if _rest else []))
-page('stats/index.html', '統計', '<meta http-equiv="refresh" content="0; url=../overview.html"><h1>統計</h1><p class="muted"><a href="../overview.html">統計のページ</a>へ移りました。</p>')
+page('stats/index.html', '統計', canon_to='overview.html', body='<meta http-equiv="refresh" content="0; url=../overview.html"><h1>統計</h1><p class="muted"><a href="../overview.html">統計のページ</a>へ移りました。</p>')
 for s, n, o, path, p in STATS:
     t = open(os.path.join(R, path)).read()
     recs = ''.join(f'<li><a href="../records/{f["id"]}.html">{f["id"]}</a>　{tag(f["区分"])}　{e(HEAD(f))}</li>' for f in F if p and f['id'].startswith(p + '-'))
-    page(f'stats/{s}.html', n, f"""<p class="muted"><a href="index.html">統計</a></p><h1>{e(n)}</h1><p class="muted">公表元：{e(o)}</p>{PRE_NOTE if s in PRE else ''}
+    page(f'stats/{s}.html', n, desc='@H1@', body=f"""<p class="muted"><a href="index.html">統計</a></p><h1>{e(n)}</h1><p class="muted">公表元：{e(o)}</p>{PRE_NOTE if s in PRE else ''}
 <h2>記録</h2><ul>{recs or f'<li class="muted">{CHK.get(s, "検証中・公開記録なし")}</li>'}</ul>{vtab(s)}
 <h2>作業ノート</h2><div class="box"><p><b>反証を経ていない作業の記録です。記録として引かないでください。</b>候補、未確認の食い違い、撤回した推測も含むため、サイトには載せず、公開リポジトリに置いています：<a href="https://github.com/hirokifukui/urazuke/blob/main/{path}"><code>{path}</code></a>。合っていた照合は、上の照合の表に載せています。</p></div>""")
 # ---- 照会（草案）
@@ -819,9 +861,9 @@ def sb_table(en=False):
     else:
         lead = f'<h2>反証の成績</h2><p>{t["rounds"]}回のうち、対照をすべて正しく判定した {t["rounds_adopted"]}回の結果を採った。採った回で判定した主張は {t["n"]}：支持 {t["支持"]}、反証 {t["反証"]}、判定不能 {t["判定不能"]}。反証・判定不能の主張は書き直すか撤回し、もう一度反証にかけた（訂正の記録）。各回の SCORING.md からスクリプトで数えた。</p>'
     return lead + '<table><tr>' + ''.join(f'<th>{h}</th>' for h in hd) + f'</tr>{rows}</table>'
-page('method.html', '方法', f'<div class="prose">{md(open(os.path.join(R,"METHODS.md")).read())}{sb_table()}{audit_section()}{GLO_JA}</div>')
-page('terms.html', '規約', f'<div class="prose">{md(open(os.path.join(R,"TERMS.md")).read())}</div>')
-page('process.html', '進め方', f'<div class="prose">{md(open(os.path.join(R,"PROCESS.md")).read())}</div>')
+page('method.html', '方法', f'<div class="prose">{md(open(os.path.join(R,"METHODS.md")).read(), 0)}{sb_table()}{audit_section()}{GLO_JA}</div>')
+page('terms.html', '規約', f'<div class="prose">{md(open(os.path.join(R,"TERMS.md")).read(), 0)}</div>')
+page('process.html', '進め方', f'<div class="prose">{md(open(os.path.join(R,"PROCESS.md")).read(), 0)}</div>')
 # ---- 訂正の記録
 er = ''.join(f'<tr><td class="muted">{d}</td><td><a href="stats/{s}.html">{e(n)}</a></td><td>{e(t)}</td></tr>' for d, n, t, s in ERR)
 page('errors.html', '訂正の記録', f'<h1>訂正の記録</h1><p class="muted">LLM による記録に誤りが見つかった場合は、元の記録と同じ目立ち方で訂正し、ここに残します（進め方 §8）。多くは、別系統の AI による反証で見つかっています。</p><table><tr><th>日付</th><th>対象</th><th>内容</th></tr>{er}</table>')
@@ -830,7 +872,11 @@ os.makedirs(os.path.join(OUT, 'data'), exist_ok=True)
 shutil.copy(os.path.join(R, 'publish/findings.json'), os.path.join(OUT, 'data/findings.json'))
 shutil.copy(os.path.join(R, 'publish/findings.tsv'), os.path.join(OUT, 'data/findings.tsv'))
 nman = len(glob.glob(os.path.join(R, 'publish/source_manifests/*')))
-page('data.html', 'データ', f"""<h1>データと再現</h1><ul><li><a href="data/findings.json">findings.json</a>・<a href="data/findings.tsv">findings.tsv</a>（記録の一覧）</li>
+LD_DATA = ldjson({"@context": "https://schema.org", "@type": "Dataset", "name": "URAZUKE 記録の一覧（findings.json・findings.tsv）", "description": DESC_JA + LEAD['data.html'],
+    "url": SITE_URL + 'data.html', "license": "https://creativecommons.org/licenses/by/4.0/", "creator": ORG, "publisher": ORG, "inLanguage": "ja",
+    "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": SITE_URL + 'data/findings.json'},
+                     {"@type": "DataDownload", "encodingFormat": "text/tab-separated-values", "contentUrl": SITE_URL + 'data/findings.tsv'}]})
+page('data.html', 'データ', head=LD_DATA, body=f"""<h1>データと再現</h1><ul><li><a href="data/findings.json">findings.json</a>・<a href="data/findings.tsv">findings.tsv</a>（記録の一覧）</li>
 <li>スクリプト・記録・取得元の一覧（{nman} の MANIFEST）は、固定したバージョンとともに GitHub で公開しています。</li>
 <li>DOI：10.5281/zenodo.24357841（予約済み。公開の日に、公開リポジトリと同じ版を Zenodo に置いて有効にします）。</li>
 <li>取得元の指紋：全 MANIFEST をまとめた一覧（URL・sha256・取得日時）と、2026-11-18 に各 URL へ送った HEAD の応答（状態・長さ・Last-Modified・ETag）を results/fingerprint/ に置いています。手元の写しの sha256 は、計算し直して MANIFEST と照らしました。週1回の巡回で、この控えと比べて差し替えを見つけています。巡回ごとの報告は results/crawl/ にあります。</li>
@@ -840,19 +886,20 @@ page('data.html', 'データ', f"""<h1>データと再現</h1><ul><li><a href="d
 TS = _tr.Store()
 def T(ja, src, group=None): return TS.t(ja, src, group)
 def stat_name_en(n): return T(n, SRC_S, 'stats')
-def mdT(text, src): return md('\n'.join(T(c, src) for c in _tr.chunks(text)))
+def mdT(text, src, shift=1): return md('\n'.join(T(c, src) for c in _tr.chunks(text)), shift)
 _WDE = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 def jde(s):
     d = _dt.date.fromisoformat(s); return f'{_WDE[d.weekday()]} {d.day} {d.strftime("%B")} {d.year}'
 CRAWL_EN = (f'''<div class="crawl"><div class="cin"><span class="dot"></span><span class="cl"><b class="wk">Weekly automatic check</b>　{'Last' if _last['kind'] == '週1回の巡回' else 'Last fetch'}</span><b>{jdes(_last['date'])}</b><span class="sep"></span><span class="cl">Changed sources</span><b>{_n(CRN['changed'])}</b><span class="sep"></span><span class="cl">Next</span><b>{jdes(CR['next'])}</b><a class="cmore" href="@PRE@about.html#crawl">How it works</a></div></div>''' if CR.get('active') else f'''<div class="crawl"><div class="cin"><span class="dot off"></span><span class="cl">Sources fetched</span><b>{jde(_last['date'])}</b><span class="sep"></span><span class="cl">Scheduled crawl (every {CR['interval_days']} days)</span><b>In preparation</b><span class="cn">A system to fetch the {_last['sources']:,} sources again and have an LLM check and record any change is in preparation</span></div></div>''')
 NAV_EN = [('records/', 'Records'), ('overview.html', 'Statistics'), ('citations.html', 'Citations'), ('inquiries.html', 'Inquiries'), ('about.html', 'How it works')]
-def page_en(path, title, body, srcs=''):
+def page_en(path, title, body, srcs='', desc=None, canon_to=None, head=''):
     body = add_lead(path, body, True)
+    desc = page_desc(body, True, with_h1=True) if desc == '@H1@' else (desc or page_desc(body, True))
     d = path.count('/'); pre = '../' * d; root = '../' * (d + 1)
     nav = ''.join(f'<a href="{pre}{h}">{t}</a>' for h, t in NAV_EN) + f'<a href="{root}{path}" hreflang="ja" lang="ja">日本語</a>'
     notice = f'<p class="muted" style="border:1px solid var(--line);background:#fff;padding:.6rem .9rem">This page is an English translation. <strong>The Japanese version is authoritative</strong>; where the two differ, the Japanese prevails. <a href="{root}{path}" lang="ja" hreflang="ja">日本語（正本）</a>{srcs}</p>'
     doc = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><link rel="alternate" hreflang="ja" href="{root}{path}">{head_extra(root, "og-en.png", "en/" + path, title, "Verifying public data on crime, justice, psychiatry and welfare in Japan with reproducible methods, and keeping a record.", "en_US")}<title>{e(title)} — URAZUKE (draft)</title><link rel="stylesheet" href="{root}style.css"><script>window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};</script><script defer src="/_vercel/insights/script.js"></script></head><body>
+<meta name="robots" content="noindex,nofollow">{alt_links(path)}{head_extra(root, "og-en.png", "en/" + path, title, desc, "en_US", canon_to and "en/" + canon_to)}{head}<title>{e(title)} — URAZUKE (draft)</title><link rel="stylesheet" href="{root}style.css"><script>window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};</script><script defer src="/_vercel/insights/script.js"></script></head><body>
 <div class="draft">DRAFT — NOT PUBLIC. Before review by legal counsel. The content is not final.</div>
 {CRAWL_EN.replace('@PRE@', pre)}
 <header class="site"><a class="logo" href="{pre}index.html">{MARK}URAZUKE</a><nav>{nav}</nav></header>
@@ -934,8 +981,8 @@ page_en('overview.html', 'Statistics', f"""
 <div class="box"><h3><a href="process.html">Process</a></h3><p class="muted">Record categories, display principles, inquiry procedure, conflicts of interest and independence.</p></div>
 <div class="box"><h3><a href="errors.html">Corrections</a></h3><p class="muted">Errors in records made by the LLMs, and their corrections.</p></div></div>""")
 # ---- Home (r37)
-page_en('index.html', 'Home', f"""
-<section class="vis"><p class="vlead">National statistics underpin policy.<br>We check whether the numbers can bear that weight, and keep a record.</p>
+page_en('index.html', 'Home', head=LD_SITE, body=f"""
+<section class="vis"><h1 class="vlead">National statistics underpin policy.<br>We check whether the numbers can bear that weight, and keep a record.</h1>
 <p class="videa">Public data on crime, justice, psychiatry and welfare in Japan are compared by AI following a procedure fixed in advance. Mismatches and matches alike are recorded and published so that anyone who can obtain the same versions of the sources can redo the same calculations.</p></section>
 <h2 class="vh">HOW IT WORKS</h2>
 {FLOW_EN}
@@ -1026,7 +1073,7 @@ kinds_en = sorted({kind_en(f['区分']) for f in F}); stats_en = sorted({stat_sh
 _rowe = lambda f: f'<tr data-v="{f["影響"]}" data-k="{e(kind_en(f["区分"]))}" data-s="{e(stat_short_en(f))}" data-d="{STATE(f)}"><td><a href="{f["id"]}.html">{f["id"]}</a></td><td class="lv{f["影響"]}">{LV_EN[f["影響"]][0].replace("Impact: ", "")}</td><td>{tag_en(f["区分"])}</td><td>{e(stat_short_en(f))}</td><td>{inline(ftr(f, "見出し"))}</td><td class="muted">{inline(ftr(f, "確実さ"))}</td><td class="muted">{ST_EN[STATE(f)]}</td><td class="muted">{inline(ftr(f, "照会"))}</td></tr>'
 rows_en = type_rows(_rowe, F, True)
 page_en('records/index.html', 'Records', f"""<h1>Records</h1><p class="muted">{len(F)} records. For categories see Process; for certainty and verification status see Methods.</p>
-<div class="filters"><select id="fv"><option value="">Impact: all</option><option value="3">High: conclusions and indicators</option><option value="2">Medium: values disagree</option><option value="1">Low: format defects</option></select><select id="fk"><option value="">Category: all</option>{opts(kinds_en)}</select><select id="fs"><option value="">Statistic: all</option>{opts(stats_en)}</select><select id="fd"><option value="">Verification status: all</option>{ST_OPTS_EN}</select></div>
+<div class="filters"><select id="fv" aria-label="Filter by impact"><option value="">Impact: all</option><option value="3">High: conclusions and indicators</option><option value="2">Medium: values disagree</option><option value="1">Low: format defects</option></select><select id="fk" aria-label="Filter by category"><option value="">Category: all</option>{opts(kinds_en)}</select><select id="fs" aria-label="Filter by statistic"><option value="">Statistic: all</option>{opts(stats_en)}</select><select id="fd" aria-label="Filter by verification status"><option value="">Verification status: all</option>{ST_OPTS_EN}</select></div>
 <table id="t"><tr><th>ID</th><th>Impact</th><th>Category</th><th>Statistic</th><th>Heading</th><th>Certainty</th><th>Verification status</th><th>Inquiry</th></tr>{rows_en}</table>
 <script>const f=()=>{{const v=fv.value,k=fk.value,s=fs.value,d=fd.value;document.querySelectorAll('#t tr[data-k]').forEach(r=>{{r.style.display=(!v||r.dataset.v==v)&&(!k||r.dataset.k==k)&&(!s||r.dataset.s==s)&&(!d||r.dataset.d==d)?'':'none'}})}};[fv,fk,fs,fd].forEach(x=>x.onchange=f)</script>""")
 PRE_NOTE_EN = '<p class="muted">This statistic was verified before the scope was narrowed to crime, justice, psychiatry and welfare. Its records are kept as they were.</p>'
@@ -1034,7 +1081,7 @@ PRE_H_EN = ' <span class="muted">(verified before the scope was narrowed)</span>
 for f in F:
     slug = next((s for s, n, o, path, p in STATS if p and f['id'].startswith(p + '-')), None)
     quotes = ''.join(f'<div class="qt"><span class="muted">{inline(ftr_q)}　<code>{e(q["ファイル"])}</code>　{inline(T(q["箇所"], SRC_F, f["id"]))}</span><br><span lang="ja">「{e(q["文"])}」</span></div>' for q in f.get('原文の引用', []) for ftr_q in [T(q['ラベル'], SRC_F, f['id'])]) or '<span class="muted">In preparation</span>'
-    page_en(f'records/{f["id"]}.html', f['id'], f"""<p class="muted"><a href="index.html">Records</a> / {inline(ftr(f, '統計'))}</p>{PRE_NOTE_EN if slug in PRE else ''}
+    page_en(f'records/{f["id"]}.html', f'{_txt(inline(ftr(f, "見出し")))} ({f["id"]})', desc=cut(inline(ftr(f, '要旨'))), body=f"""<p class="muted"><a href="index.html">Records</a> / {inline(ftr(f, '統計'))}</p>{PRE_NOTE_EN if slug in PRE else ''}
 <p class="type3">{type3(f)[2]}</p><h1>{f['id']}　{tag_en(f['区分'])}</h1><p class="head">{inline(T(plain(f)['見出し'], SRC_F, f['id'])) if plain(f) else inline(ftr(f, '見出し'))}</p>{hist(f, True)[1]}{(plain_block(f, plain(f), True) + '<h3 class="yoshi">Summary of the record (the text put to the refutation check)</h3>') if plain(f) else ''}<p class="concl">{inline(ftr(f, '要旨'))}</p>{'' if plain(f) else cansay(f, True)}
 <div class="card"><dl>
 <dt>Statistic</dt><dd>{inline(ftr(f, '統計'))}{f' — <a href="../stats/{slug}.html">verification notes</a>' if slug else ''}</dd>
@@ -1052,11 +1099,11 @@ def _row_en(s):
     s, n, o, _, p = _SI[s]
     return f'<tr><td><a href="{s}.html">{e(stat_name_en(n))}</a></td><td class="muted">{inline(T(o, SRC_S, "stats"))}</td><td>{inline(chk_en(s, p))}</td></tr>'
 sb_en = ''.join(f'<h2>{FIELD_EN[fl]}{PRE_H_EN if fl in PRE_FIELD else ""}</h2><table><tr><th>Statistic</th><th>Publisher</th><th>Records</th></tr>' + ''.join(_row_en(x) for x in g if x in _SI) + '</table>' for fl, g in FIELD + ([('その他', _rest)] if _rest else []))
-page_en('stats/index.html', 'Statistics', '<meta http-equiv="refresh" content="0; url=../overview.html"><h1>Statistics</h1><p class="muted">Moved to the <a href="../overview.html">Statistics page</a>.</p>')
+page_en('stats/index.html', 'Statistics', canon_to='overview.html', body='<meta http-equiv="refresh" content="0; url=../overview.html"><h1>Statistics</h1><p class="muted">Moved to the <a href="../overview.html">Statistics page</a>.</p>')
 for s, n, o, path, p in STATS:
     t = open(os.path.join(R, path)).read()
     recs = ''.join(f'<li><a href="../records/{f["id"]}.html">{f["id"]}</a>　{tag_en(f["区分"])}　{inline(ftr(f, "見出し"))}</li>' for f in F if p and f['id'].startswith(p + '-'))
-    page_en(f'stats/{s}.html', stat_name_en(n), f"""<p class="muted"><a href="index.html">Statistics</a></p><h1>{e(stat_name_en(n))}</h1><p class="muted">Publisher: {inline(T(o, SRC_S, 'stats'))}</p>{PRE_NOTE_EN if s in PRE else ''}
+    page_en(f'stats/{s}.html', stat_name_en(n), desc='@H1@', body=f"""<p class="muted"><a href="index.html">Statistics</a></p><h1>{e(stat_name_en(n))}</h1><p class="muted">Publisher: {inline(T(o, SRC_S, 'stats'))}</p>{PRE_NOTE_EN if s in PRE else ''}
 <h2>Records</h2><ul>{recs or f'<li class="muted">{inline(T(CHK[s], SRC_S, "chk")) if CHK.get(s) else "Under verification; no published records"}</li>'}</ul>{vtab_en(s)}
 <h2>Working notes</h2><div class="box"><p><b>These are working notes that have not been through the refutation check. Please do not cite them as records.</b> They include candidates, unconfirmed discrepancies and withdrawn inferences, so they are kept in the public repository, not on the site (Japanese only): <a href="https://github.com/hirokifukui/urazuke/blob/main/{path}"><code>{path}</code></a>. Checks that agreed are listed in the table of checks above.</p></div>""")
 # 照会（照会文は日本語だけ）
@@ -1064,9 +1111,9 @@ st_en = ''.join(f'<tr><td>{inline(T(k, SRC_F, "inq"))}</td><td>{len(v)}</td><td>
 page_en('inquiries.html', 'Inquiries', f"""<h1>Inquiries</h1><p class="muted">Each inquiry is published as “inquiry pending” when it is sent, and responses are published in full, omitting only staff names, personal contact details and details that could identify third parties. Whether a reply was received is noted in the record about 30 days after the inquiry.</p>
 <table><tr><th>Addressee</th><th>Items</th><th>Status</th><th>Deadline</th></tr>{st_en}</table><h2>Inquiry letters (sent {SENT['date']})</h2><p>The inquiry letters are addressed to Japanese government bodies and are written in Japanese only. See the <a href="../inquiries.html" lang="ja" hreflang="ja">Japanese page</a>.</p><p>If, after an inquiry, a source behind a record is replaced at its origin and the quoted passage changes, the inquiry status is marked “source revised”, and the record page shows the passage before and after and a pre-revision copy (Wayback Machine) where available. We do not judge the reason for the revision.</p>""")
 GLO_EN = f'<h2 id="glossary">Glossary of English terms</h2><p>The English version is a translation; the Japanese is authoritative. The following renderings are fixed and used on every English page. Words that attribute intent (cover-up, manipulation, falsification, concealment and the like) are not used in English either. Translations of the names of statistics and agencies are in <code>translate/glossary.tsv</code>.</p>{glo_table(True)}'
-page_en('method.html', 'Methods', f'<div class="prose">{mdT(open(os.path.join(R, "METHODS.md")).read(), "METHODS.md")}{sb_table(True)}{audit_section(True)}{GLO_EN}</div>')
-page_en('process.html', 'Process', f'<div class="prose">{mdT(open(os.path.join(R, "PROCESS.md")).read(), "PROCESS.md")}</div>')
-page_en('terms.html', 'Terms', f'<div class="prose">{mdT(open(os.path.join(R, "TERMS.md")).read(), "TERMS.md")}</div>')
+page_en('method.html', 'Methods', f'<div class="prose">{mdT(open(os.path.join(R, "METHODS.md")).read(), "METHODS.md", 0)}{sb_table(True)}{audit_section(True)}{GLO_EN}</div>')
+page_en('process.html', 'Process', f'<div class="prose">{mdT(open(os.path.join(R, "PROCESS.md")).read(), "PROCESS.md", 0)}</div>')
+page_en('terms.html', 'Terms', f'<div class="prose">{mdT(open(os.path.join(R, "TERMS.md")).read(), "TERMS.md", 0)}</div>')
 er_en = ''.join(f'<tr><td class="muted">{d}</td><td><a href="stats/{s}.html">{inline(T(n, SRC_S, "err"))}</a></td><td>{inline(T(t, SRC_S, "err"))}</td></tr>' for d, n, t, s in ERR)
 page_en('errors.html', 'Corrections', f'<h1>Corrections</h1><p class="muted">When an error is found in a record made by the LLMs, it is corrected with the same prominence as the original record and kept here (Process §8). Most were found by refutation checks by an independent model.</p><table><tr><th>Date</th><th>Subject</th><th>Content</th></tr>{er_en}</table>')
 page_en('data.html', 'Data', f"""<h1>Data and reproduction</h1><ul><li><a href="../data/findings.json">findings.json</a> · <a href="../data/findings.tsv">findings.tsv</a> (list of records, in Japanese, the authoritative version)</li>
@@ -1076,6 +1123,10 @@ page_en('data.html', 'Data', f"""<h1>Data and reproduction</h1><ul><li><a href="
 <li>The English translations are kept in <code>translate/en/</code>. Each entry stores the Japanese source text, its sha256 and the commit of the source file at the time of translation; the English pages are built from these files without calling an LLM.</li>
 </ul><h2 id="scope">How the fetched sources are counted</h2><ul><li>Why the counts differ: {NSRC:,} MANIFEST rows (including URLs listed in the MANIFEST of more than one statistic); 8,462 distinct URLs (8,423 of them, excluding web.archive.org, received a HEAD request for the source fingerprints); {SC['files']:,} local files (excluding sources that may contain personal names, and including derived files outside the MANIFEST). The “sources” in the banner is the number of distinct URLs at the latest fetch.</li><li>Scope: all fetched raw sources except those that may contain personal names (individual disciplinary announcements by boards of education). {SC['files']:,} files, {SC['bytes']/1e9:.2f} GB.</li><li>{SC['numeric_cells']:,} numeric cells: numeric cells in Excel files (xlsx {SC['xlsx']:,}, xls {SC['xls']:,}) and numeric fields in CSV files ({SC['csv']}). Includes other editions of the same table, overlaps between annual reports and white papers, and overlaps between machine-readable and viewing versions. Numbers inside PDFs are not included.</li><li>PDF: {SC['pdf']:,} files, {SC['pdf_pages']:,} pages; HTML: {SC['html']:,} files.</li><li>These figures describe the size of the fetched sources, not the number of values checked. The number checked is given for each check in the working notes on each statistic’s page.</li><li>Counting script: <code>checks/generic/count_scope.py</code>; result: <code>results/scope/scope.json</code>.</li></ul><h2>Redistribution</h2><ul><li>The raw sources themselves are not redistributed. Their URLs, sha256 hashes and Last-Modified dates are published.</li>
 <li>Sources that may contain personal names (such as individual disciplinary announcements by boards of education) are listed neither as files nor as URLs.</li></ul>""")
+# 404（2026-11-25）：どの階層でも出るので、リンクは絶対パス（page() が 404.html のときだけ切り替える）
+page('404.html', 'ページが見つかりません', """<h1>ページが見つかりません</h1><p>この URL のページはありません。URL を確かめるか、下のページから探してください。</p>
+<ul><li><a href="/">トップ</a></li><li><a href="/records/">記録の一覧</a></li></ul>
+<p lang="en">Page not found. See the <a href="/en/">English top page</a> or the <a href="/en/records/">list of records</a>.</p>""")
 _nm = TS.save_missing()
 print('en: translations missing', _nm, '(run translate/translate.py, then build again)' if _nm else '')
 open(os.path.join(OUT, 'robots.txt'), 'w').write('User-agent: *\nDisallow: /\n')
