@@ -4,127 +4,104 @@
    "date": "2026-11-16",
    "kind": "初回の取得",
    "sources": 7016,
-   "changed": null,
-   "new_records": 25
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "対象の追加（16統計）",
    "sources": 7181,
-   "changed": null,
-   "new_records": 3
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "対象の追加（13統計）",
    "sources": 7958,
-   "changed": null,
-   "new_records": 5
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "重点領域の深掘り（再犯指標・虐待・矯正局 効果検証）",
    "sources": 8024,
-   "changed": null,
-   "new_records": 5
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "重点領域の深掘り（死亡事例の章内の表・障害者虐待の報告書）",
    "sources": 8024,
-   "changed": null,
-   "new_records": 1
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "重点領域の深掘り（再犯指標の続き・影響の全件見直し）",
    "sources": 8024,
-   "changed": null,
-   "new_records": 1
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "重点領域の深掘り（薬物・暴力防止の効果検証、医療観察の過去の版）",
    "sources": 8033,
-   "changed": null,
-   "new_records": 5
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "重点領域の深掘り（職業訓練・刑務作業・少年院出院者の学習支援）",
    "sources": 8038,
-   "changed": null,
-   "new_records": 2
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "重点領域の深掘り（刑事施設の認知症・令和6年版犯罪白書の訂正の反映）",
    "sources": 8055,
-   "changed": null,
-   "new_records": 2
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "重点領域の深掘り（高齢の入所受刑者・窃盗、障害者虐待の縦長の表、医療観察の過去の版、犯罪白書の訂正の反映の範囲）",
    "sources": 8060,
-   "changed": null,
-   "new_records": 1
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "外から見える欠落の検査（矯正統計年報の表・区分の版間 2006〜2025年、新設区分の過去の年の表示）",
    "sources": 8117,
-   "changed": null,
-   "new_records": 1
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "重点領域の深掘り（教員を含む公務員の性犯罪関係：文科省 人事行政状況調査、人事院・総務省・警察庁の懲戒処分、犯罪白書 公務員犯罪）",
    "sources": 8208,
-   "changed": null,
-   "new_records": 2
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "重点領域の深掘り（教員の懲戒処分の公表の取組状況の集計、免許失効データベースの登録件数）",
    "sources": 8212,
-   "changed": null,
-   "new_records": 1
+   "changed": null
   },
   {
    "date": "2026-11-17",
    "kind": "重点領域の深掘り（ストーカー統計の検挙の数え方の注、犯罪統計書の被害者との関係の区分）",
    "sources": 8242,
-   "changed": null,
-   "new_records": 2
+   "changed": null
   },
   {
    "date": "2026-11-18",
    "kind": "取得元の指紋（web.archive.org を除く各 URL に HEAD を1回）",
    "sources": 8423,
-   "changed": 0,
-   "new_records": 3
+   "changed": 0
   },
   {
    "date": "2026-11-20",
    "kind": "週1回の巡回",
    "sources": 8479,
-   "changed": 7,
-   "new_records": null
+   "changed": 7
   },
   {
    "date": "2026-11-22",
    "kind": "週1回の巡回",
    "sources": 8557,
    "changed": 0,
-   "new_records": null
-  },
-  {
-   "date": "2026-11-22",
-   "kind": "週1回の巡回",
-   "sources": 8557,
-   "changed": 0,
-   "new_records": null
+   "records": 63
   }
  ],
  "interval_days": 7,
