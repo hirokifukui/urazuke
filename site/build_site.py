@@ -89,7 +89,7 @@ code{font-family:ui-monospace,Menlo,monospace;font-size:.85em;background:#f0f1ee
 .crawl b{font-weight:600;color:var(--ink);font-feature-settings:"palt"}.cl{letter-spacing:.08em}.sep{width:1px;height:.8rem;background:var(--line);margin:0 .3rem;align-self:center}
 .dot{width:.5rem;height:.5rem;border-radius:50%;background:#3d6b4f;align-self:center;box-shadow:0 0 0 0 rgba(61,107,79,.5);animation:pl 2.4s infinite}
 .dot.off{background:#9aa1a7;animation:none}@keyframes pl{0%{box-shadow:0 0 0 0 rgba(61,107,79,.45)}70%{box-shadow:0 0 0 .45rem rgba(61,107,79,0)}100%{box-shadow:0 0 0 0 rgba(61,107,79,0)}}
-table.crn{width:100%;border-collapse:collapse;margin:1rem 0 .6rem;text-align:center}table.crn th{font-size:.75rem;font-weight:400;color:var(--sub);padding:.2rem .3rem}table.crn td{font-size:1.5rem;font-weight:700;padding:.1rem .3rem;border-top:1px solid var(--line)}table.crn td:last-child{font-size:1rem}.crflow{font-size:.9rem;margin:.4rem 0 .8rem}.crscope{font-size:.9rem;padding-left:1.1rem;margin:.4rem 0}.crscope li{margin:.25rem 0}@media(max-width:600px){table.crn th{font-size:.65rem}table.crn td{font-size:1.1rem}table.crn td:last-child{font-size:.75rem}}.cn{margin-left:auto;font-size:.75rem}@media(max-width:860px){.cn{margin-left:0;width:100%}}
+.crn{display:grid;grid-template-columns:repeat(5,1fr);gap:.9rem;margin:1.2rem 0 .2rem}.crn div{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--acc);padding:.9rem .8rem .8rem;display:flex;flex-direction:column;gap:.15rem}.crn b{font-family:"Hiragino Mincho ProN","Noto Serif JP",serif;font-weight:400;font-size:1.65rem;line-height:1.2;color:var(--ink);font-variant-numeric:tabular-nums lining-nums;white-space:nowrap}.crn span{font-size:.78rem;color:var(--sub);white-space:nowrap}@media(max-width:700px){.crn{grid-template-columns:repeat(3,1fr);gap:.6rem}.crn b{font-size:1.35rem}}dl.crscope{display:grid;grid-template-columns:9.5em 1fr;margin:1.1rem 0 .6rem;font-size:.92rem;border-top:1px solid var(--line)}dl.crscope dt,dl.crscope dd{margin:0;padding:.55rem 0;border-bottom:1px solid var(--line)}dl.crscope dt{color:var(--sub);font-size:.82rem;padding-right:1rem}@media(max-width:600px){dl.crscope{grid-template-columns:1fr}dl.crscope dt{border-bottom:0;padding-bottom:0}dl.crscope dd{padding-top:.1rem}}.cn{margin-left:auto;font-size:.75rem}@media(max-width:860px){.cn{margin-left:0;width:100%}}
 @media(max-width:640px){.card dl{grid-template-columns:1fr}nav a{margin:0 1rem 0 0}.hero p.lead{font-size:1.25rem}}
 """
 # スマートフォン（幅640px以下）：主な表はカード型の縦並び（各セルに項目名）、それ以外の表は表だけを横にスクロール（r26）
@@ -273,6 +273,10 @@ _WD = '月火水木金土日'
 def jd(s):
     d = _dt.date.fromisoformat(s); return f'{d.year}年{d.month}月{d.day}日（{_WD[d.weekday()]}）'
 _last = CR['runs'][-1]
+def jds(x):   # 短い日付（帯と巡回の数のカード。2026-11-25）
+    d = _dt.date.fromisoformat(x); return f'{d.month}/{d.day}（{_WD[d.weekday()]}）'
+def jdes(x):
+    d = _dt.date.fromisoformat(x); return d.strftime('%b ') + str(d.day) + d.strftime(' (%a)')
 # 毎週の自動巡回の数（2026-11-25、しくみのページの表と上部の帯。数はすべて site/crawl.json・publish/findings.json・crawl/ の控えから機械で出す）
 def _cnt_tsv(path, col=None, val=None):
     import csv as _c
@@ -286,7 +290,7 @@ CRN = dict(sources=_last['sources'], changed=_last.get('changed'), new=(max(0, _
 try: CRN['council_docs'] = len(json.load(open(os.path.join(R, 'crawl/councils_state.json')))['known'])
 except Exception: CRN['council_docs'] = None
 def _n(x): return '—' if x is None else f'{x:,}'
-CRAWL = (f'''<div class="crawl"><div class="cin"><span class="dot"></span><span class="cl"><b class="wk">毎週の自動巡回</b>　{'最終' if _last['kind'] == '週1回の巡回' else '最終の取得'}</span><b>{jd(_last['date'])}</b><span class="sep"></span><span class="cl">変わった資料</span><b>{_n(CRN['changed'])}</b><span class="sep"></span><span class="cl">次回</span><b>{jd(CR['next'])}</b><a class="cmore" href="@PRE@about.html#crawl">しくみ</a></div></div>''' if CR.get('active') else f'''<div class="crawl"><div class="cin"><span class="dot off"></span><span class="cl">資料の取得日</span><b>{jd(_last['date'])}</b><span class="sep"></span><span class="cl">定期巡回（{CR['interval_days']}日ごと）</span><b>準備中</b><span class="cn">取得元 {_last['sources']:,} 件を取り直し、変化を LLM が検証して記録する仕組みを準備しています</span></div></div>''')
+CRAWL = (f'''<div class="crawl"><div class="cin"><span class="dot"></span><span class="cl"><b class="wk">毎週の自動巡回</b>　{'最終' if _last['kind'] == '週1回の巡回' else '最終の取得'}</span><b>{jds(_last['date'])}</b><span class="sep"></span><span class="cl">変わった資料</span><b>{_n(CRN['changed'])}</b><span class="sep"></span><span class="cl">次回</span><b>{jds(CR['next'])}</b><a class="cmore" href="@PRE@about.html#crawl">しくみ</a></div></div>''' if CR.get('active') else f'''<div class="crawl"><div class="cin"><span class="dot off"></span><span class="cl">資料の取得日</span><b>{jd(_last['date'])}</b><span class="sep"></span><span class="cl">定期巡回（{CR['interval_days']}日ごと）</span><b>準備中</b><span class="cn">取得元 {_last['sources']:,} 件を取り直し、変化を LLM が検証して記録する仕組みを準備しています</span></div></div>''')
 NAV = [('records/', '記録'), ('overview.html', '統計'), ('citations.html', '引かれ方'), ('inquiries.html', '照会'), ('about.html', 'しくみ')]
 def page(path, title, body, depth=None):
     body = add_lead(path, body)
@@ -840,7 +844,7 @@ def mdT(text, src): return md('\n'.join(T(c, src) for c in _tr.chunks(text)))
 _WDE = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 def jde(s):
     d = _dt.date.fromisoformat(s); return f'{_WDE[d.weekday()]} {d.day} {d.strftime("%B")} {d.year}'
-CRAWL_EN = (f'''<div class="crawl"><div class="cin"><span class="dot"></span><span class="cl"><b class="wk">Weekly automatic check</b>　{'Last' if _last['kind'] == '週1回の巡回' else 'Last fetch'}</span><b>{jde(_last['date'])}</b><span class="sep"></span><span class="cl">Changed sources</span><b>{_n(CRN['changed'])}</b><span class="sep"></span><span class="cl">Next</span><b>{jde(CR['next'])}</b><a class="cmore" href="@PRE@about.html#crawl">How it works</a></div></div>''' if CR.get('active') else f'''<div class="crawl"><div class="cin"><span class="dot off"></span><span class="cl">Sources fetched</span><b>{jde(_last['date'])}</b><span class="sep"></span><span class="cl">Scheduled crawl (every {CR['interval_days']} days)</span><b>In preparation</b><span class="cn">A system to fetch the {_last['sources']:,} sources again and have an LLM check and record any change is in preparation</span></div></div>''')
+CRAWL_EN = (f'''<div class="crawl"><div class="cin"><span class="dot"></span><span class="cl"><b class="wk">Weekly automatic check</b>　{'Last' if _last['kind'] == '週1回の巡回' else 'Last fetch'}</span><b>{jdes(_last['date'])}</b><span class="sep"></span><span class="cl">Changed sources</span><b>{_n(CRN['changed'])}</b><span class="sep"></span><span class="cl">Next</span><b>{jdes(CR['next'])}</b><a class="cmore" href="@PRE@about.html#crawl">How it works</a></div></div>''' if CR.get('active') else f'''<div class="crawl"><div class="cin"><span class="dot off"></span><span class="cl">Sources fetched</span><b>{jde(_last['date'])}</b><span class="sep"></span><span class="cl">Scheduled crawl (every {CR['interval_days']} days)</span><b>In preparation</b><span class="cn">A system to fetch the {_last['sources']:,} sources again and have an LLM check and record any change is in preparation</span></div></div>''')
 NAV_EN = [('records/', 'Records'), ('overview.html', 'Statistics'), ('citations.html', 'Citations'), ('inquiries.html', 'Inquiries'), ('about.html', 'How it works')]
 def page_en(path, title, body, srcs=''):
     body = add_lead(path, body, True)
@@ -948,12 +952,12 @@ page('about.html', 'しくみ', f"""<h1>しくみ</h1><p class="plain">URAZUKE �
 {FLOW_JA}
 <p class="loop"><b>↺</b> 間違いがこちらにあれば、訂正して残します。資料の更新は毎週見回ります。</p>
 <h2 id="crawl">毎週の自動巡回</h2><p>取得元を毎週問い合わせ、変わった資料を取り直して検査し、AI が確かめてから記録に反映します。公開の前に機械の関門を通し、個人情報などを含むものは止めます。</p>
-<table class="crn"><tr><th>取得元</th><th>前回から変わった</th><th>新しい記録</th><th>保留中</th><th>最終 → 次回</th></tr><tr><td>{_n(CRN['sources'])}</td><td>{_n(CRN['changed'])}</td><td>{_n(CRN['new'])}</td><td>{_n(CRN['hold'])}</td><td>{jd(_last['date'])} → {jd(CR['next'])}</td></tr></table>
-<p class="crflow"><b>日</b> 資料を問い合わせて照合　→　<b>月</b> AI が確かめる　→　公開・Zenodo に版</p>
-<ul class="crscope"><li><b>統計の資料</b>　<a href="overview.html">{len(STATS)}の統計</a>（犯罪白書、犯罪統計・警察白書、再犯防止推進白書、児童虐待相談対応件数など）</li>
-<li><b>新しい版の入口</b>　{_n(CRN['entry'])}ページ（白書・年報の版の一覧、e-Stat の新着、警察庁・法務省・厚生労働省・文部科学省の報道発表など）</li>
-<li><b>検討会・審議会</b>　警察庁・法務省・厚生労働省・こども家庭庁・文部科学省・内閣府男女共同参画局（これまでに拾った資料 {_n(CRN['council_docs'])}）</li>
-<li><b>国会</b>　会議録の発言と、質問主意書・答弁書。記録のある資料の数字が、どう引かれているか</li></ul>
+<div class="crn"><div><b>{_n(CRN['sources'])}</b><span>取得元</span></div><div><b>{_n(CRN['changed'])}</b><span>今週変わった</span></div><div><b>{_n(CRN['new'])}</b><span>新しい記録</span></div><div><b>{_n(CRN['hold'])}</b><span>保留</span></div><div><b>{jds(CR['next'])}</b><span>次回</span></div></div>
+<p class="loop"><b>日</b>　資料を問い合わせて照合　→　<b>月</b>　AI が確かめる　→　公開・Zenodo に版</p>
+<dl class="crscope"><dt>統計</dt><dd><a href="overview.html">{len(STATS)}の統計</a>（犯罪白書、犯罪統計・警察白書、再犯防止推進白書、児童虐待相談対応件数など）</dd>
+<dt>新しい版の入口</dt><dd>{_n(CRN['entry'])}ページ（白書・年報の版の一覧、e-Stat の新着、警察庁・法務省・厚生労働省・文部科学省の報道発表など）</dd>
+<dt>検討会・審議会</dt><dd>警察庁・法務省・厚生労働省・こども家庭庁・文部科学省・内閣府男女共同参画局。これまでに拾った資料 {_n(CRN['council_docs'])}</dd>
+<dt>国会</dt><dd>会議録の発言と、質問主意書・答弁書。記録のある資料の数字が、どう引かれているか</dd></dl>
 <p class="muted">手順の細部（関門で止めるもの、1回に照合する件数、記録に加える条件）は<a href="method.html">方法</a>に。</p>
 <div class="grid3 entry">
 <a class="ebox" href="guide.html"><b>はじめての方へ</b><span>記録の読み方と、代表的な例</span></a>
@@ -966,12 +970,12 @@ page_en('about.html', 'How it works', f"""<h1>How it works</h1><p class="plain">
 {FLOW_EN}
 <p class="loop"><b>↺</b> If the error is ours, we correct it and keep the record. Sources are checked for updates every week.</p>
 <h2 id="crawl">Weekly automatic check</h2><p>Every week the sources are queried; changed sources are fetched again and checked, and AI verifies the result before it reaches the records. Before publication a mechanical gate holds anything containing personal information and the like.</p>
-<table class="crn"><tr><th>Sources</th><th>Changed since last</th><th>New records</th><th>On hold</th><th>Last → next</th></tr><tr><td>{_n(CRN['sources'])}</td><td>{_n(CRN['changed'])}</td><td>{_n(CRN['new'])}</td><td>{_n(CRN['hold'])}</td><td>{jde(_last['date'])} → {jde(CR['next'])}</td></tr></table>
-<p class="crflow"><b>Sun</b> query and compare sources　→　<b>Mon</b> AI verifies　→　publish, new Zenodo version</p>
-<ul class="crscope"><li><b>Statistics</b>　<a href="overview.html">{len(STATS)} statistics</a> (White Paper on Crime, crime statistics and the Police White Paper, the White Paper on Recidivism Prevention, child abuse consultations, and others)</li>
-<li><b>Entry pages for new editions</b>　{_n(CRN['entry'])} pages (edition lists of white papers and annual reports, e-Stat new releases, press releases of the NPA, MOJ, MHLW and MEXT, and others)</li>
-<li><b>Study groups and councils</b>　NPA, MOJ, MHLW, Children and Families Agency, MEXT, Gender Equality Bureau ({_n(CRN['council_docs'])} documents picked up so far)</li>
-<li><b>Diet</b>　Statements in the Diet minutes, and written questions and answers: how numbers from sources with records are cited</li></ul>
+<div class="crn"><div><b>{_n(CRN['sources'])}</b><span>Sources</span></div><div><b>{_n(CRN['changed'])}</b><span>Changed this week</span></div><div><b>{_n(CRN['new'])}</b><span>New records</span></div><div><b>{_n(CRN['hold'])}</b><span>On hold</span></div><div><b>{jdes(CR['next'])}</b><span>Next</span></div></div>
+<p class="loop"><b>Sun</b>　query and compare sources　→　<b>Mon</b>　AI verifies　→　publish, new Zenodo version</p>
+<dl class="crscope"><dt>Statistics</dt><dd><a href="overview.html">{len(STATS)} statistics</a> (White Paper on Crime, crime statistics and the Police White Paper, the White Paper on Recidivism Prevention, child abuse consultations, and others)</dd>
+<dt>Entry pages for new editions</dt><dd>{_n(CRN['entry'])} pages (edition lists of white papers and annual reports, e-Stat new releases, press releases of the NPA, MOJ, MHLW and MEXT, and others)</dd>
+<dt>Study groups and councils</dt><dd>NPA, MOJ, MHLW, Children and Families Agency, MEXT, Gender Equality Bureau. {_n(CRN['council_docs'])} documents picked up so far</dd>
+<dt>Diet</dt><dd>Statements in the Diet minutes, and written questions and answers: how numbers from sources with records are cited</dd></dl>
 <p class="muted">Details of the procedure (what the gate holds, how many items are checked per run, the conditions for adding a record) are in <a href="method.html">Methods</a>.</p>
 <div class="grid3 entry">
 <a class="ebox" href="guide.html"><b>In brief</b><span>How to read a record, with typical examples</span></a>
